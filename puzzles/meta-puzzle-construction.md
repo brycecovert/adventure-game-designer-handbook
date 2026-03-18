@@ -290,6 +290,59 @@ Attempting steps out of order FAILS: Cannot fill gas jar without hose connection
 
 ---
 
+### Sam & Max Hit the Road: Bigfoot Costume Construction (SMHTR)
+
+**Problem**: Player must infiltrate Savage Jungle Inn's Bigfoot party as a Sasquatch. The costume requires multiple components gathered across different locations, then assembled in sequence at the inn before use.
+
+<small>Source: adventuregamers_walkthrough.html, embedded walkthrough lines 724-730 — "Use the tar with the woolly mammoth hair. Use the tar and woolly mammoth hair with the blue costume. Use the toupee with the woolly costume. Use the woolly costume."</small>
+
+<small>Source: abandonwaredos_solution.html, lines 479-480 — "Use the Tar with the Costume, use the Mammoth Wool with the Costume, use the Toupee with the Costume, Use the Costume"</small>
+
+```
+SEQUENTIAL CONSTRUCTION CHAIN:
+
+PHASE 1: Parallel Item Gathering (pre-construction)
+- Blue Costume: Found in Trixie's trailer wardrobe at Carnival (via crowbar door opening)
+- Mammoth Wool: Obtained by using Max on mammoth at Mount Rushmore Dinosaur park
+- Tar: Collected using golf retriever + cup from tarpit at same location  
+- Toupee: Acquired via surreal logic bridge (eggplant interaction at Bumpusville house)
+
+PHASE 2: Sequential Costume Assembly (STRICT ORDER):
+Location: Savage Jungle Inn entrance (10.2)
+
+1. Start with Base Costume in inventory → plain blue outfit only
+2. Use Tar ON Costume → Costume becomes sticky/adhesive base
+3. Use Mammoth Wool ON (tar-coated) Costume → Fur attachment successful
+   - FAILURE: Cannot apply wool without tar first
+4. Use Toupee ON (tarry + woolly) Costume → Head coverage complete  
+5. Result: Fully-functional Bigfoot disguise created
+
+PHASE 3: Application and Entry:
+6. Use Completed Costume on player character
+7. Present to Bigfoot guards at party entrance → Accepted as legitimate Sasquatch
+8. Access granted to Party Hall (previously blocked)
+
+WHY IT'S META-CONSTRUCTION:
+
+RIGID SEQUENTIAL DEPENDENCY:
+1. Tar application = prerequisite for fur adhesion
+2. Fur base = prerequisite for toupee attachment
+3. Each step's OUTPUT (modified costume state) becomes next step's INPUT
+4. Reordering fails: Wool on bare costume → rejected; Toupee without fur/base → incomplete
+
+NON-INTERCHANGEABLE INTERMEDIATES:
+- Tar has other uses but in this chain serves ONLY adhesive function
+- Once combined, intermediate states cannot be separated (can't remove tar from costume)
+- Each transformation creates irrevocably NEW item state
+
+SINGLE VALID SEQUENCE:
+Exactly one path to completed costume. No branching allowed during assembly phase.
+```
+
+**Distinction from Multi-Faceted Plan**: While four items can be COLLECTED in parallel (MFP characteristic), the ASSEMBLY phase enforces strict sequential dependency. Costume construction is Meta-Construction; gathering journey was Multi-Faceted Plan. Final solution = MC nested within MFP framework.
+
+---
+
 ## Related Types
 
 - **Multi-Faceted Plan**: When requirements discovered in parallel, not sequence

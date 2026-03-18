@@ -1,13 +1,13 @@
 # Puzzle Types in Adventure Games
 
-A taxonomy of puzzle design patterns derived from analysis of classic Sierra and LucasArts adventure games (King's Quest VI, Maniac Mansion, Secret of Monkey Island, Simon the Sorcerer, Legend of Kyrandia), focusing on mechanics of information conveyance and player action.
+A taxonomy of puzzle design patterns derived from analysis of classic Sierra and LucasArts adventure games (King's Quest VI, Maniac Mansion, Secret of Monkey Island, Simon the Sorcerer, Legend of Kyrandia, Sam & Max Hit the Road), focusing on mechanics of information conveyance and player action.
 
 ## Table of Contents
 
 | # | Puzzle Type | Core Mechanic | Game Source |
 |---|-------------|---------------|-------------|
-| 1 | [Multi-Faceted Plan Puzzle](./puzzles/multi-faceted-plan.md) | Requirements discovered incrementally; player synthesizes complete mental model | KQVI |
-| 2 | [Sensory Exploitation Puzzle](./puzzles/sensory-exploitation.md) | Character perceptual vulnerabilities exploited through item matching | KQVI/MI |
+| 1 | [Multi-Faceted Plan Puzzle](./puzzles/multi-faceted-plan.md) | Requirements discovered incrementally; player synthesizes complete mental model | KQVI/SMHTR |
+| 2 | [Sensory Exploitation Puzzle](./puzzles/sensory-exploitation.md) | Character perceptual vulnerabilities exploited through item matching | KQVI/MI/SMHTR |
 | 3 | [Metaphor-to-Literal Translation](./puzzles/metaphor-literal.md) | Abstract language interpreted as literal game mechanics | MI |
 | 4 | [Information Brokerage Chain](./puzzles/information-brokerage.md) | Implicit NPC exchange network mapped through incremental interaction | KQVI/MI |
 | 5 | [Timed Consequence Puzzle](./puzzles/timed-consequence.md) | Narrative urgency without mechanical deadline; consequence is permanent story change | KQVI/MM/SIMON |
@@ -18,9 +18,11 @@ A taxonomy of puzzle design patterns derived from analysis of classic Sierra and
 | 10 | [Pattern Learning / Knowledge Transfer](./puzzles/pattern-learning.md) | Learn rule set in low-stakes domain; apply exhaustively under consequences | MI |
 | 11 | [Environmental Memo Chain](./puzzles/memo-chain.md) | Scattered written fragments across locations; synthesize narrative to reveal solution | MI |
 | 12 | [NPC Distraction Physics](./puzzles/distraction-physics.md) | Manipulate environment to break NPC blocking pattern without confrontation | MI |
-| 13 | [Meta-Puzzle Construction](./puzzles/meta-puzzle-construction.md) | Sequential interdependence; each step's output becomes next step's input | MI/MM |
+| 13 | [Meta-Puzzle Construction](./puzzles/meta-puzzle-construction.md) | Sequential interdependence; each step's output becomes next step's input | MI/MM/SMHTR/IJOA |
 | 14 | [Multi-Character Coordination Puzzle](./puzzles/multi-character-coordination.md) | Multiple characters required for separated location actions; single character physically impossible | MM/DOTT |
 | 15 | [Cross-Temporal Causality Puzzle](./puzzles/cross-temporal-causality.md) | Actions in one time period create immediate consequences in another; solution requires understanding historical causality | DOTT |
+| 16 | [Surreal Logic Bridge](./puzzles/surreal-logic-bridge.md) | Real-world causality rejected for cartoon/comedy equivalences; success requires abandoning realistic reasoning | SMHTR |
+| 17 | [Comedy-Based NPC Persuasion](./puzzles/comedy-based-persuasion.md) | Dialogue success depends on tonal comedy matching, not logical argument or trade | SMHTR |
 
 ---
 
