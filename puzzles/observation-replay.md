@@ -111,8 +111,93 @@ Source: syntax2000_walkthrough.txt, lines 174-180 — "wait until you have seen 
 
 ---
 
+### Zak McKracken: Alien Spaceship Escape Sequence
+
+**Problem**: Zak is beamed aboard an alien spaceship in the Bermuda Triangle. The exit requires entering a color button sequence. The alien pilot demonstrates this twice—but cannot interrupt or interact during these demonstrations. Player must memorize and replay exactly to escape back to Bermuda.
+
+<small>
+Source: walkthrough-king.txt, lines 268-276 — "Wait for a while and you will end up on a space ship. Write down the order the pilot presses the buttons... Return left and push the buttons the pilot pushed, then quickly step over the line on the left."
+
+Source: the-spoiler-tonkroon.txt, lines 243-250 — "Write down the colour code the pilot pushed in. If you want to leave push in the colour code and walk to the left"
+</small>
+
+**Discovery Phase (Forced Cutscene)**:
+1. Plane crash/capture triggers → transported to alien spaceship automatically
+2. Alien pilot enters compartment, demonstrates button sequence on wall panel
+3. Pilot presses colored buttons in specific order (varies by playthrough)
+4. Player BLOCKED from interacting—"Can't touch while watched!"
+5. Cutscene ends; pilot leaves but ship remains locked
+
+**Blocked Conditions**:
+- Cannot click buttons during demonstration
+- No second practice attempt allowed  
+- Sequence is randomized per game session—must record player's own instance
+- Wrong sequence = no penalty shown but also no escape
+
+**Return Phase (Reproduction)**:
+6. After pilot exits, approach button panel
+7. Enter exact color sequence observed earlier using standard USE action
+8. Floor line appears as new interactive element
+9. Step over line → cutscene triggers: ejection from ship with parachute
+10. Survival requires wetsuit + parachute (both obtained earlier in SF prep)
+
+<small>
+Source: project64-solution.txt, lines 226-231 — "Note the colors the pilot presses on wall... Walk back to colored button and press them in order that you wrote down. Walk to left of line on floor and wait!"
+</small>
+
+**Why It's Observation Replay**:
+- **Forced Single Viewing**: Button sequence shown ONLY during NPC cutscene with zero interaction
+- **Deferred Action Window**: Can only replay after pilot departs; wrong timing means stuck forever  
+- **Exact Value Memorization**: Sequence may be randomized—player must retain exact instance their game generates
+
+**Distinction from Timed Consequence**: Unlike the pool reactor, this has NO narrative urgency timer. Player can leave and return to spaceship multiple times if they misremember the sequence. The blocking is environmental (NPC presence), not deadline-based.
+
+---
+
+### Zak McKracken: Mars Face Button Combination
+
+**Problem**: Martian base on Mars requires 6-button code displayed through a shaman dance in Kinshasa, Zaire. The dance pattern is shown once during ritual and must be remembered for application across the globe on an entirely different planet.
+
+<small>
+Source: walkthrough-king.txt, lines 143-148 — "watch the dance and write down the order that the 3 men crouch at the end (a sequence of 6 crouches)"
+
+Source: the-spoiler-tonkroon.txt, lines 153-157 — "write down a 1 if the first person bent his knees , a 2 if the second ect untill you get a number of 6 numbers long"
+</small>
+
+**Discovery Phase (Kinshasa Ritual)**:
+1. Zak gives golf club to shaman → triggers extended dance cutscene
+2. Three men dance around fire in rhythmic pattern
+3. At climax, each man crouches in sequence, creating 6-number code example: "1-3-2-1-3-2"
+4. No textual confirmation or replay option—pure visual observation required
+
+**Cross-Globe Transport Phase**:
+5. Zak must complete Seattle → SF → Miami → Cairo → Katmandu → London → Lima travel chain
+6. Obtain crystal shards, scroll, and flagpole through intermediate puzzles
+7. Eventually reach Mars via yellow crystal teleport after completing Bermuda Triangle rescue
+
+**Return Phase (Mars Base)**:
+8. Leslie/Melissa explore Mars face maze to locate generator/levers
+9. Zak teleports to Mars Face Chamber after drawing Martian markings from Sphinx
+10. Approach door with 6-button panel matching the shaman dance pattern
+11. Enter exact crouch sequence observed on Earth (Kinshasa)
+12. Door opens → access to Great Chamber and main alien plot
+
+<small>
+Source: walkthrough-king.txt, lines 187-189 — "Use your ladder on the door, then press the buttons in the same order you saw the men crouch in Kinshasa."
+</small>
+
+**Why It's Observation Replay**:
+- **Geographic Separation**: Information gathered in Africa, applied on Mars—no opportunity to revisit and re-observe
+- **Single Cutscene Trigger**: Dance only plays ONCE when golf club given; no way to trigger shaman again after leaving Kinshasa
+- **Pure Sequence Memory**: Not about learning a system or principle—specific 6-digit combo must be retained across hours of gameplay
+
+**Distinction from Pattern Learning**: The dance teaches NO reusable rule set. Unlike I.R. LaFont's insult sword fighting (which establishes general mechanics), this is a one-time sequence unique to this puzzle instance.
+
+---
+
 ## Related Types
 
 - **Multi-Faceted Plan**: Requires synthesis of multiple requirements discovered at different times
 - **Timed Consequence**: Both involve missing opportunities, but OR is about *memory* + *timing* while TC is about narrative urgency
 - **Information Brokerage**: Both involve NPCs as information sources, but OR focuses on *action sequences* not exchange networks
+

@@ -86,3 +86,25 @@ Application Phase (Part IV - LeChuck):
 | Bone maze dream: song lyrics → corridor mapping | Cryptic message decoding | Metaphor-to-Literal Translation |
 
 **Critical Test**: Could you describe the solution as "I learned [SYSTEM] that applies to both [CONTEXT A] and [CONTEXT B]"? If not, it's not Knowledge Transfer.
+
+---
+
+### Zak McKracken: Symbol Drawing Chain (NOT Pattern Learning)
+
+The game features a cross-location symbol drawing puzzle where Zak observes a pattern in Location A, travels to Location B, then recreates the observed pattern using his crayon on strange markings there. For example:
+1. Leslie reads "Egyptian markings" in Mars Map Room  
+2. Zak travels to Sphinx leg, uses crayon on strange markings, draws exact pattern observed on Mars
+3. This opens secret sphinx entrance
+
+**Why It's NOT Pattern Learning**: No system or rule set is taught. The puzzle doesn't establish a general principle like "symbols from chamber X unlock locations in sector Y." Instead, it's specific value transfer: observe THIS symbol shape → draw THAT exact same shape elsewhere. This is **Observation Replay at geographic scale**—memorize specific visual pattern under one context, reproduce it exactly in another.
+
+The underlying mechanic differs from Pattern Learning because:
+- **No reusable system**: The drawing action teaches no transferable rule about "how to unlock doors with symbols"
+- **One-to-one mapping**: Mars symbol → Sphinx door only; no other applications of the same principle exist
+- **Pure value memorization**: Player must recall specific visual arrangement, not understand a mechanic
+
+Compare this to actual Pattern Learning like sword fighting:
+- Sword fighting establishes 16 insult/retort *rules* applicable to ANY pirate encounter
+- Zak's drawing uses ONE symbol to unlock ONE door—no generalizable principle extracted
+
+**Correct Classification**: Extended-distance **Observation Replay** (visual pattern instead of numeric sequence; hours later instead of minutes; different continent instead of adjacent room). The core mechanic remains identical: watch once, memorize, reproduce exactly when opportunity arises.

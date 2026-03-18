@@ -250,3 +250,47 @@ DO NOT use this classification if:
 - Single character COULD solve it with more patience/time (just less efficient = not MCC, standard efficiency optimization)
 - One character passively waits while other does all work (solo puzzle in disguise)
 - Puzzle is really about sequential dependency chain (use Meta-Puzzle Construction instead)
+
+---
+
+### Zak McKracken: Pyramid Escape (Position Lock + Inventory Distribution)
+
+**Problem**: Final pyramid tomb in Cairo contains White Crystal needed to complete the alien communication machine. Golden key opens chest but activates timed escape sequence. Three characters must coordinate at sarcophagus, chest/stairs, and exterior—each holding unique inventory items required for successful exit.
+
+<small>
+Source: textfiles-com-solution.txt, lines 287-301 — "Switch to Leslie! Find door and walk to Sarcophagus' feet and push them. Switch to Zak! Walk to stairs. Switch to Melissa! Walk to stairs too. Switch to Leslie! Walk away from feet... Use golden key on box. Push button. Switch to Zak! (quickly) Get white crystal"
+</small>
+
+**Coordination Requirements**:
+
+```
+INVENTORY DISTRIBUTION:
+- Melissa: Golden Key (obtained Mars chamber via ankh force-field bypass)
+- Leslie: Broom Alien (clears sand blocking pyramid exterior entrance)
+- Zak: Bobby Pin Sign (unlocks tomb interior door), Duct-taped fishbowl helmet + wetsuit
+
+SPATIAL BLOCKING CONSTRAINT:
+Position A: Sarcophagus feet pushing point
+Position B: Staircase passage (appears after feet pushed, but physically blocked by character sprite)
+Position C: Upper chamber with golden key box/chest
+Position D: Pyramid exterior entrance (sand pile)
+
+COORDINATION SEQUENCE:
+1. [LESLIE] Push sarcophagus feet → hidden staircase appears BUT she blocks passage
+2. [LESLIE] Walk away from feet area entirely → clears path  
+3. [ZAK & MELISSA] Now can ascend to upper chamber
+4. [MELISSA] Insert golden key in box, push button → TIMER ACTIVATES
+5. [IMMEDIATE SWITCH TO ZAK] Grab white crystal within ~10 second window
+
+ESCAPE PHASE (all three characters):
+6. [LESLIE outside] Use broom alien on sand pile → exterior entrance clears
+7. [ZAK] Use bobby pin sign in keyhole → interior door unlocks  
+8. [All three coordinate through maze to tram exit]
+```
+
+**Why It's Multi-Character Coordination**:
+1. **Physical Blocking**: Leslie's sprite occupies staircase passage; requires character switch + repositioning before others can ascend
+2. **Resource Segmentation**: Golden key (Melissa), broom alien (Leslie), bobby pin sign (Zak) = no single person has complete toolset
+3. **Sequential Dependency Pipeline**: Each actor must complete their role before next can progress
+
+**Distinction from Timed Consequence**: Has urgency (crystal grab window), but PRIMARY mechanic is coordinating three actors through blocking states with distributed inventory—not just speed. TC applies to sub-puzzle; overall pyramid escape is MCC.

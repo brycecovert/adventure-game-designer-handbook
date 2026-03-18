@@ -7,7 +7,7 @@ Status legend:
 ## LucasArts Games
 
 - [x] Maniac Mansion (1987) - MM
-- [ ] Zak McKracken and the Alien Mindbenders (1988)
+- [x] Zak McKracken and the Alien Mindbenders (1988) - ZAK
 - [ ] Indiana Jones and the Last Crusade: The Graphic Adventure (1989)
 - [x] The Secret of Monkey Island (1990) - MI1
 - [x] Monkey Island 2: LeChuck's Revenge (1991) - MI2
@@ -59,5 +59,5 @@ Status legend:
 ## Analysis Progress
 
 **Total:** 30 games  
-**Complete:** 6 games (KQVI, MI1, MI2, SIMON, LK1, MM)  
-**Remaining:** 24 games
+**Complete:** 7 games (KQVI, MI1, MI2, SIMON, LK1, MM, ZAK)  
+**Remaining:** 23 games
