@@ -60,3 +60,46 @@ Limited actions become urgent:
 - The puzzle isn't about speed, it's about priority
 
 This puzzle tests: "Can I internalize narrative urgency and act with appropriate priority without mechanical feedback?"
+
+---
+
+## Game Examples
+
+### Beneath a Steel Sky: Eyeball Guardian Timing Puzzle (BAS)
+
+**Problem**: In LINC-Space security zones, Eyeball guardians patrol virtual corridors. Player must navigate past them to retrieve critical items (TUNING FORK, DIVINE WRATH program) while managing 15-20 second blind duration windows before reactivation.
+
+<small>Source: 5_steamah_walkthrough.html, lines 521-523 — "'Blind' the first EYEBALL. The idea is to get the TUNING FORK before the first EYEBALL reactivates in about 15-20 seconds... This eyeball reactivates only within a few seconds, so be quick!"</small>
+
+<small>Source: 1_preterhuman_mitch_shaw_walkthrough.html, lines 305-315 — "Use the BLIND program on the EYE. Go NORTH again. Get the TUNING FORK if the EYE is still blinded (white)"</small>
+
+**Consequence Structure**:
+```
+THREAT: Being trapped/locked out by reactivated eyeballs
+PERMANENTITY: Must disconnect and re-enter LINC-Space, losing progress
+NO VISIBLE TIMER: Player must estimate from visual feedback (eyeball color: white=blinded vs colored=active)
+
+PHASE 1 - BLIND FIRST EYEBALL (Timer ~15-20s):
+→ Use BLIND command → eyeball turns WHITE (inactive state)
+→ ⏱️ Invisible timer starts NOW
+→ Move to second room before reactivation
+
+PHASE 2 - BLIND SECOND EYEBALL (Timer "few seconds"):  
+→ Second eyeball reactivates much faster ("within a few seconds")
+→ Use BLIND immediately → white state achieved
+→ QUICKLY enter thick plasma exit beside it
+
+PHASE 3 - RACE TO TUNING FORK:
+→ Exit north (STOP before CRUSADER room—don't engage yet)
+→ Go right into side corridor
+→ GRAB TUNING FORK from floor
+→ ⏱️ If first eyeball reactivates during this phase = trapped
+
+PHASE 4 - SAFE RESET POINT:
+→ Return to hub with WELL in center
+→ Use PLAYBACK command on WELL (resets eyeball states)
+→ DISCONNECT safely to main terminal
+
+FAILURE STATE: If timer expires before Phase 4 complete
+→ Eyeballs reactivate (return to colored state)
+→ Player locked into section until disconnect/reconnect

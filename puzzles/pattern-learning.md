@@ -57,6 +57,52 @@ Application Phase (Part IV - LeChuck):
 → Apply same construction recipe → empowered doll works on LeChuck
 ```
 
+### Beneath a Steel Sky: LINC-SPACE Tile Password System (BAS)
+
+**Problem**: Navigating through virtual reality spaces requires understanding the tile-based password system. The game teaches this in an early safe zone, then requires exact application in restricted security areas with timed constraints.
+
+<small>Source: 5_steamah_walkthrough.html, lines 454-460 — "Pick up the BALL (Compressed Data – Red & Green YinYang symbol)... Open the CARPET BAG and obtain the MAGNIFYING GLASS (Decrypt) and BIRTHDAY SURPRISE (Decompress)... Keep alternating between the green and red passwords on the tiles"</small>
+
+```
+Learning Phase (First LINC-Space Visit - Tutorial Area):
+→ Enter interface room at Security HQ with ID CARD
+→ Access INTERFACE terminal, "jack in" to LINC-Space VR environment
+→ Room 1: Pick up BALL (Compressed Data) containing Red+Green password symbols
+→ Room 2: Open CARPET BAG → get MAGNIFYING GLASS (Decrypt command) and SURPRISE GIFT (Decompress)
+→ Discovered mechanic: DECRYPT removes "?" from documents, DECOMPRESS expands ball into passwords
+→ Room 3: TILE PASSWORD SYSTEM demonstrated on floor panels with green/red symbols
+
+Rule Discovery:
+1. Floor tiles show GREEN or RED symbols
+2. Player stands on a tile → places matching COLOR PASSWORD on current tile
+3. This reveals a BRIDGE to adjacent tile (previously invisible/impassable)
+4. Pattern: Alternate red/green passwords as you progress across tile sequence
+5. Goal: Reach thick plasma beam exit using correct alternating sequence
+
+Application Phase (Later LINC-Space Visits - Timed Security Zones):
+→ First return with ANITA's CARD: Same tile rules apply, but now EYEBALL guardians present
+→ SECONDARY RULE discovered: Use BLIND command on eyeballs to freeze them temporarily (~15-20 sec)
+→ Pattern learned applies under pressure: Must navigate tiles WHILE managing reactivation timer
+→ Player must remember/execute the exact same password alternation pattern learned earlier, 
+   but now with added time constraint (eyeball reactivates after 15-20 seconds)
+
+Third Visit - FINAL APPLICATION:
+→ Enter with medical android's RED CARD → need access to CRYSTAL room guarded by CRUSADER
+→ Same tile password mechanics apply (unchanged)
+→ New challenge: CRUSADER blocks path until destroyed
+→ Player must have acquired DIVINE WRATH program (from earlier eyeball blinding) to remove guardian
+→ Once CRUSADER defeated, same red/green tile alternation allows access to CRYSTAL room
+→ OSCILLATOR program (TUNING FORK from second visit) shatters crystal → VIRUS obtained
+```
+
+<small>Source: 1_preterhuman_mitch_shaw_walkthrough.html, lines 232-247 — "Use the DECRYPT program on the two DOCUMENTS with '?' on them... Use the PASSWORDS (green and red swirls) to get to the DOOR..."</small>
+
+<small>Source: 5_steamah_walkthrough.html, lines 517-571 — Timed eyeball blind/CRUSADER sequence combining multiple learned systems</small>
+
+**Why It's Pattern Learning**: The tile password system is taught exhaustively in the first safe visit (Room 3). Every subsequent LINC-Space visit uses IDENTICAL mechanics—no new tutorial, no changed rules. The challenge escalation comes from added constraints (timed eyeballs, guardian enemy) but the underlying navigation framework never changes. Player must recognize "the red/green alternation I learned in Room 3 still works here."
+
+**Distinct Cyberpunk/Hack Element**: Unlike classic adventure puzzles, this leverages LINC-Space's virtual reality setting—inventory becomes COMMANDS not OBJECTS (Decrypt, Decompress, Blind, Oscillator as verbs). Pattern applies across "virtual rooms" with consistent rules regardless of visual theme changes.
+
 ---
 
 ## Key Identifiers
@@ -89,194 +135,158 @@ Application Phase (Part IV - LeChuck):
 
 ---
 
-### Zak McKracken: Symbol Drawing Chain (NOT Pattern Learning)
+### Broken Sword: Shadow of the Templars - Plaster Casting System (Chapter 2)
 
-The game features a cross-location symbol drawing puzzle where Zak observes a pattern in Location A, travels to Location B, then recreates the observed pattern using his crayon on strange markings there. For example:
-1. Leslie reads "Egyptian markings" in Mars Map Room  
-2. Zak travels to Sphinx leg, uses crayon on strange markings, draws exact pattern observed on Mars
-3. This opens secret sphinx entrance
+**Problem**: Create key cast from statue impression, but plaster won't set correctly without understanding material science principles that must be learned in one domain and applied in another.
 
-**Why It's NOT Pattern Learning**: No system or rule set is taught. The puzzle doesn't establish a general principle like "symbols from chamber X unlock locations in sector Y." Instead, it's specific value transfer: observe THIS symbol shape → draw THAT exact same shape elsewhere. This is **Observation Replay at geographic scale**—memorize specific visual pattern under one context, reproduce it exactly in another.
-
-The underlying mechanic differs from Pattern Learning because:
-- **No reusable system**: The drawing action teaches no transferable rule about "how to unlock doors with symbols"
-- **One-to-one mapping**: Mars symbol → Sphinx door only; no other applications of the same principle exist
-- **Pure value memorization**: Player must recall specific visual arrangement, not understand a mechanic
-
-Compare this to actual Pattern Learning like sword fighting:
-- Sword fighting establishes 16 insult/retort *rules* applicable to ANY pirate encounter
-- Zak's drawing uses ONE symbol to unlock ONE door—no generalizable principle extracted
-
-**Correct Classification**: Extended-distance **Observation Replay** (visual pattern instead of numeric sequence; hours later instead of minutes; different continent instead of adjacent room). The core mechanic remains identical: watch once, memorize, reproduce exactly when opportunity arises.
-
----
-
-### Loom: Draft Reversal System / Musical Grammar
-
-**Problem**: Loom teaches a complete mechanical system for "drafts" (spells) that must be applied across 20+ different puzzle contexts throughout the game. The player discovers early-game rules through safe experimentation, then applies those identical rules to critical mid/late-game situations where failure means permanent consequences.
-
-<small>
-Source: gamefaqs_tricrokra_archived.html, lines 269-281 — "This works differently than other games in the genre though. You only have ONE inventory item. The Weaver's Distaff, and you need it for almost everything. You need to learn drafts by examining stuff and find out where to use which draft."
-
-Source: the-spoiler_gamecat.html, lines 67-69 — "Remember that some spells can be played backwards to create the opposite effect; the straw-to-gold spell played backwards will change gold into straw. Try undoing some of the spells that you've cast, or trying out spells in likely places."
-</small>
-
-**Learning Phase (Loom Island - Low Stakes Training Ground)**:
-
-The first island provides a sandbox to discover THREE foundational rules:
-
-**Rule 1: EXAMINE = Learn, CAST = Apply**
-1. Player examines egg → learns OPEN draft melody automatically
-2. Player clicks egg + casts OPEN sequence → egg opens
-3. Pattern established: Objects with problems play "solution melodies" when examined
-
-<small>
-Source: strategywiki_loom_walkthrough.html, lines 652-655 — "Click on the DISTAFF and examine the EGG. It has trouble OPENING, so help it... Hetchel is reborn as a swanling and briefs you about your 'mission'."
-
-Source: walkthrough-king_bennett.html, lines 65-68 — "click on the egg to learn the Open draft (you need to write down the music sequence)... Now click on the egg and cast Open by repeating the music sequence you just wrote down."
-</small>
-
-**Rule 2: CHORD REVERSAL = Opposite Effect**
-1. Player learns DYE draft (greening) from dye pot examination
-2. Player practices forward DYE on white cloth → turns green
-3. Player experiments with REVERSE order of same 4 notes → BLEACH (greens back to white)
-4. Pattern established: Playing any draft in reverse reverses its effect
-
-<small>
-Source: gamefaqs_tricrokra_archived.html, lines 276-280 — "The drafts also work backwards. If A-B-C-D would turn day into night, then D-C-B-A would turn night into day."
-
-Source: strategywiki_loom_walkthrough.html, lines 655 — "Examine the CAULDRON and learn the DYEING draft. Try it on the white CLOTHs. You can also try the reverse (BLEACHING) on the green cloths."
-</small>
-
-**Rule 3: PRACTICE = Note Unlocking**
-1. Game starts player with only notes C, D, E
-2. Each successfully cast practice draft adds new available notes to distaff
-3. Player cannot leave first island until they've learned enough drafts to unlock F-note
-4. Pattern established: System forces mastery before progression
-
-<small>
-Source: gamefaqs_tricrokra_archived.html, lines 825-837 — "c → Start game, d → Start game, e → Start game, f → When you completed all tasks on the weaver's island. The 'Twist/Untwist' draft will always contain this note, so you cannot leave the island until this is done."
-</small>
-
-**Application Phase (Critical Consequences - Rules Apply Without Tutorial)**:
-
-The system learned on Loom Island applies IDENTICALLY to every puzzle that follows—zero reminders, zero reinforcement tutorials. The rules work exactly the same way across these escalating-stakes domains:
-
-**Domain B1: Dragon's Cave (Sleep/Wake Reversal)**
-1. Learned early: SLEEP draft from sleeping sheep observation
-2. Never taught explicitly that reverse exists for this draft
-3. Application: Cast REVERSE of SLEEP on dragon → AWAKEN effect fails, dragon stays awake
-4. Correct application: Cast forward SLEEP → dragon sleeps, cave exit revealed through fire
-
-<small>
-Source: gamefaqs_t_hayes_archived.html, lines 358-361 — "Cast the reverse Straw to Gold draft on the gold, then cast the reverse Wake spell to make the dragon fall asleep. The dragon starts to breathe fire on the straw as she sleeps, which reveals a hidden tunnel at the back of the cave."
-</small>
-
-**Why Rule Transfer is Critical**: Player wasn't told "reverse SLEEP = WAKE" anywhere—only discovered this through system understanding from early experiments with DYE/BLEACH.
-
-**Domain B2: Final Confrontation (SILENCE → UNSILENCE)**
-1. Chaos casts SILENCE on Hetchel → player hears melody for first time under life-or-death pressure
-2. NO tutorial says "reverse this to undo it"
-3. Player must APPLY Rule 2 learned hours earlier: "any draft reversed = opposite effect"
-4. Execution: Input same 4-note sequence in REVERSE ORDER
-5. Result: UNSILENCE activates, Hetchel can speak again
-
-<small>
-Source: walkthrough-king_bennett.html, lines 85 — "Click on the loom and Hetchel will appear and be silenced. Click on the loom again to learn the Silence/Speak draft. Cast Speak on Hetchel, then Chaos will roast her instead."
-
-Source: strategywiki_loom_walkthrough.html, lines 713-716 — "Watch the dialogue until Chaos casts SILENCE on Hetchel. Cast the reverse on Hetchel. (note that if you didn't manage to memorize the spell, you can hear it again by examining the Loom."
-</small>
-
-**Why This Is Pattern Learning/Knowledge Transfer**:
-1. **Same System, Different Contexts**: Not "I learned to unsilence Hetchel" but "I learned the reversal MECHANIC that applies to SILENCE, DYE, TWIST, STRAW/GOLD, SLEEP/WAKE (15+ drafts total)"
-2. **Complete Rule Space Discoverable**: Three core rules (EXAMINE=learn, REVERSE=opposite, PRACTICE=progression) exhaust the entire musical grammar
-3. **Domain Transfer Without Reteaching**: Loom Island teaches → Dragon's Cave applies → Final Battle applies with ZERO reminders or hints
-4. **Critical Recognition Required**: Player must identify "Oh, this SILENCE thing works the same way DYE worked earlier"
-
-**Distinction from Observation Replay (the draft WATCHING itself)**:
-- **Observation Replay component**: Each specific sequence must be memorized when heard (e.g., "SILENCE = E-F-D-C")
-- **Pattern Learning component**: The system that governs HOW those sequences work applies everywhere (reversal, practice, examine)
-
-The draft *mechanics* are Pattern Learning. The draft *sequences themselves* are Observation Replay. Both exist in Loom simultaneously, but address different gameplay dimensions.
-
-<small>
-Source: the-spoiler_gamecat.html, lines 67-69 — "Remember that some spells can be played backwards to create the opposite effect; the straw-to-gold spell played backwards will change gold into straw."
-</small>
-
-**Why It's NOT Just Observation Replay**:
-Player didn't just memorize "SILENCE melody = E-F-D-C" and replay it. Player must actively APPLY a learned principle: "If SILENCE is E-F-D-C, then UNSILENCE is C-D-F-E because I learned earlier that reversing any draft reverses its effect." That general rule is the pattern/ knowledge being transferred.
-
----
-
-### Indiana Jones: Fate of Atlantis - Plato's Lost Dialogue Navigation System (IJOA)
-
-**Problem**: The entire mid-game through end-game navigation relies on a mechanical system taught early via Plato's Lost Dialogue text pages. Indy must understand a directional translation system that converts cryptic textual instructions into specific compass-direction actions with modifier rules for accuracy adjustment.
-
-<small>Source: walkthroughking_ashley_walkthrough.html — "Use all three disks with the spindle according to the Lost Dialogue" (Team path). Also "follow the next set of directions in the Lost Dialogue" (multiple references across paths).</small>
-
-**Learning Phase - System Discovery**:
-
-The Lost Dialogue provides a complete navigation framework with three core rules:
-
-<small>Source: walkthroughking_ashley_walkthrough.html — "Use the surveyor's instrument (as indicated on the mural) on the head statue and look at the left horn, then on the tail statue and look at the right horn. This will give you at site to dig..."</small>
+<small>Source: broken-sword-1/4_agh_peter_christiansen_walkthrough.html, lines 289-307</small>
+<small>Source: broken-sword-1/1_walkthroughking_broken_sword.html, lines 113-119</small>
 
 ```
-RULE 1: Directional Translation System
-- "Face east" → Stand facing cardinal direction, observe target landmark  
-- "Look at left/right horn/feature" → Identify specific visual marker on object
-- The alignment of observed features provides coordinate data for digging/excavation
+Learning Phase (Domain A - Chemistry Lab):
+→ Visit chemistry laboratory environment early in chapter
+→ Examine plaster demonstration station or read related documentation
+→ Discovery through environment: Plaster requires moisture to cure properly
+→ Scientific principle learned: Water acts as catalyst—dry plaster = useless, wet plaster = functional
 
-RULE 2: Ten-fold Error Correction (Critical late-game rule)
-<small>Source: walkthroughking_ashley_walkthrough.html — "Guide [the boat] using Plato's Lost Dialogue, remembering the ten-fold error." (Fists Path)</small>
-- When following directions underwater/at certain distance scales
-- Navigation accuracy degrades exponentially  
-- Player must ADJUST course direction by factor of 10 to compensate
+Application Phase (Domain B - Pub Cellar Imprisonment):
+→ Later imprisoned in pub cellar with statue impression and dry plaster
+→ Standard approach fails: can't cast without water source nearby
+→ Framework recognition moment: "Plaster needs moisture"—lab principle applies here
+→ Environmental scan for liquid → towel accessible near water source (pub cellar sink)
+→ Apply learned system: Wet the towel, mix controlled moisture with plaster
+→ Successful key cast produced using transferred knowledge from Domain A
 
-RULE 3: Reverse/Contrary Principles (Final room solution)
-<small>Source: walkthroughking_ashley_walkthrough.html — "Use the disks again, but reverse everything ('contrary minds')." (Atlantis finale)</small>  
-- When mechanical system presents as mirror image or opposite
-- All directional/rotational inputs must be INVERTED
-- "Contrary minds" textual clue indicates reversal requirement
+WHY IT'S PATTERN LEARNING / KNOWLEDGE TRANSFER:
+The UNDERLYING RULE ("plaster requires moisture ratio to cure") is IDENTICAL across both domains. Laboratory teaches complete mechanical framework—not "do steps a,b,c here" but "this chemical principle exists." Cellar imprisonment requires recognizing that framework applies despite different context/setting. Distinction from Observation Replay: no sequence memorization, only abstract cause-effect relationship transfers. NOT Multi-Faceted Plan because single unifying system governs both instances, not separate requirements needing synthesis.
 ```
-
-**Application Phase - Domain Transfer Examples**:
-
-Domain A1 → Crete Stone Dial Navigation:
-1. Lost Dialogue page provides cryptic instruction set  
-2. Player places sunstone/moonstone on dial in specified positions
-3. Follows "align symbol with horns" instructions from text
-4. Excavation site revealed where directions converge
-
-Domain A2 → Balloon Flight Navigation (Wits Path):
-1. After constructing balloon at Thera, must navigate to submarine location  
-2. Lost Dialogue provides directional bearings ("fly north until X appears")
-3. Player follows text coordinates during flight sequence
-4. Correct interpretation lands near target; wrong directions = crash/reset
-
-Domain B → Fists Path Submarine Approach (Underwater Navigation):
-<small>Source: walkthroughking_ashley_walkthrough.html — "Head back to the port and talk to the guy on the boat. Guide him using Plato's Lost Dialogue, remembering the ten-fold error."</small>
-1. Player now underwater with SCUBA suit
-2. Same directional commands from text APPLY at different scale
-3. Ten-fold error rule becomes CRITICAL: surface-level navigation fails  
-4. "Go north" on page = actual 10x offset underwater → player must compensate by going only 1/10th the indicated distance
-
-Domain C → Final Atlantis Disk Chamber (Contrary Rule Application):
-<small>Source: walkthroughking_ashley_walkthrough.html — "Use the disks again, but reverse everything ('contrary minds')."</small>
-1. Three rotating disks on spindle mechanism must be aligned to specific symbol positions
-2. Earlier solutions used direct interpretation of Lost Dialogue markings  
-3. Final chamber explicitly states "contrary minds" = all inputs reversed
-4. Player applies reversal rule taught in early text: opposite directions, flipped rotations
-
-**Why It's Pattern Learning/Knowledge Transfer**:
-1. **Same Mechanical Framework Across Domains**: The directional translation system learned on page 1 of Lost Dialogue operates identically at Crete stone dial, balloon navigation, underwater coordinates, and final disk mechanism—only context (domain) changes
-2. **Exhaustible Rule Set Discoverable**: Three core principles (translation, ten-fold error, contrary/reversal) constitute COMPLETE mechanic. Mastery requires discovering all three for full game completion  
-3. **Critical Recognition Required**: Underwater "ten-fold error" section only solvable by recognizing: "This IS the same navigation system, but with scale compensation needed." Player isn't learning new skills—applying SAME learned framework to NEW environment
-4. **Escalating Consequences Without New Teaching**: Balloon flight failure = simple reset. Submarine navigation failure = potentially lose items/progress. Final disk misalignment = cannot open gate, game ends without correct pattern application
-
-**Distinction from Observation Replay**: Player doesn't just watch "disk aligns at noon position" later reproduce the sequence. Instead: learn general principle ("symbol markings translate to compass-aligned physical movements"), apply that PRINCIPLE to entirely new targets. The framework transfers; specific values don't memorize-and-repeat.
-
-**Distinction from Simple Code-Cracking**: Many adventure games use "cipher learned early, applied late." This differs because Lost Dialogue isn't a one-time decryption—it's an ongoing MECHANICAL SYSTEM for spatial manipulation that reappears in 5+ different physical locations with same underlying rules. Player learns to NAVIGATE via text coordinates once; applies navigation framework repeatedly.
 
 ---
 
-## Common Misidentifications (NOT Knowledge Transfer)
+### Grim Fandango: Coat Check System + Photo Finish Ticket (GF - Year Two)
+
+**Problem**: In the Calavera Cafe bar, Lupe runs a coat check system using color-coded tickets. The photo finish counter at the Cat Track requires a specific racing ticket with week number, day of week, and race number. Both systems encode information symbolically—players must learn the encoding rules from environmental clues, then apply them to generate correct outputs.
+
+<small>Source: the-spoiler_walkthrough.html, lines 683-691 — "Pull out your ticket printer and print up a ticket for Week 2, Tuesday, Race 6... Week 2 can be found by reading the plaque on the statue of the cat, Race 6 can be found by looking at the photo, and the day of the week is Tuesday when the kitty hats are handed out according to the guy at the ticket counter"</small>
+
+```
+LEARNING PHASE (Domain A - Coat Check System Tutorial):
+→ Calavera Cafe: Lupe manages coat check using color-coded tickets
+→ Player observes ticket system in action (other patrons receiving/checking coats)
+→ Examination of coat rack reveals colored tags organized systematically
+
+Rule Discovery Through Environmental Clues:
+RULE 1: Each coat/item has specific COLOR ASSOCIATION from its owner
+RULE 2: Tickets encode information through VISUAL CATEGORIES (color = person's identifier)  
+RULE 3: Coat check is SYMBOL-CODING system, not simple key-locked retrieval
+
+APPLICATION PHASE - Ticket Printer Puzzle (Domain B - Cat Track Photo Finish):
+→ After SeaBee lawyer sequence, obtain ticket printer as item
+→ Visit photo finish counter at Cat Track
+→ Receive generic blank ticket (must print correct values)
+
+
+DECODING THE REQUIRED TICKET PARAMETERS:
+
+PARAMETER 1 - Week Number (Week 2):
+Clue Source: Statue plaque outside Cat Track
+Discovery: Plaque mentions "Second Annual Feline Classic" or similar text
+Decoding: "Second annual" = WEEK 2 of cat racing season
+
+
+PARAMETER 2 - Race Number (Race 6):  
+Clue Source: Previously-obtained photo showing race finish line
+Discovery: Photo shows cats crossing finish, count reveals which race depicted
+Decoding: EXAMINE PHOTO → Identify it's the SIXTH race in sequence
+
+
+PARAMETER 3 - Day of Week (Tuesday):
+Clue Source: Ticket counter NPC dialogue when asked about events/schedule
+Disovery: Counter person mentions "we give out free kitty hats on Tuesdays" or equivalent
+Decoding: "Kitty hat day" = TUESDAY
+
+
+APPLICATION - Print Correct Ticket:
+→ Use ticket printer in inventory → Generate ticket with parameters:
+   Week: 2 | Day: Tuesday | Race: 6
+→ Submit completed ticket at Photo Finish window
+→ Receive incriminating photo (Nick kissing Olivia) as output
+
+
+WHY IT'S PATTERN LEARNING / KNOWLEDGE TRANSFER:
+
+SYSTEM TEACHING THROUGH COAT CHECK DOMAIN:
+The coat check system establishes that THIS WORLD ENCODES INFORMATION SYMBOLICALLY. Lupe's color-coded tickets aren't just "keys"—they're a SYSTEM of encoding categories (color = person identity). This trains player to look for VISUAL/EVIDENTIAL CLUES rather than direct dialogue statements.
+
+FRAMEWORK TRANSFER TO PHOTO FINISH:
+Once coat check establishes "this game uses symbolic information encoding," the photo finish puzzle applies IDENTICAL LOGIC:
+- Coat check: Color → Person mapping (learn system)
+- Photo ticket: Visual clues → Encoded parameters (apply same "decode symbols" skill)
+
+The learning happens by recognizing patterns in how THIS GAME CONVEYS INFORMATION. Both systems require finding HIDDEN MEANINGS in environmental objects/plaque text/NPC hints and translating those into usable game states.
+
+No single NPC states the complete solution: "Print Week 2, Tuesday, Race 6." Player must synthesize from THREE separate information sources using the pattern-learning principle that clues exist as SYMBOLS requiring interpretation, not explicit statements.
+
+
+NOIR THREAT THEME INTEGRATION:
+The coat check system is pure noir—a seedy bar, mysterious code system, information never given freely. The photo finish puzzle extends this with film noir investigation tropes: examining evidence photos, reading environmental text (plaques), questioning witnesses for fragmentary clues. Both require "detective work" mindset established in tutorial domain.
+```
+
+---
+
+### Broken Sword II: The Smoking Mirror - Pyramid Wheel Room (Chapter 6)
+
+**Problem**: Nico must unlock a sealed chamber door using Mayan pictogram interface. A complex machine displays four large rotating wheels with symbols; ten smaller tiles each show two-symbol combinations that must be formed on the machine first, then pressed. Four even smaller final tiles require matching TWO tiles-from-ten simultaneously. The puzzle teaches its own rule set through initial examination, then requires application exhaustively across multiple tile types.
+
+<small>Source: 4_kasagaming_walkthrough.html, lines 426-430 — "Notice the pictograms on the great Mayan machine and on the tiles... Each tile from the set of ten has a symbol on it made from two symbols on the machine."</small>
+
+```
+LEARNING PHASE - RULE DISCOVERY THROUGH EXAMINATION:
+→ Enter pyramid wheel room, examine interface components:
+  - Large rotating wheels with multiple pictogram options each
+  - Set of 10 medium tiles (each showing 2-symbol combination)
+  - Set of 4 small final tiles (each showing reference to 2-of-10-tiles)
+
+→ First attempt at any tile → locked, won't move
+→ Observation: Tiles encode REQUIRED STATES for wheels
+→ Pattern discovered from examination:
+  
+  RULE A: Each wheel has multiple symbol positions (rotateable)
+  RULE B: Medium tiles show target 2-symbol pairings needed on machine
+  RULE C: Small tiles reference TWO medium-tiles that must be activated first
+
+APPLICATION CHAIN - EXHAUSTIVE FRAMEWORK EXECUTION:
+
+Step 1 → Examine medium tile #1 → shows "crescent + skull" pairing
+         <small>Source: kasagaming_walkthrough, line 427 — "Each tile from the set of ten has a symbol on it made from two symbols on the machine"</small>
+         
+Step 2 → Rotate wheels to show crescent AND skull simultaneously on display
+
+Step 3 → Press medium tile #1 → ACCEPTED (wheels match its encoded pair)
+
+REPEAT for all other medium tiles in set of 10:
+→ Each requires finding correct WHEEL CONFIGURATION first
+→ Pattern holds consistently: examine tile = read requirement, adjust wheels = fulfill requirement, press tile = validate match
+→ By ~5-8 tiles, player internalizes full system rule: "Tile shows goal state → configure machine to that → press when matched"
+
+FINAL PHASE - COMPOUND TILE CHAIN (Rule B applied recursively):
+Step A → Examine small tile #1 → shows reference to medium-tiles 3+7
+         <small>Source: kasagaming_walkthrough, line 429 — "Each tile below the Mayan statue is made from two tiles from the set of ten"</small>
+
+Step B → Medium tile #3 already pressed (from earlier phase) ✓
+Step C → Medium tile #7 already pressed (from earlier phase) ✓
+         - If not yet done, player learns: SMALL-TILES require MEDIUM-TILE PREREQUISITES
+
+Step D → Press small tile #1 → ACCEPTED (both referenced tiles activated)
+
+REPEAT for all 4 small tiles using same compound rule.
+→ Complete set of 4 small-tiles pressed inward → secret door opens automatically
+```
+
+**Why It's This Type**: The puzzle TEACHES its mechanical rules through initial interaction: examining tiles reveals required wheel configurations; first few tile presses confirm the "match wheels to tile, then press" framework. This SAME RULE SET exhaustively applied to all remaining tiles—including compound small-tiles that reference already-completed medium-tiles. Player doesn't discover scattered clues; they learn a COMPREHENSIVE SYSTEM whose consistent application is the solution. The teaching happens IN THE PUZZLE ITSELF through graduated difficulty (medium-tiles straightforward, small-tiles introduce layer-2 dependency).
+
+**Core Mechanic Distinction**: Unlike Symbol Code Translation where static symbols translate to actions (Bible diagram → chess moves), here player LEARNS AN INTERACTIVE SYSTEM: "Machine wheels are adjustable; tiles validate configurations; some tiles depend on others." This framework applies EXHAUSTIVELY across ALL instances—no external training domain needed because the puzzle scaffolds learning through progressive revelation of its own rules.
+
+**Distinction from Symbol Code Translation**: Player isn't translating static visual codes to separate interface actions (Bible → chessboard). Instead, they're operating a UNIFIED MECHANICAL SYSTEM where examining components reveals the system's operational logic. The wheels ARE the solution space; the tiles ARE validation gates for wheel states discovered through iterative experimentation.
+
+---

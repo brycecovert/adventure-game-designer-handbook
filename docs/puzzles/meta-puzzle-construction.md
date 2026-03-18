@@ -61,6 +61,46 @@
 
 **Key Feature**: Player *creates* an opportunity by engineering a job vacancy through cascading consequences.
 
+### Beneath a Steel Sky: Grappling Hook Construction Chain (BAS)
+
+**Problem**: Need to cross to Security HQ building opposite the factory, but no bridge or elevator access. Must craft a grappling hook from separately-obtained components.
+
+<small>Source: 5_steamah_walkthrough.html, lines 372, 428-430, 436 — "Get Joey to cut it with his welder [cable]... Get Joey to use his welder on the STATUE and pick up the ANCHOR... Combining the ANCHOR and the red CABLE produces a GRAPPLING HOOK"</small>
+
+```
+SEQUENTIAL PRODUCTION CHAIN:
+
+Step 1 - Cable Acquisition (Output: Red CABLE)
+Prerequisite: Joey's welding shell installed at Factory
+Action: Inspect red CABLE before Crash Site exit on Upper Level
+Command: Tell Joey to CUT cable with welder
+Result: CABLE drops to Middle Level (now retrievable later)
+
+Step 2 - Anchor Acquisition (Output: ANCHOR)  
+Prerequisite: Visit Anchor Insurance, speak to Billy Anchor about special policies
+Action: While Anchor is in back on phone, have Joey WELD the STATUE
+Result: ANCHOR detaches from statue base → collected
+
+Step 3 - Combination (Output: GRAPPLING HOOK)
+Prerequisites: Both CABLE (from Step 1) and ANCHOR (from Step 2) in inventory
+Action: Combine ANCHOR with CABLE in inventory
+Result: New item created—GRAPPLING HOOK
+
+Step 4 - Application (Output: Cross-building access)
+Prerequisite: GRAPPLING HOOK in inventory, positioned on factory ledge
+Action: Use GRAPPLING HOOK on big "S" SIGN across gap
+Result: Player swings to Security HQ building, crashes through window
+```
+
+**Why It's Meta-Construction (Not Multi-Faceted Plan)**:
+- Cannot grab ANCHOR before Joey has welding capability (requires Factory shell installation)
+- Cannot CUT cable without Joey's welder being active
+- Cannot create HOOK until both independent components obtained
+- The CABLE dropping to Middle Level creates temporal dependency—you MUST visit upper level first, then return later during middle-level exploration
+- Each intermediate item (cable, anchor) has exactly one purpose in this chain
+
+**16-bit SCUMM Engine Note**: The inventory combination system treats object pairing as transformation rules (Anchor + Cable = Hook via USE command). Classic Sierra/Revolution pattern where creative combinations unlock new verbs/actions not initially available.
+
 ---
 
 ## Distinction from Related Types

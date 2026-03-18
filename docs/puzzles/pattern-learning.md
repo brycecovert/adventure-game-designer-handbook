@@ -57,6 +57,52 @@ Application Phase (Part IV - LeChuck):
 → Apply same construction recipe → empowered doll works on LeChuck
 ```
 
+### Beneath a Steel Sky: LINC-SPACE Tile Password System (BAS)
+
+**Problem**: Navigating through virtual reality spaces requires understanding the tile-based password system. The game teaches this in an early safe zone, then requires exact application in restricted security areas with timed constraints.
+
+<small>Source: 5_steamah_walkthrough.html, lines 454-460 — "Pick up the BALL (Compressed Data – Red & Green YinYang symbol)... Open the CARPET BAG and obtain the MAGNIFYING GLASS (Decrypt) and BIRTHDAY SURPRISE (Decompress)... Keep alternating between the green and red passwords on the tiles"</small>
+
+```
+Learning Phase (First LINC-Space Visit - Tutorial Area):
+→ Enter interface room at Security HQ with ID CARD
+→ Access INTERFACE terminal, "jack in" to LINC-Space VR environment
+→ Room 1: Pick up BALL (Compressed Data) containing Red+Green password symbols
+→ Room 2: Open CARPET BAG → get MAGNIFYING GLASS (Decrypt command) and SURPRISE GIFT (Decompress)
+→ Discovered mechanic: DECRYPT removes "?" from documents, DECOMPRESS expands ball into passwords
+→ Room 3: TILE PASSWORD SYSTEM demonstrated on floor panels with green/red symbols
+
+Rule Discovery:
+1. Floor tiles show GREEN or RED symbols
+2. Player stands on a tile → places matching COLOR PASSWORD on current tile
+3. This reveals a BRIDGE to adjacent tile (previously invisible/impassable)
+4. Pattern: Alternate red/green passwords as you progress across tile sequence
+5. Goal: Reach thick plasma beam exit using correct alternating sequence
+
+Application Phase (Later LINC-Space Visits - Timed Security Zones):
+→ First return with ANITA's CARD: Same tile rules apply, but now EYEBALL guardians present
+→ SECONDARY RULE discovered: Use BLIND command on eyeballs to freeze them temporarily (~15-20 sec)
+→ Pattern learned applies under pressure: Must navigate tiles WHILE managing reactivation timer
+→ Player must remember/execute the exact same password alternation pattern learned earlier, 
+   but now with added time constraint (eyeball reactivates after 15-20 seconds)
+
+Third Visit - FINAL APPLICATION:
+→ Enter with medical android's RED CARD → need access to CRYSTAL room guarded by CRUSADER
+→ Same tile password mechanics apply (unchanged)
+→ New challenge: CRUSADER blocks path until destroyed
+→ Player must have acquired DIVINE WRATH program (from earlier eyeball blinding) to remove guardian
+→ Once CRUSADER defeated, same red/green tile alternation allows access to CRYSTAL room
+→ OSCILLATOR program (TUNING FORK from second visit) shatters crystal → VIRUS obtained
+```
+
+<small>Source: 1_preterhuman_mitch_shaw_walkthrough.html, lines 232-247 — "Use the DECRYPT program on the two DOCUMENTS with '?' on them... Use the PASSWORDS (green and red swirls) to get to the DOOR..."</small>
+
+<small>Source: 5_steamah_walkthrough.html, lines 517-571 — Timed eyeball blind/CRUSADER sequence combining multiple learned systems</small>
+
+**Why It's Pattern Learning**: The tile password system is taught exhaustively in the first safe visit (Room 3). Every subsequent LINC-Space visit uses IDENTICAL mechanics—no new tutorial, no changed rules. The challenge escalation comes from added constraints (timed eyeballs, guardian enemy) but the underlying navigation framework never changes. Player must recognize "the red/green alternation I learned in Room 3 still works here."
+
+**Distinct Cyberpunk/Hack Element**: Unlike classic adventure puzzles, this leverages LINC-Space's virtual reality setting—inventory becomes COMMANDS not OBJECTS (Decrypt, Decompress, Blind, Oscillator as verbs). Pattern applies across "virtual rooms" with consistent rules regardless of visual theme changes.
+
 ---
 
 ## Key Identifiers

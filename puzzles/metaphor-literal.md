@@ -78,6 +78,35 @@ The limited action set maps directly to this puzzle:
 
 **Design Elegance**: The phrase exists simultaneously as genuine puzzle instruction AND as a common English metaphor—the player wins by recognizing both layers.
 
+### SpaceQuest II: Shaman Word Activation (SQ2)
+
+**Metaphor**: After Roger frees a trapped alien, he encounters small aliens who thank him through their shaman. The shaman speaks an unknown word/syllable via the dialect translator. This foreign language word is the KEY to moving a boulder blocking progress—but the player must understand that this single verbal utterance triggers the mechanical action.
+
+<small>Source: gamefaqs-tricrokra-archive.html, lines 459-462 — "Hear out the shaman who will thank you for saving one of his tribe... SAY THE WORD (the aliens will move the rock)"</small>
+
+**Literal Translation Chain**:
+1. Roger saves trapped alien earlier (independent puzzle) → establishes goodwill connection
+2. Player encounters little aliens in valley after falling through dark cave  
+3- Aliens lead Roger to "village" room shaman appears
+4. Shaman speaks strange word via dialect translator device in inventory: **"SHSR"** (exact syllable unclear what this means, but walkthrough notes it's the alien language equivalent of something significant)
+
+
+5- PLAYER REALIZATION: The phrase/syllable isn't description—it IS the action command itself
+6. Execute: Type "SAY THE WORD" at village → game accepts verbatim foreign syllable
+7. Result: Aliens move boulder, revealing underground passage to next area
+
+**Why It's Metaphor-to-Literal (Edge Case)**:  
+This is a borderline case—the metaphor isn't poetic language but FOREIGN LANGUAGE AS INTERFACE. The "translation" required is:
+
+Metaphorical understanding: Shamans speak words of POWER that trigger events
+Literal game implementation: Type exact syllable heard → word becomes command trigger
+
+**Distinction from Standard Metaphor**: Unlike Troll's Red Herring (common idiom decoded), this uses LITERAL foreign language—the player doesn't decode symbolism, they REPEAT what they heard. However, the core mechanic remains: spoken language = mechanical action trigger, making it a simplified variant of metaphor-to-literal translation.
+
+**Alternative Classification**: This could also be Observation Replay ("memorize word, say it later") but the puzzle's weight comes from understanding that the WORD ITSELF is the key—not where/say/when. The "translation" is accepting that dialogue can directly enable actions.
+
+---
+
 ### Monkey Island II: Bone Maze Navigation Song
 
 **Metaphor (from dream sequence)**:

@@ -369,3 +369,85 @@ DO NOT use this classification if:
 - Time period switching is just flavor—same solution possible in single timeline (use standard puzzle type instead)
 - Only one direction of travel required with no feedback loop to origin time
 - "Time" mechanics are really just sequential chapters without causal linkage (narrative progression not CTC)
+
+---
+
+## TLJ Variation: Cross-Realm Spatial Causality
+
+**The Longest Journey** implements a dimensional variant where actions in Stark affect Arcadia and vice versa, though the core mechanic is **CROSS-REALM** rather than cross-temporal. This represents spatial causality across parallel dimensions rather than historical causality through time periods.</p>
+
+### The Longest Journey: Phone Alignment Puzzle (Chapter 8 - Reunification)
+
+<small>Source: 04_gameboomers_k_daleng.txt, lines 235-241 — "Go inside the cave (the mouth) in the big statue to see the symbol that belongs to each phone. Now you're going to set up the phones so that they will wake up the giant Q'man...set up the phones in a special way so that the mouth on the phone by the tree hits the ear of the phone on the cliff...from there turn the mouth so that it hits the mouth of the statue so that your voice goes all over the island."</small>
+
+```
+CROSS-LOCATION SIGNAL PROPAGATION CHAIN:
+
+FOUR PHONE LOCATIONS ISLAND-WIDE:
+1. Tree Phone (starting point - near Branchmen treehouse)
+2. Cliff Phone (accessed through village, past suffering crab)
+3. Ruins Phone (lower level cave accessible via rope descent from beach)
+4. Giant Statue Phone (built into Q'man's statue mouth in central plaza)
+
+SIGNAL FLOW REQUIREMENT:
+Voice spoken at Tree Phone must propagate through chain to reach Statue Phone:
+
+TREE [MOUTH OUT] → CLIFF [EAR IN, MOUTH OUT angled correctly]  
+     ↓ voice signal travels across distance
+     
+CLIFF [MOUTH OUT] → RUINS [EAR IN, MOUTH OUT angled up]
+     ↓ voice continues along chain
+     
+RUINS [MOUTH OUT] → STATUE [MOUTH IN/receiving]
+     ↓ Final propagation through island's acoustic network
+     
+RESULT: Voice amplified across entire island → Q'man awakens from slumber
+
+
+SOLUTION CHAIN DETAIL:
+
+Step A → Locate first phone at tree; speak into it, learn that mouth/ear orientation matters
+         <small>Source: 04_gameboomers_k_daleng.txt, line 239 — "the trick here is to set up the phones in a special way"</small>
+
+Step B → Visit each phone location, examine mouth and ear rotation controls
+         - Key obtained from ruins cave pile of rocks used to rotate orientations
+         - Turning key one way rotates MOUTH; opposite direction rotates EAR
+        
+Step C → Establish chain by orienting:
+         Phone #1 (Tree): Mouth pointing toward cliff location
+         Phone #2 (Cliff): Ear receiving from tree, mouth pointing toward ruins  
+         Phone #3 (Ruins): Ear receiving from cliff, mouth pointing upward/at statue
+         Phone #4 (Statue): Positioned to receive amplified signal
+
+WHY IT'S CROSS-REALM SPATIAL CAUSALITY:
+While NOT temporal like DOTT's puzzles, this represents a SPATIAL variant where actions at Location A (phone rotation) create effects at remote Locations B, C, D through SIGNAL PROPAGATION. The puzzle requires understanding causality across SPACE rather than time—the acoustic chain connecting distant points functions identically to DOTT's historical document legacy connecting past→future events.
+
+
+DISTINCTION FROM MULTI-CHARACTER COORDINATION:
+All four phone locations controlled by single character (April). Puzzle is about spatial signal routing, not multiple characters acting simultaneously in separated locations.
+
+
+RELATIONSHIP TO CROSS-REALM LOGISTICS:
+Unlike Cross-Realm Logistics where player carries items across worlds (e.g., shift travel with inventory), this puzzle's "cross-realm" aspect is metaphorical—the phones span the physical island but require UNDERSTANDING CAUSAL CONNECTIONS between separated points rather than item transport.
+
+
+CROSS-REALM DIMENSION VARIANT:
+True Cross-Realm Causality in TLJ appears when actions in Stark create consequences in Arcadia (and vice versa):
+
+Example - Shift Travel Consequences:
+→ Items acquired in one dimension usable only after travel to other dimension  
+→ Information learned in Arcadia (e.g., Cortez's true identity) changes player's access/dialogue options back in Stark
+→ This represents CROSS-DIMENSIONAL rather than cross-temporal causality but shares same mechanical principle: ACTION IN SEPARATED SPACE → CONSEQUENCE MANIFESTS AT DISTANCE
+```
+
+---
+
+## Related Types (Updated Reference Table for TLJ Puzzles)
+
+| Type | Similarity to Cross-Temporal Causality | Distinction | TLJ Example Matches This? |
+|------|---------------------------------------|-------------|---------------------------|
+| **Multi-Character Coordination** | Both can require actions from separated characters | MCC = spatial separation; CTC = TEMPORAL separation | No - all single-character puzzles in TLJ |
+| **Meta-Puzzle Construction** | Both involve sequential multi-step solutions | MPC = item output chains; CTC = WORLD STATE changes across eras | Plumbing, Shadow Puppet ARE Meta-Construction |
+| **Memo Chain** | Both reference historical documents | Memo = fragment gathering; CTC = HISTORICAL EVENT CREATION | No memo-chain puzzles identified in TLJ |
+| **Environmental Destruction** | Both alter game world permanently | EnvDestruction is single-timeline only; CTC specifically MULTI-ERA | Phone puzzle alters world state across location |
+| **Cross-Realm Logistics** | Both involve separated space/era item transfer | Cross-Realm = carry-through; CTC = Causal action changes remote state without transport | Shift mechanics = Cross-Realm, not CTC |

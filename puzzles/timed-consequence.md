@@ -65,65 +65,75 @@ This puzzle tests: "Can I internalize narrative urgency and act with appropriate
 
 ## Game Examples
 
-### Simon the Sorcerer: Dragon Breathing Puzzle
+### Beneath a Steel Sky: Eyeball Guardian Timing Puzzle (BAS)
 
-**Problem**: Dragon's Cave (beyond Sleeping Giant area) contains Fire Extinguisher needed for later woodcutter basement access. However, dragon violently sneezes on every entry attempt, ejecting player from cave. Must find window of opportunity during breathing cycle without visible timer or guidance.
+**Problem**: In LINC-Space security zones, Eyeball guardians patrol virtual corridors. Player must navigate past them to retrieve critical items (TUNING FORK, DIVINE WRATH program) while managing 15-20 second blind duration windows before reactivation.
 
-<small>Source: simon1_3.txt, lines 177-180 — "This poor Dragon has got one helluva cold and sneezes you out of the cave. Go back inside and give him the Cold Medicine you picked up near the start of the game. You need to be quick to do this or you'll get sneezed outside again."</small>
+<small>Source: 5_steamah_walkthrough.html, lines 521-523 — "'Blind' the first EYEBALL. The idea is to get the TUNING FORK before the first EYEBALL reactivates in about 15-20 seconds... This eyeball reactivates only within a few seconds, so be quick!"</small>
 
-**Urgency Setup**:
-- No countdown timer visible
-- No "X seconds remaining" text prompt  
-- No progress bar or sound effect indicating urgency level
-- Player must watch for DYNAMIC INDICATORS only: chest movement, snore rhythm, head position
+<small>Source: 1_preterhuman_mitch_shaw_walkthrough.html, lines 305-315 — "Use the BLIND program on the EYE. Go NORTH again. Get the TUNING FORK if the EYE is still blinded (white)"</small>
 
-**Execution Window (approximately 3 seconds per attempt)**:
-1. Enter cave during correct breathing phase
-2. Walk past dragon WITHOUT stopping → go straight to remedy use point
-3. Use Cold Remedy on dragon IMMEDIATELY upon approach
+**Consequence Structure**:
+```
+THREAT: Being trapped/locked out by reactivated eyeballs
+PERMANENTITY: Must disconnect and re-enter LINC-Space, losing progress
+NO VISIBLE TIMER: Player must estimate from visual feedback (eyeball color: white=blinded vs colored=active)
 
-**SUCCESS**: Dragon accepts Cold Remedy, collapses into permanent deep sleep; Fire Extinguisher accessible
+PHASE 1 - BLIND FIRST EYEBALL (Timer ~15-20s):
+→ Use BLIND command → eyeball turns WHITE (inactive state)
+→ ⏱️ Invisible timer starts NOW
+→ Move to second room before reactivation
 
-**FAILURE (Missed Timing)**: Dragon sneezes during approach → player ejected AGAIN; must retry timing
+PHASE 2 - BLIND SECOND EYEBALL (Timer "few seconds"):  
+→ Second eyeball reactivates much faster ("within a few seconds")
+→ Use BLIND immediately → white state achieved
+→ QUICKLY enter thick plasma exit beside it
 
-`Why It's Timed Consequence`:
-1. **Narrative Urgency Through Behavior Patterns**: Player learns optimal timing ONLY through repeated failure observations—not from explicit UI feedback
-2. **Internalize-Through-Failure Model**: Player builds mental model of breathing cycle duration through ejection consequences alone
+PHASE 3 - RACE TO TUNING FORK:
+→ Exit north (STOP before CRUSADER room—don't engage yet)
+→ Go right into side corridor
+→ GRAB TUNING FORK from floor
+→ ⏱️ If first eyeball reactivates during this phase = trapped
+
+PHASE 4 - SAFE RESET POINT:
+→ Return to hub with WELL in center
+→ Use PLAYBACK command on WELL (resets eyeball states)
+→ DISCONNECT safely to main terminal
+
+FAILURE STATE: If timer expires before Phase 4 complete
+→ Eyeballs reactivate (return to colored state)
+→ Player locked into section until disconnect/reconnect
 
 ---
 
-### Maniac Mansion: Pool Reactor Meltdown
+### Broken Sword: Shadow of the Templars - Khan Cliff Escape (Chapter 4)
 
-**Problem**: Swimming pool contains Glowing Key (dungeon exit access) and Radio (later power puzzle). Atomic reactor at pool bottom uses water as coolant. Draining pool exposes items but initiates meltdown that destroys mansion if not reversed. SINGLE character physically unable to complete both actions in time window.
+**Problem**: Final confrontation with Khan creates narrative urgency—George must execute precise escape sequence at cliff edge. No visible timer but death occurs if action order deviates from required pattern (buzzer then immediate jump).
 
-<small>Source: syntax2000_walkthrough.txt, lines 219-226 — "NOTE 4:- there is an atomic reactor at the bottom of the swimming pool, the water keeps it from over heating and exploding. To get the radio and the glowing key you must first empty the pool, and then afterwards refill it. A single character can not complete the task alone in the time before the reactor overheats."</small>
+<small>Source: broken-sword-1/4_agh_peter_christiansen_walkthrough.html, lines 420-427</small>
+<small>Source: broken-sword-1/1_walkthroughking_broken_sword.html, lines 178-179</small>
 
-**Narrative Urgency Established**:
-- NO countdown display when valve turned ON
-- NO "meltdown in progress" status indicator  
-- Player learns from NOTE/cutscene that reactor overheats = house explosion = ALL CHARACTERS DEAD = TRUE GAME OVER
-
-**Two-Character Required Solution**:
+**Consequence Structure**:
 ```
-PHASE 1 - Setup:
-- HUNK CHARACTER opens front yard grate → accesses crawl space with water valve
-- SECOND CHARACTER positions at pool edge ladder waiting
+NARRATIVE URGENCY (No Mechanical Timer):
+→ Scene establishes Khan confrontation as life-or-death scenario
+→ No countdown visible, no progress bar tracking urgency
+→ Threat conveyed entirely through NARRATIVE context: failed actions = character death
 
-EXECUTION (character switching essential):
-1. [VALVE CHARACTER] Turn ON valve → Pool drains, MELTDOWN INITIATED
-2. [QUICK SWITCH TO POOL CHARACTER] Descend ladder as water recedes:
-   - Retrieve Radio from pool bottom
-   - Retrieve Glowing Key
-   - Ascend ladder quickly
-3. [SWITCH BACK TO VALVE CHARACTER] Turn valve OFF → Pool refills, meltdown aborted
+ESCAPE SEQUENCE REQUIREMENT:
+Step 1 → Approach cliff edge with Khan pursuing behind
+         - Cutscene or dialogue establishes critical moment
+         
+Step 2 → Press buzzer at exact location (bridge/escape mechanism trigger)
+         - Activates bridge withdrawal or rope lowering mechanism
+         
+Step 3 → JUMP OFF CLIFF Immediately after buzzer activation
+         - Cannot pause, explore, or examine environment
+         - Death state triggers if delay exceeds narrow window
 
-FAILURE CONSEQUENCE: House explodes, all three characters die—true game over requiring reload/new playthrough
-SUCCESS STATE: Both items obtained, reactor safe, story continues normally
+FAILURE STATE: Sequence deviation results in game over
+→ Jump before pressing buzzer = fall to death (no rescue mechanism active)
+→ Press buzzer then delay too long = Khan catches player / bridge collapses / narrative consequence triggers restart
 ```
 
-**Why It's Timed Consequence**:
-1. **Narrative Urgency Without Timer**: Meltdown threat exists entirely within diegetic narrative (atomic reactor mechanics) with ZERO mechanical countdown visible anywhere in interface
-2. **Permanent Total Failure**: Unlike most adventure game mistakes where one character dies, this failure is GAME-ENDING and TOTAL—entire household destroyed, no partial continuation possible
-3. **Multi-Character Coordination Dependency**: Puzzle requires TWO characters precisely because of timing constraints—one cannot traverse between valve and pool fast enough alone
-
-**Distinction from Multi-Character Coordination Type**: The Timed Consequence classification explains WHY urgency exists (narrative stakes). The MCC classification would explain HOW it must be solved (two actors at separated locations). Both classifications apply here, but Timed Consequence is the PRIMARY mechanism—the coordination just makes it achievable.
+**Why It's Timed Consequence**: Urgency exists entirely through NARRATIVE stakes (Khan pursuing, life-or-death scene establishment), not mechanical timer. Player internalizes threat from story context—cutscene language, dialogue, positioning all indicate "act now or die." No HUD element tracks the deadline; urgency is DIEGETIC within story world. The puzzle tests ability to prioritize correctly: player must recognize that immediate action required rather than exploration/interaction. This differs from Observation Replay's precise timing window (where exact button press moment matters for success) because TC focuses on ACTION SEQUENCE ORDER with narrative threat, not frame-perfect execution skill.

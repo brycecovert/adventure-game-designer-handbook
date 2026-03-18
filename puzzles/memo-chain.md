@@ -43,8 +43,71 @@ Synthesis Phase:
 
 ---
 
+## Game Examples
+
+### SpaceQuest IV: Time Pod Code Synthesis (SQ4)
+
+**Problem**: Roger needs to travel to SpaceQuest I's location (Ulence Flats), but the time pod requires a six-digit destination code. The complete code is split across THREE separate sources in different game worlds, acquired at different play times. No single source provides complete navigation data.
+
+<small>Source: gamefaqs-tricrokra-archive.html, lines 436-438 — "Unfold this rag and you'll see the part of a time-pod code you need later."</small>
+
+<small>Source: gamefaqs-tricrokra-archive.html, lines 497-503 — "You get the first three digits of the code to get in a new time sector, the three on the rag are the last three"</small>
+
+<small>Source: adventuredoor-walkthrough.html, lines 458-459 — "Read the Space Quest IV hint book, page four about where to go with time pods. Check the wad of used chewing gum to complete the destination code."</small>
+
+```
+MEMO COLLECTION PHASE:
+
+SOURCE 1 - Gum Wrapper (SpaceQuest X, Strange Planet):
+Location: Nest, after dead Sequel Police drops from sky
+Action: Search body → find "rag of paper" (gum wrapper)
+Discovery: Unfolding reveals THREE SYMBOLS (last half of code)
+Acquisition time: Early game, before mall sequence
+
+SOURCE 2 - Hint Book Page 4 (SpaceQuest X, Galaxy Galleria Mall):
+Location: Software Store, bargain bin purchase required  
+Cost: Must earn money first (burger minigame) to afford
+Discovery: Page 4 contains multiple time pod destinations
+Critical data: THREE SYMBOLS for "Ulence Flats" destination
+Acquisition time: Mid-game mall sequence (mandatory disguise/money puzzles first)
+
+SOURCE 3 - Arcade Time Pod Display (SpaceQuest X):
+Location: Game arcade, arrives with Sequel Police officers
+Discovery: Current location encoding displayed on pod screen
+Critical action: Must WRITE DOWN before leaving (game explicitly warns)
+Consequence: Without this code, cannot return to mall after leaving
+
+SYNTHESIS PHASE:
+1. Player has gum wrapper (3 symbols) from SQX Planet
+2. Player buys hint book, reads page 4 (3 more symbols for Ulence Flats)
+3. Combined total = 6-symbol complete code
+4. Player locates accessible time pod with displayed interface
+5. Enter all six symbols in correct order → destination unlocked
+
+
+WHY IT'S A MEMO CHAIN:
+
+1. DISTRIBUTED FRAGMENTS: Code split across gum wrapper (physical note), hint book (documented text), and memory requirement (pod display text)
+
+2. NO SINGLE SOURCE IS COMPLETE: 
+   - Gum = 3/6 symbols
+   - Hint Book = different 3/6 symbols  
+   - Display = interface location reference
+   
+3. SYNTHESIS REQUIRED: Player must mentally combine "first three from book" + "last three from rag" into ordered six-symbol sequence
+
+4. WORLD-BUILDING DISGUISE: Fragments presented as environmental details — gum wrapper felt optional, hint book seemed like easter egg
+```
+
+**Distinction from Multi-Faceted Plan**: MFP = gather independent ITEMS for synthesis. Memo Chain = gather INFORMATION fragments that collectively encode a solution. Here the code numbers are data, not physical components to combine.
+
+---
+
 ## Related Types
 
-- **Environmental Storytelling**: Broader category; memo chains are text-specific subset
-- **Multi-Faceted Plan**: Memo chains often INFORM multi-faceted plans, but the memo system itself is distinct in its distribution + synthesis mechanic
-- **Information Brokerage**: Both involve information gathering, but memo chains are environmental (world-to-player) vs NPC-to-player exchanges
+| Type | Similarity | Distinction |
+|------|------------|-------------|
+| Multi-Faceted Plan | Both gather across sources | MFP collects items/actions; Memo Chain collects text fragments synthesizing into encoded solution |
+| Environmental Storytelling | Info hidden in world details | Environmental Storytelling reveals lore; Memo Chain reveals puzzle solutions |
+| Information Brokerage | All involve knowledge transfer | Brokerage = NPC exchanges; Memo Chain = environment-to-player data only |
+

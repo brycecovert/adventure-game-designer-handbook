@@ -477,25 +477,87 @@ The super-battery puzzle uses time travel as LOGISTICAL ENABLEMENT (moving ingre
 
 ---
 
-### Day of the Tentacle: Three-Headed Monkey Puzzle (Simultaneous Multi-Timeline Action)
+### Day of the Tentacle: Human Show Championship (DOTT, Multi-Character Item Assembly)
 
-**Problem**: [From walkthrough section "Three-Headed Monkey" - needs extraction from HTML] The monkey statue/puzzle requires three heads to be activated simultaneously, but each head is controlled by a different character in a different time period. Only when ALL THREE are in position at the same narrative moment does the puzzle resolve and grant the solution item/access.
+**Problem**: Laverne needs to win the "Humanity Show" contest with her mummy entry against rival contestant Harrold. The mummy starts as just a skeleton display—it lacks hair, teeth, and laugh capability needed to compete in all three categories (Best Hair, Best Smile, Best Laugh). Each item can only be obtained by a different character in a separated location/time period. Laverne alone CANNOT complete the entry regardless of her actions or dialogue choices.
 
-<small>Source: swords_and_software_walkthrough.html — section "three-headed-monkey" (needs line numbers)</small>
+<small>Source: gamefaqs_tricrokra_walkthrough.txt, lines 398-427 — "Laverne can't do this on her own, so let's get the help from the boys."</small>
 
-**Coordination Requirements**:
 ```
-TIMELINE DISTRIBUTION:
-- Head 1: Hoagie in past (1795) controls certain mechanism
-- Head 2: Bernard in present (1993) controls different aspect  
-- Head 3: Laverne in future (2026) completes third component
+MULTI-CHARACTER REQUIREMENT ANALYSIS:
 
-SIMULTANEOUS ACTION REQUIRED:
-All three characters must execute their respective actions within same game frame or narrative window—failure of any head causes puzzle reset.
+BEFORE ASSEMBLY (Item Distribution Across Characters):
+- Laverne (Future/2026): Has mummy base entry + nametag for contest registration
+  Cannot obtain any enhancement items in her timeline alone
+  
+- Bernard (Present/1993): Can access Oozo the Clown's laugh box, Dr. Fred's office
+  Items: Fake barf (to disqualify Harrold), laugh box (for Best Laugh category)
+
+- Hoagie (Past/1795): Can access Betsy Ross's room, horse in stables
+  Items: Spaghetti for mummy hair, horse teeth for smile enhancement
+  
+SINGLE-CHARACTER IMPOSSIBILITY PROOF:
+Laverne is spatially isolated from all item sources. Even if she could travel, 
+she cannot perform Bernard's actions (cut clown with scalpel) or Hoagie's actions 
+(read textbook to horse until asleep). Each character has UNIQUE CAPABILITIES required.
+
+COORDINATION SOLUTION CHAIN:
 ```
 
-**Why It's Multi-Character Coordination**:  
-This is the PUREST expression of MCC in DOTT—the three-character coordination requirement applies across temporal boundaries as well as spatial ones. Character switching happens continuously during resolution phase, and all three timelines must be "live" simultaneously for success. Traditional MCC puzzles occur in single timeline; this extends the coordination requirement across CENTURIES while demanding simultaneous action windows (impressive design synthesis of Cross-Temporal Causality + Multi-Character Coordination).
+<small>Source: gamefaqs_tricrokra_walkthrough.txt, lines 398-428</small>
+
+```
+PHASE 1 - ITEM GATHERING (Parallel Actions Across Characters):
+
+BERNARD ACQUIRES LAUGH BOX (Present):
+1. Use Laverne's scalpel on Oozo the Clown → clown collapses  
+2. Pick up laugh box from clown inventory
+3. Give/send laugh box to Laverne via Chron-O-John flushing network
+
+BERNARD ACQUIRES BARF DISQUALIFICATION ITEM:
+4. Push speaker box in Green Tentacle's room, turn on stereo
+5. Fake barf dispenses below (munching machine failure)
+6. Send barf to Laverne
+  
+HOAGIE ACQUIRES MUMMY HAIR MATERIAL (Past):
+7. Give spaghetti to Laverne (via item transfer)
+
+BERNARD SENDS TEXTBOOK FOR TEETH EXTRACTION:
+8. Give textbook from Dr. Fred's office to Hoagie
+9. Hoagie reads textbook to horse → horse falls asleep, teeth exposed
+10. Extract horse teeth, send to Laverne
+
+
+PHASE 2 - ENTRY ASSEMBLY (Laverne as Coordinator):
+
+11. Laverne applies fake barf in front of Harrold → disqualification achieved
+12. Apply horse teeth to mummy → Best Smile entry complete
+13. Apply soggy noodles (formerly spaghetti) to mummy head → "hair" created  
+14. Use fork (sent by Bernard) on noodles → combs them into hair-like appearance
+15. Insert laugh box into mummy's pocket → triggers when judges approach
+  
+PHASE 3 - JUDGING:
+16. Talk to judges for ALL categories with enhanced mummy entry
+17. Mummy wins Best Hair (noodles+fork), Best Smile (horse teeth), Best Laugh (box)
+18. Laverne receives dinner coupon prize → enables kennel guard bribery later
+```
+
+**Why It's Multi-Character Coordination**:
+
+1. **Spatial/Temporal Separation of Requirements**: Each character must physically be in their specific time period to obtain items—Laverne cannot get Bernard's laugh box without his presence in the present, cannot get horse teeth without Hoagie reading textbook in past
+  
+2. **Chron-O-John Flushing Network as Coordination Enabler**: Item transfer across timelines requires using the game's unique three-era flushing system—Bernard flushes to Laverne/Laverne flushes to Hoagie creates bidirectional pipeline
+
+3. **Character-Specific Actions Required**: 
+   - Only Bernard can use scalpel on clown
+   - Only Hoagie can read horse to sleep with textbook
+   - Only Laverne can assemble entry and present to judges
+   
+4. **Synthesis at Single Point (Mummy Entry)**: All parallel item gathering converges on single object that Laverne must complete
+
+**Distinction from Cross-Temporal Causality**: While items travel across time, the puzzle does NOT alter world state through historical changes. The laughing box in 1993 is same as in 2026—no causal alteration, only LOGISTICAL TRANSFER. CTC changes HISTORY (tree cut → disappears); this moves INVENTORY.
+
+**Distinction from Meta-Puzzle Construction**: The gathering phase IS parallel (Bernard can get laugh box AND barf in any order; Hoagie's spaghetti/teeth are independent). Only the assembly phase has sequence, but that's minimal. Core requirement is MULTI-CHARACTER not sequential crafting.
 
 ---
 
