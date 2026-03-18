@@ -1,0 +1,1084 @@
+Simon the Sorcerer
+A Walkthrough by The Lost Gamer
+(ilovecartoonssomuch@yahoo.com)
+Copyright 2012
+
+
+For a list of all my various guides, check
+http://the_lost_gamer.tripod.com/guides.html
+
+
+Table of Contents:
+001.  General information
+002.  Locations
+003.  Items
+004.  Walkthrough
+005.  Credits
+
+
+
+001-General Information
+---------------------------------------------------------
+
+This is a walkthrough for the game called Simon the 
+Sorcerer. I am playing the game on the iPad, but the game 
+was originally made for computers. If you want to email me 
+about the guide, you can do so at my email address, 
+ilovecartoonssomuch@yahoo.com.
+
+Thanks to jiri, who made the ASCII-art of a wizard, 
+featured at the top of this guide.
+
+002-Locations
+---------------------------------------------------------
+
+The hardest part of the game is navigating the maze that is 
+the game's overworld. When you visit certain locations, 
+they are saved on the map in Simon's inventory. Use the map 
+to warp to those locations.
+
+I'll start by explaining all eight locations in the 
+village.
+
+Village
+-------
+
+1. The Wizard House is where you start. You can go inside 
+the house, outside the house, and behind the house, to a 
+compost pile. From here, you can go east from the Wizard 
+House to reach the Blacksmith.
+
+2. The Blacksmith. From here, you can go west from it to 
+the Wizard House, east to reach the Dodgy Geezer, and north 
+to the Pub.
+
+3. The Dodgy Geezer. From here, you can go north to the 
+Blacksmith, west to the Druid's house and east to the 
+Shoppe.
+
+4. Druid's House. From here, you can go inside the house, 
+west to the Chocolate House or east to the Dodgy Geezer.
+
+5. Chocolate House. From here, you can go east to the 
+Druid's House.
+
+6. Shoppe. From here, you can go inside the shop, north to 
+the Dodgy Geezer, east to the Pub, or west to the Forest. 
+When you use the map to warp to the village, you start 
+here.
+
+7. The Drunken Druid Pub. From here, you can go inside the 
+pub which has two rooms, west to the Shoppe or east to the 
+Blacksmith.
+
+8. Forest. From here, you can go north to the village, or 
+east to the forest.
+
+Forest - Major Locations
+------------------------
+
+There are eight locations in the forest that get saved to 
+your magical map. These are the Witch's House, the Owl 
+Tree, the Troll Bridge, the Center of the Forest, the 
+Crossroads, the Sleeping Giant, the Dragon's Cave and the 
+Tower of Doom. These locations are all interconnected.
+
+Here's an explanation of how to go from one major location 
+to the major locations nearest to it. This list is not 
+exhaustive, and it is sorted in alphabetical order.
+
+1. From the Center of the Forest, reach the Owl Tree by 
+going west, west, west and west.
+
+2. From the Center of the Forest, reach the Sleeping Giant 
+by going northeast, east, east, east, east, east and east.
+
+3. From the Center of the Forest, reach the Troll Bridge by 
+going west, west, east, and east.
+
+4. From the Crossroads, reach the Troll Bridge by going 
+northwest, west, west and west.
+
+5. From the Dragon's Cave, reach the Tower of Doom by going 
+northeast, northeast, northeast, northeast and east. 
+
+6. From the Forest Entrance, reach the Owl Tree by going 
+east, north, and east.
+
+7. From the Forest Entrance, reach the Troll Bridge by 
+going east, southeast, east, east and east.
+
+8. From the Forest Entrance, reach the Witch's House by 
+going east, southeast, east, southwest and west.
+
+9. From the Owl Tree, reach the Center of the Woods by 
+going east, east, northeast and east.
+
+10. From the Owl Tree, reach the Troll Bridge by going 
+east, east, east and east.
+
+11. From the Sleeping Giant, reach the Dragon Cave by going 
+east and east.
+
+12. From the Troll Bridge, reach the Center of the Forest 
+by going northwest, west, northeast and east.
+
+13. From the Troll Bridge, reach the Crossroads by going 
+east, east, east and east.
+
+14. From the Troll Bridge, reach the Owl Tree by going 
+northwest, west, west and west.
+
+15. From the Troll Bridge, reach the Witch's House by going 
+west, west, southwest and west.
+
+16. From the Witch's House, reach the Troll Bridge by going 
+east, east, east and east.
+
+Forest – Minor Locations
+------------------------
+
+There are a number of minor locations, as well. Here is how 
+to find a minor location, starting from the warp point that 
+is closest to it.
+
+Archeologist Hole: From the Center of the Forest, go west.
+
+Barbarian: Warp to the Owl Tree. Go west and southeast. 
+Alternately, from the Forest Entrance, go east twice. 
+
+Dwarf Mines: In the Center of the Forest.
+
+Fishing Golum: From the Crossroads, go northeast and down 
+the vines in the lower/left.
+
+Goblin Fortress: From the Center of the Forest, go 
+north(west).
+
+Oaf: From the Crossroads, go southwest.
+
+Rapunzel Tower: From the Crossroads, go southeast.
+
+Skull Island: From the Center of the Forest, go northeast, 
+east and east. Go inside the Swampling's House and find the 
+entrance to the area below. From there, go east to Skull 
+Island.
+
+Sousaphone Player: From the Troll Bridge, go left. 
+Alternately, from the Owl Tree, go east, east, and east.
+
+Swampling's House: From the Center of the Forest, go 
+northeast, east and east.
+
+Tree: From the Dragon's Cave, go northeast, northeast, east 
+and east.
+
+Woodcutter: From the Center of the Forest, go east twice.
+
+Wormwood Stump: Warp to the Witch's House and go east 
+twice. Alternately, from the forest entrance, go east, 
+southeast and east.
+
+003-Items
+---------------------------------------------------------
+
+There are a number of items you can find and use in this 
+game. Here is a list of the items, including where they are 
+found and what they are used for.
+
+Axe Head: Found by giving the milrith ore to the blacksmith 
+in the village. Give it to the Woodcutter to get inside the 
+Woodcutter's House.
+
+Beans: Found by using the bucket of water on the oaf's 
+beans. Use them on the compost pile behind the wizard's 
+house to get a watermelon.
+
+Beard: Taken by the sleeping dwarf in the pub, by using the 
+scissors on them. Wear it to get inside the dwarf mine.
+
+Beer: Found outside the pub, after using wax on the beer 
+barrel in the pub. Give it to the dwarf in the dwarf mine 
+to bribe him into letting Simon pass.
+
+Beer Voucher: Found in the pub, after using wax on the beer 
+barrel in the pub. Give it to the dwarf in the dwarf mine 
+in exchange for a jewel.
+
+Book: Found on the cushion in the Tower of Doom. Look at it 
+to learn how to defeat demons.
+
+Book: Found on the bookshelf in the Tower of Doom. Look at 
+it to learn how to destroy wands.
+
+Branch: Found in the garden of the Tower of Doom. It stops 
+the evil chest in the Tower of Doom.
+
+Brochures: Found by talking to the man at the souvenir shop 
+in Rondor. Look at it to find an elastic band.
+
+Broom: Found by winning the magical duel in the witch's 
+cottage. Use it to get to Tower of Doom.
+
+Bucket of Water: Found by using the well at the witch's 
+cottage. You can use it on the oaf's beans to get beans and 
+an empty bucket.
+
+Bucket: Found in the goblin cave. Use it on the Druid's 
+head to help him turn into a frog.
+
+Calypso's Note: Simon has this at the start of the game. He 
+can read it whenever he wants.
+
+Candles: Found inside the chest in the Tower of Doom. They 
+help defeat the demons.
+
+Catapult: Found by using the elastic band on the sapling in 
+Rondor. Use it to ring the fire alarm.
+
+Chemicals: Found at the top of the Tower of Doom. They 
+clean the shield so it is shiny.
+
+Chest: Found in the basement of the Tower of Doom. Open it 
+with the block to get candles.
+
+Clapper: Found near the blacksmith. It is used on the bell 
+outside Rapunzel's Tower.
+
+Climbing Pin: Found in the Woodcutter's House. It helps you 
+proceed from the Dragon's Cave to the Tower of Doom.
+
+Cold Remedy: Found in the Druid's House. Use it on the 
+dragon in the Dragon's Cave to make the creature fall 
+asleep.
+
+Elastic Band: Found by looking at the brochures. Use it 
+with the sapling at Rondor to get a catapult.
+
+Feather: Found near the Wise Owl. Use it on a sleeping 
+dwarf in the dwarf mines to get a key.
+
+Fire Extinguisher: Found in the dragon's cave. Use it on 
+the fireplace in the woodcutter's house to reach his 
+basement.
+
+Flaming Brand: Found in the goblin's cave. Use it on the 
+druid to help him turn into a frog.
+
+Floor Wax: Found by the bridge in Rondor. It is used to 
+defeat the boss of the game.
+
+Fossil: Found by giving the rock to the blacksmith. You can 
+give it to the archeologist, to convince him to dig in the 
+area with mithril.
+
+Frogsbane: Found on top of Skull Island, below the 
+Swampling's House. Give it to the druid to get a potion.
+
+Gem: Found by giving a beer voucher to a dwarf in the 
+mines. Sell it to the Dodgy Geezer to get some gold coins.
+
+Gold Coins: Found by selling a gem to the Dodgy Geezer in 
+the village. Also found by using the rope & magnet on the 
+hole above the dragon's cave. Use coins to by a hammer and 
+white spirit from the Shoppe. Use coins to pay the wizards 
+in the pub. 
+
+Hacksaw: Given to Simon by the Druid, once you hide from 
+the goblins in the iron maiden. Use it on the bars to 
+escape the goblin area.
+
+Hair: From Simon's dog, found after entering the Tower of 
+Doom. It is used on the tap to fill the garden with water.
+
+Hammer: Purchased at the Shoppe, and it comes with a free 
+nail. You can use it or the nail on the loose plank under 
+the Swampling's House.
+
+Hat: Found inside the chocolate house.
+
+Hook: Found in the dwarf mine. It is used on the boulder 
+above the entrance to the Dragon's Cave, so you can access 
+the hole in the roof. 
+
+Key: Found by using the feather on the sleeping dwarf in 
+the dwarf mine. It opens a door in the mine.
+
+Key: Found in the goblin cave, by using paper on the door 
+and the rat bone on the lock, then retrieving the paper. 
+Use it to open the door.
+
+Ladder: Found outside the Druid's house. Use it in 
+Rapunzel's Tower to reach the basement.
+
+Leaf: Found in the garden of the Tower of Doom. It is used 
+as a sail, with the matchstick.
+
+Magic Wand: Found near the mirror in the Tower of Doom. Use 
+it to defeat Sordid, then throw it in the lava.
+
+Magnet: Found on the fridge in the wizard's house. Use it 
+with the rope to get a rope & magnet.
+
+Mahogany: Found in the basement of woodcutter's house. Use 
+it on the woodworm stump to get woodworms.
+
+Map: Simon automatically starts the game with this. Use it 
+to warp to different locations.
+
+Matches: Found on top of the fruit machine in the pub. 
+Simon uses them to smoke bees out, near the chocolate 
+house.
+
+Matchstick: Found by entering the bucket in the garden of 
+the Tower of Doom. It is used as a mast for a sailboat, 
+along with the leaf.
+
+Metal Detector: Given to Simon by the Woodcutter. You can 
+use it in order to find where milrith is buried.
+
+Milrith Ore: You can pick it up, once the archeologist digs 
+in the area where milrith is. Give it to the blacksmith to 
+get the axe head.
+
+Mints: Found in the goblin area, where you meet the Druid. 
+You can use them to melt a snowman.
+
+Mouse: Found by using the pouch and sock on the hole in the 
+steps of the Tower of Doom. It is used to banish the 
+demons.
+
+Mushroom: Found in the garden of the Tower of Doom. Consume 
+it to have Simon return to normal size.
+
+Nail: It comes with the hammer, when you buy it from the 
+shop. Use the hammer or the nail on the plank below the 
+Swampling's house to fix it.
+
+Oil: In the garden of the Tower of Doom, use the stone on 
+the seeds to get oil. You can use it to get the tap in the 
+garden to work.
+
+Paper: It is inside the spell book in the goblin cave. Use 
+it on the door, as part of a puzzle to get the key to the 
+door.
+
+Pebble: Found in the fiery pits of Rondor. It is used with 
+the catapult to ring the bell.
+
+Placard: The sign that is discarded by the troll, once it 
+is defeated.
+
+Postcard: Simon starts the game with this in his inventory. 
+It lets you save, load, continue or quit the game.
+
+Potion: Give frogsbane to the Druid to get the potion. It 
+makes Simon shrink, so he can get inside the Tower of Doom.
+
+Pouch: Found on the bed in the Tower of Doom. Use it with 
+the sock, so you can capture the mouse in the mouse hole.
+
+Rat Bone: Found in the goblin cave. Use it on the lock on 
+the door to push the key out of the lock.
+
+Repulser: Found by kissing Rapunzel in Rapunzel's Tower. It 
+is used to get inside the chocolate house.
+
+Ring: Found by giving swamp stew to the Fishing Golum. 
+Simon uses it to make himself invisible, after he enters 
+the goblin's fotress.
+
+Rock: Found in the Center of the Forest. Read it to learn 
+what the password to the dwarf mines is.
+
+Rock: Found northeast of the dragon's cave. The blacksmith 
+can crack it open to get a fossil.
+
+Rope: Found by the blacksmith. Use it with the magnet to 
+get a rope & magnet.
+
+Rope & Magnet: Found, by combining the rope with the 
+magnet. It is used to get money from the dragon's cave.
+
+Sapling: Found in the fiery pits of Rondor. It is used with 
+the elastic band to make a catapult.
+
+Scissors: Found in the drawer of the wizard's house. Use it 
+on the sleeping dwarf in the bar to get the beard.
+
+Seeds: Found in the garden of the Tower of Doom. Use the 
+stone on them to get oil.
+
+Shield: Found in the Tower of Doom. Use the chemicals to 
+clean it, then hang it on the hook on top of the tower, so 
+you can spy on the demons.
+
+Shopping List: Found in the goblin area. Give it to the 
+shopkeeper, and he will get the groceries ready.
+
+Skull: It is in the basement of the Tower of Doom. Use the 
+spear on it to retrieve it. Use it to get rid of the 
+demons.
+
+Smokebox: Found inside the chocolate house. Use it on the 
+beehive to get bees.
+
+Sock: Found in the Tower of Doom. The mouse likes the smell 
+of the sock, so you can use it to lure the mouse out of its 
+hole.
+
+Sousaphone: Use the watermelon on the man who plays this 
+instrument to get it. Then, use the sousaphone on the 
+sleeping giant to open a path to the east.
+
+Souvenir Matches: Found at the souvenir shop in Rondor. Use 
+it on the cool lava to set it on fire.
+
+Spear: Found in the Tower of Doom. Use it on the skull to 
+knock the skull loose.
+
+Specimen Jar: Found in the Druid's house. Use it on the 
+stew in the Swampling's house to get stew.
+
+Spell Book: Found inside the boxes in the goblin cave. Open 
+it to get a paper.
+
+Staff: Found by defeating the mummy in the basement of 
+Rapunzel's Tower. Give it to the wizards in the pub.
+
+Stone: Found in the garden of the Tower of Doom. Use it on 
+the seeds to get oil.
+
+Tadpole: Found in the pool of the Tower of Doom. Pick it up 
+and threaten to hurt it, in order to get past the frog.
+
+Watermelon: Found by using the beans on the compost pile 
+behind the wizard's house. Use it on the sousaphone to get 
+the sousaphone.
+ 
+Wedge: Found when you open the mummy's tomb in the basement 
+of Rapunzel's Tower.
+
+Whistle: Take the thorn out of the barbarian's foot, and he 
+gives it to you. The troll will attempt to steal it, which 
+leads to his doom.
+
+White Spirit: You can buy this from the Shoppe. Use it on 
+the pink splodge on the tree in order to learn magic words.
+
+Wizkid Wallet: You get this after giving the staff and the 
+gold coins to the wizards in the pub. It lets you fight the 
+witch.
+
+Woodworm: Found by giving mahogany to the woodworms in the 
+stump. You can use them to destroy the floorboards in 
+Rapunzel's Tower.
+
+004-Walkthrough
+---------------------------------------------------------
+ 
+There are many puzzles in this game, some of which have to 
+be done in a certain order. I grouped together various 
+related puzzles, but you can solve them in a different 
+order, if you so wish.
+
+Village
+-------
+
+You might as well begin by collecting all the items in the 
+village. Take the magnet from the fridge in the cottage, 
+then open the dress drawer and take the scissors.
+
+Leave the wizard cottage and go east to the blacksmith. He 
+won't talk to Simon. Take his rope and clapper.
+
+Go east to the Dodgy Geezer. He starts a conversation with 
+you, in an attempt to sell you overpriced goods. Ignore 
+him, then go west to the Druid's House. Take the ladder 
+here, then go inside the house. Take the cold remedy and 
+the specimen jar here.
+
+Leave the Druid's House. If you go west, you reach the 
+chocolate house. You can't get inside that yet, so go east 
+twice. You reach the Shoppe, where you can buy things once 
+you have money.
+
+Go east to the Pub. Open the door and go inside. Pick up 
+the matches on top of the fruit machine on the left, and 
+use the scissors on the sleeping dwarf to get his beard.
+
+Talk to the various characters here, if you want. Whenever 
+you ask the bartender for a drink, he spends some time 
+looking behind the bar. Go to the room to the right to meet 
+the wizards. They say they will help Simon become a wizard, 
+if he can retrieve a special staff.
+
+Exit the bar, then go west twice to reach the forest 
+entrance.
+
+Forest Exploration
+------------------
+
+The first thing I recommend doing in the forest is 
+exploring. Use the locations section on the map to help you 
+out, and try to find the major locations. There are several 
+characters and things to see here, including a barbarian, 
+the wise owl, a lazy oaf and more.
+
+Once you've had your fill of exploring, it's time to solve 
+some puzzles. Let's start with the puzzles that help you 
+explore new areas of the forest.
+
+Go to the barbarian and talk to him. Offer to remove the 
+thorn from his foot. He will be happy, and he gives Simon a 
+whistle.
+
+Go to the Troll Bridge. The troll is on strike, refusing to 
+let the Billy Goats Gruff (or anyone else) past the bridge. 
+Talk to the troll, and it is interested in Simon's whistle. 
+Give the whistle to the troll. The troll uses the whistle, 
+and the barbarian comes to attack the troll.
+
+You can now access the crossroads and some new areas. Near 
+the crossroads is an oaf. His magic beans don't work. Go to 
+the witch's house and move the crank to get a bucket of 
+water. Return to the oaf and have him use the bucket of 
+water on the beans. Simon will leave the screen after this. 
+Return to the screen and pick up the beans. 
+
+Return to the village. Specifically, go to the wizard's 
+house. A compost pile is located behind the house. Use the 
+beans on the compost to get a watermelon.
+
+Go to the sousaphone player, near the troll bridge. Simon 
+hates his music, so use the watermelon on the sousaphone. 
+You receive a sousaphone for your troubles.
+
+Go to the sleeping giant and use the sousaphone to get 
+access to the area with the dragon's cave. You can't go too 
+far beyond that, because there is a missing peg. That peg 
+can be found in the woodcutter's house, once you fix his 
+axe during the staff plotline.
+
+Helping Rapunzel
+----------------
+
+The plotline with Rapunzel results in Simon getting 
+beeswax, for the Dwarf Mines plotline.
+
+Go to Rapunzel's Tower, near the crossroads. Use the 
+clapper from the blacksmith on the bell, so you can ring 
+the bell. Once you ring the bell, Rapunzel lets down her 
+hair. Use the hair to climb up the tower.
+
+Rapunzel is here, and Simon immediately takes a shine to 
+her. Could it be that Simon has found love? Talk to her to 
+learn that she is cursed. Have Simon break the curse by 
+kissing her. Rapunzel then turns into a pig.
+
+Go to the village, and head to the chocolate house. Use 
+Rapunzel on the door to have her eat it. Go inside, then 
+pick up the smokebox. Also, get the beekeeper hat.
+
+Leave the house, and use the smokebox on the beehive. If 
+you haven't picked up the beekeeper hat or the matches from 
+the fruit machine in the pub, it won't work. Using the 
+smokebox on the beehive results in Simon getting some wax.
+
+Dwarf Mines
+-----------
+
+The plotline about the dwarf mines involves the thing 
+dwarves love most: beer. Go through this plotline to get a 
+gem, which can be sold to the Dodgy Geezer for money.
+
+You'll need a few things before you can solve this 
+plotline.
+
+1. You need a feather from the Wise Owl. Talk to him to get 
+it to fall on the ground.
+2. You need a beard. Use the scissors on the dwarf in the 
+pub to get it.
+3. You need the rock, found in the Center of the Forest. 
+Look at it to learn what the password to the dwarf mines 
+is.
+4. You need beer and a beer voucher from the pub.
+
+To get the beer and beer voucher, you need the beeswax. You 
+can get this from the beehive outside the chocolate house, 
+after solving the Rapunzel storyline. Simply use Rapunzel 
+on the house's door, retrieve the beekeeping equipment from 
+inside the house, and use it on the beehive to get wax. You 
+also need the matches from the pub to use the beekeeping 
+equipment.
+
+When you have the wax, go to the pub and ask the bartender 
+for a drink. While he looks for ingredients, use the wax on 
+the beer barrel to plug it up. This tricks him into 
+thinking the barrel is empty, because whenever he presses 
+the spigot, no beer comes out.
+
+The bartender puts the barrel of beer outside, and he gives 
+Simon a brochure containing a free beer voucher. Leave the 
+pub, then take the barrel of beer.
+
+Once you have all four of the items you need, go to the 
+Center of the Forest. Wear the beard, then go into the 
+entrance to the dwarf mine. If you've looked at the stone 
+which was found in this area, you'll know the correct 
+password is "Beer".
+
+Once you give the password, you make it inside. The area to 
+the west is blocked by a guard. Use the barrel of beer on 
+the guard, and he goes to the southeast. Follow him there.
+
+This is a drinking room. Use the feather on the sleeping 
+dwarf to get the key. Then, go up the stairs and then go 
+down the stairs to the west. Take the hook here, then use 
+the key on the gold door. Go inside.
+
+This room has many gems, and an angry guard. Talk to him, 
+and offer to give him something useful. If he kicks you 
+out, simply re-enter the room and try again. Once he's 
+willing to listen to you, give him the beer voucher.
+
+He is happy to get a free beer, and he asks what he can 
+give you in return. Ask for a gem. You can use this gem on 
+the Dodgy Geezer in the village to get many gold coins.
+
+Goblin Plotline
+---------------
+
+From the Center of the Forest, go to the northwest exit. 
+This leads to the Goblin Fortress. There is a grocery list 
+on the ground here. Pick it up, then go to the Shoppe at 
+the village. The shopkeepers agree to set out the groceries 
+sometime in the future.
+
+The groceries do not appear until Simon gets the ring. 
+Getting the ring isn't too difficult, though.
+
+Go to the Swampling's House and talk to the Swampling. 
+Agree to eat its stew. Use the specimen jar (from the 
+Druid's House in the village) on the stew to get a jar of 
+stew.
+
+Either use the map or leave the house when the Swampling 
+isn't paying attention. Go to the crossroads, then go 
+north. Climb down the vines to find Golum, who is a big fan 
+of Tolkien novels. He is fishing for food. Give him the jar 
+of stew, and he lets Simon fish.
+
+Simon fishes for a while, and he finds the famous ring that 
+Tolkien wrote so much about. Return to the village. The box 
+of groceries has appeared outside the Shoppe now. Open the 
+box to get taken to the goblin area.
+
+Simon finds himself inside a locked cave. How can he 
+escape?
+
+Open the box to stand up. Pick up the rat bone. Look at the 
+boxes to get the spell book, then open the spell book to 
+get a piece of paper.
+
+Time for a puzzle which is slightly complicated. The 
+goblins left the key inside the lock on the door. Use the 
+paper on the door, to push the paper through the crack at 
+the bottom of the floor. Then, use the rat bone on the 
+lock. This causes the key to fall out of the lock and onto 
+the paper on the floor. Pick up the paper to retrieve the 
+key, then use the key to open the door.
+
+Pick up the bucket here and go downstairs to meet the 
+Druid. He lives in a house in the village, but he's been 
+captured by the goblins. Talk to him, and he will believe 
+that Simon is evil.
+
+Remove the ring, then talk to the Druid again. He will 
+eventually be convinced that Simon is there to help. He 
+says that if Simon can make a full moon, he (the Druid) 
+will turn into a frog and escape.
+
+Take the firebrand in this room, as well as the mints. Put 
+the bucket on the Druid's head, then use the flaming brand 
+on the Druid. Simon puts the brand near the circular hole 
+in the bucket, so when the Druid looks through the hole, it 
+looks sort of like a full moon.
+
+The Druid turns into a frog and hops off.
+
+Simon has to hide until the frog returns, so open the iron 
+maiden. This helps him avoid the goblins. The frog returns 
+with a hacksaw. Pick up the hacksaw, then use it on the 
+bars to break them. Go east through the bars, then east 
+again to reach the Center of the Forest.
+
+Staff Plotline
+--------------
+
+The wizards at the pub asked Simon to get a wizard's staff. 
+Finding it is a bit of a challenge.
+
+Go to the woodcutter's house. Talk to him to learn that he 
+is upset. He can't cut the trees here, unless he has an axe 
+head made out of milrith. Offer to find the milrith for 
+him, and he gives you a metal detector.
+
+Go to the area with the sleeping giant. The snowy hills are 
+where you'll find milrith. Use the metal detector on the 
+various snowy locations here until you find the milrith; 
+it's on the same screen as a wizard statue.
+
+Simon finds the milrith, all right, but he can't dig it up 
+by himself. He leaves the metal detector there.
+
+Go to the Dragon's Cave. If you haven't been there yet, you 
+need to use the sousaphone on the sleeping giant to get 
+access to this area. To get the sousaphone, use the crank 
+at the Witch's House to get a bucket of water. Give it to 
+the Oaf, and you can get a bean. Use it on the compost pile 
+at the wizard's house for a watermelon, and use the 
+watermelon on the sousaphone.
+
+When you first go inside the dragon's cave, the dragon 
+frightens Simon. Use the cold remedy from the Druid's house 
+on the dragon to make it fall asleep. You can then take the 
+fire extinguisher from the cave.
+
+Leave the dragon's cave, then go northeast. Pick up the 
+rock here. Look at it to see it has a fossil.
+
+Go to the village and give the rock to the blacksmith to 
+get the fossil. Then, go to the Archeologist, who is one 
+screen west of the Center of the Forest.
+
+Talk to the archeologist, if you haven't already. Give him 
+the fossil, then lie to him and say you found it in the 
+snowy area, near the metal detector. The archeologist 
+leaves to dig in that place.
+
+Return to the snowy area. Milrith is scattered all around 
+the area where the archeologist is digging. Pick it up, 
+then return to the village. Give the milrith ore to the 
+blacksmith to get an axe head made of milrith.
+
+Return to the woodcutter and give him the axe head. He 
+leaves to cut down trees. You can now enter his house.
+
+Inside the woodcutter's house, pick up the climbing pin. 
+Use the fire extinguisher on the fireplace, then move the 
+hook to enter the basement. On a shelf on the left, you can 
+pick up mahogany.
+
+Go to the woodworm stump. The woodworms here want to eat 
+some mahogany. Give it to the woodworms, and you get some 
+mahogany filled with woodworms.
+
+Go to Rapunzel's tower. If you haven't already finished the 
+Rapunzel storyline, do it now. It's not too difficult; 
+simply use the clapper from the blacksmith on the bell 
+here, then move the bell. Use the hair to climb up the 
+tower, then kiss Rapunzel.
+
+Use the hair to climb up Rapunzel's Tower once she is no 
+longer there, and use the woodworms on the floorboards 
+here. They eat a hole through the floor, and Simon falls to 
+the ground level.
+
+You can open the door here, to get outside. See the hole on 
+the ground? Use the ladder (from outside the Druid's House) 
+on the hole. Climb down to reach a mummy's tomb.
+
+Open the tomb, and the mummy comes out. Oh no! Simon runs 
+away.
+
+Return to the mummy's tomb. Open it, and this time, pick up 
+the loose bandage near the mummy's back. This defeats the 
+mummy and gets the staff. That's the staff the wizards 
+wanted! Return to the pub and give it to them.
+
+Fighting the Witch
+------------------
+
+The Witch in the Witch's House wants to fight a magical 
+duel against Simon, but he is woefully unprepared. He needs 
+to know magic words, and he needs to be an official wizard.
+
+To become a wizard, Simon must get the staff and give it to 
+the wizards in the right room at the pub. They have a 
+thirty coin membership fee.
+
+Simon can get some coins, by selling the gem from the Dwarf 
+Mine to the Dodgy Geezer. This isn't enough money, however.
+
+Go to the Dragon's Cave. Use the hook (from the Dwarf Mine) 
+on the boulder, above the entrance to the cave. You can now 
+walk to the boulder, so Simon is on the top of the cave.
+
+There's a hole here. If you haven't already, use the magnet 
+(from the fridge in the wizard's house) with the rope (from 
+the blacksmith's area) to get a magnet & rope. Use the 
+magnet & rope on the hole to get some gold coins. Do this 
+three times.
+
+Simon now has enough gold coins. Give them to the wizards, 
+and Simon becomes a sorcerer. It's a simple as that.
+
+Simon still needs to learn some magic words, however. Go to 
+the Tree, four screens east of the Dragon's Cave. It claims 
+to know magic words, and it promises to teach you the words 
+if you help it.
+
+Go to the Shoppe and pick up the White Spirit to purchase 
+it. Return to the tree, then use the White Spirit on the 
+pink paint on the tree. The tree then teaches Simon the 
+four magic words.
+
+Go to the Witch's Cottage, once you know the magic words 
+and once the wizards have made Simon a wizard. Try picking 
+up her broom, and she agrees to have a magical duel with 
+Simon.
+
+The duel is simple. Simon can say a magic word to turn him 
+into an animal.
+
+Alakazam turns him into a snake.
+Hocus Pocus turns him into a cat.
+Sausages turns him into a dog.
+Abracadabra turns him into a mouse. 
+
+The Witch also turns into an animal. Whoever picks a better 
+animal than the other person gets a point. Dog beats snake, 
+snake beats cat, and cat beats dog. If Simon and the Witch 
+pick the same animal, that round is a draw.
+
+The competition goes on for five rounds. Whoever has the 
+most points at that time wins. If the score is tied, the 
+game keeps going until the tie is broken.
+
+The animal the witch chooses is randomly determined. You'll 
+just have to be lucky in picking animals that defeats the 
+Witch's animals. If you lose, simple re-enter the cottage 
+and try again.
+
+Don't use the mouse in the duel, because the mouse always 
+loses.
+
+Once you win the duel, the Witch gives you the broom. She 
+then turns into a dragon, promising to kill you. Say 
+"Abracadabra!" to turn into a mouse, then exit through the 
+mouse hole in the back of the house.
+
+Entering the Tower of Doom
+--------------------------
+
+Simon needs a few things before he can reach the Tower of 
+Doom.
+
+1. The climbing peg, from inside the woodcutter's house.
+2. The mints, from the goblin area where he met the Druid.
+3. The Witch's broomstick.
+
+By this point, you need to have finished all the other 
+plotlines. Entering the Tower of Doom is the last plotline 
+of the game.
+
+Go to the Dragon's Cave, and go northeast twice. Use the 
+climbing peg on the wall, where the missing climbing peg 
+should go. This allows you to keep climbing. Simon meets an 
+angry snowman. Consume the mints to kill the snowman, and 
+continue going towards the Tower of Doom.
+
+The bridge to the tower collapses. Use the broomstick to 
+get across the gap. Simon finds himself at the entrance to 
+the tower...which is locked.
+
+Simon needs to use a magic potion to get through the door.
+
+Go to the Druid's House and ask him for a potion. He turns 
+into a frog before he can help you.
+
+Go to the Shoppe and purchase a hammer. Now, go to the 
+Swampling's House. If you haven't already, consume all the 
+soup so the Swampling is forced to leave.
+
+Move the chest here to reveal a trapdoor. Open the door 
+then climb down the ladder to reach a wooden walkway. When 
+you try to walk right, Simon finds a loose board. Use 
+either the hammer or the nail on the board to fix it.
+
+Go east to find Skull Island. Take the frogsbane from the 
+top of the island. Return to the Druid's House and give the 
+frogsbane to the Druid. He will give you the potion.
+
+Honey, I Shrunk the Sorcerer
+----------------------------
+
+Go to the Tower of Doom. Use the broomstick to cross the 
+gap, if needed, then consume the potion. Simon shrinks to a 
+small size, which causes him to lose all his items, except 
+the postcard.
+
+Simon enters the tower. For some reason, his dog is there. 
+Chippy the Dog takes Simon outside to the garden, and Simon 
+manages to get a hair from Chippy.
+
+The garden here has some nice mushrooms which will make 
+Simon grow to normal size. The bad news is that they're on 
+the other side of a puddle. With Simon at his current size, 
+the puddle is more like a lake.
+
+Pick up the leaf and the stone here. Look at the bucket, 
+and Simon finds a matchstick. Go west a screen.
+
+There's a lily leaf on the pond here. Attempt to pick it 
+up, and it moves closer to the shore. Time for Simon to 
+create a makeshift sailboat! Use the matchstick on the lily 
+leaf, then use the leaf on the matchstick. The matchstick 
+serves as a mast, and the leaf serves as a sail. You can 
+now go west.
+
+Uh oh...going west doesn't work, because the pond is too 
+small. You'll have to turn on the tap to get more water.
+
+Go to the screen with the tap. Get the seeds from the top-
+left part of this screen. Use the stone on the seeds to get 
+oil. Use the oil on the tap to loosen up the rust, then use 
+the dog hair on the tap to turn it on.
+
+Now there's enough water to go west. Do so. A frog blocks 
+the path to the left, so pick up the tadpole that is in the 
+water. Talk to the frog and threaten to hurt the tadpole if 
+it doesn't move. The frog leaves.
+
+Pick up the mushroom that you can now reach. Eat the 
+mushroom, and Simon returns to normal size.
+
+The Tower of Doom
+-----------------
+
+The Tower of Doom belongs to the evil Sordid. Simon's goal 
+is to use the teleporter on top of the tower to reach the 
+area where Sordid is.
+
+Pick up a tree branch here, then open the door to the 
+tower. Go inside, and Simon will be scared by an evil 
+treasure chest. Go back inside the tower, then use the 
+branch on the treasure chest to lock its jaws into place, 
+making it harmless.
+
+There are four levels to the Tower of Doom. Here on the 
+main floor, all you can do is get the shield and the spear.
+
+Go down to the basement. Here, you can use the spear on the 
+skull in the upper/left. This knocks over the skull, so you 
+can pick it up.
+
+There is a treasure chest across the bridge. This chest 
+contains candles. There is also a lever which controls a 
+smashing block above the lever. Try moving the lever a few 
+times to see how it works.
+
+Pick up the treasure chest, then move the lever so the 
+smashing block is up. Now, use the chest on the block which 
+is below the smashing block and above the lever. Move the 
+lever again so the smashing block comes down and smashes 
+the chest open. Move the lever another time to move the 
+smashing block up, so you can pick up the candles.
+
+The skull and the candles are all you can get in the 
+basement. Go up two floors to reach some kind of bedroom. 
+Pick up the magic wand which is in front of the mirror, 
+pick up the sock on the floor and the pouch on the bed.
+
+There's a mouse hole here, inside the steps. If you use the 
+sock on the hole, the mouse comes out. Use the sock on the 
+pouch, to put the sock inside the pouch. Then, use the 
+pouch on the hole. The mouse goes out to find the sock, and 
+it gets captured in the pouch.
+
+The mirror here is a magical mirror, which can show you 
+anywhere in the world, provided a shiny, reflective surface 
+is nearby. Simon doesn't want to use the mirror yet.
+
+Go upstairs, to the top floor. Here, there are two demons. 
+Talk to them to learn that they are being forced to work 
+for Sordid, when all they want to do is return to Hell. 
+They'll agree to teach Simon how to work the teleporter 
+here, if he can send them to Hell.
+
+Get the book here. Look at it to learn how to get rid of 
+demons. He needs a magic square, candles from the basement, 
+a skull from the basement, the mouse from the bedroom, and 
+he needs to know the demons' true names.
+
+If you ask the demons for their true names, they refuse to 
+give Simon that information.
+
+Pick up the chemicals here. Use the chemicals on the shield 
+to make it shiny, then use the shield on the hook. Go down 
+one floor, to the bedroom. Talk to the mirror and ask it to 
+show you the demons. Because the demons are alone, and they 
+don't think anyone is watching them, they use their true 
+names.
+
+Simon should have everything he needs now. Go back to the 
+top floor and tell the demons that you're going to draw a 
+magic square. One of the demons lends you chalk, so you can 
+do this. Simon sends the demons back to Hell, and he learns 
+how to use the teleporter.
+
+Using the teleporter is simple. Just walk to it, and say 
+your destination. You only have one choice: the fiery pits 
+of Rondor.
+
+The Fiery Pits of Rondor
+------------------------
+
+We're here in Rondor. The evil Sordid is here, too. Simon 
+needs to defeat Sordid, before Sordid turns more people 
+into stone. For good measure, Simon should also throw 
+Sordid's wand into the fiery pits, in order to prevent 
+Sordid from using magic in the future.
+
+It turns out that Rondor is a tourist attraction. Talk to 
+the attendant to get some brochures. Sadly, the attendant 
+won't let you into the fiery pits unless you pay a fee.
+
+Time to figure out a way to get rid of the attendant. 
+Setting off the fire alarm should do the trick, but it's 
+too far for Simon to reach. He needs a slingshot.
+
+Look at the brochure to get an elastic band. Pick up the 
+sapling here, and pick up the pebble. Use the band on the 
+sapling to get the catapult. Use the catapult on the bell, 
+and the attendant runs away.
+
+Pick up the matches on the counter of the souvenir stand, 
+then go east. Cross the bridge and pick up the floor wax. 
+Go east again, and Simon meets the evil Sordid. Sordid is 
+upset, because the fire alarm set off the water sprinklers 
+on the ceiling, putting out the fire in the fiery pits.
+
+Quickly, use the magic wand on Sordid to turn him to stone. 
+Ha! Sordid's own wand was used to defeat him! We still need 
+to destroy the wand, however. Set the fiery pits on fire 
+again, by using the matches on the pits. The lava starts 
+flowing, and you should use the wand on the lava to destroy 
+the wand.
+
+Simon realizes, a bit too late, that destroying Sordid's 
+wand will cause Sordid to come back to life. Once Sordid is 
+alive again, he vows to kill Simon. A phone call interrupts 
+the confrontation. The person on the phone is the wizard 
+Calypso, who asks Simon to stall Sordid for a bit.
+
+Tell Sordid whatever you want in the ensuing conversation. 
+Either way, Sordid throws Simon out of the room and into a 
+pit of razor-sharp spikes. Simon manages to survive, 
+fortunately.
+
+Time for Simon to defeat Sordid for good. Go east, and use 
+floor wax on Sordid. Sordid doesn't look where he's going, 
+so he slips and falls on the floor wax. Sordid lands right 
+in the lava, and he explodes. That's the end of the game.

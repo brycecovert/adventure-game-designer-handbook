@@ -1,0 +1,277 @@
+<!doctype html>
+
+<!--[if lt IE 7]> <html lang="en-gb" class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-gb" class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-gb" class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-gb"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Loom</title> 
+  
+  <meta name="keywords" content="archive,let's,play,Bobbin Threadbare,Loom,screenshot,voice,challenges,dual-audio" /> 
+  <meta name="description" content="Let's Play Loom by Bobbin Threadbare" /> 
+  <meta name="author" content="Bobbin Threadbare" /> 
+  
+	<link rel="stylesheet" href="/style/2012/archive-2.0.6.css" media="screen" /> 
+    
+  <meta name="viewport" content="width=960" />
+
+  <script type="text/javascript">
+    (function(html){html.className = "live";})(document.documentElement||document.body);
+  </script>
+
+  <script src="/script/jquery-1.7.1.min.js"></script>
+  <script src="/script/jquery.ba-outside-events.min.js"></script>
+  
+  <script src="/script/2012/globals.js"></script>
+  <script src="/script/2012/readinghistory-1.0.1.js"></script>
+
+	<script type="text/javascript">
+	/* <![CDATA[ */
+		// remove ugly anchor from search results. Looks like users without JS will need to live with it.
+		var url = window.location.toString();
+		if(url.indexOf('#') != -1) { window.location = url.split('#')[0]; }
+
+    var preload = new Image();
+    preload.src = "/site_images/tag_add.png";
+    preload.src = "/site_images/tag_del.png";
+  
+    lpid = 21359;
+    historyTitle = "Loom by Bobbin Threadbare";
+
+    $(document).ready(displayUpdatedHistory);
+
+    current_tags = ["7","9","12"];
+
+    addtag_html='        Tag it!';
+    deltag_html='        Untag it!';
+
+		$(document).ready(function() {
+			$("div#popups").html("    <div class=\"message\" id=\"likeit\"><strong>Thanks! We like it too.</strong>Why not check out some similar LPs from our recommendations?</div> \
+    <div class=\"message\" id=\"tagit\"> \
+      <strong>What would you like to tag this LP as?</strong> \
+      <div class=\"tagrow\"> \
+        <span>Tag</span> \
+  			<select id=\"tagselect\">        <option value=\"9\">challenges</option> \
+        <option value=\"11\">co-op</option> \
+        <option value=\"14\">completionist</option> \
+        <option value=\"12\">dual-audio</option> \
+        <option value=\"6\">group</option> \
+        <option value=\"15\">high-definition</option> \
+        <option value=\"5\">humorous</option> \
+        <option value=\"4\">informative</option> \
+        <option value=\"10\">narrative</option> \
+        <option value=\"8\">subtitles</option> \
+        <option value=\"7\">voice</option> \
+        </select> \
+        <button class=\"addtag\" id=\"tagbutton\" onclick=\"return tagPopdown();\">        Tag it!        </button> \
+      </div> \
+		</div>");
+		});
+
+	/* ]]> */
+  </script>
+  <script src="/script/2012/archive.js"></script>
+</head> 
+<body>
+  <div class="header">
+    <a class="index-link" href="/">
+      &nbsp;<span class="logo"><i title="The Let's Play Archive">&nbsp;</i></span>
+    </a>
+  </div>
+  
+  <h1 class="indexhead">The Let's Play Archive</h1>  <h1><a href=".">Loom</a></h1>
+	<h2><span>by</span> <a href="/author/Bobbin%20Threadbare">Bobbin Threadbare</a></h2>  
+  <div id="details" class="info">
+    <ul id="statistics">
+      <li>Began on <strong>May 15, 2011</strong></li>
+      <li>Ended on <strong>May 21, 2011</strong></li>
+      <li>This LP has <strong>5</strong> parts.</li>
+      <li id="archival">Added to the archive on <strong>May 31, 2011</strong></li>
+    </ul>
+    
+    <ul id="tags">
+      <li id="controls">
+				<a href="#" class="like" title="Like this LP" onclick="return likePopup()"><span class="button"><i class="func-like">&nbsp;</i></span> Like</a>
+        <a href="#" class="tag" title="Tag this LP" onclick="return tagPopup()"><span class="button"><i class="func-tag">&nbsp;</i></span> Tag</a>
+				</li>
+      <li id="taglist">
+This LP is tagged with: <strong><a href="/?tags=screenshot">screenshot</a>, <a href="/?tags=voice">voice</a>, <a href="/?tags=challenges">challenges</a>, <a href="/?tags=dual-audio">dual-audio</a></strong>
+      </li>
+    </ul>
+    
+    <div id="popups">
+  	<!-- asd -->
+      <div class="message" id="likeit"><strong>Thanks! We like it too.</strong>Why not check out some similar LPs from our recommendations?</div>
+      <div class="message" id="tagit">
+        <strong>What would you like to tag this LP as?</strong>
+        <div class="tagrow">
+          <span>Tag</span>
+          <select id="tagselect">
+          <option value="9">challenges</option>
+        <option value="11">co-op</option>
+        <option value="14">completionist</option>
+        <option value="12">dual-audio</option>
+        <option value="6">group</option>
+        <option value="15">high-definition</option>
+        <option value="5">humorous</option>
+        <option value="4">informative</option>
+        <option value="10">narrative</option>
+        <option value="8">subtitles</option>
+        <option value="7">voice</option>
+          </select>
+          <button class="addtag" id="tagbutton" onclick="return tagPopdown();">
+          Tag it!  
+          </button>
+        </div>
+      </div>
+    </div>
+    
+    <p id="thread">Original Thread: <a id="threadlink" href="http://forums.somethingawful.com/showthread.php?threadid=3412494">Ask me about LOOM</a></p>
+<p id="similar">&nbsp;</p>  
+  </div> 
+
+  
+
+
+  <div id="content" class="cblock">
+<h1>Introduction</h1>
+		<img src="Images/1-Loom01.png" alt="" class="img" border="0"><br />
+<br />
+You mean the latest masterpiece of fantasy storytelling from Lucasfilm's&trade; Brian Moriarty&trade;?<br />
+<br />
+<img src="Images/2-Ad.gif" alt="" class="img" border="0"><br />
+<br />
+Why it's an extraordinary adventure with an interface of magic, stunning, high-resolution, 3D landscapes, sophisticated score and musical effects.  Not to mention the detailed animation and special effects, elegant point 'n' click control of characters, objects, and magic spells.<br />
+<br />
+Beat the rush!  Go out and <a href="http://store.steampowered.com/app/32340/" target="_blank" rel="nofollow">buy Loom&trade; today!</a><br />
+<br />
+<br />
+I was young when I first played Loom, probably around 7 or 8.  I didn't get a third of the vocabulary, half the puns, or any of the references, but what I did know was that this game could take me to a magical land unlike any magical land I had ever seen before.  And with as much as I've read, played, and watched in the years since I beat this game, the world of Loom seems just as unique now as it did almost twenty years ago.<br />
+<br />
+Now if you'll follow me, the guided tour begins just over here.<br />
+<br />
+<a href="http://tindeck.com/listen/imxx" target="_blank" rel="nofollow"><img src="Images/3-stats.png" alt="" class="img" border="0"></a><br />
+<br />
+Do yourself a favor and listen to this either first or last (with many thanks to cupcoffee for posting it).<br />
+<br />
+<h1>Videos</h1>
+<table>
+<col width="99%">
+<tr><td>Part 1</td><td><a href="http://www.youtube.com/watch?v=ydCFUgE5B_M" target="_blank" rel="nofollow">YouTube</a></td>
+<td><a href="http://polsy.org.uk/play/yt/?vurl=http://www.youtube.com/watch?v=ydCFUgE5B_M" target="_blank" rel="nofollow">(Polsy)</a></td>
+<td><a href="http://www.dailymotion.com/video/x16i36q_let-s-play-loom-part-1_videogames" target="_blank" rel="nofollow">DailyMotion</a></td>
+</tr>
+<tr><td>Part 2</td><td><a href="http://www.youtube.com/watch?v=2NMVw5Eq-YM" target="_blank" rel="nofollow">YouTube</a></td>
+<td><a href="http://polsy.org.uk/play/yt/?vurl=http://www.youtube.com/watch?v=2NMVw5Eq-YM" target="_blank" rel="nofollow">(Polsy)</a></td>
+<td><a href="http://www.dailymotion.com/video/x16i39n_let-s-play-loom-part-2_videogames" target="_blank" rel="nofollow">DailyMotion</a></td>
+</tr>
+<tr><td>Part 3</td><td><a href="http://www.youtube.com/watch?v=L4yCWAAv-mk" target="_blank" rel="nofollow">YouTube</a></td>
+<td><a href="http://polsy.org.uk/play/yt/?vurl=http://www.youtube.com/watch?v=L4yCWAAv-mk" target="_blank" rel="nofollow">(Polsy)</a></td>
+<td><a href="http://www.dailymotion.com/video/x16i3b8_let-s-play-loom-part-3_videogames" target="_blank" rel="nofollow">DailyMotion</a></td>
+</tr>
+<tr><td>Part 4</td><td><a href="http://www.youtube.com/watch?v=b0aU8asD6nc" target="_blank" rel="nofollow">YouTube</a></td>
+<td><a href="http://polsy.org.uk/play/yt/?vurl=http://www.youtube.com/watch?v=b0aU8asD6nc" target="_blank" rel="nofollow">(Polsy)</a></td>
+<td><a href="http://www.dailymotion.com/video/x16i3e0_let-s-play-loom-part-4_videogames" target="_blank" rel="nofollow">DailyMotion</a></td>
+</tr>
+<tr><td>Part 5</td><td><a href="http://www.youtube.com/watch?v=q39-V9jHNHY" target="_blank" rel="nofollow">YouTube</a></td>
+<td><a href="http://polsy.org.uk/play/yt/?vurl=http://www.youtube.com/watch?v=q39-V9jHNHY" target="_blank" rel="nofollow">(Polsy)</a></td>
+<td><a href="http://www.dailymotion.com/video/x16i3jn_let-s-play-loom-part-5_videogames" target="_blank" rel="nofollow">DailyMotion</a></td>
+</tr>
+</table>
+<br />
+<b>Drafts encountered</b><br />
+<br />
+<img src="Images/4-bop01.jpg" alt="" class="img" border="0"><br />
+<br />
+While most sequences change from one playthrough to another, two will always remain the same:  Opening and Transcendence.  The reason is actually pretty simple:  both are cast during cutscenes and thus cannot be rearranged.<br />
+<br />
+<img src="Images/5-bop02.jpg" alt="" class="img" border="0"><br />
+<br />
+Possible sequences:  CCCD, CDCD, DDCD<br />
+<br />
+<img src="Images/6-bop03.jpg" alt="" class="img" border="0"><br />
+<br />
+Possible sequences:  CCCE, DDDE, DEDC<br />
+<br />
+<img src="Images/7-bop04.jpg" alt="" class="img" border="0"><br />
+<br />
+Possible sequences:  DCCD, CDDC<br />
+<br />
+<img src="Images/8-bop05.jpg" alt="" class="img" border="0"><br />
+<br />
+Possible sequences:  GEED, GFFE<br />
+<br />
+<img src="Images/9-bop06.jpg" alt="" class="img" border="0"><br />
+<br />
+Fun fact:  throughout the game, the only thing Transcendence creates is swans.<br />
+<br />
+<img src="Images/10-bop11.jpg" alt="" class="img" border="0"><br />
+<br />
+Possible sequences: DFFD, EFFE<br />
+<br />
+<img src="Images/11-bop12.jpg" alt="" class="img" border="0"><br />
+<br />
+Possible sequences: CDDF, CFCC, FDDE<br />
+<br />
+<img src="Images/12-bop13.jpg" alt="" class="img" border="0"><br />
+<br />
+Possible sequences: AAAG, CDDA<br />
+<br />
+<img src="Images/13-bop14.jpg" alt="" class="img" border="0"><br />
+<br />
+Possible sequences: GCGC, GCCD<br />
+<br />
+<img src="Images/14-bop21.jpg" alt="" class="img" border="0"><br />
+<br />
+Possible sequences:  CAAC, ACCA<br />
+<br />
+<img src="Images/15-bop22.jpg" alt="" class="img" border="0"><br />
+<br />
+Possible sequences:  FAAF, ADDA<br />
+<br />
+<img src="Images/16-bop23.jpg" alt="" class="img" border="0"><br />
+<br />
+Possible sequences:  AFED, AGFE<br />
+<br />
+<b>Drafts never encountered</b><br />
+<br />
+<img src="Images/17-bop07.jpg" alt="" class="img" border="0"><br />
+<br />
+Admittedly, Summoning is the draft that kicks off the plot, but Bobbin will never hear the sequence for it or cast it himself.<br />
+<br />
+<img src="Images/18-bop15.jpg" alt="" class="img" border="0"><br />
+<br />
+Desire is sort of a mirror twin to Terror.  They use similar images, plus they're placed opposite each other in the manual.<br />
+<br />
+<img src="Images/19-bop16.jpg" alt="" class="img" border="0"><br />
+<br />
+I imagine this is what the bells are enchanted with.<br />
+<br />
+<img src="Images/20-bop24.jpg" alt="" class="img" border="0"><br />
+<br />
+Interesting tidbit:  if you pay attention to the stated dates, you'll notice that the wizard who used Tremblor in the game's backstory did so after the draft's official banning.<br />
+<br />
+<img src="Images/21-bop31.jpg" alt="" class="img" border="0"><br />
+<img src="Images/22-bop32.jpg" alt="" class="img" border="0"><br />
+<img src="Images/23-bop33.jpg" alt="" class="img" border="0"><br />
+<img src="Images/24-bop34.jpg" alt="" class="img" border="0"><br />
+<br />
+<b>Drafts which may or may not be encountered</b><br />
+<br />
+Three of the following drafts will be used in the final episode.  All three have only one variation, unlike most other drafts in the game.<br />
+<br />
+<img src="Images/25-bop41.jpg" alt="" class="img" border="0"><br />
+<img src="Images/26-bop42.jpg" alt="" class="img" border="0"><br />
+<img src="Images/27-bop43.jpg" alt="" class="img" border="0"><br />
+<img src="Images/28-bop44.jpg" alt="" class="img" border="0">
+
+  </div>
+
+  <a class="returnblock" href="/">Archive Index</a>
+
+  </body>
+</html>

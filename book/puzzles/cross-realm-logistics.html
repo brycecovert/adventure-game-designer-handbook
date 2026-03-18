@@ -1,0 +1,711 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Cross-Realm Logistics - Puzzle Design Knowledge Base</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A taxonomy of puzzle design patterns from classic point-and-click adventure games">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-2459343d.css">
+        <link rel="stylesheet" href="../css/chrome-ae938929.css">
+        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-c567150f.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-35c178c7.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Puzzle Design Knowledge Base</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+                        <a href="https://github.com/noti/puzzle-design-kb" title="Git repository" aria-label="Git repository">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span>
+                        </a>
+                        <a href="https://github.com/noti/puzzle-design-kb/edit/main/src/puzzles/cross-realm-logistics.md" title="Suggest an edit" aria-label="Suggest an edit" rel="edit">
+                            <span class=fa-svg id="git-edit-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M421.7 220.3l-11.3 11.3-22.6 22.6-205 205c-6.6 6.6-14.8 11.5-23.8 14.1L30.8 511c-8.4 2.5-17.5 .2-23.7-6.1S-1.5 489.7 1 481.2L38.7 353.1c2.6-9 7.5-17.2 14.1-23.8l205-205 22.6-22.6 11.3-11.3 33.9 33.9 62.1 62.1 33.9 33.9zM96 353.9l-9.3 9.3c-.9 .9-1.6 2.1-2 3.4l-25.3 86 86-25.3c1.3-.4 2.5-1.1 3.4-2l9.3-9.3H112c-8.8 0-16-7.2-16-16V353.9zM453.3 19.3l39.4 39.4c25 25 25 65.5 0 90.5l-14.5 14.5-22.6 22.6-11.3 11.3-33.9-33.9-62.1-62.1L314.3 67.7l11.3-11.3 22.6-22.6 14.5-14.5c25-25 65.5-25 90.5 0z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="cross-realm-logistics-puzzle"><a class="header" href="#cross-realm-logistics-puzzle">Cross-Realm Logistics Puzzle</a></h1>
+<h2 id="mechanic-definition"><a class="header" href="#mechanic-definition">Mechanic Definition</a></h2>
+<p>The player must manage items across multiple locations/worlds/states—transporting items between places, combining ingredients from different sources, or ensuring items survive transitions. The puzzle tests spatial and temporal thinking about inventory: what to carry, what to acquire, and when.</p>
+<p>“Realms” can be literal (dimensions, afterlife, parallel worlds) or figurative (factions, time periods, game states).</p>
+<h2 id="information-architecture"><a class="header" href="#information-architecture">Information Architecture</a></h2>
+<p><strong>Conveyance Method</strong>: Requirement discovery through exploration</p>
+<ul>
+<li>Player learns what ingredients are needed through books, dialogue, or failed attempts</li>
+<li>Player must discover where each ingredient is located across different realms</li>
+<li>Player must determine how to transport/combine items appropriately</li>
+</ul>
+<p><strong>Player Action Pattern</strong>:</p>
+<ol>
+<li>Learn what’s needed (through text or failed attempts)</li>
+<li>Determine where each component is located</li>
+<li>Travel to each location and acquire items</li>
+<li>Transport items to combination point</li>
+<li>Execute combination → solution achieved</li>
+</ol>
+<p><strong>Core Mechanic</strong>: The puzzle tests forward planning and spatial awareness. Players must remember what they’ll need in future locations while managing limited inventory space.</p>
+<h2 id="design-rationale"><a class="header" href="#design-rationale">Design Rationale</a></h2>
+<ul>
+<li>Rewards planning—thinking ahead about future requirements</li>
+<li>Creates world interconnection—realms feel connected through items flowing between them</li>
+<li>Adds strategic depth—inventory management becomes meaningful</li>
+<li>Enables payoff moments—items from early exploration save you later</li>
+</ul>
+<h2 id="why-its-effective"><a class="header" href="#why-its-effective">Why It’s Effective</a></h2>
+<p>The satisfaction comes from “just in time” inventory management—having the right item when you need it because you planned ahead. This rewards thorough exploration without punishing missed content.</p>
+<h2 id="mechanic-variations"><a class="header" href="#mechanic-variations">Mechanic Variations</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Variation</th><th>Realm Type</th><th>Logistics Challenge</th></tr>
+</thead>
+<tbody>
+<tr><td>Dimensional</td><td>Parallel worlds</td><td>Items may not exist in all realms</td></tr>
+<tr><td>Temporal</td><td>Time travel</td><td>Items must be retrieved before they’re “taken”</td></tr>
+<tr><td>Faction-based</td><td>Political states</td><td>Items must be traded between hostile groups</td></tr>
+<tr><td>State-based</td><td>Game states</td><td>Items only available in certain conditions</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="generic-example-structure"><a class="header" href="#generic-example-structure">Generic Example Structure</a></h2>
+<p><strong>Goal</strong>: Complete [Crafting/Activation] requiring [Ingredients]</p>
+<p><strong>Information Flow</strong>:</p>
+<ul>
+<li>Player learns through text: “The spell requires coal, egg, and hair”</li>
+<li>Player discovers locations: Coal at [Location A], Egg at [Location B], Hair at [Location C]</li>
+<li>Player must travel to each location and collect items</li>
+<li>Player must transport items to [Location D] for combination</li>
+<li>Player executes combination → spell complete</li>
+</ul>
+<p><strong>The puzzle</strong>: Managing items across locations with limited inventory space and no explicit tracking of what’s needed.</p>
+<h2 id="adventure-game-implementation"><a class="header" href="#adventure-game-implementation">Adventure Game Implementation</a></h2>
+<p>The limited action set creates specific challenges:</p>
+<ul>
+<li>WALK between realms—travel has cost/time</li>
+<li>Inventory management—limited space forces decisions</li>
+<li>USE items in correct sequence/location</li>
+<li>The puzzle rewards players who explore thoroughly early</li>
+</ul>
+<p>This puzzle tests: “Can I think spatially about where items are and plan my inventory accordingly?”</p>
+<hr>
+<h2 id="game-examples"><a class="header" href="#game-examples">Game Examples</a></h2>
+<h3 id="indiana-jones-fate-of-atlantis---orichalcum-bead-management-indy2"><a class="header" href="#indiana-jones-fate-of-atlantis---orichalcum-bead-management-indy2">Indiana Jones: Fate of Atlantis - Orichalcum Bead Management (INDY2)</a></h3>
+<p><strong>Problem</strong>: Throughout the game, Indy must collect nine orichalcum beads from multiple geographically dispersed locations. Beads are required for various puzzles but also vulnerable to being lost through path-dependent events. Additionally, some puzzle solutions (the golden box, Nur-Ab-Sal’s necklace) REQUIRE specific bead counts at exact moments, forcing precise inventory tracking across the entire playthrough.</p>
+<p><small>Source: walkthroughking_ashley_walkthrough.html — “Pick up the shiny bead” (Tikal), “put the orichalcum bead in the eel’s head to free it from the ice” (Iceland), and multiple later references including “put the two orichalcum beads in the box and close the lid.”</small></p>
+<p><strong>Beac Acquisition Path (Multiple Locations)</strong>:</p>
+<pre><code>BEAD 1-2: Iceland + Tikal (early game, guaranteed)
+BEAD 3: Monte Carlo sunstone puzzle (all paths converge here)
+BEAD 4-5: Atlantis golden box retrieval (mid-game)
+BEAD 6-7: Labyrinth exploration (varies by path—Team/Wits get them different ways)
+BEAD 8: Fists path exclusive combat encounters OR Wits/Team puzzle solution
+BEAD 9: Very late game, often requires backtracking with specific inventory setup
+
+&lt;small&gt;Source: walkthroughking_ashley_walkthrough.html — "Pick up the worldstone and Sternhart's staff...put the two orichalcum beads in the box" (Atlantis section)&lt;/small&gt;
+</code></pre>
+<p><strong>Critical Inventory Management Moments</strong>:</p>
+<ol>
+<li>
+<p><strong>Golden Box Loading</strong>: In Atlantis, player must place beads into golden box:</p>
+<ul>
+<li>If too few beads collected → Cannot complete puzzle</li>
+<li>If ALL beads used earlier → Irrecoverable failure state possible</li>
+</ul>
+</li>
+<li>
+<p><strong>Orichalcum Detector Calibration</strong>: The amber fish detector points toward orichalcum:</p>
+<ul>
+<li>Player must hide ONE bead in gold box + close lid (detector then ignores inventory)</li>
+<li>This allows detector to locate HIDDEN beads in environment</li>
+<li>WRONG ORDER (use detector before hiding bead) → Detector points at player, fails</li>
+</ul>
+</li>
+</ol>
+<p><small>Source: walkthroughking_ashley_walkthrough.html — “put the two orichalcum beads in the box and close the lid…Use the fish and it will point at Sophia’s necklace”</small></p>
+<ol start="3">
+<li><strong>Path-Dependent Loss</strong>: Wits path uses bead to charge statue for truck escape:
+<ul>
+<li>Consumes one bead permanently</li>
+<li>Team/Fists paths have alternative solutions without bead cost</li>
+<li>Player must know which path’s bead economy they’re on</li>
+</ul>
+</li>
+</ol>
+<p><strong>Why It’s Cross-Realm Logistics</strong>:</p>
+<ol>
+<li><strong>Multiple Geographic Realms</strong>: Beads sourced from Iceland, Tikal, Monte Carlo, Crete, Atlantis—each realm requires separate journey</li>
+<li><strong>Inventory Planning Required</strong>: Nine beads scattered across 6+ distinct locations; player must track acquisition state without explicit progress indicator</li>
+<li><strong>Consumption vs. Preservation Trade-offs</strong>: Some puzzles consume beads (Wits path statue charge), others require bead storage (golden box, detector calibration)</li>
+<li><strong>Backtracking Penalties</strong>: Forgetting to collect bead at Location A = potentially impossible late-game puzzle without re-visiting with correct inventory setup</li>
+</ol>
+<p><strong>Distinction from Multi-Faceted Plan</strong>: MFP is about parallel requirement discovery for single immediate solution. Here, beads are collected INDEPENDENTLY across hundreds of gameplay minutes, then SYNTHESIZED in multiple separate puzzles (golden box, final machine operation) at the end—true long-term logistics.</p>
+<hr>
+<h3 id="kings-quest-vii-crystal-of-sunlight-multi-chapter-transport-chain-kqvii"><a class="header" href="#kings-quest-vii-crystal-of-sunlight-multi-chapter-transport-chain-kqvii">King’s Quest VII: Crystal of Sunlight Multi-Chapter Transport Chain (KQVII)</a></h3>
+<p><strong>Problem</strong>: Lady Ceres requires “crystal of purest sunlight” to complete transformation spell in Chapter 6. However, obtaining and activating this crystal requires traveling through multiple distinct game chapters and realms over extensive playtime, with the item itself being useless until the very final step.</p>
+<p><small>Source: walkthroughking_kq7.html:95-98</small></p>
+<p><strong>Item Acquisition Chain (Chapters 3-5)</strong>:</p>
+<pre><code>PHASE 1 - Crystal Retrieval (Chapter 4/5 transition):
+Starting Position: Etheria realm (reached via Horseman's fife after Chapter 4)
+
+Step 1: Return from Etheria to Malicia's house area:
+        - South → west from Etheria mountain peak
+        - Jump down bottom-left rainbow → returns to desert area
+        
+Step 2: Infiltrate Malicia's house (stealth timing puzzle):
+        - Back of house, examine green vine for hidden hole
+        - Timing requirement: walk away if dog barks, wait for silence window
+        - Enter during quiet period when patrol absent
+        
+Step 3: Navigate house interior to lamp room:
+        - Climb up into house from basement entry
+        - Malicia/dog return pattern must be timed (listen for cues)
+        - Go back down when they approach, up again when they leave
+        
+Step 4: Collect crystal from lamp fixture in bottom right of room:
+        - Crystal appears as generic item initially
+        - No indication yet that it needs sunlight exposure
+        
+Phase 2: Exit sequence requires fife use + rainbow transport (timing critical)
+</code></pre>
+<p><strong>PHASE 3 - Sunlight Activation (Chapter 5/6 transition)</strong>:</p>
+<pre><code>Step 5: From Malicia's house, blow Horseman's fife → escape to desert via rainbow transport
+        - Jump down top-left rainbow specifically (different from entry rainbow!)
+        
+Step 6: Navigate沙漠 back to temple building:
+        - North twice from desert spawn point
+        - Enter door of ancient structure
+        
+Step 7: Find beam of sunlight streaming through upper window:
+        - Environmental clue: bright spot on floor indicating light source position
+        
+Step 8: Hold crystal IN the beam of sunlight (inventory use action):
+        - Crystal transforms/activates during this step
+        - Now becomes "charged" version usable for Maab rescue puzzle
+        
+PHASE 4 - Final Application (Chapter 6):
+Step 9: Transport now-activated crystal back through realms via fife/rainbow/harp travel
+Step 10: Access Isle of Dreams cave where Lady Maab imprisoned in ice
+Step 11: Use activated crystal on ice block → Maab freed, puzzle resolved
+</code></pre>
+<p><strong>Why It’s Cross-Realm Logistics</strong>:</p>
+<ol>
+<li>
+<p><strong>Extended Geographic Spread</strong>: Crystal journey spans at least 4 distinct zones:</p>
+<ul>
+<li>Etheria (starting point after Chapter 4)</li>
+<li>Malicia’s house (infiltration area near starting desert)</li>
+<li>Desert temple building (sunlight activation zone)</li>
+<li>Isle of Dreams cave (final application in late game)</li>
+</ul>
+</li>
+<li>
+<p><strong>Long-Term Item Maintenance</strong>: Crystal must be:</p>
+<ul>
+<li>Collected during Chapters 4-5 transition</li>
+<li>Maintained in inventory through Chapter 5 completion</li>
+<li>Transported to proper realm for final use</li>
+<li>NOT consumed or lost to other puzzles (no backup crystals exist)</li>
+</ul>
+</li>
+<li>
+<p><strong>Multi-Transport System Dependency</strong>: Requires mastery of three separate transportation mechanics:</p>
+<ul>
+<li>Horseman’s fife (immediate realm shift via magic instrument)</li>
+<li>Rainbow bridges (specific directional jumps between rainbow types)</li>
+<li>Harp transportation (Etheria → Fates travel, potentially needed for repositioning)</li>
+</ul>
+</li>
+<li>
+<p><strong>Temporal Span</strong>: Crystal obtained potentially 3-5 chapters before activation, 6+ chapters before final use in Maab rescue. Player must remember:</p>
+<ul>
+<li>Item exists and wasn’t used elsewhere</li>
+<li>Item has hidden potential (sunlight charging not obvious from description)</li>
+<li>Activation requires specific environmental condition (sunbeam location)</li>
+</ul>
+</li>
+</ol>
+<p><strong>Backtracking Failure State</strong>: If player somehow loses crystal or uses it prematurely before sunlight activation, puzzle becomes impossible without save/reload. No second crystal exists anywhere in game world. This makes inventory management CRITICAL rather than optional.</p>
+<p><strong>Connection to Other Puzzles</strong>: The Horseman’s fife itself is obtained from Chapter 4 Horseman puzzle chain—the same transport item needed for crystal logistics comes from a separate meta-puzzle construction, creating cross-dependency between puzzle types.</p>
+<hr>
+<h3 id="kings-quest-vii-werebeast-salve-ingredient-maintenance-kqvii"><a class="header" href="#kings-quest-vii-werebeast-salve-ingredient-maintenance-kqvii">King’s Quest VII: Werebeast Salve Ingredient Maintenance (KQVII)</a></h3>
+<p><strong>Problem</strong>: Jackalope fur collected in Chapter 1 must be preserved across 3+ chapters until were-beast salve can be crafted in Chapter 5. Represents inventory logistics where early-game item only becomes functional through mid-game synthesis.</p>
+<p><small>Source: walkthroughking_kq7.html:67, 91-92</small></p>
+<p><strong>Logistics Chain</strong>:</p>
+<pre><code>CHAPTER 1 - Initial Acquisition (Desert):
+- During hunting horn rabbit hole sequence (same as glasses puzzle)
+- Collect jackalope fur from cactus near animated rabbit burrow  
+- Item stored in inventory with no immediate puzzle solution requiring it
+- Multiple other items collected during same exploration (glasses, later traded to mouse)
+
+INTERCHAPTERS 2-4 - Inventory Maintenance:
+- Fur remains in inventory through transformation cure sequence (Chapter 2)
+- Maintained through Chapter 3 town puzzles (bird/mask/trades with Fernando and Ersatz)
+- Carried through Chapter 4 graveyard sequences without consumption
+
+CHAPTER 5 - Item Activation and Application:
+Step 1: From mirror maze, obtained magic statuette in Chapter 3
+        - Statuette maintained through Chapters 3-4 while completing other puzzles
+        
+Step 2: Visit snake merchant with magic statuette
+        - Trade statuette for were-beast salve liquid (consumes statuette permanently)
+        
+Step 3: Combine jackalope fur + werebeast salve in inventory
+        - Creates functional werebeast potion
+        - Jackalope fur was CRITICAL component; without it, trade with merchant useless
+        
+Step 4: Use combined potion on self before running through weed monster territory
+        - Transforms player temporarily to outrun vegetation threat
+</code></pre>
+<p><strong>Why It’s Cross-Realm Logistics (Simple Form)</strong>:</p>
+<ol>
+<li><strong>Extended Temporal Separation</strong>: Fur collected in Chapter 1 ≈15+ minutes of gameplay, used in Chapter 5 final puzzle sequence = potentially 30-45 minutes later in playtime</li>
+<li><strong>Zero Immediate Feedback</strong>: No indication when collecting fur that it matters. Player discovers its value only when encountering snake merchant much later</li>
+<li><strong>Permanent Consumption Risk</strong>: If player deletes or loses inventory during Chapters 2-4 (via death, intentional reset, confusion), puzzle becomes impossible—no second jackalope location</li>
+<li><strong>No Progress Marker</strong>: Game provides no hint that “jackalope fur = required” until Chapter 5 trade opportunity appears</li>
+</ol>
+<p><strong>Distinction from Long-Term Multi-Faceted Plan</strong>: While both span time, this emphasizes LOGISTICS (item maintenance across boundaries) over discovery synthesis. Player isn’t combining multiple independently-discovered pieces in one location—they’re maintaining a single piece across multiple gameplay contexts until synthesis opportunity arises.</p>
+<hr>
+<h3 id="spacequest-iv-multi-time-period-item-transport-sq4"><a class="header" href="#spacequest-iv-multi-time-period-item-transport-sq4">SpaceQuest IV: Multi-Time-Period Item Transport (SQ4)</a></h3>
+<p><strong>Problem</strong>: Roger must travel through four different Space Quest game worlds (XII, X, I, and back to XII) collecting items in each that are only usable in other time periods. The game requires remembering what to grab where across a 60+ minute playthrough spanning multiple distinct gameplay environments with no inventory transfer warnings or guidance.</p>
+<p><small>Source: gamefaqs-tricrokra-archive.html, lines 720-775 — Full item list documentation shows cross-period dependencies</small></p>
+<p><small>Source: gamerwalkthroughs.html — Walkthrough emphasizes multi-world navigation and item carry-through requirements</small></p>
+<pre><code>TIME PERIOD VISIT SEQUENCE WITH INVENTORY MANAGEMENT:
+
+PERIOD 1 - SpaceQuest XII (Future/Xenon): [Initial Acquisitions]
+
+
+Location: Future Xenon wasteland, first area encountered
+Items Collected Here (Critical for LATER periods):
+  A. Rope → Used immediately to catch bunny, NOT carried forward
+  B. Battery (from bunny) → CRITICAL: Must keep in inventory until FINAL XII return
+     - Purpose: Power PocketPal later at Vohaul's base
+     - Risk: Players might discard if it seems useless early game
+  C. Jar of Green Acid → CRITICAL: Required when returning to XII for laser tunnel door
+     
+Items "Optional" Collectibles:
+  D. Unstable Ordnance (nitroglycerin cylinder) → Must return to tank, not carried
+
+KEY LOGISTICS DECISION: Both Battery and Acid must SURVIVE multiple time period transitions without consumption or discard. No gameplay feedback confirms these are important before XII return.
+
+
+PERIOD 2 - SpaceQuest X (Estros Planet): [Information Gathering]
+Location: Strange pre-human alien world with giant bird nests
+
+Items/Info Collected:
+  A. Gum Wrapper Code Fragments → Physical item carrying data, not consumable
+     - Contains 3 symbols needed for time pod navigation code
+     - Must be remembered/examined later in Mall sequence
+     - Combined with hint book data = complete Ulence Flats destination
+
+Critical Decision: This is INFORMATION, not an "inventory item" per se. Player must mentally retain the symbol data through subsequent locations.
+
+
+PERIOD 3 - SpaceQuest X (Galaxy Galleria Mall): [Multi-Requirement Acquisition]
+Location: Massive shopping mall with multiple stores and minigames
+
+Items Collected (Complex Logistics):
+  A. Cigar → CRITICAL: Needed in XII for laser visibility smoke
+     
+    - Obtained when fired from burger job (must remember to retrieve!)
+    - Walkthrough explicitly warns: Cannot get beyond this point
+  
+  B. Matches → ERROR CORRECTION: Actually collected in SQ I, not Mall
+     - This shows player confusion potential—different walkthroughs may misplace items
+  
+  C. Hint Book (Space Quest IV manual) → Physical item with embedded data
+     
+    - Page 4: Ulence Flats time pod code (completes gum wrapper info)
+    - Page 7: Supercomputer access code "6965847669" for final door
+     - Must be consulted/referenced across multiple subsequent periods
+  
+  D. PocketPal Connector → CRITICAL technical component
+     - Bought at Electronics store (Hz. So Good/Radio Shock)
+     - Must be SPECIFIC plug type matching XII computer room socket
+     - Combined with Battery (from period 1) + PocketPal device = functional terminal
+   
+Time Pressure Element: Must lure police away from time pod through Skate-O-Rama roof escape before accessing pod—police arrival triggered by buying connector.
+
+
+PERIOD 4 - SpaceQuest I (Ulence Flats): [Critical Item Recovery]
+Location: Retro-styled alien planet recreation of original SQ1 setting
+
+Items Collected:
+  A. Matches from bar counter → CRITICAL for XII laser puzzle
+     - Requires clearing biker gang first (mini-chase sequence)
+     - Used with Cigar at laser tube to reveal invisible beams
+     - Classic cross-period dependency: Item in I for use in XII
+  
+
+PERIOD 5 - SpaceQuest XII Return (Final Confrontation): [Synthesis Phase]
+
+Location: Back at Vohaul's base, previously visited environment now fully unlockable
+
+INVENTORY SYNTHESIS REQUIRED (All items must still be held):
+  
+  ✓ Green Acid (from Period 1): Unlock laser tunnel door
+  
+  ✓ Cigar + Matches: Combined to create smoke → reveal lasers
+  
+  ✓ Battery + PocketPal + Connector: Power computer terminal, map droid locations
+  
+  ✓ Hint Book Page 7 Code: Enter supercomputer access code ("6965847669")
+  
+  ✓ Mental Retention of laser degree codes: From visible angles after smoke
+
+
+SUCCESS CONDITION: All cross-period items maintained through complete playthrough. FAILURE STATES include discarding "seemingly useless" battery/acid early, or forgetting cigar collection point during mall chaos.
+
+
+WHY IT'S CROSS-REALM LOGISTICS:
+
+1. **Temporal Span**: Items collected at start of game (0-5 minutes) used at end (60+ minutes), through THREE intervening completely-different game worlds
+  
+2. **No Progress Tracking**: Game provides NO "you need X items for future" checklist. Pure player memory and forward planning
+  
+3. **Multiple Realm Transitions**: Four distinct Space Quest titles' aesthetics/rules—item must survive all transitions
+  
+4. **Critical Path Items Appear "Optional"**: Green acid jar, cigar butt, and battery have no immediate purpose when first obtained, making their importance unclear
+  
+5. **Combination at End Requires All Parts**: Final sequence is pure synthesis: items from period 1 + info from period 2 + gear from period 3 + tools from period 4 = completion
+  
+6. **No Retry Mechanism for Forgotten Items**: Unlike inventory management puzzles where you can revisit old areas, this is STRICTLY LINEAR progression with one-time collection points. Miss the cigar in the mall? Cannot return to get it later.
+</code></pre>
+<p><strong>Distinction from Multi-Faceted Plan</strong>: MFP gathers items for ONE location’s puzzle. Cross-Realm Logistics requires maintaining items across ENTIRE PLAYTHROUGH through multiple environments, each providing critical components only usable elsewhere. The “Mall Sequence” (period 3) WITHIN SQ4 IS an MFP—but the OVERALL game structure is Cross-Realm Logistics spanning ALL four time periods.</p>
+<hr>
+<h2 id="related-types"><a class="header" href="#related-types">Related Types</a></h2>
+<ul>
+<li><strong>Multi-Faceted Plan</strong>: MFP gathers requirements for one immediate solution; Cross-Realm spreads acquisition over extensive gameplay</li>
+<li><strong>Meta-Puzzle Construction</strong>: MPC creates strict sequential chains; Cross-Realm Logistics allows parallel collection across space/time</li>
+</ul>
+<hr>
+<h3 id="legend-of-kyrandia-darms-scroll-dual-application-lk1"><a class="header" href="#legend-of-kyrandia-darms-scroll-dual-application-lk1">Legend of Kyrandia: Darm’s Scroll Dual Application (LK1)</a></h3>
+<p><strong>Problem</strong>: Darm gives Brandon a single scroll with icy magic that must be used TWICE in completely separate game worlds, for unrelated puzzle types. The scroll represents classic cross-realm logistics where one item bridges multiple geographic domains and serves non-obvious future purposes beyond its immediate acquisition context.</p>
+<p><small>Source: classicgamesparadise_walkthrough.html, lines 112, 183, 245 — Scroll received from Darm after quill trade; used at volcanic river AND burning branch in Faeriewood</small></p>
+<p><small>Source: bonny_ploeg_walkthrough.html, line 113 — “Scroll With Icy Power - Received from Darm after you’ve given him the quill. Used twice: at the volcanic river and at the fiery bush.”</small></p>
+<pre><code>ITEM ACQUISITION PHASE (Timbermist Woods):
+
+Step 1 - Quill Collection Chain:
+- Explore Timbermist Woods, find injured songbird near nesting area
+- Songbird won't give quill until healed
+- Heal bird using yellow gem (healing power from Deadwood Glade puzzle)
+- Bird drops quill as reward
+
+Step 2 - Scroll Exchange:
+- Return to Darm's shack with quill in inventory
+- Give quill to Darm → dialogue exchange about "stones and the altar"
+- Darm writes and gives FREEZE SCROLL to Brandon
+- Scroll description indicates icy/freezing magic properties
+
+
+CROSS-REALM APPLICATION #1: Volcanic River Crossing (Serpent's Grotto)
+
+Location: Cave system after Darkmouth area, before Iron Key chamber
+
+Problem State:
+- Volcanic river blocks path forward, lava too hot to cross directly  
+- Iron Key visible on opposite bank but unreachable
+- No bridge or alternate route available
+
+Scroll Application:
+- Use Darm's scroll on volcanic river surface
+- Icy magic freezes lava into solid traversable path
+- Walk across frozen river, collect Iron Key
+- Path remains frozen for duration sufficient to complete crossing
+
+Critical Decision Point - Inventory Management:
+&lt;small&gt;Source: classicgamesparadise_walkthrough.html, line 183 — "Make sure you don't throw away the scroll just yet; it will come in handy again later"&lt;/small&gt;
+&lt;small&gt;Source: bonny_ploeg_walkthrough.html, line 63 — "Now you can drop the scroll to save space" (given AFTER Faeriewood use)&lt;/small&gt;
+
+Player MUST recognize scroll remains CONSUMABLE-ONCE but still usable AGAIN in different context. Common player mistake: discard scroll after lava crossing due to "item used" assumption or inventory pressure.
+
+
+CROSS-REALM APPLICATION #2: Burning Branch Extinguishment (Faeriewood)
+
+Location: Faeriewood realm - separate magical dimension accessed through cave system
+
+Problem State:
+- Malcolm steals one of Zanthia's crystal balls, ruins alchemy fountain
+- Missing crystal ball hidden inside burning branch/fire bush in western Faeriewood
+- Flames prevent direct interaction; cannot grab ball without extinguishing fire first
+
+Scroll Application (Second Use):
+- Navigate to burning branch location (requires Faeriewood exploration)
+- Use Darm's scroll on flames → icy magic extinguishes fire
+- Burnt bush now accessible, missing crystal ball can be collected
+- Return ball to fountain, restore Zanthia's laboratory
+
+
+WHY IT'S CROSS-REALM LOGISTICS:
+
+1. GEOGRAPHIC SEPARATION: Two applications span distinct game zones:
+   - Acquisition: Timbermist Woods (opening game area)
+   - Application 1: Serpent's Grotto volcanic cave (mid-game dungeon)  
+   - Application 2: Faeriewood magical realm (separate dimension, late mid-game)
+   
+2. TEMPORAL SPREAD: Scroll received early (~5-10 minutes into game), used potentially 30+ minutes later across multiple world transitions
+
+3. NO IMMEDIATE PURPOSE INDICATION: When Darm gives scroll with "stones and altar" hint, player cannot predict:
+   - Lava crossing requirement (Serpent's Grotto not yet visited)
+   - Faeriewood fire puzzle (completely separate dimension)
+   
+4. INVENTORY PRESERVATION CRITICAL: Scroll must be maintained in inventory through entire mid-game section. Discarding after first use = IMPOSSIBLE to retrieve crystal ball without save/reload.
+
+5. MULTIPLE SOLUTION DOMAIN TYPES: 
+   - River crossing = navigation/obstacle puzzle
+   
+   - Branch fire = item retrieval/lockout puzzle
+   Same item solves two mechanically distinct problem types across different spatial contexts.
+
+
+DISTINCTION FROM META-CONSTRUCTION:
+Not sequential because scroll doesn't NEED volcanic river application first, then enable Faeriewood use. Both applications would function independently if player visited zones in opposite order (theoretically). The "logistics" is maintaining one item through multiple game states until BOTH unrelated puzzles present themselves.
+
+
+POTENTIAL PLAYER FAILURE MODES:
+- Discard scroll after lava freezing ("used up" assumption) → blocked from Faeriewood crystal ball
+- Forget scroll exists during Faeriewood exploration → stuck on burning branch puzzle
+- Use scroll incorrectly (e.g., on wrong fire source) → may consume scroll without solving intended puzzle
+
+
+RELATIONSHIP TO OTHER LK1 MECHANICS:
+Darm's scroll represents one of several "carry-through" items in Kyrandia I. Others include:
+- Amulet gems (activated through meta-construction, used across multiple puzzles)
+- Iron Key (obtained via scroll application #1, used later for castle gate)
+</code></pre>
+<hr>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../puzzles/truth-revelation.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="../puzzles/memo-chain.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../puzzles/truth-revelation.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="../puzzles/memo-chain.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+        <script>
+            window.playground_line_numbers = true;
+        </script>
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+        <script src="../ace-2a3cd908.js"></script>
+        <script src="../mode-rust-2c9d5c9a.js"></script>
+        <script src="../editor-16ca416c.js"></script>
+        <script src="../theme-dawn-4493f9c8.js"></script>
+        <script src="../theme-tomorrow_night-9dbe62a9.js"></script>
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-c2a407aa.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-a0b12cfe.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

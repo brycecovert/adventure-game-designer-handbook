@@ -1,0 +1,2526 @@
+# Quest for Glory II: Trial by Fire - Walkthrough by SAC
+# Source: GameFAQs (archived from archive.org)
+# Date archived: 2018-2019
+
+<!doctype html>
+<html lang="en" class="js no-touch" itemscope>
+	<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire/faqs/9441","20190511092446","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1557566686");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+		<title>Quest For Glory II: Trial By Fire FAQ/Walkthrough for PC by Sac! - GameFAQs</title>
+
+				<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+
+				<meta name="description" content="For Quest For Glory II: Trial By Fire on the PC, FAQ/Walkthrough by Sac!."/>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta content="origin" id="mref" name="referrer"/>
+		
+		
+		
+		
+				
+					  		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  
+	  		<link href="https://web.archive.org/web/20190511092446cs_/https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Condensed|Roboto+Mono" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20190511092446cs_/https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		
+		<link href="/web/20190511092446cs_/https://gamefaqs.gamespot.com/css/v13.20190429212937.css" rel="stylesheet" type="text/css">
+		
+
+		
+				<link rel="canonical" href="https://web.archive.org/web/20190511092446/https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire/faqs/9441"/> 
+		
+				<base href="/web/20190511092446/https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire/faqs/9441"/> 
+		
+		
+		<meta name="dwPageParams" content="{&quot;siteid&quot;:19,&quot;ptid&quot;:6468,&quot;onid&quot;:37,&quot;pid&quot;:&quot;562671&quot;,&quot;familyid&quot;:&quot;46198&quot;,&quot;prodtypid&quot;:8,&quot;genre_id&quot;:23212,&quot;category_id&quot;:&quot;251&quot;,&quot;oid&quot;:&quot;6468-37-19-562671-9441&quot;,&quot;cid&quot;:9441,&quot;conttypid&quot;:9,&quot;useract&quot;:178,&quot;xref&quot;:&quot;https:\/\/gamefaqs.gamespot.com\/pc\/562671-quest-for-glory-ii-trial-by-fire\/faqs&quot;,&quot;edid&quot;:107,&quot;pguid&quot;:&quot;a6916205f4b5bc696bdf16088850bbec&quot;,&quot;url&quot;:&quot;http:\/\/gamefaqs.gamespot.com\/pc\/562671-quest-for-glory-ii-trial-by-fire\/faqs\/9441&quot;,&quot;ts&quot;:1557566686}"/>
+<meta name="o2PageParams" content="{&quot;account&quot;:&quot;cbsigamefaqssite&quot;,&quot;cloud_id&quot;:&quot;10D31225525FF5790A490D4D@AdobeOrg&quot;,&quot;channel&quot;:&quot;Games&quot;,&quot;site&quot;:&quot;gamefaqs&quot;,&quot;urs_id&quot;:null,&quot;hier1&quot;:&quot;Games|Game|FAQs|FAQ|Text&quot;,&quot;list1&quot;:null,&quot;products&quot;:&quot;;562671&quot;,&quot;evars&quot;:{&quot;1&quot;:&quot;Gamefaqs&quot;,&quot;2&quot;:&quot;ww&quot;,&quot;3&quot;:&quot;gamefaqs-desktop&quot;,&quot;5&quot;:&quot;cbsigamefaqssite&quot;,&quot;6&quot;:&quot;Games|Game|FAQs|FAQ|Text&quot;,&quot;7&quot;:&quot;D=g&quot;,&quot;10&quot;:&quot;game_faq_text&quot;,&quot;11&quot;:&quot;Games:game_faq_text&quot;,&quot;12&quot;:6468,&quot;15&quot;:&quot;false&quot;,&quot;20&quot;:&quot;Quest For Glory II: Trial By Fire (PC) - FAQ\/Walkthrough by Sac!&quot;,&quot;22&quot;:&quot;faq&quot;,&quot;41&quot;:&quot;&quot;,&quot;50&quot;:&quot;5:00AM&quot;,&quot;51&quot;:&quot;Saturday&quot;,&quot;63&quot;:&quot;562671&quot;,&quot;64&quot;:&quot;quest-for-glory-ii-trial-by-fire|quest-for-glory&quot;,&quot;66&quot;:&quot;Adventure|General&quot;},&quot;page_event&quot;:null}"/>
+<meta id="ad-settings" itemprop="ad-settings" content="{&quot;script&quot;:&quot;\/\/www.googletagservices.com\/tag\/js\/gpt.js&quot;,&quot;target_params&quot;:{&quot;game&quot;:&quot;quest-for-glory-ii-trial-by-fire&quot;,&quot;ptype&quot;:&quot;game_faq_text&quot;,&quot;franchise&quot;:&quot;quest-for-glory&quot;,&quot;genre&quot;:&quot;Adventure,General&quot;,&quot;publisher&quot;:&quot;Sierra Entertainment&quot;,&quot;score&quot;:&quot;83&quot;,&quot;user&quot;:&quot;anon&quot;,&quot;session&quot;:&quot;g&quot;,&quot;rdate&quot;:&quot;bp52&quot;,&quot;cid&quot;:&quot;faq-9441&quot;,&quot;firstpg&quot;:0},&quot;unit_name&quot;:&quot;\/8264\/aw-gamefaqs&quot;,&quot;deferred&quot;:true,&quot;service&quot;:&quot;dart&quot;,&quot;client&quot;:&quot;xfp&quot;,&quot;load_in_head&quot;:&quot;gpt&quot;,&quot;single_request&quot;:true,&quot;disable_initial_load&quot;:true,&quot;enable_callback&quot;:true,&quot;enable_collapse_empty_divs&quot;:false,&quot;slot_order&quot;:[&quot;skybox-nav&quot;,&quot;leader_top&quot;,&quot;leader_plus_top&quot;,&quot;mpu_top&quot;,&quot;mpu_plus_top&quot;,&quot;interstitial&quot;,&quot;native-top&quot;,&quot;incontent-ad&quot;,&quot;mpu_bottom&quot;,&quot;leader_bottom&quot;],&quot;mapped_units&quot;:{&quot;skybox-nav&quot;:{&quot;size&quot;:[[5,5]],&quot;target&quot;:{&quot;pos&quot;:&quot;nav&quot;}},&quot;leader_plus_top&quot;:{&quot;size&quot;:[[728,90],[970,66],[970,150],[970,250],[960,150]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;leader_top&quot;:{&quot;size&quot;:[[728,90],[970,66]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;leader_bottom&quot;:{&quot;size&quot;:[[728,90],[970,66]],&quot;target&quot;:{&quot;pos&quot;:&quot;bottom&quot;}},&quot;mpu_plus_top&quot;:{&quot;size&quot;:[[300,250],[300,600],[300,100]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;mpu_top&quot;:{&quot;size&quot;:[[300,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;mpu_bottom&quot;:{&quot;size&quot;:[[300,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;bottom&quot;}},&quot;native-top&quot;:{&quot;size&quot;:[[11,11],&quot;fluid&quot;],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;incontent-ad&quot;:{&quot;size&quot;:[[321,31],[11,11],&quot;fluid&quot;],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;interstitial&quot;:{&quot;outOfPage&quot;:true}}}"/>
+<meta id="view-guid-meta" name="view-guid-meta" itemprop="view-guid" content="a6916205-f4b5-4bc6-96bd-f16088850bbe">
+<meta id="bsm-pub-zone-meta" name="bsm-pub-zone-meta" itemprop="bsm-pub-zone" content="gamefaqs.com/nucleus">
+<meta id="bsm-sizes-meta" name="bsm-sizes-meta" itemprop="bsm-sizes" content="728x90 300x250">
+
+
+
+
+		
+				<script type="text/javascript" src="/web/20190511092446js_/https://gamefaqs.gamespot.com/js/jquery_gf.20190429212942.js"></script>
+		<script type="text/javascript" src="/web/20190511092446js_/https://gamefaqs.gamespot.com/js/gamefaqs.20190429212942.js"></script>
+						<script type="text/javascript">window._taboola=window._taboola || []; _taboola.push({other:'auto'}); function setUpAgknTag(tag){tag.setBpId("cbsinteractive");}var _gaq = _gaq || [];  _gaq.push(['nT._setAccount', 'UA-27653683-1']);  _gaq.push(['nT._setAllowLinker', true]); _gaq.push(['nT._setSampleRate', '1']); _gaq.push(['nT._trackPageview']); _gaq.push(['_setAccount', 'UA-22577913-2']); _gaq.push(['_setSampleRate', '5']); _gaq.push(['_setCustomVar',1,'PageType','6468',3]); _gaq.push(['_setCustomVar',2,'LoggedIn','No',2]); _gaq.push(['_setCustomVar',3,'UserLevel','0',3]); _gaq.push(['_setCustomVar',4,'FAQType','txt',3]);  _gaq.push(['_trackPageview']); </script>
+		
+		
+		
+	  
+	  <script type="text/javascript">
+	    (function(id){
+	    function append(scriptid,url,async){var d=document,sn='script',f=d.getElementsByTagName(sn)[0];if(!f)f=d.head;var s=d.createElement(sn);s.async=!0;s.id=scriptid;s.src=url;f.parentNode.insertBefore(s,f)}
+	  window.evidon={}; window.evidon.id=id; append('evidon-notice','//web.archive.org/web/20190511092446/https://gamefaqs.akamaized.net/js/sitenotice/evidon-sitenotice-tag.js',!1); append('evidon-location','//web.archive.org/web/20190511092446/https://c.evidon.com/geo/country.js',!0); append('evidon-themes','//web.archive.org/web/20190511092446/https://gamefaqs.akamaized.net/js/sitenotice/425/snthemes.js',!0); append('evidon-settings','//web.archive.org/web/20190511092446/https://gamefaqs.akamaized.net/js/sitenotice/425/gamefaqs/settings.js',!0); window.evidon.priorConsentCallback=function(){
+											append('google-analytics', "//web.archive.org/web/20190511092446/https://www.google-analytics.com/ga.js", true);
+			 
+			}
+				  window.evidon.closeCallback=function(){}
+				  window.evidon.consentWithdrawnCallback=function(){}})(425)
+	  		</script>
+
+	</head>
+	<body class="  wf-active">
+		<div id="fullscreen_overlay"></div>
+				<div class="wrapper g_file p_562671 s_pc">
+						<div id="menubutton" class="menubutton" onclick="topnav_side_open();"><i class="fa fa-bars"></i> Menu</div><div class="sidenav" id="sidenav"><div class="sidenav_div"><div id="menuclose" class="menuclose" onclick="topnav_side_close();"><i class="fa fa-times fa-2x"></i></div><ul class="sidenav_menu"><li><a href="/web/20190511092446/https://gamefaqs.gamespot.com/">Home</a></li><li><a href="/web/20190511092446/https://gamefaqs.gamespot.com/answers">Answers</a></li><li><a href="/web/20190511092446/https://gamefaqs.gamespot.com/boards">Boards</a></li><li><a href="/web/20190511092446/https://gamefaqs.gamespot.com/community">Community</a></li><li><a href="/web/20190511092446/https://gamefaqs.gamespot.com/contribute">Contribute</a></li><li><a href="/web/20190511092446/https://gamefaqs.gamespot.com/games">Games</a></li><li><a href="/web/20190511092446/https://gamefaqs.gamespot.com/new">What&rsquo;s&nbsp;New</a></li><li><a href="/web/20190511092446/https://gamefaqs.gamespot.com/games/systems">Systems</a></li><ul class="sidenav_submenu"><li><a href="/web/20190511092446/https://gamefaqs.gamespot.com/3ds">3DS</a></li><li><a href="/web/20190511092446/https://gamefaqs.gamespot.com/android">Android</a></li><li><a href="/web/20190511092446/https://gamefaqs.gamespot.com/iphone">iOS</a></li><li><a href="/web/20190511092446/https://gamefaqs.gamespot.com/pc">PC</a></li><li><a href="/web/20190511092446/https://gamefaqs.gamespot.com/ps3">PlayStation&nbsp;3</a></li><li><a href="/web/20190511092446/https://gamefaqs.gamespot.com/ps4">PlayStation&nbsp;4</a></li><li><a href="/web/20190511092446/https://gamefaqs.gamespot.com/switch">Switch</a></li><li><a href="/web/20190511092446/https://gamefaqs.gamespot.com/vita">Vita</a></li><li><a href="/web/20190511092446/https://gamefaqs.gamespot.com/xbox360">Xbox 360</a></li><li><a href="/web/20190511092446/https://gamefaqs.gamespot.com/xboxone">Xbox One</a></li></ul></ul></div></div><div class="masthead"><div class="masthead_strip"><div class="container row"><nav class="masthead_systems"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/3ds">3DS</a><a class="notab" href="/web/20190511092446/https://gamefaqs.gamespot.com/android">Android</a><a class="notab" href="/web/20190511092446/https://gamefaqs.gamespot.com/iphone">iOS</a><a href="/web/20190511092446/https://gamefaqs.gamespot.com/pc">PC</a><a class="notab" href="/web/20190511092446/https://gamefaqs.gamespot.com/ps3">PS3</a><a href="/web/20190511092446/https://gamefaqs.gamespot.com/ps4">PS4</a><a href="/web/20190511092446/https://gamefaqs.gamespot.com/switch">Switch</a><a class="notab" href="/web/20190511092446/https://gamefaqs.gamespot.com/vita">Vita</a><a class="notab" href="/web/20190511092446/https://gamefaqs.gamespot.com/xbox360">Xbox 360</a><a href="/web/20190511092446/https://gamefaqs.gamespot.com/xboxone">Xbox One</a><span class="masthead_platform_drop"><a class="mast_nav_last" href="/web/20190511092446/https://gamefaqs.gamespot.com/games/systems">More&nbsp;Systems <i id="sysdrop_down" class="fa fa-caret-down"></i><i id="sysdrop_up" class="fa fa-caret-up"></i></a><ul id="sysdrop" class="masthead_platform_subnav"><li class="gotab masthead_platform_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/android">Android</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/arcade">Arcade</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/ds">DS</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/dreamcast">Dreamcast</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/gba">Game Boy Advance</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/gamecube">GameCube</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/genesis">Genesis</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/iphone">iOS</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/nes">NES</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/n64">Nintendo 64</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/ps">PlayStation</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/ps2">PlayStation 2</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/ps3">PlayStation 3</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/psp">PSP</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/snes">Super Nintendo</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/vita">Vita</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/wii">Wii</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/wii-u">Wii U</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/xbox360">Xbox 360</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/xbox">Xbox</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/games/systems">And 99 More...</a></li></ul></span></nav><div class="masthead_user" data-step="9" data-intro="Now that you've seen what we have to offer, you can register an account for free to have complete access to all of our great community features. If you already have an account, you can log in here as well.">
+	<a href="/web/20190511092446/https://gamefaqs.gamespot.com/user/login" onclick="return show_login();"><i class="fa fa-key nouser"></i>Log In</a>
+	<a href="/web/20190511092446/https://gamefaqs.gamespot.com/user/register" onclick="return show_signup('header');" class="nouser">Sign Up</a>
+</div>
+<div id="login_dialog">
+<div class="pod">
+	<div class="head"><h2 class="title">Log In to GameFAQs</h2></div>
+	<div class="body">
+
+<form class="login" id="login" method="post" action="/web/20190511092446/https://gamefaqs.gamespot.com/user/login" onsubmit="return submit_login();"><input type="hidden" name="path" value="/pc/562671-quest-for-glory-ii-trial-by-fire/faqs/9441"/><input class="hidden" type="hidden" name="key" value="0459c70b">
+	<table class="contrib">
+
+	<tr>
+	<td>
+	<input class="text login_email" id="login_email" type="text" name="EMAILADDR" maxlength="90" placeholder="Username/Email"/>
+	</td>
+	</tr>
+	
+	<tr>
+	<td>
+	<input class="text login_password" id="login_password" type="password" name="PASSWORD" maxlength="64" placeholder="Password"/>
+	</td>
+	</tr>
+	
+	<tr>
+	<td>
+	<input id="kmli" type="checkbox" name="kmli" checked="CHECKED"/><label for="kmli"> Keep me logged in on this device</label>
+	</td>
+	</tr>
+
+	<tr><td>
+	
+	<input class="btn btn_primary btn_wide login_submit" id="login_submit" type="submit" value="login"/>
+	
+	</td></tr>
+	<tr><td>
+	
+	<a href="/web/20190511092446/https://gamefaqs.gamespot.com/user/recover">Forgot your username or password?</a><br/><br/>
+	<a href="/web/20190511092446/https://gamefaqs.gamespot.com/user/register" onclick="$('#login_dialog').dialog('close'); return show_signup('login_box');">Don't have an account? Sign up for free!</a>
+	
+	</td></tr>
+	</table>
+	
+</form>
+
+</div>
+</div>
+</div>
+
+
+</div></div><div class="masthead_main container row"><div class="masthead_logo_search"><div class="masthead_logo" data-step="1" data-intro="Welcome to GameFAQs, your one-stop site for gaming guides, cheats, and more. If you're ever lost on the site, you can click this logo to get back to the home page at any time."><a href="/web/20190511092446/https://gamefaqs.gamespot.com/">GameFAQs</a></div><div class="masthead_search"><form class="search" method="get" action="/web/20190511092446/https://gamefaqs.gamespot.com/search" data-step="2" data-intro="You can use this box to search our extensive database of games. There are quick links to all of the content we have for the game directly from the search results."><fieldset><button type="submit"><i class="fa fa-search"></i></button><input type="text" id="searchtextbox" name="game" value="" class="search" placeholder="Search Game Titles"/></fieldset></form></div></div><div class="masthead_nav"><nav><a href="/web/20190511092446/https://gamefaqs.gamespot.com/answers" data-step="3" data-intro="If you have a specific question for a game, you can ask it here and see if our users can answer it for you.">Answers</a><a href="/web/20190511092446/https://gamefaqs.gamespot.com/boards" data-step="4" data-intro="We have a unique message board for every version of every game in our extensive database, combining into the largest gaming message board on the Net.">Boards</a><a class="navtrim" href="/web/20190511092446/https://gamefaqs.gamespot.com/community" data-step="5" data-intro="GameFAQs wouldn't be what it is without our active community of users contributing content and conversations. See what your friends are up to, or browse through various categories of users like our top contributors here.">Community</a><a class="navtrim" href="/web/20190511092446/https://gamefaqs.gamespot.com/contribute" data-step="6" data-intro="If you'd like to contribute your own guides, reviews, or cheats for a game, this is the place to go. We accept many other types of content as well from trivia to game credits. You can find a full list and all of the guidelines for submitting content here.">Contribute</a><a class="navtrim" href="/web/20190511092446/https://gamefaqs.gamespot.com/games" data-step="7" data-intro="Explore our comprehensive library of games. Find out what's popular on the site or see how we rank games based on difficulty, length, and more.">Games</a><a class="notab" href="/web/20190511092446/https://gamefaqs.gamespot.com/new" data-step="8" data-intro="If you're wondering what games are coming out soon, or what content we've posted recently, this is the place to look.">What&rsquo;s New</a><a class="search_link" onclick="topnav_show_search();"><i class="fa fa-2x fa-search" title="Search"></i></a></nav></div></div></div>
+			
+			
+						
+			
+									
+						<div id="mantle_skin">
+												
+								<div id="content" class="container">
+
+					
+															
+															
+																<div class="post_content row">
+							<div class="span12">
+								<header class="page-header"><div class="header_split"><div class="header_left"><div class="header_image" style="background-image:url(https://web.archive.org/web/20190511092446im_/https://gamefaqs.akamaized.net/box/7/3/8/19738_thumb.jpg)"></div></div><div class="header_right"><h1 class="page-title">Quest For Glory II: Trial By Fire &ndash; FAQ/Walkthrough</h1><h4 class="platform-title"><span class="header_more_wrap"><span class="header_more" style="cursor: pointer">PC <i class="fa fa-caret-down"></i></span><div id="header_more_menu"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/amiga/931379-quest-for-glory-ii-trial-by-fire/faqs"><span class="also_name">Amiga</span></a><a href="/web/20190511092446/https://gamefaqs.gamespot.com/mac/620876-quest-for-glory-ii-trial-by-fire-vga-version"><span class="also_name">Macintosh</span></a><a href="/web/20190511092446/https://gamefaqs.gamespot.com/pc/952659-quest-for-glory-ii-trial-by-fire-vga-version/faqs"><span class="also_name">PC</span></a></div></span></h4></div></div></header><nav id="js_content_nav" class="content_nav_wrap"><div class="content_nav_imp_wrap"><div class="cnav_imp cnav_faqs cnav_item_active"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire/faqs">FAQs</a></div><div class="cnav_imp cnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire/answers">Answers</a></div><div class="cnav_imp cnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/boards/562671-quest-for-glory-ii-trial-by-fire">Board</a></div><div id="js_content_nav_toggle" class="content_nav_label">More</div></div><ol class="content_nav content_nav_split"><li class="cnav_item cnav_has_drop"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire">Home</a><ol class="content_subnav"><li class="csubnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire">Summary</a></li><li class="csubnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire/data">Release Data</a></li><li class="csubnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire/credit">Game Credits</a></li><li class="csubnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire/playing">Also Playing</a></li><li class="csubnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire/stats">Collection Stats</a></li></ol></li><li class="cnav_imp cnav_item_active"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire/faqs">FAQs</a></li><li class="cnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire/cheats">Cheats</a></li><li class="cnav_item cnav_has_drop"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire/reviews">Reviews</a><ol class="content_subnav"><li class="csubnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire/reviews">Reader Reviews</a></li><li class="csubnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire/critic">Critic Reviews</a></li></ol></li><li class="cnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire/images">Images</a></li><li class="cnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire/videos">Videos</a></li><li class="cnav_imp cnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire/answers">Answers</a></li><li class="cnav_imp cnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/boards/562671-quest-for-glory-ii-trial-by-fire">Board</a></li></ol></nav>
+
+<script type="text/javascript">
+$('#js_content_nav_toggle').click(function()
+{
+	$('.content_nav_wrap').toggleClass('content_nav_open');
+});
+</script>
+
+
+
+		
+<div id="faq_header_wrap">
+	<div id="faq_header">
+		<div id="home_links">
+			<a class="gfaqs_icon" href="/web/20190511092446/https://gamefaqs.gamespot.com/"><img src="/web/20190511092446im_/https://gamefaqs.gamespot.com/images/default/g_v13_dark.png" alt="GameFAQs"/></a>
+			<a class="search_mobile"><i class="fa fa-search"></i></a>
+		</div>
+		<div id="faq_search_module">
+			<div class="head">
+				<span class="search_head_mobile">What do you need help on?</span>
+				<span class="search_close" onclick="dismiss_faq_search_results(0);">Cancel X</span>
+			</div>
+			<fieldset id="faq_search">
+				<button disabled><i class="fa fa-search"></i></button>
+				<input type="text" id="faq_search_input" size="80" maxlength="80" placeholder="Search this Guide for" value=""/>
+			</fieldset>
+			<div id="faq_search_results">
+				<table id="results_table"></table>
+			</div>
+		</div>
+				<div id="faq_bookmark" onclick="set_bookmark(0);">
+			<i class="fa fa-bookmark"></i><span class="bm_inner"><br/>BOOKMARK</span>
+		</div>
+		<div class="faq_bookmark_jumper">
+			<div class="bm_jumper_inner">
+			Jump to:
+						</div>
+		</div>
+	</div>
+	<div id="contrib_rec">
+		<div id="rec_inner">
+			<div id="rec_one">
+				<span class="rec_text">Would you recommend this Guide?</span>
+				<a class="rec_yes" onclick="set_rec_val(1);rec_submit(9441, 1, 1);">Yes</a>
+				<a class="rec_no" onclick="set_rec_val(2);rec_submit(9441, 1, 2);">No</a>
+				<input type="hidden" name="recval" id="recval"/>
+				<span class="rec_hide" onclick="$('#contrib_rec').remove();$('#faq_header_wrap').addClass('rec_closed');">Hide <i class="fa fa-times"></i></span>
+			</div>
+			<div id="rec_two">
+				<textarea class="rec_comment" name="comment" maxlength="140" rows="2" placeholder="How did you find this guide helpful? (140 character max)"></textarea>
+				<a class="rec_send" onclick="rec_submit(9441, 1, 3);">Send</a>
+				<a class="rec_skip" onclick="hide_rec();">Skip</a>
+				<span class="rec_hide" onclick="$('#contrib_rec').remove();$('#faq_header_wrap').addClass('rec_closed');">Hide <i class="fa fa-times"></i></span>
+			</div>
+			<div id="rec_three">
+				<a class="rec_sent"><i class="fa fa-check"></i>&nbsp;&nbsp;Message Sent</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<a class="top_link" onclick="page_top();"><i class="fa fa-arrow-up"></i></a>
+
+<div class="pod">
+	<div class="body ffaq">
+		<h2 class="title">FAQ/Walkthrough by <a class="contrib1" href="/web/20190511092446/https://gamefaqs.gamespot.com/community/Sac_AU">Sac!</a></h2>
+		<p><b>Version:</b> 2.7 | <b>Updated:</b> 08/09/01</p>	</div>
+</div>
+
+
+
+<div id="faqwrap" class="ffaq">
+	<pre class="faqtext" id="faqtext"><span id="faqspan-1">================================================================================================
+Quest for Glory 2: Trial by Fire FAQ/Walkthru
+By Sac
+E-mail: epicgames@crosswinds.net
+Web site: http://www.sachw.cjb.net
+Version 2.7
+================================================================================================
+
+You can always get the latest version of this FAQ from-
+~~~~~~~~~~~~
+GameFAQs           http://www.gamesfaqs.com
+CheatCodes.com     http://www.cheatcode.com
+Sac's Gaming Page  http://www.crosswinds.net/~epicgames/Sac
+
+
+Other FAQs by me-
+~~~~~~~~~~~~~~~~~
+Quest for Glory 4: Shadows of Darkness-FAQ/Walkthru
+SaGa Frontier 2- Battle of South Moundtop guide.
+
+Version History
+---------------
+16/10/2000 v1.0 - First started the guide, and got the contents and character guide done.
+                  (UNRELEASED)
+
+20/10/2000 v1.1 - Began and completed the item list and started work on the walkthru, getting up
+                  to day 1.
+
+23/10/2000 v1.2 - Added day two to the walkthru, as well as the sources and credits sections. I
+                  also had to work on the layout a little bit, because this file got too large
+                  for Notepad.
+
+06/11/2000 v1.3 - Added days three to seven to the walkthru.
+
+14/05/2001 v1.4 - After a LOOOOONG absence of updating, I'm back and ready to go. In the time
+                  since I last updated, I've changed both websites and e-mail addresses. Anybody
+                  who has sent me an e-mail, and never got a  response, sorry, but I stopped
+                  checking my old Sacinc.net e-mail address not long after my last update. (I
+                  did e-mail one guy from an old dbzmail address, which had all the sacinc.net
+                  mails sent to it) Now, this update only sees a small addition, that of the
+                  monster list, but I'll resume work on the walkthru soon.
+
+14/05/2001 v1.6 - Another update today. I fixed a number of spelling and grammar errors, as well
+                  as fixing up the name of the Saurus Rex (Which I called a Terrorsaurus in the
+                  last version) And finally I added another day to the walkthru, day 8. The
+                  other major change was fixing up the format because I now use a 800x600
+                  resolution. (UNRELEASED)
+
+13/06/2001 v2.0 - Walkthru completed up to day 27. I'm almost done! I also decided to added 2
+                  new sections to the FAQ. The first is the &quot;Silly Clowns&quot; sections, and I'll
+                  talk about that section more when I start work on it. The second section is
+                  the &quot;Cheats&quot; section and, obviously, it contains cheats you can use to help
+                  you in the game. And yes, it IS complete. But if you know of any other cheats,
+                  feel free to e-mail me (epicgames@crosswinds.net)
+
+18/06/2001 v2.5 - I finally completed the walkthru! But you should keep in mind that there are
+                  a few places for Fighters that I'm not 100% sure are correct, so I'll be
+                  playing through as a Fighter again, just to be on the safe side. I also did a
+                  complete proof read, so most (If not all) of my spelling errors and typos
+                  should have been dealth with now. I'll now start work on the paladin guide,
+                  the complete points lists and the silly clowns list, so expect to see them
+                  soon!
+
+09/08/2001 v2.7 - I started work on the full points list today. So far I have the points that
+                  all character classes can get, as well as the points only fighters can get.
+                  The others will be coming soon.
+
+
+
+----------
+Disclaimer
+----------
+Feel free to download this FAQ onto your hardrive, but you may not post this on your web site
+(Unless you ask me first), or sell it. Also, this FAQ may not be used in any form of magazine
+walkthru (And that includes fanzines and online gaming mags!)
+
+This document is copyright (C)2001 by Sac
+
+-------
+Contents
+-------
+1. Intro
+
+2. Story
+
+3. NPC List
+
+4. Complete Item List
+
+5. Complete Spell List
+
+6. The monsters of Shapier
+
+7. Walkthru (All character types)
+
+8. Complete Points List (NOT COMPLETE)
+
+9. Becoming a Paladin (NOT COMPLETE)
+
+10. Silly Clowns (NOT COMPLETE)
+
+11. Cheats
+
+12. Sources
+
+13. Credits
+
+--------
+1: Intro
+--------
+Quest for Glory 2 was the first adventure game I ever played, and it also happens to be one of
+the best. The combination of fighting and adventure puzzle solving, along with RPG stat
+building means this game is FUN! But QFG2 is also one of the harder Adventure games out there,
+and it's very easy to get stuck. Please keep in mind taht this FAQ has been designed on PC with
+an 800x600 display, so if you are using a 640x480 display, you'll find it difficult to read with
+using word wrap. So without further ado, here's my guide...
+
+--------
+2: Story
+--------
+After becoming the hero of Speilburg, you and your friends Abdulla Doo, Shameen and Shema board
+Abdulla's magic carpet, and head for the land of Shapier.
+
+It is a busy day in the Gate Plaza. Ali Chica is trying to talk someone into buying something,
+and the small katta is playing his flute. Suddenly a large flying carpet lands in the middle of
+the plaza! Two humans and two katta scramble up off the carpet. &quot;No no! that costume just will
+not do&quot; says Shema. Shameen points at the hero, and magically, his costume changes.  &quot;Now you
+look like a hero, shapier style!&quot; Shameen says, smiling.
+
+Welcome to the land of Djinn, genies and deserts. Welcome hero...to Shapier!
+
+-----------
+3: NPC List
+-----------
+This is a list of all the imporantant NPC (Non player characters) that you will encounter in
+QFG2, and where they can be found. Note that sometimes a character may pop in different
+locations (eg: Rakeesh) so I'm only going to list the place you first encounter them.
+
+-=Shapier=-
+
+Abdulla Doo
+~~~~~~~~~~
+Location: Katta's Tail Inn
+Notes: Abdulla is a friend of yours. You met in in Speilburg during QFG1, where he had been
+robbed of his good by the brigands. Now that he has returned to his homeland of Shapier, the
+Sultan made him very rich by purchasing his magic carpet. He likes to spend his time in the
+Katta'a Tail Inn, and is always telling you about how good Shema's tea is.
+
+Shameen
+~~~~~~~
+Location: Katta's Tail Inn
+Notes: Shameen is the innkeeper of the Katta's Tail Inn, and he is a very good friend of yours,
+and is also Shema's husband. You met him in QFG1, when he was trapped in Speilburg, and had
+opened an inn there.
+
+Shema
+~~~~~
+Location: Katta's Tail Inn
+Notes: Shema is the wife of Shameen is a very good friend of yours. She acts as the cook and the
+waitress of the Katta's Tail Inn, and seems to be related to most of the merchants in the city
+of Shapier. On some nights, Shema will perform a dance in the Inn.
+
+Ali Chica
+~~~~~~~~~
+Location: Gate Plaza
+Notes: This guy has the feel of a greezy second hand car salesman, and most of what he sells you
+can't buy. He DOES have some items you might find interesting though...
+
+Sitar
+~~~~~
+Location: Gate Plaza
+Notes: Sitar is a shy Musician that plays his music in the Gate Plaza. Sometimes he performs in
+the inn.
+
+Lisha
+~~~~~
+Location: Gate Plaza
+Notes: Lishar is a young female katta that sells flowers in the gate Plaza.
+
+Ali Fakir
+~~~~~~~~~
+Location: The Saurus stables
+Notes: Doesn't this guy seem familiar? Be carefull when dealing with him, because he won't think
+twice about ripping you off.
+
+Toshur
+~~~~~~
+Location: Southern end of the Fountain Plaza
+Notes: Toshur sell pots.
+
+Scoree and Sloree
+~~~~~~~~~~~~~~~~~
+Location: Southern end of the Fountain Plaza
+Notes: This husband and wife pair sell food from their two stands. You can purchase rations from
+them, or you can buy something to eat while your there. (Note: Scoree and Sloree...or Corey and
+Lori? hmmmm....lol :)
+
+Harik Attar
+~~~~~~~~~~~
+Location: The Apothecary
+Notes: Harrik makes many pills and potions that can aid you on your quest, and his knowledge of
+the elements is also very helpfull.
+
+Lasham
+~~~~~~
+Location: Northern end of the Fountain Plaza
+Notes: Lasham sells many kind of plants from his stall, as well as other plant related
+materials.
+
+Saba
+~~~~
+Location: Northern end of the Fountain Plaza
+Notes: Saba weaves baskets of all shapes and sizes.
+
+Tashtari
+~~~~~~~~
+Location: Northern end of the Fountain Plaza
+Notes: Tashtari makes many items from brass, lamps among them.
+
+Keapon Laffin
+~~~~~~~~~~~~~
+Location: The Magic Shop
+Notes: This funny little Gnome rides a cloud, and he has a warped sense of humor (NEVER mention
+to the word &quot;fish&quot; to him). While he can sell you many spells, his own area of expertise is wind
+magic. He is also the newphew of Aziza.
+
+Dinarzad
+~~~~~~~~
+Location: The Money changer's alley (Dinar tarrick)
+Notes: Dinarzad will exchange any foreign coins for the Dinar and Centimes used is Shapier.
+Thieves will find her to be very interesting...
+
+Kiram
+~~~~~
+Location: Eastern end of the Plaza of the Fighter
+Notes: Kiram sells clothes and other cloth items.
+
+Mirak
+~~~~~
+Location: Eastern end of the Plaza of the Fighter
+Notes: Mirak sells leather goods, such as belts and waterskins.
+
+Issur
+~~~~~
+Location: The Weapons shop
+Notes: Issur is a surly muscleman. His shop sells many kinds of weapons and armor. In his spare
+time, Issur likes to arm wrestle, and he has actually won many trophies becuase of his strength
+and skill at arm wrestling. He might even be willing to Arm wrestler you, if you ask him...
+
+Rakeesh
+~~~~~~~
+Location: Western end of the Plaza of the Fighter
+Notes: Rakeesh the Liontaur was once a king of the far away land of Tarna, But gave up his
+kingdome to become a mighty Paladin. But this all changed when his leg was injured a firce
+battle against an evil demon wizard that threatened his conutry, and was also the reason he
+became a paladin in the first place.
+(Author's note: You can find out more about Rakeesh, and the land of Tarna, in Quest for Glory
+3: Wages of War)
+
+The Challenger
+~~~~~~~~~~~~~~
+Location: Western end of the Plaza of the Fighter
+Notes: If your a theif, or have the ability to climb, then this guy will appear. You can bet
+money on weather you can cross the tightrope he has set up as easily as he can. Thieves will
+probably find this to be more interesting than Fighters' and Magic Users'.
+
+Uhura
+~~~~~
+Location: The Adventurer's guild
+Notes: This brave warrior woman is only too happy too help you hone your skills by sparring with
+you in the guild's combat area. She's all not as stuck up as the Weapons Master from QFG1. Also,
+like Rakeesh, she also comes from Tarna.
+
+Baby Simba
+~~~~~~~~~~
+Location: The Adventurer's guild
+Notes: This baby is smarter than he looks!! Seriously though, he is the young son of Uhura. His
+father is never mentioned in this game at all.
+
+Sashanan
+~~~~~~~~
+Location: Palace Plaza
+Notes: Sashanan sells jewerly. His wares are beyond your meagre budget.
+
+Tiram
+~~~~~
+Location: Palace Plaza
+Notes: Tiran sells carpets. Unfortunetly, only the normal, non magic kind.
+
+Abu al-Njun
+~~~~~~~~~~~
+Location: The Astrologer's (Tarrick of the stars)
+Notes: Abu studies to stars so that he can learn of the future. What he can tell you might come
+in handy.
+
+Aziza
+~~~~~
+Location: Her own house (Sitt Tarrick, a side street from Shamali Tarrick)
+Notes: A mysterious enchantress. She specialises in water magic. But she won't just see anybody.
+Only those who are intelligent and polite.
+
+Magister Erasmus of Zauberberg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Location: WIT
+Notes: Erasmus is an old wizard you met in Speilburg (Although, unless your character was a
+magic user, you probably didn't have much to do with him) Despite appearing incompetent, Erasmus
+is a VERY powerful wizard, probably among the most wizards in Gloriana.
+(Author's note: While this fact isn't mentioned until Quest for Glory 5, the name of the world
+where your hero lives and adventure sin is called &quot;Gloriana&quot;)
+
+Fenrus
+~~~~~~
+Location: W.I.T.
+Notes: Fenrus is the familiar of Eramus. Although you never actually see him in this game, he is
+a talking rat. That wears a small wizards hat. And he loves cheese ;)
+
+Elemental Wizards(Air, Earth, Water and Fire)
+~~~~~~~~~~~~~~~~~
+Location: W.I.T.
+Notes: These old wizards of Air, Earth, Water and Fire administer your proper test, after you
+have passed the pre-test with Erasmus at the W.I.T.
+
+The Beggar
+~~~~~~~~~~
+Location: Southern end of the Fountain Plaza
+Notes: Sometimes it pays to be kind...
+
+Ja'Afar
+~~~~~~~
+Location: Katta's Tail Inn
+Notes: The constant travel companion, friend and translator of the Poet Omar.
+
+The Poet Omar
+~~~~~~~~~~~~~
+Location: Katta's Tail Inn
+Notes: Omar writes alot of poetry and is always accompanied by his friend and translator, Ja'Afar.
+
+Sultan Harun Al-rasid
+~~~~~~~~~~~~~~~~~~~~~
+Location: The Palace
+Notes: The ruler of Shapier, he is so good and kind to his subjects that they can't speak his
+praises enough.
+
+-=Desert=-
+
+Dervish
+~~~~~~~
+Location: The Oasis
+Notes: While this old man may seem like he's crazy, he's actually very wise.
+
+Al Scurva
+~~~~~~~~~
+Location: Cage in the desert
+Notes: This apprentice sorcerer was transformed into a beast by his former master, Ad Avis. He
+doesn't seem very grateful for having been rescued, but at least he thanks you for the food
+and water you gave him.
+
+-=Rasier=-
+
+Khaveen
+~~~~~~~
+Location: Gate Plaza
+Notes: This guy is the captain for the Rasierian guards, and he DOESN'T like you. Be carefull
+around him.
+
+Signor Ferrari
+~~~~~~~~~~~~~~
+Location: Blue Parrot Inn
+Notes: A strange man wearing a fez and carrying a small whip. For some reason, he seems to want
+to help you. But can he be trusted?
+
+Wilmer
+~~~~~~
+Location Blue Parrot Inn
+Notes: The bartender at the blue parrot Inn, he reminds you of Bruno (A tough thief)from
+Speilburg.
+
+Ugarte
+~~~~~~
+Location: Blue Parrot Inn
+Notes: A friend of Signor Ferrari's. He sells water cheaper than you can buy it from the Emir's
+men.
+
+Zayishah
+~~~~~~~~
+Location: Zayishah's room
+Notes: While looking around in Rasier, you are asked to follow a woman. When you do, Zayishah
+tells you that Khaveen plans to force her to marry him, and asks you for your clothes and your
+visa. Should you help her?
+
+Mayzun
+~~~~~~
+Location: Zayishah's room
+Notes: Mayzun is the servant of Zayishah, and will help you if you help Zayishah.
+
+Former Emir Arus Al-din
+~~~~~~~~~
+Location: Unknown
+Notes: The former Emir was highly respected by those he rules, but he disappeared the previous
+year.
+
+Emir Ali Hasan
+~~~~~~~~~~~~~~
+Location: Hiding in his room, Rasier Palace
+Notes: While Ali, the brother of Arus, is the current Emir, his is nothing but a puppet ruler,
+and those that speak of him have nothing but curses to say.
+
+Sharaf
+~~~~~~
+Location: The Rasier jail
+Notes: You first meet this Katta in the jails of Rasier. If you can gain his trust, he may prove
+to be a valuable ally. And yes, he's related to Shema :)
+
+Ad Avis
+~~~~~~~
+Location: Streets of Rasier
+Notes: After escaping from the jail, you encounter Ad Avis. At first your wary, but then...Gee,
+he's not such a bad fellow, is he? But still...
+
+Djinni
+~~~~~~
+Location: Tomb of Iblis
+Notes: This crazy Djinni lives in the ring you found in the Forbidden city. While he his magic
+may not always work, you can depend on his three wishes.
+
+Iblis
+~~~~~
+Location: Tomb of Iblis
+Notes: Why does Ad Avis seek this being called Iblis, and what are his powers?
+
+---------------------
+4. Complete Item List
+---------------------
+The following is a list of every item in the game your character can posses
+in his inventory.
+
+Leather Armor:
+If your a magic user or a thief, you'll start with this armor. It's not possible to purchase
+another.
+
+Chain Mail:
+This is the armor that the fighter starts with, and while it is better, it's also much heavier.
+You can find no better armors, nor can you replace your chain mail armor if you lose it (i.e.
+drop it).
+
+Shield:
+Once again, only the fighter starts with a shield, and it cannot be replaced if lost.
+
+Lock Picks:
+If you give a fighter or magic user the ability to pick locks, they'll start with these. These
+slender tools are used for trying to opned locked door. (Note: Unlike other games, your lock
+picks will never break in QFG2).
+
+Thieves tool kit:
+Only thieves can gain this item, and they also start the game with it. This tool kit contains
+many different lock picks and other thieving tools that will be invaluable in when acquiring
+items.
+
+Thieve's guild license:
+Thieves start with this. Gained from the chief thief of Speilburg during Quest for Glory 1.
+
+Gold Coins:
+All heroes start with these. Imported heroes will start with either more or less coins,
+depending on how well you did in QFG1. The gold coin is the currency used in Speilburg, and
+most of what you have is a reward from the baron for your heroic deeds.
+
+Brass Centime:
+Shapiers version of a 1 cent coin. Basically useless, although all of the merchants in Shapier
+will accept them.
+
+Golden Dinar:
+The Shapiern dollar coin, you will want to collect as many of these as you can!
+
+Magical Map of Shapier:
+Can it be! Ali Chica actually sells you something...and it works! This map allowed you to
+instantly revisit any important location in the city of Shapier, instantly. But it will only
+work in the streets and plazas of Shapier, no where else.
+
+Magical Compass:
+Once again Ali Chica surprises you by also selling you this useful compass.
+
+Food Rations:
+Sloree and Scoree will sell theses food rations to you. When adventuring for prolonger periods
+in the desert, even the best heroes need to eat. And rations are easy to carry around than a
+roast saurus!
+
+Broadsword:
+Fighters start the game with this large, but cumbersome, weapon.
+
+Fine Sword:
+Ah! This is better! Issur makes a good weapon...and he makes you pay a good price for it too.
+
+Daggers:
+You can never have too many daggers, so buy a few from Issur. Thieves should always have at
+least two or three.
+
+Bellows:
+Hey, that sure is an interesting looking bellows above Issur's sign, isn't it?
+
+Small rocks:
+These can be picked up in the desert...but only if there are no larger rocks on the screen.
+
+Whirls of beards:
+The dervish has such a large beard, I'm sure he won't miss a few hairs.
+
+Worthless X ray glass:
+These glasses are useless! They don't do anything! Or do they...
+
+Magic Rope:
+If you can climb, be sure to buy this off Keapon. If your a theif, then you'd be a fool not too!
+
+Pouches of Incense:
+Pooh! This stuff stinks! Seems to burn easily though.
+
+Containers of oil:
+You wouldn't wanna put this stuff on your bar-be-que. Useful for when you wanna quiet some
+squeaky hinges.
+
+Power of Burning:
+Only the thief will need to buy these, and even then, they are only usefull for a certain task.
+Don't worry, you'll know when the time comes...
+
+Healing Pills:
+These pills of Harrick's patch you up better than the potions the Healer sold back in Speilburg.
+Just the thing to take after a hard fought battle with a Saurus Rex
+
+Vigor Pill:
+Feeling tired? Just had your energy sapped by a Ghoul? Then you'll want one of these.
+
+Mana pills:
+When you just can't cast spells anymore, of of these fill top up your mana. Useless to fighters
+and thieves (Unless you gave them magic at the start of the game)
+
+Poison Cure Pills:
+Take one of these and you'll be safe from poison. At least, until you've been poisoned, when
+you'll need to take another.
+
+Dispel Potion:
+You've had quite a bit of experience with these, although there are no baron's daughters turned
+in invincible brigand leaders in this game, so what could you need the dispel potion for...
+(No, not the tree)
+
+Flower Bouquets:
+This flowers sure do wilt quickly in the desert heat.
+
+Sapphire Pin:
+You can't buy this token of katta trust. It has to be given to you.
+
+Griffen feather:
+If your brave enough, you might be able to find a feather near the griffon's nest. Just make
+sure you don't wake the Griffon up in the process!
+
+Scorpion tails:
+Kill a scorpion before you try and acquire one of these.
+
+Ghoul claws:
+Y'know, it'd be easier to get some of these if you killed the ghoul first.
+
+Soulforge (Rakeesh's sword):
+When the times comes, Rakeesh will lend his sword to a fighter. If your a mage or a thief, you
+won't be able to use it, thus, he won't offer to let you borrow it.
+
+Pots of dirt:
+Now what would a hero want with one of these?
+
+Brass lamps:
+It's always handy to have a lamp. Even if the one you buy doesn't seem to work.
+
+Empty pot:
+When your out of dirt, your left with one of these.
+
+Fruit of compassion:
+To say anything about this here would be a spoiler. Read the walkthru for details.
+
+Waterskins:
+The more the better. The desert sun can be brutal in Shapier.
+
+Cloth bags:
+Well, I guess you might need to buy one of these sometime.
+
+EOF Secret Membership Badge:
+This shows your membership of the Eternal Order of Fighters.
+
+Rasierian Visa:
+Khaveen gives you this when you first enter Rasier. You'll need it to get in and out of the
+city.
+
+Essence of Water elemental:
+No spoilers here. For details, see the walkthru.
+
+Djinni Ring:
+You can find this in the Tomb of Iblis.
+
+Hand Mirror:
+A reward for helping Zayishah.
+
+Black Bird:
+Signor Ferrari wants you (If your a thief) to steal this from Khaveen's room.
+(NOTE: I've been told that this is a reference to an old movie, but what that
+movie is I don't know.)
+
+Change of clothing:
+Given to you by Shema when you join the caravan travelling to Rasier.
+
+Saurus:
+On Day 2, you can buy this saurus from a funny little man standing in front of the saurus
+stables. I wonder why yours looks so different from the others? (Notes: Even though your riding
+your saurus, and not carrying it around, it's still listed in your inventory)
+
+Bag of Sand:
+If you pick up sand while carrying a cloth bag, you'll get one of these. Useless and a waste of
+a bag.
+
+Essence of Earth Elemental:
+See the walkthru for deatils
+
+Silver Tea Service:
+Thieves can steal this.
+
+Emerald Bowl:
+Another item that can be stolen.
+
+Silver Dagger:
+In the same place that you stole the two items above, you can find (And steal) this. It can't be
+used as a regular dagger though.
+
+Omar's leather purse:
+Oh dear. It seems that after reading poetry in the fountain plaza, Omar dropped his purse.
+Should you keep it, or return it?
+
+Rusty Nail:
+Thieves can find this if they have nothing else after being captured and jailed is Rasier.
+
+----------------------
+5. Complete Spell List
+----------------------
+Here is a list of every spell in the game, it's mp cost, a short description of it's use and
+where you aquire the spell. Non Magic users can posses every spell except for Zap.
+
+Open, 2MP
+Location: The Magic shop (magic users start with it)
+Description: A simple spell that can be used to spring simple locks and open doors. When a door
+has been barred, however, it is useless.
+
+Detect Magic, 2MP
+Location: The Magic shop (magic users start with it)
+Description: Used to detect spells cast by others, such as magical signs or traps. Detect Magic
+can also let the caster know if any magic is present in an area. Useful if you want to know if
+something you are looking at is magical.
+
+Zap, 3MP
+Location: Magic Users start with it.
+Description: Zap charges the magic users weapon will a small amount of magical energy. When you
+attack a foe, they will be caused addition damage because of the charged energy. Zap is only
+good for one attack though, so it must be recast before attacking your foe each time.
+
+Trigger, 3MP
+Location: The Magic shop (magic users start with it)
+Description: Trigger is used to do just that. Trigger things. To be more precise, it's used to
+trigger other magical spells. So, for example, a wizard could create a magical exploded trap,
+then move away and TRIGGER it when his prey is close enough. You won't find much use for it,
+but practise it all the same.
+
+Dazzle, 3MP
+Location: The Magic shop (magic users start with it)
+Description: Dazzle, or to use it's full name Erasmus' Razzle Dazzle, creates a very bright
+light in front of the caster, blinding (for a short while) anyone (or anything) that looks at it.
+
+Calm, 4MP
+Location: The Magic shop (magic users start with it)
+Description: The spell, creates an intense feeling of calm to surround the area the cast is in.
+Any monsters or people will suddenly calm down, and just stand where they are, feeling calm.
+Best used to escape before combat happens as, if cast DURING combat, the monster will just
+calmly eat you.
+
+Flame Dart, 5MP
+Location: he Magic shop (magic users start with it)
+Description: The first of the ranged offensive spells available to you, Flame Dart creates a
+small dart of fire, that you can send towards your opponent to damage them.
+
+Fetch, 5MP
+Location: The Magic shop (magic users start with it)
+Description: Creates a ring of magic &quot;fetch&quot; whatever item the magic users wishes to have brought
+to him or her.
+
+Force Bolt, 6MP
+Location: The Magic shop
+Description: The second of the ranged offensive spells. Force bolt creates a bolt of pure
+magical force, that the caster may send to strike his or her enemies. Unlike Flame Dart though,
+Force Bolt will not dissipate upon contact, but will continue to bounce around for a short while.
+
+Levitate, 7MP
+Location: The Magic shop
+Description: Levitate is used to rise the caster up off the ground. While under the effects of
+this spell, you can move your arms, and look around, but not much else.
+
+Reversal, 8MP
+Location: W.I.T.
+Description: AH! Your first defensive spell! Reversal surrounds the caster will a shield of
+magic that repels ranged offensive spells such as Flame Dart and Force Bolt. Players of Quest
+for Glory 1 will recognise this as being the spell the kobold used against them.
+
+------------------------
+6. Complete Monster List
+-------------------------
+There are three types of monster in Quest for Glory two. First, there is the day time monster.
+These guys are pretty weak and only come out during the day. Next you have your night time
+monster. A bit stronger, but still nothing to worry about. And then you have the other monsters,
+who you might encounter at ANY time. These guys are the toughest of the tough. Finally, keep in
+mind that I only list the MONSTERS that you fight normally, not the people or animals you might
+face during your adventure.
+
+Day
+~~~
+Brigand-
+A bearded man wearing a turban. They carry a simple sword, and pose no threat at all, not even
+at the start of the game, despite Uhura tells you.
+
+Night
+~~~~~
+Ghoul-
+These undead guys can be a problem, as their attacks drain your stamina instead of your health.
+But if your careful, their are nothing to worry about.
+
+Jackalmen-
+The number of these guy you will encounter varies, but generally you'll encounter a group of
+them instead of just one or two. Like the goblins in Quest for Glory 1, you must fight each
+Jackalman one at a time, without time to rest in between battle. But fear not, as their almost
+as weak as brigands, if not more so.
+
+Other
+~~~~~
+Scorpions-
+Unless you have a poison cure pill, avoid these beasts at all costs, for if it grabs you with
+it's claws, it will kill you instantly. But if you have a stock of poison cure pills (make sure
+you take one BEFORE fighting a scorpion) Then the scorpions aren't too hard to beat.
+
+Saurus Rex-
+And I net you thought saurus's were either weak and purple monsters, or friendly green animals.
+When you first start the game, don't go near these guys, as they're fast and can easily tear you
+to pieces, even later on in the game when you are more skilled. The most dangerous desert
+monster in the game.
+
+-----------
+7. Walkthru
+-----------
+This walkthru will go day by day, containing instructions for how to solve each puzzle, as well
+as tips for other things that each character class might want to do. keep in mind that there are
+always a few differant ways to solve each puzzle. Also, I'm going to assume that your not mixing
+character classes.(eg: Giving a thief magic, or a magic user the skills to a parry)
+
+One last thing, I'm not going to be telling when to check your rations or fill your waterskins
+(Unless your required to either to solve a puzzle). Keep an eye on your inventory, and buy
+rations or fill your waterskin when needed. The game will let you know when your character has
+no water.
+
+Day 1
+~~~~~
+You start off sitting in the Katta's Tail Inn, talking with Abdulla. Stand up and exit the inn.
+Ignore Ali Chica and head through the walkway in the top of your screen. Walk along the street
+until you come to the fountain plaza. head towards the bottom of the screen, and then walk into
+the archway to the left. Now follow &quot;Dinar Tarrick&quot; (Type &quot;Look at sign&quot; each time you some to
+the end of a street.) until you come to the money changer. Now change your golden Speilburg
+coins. The money changer will take a percentage of your money, and I've found that the best way
+to maximise your money is to change yours 5 at a time.
+
+Now that you have some money, there's something you should know. Whenever you buy something from
+a merchant in Shapier, always &quot;BARGAIN&quot; for it. Not only will this raise your communication
+skill (Newly added in QFG2, it was not present in QFG1), but there's a chance you could get the
+item cheaper. Thieves should &quot;MAKE THEIF SIGN&quot;.
+
+Return the way you came, and go back to the fountain plaza. Now it's time to start shopping!
+First, buy a lamp from the brass stand. Next, visit the apothecary. All classes should buy
+healing and vigor pills. Thieves should buy oil, Magic users mana pills and fighters poison cure
+pills. Now head for the magic shop. Fighters will find nothing much of use here, so they can
+leave right away. Magic Users should purchase whichever of the spells they want (And can afford)
+while thieves should buy the magic rope. Don't worry if you don't have enough money for all the
+spells or the rope. You'll have plenty of money soon enough. Next, return to the gate plaza.
+Purchase the map and compass from Ali Chica.
+
+The map: Now that you have the magic map, you'll only have to explore the streets of Shapier
+when first travelling somewhere important, or if you want to, because once you've visited a
+place, it show sup on your map, and clicking on will allow you to travel there instantly. At
+this stage, all four plazas, the palace, the Katta's Tail Inn, the money changer, the apothecary and the
+magic shop will all be on your map. Also, where you click on the map determines which half of
+the fountain(or fighters) plaza you will end up in.
+
+Travel to the Fighters Plaza, and purchase a waterskin from the leather merchant. Now enter the
+weapons store. Magic Users should leave right away, as they will want nothing in here. Fighters
+should (if they have at least 100 dinars) bargain for the fine sword. Thieves and Fighters
+should both purchase some daggers (Don't bother bargaining for these, Issur will make no deals
+concerning his daggers). Head to the other end of the Fighters Plaza, and speak with Rakeesh.
+Ask him about Paladins if you want to, then enter the adventurers guild. Speak with Uhura, then
+read and sign the guest book, and read the notice board. walk to the door at the top right of
+the screen, and enter it to spar with Uhura. Fighters should heal with pills and spar with Uhura
+a few more times, while Magic Users and Thieves can leave at this point.
+
+Travel back to the gate plaza and walk outside to visit the Saurus Stables. Speak with the
+guard, and look at the saurus. You can visit the desert if you wish, but I wouldn't advise
+doing so yet. Now you can either explore the city, or return to the inn. Either way, sleep or
+explore until night time. Now sit down at the table and order your dinner (Type &quot;ORDER&quot;).
+Thank Shema, eat and then stand up and sleep until Dawn.
+
+Day 2
+~~~~~
+Once you've woken up, sit down, order your food, then thank Shema and eat it. Next go to the
+adventurer's guild and practice with Uhuru. When you exit the guild, thieves (And character who
+can climb) should take up the challenger's offer. Don't worry if you fall off a few times, as
+the challenger will continue to show up again a few times. After this, use your map to go to the
+saurus stables. When you arrive, you spot that there is a sign on the gates of the stable, and a
+funny little man, named Ali Fakir, will try and sell his last saurus to you. Now you will want
+this saurus, but rather than typing &quot;Bargain for Saurus&quot;, type &quot;Buy Saurus&quot;. Ali Fakir will
+start telling you about all this extra stuff he's going to throw in and for only 50 dinars. Tell
+him &quot;NO&quot;. Say no to each of his offers until he comes down to 5 dinars. Ali Fakir will not go
+any lower than this. Now, buying the saurus using this method will not raise your communication
+skill (because your not bargaining)but it's better because you can save your cash for other
+things.
+NOTE: If you don't want to buy the saurus right away, you don't have to. But, if you
+continue to not buy it, the game will end eventually.
+
+The Saurus: Now that you own a saurus, you can freely wander the desert. Go anywhere you want,
+and don't bother to make a map(The desert is -WAAAAAAY- to large to map every screen.) When your
+sick of the desert, just type &quot;GO HOME&quot; and, provided your saurus has a clear path to the edge
+of the screen, you will leave that screen and end up overlooking the city.
+
+After Ali Fakir has left, you should ride your saurus. Head towards the bottom of the screen.
+This will take you to the city overlook. As I said in the above paragraph, this is where you
+will end up when you tell your saurus to go home. Now that we're in the desert, there is a few
+things we can do. First, we'll visit the Dervish's Oasis. to get there head south for five
+screens (At one point, the &quot;camera&quot; angle will change. Don't worry about this as you will still
+be heading south.) You can tell when your at the right screen, because one of the rocks there
+will look sorta of like a dinosaur's head (At least, it does to me). From here, head east for
+three screens. Your now at the Oasis.
+
+Oasis: Besides the obvious things to do here, such as talk to the dervish and drink water
+(Typing drink water will also cause your hero to check his waterskins, and fill them if needed),
+you can also rest and sleep here. Typing &quot;REST&quot; will cause your hero to nap for an hour. But if
+you type sleep, you sleep until the end of the day/night. (That is, if't night, you'll sleep
+until dawn. If it's day, you'll sleep until night time). And lastly, you can't ride your saurus
+while he's having a drink. Don'[t worry though, as he only takes a few seconds.
+
+After talking to the dervish and getting some water, take a piece of his beard. (Remember Keapon
+Laffin's poster at the adventure's guild?) Thieves and magic user's return to the overlook, and
+practice throwing (thieves) or their spells (Magic Users). Fighters should just wander aimlessly
+around the desert, killing any monsters they come across.(See the monsters section for deatils
+on how to fight each creature).
+
+Your done fighting or practising (or both), return to the Katta's Tail Inn. (Sleep until
+evening if it's still daytime.) Come out and watch Shema dance, Order your dinner, then return
+to your room and sleep until dawn.
+
+Day Three
+~~~~~~~~~
+Do the standard morning activities (Breakfast, practice with Uhuru). Use your map to travel to
+the palace plaza, and from there go into the doorway to the left. Follow &quot;Tarik of the Stars&quot;
+until you reach the astrologer. Tell him your name, and then &quot;ASK ABOUT FUTURE&quot;  and then &quot;TELL
+ABOUT PAST&quot;. Leave the Astrologer, go to the southern end of the fountain plaza and give a coin
+to the beggar (doesn't matter which sort). Now head for the northern end of the fountain plaza
+and enter the magic shop. Sell the whirl of beard to Keapon. (Magic users should bargain for any
+spells that they haven't bought yet, while thieves should purchase the rope if they haven't
+already). Leave the magic shop, and exit at the top of the screen. Follow &quot;Shmali Tarik&quot;. When
+you come to the intersection of Schmali and Sitt, turn left into &quot;Sitt Tarik&quot;. You'll find
+yourself looking at a door with an eye in the center of it. Knock on the door. You'll be asked
+the following questions:
+
+Q:&quot;Who is it that seeks to enter?&quot;
+A: Your name
+
+Q:&quot;Who is it that sent you here?&quot;
+A: Keapon Laffin
+
+Q:&quot;What element is most appropriate to the owner of the magic shop?&quot;
+A: Air
+
+Q:&quot;My first is the first, my second is the last, next comes myself, Then back to the end, and
+beginning again. Who am I?&quot;
+A: Aziza
+
+If you make a mistake, exit the screen and try again. After you've supplied the right answers,
+the door will open, and Aziza the enchantrees will admit you. (from now on, you'll be able to
+return here using the map. Also, you won't have to answer the questions to gain entrance
+any more. Just knock to get in) Aziza will ask you to sit down. (typing &quot;SIT&quot; will not work
+here. Instead, just walk over to the table and you'll sit down automatically). When Aziza offers you
+tea, say yes. For now, there is nothing you need to ask Aziza, so say &quot;GOODBYE&quot;. Your character
+will now stand up and leave automatically.
+
+W.I.T
+magic users or mixed characters might have noticed something when walking the streets. If you
+cast &quot;DETECT MAGIC&quot;, you'll see a magic arrow appear. Follow these arrows to their source. (If
+you don't want to do that, then, after talking to Aziza, return to &quot;Schmali Tarik&quot; and head
+north (use your compass if unsure of which direction is north) and continue until you come to
+&quot;Kalsa Darb&quot;. Turn left and proceed until you come to &quot;Kudra Darb&quot;, turning right. When you come to
+&quot;Sahir Tarik&quot;, turn right. Now cast detect magic. This will cause a door to appear at the end of
+the alley. cast open and it will, surprise surprise, open. Enter it. Your now in the beautiful
+Wizard's Institue of Technology. You'll begin to hear a number of voices, and they will ask you
+some questions. Failing them them will result in your being kicked out. First, the voices will
+ask yoru name. (just type your characters name), then your purpose (&quot;To become a wizard&quot;) and
+finally, you'll be asked for a sponsor. You can choose any of the wizards whose portraits you
+can see, although only Erasmus will agree to be your sponsor. The voices will carry on for a
+bit, then they will contact Erasmus. He will begin your pre-test. You'll find yourself in a
+strange area, unable to move. There will be three bells and a small stand in front of you. To
+solve this puzzle, cast &quot;DETECT MAGIC&quot;. A bell will flash. Cast &quot;FETCH&quot; on that one, and you
+will move it to the small stand. cast &quot;TRIGGER&quot; on the bell on the stand, and it will ring,
+letting you know that you have passed the pre-test. Erasmus will congratulate you, as well as
+give you a few clues. You'll exit back to the main hall of the W.I.T. The voices will ask if
+your ready. If you have a few mana pills, say yes. If you have none, say no, buy some, then
+return and say yes. You'll find yourself walking along an endless pathway in what appears to be
+space. The Air Wizard will appear, and begin his test. To pass, cast &quot;FETCH&quot; on the staff, so
+that it moves towards you. Now cast &quot;LEVITATE&quot; and move up until the staff has gone. You'll
+continue along the path until the Earth wizard appears and issues his test. To continue, first
+cast &quot;TRIGGER&quot;, then &quot;CALM&quot;. Now climb over the wall. When it comes to life again, cast
+&quot;TRIGGER&quot; for a second time. you'll walk to the end of the path and continue. Now it's time for
+the Water Wizard's challenge. Cast &quot;FLAME DART&quot; at the iceberg, then &quot;FORCE BOLT&quot;, aiming the
+bolts for the center of the iceberg. Continue casting until both halves of the iceberg fall of
+the screen. You'll now face the final test, that of the Fire Wizard. When the door appears, cast
+&quot;OPEN&quot; on it. Now cast &quot;CALM&quot;, to make the flames die down. They'll disappear, but your left
+with a hole in the path. Cast &quot;FETCH&quot; and aim it at  the door to close it, and then cast &quot;FORCE
+BOLT&quot;, aiming it for the top of the door. It will fall over, allowing you to continue.
+
+Now that you've passed the tests, you will be returned to the W.I.T. where the elemental wizards
+will offer to let you join them. Say no. Erasmus will congratulate you on passing the tests, and
+inform you that your now a wizard, not just a magic user. He'll then give you the reversal
+spell, and transport you back to the alley. From now on, you can't enter the W.I.T any more.
+
+Now explore or sleep until evening (Fighters' should spend the day fighting monsters. Fighters
+should defeat at least one of each type of monsters. See the monsters section for details of how
+to find monsters and when then can be found.). Return top the inn at night, and sit down and
+listen to Omar the poet, then order your dinner, eat it and go to sleep.
+
+Thieving time
+While fighters' and wizards should sleep after Omar has finished, thieves should exit the inn.
+Return to the money changer, and she will give you a job and some directions. Follow them until
+you come to an alleyway with a blue lamp above a door. Start sneaking (Type &quot;STEALTH&quot; to sneak
+around.) and wait until midnight. Once it's the correct time, approach the door and pick the
+lock. If, at any time, you make a noise in this house, stop and wait for a few seconds before
+continuing. Now sneak over the shelves, and take the teapot that's there. Sneak over to the
+wardrobe, and use the oil on the hinges. Search the wardrobe and get the bowl that you find
+there. Now sneak over to the large carpet on the floor, and look under it. At this point a man
+enter the house and look right at you! Luckily, Hasan is blind and he doesn't you. Whew! Now
+return to where you rolled up the carpet, and open the trapdoor you revealed. At this point,
+you'll hear a noise outside. Hide the trapdoor (Type &quot;UNROLL CARPET&quot;) and then hide in the
+wardrobe. When Ahmak has gone, exit the wardrobe, and roll up the carpet again. Pick the lock
+on the chest inside the opened trapdoor. Once again you'll hear a noise again, so unroll the
+carpet and go back to the wardrobe. When Jabir has gone, exit the wardrobe and return to the
+trapdoor. Get the dinars out of the chest and then serach it. You'll find a false bottom
+counting a jewel encrusted dagger. Now that you've finished looting these poor people (Hey, a
+thiefs gotta make a living somehow), sneak out, return to the and go to sleep.
+
+(NOTE: Non thieves that have the skills of stealth and lock picking can enter this place, but
+you won't get as much out of it as a thief will.)
+
+Day Four
+~~~~~~~~
+Do your usual morning thing, with everyone eating breakfast and fighting once with Uhura, the
+fighter fighting a couple more times, and the thief walking the challenger's tightrope. When you
+leave the inn this morning, Shameen will warn you about  a strange fire, and upon entering the
+gate plaza, all the merchant, save Ali Chica will be gone. Ali's stall will be nothing but a
+pile of burned wood, so I hope you bought the map and compass already. Despite his claims of
+selling you burnt wood, Ali Chica won't sell any to you. Despite the report of the strange fire, day 4
+will prove to be pretty uninteresting. The thief should report to Dinarzaad that he was
+successful, and bargain with for a good price for the stolen items. Don't forget to ask about
+the safe! Fighters should visit the weapons shop, and ask Issur about arm wrestling, then
+challenge him. (Make sure you lose to Issur. If you will now, a bug will mean that he will
+refuse to take up your challenge again) If you remembered to speak with the astrologer
+yesterday, then go and see him now and &quot;ASK ABOUT FORTUNE&quot;.  Now that you've done that, spend
+the day honing your skills. Wizards and Fighters should travel into the desert (Wizards should
+stay in the city overview and just practice their spells), while thieves should practice their
+sneaking and locking in the street of Shapier. When night approaches, return to the inn, eat
+your dinner and go to sleep.
+
+
+Day Five
+~~~~~~~~
+When you sit down this morning, Abdulla will tell you that you will soon be called upon to save
+the city(Shapier) from being awash in flames. So much for your holiday after saving Spielburg
+from Baba Yaga and the brigands. When you leave the inn, you can see the elemental dancing around
+the now empty gate plaza. Don't go near it, as you cannot fight it, and it can hurt you simply by
+touching you. (If the elemental touches the inn's sign, it will burn and won't be fixed for the
+rest of the game). So, avoid the fire elemental, and then proceed with your usual morning
+activities. Once your done with them, it's time to pay Azziz a visit.(Remember to be polite and
+mind your manner. Just because Aziza has let you in, it doesn't mean she won't kick you out!)
+Once seated, ask her about: &quot;ELEMENTAL&quot;, &quot;FIRE ELEMENTAL&quot;, &quot;CONTAINER&quot;, &quot;CONTRARY ELEMENT&quot;.
+Thank her and leave. Using your map, go top the Apothecary. After getting Harik's attention
+(Notice how he talks about the fire elemental?) ask him about &quot;FIRE&quot;. Once his demonstration is
+over, bargain for some incense (Only purchase/bargain for 1. If you get more than that, you will
+be unable to defeat the fire elemental because of a bug.) leave, and fill your water skins. NOW
+your ready to tackle that fire elemental! Travel back to the gate plaza, and &quot;USE INCENSE&quot;. Walk
+up into the street leading to the fountain plaza. Continue walking up the screen until your
+incense runs out. Now &quot;USE LAMP&quot; and wait until the fire elemental approaches you. When it's
+close enough, &quot;USE WATER&quot; (If your unsure of  when it's close enough, just keep typing &quot;USE
+WATER&quot; every few seconds.) Now weakened, and trapped, the fire elemental has nowhere to go but
+into your lamp! Congratulations, you've defeated the first of the elementals! Now get your lamp,
+and kill time until evening.
+
+(NOTE: If you messed up your timing, and the elemental escaped, don't worry. Just get another
+pouch of incense, and try again. Also, you have until day 6 to defeat the fire elemental. If you
+don't do it then, the city will be destroyed at the start of day 7, ending your game.)
+
+Day Six
+~~~~~~~
+Follow your standard morning Activities (Fighters should, for now, continue to challenge and
+lose to Issur at arm wrestling. While you lose money, you gain strength.) Thieves should
+purchase a few more daggers from Issur. Now just explore and train your character for the rest
+of the day. At night time, thieves should exit the inn, and head to the fighters plaza, and
+break into Issurs' shop. Use oil on his anvil, and push it away from the trap door it hiden.
+Open the trapdoor, and take the money you find there. (If your thief isn't strong enough, then
+move everything back as it was, and try again tomorrow). Now return to the inn and sleep.
+
+Day Seven
+~~~~~~~~~
+Another uneventful day. Do the normal morning things, but make sure you visit Omar an Ja'afar in
+the southern end of the fountain plaza, Stand still and listen to their poetry until Omar has
+finished. (You'll know he's finished when the fountain starts running again) Leave, and return a
+bit later. You'll notice that Omar left something behind, and it turns out to be his purse. It's
+up to you weather you keep it or return it. Continue to explore and/or train your hero, then
+return to the inn and go to sleep.
+
+Day Eight
+~~~~~~~~~
+(The air elemental appears in the palace plaza today. You MUST defeat before day 11, or your
+game will end.)
+
+Once you've woken up, and train at the guild hall (With thieves also working on their skill in
+the streets as well as with the challenger, and magic users practising their spells in the
+desert). Now FIGHTERS should go to the  weapons store (And if you haven't already done so,
+bargain with Issur for the Fine Sword). Now ASK ABOUT AIR ELEMENTAL then BET. You'll now be
+taken to a mini game where your character must defeat Issur at arm wrestling. As long as you
+have a good strength rating, you should have no problems. If you can't beat him, then first,
+make sure your at full health and stamina. If you still can't beat him, fight with Aziza and in
+the desert to raise your strength. (If you can't beat him now, keep coming back each day until
+you do.) Issur will then &quot;give&quot; you his bellows.  Wizards and thieves have others means of
+acquiring the bellows, which I'll discuss later.
+
+(NOTE: In some versions of the game, if you arm wrestle and beat Issur before the air elemental
+appears, he'll refuse to arm wrestle you again, even when asked about the air elemental. There's
+nothing you can do about this, it's a bug)
+
+Now, all characters should visit Aziza, and ASK ABOUT AIR ELEMENTAL.
+After that, go to the the magic shop to ASK ABOUT AIR ELEMENTAL and to ASK ABOUT AIR. Next, pay
+a visit to Keapon Laffin at the magic shop, and ASK ABOUT AIR, ASK ABOUT AIR ELEMENTAL. Keapon
+will mention a cryptic clue to defeating the air elemental, but the jey word he mentions is
+&quot;mud&quot;. So ASK ABOUT MUD (or earth). Keapon will then mention &quot;fooler's earth&quot; so...ASK ABOUT
+FOOLERS EARTH, and you'll be given some dirt. (NOTE: You can also buy some dirt from the plant
+seller.) Now your done for the day, so you can either train, explore, fight monsters or just go
+to the inn and sleep or go to the desert until night time. Also, you can visit the place plaza
+if you want to have a look at the air elemental, but (for now) you can't do anything about it.
+
+Thieves and Magic Users only:
+Before going to sleep for the night, pay a visit to the fighters plaza east. Now thieves should</span><span id="faqspan-2">
+sneak over (magic users won't have this skill, unless you chose to give it to your magic user,
+so just walk.) to the weapons store. Thieves should USE ROPE while magic users should CAST
+LEVITATE. Now just TAKE BELLOWS and return to the inn. (NOTE: If you take too long, a guard will
+come out and catch you. I can't remember if you get chucked in jail if he catches you too much
+though)
+
+Day Nine
+~~~~~~~~
+After doing the usual morning activities, head over to the Palace plaza, for we're now going to
+defeat the air elemental. Each character has different approach this time and they are as
+follows:
+
+FIGHTER - Walk up to the air elemental and force your way up to it, then DROP EARTH.
+
+THEIF - THROW DIRT, aiming for the center of the air elemental.
+
+MAGIC USER - CAST LEVITATE then wait until the air elemental is beneath you, then DROP EARTH.
+
+Now all characters should USE BELLOWS to capture the air elemental, and save the city from
+it's wrath. Now there's not much else to do, so amuse yourself by doing the usual stuff.
+
+Day Ten
+~~~~~~~
+Nothing happens today, so just spend the day toughening up. Keep in mind that the beggar
+appears in the gate plaza today.
+
+Day Eleven
+~~~~~~~~~~
+Once again, nothing special happens today, but make sure you return to the inn at night, because
+the Poet Omar appears there to read some of his poetry. You can return his purse to him now.
+Don't forget to thank him after he rewards you.
+
+Day Twelve
+~~~~~~~~~~
+(Today the Earth Elemental will appear. If you don't kick his stony behind before day 14, it's
+&quot;GAME OVER MAN!&quot;)
+
+When you wake up this morning, do the usual morning thing. Before leaving, make sure you ask
+Rakeesh about nature (ASK ABOUT NATURE). If your a fighter, you should also ASK ABOUT SWORD.
+Rakeesh will than loan you his paladin sword &quot;Soulforge&quot;. (Thieves and Magic Users can ask about
+the sword, but Rakeesh will not offer his sword to them, as they cannot use it) Now go to the
+Apothecary, and ASK ABOUT EARTH, and TELL ABOUT EARTH ELEMENTAL. (Harrick will only offer his
+power of burning to thieves. Fighters and Magic Users do not need it.) Now leave the apothecary,
+and return to the fighter's plaza. Here, you should purchase a cloth bag from the cloth vendor.
+Now leave the plaza and wander about the streets. Eventually you will encounter the Earth
+Elemental.
+
+FIGHTERS: Just FIGHT the Earth Elemental. Instead of your fine sword, you will use Soulforge
+(It will flame by itself) Make the most of it, as you can only use Soulforge when facing the
+Earth Elemental.
+
+THIEVES: Just THROW POWDER at Earth Elemental.
+
+Magic Users: If you couldn't figure this out, I'd be surprised. But just in case, you should
+CAST FLAME DART.
+
+Now that you've defeated the Earth Elemental, it will be nothing but a pile of dirt on the
+ground. But it's not defeated completely yet, because if you leave, it will just regenerate and
+continue its rampage. So to stop this just &quot;GET ELEMENTAL&quot;. If you didn't buy a cloth bag like I
+said you should, do so now, then defeat the Earth Elemental again. Now just explore or train for
+the rest of the day. (NOTE: If you go to the Saurus Lot, the guard will tell you that the
+Dervish of the Oasis has sent for you. If you wish to go there right away, please see Day 13)
+
+Day Thirteen
+~~~~~~~~~~~~
+Do your usual morning stuff. While working out at the guild hall, fighters should &quot;GIVE SWORD&quot;
+to Uhura. (While you can keep it, you won't be able to use it in battle, as your not a Paladin).
+Now make sure your waterskins are topped up, then go to the stables and mount your saurus and go
+to the Oasis. ASK ABOUT PUZZEL and then your ready to GO HOME. (Although you should also GET
+BEARD while your here. This is the &quot;whirling part of the dervish&quot; that you'll remember from the
+quests board at the adventurers guild.)
+
+Now head west for five screens, then just go south until you come to a screen with a scary
+looking monster trapped in a cage. If you get to close, it will try and attack you, and your
+hero (No matter what his class or stats) will get scared. But you CAN approach the front of the
+cage, and you should. When your can get any closer, GIVE WATER and GIVE FOOD. Your done for now,
+so GET ON SAURUS and GO HOME.
+(NOTE: If you leave without giving the monster anything, it will cry out for water as you leave)
+Before we re-enter the city though, there are two other desert locations you might have come
+across. Of course, you have will have seen the griffen's nest on your way to the caged beast
+(four west of the overlook), but unless you explored the desert ALOT, you might not have come
+across the tree (Seven east of the overlook). Go and check these location out now. When your
+done looking at the tree and the griffen. (NOTE: If you want to fight the griffen, just throw
+rocks, daggers or cast spells at it. It will then fly off. Now whenever you move to a differant
+screen in the desert, the griffen will fly across the screen, then attack you.)
+
+Once your back in the city, go to Aziza's place. Make sure you use your manner before you try to
+ask her anything. Once those are out of the way ASK ABOUT BEAST. When she's done talking say
+THANKS and GOODBYE. Now go to the Apothecary. ASK ABOUT DISPEL POTION(As with each time you
+visit, Harrick isn't paying attention when you first enter, so you will have to ASK ABOUT DISPEL
+POTION a second time), ASK ABOUT INGREDIENTS, ASK ABOUT FRUIT OF COMPASSION. Now leave, and
+return to Aziza. Once you've done all the manner stuff, ASK ABOUT TREE. Then say THANKS and
+GOODBYE again. Now we know what we need for the dispel potion, and where to get it from. First,
+the Griffen's feather. From the Shapier overlook, go four screen west.
+
+FIGHTERS: When you arrive, LOOK, LOOK DEBRIS, LOOK ROCK, MOVE ROCK, GET FEATHER. Easy. (If your
+not strong enough, just train then come back)
+
+THIEVES: Should USE ROPE then LOOK IN NEST. Finally GET FEATHER.
+
+MAGIC USERS: Basically do the same thing as Thieves, except they CAST LEVITATE instead of using
+a magic rope. Now LOOK IN NEST, GET FEATHER.
+
+Once you've obtained a griffen feather, GO HOME. Now go 7 screens to the east to arrive at the
+tree(A.k.a The Plant Woman). To get three to bloom and give you a fruit of compassion you
+should:
+WATER TREE, GIVE DIRT, TELL ABOUT SELF, TELL ABOUT EARTH ELEMENTAL, HUG, JULANAR
+(Note: For the last step, just type the plant woman's name. There is no need to type &quot;TELL
+ABOUT&quot; or anything like that).
+Julanar will have her soul restored, and as thanks, she will give you a fruit of compassion. Now
+GO HOME and visit Harrick in the Apothecary again. Once you have Harrick's attention, GIVE
+FEATHER and GIVE FRUIT. Harrick will then mix you three portions of Dispel Potion. Go back to
+the monster. Give it food and water to distract it, then walk around to its tail, and GET HAIR.
+You will automatically mix the hair in one of the dispel potions. Quickly (Before it finishes
+eating and drinking) and GIVE POTION. After spazzing for abit, then monster will turn into a
+man. He'll talk to you for a bit, then disappear.(Note: if you gave him food and water, he'll
+reappear and thank you for it, then leave again). Now GO HOME and do whatever you want.
+
+Day 14
+~~~~~~
+When you sit down to eat breakfast this morning, Abdulla will inform you that the Water
+Elemental has appeared in the fountain plaza.(It must be defeated before Day 16) So go to the
+fountain plaza. When you arrive, be carefull, so if the Water Elemental catches you, it's game
+over. To defeat the Water Elemental DROP WATERSKIN then use BELLOWS. Then GET WATERSKIN. That's
+it, you've just defeated the last of the elementals! But the game isn't over yet, leave and do
+whatever you feel like doing for the rest of the day. (NOTE: The waterskin containing the Water
+Elemental can't be used to hold your water supply, so you must buy a new once to replace.)
+
+Day 15
+~~~~~~
+Nothing much happens today.
+
+FIGHTERS: Before going to sleep for the night, go to the fighter's plaza west. Now go north
+until you come to an intersection labelled &quot;Askari Darb&quot;.Go left now, and continue until you
+come to a plain wooden door. If you managed to find this door earlier in the game, it would have
+been closed, but now it's open. You'll be told to enter. Do so. When you can see again, you will
+be chained up. Your weapon and shield will be far away on the other side of the room. To break
+the chains, type ESCAPE. Now your free. Problem is, there's a tough looking guy with a sword
+coming towards you. To get past him, just dodge (If you dodge skill isn't good enough, load an
+older save game and build it up). When you've dodged past him, your character will automatically
+grab his sword and shield. Now fight the tough guy just like you would a normal fight. When the
+tough guy collapses, you will be told to finish him. Do so.
+
+Day 16
+~~~~~~
+Do the normal morning stuff. (Fighters will now find an EOF membership card in their inventory).
+At the adventurer's guild, fighters can PRACTICE WITH RAKEESH. Thieves should beat the tightrope
+challenge if they haven't already. Now go to the palace plaza and walk up to the jewellery
+stand. The katta guy there will give you a pin, so say THANKS. Now just explore and train for
+the rest of the day. (Note: make sure you are stocked up on pills and rations before you go to
+bed. Also, you should buy a few extra waterskins, so that you have around 5. You'll need them
+trust me.)
+
+Days 17-26
+~~~~~~~~~~
+You won't actually have control of your character during these days, as he joins a caravan bound
+for Rasier. (If you sleep at the Oasis on day 16, you can still catch up to the caravan. But if
+you sleep there again, it's game over.) During the cutscene that follows, there are allot of
+amusing messages if you click on stuff with the right mouse button, so go crazy doing so!
+(Note: As far as I know, it's not possible to go to Rasier without waiting for the caravan on
+Day 17.)
+
+Day 27
+~~~~~~
+After Khaveen &quot;greets&quot; you, (He will give you a Visa) go into the Blue Parrot Inn. When Signor
+Ferrair invites you to join him SIT. When he asks you which drink you want, say COFFEE. When
+your coffee arrives, DRINK it. Ferrari will dismiss you now, so you cna explore the city, or go
+into the desert and fight monsters.
+
+THIEVES: Make the Theif sign, and Ferrari will identify himself as the thieve's guild of Rasier.
+This also lets him know that you are a thief.
+
+This section of the game can be very boring, as there's nothing to do in Rasier when just
+exploring, and the game doesn't allow you to go to bed until night time. When it's sunset return
+to the inn. Ferrair will invite you over again, and introduce you to Ugarte. You can purchase
+water from Ugarte (but be sure to ASK ABOUT WATER first) as well as ask a few other questions.
+When your done talking to him, just leave Ugarte alone. Now you can ask Ferrari a few more
+questions or stand up and leave. Now kill time until night approaches, then go back to the inn.
+
+THIEVES: As you enter your bedroom, Ferrari will mention that he wishes to speak with you
+tomorrow evening. If he does not, then you forgot the make the theives sign to him earlier.
+While this won't stop you from completing the game, Ferrari won't give you the details of the
+&quot;job&quot; he has for you. (As he won't know your a thief)
+
+Day 28
+~~~~~~
+When you wake up, Wilmer will inform you that Signor Ferrari had some business to attend to, and
+that he will be back this evening. But for now, head over to the fountain plaza, and move to the
+second screen of the fountain plaza. You will see Ugarte get arrested, then dragged off. You can
+try and follow him, but the guards will stop you. As you return to the gate plaza, a woman will
+poke her head from out of a doorway and ask you to follow her. Do so.(NOTE: If you ignore the
+woman, you will get arrested by the guards. This is basically the game's way of telling you to
+follow the woman) You find yourself in an alleyway, facing an open door, so go in. (Note:
+If you have the X-Ray specs, put them on now, heh ;) You will now be in the house of of Zayishah.
+After she has finished talking GIVE CLOTHES to her, and you will hand her the spare set of
+clothes you were given by Shema. After she has changed, GIVE VISA. You will be given a mirror by
+Mayzun, and sent on your way. (Note: You now cannot leave the city, as you don't have your visa
+anymore.)
+You should now kill time until the end of the day.
+
+THIEVES: When you return to the inn, Signor Ferrari will invite you to sit with him.
+So SIT with him. He will talk for a bit, then ask if you are willing to do him a favour. Answer
+YES. At this point, if you don't have at least 1 pot of oil, don't even bother trying. But for
+now, we'll assume that you do. Ferrair will tell you that your to steal a statue of a black bird
+from the room a window you see when you first enter the fountain plaza. He'll also mention that
+you should make the thief sign to the guards outside the inn, but they won't react even if you
+don't. SNEAK and proceed towards the fountain plaza. When you arrive, wait until the guard
+leaves, then USE ROPE. Now that your in Khaveen's room, SNEAK and proceed towards the cabinet.
+If you make a noise, just stop and await for a few seconds. When you arrive at the cabinet, OIL
+HINGES, PICK LOCK, GET BIRD then leave. If you get caught, just restore your game and try again.
+Now sneak back over to the Blue Parrot Inn. When you arrive, answer YES to Ferrari's question,
+then GIVE BIRD. After the small scene, STAND and walk to the sleeping area.
+
+Day 29
+~~~~~~~
+After you wake up, leave the inn. You will be arrested by the guards. There is nothing you can
+do to avoid this. You will now be in a cell in the Rasier dunegon. All of your inventory has
+been striped away (Except for the katta pin, if you got it) and is visible piled up outside your
+cell. There is a katta sitting in the cell lookin at you. Now, if you have the pin given to you
+in Shapier, SHOW PIN to the katta, and he will then answer your questions and will also help
+you to escape. Otherwise, he will ignore you.
+
+FIGHTERS: To escape, just BREAK DOWN GATE.
+
+MAGIC USERS: CAST OPEN (Aim at gate).
+
+THIEVES: If you have the katta pin, then just USE PIN. If you don't have it however, don't
+worry as you can find a nail. to find it, first SEARCH HEY, then GET NAIL. Then just USE NAIL to
+escape.
+
+Now if you have the katta's help, he will tell you about the secret passage. But if you don't
+have the pin, you will have to SEARCH ROOM to find it. Before leaving the dungeon, make sure you
+GET EQUIPMENT.
+Now that you've escaped, just wander around. Eventually you will encounter a man. This is Ad
+Avis.
+A cut scene will follow, and you fill find yourself at the Forbidden City. When prompted to do
+something by Ad Avis, USE MIRROR. When you enter the Forbidden City, you won't be able to see so
+USE LAMP. Exit the screen to the left.
+You will now find yourself blocked off from this room's exit by a large river. To get across
+the river, move to the moss covered area towards the top of the screen (Light green). Now you
+have to JUMP onto a log. But wait until a log is in front of you before jumping, because
+otherwise you will die. If you aren't sure about when to jump, save your game and jump in a few
+times to see where the hero lands in the river. Then JUMP when a log is in that area of the
+river. Wait until the log you are on gets near a small lip on the other side of the river then
+JUMP off.
+You will have noticed the pile of rocks that's on the other side of the river. If you try
+to walk past this pile of rocks, the air being sucked in will pull you towards the rocks. To
+stop this from happening:
+
+FIGHTERS: USE STRENGTH
+
+MAGIC USERS: CAST FORCE BOLT and aim just above the rocks.
+
+THIEVES:  LOOK ROCKS, then USE THIEVES TOOLKIT.
+
+Now that the sucking air has been dealt with, walk up behind the waterfall, and exit to the exit
+of the screen.
+Now just exit the screen to the right once again, but be careful because if you fall of the
+ledge, you'll have to cross the river again, which is very annoying.
+You'll find yourself in a room full of lava next. If you have any water USE WATER to pour
+some of the water on yourself. Otherwise just follow the path and try and avoid stepping on the
+lava.
+The next room ends with in a cliff, with a big drop to the floor.
+
+FIGHTERS: Just type JUMP.
+
+MAGIC USERS: CAST LEVITATE.
+
+THIEVES: USE ROPE.
+
+Now that you've managed to reach the floor, approach the large door and type in SULEIMAN. Exit
+the room.
+This room is easy. Just ignore the treasures and exit the room at the top of the screen. BUT
+before you do, save your game and try grabbing some of the treasure at various places for some
+interesting ways to die.
+Now you've FINALLY reached the end of the Forbidden City, and your in the Tomb of Iblis. After
+the cutscene, walk down and towards the door. Something will flash at the bottom of the screen,
+so walk towards and it LOOK AT FLASH. This will reveal the flash to be a ting, so GET RING. A
+Djinni will appear. First you should ASK ABOUT WISHES. Then WISH FOR HEALING.
+
+FIGHTERS: WISH FOR STRENGTH
+
+MAGIC USERS: WISH FOR MAGIC
+
+THIEVES: WISH FOR AGILITY
+
+And for your third wish, wish for TELEPORT.
+
+Day 30
+~~~~~~
+You will be teleported to the Palace Plaza in Rasier, and it will now be evening on day 30. If
+you showed him the katta pin, Sharaf will show up and talk to you for a bit. Exit at the bottom
+of the screen when he has left.
+
+FIGHTERS: Walk up to the guards and fight them (Ignore the yelling eunuch). When the guards have
+been defeated OPEN GATE (You may have to do this a few times, depending on your stats)
+
+MAGIC USERS: CAST DAZZLE then CAST OPEN and aim the spell at the gate.
+
+THIEVES: Type SNEAK and walk up to the palace, making sure to stay in the shadows on the left
+hand side of the palace. Wait until a Eunuch has appeared on the screen and exits to the right.
+USE ROPE and exit to the left.
+
+Now Fighters and Magic Users will end up in the Antechamber, will Thieves will end up in the
+harem. But I'm going to deal with the antechamer first.
+You will find yourself on a balcony, looking at Khaveen and a guard. Wait until the guard
+leaves.
+
+FIGHTERS: JUMP and then fight Khaveen. When he manages to knock your sword away, type GET SWORD.
+When Khaveen himself loses his sword, just finish him off. Now take a healing and a vigor pill,
+then walk up to the door and type FORCE DOOR. Then enter it. You find yourself in the Ritual
+Chamber. A large statue will try and stop you. To get away, type ESCAPE. Now quickly knock over
+an unlit candle. Type RUN, and quickly run towards the left of the screen, then run towards Ad
+Avis, moving through the fire. You'll knock him out of the window. Congratulations, you've just
+completed the game!
+
+MAGIC USER: Wait until the guard leaves, then CAST CALM. When Khaveen has left the room, CAST
+LEVITATE to get to the ground. Now walk up to the door. But beefer opening it, CAST REVERSAL.
+Now CAST OPEN and aim for the door. Enter the door. As soon as you enter, you'll be knocked over
+by the statue. To deal with him CAST TRIGER and aim at the statue. Now CAST FETCH and aim at an
+unlit candle. Ad Avis will noticed you and try to hit you with a spell, but you will be
+protected by your reversal spell. Now move to the middle of the bottom of the screen and CAST
+FORCE BOLT. Aim it towards the left so that the bolt will reflect off the wall and hit the
+brazier. This will knock Ad Avis out of the window. Congratulations, you've just completed the
+game!
+
+Now Like I said before, Thieves won't actually go into the antechamber, because they enter the
+palace from above. Anyway, when you first enter the Harem, you won't actually be able to do
+anything, so just sit back and watch. When your told to leave, exit at the left of the screen.
+You now in the Eunuch room. Make sure you are sneaking (Type SNEAK) then sneak below the
+fountain. Wait until the sitting Eunuch walks over to talk to the harm girl, then sneak over to
+the table. Now wait until the patrolling guard exits the screen to the right, and sneak over to
+the balcony exit in the upper left corner of the screen. Now that you at the balcony USE ROPE to
+create a tightrope. To cross it, just do the same thing you did when crossing the
+challengers tightrope. This will put you outside the ritual chamber that Fighters and Magic
+Users above encountered. Now throw a dagger or a rock at one of the unlit candles. Now DUCK
+whenever Ad Avis casts a spell at you, while moving towards the next pillar. While you do this,
+continue to THROW DAGGER or THROW ROCK at Ad Avis. Eventually he'll tumble out through the
+window, and you will have finished the game!
+
+-----------------------
+8. Complete Points List
+-----------------------
+First, I'll list the points that can be earned by characters of all classes:
+
+The city of Shapier-
+~~~~~~~~~~~~~~~~~~~~
+Change money at the money changer(7)
+Buy Comapss from Alichica(5)
+Buy Map from Alichica(5)
+Sign book in adventuers guild(3)
+Give money to the Beggar(3)
+Locate the Astrologer(5)
+Ask about your future(5)
+Buy the saurus from Ali Fakir at the Gate Plaza(7)
+Ask Harik about Earth(3)
+Ask Harick about Fire(3)
+Buy Incense from Harick(7)
+Get Dispel Potion from Harick(7)
+Buy a lamp from Tashtari at the Fountain Plaza(7)
+Capture the Fire Elemental(20)
+Get the fire reward from Rakeesh(3)
+Ask Keapon Laffin about Air(5)
+Get bellows from Weapon shop(7)
+Capture Air Elemental(20)
+Get air reward from Omar(3)
+Buy Cloth bag from Kiram at the Fighters' Plaza(7)
+Capture Earth Elemental(20)
+Solve Aziza's riddles(7)
+Ask Aziza about Tree/plant(7)
+Visit Aziza with your Saurus on day 16(7)
+Capture Water Elemental(20)
+Get Earth &amp; Water Reward(6)
+Listen to Omar's Poetry(3)
+Recieve the katta pin from Sashanan(5)
+TOTAL POINTS=211
+
+Desert of Shapier-
+~~~~~~~~~~~~~~~~~~
+Find the Griffen(3)
+Get Griffen Feather(7)
+Water the Tree(7)
+Tell the Tree about yourself(5)
+Give the Earth Elementals remains to Tree(7)
+Tell the Tree about the Earth Elemental(5)
+Hug the Tree(5)
+Tell the Tree her name(5)
+Get the Fruit of Compassion from the Tree(7)
+Get a piece of the Dervish's beard(5)
+Ask Dervish about Beast(5)
+Find the Caged Beast(5)
+Feed the Caged beast(5)
+Use Dispel Potion on Caged beast(15)
+TOTAL POINTS=86
+
+Rasier/The Forbidden City/Endgame-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Give Spares clothes to Zayishah(5)
+Give visa to Zayishah(5)
+Win Sharaf's Trust with in the Rasier Jail(7)
+Escape fom the Jail(7)
+Use the Hand Mirror to open the Forbidden City(5)
+Block Airflow(7)
+Surive the Water Room(7)
+Survive the Fire Room(7)
+Surive the Earth Room(7)
+Pass Suleiman's door(7)
+Survive the Treasure Room(5)
+Get Djinni Ring(7)
+Ask Djniini about wishes(7)
+Complete the game(20)
+TOTAL POINTS=103
+
+The next few lists show the points that can only be earned by each class. So, for example, only
+Fighters earn points when buying Poison Cure Pills, but only Magic Users gain points for pass
+the W.I.T tests.
+
+Fighters-
+~~~~~~~~~
+Buy Poison Cure Pill(3)
+Defeat a Brigan(3)
+Defeat a group of Jackalmen(3)
+Defeat a Ghoul(3)
+Get some Ghoul Claws(5)
+Defeat a Giant Scoprion(3)
+get a Scorpion Tail(5)
+Defeat a Terror Saurus(3)
+Ask Uhura about monsters(3)
+Practice with Uhura(5)
+Ask Rakeesh about Paladins(3)
+Borrow Rakeesh's sword, Soulforge(7)
+Practice with Rakeesh on day 16(5)
+Defeat Issur at Arm Wrestling(7)
+Join the Eternal Order of Fighters(7)
+Enter Emir's Palace(5)
+Defeat Khaven(15)
+Defeat Ad Avis(15)
+TOTAL POINTS=100
+
+Magic Users-
+~~~~~~~~~~~~
+
+--------------------------
+9. How to become a Paladin
+--------------------------
+Coming Soon!
+
+----------------
+10. Silly Clowns
+----------------
+Coming Soon!
+
+----------
+11. Cheats
+----------
+To raise your Lockpick skill, just type PICK NOSE. However, this may kill you if your lockpick
+skill is low. (And, of course, it only works if you have the lockpick skill and a lockpick)
+
+After collecting the beard from the Dervish, you can sell it to Keapon Laffin as many times as
+you like, and he'll continue to pay you 15 dinars every time.
+
+When watching Shema dance, you can actually cause your character to appear on the screen, and
+walk around. This will not affect your game, but it -IS- neat ;)
+
+Apparently, after you have gotten heaps of Dinars, go to the weapons shop and buy 99
+daggers. After you have done this 4 or 5 times, you will not only have a negative encumbrance,
+but your Dinars will go up. If you do it a couple more times, your encumbrance will go back to
+normal, but do it a few more times and it will go negative again. (I haven't tested this cheat
+yet)
+
+Type &quot;suck blue frog&quot; while playing, then hold down ALT and type in one of the letters listed
+below to get the activate it's listed cheat.
+
+W- Feature Writer (I have no idea)
+B- Edit money and communication skill
+K- Edit one skill (See below for the skill codes)
+H- Edit all skills (That is, set all skills to one set value)
+I- Edit inventory items (The codes for each item are below)
+T- Teleport to certain place or time. (Location codes are listed below)
+S- List of sprites on current screen
+E- Ego status (No idea what this does either)
+P- Makes the colors on the screen go funny.
+F- Displays the memory
+G- Path Maker (Don't ask me!)
+Z- Kicks you out to DOS
+X- Kicks you out to DOS
+C- Shows you where you can move
+V- Turns the effects of ALT-C and ALT-P off
+N- ?????
+
+I don't recommend using N, G or W. Do so at your own risk. Also, please don't ask me what W, E,
+G or N do, because I don't know!
+
+Skill Codes:
+~~~~~~~~~~~~
+0-Strength
+1-Intelligence
+2-Agility
+3-Vitality
+4-Luck
+5-Weapon Use
+6-Parry
+7-Dodge
+8-Stealth
+9-Pick Locks
+10-Throwing
+11-Climbing
+12-Magic
+13-Communication
+14-Honor
+15-Experience
+16-Hit Points
+17-Stamina Points
+18-Magic Points
+
+Use the following numbers to modify the skill of your spells (If you have spells that is)
+
+19-Open
+20-Detect
+21-Trigger
+22-Dazzle
+23-Zap
+24-Calm
+25-Flame Dart
+26-Fetch
+27-Force Bolt
+28-Levitate
+29-Reversal
+
+Inventory Codes:
+~~~~~~~~~~~~~~~~
+1-Centime
+2-Dinar
+3-Ration
+4-Broadsword
+5-Dagger
+6-Leather Armor
+7-Shield
+8-Paper
+9-Rock
+10-Lock Pick
+11-Thieves Tools
+12-Thief License
+13-Incense
+14-Beard
+15-Chainmail
+16-Magic Rope
+17-Gold Coin
+18-Healing Pill
+19-Mana Pill
+20-Vigor Pill
+21-Dispel Potion
+22-Map
+23-Compass
+24-Fine Sword
+25-Bellows
+26-Flowers
+27-Saphire Pin
+28-Griffin Feather
+29-Scorpion Tail
+30-Ghoul Claw
+31-Soulforge
+32-Pot o' dirt
+33-Brass lamp
+34-Basket
+35-Empty Pot
+36-Fruit of Compassion
+37-Waterskin
+38-Cloth sack
+39-Powder of Burning
+40-EOF Badge
+41-Raseirian Visa
+42-Oil
+43-Water Elemental
+44-Djinn Ring
+45-Silk Scarf
+46-Mirror
+47-Black Bird
+48-Poison Cure Pill
+49-Change of Clothes
+50-Saurus
+51-Bag of Sand
+52-Earth Elemental
+53-Silver Tea Service
+54-X-Ray Glasses
+55-Leather purse
+56-Silver Dagger
+57-Emerald Bowl
+58-Rusty Nail
+
+Locations Codes:
+~~~~~~~~~~~~~~~~
+Using the codes below, you can teleport your character to any location you wish. However, be
+careful, as it's possible to teleport your character to a location he isn't meant to be in at
+that time...or at all.
+
+100-Katta's Tail Inn (Shapier)
+101-Asleep
+120-Money Changer (Shapier)
+130-Apothecary (Shapier)
+140-Weapon Shop (Shapier)
+150-Arm Wrestling
+160-Guild Hall (Shapier)
+170-Fighting Uhura
+180-Aziza
+190-Talking w/Aziza
+199-Aziza's Door (Shapier)
+200-Astrologer (Shapier)
+210-WIT
+220-WIT Path
+240-Palace (Shapier)
+250-Magic Shop (Shapier)
+260-Thief House (Shapier)
+270-EOF Room (Shapier)
+290-Saurus Stables (Shapier)
+300-Gate Plaza (Shapier)
+310-Fountain Plaza North (Shapier)
+320-Fighters Plaza West (Shapier)
+330-Fighters Plaza East (Shapier)
+340-Fire Elemental Death
+360-Blue Parrot Inn (Rasier)
+370-Signor Ferrari
+380-Gates Plaza Rasier
+400-Palace Plaza Rasier
+410-Khaveen's House (Rasier)
+420-Ad Avis (Rasier)
+430-Zayisha (Rasier)
+440-Rasier Jail
+450-Rasier Fountain Plaza (South)
+460-Rasier Fountain Plaza (North)
+470-Antechamber (Rasier Palace)
+480-Harem (Rasier Palace)
+490-Ad Avis (Balcony)
+500-Ad Avis (Chamber)
+530-Eunuch Room (Rasier)
+550-Forbidden City
+560-Fire Room (Forbidden City)
+570-Water Room (Forbidden City)
+580-Bottom Air Room (Forbidden City)
+600-Treasure Room (Forbidden City)
+610-Iblis Chamber (Forbidden City)
+620-The Dervish at the Oasis (Shapier Desert))
+630-Caged Beast (Shapier Desert)
+640-The Tree/Julanar (Shapier Desert)
+650-Griffin (Shapier Desert)
+750-Intro
+770-Intro II
+780-Outside Shapier
+790-Death by Iblis
+800-Character Selection
+810-Character Sheet
+820-End Game I
+840-End Game II
+850-End Game III
+860-Caravan
+880-Outside Rasier
+
+
+-----------
+12. Sources
+-----------
+The Quest for Glory 2 hint book: Item and points lists and little bit of info for my
+walkthru.
+
+Cheat ver 21.5 by Mike Zier: The &quot;Suck Blue Frog&quot; cheat and it's codes. (I already knew about
+Suck Blue Frog, but couldn't remember all the codes for it)
+
+-----------
+13. Credits
+-----------
+My little sister, Interloper2058. She helped me allot before we got our hands on the official
+Sierra QFG2 hint book. Like the manuals say, there's always something someone else will see
+that you miss.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Well, that's all for now. I'll be working on the FAQ/Walkthru some more though, so expect to see
+more of the walkthru up soon. If you have any suggestions or questions concerning Quest for
+Glory 2, then e-mail me (epicgames@crosswinds.net) and I'll be happy to help. But as with most
+FAQ authors, be sure your question ISN'T covered in the FAQ first.
+
+So until the next update...happy adventuring!!
+</span></pre>
+</div>
+
+<p class="ffaq_page">View in: <button id="printable" onclick="make_printable();">Text Mode</button></p>
+
+
+<script type="text/javascript">
+
+window.onhashchange = hashHasChanged;
+
+function hashHasChanged()
+{
+	$(document).scrollTop(window.pageYOffset-130);
+}
+
+$().ready(function()
+{
+	$('.faq_bookmark_jumper').clone().appendTo('#faq_header_wrap');
+	if(window.pageYOffset>=150)
+	{
+		$('#faq_header_wrap').addClass('fixed');
+	}
+
+	window.onscroll = function()
+	{
+		if(window.pageYOffset>=150)
+		{
+			$('#faq_header_wrap').addClass('fixed');
+			$('.top_link').addClass('fixed').css('display','block');
+		}
+		else
+		{
+			$('#faq_header_wrap').removeClass('fixed');
+			$('.top_link').removeClass('fixed').css('display','none');
+		}
+	};
+
+	
+	$.each($('.ffaq img.imgnofloat'),function(){
+		var image = $(this);
+		if(image.attr('width')>400)
+		{
+			image.addClass('bigresize');
+		}
+	});
+
+	
+	var autobm = window.setInterval(function()
+	{
+		if(window.pos==$(document).scrollTop() || window.autobmstop==true)
+			clearInterval(autobm);
+		else
+			set_bookmark(1);
+	}, 5000);
+});
+
+
+$('img.imgresize').bind('click touch', function()
+{
+	if($(this).css('max-width')=='none')
+		$(this).css({'width':'100%','max-width':'100%'});
+	else
+		$(this).css({'width':'auto','max-width':'none'});
+});
+
+var timer, lastsearch;
+
+$('body :not(#faq_search_results)').bind('click touch', function(e)
+{
+	if($('#faq_search_results').css('display')=='block')
+	{
+		e.stopPropagation();
+		if($(this).attr('id')!='results_table' && $(this).attr('id')!='faq_search' && $(this).attr('id')!='faq_search_input' && $(this).attr('class')!='head' && $(this).attr('id')!='home_links')
+		{
+			dismiss_faq_search_results(0);
+		}
+	}
+});
+
+$('#faq_search_input, .search_mobile').click(function(e)
+{
+	e.preventDefault();
+	if($(this).attr('class')=='search_mobile')
+	{
+		$('#faq_search_module').toggle();
+	}
+	$('#faq_search_module, #faq_search_results').addClass('fixed');
+	$('#faq_header_wrap').addClass('search');
+	
+	if($('#faq_search_results').css('display')!='block')
+	{
+		$('#faq_search_results').show();
+	}
+	if($('#results_table tr').length==0)
+		$('.close_results').hide();
+	$('#faq_search_input').focus();
+});
+
+$('#faq_search_input').keyup(function()
+{
+	if(lastsearch != $('#faq_search_input').val())
+	{
+		if(timer)
+			clearTimeout(timer);
+		lastsearch = $('#faq_search_input').val();
+		if($('#faq_search_input').val().length>=3)
+		{
+			$('#faq_search_results').show();
+			timer = setTimeout(function(){faq_search(9441, $('#faq_search_input').val())},150);
+		}
+		else
+		{
+			dismiss_faq_search_results(1);
+		}
+	}
+});
+
+function dismiss_faq_search_results(fixed)
+{
+	$('#faq_search_results').hide();
+	$('#faq_search_overlay').fadeTo(200,0).remove();
+	if(!fixed)
+	{
+		$('#faq_search_module, #faq_search_results').removeClass('fixed');
+		$('#faq_header_wrap').removeClass('search');
+		if($('.search_mobile').is(':visible'))
+			$('#faq_search_module').toggle();
+	}
+	$('#results_table').empty();
+}
+
+function search_result(row)
+{
+	if($('#results_table tr[data-row="'+row+'"]').length>0)
+	{
+		var url = $('#results_table tr[data-row="'+row+'"]').attr('data-url');
+		if(url.indexOf('search_highlight')>=0)
+			eval(url);
+		else
+			window.location = $('#results_table tr[data-row="'+row+'"]').attr('data-url');
+	}
+}
+
+$('body :not(#faq_toc_header *, #faq_toc a.toc_toggle *)').bind('click touch', function(e)
+{
+	if($('#faq_toc_header').css('display')=='block')
+	{
+		e.stopPropagation();
+		if($(this).attr('class')!='toc_toggle active' && $(this).attr('id')!='faq_toc_header')
+		{
+			$('.toc_toggle').removeClass('active');
+			$('#faq_toc_header').css('display','none');
+		}
+	}
+});
+
+function toc_toggle()
+{
+	if($('.toc_toggle').hasClass('active'))
+	{
+		$('a.toc_toggle').removeClass('active');
+		$('#faq_toc_header').css('display','none');
+	}
+	else
+	{
+		$('a.toc_toggle').addClass('active');
+		$('#faq_toc_header').css('display','block');
+	}
+}
+
+function faq_search(id, term)
+{
+	var term = $('#faq_search_input').val();
+	var len = term.length;
+	if(term.length<3)
+		return;
+
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/faq_search',
+		data:  {id: 9441, term: term, key: '0459c70b'},
+		success: function(response)
+		{
+			if(response[0]=='error')
+			{
+				$('#results_table').html('<tr><td colspan="2" class="dismiss_results"><span onclick="dismiss_faq_search_results(0);">No Results Found - Close</span></td></tr>');
+				$('.close_results').remove();
+				$('#faq_search_results').show();
+			}
+			else
+			{
+				window.currentpage = 0;
+				$('#results_table').html('');
+				$('.close_results').remove();
+
+				$.each(response,function(j,i)
+				{
+					var val = i.value;
+					val = val.split('-');
+					var page = val[0];
+					
+					if(window.currentpage!=page)
+					{
+						window.currentpage = page;
+					}
+					var link, pagenum = '';
+
+					
+					
+					{
+						link = "search_highlight(9441,"+val[0]+",2,"+val[1]+","+len+");";
+					}
+					
+
+					$('#results_table').append('<tr data-url="'+link+'" data-row="'+j+'" style="cursor:pointer;" onclick="search_result('+j+');"><td class="title">'+i.label+'</td><td class="type">'+pagenum+'</td></tr>');
+				});
+
+				$('#results_table').after('<div onclick="dismiss_faq_search_results(0);" class="close_results">Close Results</div>');
+			}
+		}
+	});
+}
+
+function search_highlight(file_id,page,format,pos,len,section)
+{
+	window.textpage = page+1;
+
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/faq_search_highlight',
+		data: { id: file_id, page: page, for: format, pos: pos, len: len, section: '', key: '0459c70b' },
+		success: function(response)
+		{
+					$('span[name="search_jump"]').remove();
+			$("span.faq_highlight").contents().unwrap();
+			$('span#faqspan-'+window.textpage).html(response);
+		
+		var offset = $('span[name="search_jump"]').offset().top - 100;
+		if(offset<100)
+			$(document).scrollTop(0);
+		else
+			$(document).scrollTop(offset);
+		}
+	});
+}
+
+
+
+function set_bookmark(auto)
+{
+	var pos = $(document).scrollTop();
+	if(pos!=window.pos)
+		window.pos = pos;
+	else
+		return;
+	var page = 0;
+	if(page!=window.page)
+		window.page = page;
+	if(auto)
+		auto = 1;
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/faq_bookmark',
+		data: { id: 9441, pid: 562671, pos: pos, page: page, section: '', auto: auto, key: '0459c70b' },
+		success: function(response)
+		{
+			if(response)
+			{
+				if(response=="Missing cookie.")
+					window.autobmstop = true;
+				$('.faq_bookmark_jump').fadeOut();
+				$('#faq_bookmark').addClass('active');
+				var html = $('.bm_jumper_inner').html();
+				$('.bm_jumper_inner').animate({'opacity':0},200,function()
+				{
+					if($('.faq_bookmark_jumper:not(.active)'))
+						$('.faq_bookmark_jumper').css('visibility','visible');
+					$(this).html('Bookmark Saved').animate({'opacity':1},200);
+					$('.faq_bookmark_jumper').animate({'opacity':1},200);
+				});
+				setTimeout(function()
+				{
+					if($('.faq_bookmark_jumper:not(.active)'))
+					{
+						$('.faq_bookmark_jumper').animate({'opacity':0},200,function()
+						{
+							$(this).css('visibility','hidden');
+						});
+					}
+					$('.bm_jumper_inner').animate({'opacity':0},200,function()
+					{
+						$(this).html($.trim(html)).animate({'opacity':1},200);
+					});
+				}, 3000);
+			}
+		}
+	});
+}
+
+function bookmark_jump_dismiss()
+{
+	$('#faq_header > .faq_bookmark_jumper').css('visibility','hidden');
+	$('#faq_header_wrap > .faq_bookmark_jumper').remove();
+	$('#faq_bookmark').removeClass('active');
+}
+
+
+
+function page_top()
+{
+	$(window).scrollTop(0);
+}
+
+function make_printable()
+{
+	var faqdiv = $('#faqtext').detach();
+	faqdiv.appendTo('#fullscreen_overlay');
+	$('#fullscreen_overlay').show();
+	$('.wrapper').hide();
+	$('#faqtext').addClass("fullscreen_takeover");
+	$('#faqtext').append('<p id="restore_page"><button onclick="restore_page();">Restore Page</button></p>');
+	$(window).scrollTop(0);
+}
+
+function restore_page()
+{
+	$('#restore_page').remove();
+	$('#faqtext').removeClass("fullscreen_takeover");
+	$('#fullscreen_overlay').hide();
+	$('.wrapper').show();
+	var faqdiv = $('#faqtext').detach();
+	faqdiv.appendTo('#faqwrap');
+	$(window).scrollTop(0);
+}
+
+
+
+function set_rec_val(val)
+{
+	
+	var ftype = "guide";	
+	$('#recval').val(val);
+	if(val==2)
+		$('.rec_comment').attr('placeholder','What is missing from this '+ftype+'? (140 character max)');
+	$('#rec_one').hide();
+	$('#rec_two').show();
+	return;
+}
+
+function hide_rec()
+{
+	$('#rec_two').hide();
+	$('#rec_three').show();
+	var timer = setTimeout(function()
+	{
+		$('#contrib_rec').fadeOut('slow').remove();
+		$('#faq_header_wrap').addClass('rec_closed');
+	}, 2000);
+}
+
+function rec_submit(item_id, item_type_id, button)
+{
+	var recval = $('#recval').val();
+	if($('.rec_comment'))
+		var reccommentval = $('.rec_comment').val();
+	else
+		var reccommentval = '';
+
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/gamespace_contrib_rec',
+		data: { item: item_id, type: item_type_id, btn: button, val: recval, comment: reccommentval, key: '0459c70b' },
+		success: function(response)
+		{
+			if(response==2)
+			{
+				track_event(79);
+				return;
+			}
+			else
+				hide_rec();
+		}
+	});
+}
+
+</script>
+
+<script type="application/ld+json">
+{
+	"@context": "https://web.archive.org/web/20190511092446/http://schema.org",
+	"@type": "FAQPage",
+	"headline":"Quest For Glory II: Trial By Fire FAQ/Walkthrough",
+	"image":"https://web.archive.org/web/20190511092446/https://gamefaqs.akamaized.net/box/7/3/8/19738_thumb.jpg",
+	"author":"Sac!",
+	"datePublished":"2001-08-09",
+	"dateModified":"2001-08-09",
+	"url":"https://web.archive.org/web/20190511092446/https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire/faqs/9441",
+	"reviewedBy":
+	{
+		"@type":"Organization",
+		"name":"GameFAQs",
+		"logo":
+		{
+			"@type":"ImageObject",
+			"url":"https://web.archive.org/web/20190511092446/https://gamefaqs.akamaized.net/images/default/logo_v13.png",
+			"width":"180",
+			"height":"50"
+		}
+	},
+	"genre":"Adventure",
+	"isPartOf":
+	{
+		"@type":"VideoGame",
+		"name":"Quest For Glory II: Trial By Fire",
+		"url":"https://web.archive.org/web/20190511092446/https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire",
+		"image":"https://web.archive.org/web/20190511092446/https://gamefaqs.akamaized.net/box/7/3/8/19738_thumb.jpg",
+		"description":"In the beginning, there was "So You Want To Be A Hero." Compute! Magazine called it "...a breakthrough in adventure game design..." and Computer Gaming World Magazine, in awarding the game 'Adventure Game of the Year' said the game was "extremely fun to play" and "satisfying by any measure."
+Now Sierra is proud to introduce the second chapter in this amusing yet challenging adventure series, Trial by Fire. Set in the mystical tradition of The Arabian Nights, this sequel expands on those...",
+		"datePublished":"1990-12-31",
+		"aggregateRating":
+		{
+			"@type":"AggregateRating",
+			"ratingValue":"0",
+			"reviewCount":"0",
+			"worstRating":"1",
+			"bestRating":"100"
+		},
+		"publisher":"Sierra Entertainment",
+		"genre":["Adventure","General"],
+		"gamePlatform":["PC","AMI","MAC","PC"],
+		"operatingSystem":["PC","AMI","MAC","PC"],
+		"applicationCategory":"Game",
+		"sameAs":"https://web.archive.org/web/20190511092446/https://www.gamespot.com/quest-for-glory-ii-trial-by-fire/",
+		"keywords":""
+	},
+	"breadcrumb":
+	{
+		"type": "BreadcrumbList",
+		"itemListElement":
+		[
+			{
+				"@type": "ListItem",
+				"position": 1,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190511092446/https://gamefaqs.gamespot.com/pc",
+					"name": "PC"
+				}
+			},									{
+				"@type": "ListItem",
+				"position": 2,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190511092446/https://gamefaqs.gamespot.com/pc/category/50-adventure",
+					"name": "Adventure"
+				}
+			},
+									{
+				"@type": "ListItem",
+				"position": 3,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190511092446/https://gamefaqs.gamespot.com/pc/category/251-adventure-general",
+					"name": "General"
+				}
+			},
+						{
+				"@type": "ListItem",
+				"position": 4,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190511092446/https://gamefaqs.gamespot.com/pc/562671-quest-for-glory-ii-trial-by-fire/faqs/9441",
+					"name": "Quest For Glory II: Trial By Fire FAQ/Walkthrough"
+				}
+			}
+		]
+	}
+}
+</script>
+								
+							</div>
+						</div>
+														</div>
+				
+												
+			</div>
+							
+
+							<footer id="footer" class="footer"><div class="footer_site container row"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/" class="footer_logo_gf">GameFAQs</a><a href="https://web.archive.org/web/20190511092446/http://www.facebook.com/GFAQs"><i class="fa fa-facebook-square"></i>facebook.com/GFAQs</a><a href="https://web.archive.org/web/20190511092446/http://www.twitter.com/GameFAQs"><i class="fa fa-twitter"></i>twitter.com/GameFAQs</a><span class="footer_break"></span><a href="/web/20190511092446/https://gamefaqs.gamespot.com/help">Help / Contact Us</a><span class="footer_color_drop" id="color_change"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/features/change_color">Change Colors <i class="fa fa-caret-up"></i></a><ul class="footer_color_subnav"><li class="footer_color_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/user/change_color?site_color=blue&amp;path=%2Fpc%2F562671-quest-for-glory-ii-trial-by-fire%2Ffaqs%2F9441">Blue (Default)</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-blue&amp;path=%2Fpc%2F562671-quest-for-glory-ii-trial-by-fire%2Ffaqs%2F9441">Blue on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/user/change_color?site_color=red&amp;path=%2Fpc%2F562671-quest-for-glory-ii-trial-by-fire%2Ffaqs%2F9441">Red</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-red&amp;path=%2Fpc%2F562671-quest-for-glory-ii-trial-by-fire%2Ffaqs%2F9441">Red on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/user/change_color?site_color=green&amp;path=%2Fpc%2F562671-quest-for-glory-ii-trial-by-fire%2Ffaqs%2F9441">Green</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-green&amp;path=%2Fpc%2F562671-quest-for-glory-ii-trial-by-fire%2Ffaqs%2F9441">Green on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/user/change_color?site_color=orange&amp;path=%2Fpc%2F562671-quest-for-glory-ii-trial-by-fire%2Ffaqs%2F9441">Orange</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-orange&amp;path=%2Fpc%2F562671-quest-for-glory-ii-trial-by-fire%2Ffaqs%2F9441">Orange on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/user/change_color?site_color=purple&amp;path=%2Fpc%2F562671-quest-for-glory-ii-trial-by-fire%2Ffaqs%2F9441">Purple</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-purple&amp;path=%2Fpc%2F562671-quest-for-glory-ii-trial-by-fire%2Ffaqs%2F9441">Purple on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/user/change_color?site_color=cloudy&amp;path=%2Fpc%2F562671-quest-for-glory-ii-trial-by-fire%2Ffaqs%2F9441">Cloudy Blue</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/user/change_color?site_color=grayscale&amp;path=%2Fpc%2F562671-quest-for-glory-ii-trial-by-fire%2Ffaqs%2F9441">Grayscale</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/user/change_color?site_color=sepia&amp;path=%2Fpc%2F562671-quest-for-glory-ii-trial-by-fire%2Ffaqs%2F9441">Sepia</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092446/https://gamefaqs.gamespot.com/user/change_color?site_color=cottoncandy&amp;path=%2Fpc%2F562671-quest-for-glory-ii-trial-by-fire%2Ffaqs%2F9441">Cotton Candy</a></li>
+</ul></span></div><div class="footer_network"><div class="container row">Popular:<a title="A full game guide and walkthrough for Kingdom Hearts III on the PlayStation 4" href="/web/20190511092446/https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812">Kingdom Hearts III Guide</a><a title="Cheat codes and passwords for Red Dead Redemption 2 on the PlayStation 4" href="/web/20190511092446/https://gamefaqs.gamespot.com/ps4/200179-red-dead-redemption-2/cheats">Red Dead Redemption 2 Cheats</a><a title="Cheat codes and passwords for Grand Theft Auto V on the PlayStation 4" href="/web/20190511092446/https://gamefaqs.gamespot.com/ps4/805601-grand-theft-auto-v/cheats">Grand Theft Auto V Cheats</a></div><div class="container row"><p><a href="https://web.archive.org/web/20190511092446/https://www.gamespot.com/?utm_source=gamefaqs&amp;utm_medium=partner&amp;utm_content=footer&amp;utm_campaign=footer" class="footer_logo_gs">gamespot.com</a><a href="https://web.archive.org/web/20190511092446/https://www.giantbomb.com/" class="footer_logo_gb">giantbomb.com</a><a href="https://web.archive.org/web/20190511092446/https://www.metacritic.com/" class="footer_logo_mc">metacritic.com</a><a href="https://web.archive.org/web/20190511092446/https://www.gamerankings.com/" class="footer_logo_gr">gamerankings.com</a></p><p><span class="footer_break"></span><a href="https://web.archive.org/web/20190511092446/http://sitemap.gamefaqs.com/">Sitemap</a><a href="https://web.archive.org/web/20190511092446/http://www.cbsinteractive.com/advertise">Advertise</a><a href="/web/20190511092446/https://gamefaqs.gamespot.com/feedback?type=61">Partnerships</a><a href="https://web.archive.org/web/20190511092446/https://cbs.avature.net/cbsinteractivecareers/SearchJobs/?3_56_3=%22260%22">Careers</a><a href="https://web.archive.org/web/20190511092446/https://legalterms.cbsinteractive.com/privacy">Privacy Policy</a><a href="https://web.archive.org/web/20190511092446/https://legalterms.cbsinteractive.com/adchoice">Ad Choice</a><a href="https://web.archive.org/web/20190511092446/https://legalterms.cbsinteractive.com/terms-of-use">Terms of Use</a><a style="z-index: 999999999; color: red; cursor: pointer" onclick="ad_report();">Report&nbsp;Ad</a></p><p>&copy; 2019 CBS Interactive Inc. All rights reserved.</p></div></div></footer>
+
+
+							
+		</div>
+
+		
+		<div id="site_dialog" class="site_dialog"></div>
+		<script type="text/javascript" src="//web.archive.org/web/20190511092446js_/https://dw.cbsi.com/js/ds.js"></script>
+<script type="text/javascript" src="/web/20190511092446js_/https://gamefaqs.gamespot.com/js/omniture_v2.20190429212942.js"></script>
+
+<script type="text/javascript">
+window._taboola = window._taboola || [];
+$().ready(function(){
+$(".gf_taboola").each(function(){
+	_taboola.push({mode: $(this).attr('data-mode'), container: $(this).attr('id'), placement: $(this).attr('data-placement'), target_type: $(this).attr('data-target') });
+});
+});
+
+var vguid = $('meta[id=view-guid-meta]').attr("content").substr(0, 24) + Math.random().toString(16).substr(2,12);
+var anon_id = $.cookie('XCLGFbrowser');
+$('meta[id=view-guid-meta]').attr("content", vguid);
+var dw_params = JSON.parse($('meta[name=dwPageParams]').attr("content"));
+dw_params['viewguid'] = vguid;
+var om_params = JSON.parse($('meta[name=o2PageParams]').attr("content"));
+om_params['evars'][24] = vguid;
+om_params['evars'][35] = anon_id;
+var delay = 0;
+if(!$.cookie('spt'))
+	delay = 500;
+if(typeof DW != 'undefined')
+{
+	if(!anon_id)
+	{
+		$.getScript("//web.archive.org/web/20190511092446/https://dw.cbsi.com/anonc.js").done( function( script, textStatus ) { if(typeof dw_anonc != 'undefined') { anon_id = dw_anonc().id;  $.cookie('XCLGFbrowser', anon_id, { expires: 3650, path: '/' }); om_params['evars'][35] = anon_id; } DW.pageParams = dw_params; DW.clear();  setTimeout(function() { om_params['evars'][16]=$.cookie('spt');  somni = omniture(om_params); },delay); });
+	}
+	else
+	{
+		DW.pageParams = dw_params; DW.clear(); setTimeout(function() { om_params['evars'][16]=$.cookie('spt'); somni = omniture(om_params); },delay); 
+	}
+}
+_taboola.push({flush: true});
+var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; googletag.cmd.push(function() { googletag.pubads().addEventListener('slotRenderEnded', revdbg); });
+</script>
+
+
+<script type="text/javascript">(function(){var g=function(e,h,f,g){ this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b<e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null}; this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "}; this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&&(e=Math.random()>=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0}; this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g+ "&t=" + (new Date()).getTime();document.body&&document.body.appendChild(a)}}; this.start=function(){var a=this;window.addEventListener?window.addEventListener("load",function(){a.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){a.go()})}}; try{(new g(100,"r","QSI_S_ZN_1zcNvefGbweAxdb","//web.archive.org/web/20190511092446/https://zn_1zcnvefgbweaxdb-cbs.siteintercept.qualtrics.com/WRSiteInterceptEngine/?Q_ZID=ZN_1zcNvefGbweAxdb&Q_LOC="+encodeURIComponent(window.location.href))).start()}catch(i){}})(); </script><div id="ZN_1zcNvefGbweAxdb"><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+
+		
+<!--Page built in 0.0258 seconds on 2019-05-11 09:24:46 on box #219 (CSS 20190429212937)- O 0.0153 / S 0.0093 / M 0.0012 / U 0 / G 0 / SC 6-->
+
+	</body>
+</html>
+<!--
+     FILE ARCHIVED ON 09:24:46 May 11, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:04:37 Mar 18, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1.731
+  exclusion.robots: 0.142
+  exclusion.robots.policy: 0.128
+  esindex: 0.014
+  cdx.remote: 1130.072
+  LoadShardBlock: 753.669 (3)
+  PetaboxLoader3.datanode: 526.357 (4)
+  PetaboxLoader3.resolve: 486.792 (3)
+  load_resource: 354.793
+-->

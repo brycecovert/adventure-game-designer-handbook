@@ -1,0 +1,2001 @@
+Source: gamefaqs_swarter_syberia.txt
+<!doctype html>
+<html lang="en" class="js no-touch" itemscope>
+	<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://gamefaqs.gamespot.com/pc/545345-syberia/faqs/19167","20190524002820","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1558657700");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+		<title>Syberia FAQ/Walkthrough for PC by SWCarter - GameFAQs</title>
+
+				<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+
+				<meta name="description" content="For Syberia on the PC, FAQ/Walkthrough by SWCarter."/>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta content="origin" id="mref" name="referrer"/>
+		
+		
+		
+		
+				
+					  		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  
+	  		<link href="https://web.archive.org/web/20190524002820cs_/https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Condensed|Roboto+Mono" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20190524002820cs_/https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		
+		<link href="/web/20190524002820cs_/https://gamefaqs.gamespot.com/css/v13.20190522204818.css" rel="stylesheet" type="text/css">
+		
+
+		
+				<link rel="canonical" href="https://web.archive.org/web/20190524002820/https://gamefaqs.gamespot.com/pc/545345-syberia/faqs/19167"/> 
+		
+				<base href="/web/20190524002820/https://gamefaqs.gamespot.com/pc/545345-syberia/faqs/19167"/> 
+		
+		
+		<meta name="dwPageParams" content="{&quot;siteid&quot;:19,&quot;ptid&quot;:6468,&quot;onid&quot;:37,&quot;pid&quot;:&quot;545345&quot;,&quot;familyid&quot;:&quot;574&quot;,&quot;prodtypid&quot;:8,&quot;genre_id&quot;:23212,&quot;category_id&quot;:&quot;192&quot;,&quot;oid&quot;:&quot;6468-37-19-545345-19167&quot;,&quot;cid&quot;:19167,&quot;conttypid&quot;:9,&quot;useract&quot;:178,&quot;xref&quot;:&quot;https:\/\/gamefaqs.gamespot.com\/pc\/545345-syberia\/faqs&quot;,&quot;edid&quot;:107,&quot;pguid&quot;:&quot;470be092b8a605db79105a2c66bbe492&quot;,&quot;url&quot;:&quot;http:\/\/gamefaqs.gamespot.com\/pc\/545345-syberia\/faqs\/19167&quot;,&quot;ts&quot;:1558657699}"/>
+<meta name="o2PageParams" content="{&quot;account&quot;:&quot;cbsigamefaqssite&quot;,&quot;cloud_id&quot;:&quot;10D31225525FF5790A490D4D@AdobeOrg&quot;,&quot;channel&quot;:&quot;Games&quot;,&quot;site&quot;:&quot;gamefaqs&quot;,&quot;urs_id&quot;:null,&quot;hier1&quot;:&quot;Games|Game|FAQs|FAQ|Text&quot;,&quot;list1&quot;:null,&quot;products&quot;:&quot;;545345&quot;,&quot;evars&quot;:{&quot;1&quot;:&quot;Gamefaqs&quot;,&quot;2&quot;:&quot;ww&quot;,&quot;3&quot;:&quot;gamefaqs-desktop&quot;,&quot;5&quot;:&quot;cbsigamefaqssite&quot;,&quot;6&quot;:&quot;Games|Game|FAQs|FAQ|Text&quot;,&quot;7&quot;:&quot;D=g&quot;,&quot;10&quot;:&quot;game_faq_text&quot;,&quot;11&quot;:&quot;Games:game_faq_text&quot;,&quot;12&quot;:6468,&quot;15&quot;:&quot;false&quot;,&quot;20&quot;:&quot;Syberia (PC) - FAQ\/Walkthrough by SWCarter&quot;,&quot;22&quot;:&quot;faq&quot;,&quot;41&quot;:&quot;&quot;,&quot;50&quot;:&quot;8:00PM&quot;,&quot;51&quot;:&quot;Thursday&quot;,&quot;63&quot;:&quot;545345&quot;,&quot;64&quot;:&quot;syberia|syberia&quot;,&quot;66&quot;:&quot;Adventure|3D|Third-Person&quot;},&quot;page_event&quot;:null}"/>
+<meta id="ad-settings" itemprop="ad-settings" content="{&quot;script&quot;:&quot;\/\/www.googletagservices.com\/tag\/js\/gpt.js&quot;,&quot;target_params&quot;:{&quot;game&quot;:&quot;syberia&quot;,&quot;ptype&quot;:&quot;game_faq_text&quot;,&quot;franchise&quot;:&quot;syberia&quot;,&quot;genre&quot;:&quot;Adventure,3D,Third-Person&quot;,&quot;rating&quot;:&quot;esrb-t,pegi-3,pegi-7&quot;,&quot;publisher&quot;:&quot;The Adventure Company&quot;,&quot;score&quot;:&quot;78&quot;,&quot;user&quot;:&quot;anon&quot;,&quot;session&quot;:&quot;g&quot;,&quot;rdate&quot;:&quot;bp52&quot;,&quot;cid&quot;:&quot;faq-19167&quot;,&quot;firstpg&quot;:0},&quot;unit_name&quot;:&quot;\/8264\/aw-gamefaqs&quot;,&quot;deferred&quot;:true,&quot;service&quot;:&quot;dart&quot;,&quot;client&quot;:&quot;xfp&quot;,&quot;load_in_head&quot;:&quot;gpt&quot;,&quot;single_request&quot;:true,&quot;disable_initial_load&quot;:true,&quot;enable_callback&quot;:true,&quot;enable_collapse_empty_divs&quot;:false,&quot;slot_order&quot;:[&quot;skybox-nav&quot;,&quot;leader_top&quot;,&quot;leader_plus_top&quot;,&quot;mpu_top&quot;,&quot;mpu_plus_top&quot;,&quot;interstitial&quot;,&quot;native-top&quot;,&quot;incontent-ad&quot;,&quot;mpu_bottom&quot;,&quot;leader_bottom&quot;],&quot;mapped_units&quot;:{&quot;skybox-nav&quot;:{&quot;size&quot;:[[5,5]],&quot;target&quot;:{&quot;pos&quot;:&quot;nav&quot;}},&quot;leader_plus_top&quot;:{&quot;size&quot;:[[728,90],[970,66],[970,150],[970,250],[960,150]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;leader_top&quot;:{&quot;size&quot;:[[728,90],[970,66]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;leader_bottom&quot;:{&quot;size&quot;:[[728,90],[970,66]],&quot;target&quot;:{&quot;pos&quot;:&quot;bottom&quot;}},&quot;mpu_plus_top&quot;:{&quot;size&quot;:[[300,250],[300,600],[300,100]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;mpu_top&quot;:{&quot;size&quot;:[[300,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;mpu_bottom&quot;:{&quot;size&quot;:[[300,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;bottom&quot;}},&quot;native-top&quot;:{&quot;size&quot;:[[11,11],&quot;fluid&quot;],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;incontent-ad&quot;:{&quot;size&quot;:[[321,31],[11,11],&quot;fluid&quot;],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;interstitial&quot;:{&quot;outOfPage&quot;:true}}}"/>
+<meta id="view-guid-meta" name="view-guid-meta" itemprop="view-guid" content="470be092-b8a6-405d-b791-05a2c66bbe49">
+<meta id="bsm-pub-zone-meta" name="bsm-pub-zone-meta" itemprop="bsm-pub-zone" content="gamefaqs.com/nucleus">
+<meta id="bsm-sizes-meta" name="bsm-sizes-meta" itemprop="bsm-sizes" content="728x90 300x250">
+
+
+
+
+		
+				<script type="text/javascript" src="/web/20190524002820js_/https://gamefaqs.gamespot.com/js/jquery_gf.20190522204818.js"></script>
+		<script type="text/javascript" src="/web/20190524002820js_/https://gamefaqs.gamespot.com/js/gamefaqs.20190522204818.js"></script>
+						<script type="text/javascript">window._taboola=window._taboola || []; _taboola.push({other:'auto'}); function setUpAgknTag(tag){tag.setBpId("cbsinteractive");}var _gaq = _gaq || [];  _gaq.push(['nT._setAccount', 'UA-27653683-1']);  _gaq.push(['nT._setAllowLinker', true]); _gaq.push(['nT._setSampleRate', '1']); _gaq.push(['nT._trackPageview']); _gaq.push(['_setAccount', 'UA-22577913-2']); _gaq.push(['_setSampleRate', '5']); _gaq.push(['_setCustomVar',1,'PageType','6468',3]); _gaq.push(['_setCustomVar',2,'LoggedIn','No',2]); _gaq.push(['_setCustomVar',3,'UserLevel','0',3]); _gaq.push(['_setCustomVar',4,'FAQType','txt',3]);  _gaq.push(['_trackPageview']); </script>
+		
+		
+		
+	  
+	  <script type="text/javascript">
+	    (function(id){
+	    function append(scriptid,url,async){var d=document,sn='script',f=d.getElementsByTagName(sn)[0];if(!f)f=d.head;var s=d.createElement(sn);s.async=!0;s.id=scriptid;s.src=url;f.parentNode.insertBefore(s,f)}
+	  window.evidon={}; window.evidon.id=id; append('evidon-notice','//web.archive.org/web/20190524002820/https://gamefaqs.akamaized.net/js/sitenotice/evidon-sitenotice-tag.js',!1); append('evidon-location','//web.archive.org/web/20190524002820/https://c.evidon.com/geo/country.js',!0); append('evidon-themes','//web.archive.org/web/20190524002820/https://gamefaqs.akamaized.net/js/sitenotice/425/snthemes.js',!0); append('evidon-settings','//web.archive.org/web/20190524002820/https://gamefaqs.akamaized.net/js/sitenotice/425/gamefaqs/settings.js',!0); window.evidon.priorConsentCallback=function(){
+											append('google-analytics', "//web.archive.org/web/20190524002820/https://www.google-analytics.com/ga.js", true);
+			 
+			}
+				  window.evidon.closeCallback=function(){}
+				  window.evidon.consentWithdrawnCallback=function(){}})(425)
+	  		</script>
+
+	</head>
+	<body class="  wf-active">
+		<div id="fullscreen_overlay"></div>
+				<div class="wrapper g_file p_545345 s_pc">
+						<div id="menubutton" class="menubutton" onclick="topnav_side_open();"><i class="fa fa-bars"></i> Menu</div><div class="sidenav" id="sidenav"><div class="sidenav_div"><div id="menuclose" class="menuclose" onclick="topnav_side_close();"><i class="fa fa-times fa-2x"></i></div><ul class="sidenav_menu"><li><a href="/web/20190524002820/https://gamefaqs.gamespot.com/">Home</a></li><li><a href="/web/20190524002820/https://gamefaqs.gamespot.com/answers">Answers</a></li><li><a href="/web/20190524002820/https://gamefaqs.gamespot.com/boards">Boards</a></li><li><a href="/web/20190524002820/https://gamefaqs.gamespot.com/community">Community</a></li><li><a href="/web/20190524002820/https://gamefaqs.gamespot.com/contribute">Contribute</a></li><li><a href="/web/20190524002820/https://gamefaqs.gamespot.com/games">Games</a></li><li><a href="/web/20190524002820/https://gamefaqs.gamespot.com/new">What&rsquo;s&nbsp;New</a></li><li><a href="/web/20190524002820/https://gamefaqs.gamespot.com/games/systems">Systems</a></li><ul class="sidenav_submenu"><li><a href="/web/20190524002820/https://gamefaqs.gamespot.com/3ds">3DS</a></li><li><a href="/web/20190524002820/https://gamefaqs.gamespot.com/android">Android</a></li><li><a href="/web/20190524002820/https://gamefaqs.gamespot.com/iphone">iOS</a></li><li><a href="/web/20190524002820/https://gamefaqs.gamespot.com/pc">PC</a></li><li><a href="/web/20190524002820/https://gamefaqs.gamespot.com/ps3">PlayStation&nbsp;3</a></li><li><a href="/web/20190524002820/https://gamefaqs.gamespot.com/ps4">PlayStation&nbsp;4</a></li><li><a href="/web/20190524002820/https://gamefaqs.gamespot.com/switch">Switch</a></li><li><a href="/web/20190524002820/https://gamefaqs.gamespot.com/vita">Vita</a></li><li><a href="/web/20190524002820/https://gamefaqs.gamespot.com/xbox360">Xbox 360</a></li><li><a href="/web/20190524002820/https://gamefaqs.gamespot.com/xboxone">Xbox One</a></li></ul></ul></div></div><div class="masthead"><div class="masthead_strip"><div class="container row"><nav class="masthead_systems"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/3ds">3DS</a><a class="notab" href="/web/20190524002820/https://gamefaqs.gamespot.com/android">Android</a><a class="notab" href="/web/20190524002820/https://gamefaqs.gamespot.com/iphone">iOS</a><a href="/web/20190524002820/https://gamefaqs.gamespot.com/pc">PC</a><a class="notab" href="/web/20190524002820/https://gamefaqs.gamespot.com/ps3">PS3</a><a href="/web/20190524002820/https://gamefaqs.gamespot.com/ps4">PS4</a><a href="/web/20190524002820/https://gamefaqs.gamespot.com/switch">Switch</a><a class="notab" href="/web/20190524002820/https://gamefaqs.gamespot.com/vita">Vita</a><a class="notab" href="/web/20190524002820/https://gamefaqs.gamespot.com/xbox360">Xbox 360</a><a href="/web/20190524002820/https://gamefaqs.gamespot.com/xboxone">Xbox One</a><span class="masthead_platform_drop"><a class="mast_nav_last" href="/web/20190524002820/https://gamefaqs.gamespot.com/games/systems">More&nbsp;Systems <i id="sysdrop_down" class="fa fa-caret-down"></i><i id="sysdrop_up" class="fa fa-caret-up"></i></a><ul id="sysdrop" class="masthead_platform_subnav"><li class="gotab masthead_platform_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/android">Android</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/arcade">Arcade</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/ds">DS</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/dreamcast">Dreamcast</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/gba">Game Boy Advance</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/gamecube">GameCube</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/genesis">Genesis</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/iphone">iOS</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/nes">NES</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/n64">Nintendo 64</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/ps">PlayStation</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/ps2">PlayStation 2</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/ps3">PlayStation 3</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/psp">PSP</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/snes">Super Nintendo</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/vita">Vita</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/wii">Wii</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/wii-u">Wii U</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/xbox360">Xbox 360</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/xbox">Xbox</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/games/systems">And 104 More...</a></li></ul></span></nav><div class="masthead_user" data-step="9" data-intro="Now that you've seen what we have to offer, you can register an account for free to have complete access to all of our great community features. If you already have an account, you can log in here as well.">
+	<a href="/web/20190524002820/https://gamefaqs.gamespot.com/user/login" onclick="return show_login();"><i class="fa fa-key nouser"></i>Log In</a>
+	<a href="/web/20190524002820/https://gamefaqs.gamespot.com/user/register" onclick="return show_signup('header');" class="nouser">Sign Up</a>
+</div>
+<div id="login_dialog">
+<div class="pod">
+	<div class="head"><h2 class="title">Log In to GameFAQs</h2></div>
+	<div class="body">
+
+<form class="login" id="login" method="post" action="/web/20190524002820/https://gamefaqs.gamespot.com/user/login" onsubmit="return submit_login();"><input type="hidden" name="path" value="/pc/545345-syberia/faqs/19167"/><input class="hidden" type="hidden" name="key" value="27e575c0">
+	<table class="contrib">
+
+	<tr>
+	<td>
+	<input class="text login_email" id="login_email" type="text" name="EMAILADDR" maxlength="90" placeholder="Username/Email"/>
+	</td>
+	</tr>
+	
+	<tr>
+	<td>
+	<input class="text login_password" id="login_password" type="password" name="PASSWORD" maxlength="64" placeholder="Password"/>
+	</td>
+	</tr>
+	
+	<tr>
+	<td>
+	<input id="kmli" type="checkbox" name="kmli" checked="CHECKED"/><label for="kmli"> Keep me logged in on this device</label>
+	</td>
+	</tr>
+
+	<tr><td>
+	
+	<input class="btn btn_primary btn_wide login_submit" id="login_submit" type="submit" value="login"/>
+	
+	</td></tr>
+	<tr><td>
+	
+	<a href="/web/20190524002820/https://gamefaqs.gamespot.com/user/recover">Forgot your username or password?</a><br/><br/>
+	<a href="/web/20190524002820/https://gamefaqs.gamespot.com/user/register" onclick="$('#login_dialog').dialog('close'); return show_signup('login_box');">Don't have an account? Sign up for free!</a>
+	
+	</td></tr>
+	</table>
+	
+</form>
+
+</div>
+</div>
+</div>
+
+
+</div></div><div class="masthead_main container row"><div class="masthead_logo_search"><div class="masthead_logo" data-step="1" data-intro="Welcome to GameFAQs, your one-stop site for gaming guides, cheats, and more. If you're ever lost on the site, you can click this logo to get back to the home page at any time."><a href="/web/20190524002820/https://gamefaqs.gamespot.com/">GameFAQs</a></div><div class="masthead_search"><form class="search" method="get" action="/web/20190524002820/https://gamefaqs.gamespot.com/search" data-step="2" data-intro="You can use this box to search our extensive database of games. There are quick links to all of the content we have for the game directly from the search results."><fieldset><button type="submit"><i class="fa fa-search"></i></button><input type="text" id="searchtextbox" name="game" value="" class="search" placeholder="Search Game Titles"/></fieldset></form></div></div><div class="masthead_nav"><nav><a href="/web/20190524002820/https://gamefaqs.gamespot.com/answers" data-step="3" data-intro="If you have a specific question for a game, you can ask it here and see if our users can answer it for you.">Answers</a><a href="/web/20190524002820/https://gamefaqs.gamespot.com/boards" data-step="4" data-intro="We have a unique message board for every version of every game in our extensive database, combining into the largest gaming message board on the Net.">Boards</a><a class="navtrim" href="/web/20190524002820/https://gamefaqs.gamespot.com/community" data-step="5" data-intro="GameFAQs wouldn't be what it is without our active community of users contributing content and conversations. See what your friends are up to, or browse through various categories of users like our top contributors here.">Community</a><a class="navtrim" href="/web/20190524002820/https://gamefaqs.gamespot.com/contribute" data-step="6" data-intro="If you'd like to contribute your own guides, reviews, or cheats for a game, this is the place to go. We accept many other types of content as well from trivia to game credits. You can find a full list and all of the guidelines for submitting content here.">Contribute</a><a class="navtrim" href="/web/20190524002820/https://gamefaqs.gamespot.com/games" data-step="7" data-intro="Explore our comprehensive library of games. Find out what's popular on the site or see how we rank games based on difficulty, length, and more.">Games</a><a class="notab" href="/web/20190524002820/https://gamefaqs.gamespot.com/new" data-step="8" data-intro="If you're wondering what games are coming out soon, or what content we've posted recently, this is the place to look.">What&rsquo;s New</a><a class="search_link" onclick="topnav_show_search();"><i class="fa fa-2x fa-search" title="Search"></i></a></nav></div></div></div>
+			
+			
+						
+			
+									
+						<div id="mantle_skin">
+												
+								<div id="content" class="container">
+
+					
+															
+															
+																<div class="post_content row">
+							<div class="span12">
+								<header class="page-header"><div class="header_split"><div class="header_left"><div class="header_image" style="background-image:url(https://web.archive.org/web/20190524002820im_/https://gamefaqs.akamaized.net/box/1/4/2/16142_thumb.jpg)"></div></div><div class="header_right"><h1 class="page-title">Syberia &ndash; FAQ/Walkthrough</h1><h4 class="platform-title"><span class="header_more_wrap"><span class="header_more" style="cursor: pointer">PC <i class="fa fa-caret-down"></i></span><div id="header_more_menu"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/android/810864-syberia/faqs"><span class="also_name">Android</span></a><a href="/web/20190524002820/https://gamefaqs.gamespot.com/ds/954059-syberia/faqs"><span class="also_name">DS</span></a><a href="/web/20190524002820/https://gamefaqs.gamespot.com/iphone/100661-syberia/faqs"><span class="also_name">iOS (iPhone/iPad)</span></a><a href="/web/20190524002820/https://gamefaqs.gamespot.com/mac/810875-syberia/faqs"><span class="also_name">Macintosh</span></a><a href="/web/20190524002820/https://gamefaqs.gamespot.com/switch/211122-syberia/faqs"><span class="also_name">Nintendo Switch</span></a><a href="/web/20190524002820/https://gamefaqs.gamespot.com/ps2/583242-syberia/faqs"><span class="also_name">PlayStation 2</span></a><a href="/web/20190524002820/https://gamefaqs.gamespot.com/ps3/895981-syberia/faqs"><span class="also_name">PlayStation 3</span></a><a href="/web/20190524002820/https://gamefaqs.gamespot.com/windows-mobile/953396-syberia/faqs"><span class="also_name">Windows Mobile</span></a><a href="/web/20190524002820/https://gamefaqs.gamespot.com/xbox360/780639-syberia/faqs"><span class="also_name">Xbox 360</span></a><a href="/web/20190524002820/https://gamefaqs.gamespot.com/xbox/915351-syberia/faqs"><span class="also_name">Xbox</span></a></div></span></h4></div></div></header><nav id="js_content_nav" class="content_nav_wrap"><div class="content_nav_imp_wrap"><div class="cnav_imp cnav_faqs cnav_item_active"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/pc/545345-syberia/faqs">FAQs</a></div><div class="cnav_imp cnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/pc/545345-syberia/answers">Answers</a></div><div class="cnav_imp cnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/boards/545345-syberia">Board</a></div><div id="js_content_nav_toggle" class="content_nav_label">More</div></div><ol class="content_nav content_nav_split"><li class="cnav_item cnav_has_drop"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/pc/545345-syberia">Home</a><ol class="content_subnav"><li class="csubnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/pc/545345-syberia">Summary</a></li><li class="csubnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/pc/545345-syberia/data">Release Data</a></li><li class="csubnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/pc/545345-syberia/credit">Game Credits</a></li><li class="csubnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/pc/545345-syberia/playing">Also Playing</a></li><li class="csubnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/pc/545345-syberia/stats">Collection Stats</a></li></ol></li><li class="cnav_imp cnav_item_active"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/pc/545345-syberia/faqs">FAQs</a></li><li class="cnav_item cnav_has_drop"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/pc/545345-syberia/reviews">Reviews</a><ol class="content_subnav"><li class="csubnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/pc/545345-syberia/reviews">Reader Reviews</a></li><li class="csubnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/pc/545345-syberia/critic">Critic Reviews</a></li></ol></li><li class="cnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/pc/545345-syberia/images">Images</a></li><li class="cnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/pc/545345-syberia/videos">Videos</a></li><li class="cnav_imp cnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/pc/545345-syberia/answers">Answers</a></li><li class="cnav_imp cnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/boards/545345-syberia">Board</a></li></ol></nav>
+
+<script type="text/javascript">
+$('#js_content_nav_toggle').click(function()
+{
+	$('.content_nav_wrap').toggleClass('content_nav_open');
+});
+</script>
+
+
+
+		
+<div id="faq_header_wrap">
+	<div id="faq_header">
+		<div id="home_links">
+			<a class="gfaqs_icon" href="/web/20190524002820/https://gamefaqs.gamespot.com/"><img src="/web/20190524002820im_/https://gamefaqs.gamespot.com/images/default/g_v13_dark.png" alt="GameFAQs"/></a>
+			<a class="search_mobile"><i class="fa fa-search"></i></a>
+		</div>
+		<div id="faq_search_module">
+			<div class="head">
+				<span class="search_head_mobile">What do you need help on?</span>
+				<span class="search_close" onclick="dismiss_faq_search_results(0);">Cancel X</span>
+			</div>
+			<fieldset id="faq_search">
+				<button disabled><i class="fa fa-search"></i></button>
+				<input type="text" id="faq_search_input" size="80" maxlength="80" placeholder="Search this Guide for" value=""/>
+			</fieldset>
+			<div id="faq_search_results">
+				<table id="results_table"></table>
+			</div>
+		</div>
+				<div id="faq_bookmark" onclick="set_bookmark(0);">
+			<i class="fa fa-bookmark"></i><span class="bm_inner"><br/>BOOKMARK</span>
+		</div>
+		<div class="faq_bookmark_jumper">
+			<div class="bm_jumper_inner">
+			Jump to:
+						</div>
+		</div>
+	</div>
+	<div id="contrib_rec">
+		<div id="rec_inner">
+			<div id="rec_one">
+				<span class="rec_text">Would you recommend this Guide?</span>
+				<a class="rec_yes" onclick="set_rec_val(1);rec_submit(19167, 1, 1);">Yes</a>
+				<a class="rec_no" onclick="set_rec_val(2);rec_submit(19167, 1, 2);">No</a>
+				<input type="hidden" name="recval" id="recval"/>
+				<span class="rec_hide" onclick="$('#contrib_rec').remove();$('#faq_header_wrap').addClass('rec_closed');">Hide <i class="fa fa-times"></i></span>
+			</div>
+			<div id="rec_two">
+				<textarea class="rec_comment" name="comment" maxlength="140" rows="2" placeholder="How did you find this guide helpful? (140 character max)"></textarea>
+				<a class="rec_send" onclick="rec_submit(19167, 1, 3);">Send</a>
+				<a class="rec_skip" onclick="hide_rec();">Skip</a>
+				<span class="rec_hide" onclick="$('#contrib_rec').remove();$('#faq_header_wrap').addClass('rec_closed');">Hide <i class="fa fa-times"></i></span>
+			</div>
+			<div id="rec_three">
+				<a class="rec_sent"><i class="fa fa-check"></i>&nbsp;&nbsp;Message Sent</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<a class="top_link" onclick="page_top();"><i class="fa fa-arrow-up"></i></a>
+
+<div class="pod">
+	<div class="body ffaq">
+		<h2 class="title">FAQ/Walkthrough by <a class="contrib1" href="/web/20190524002820/https://gamefaqs.gamespot.com/community/swcarter">SWCarter</a></h2>
+		<p><b>Updated:</b> 09/06/02</p>	</div>
+</div>
+
+
+
+<div id="faqwrap" class="ffaq">
+	<pre class="faqtext" id="faqtext"><span id="faqspan-1">                            Syberia Walkthrough
+                            By Steven W. Carter
+                          scarter831@earthlink.net
+
+                                Last Updated
+                             September 6, 2002
+
+
+April 17, 2002 (morning)
+------------------------
+
+Dear Diary,
+
+This job sounded like it was going to be so easy.  All I had to do was travel 
+to Valadilene, France and get Anna Voralberg to sign a contract selling her 
+automaton factory to the Universal Toy Company.  Since the details had already 
+been worked out, I should have been able to pop into town, get the signature, 
+and then dash right back to New York.  Little did I know what was in store.
+
+But let me back up and explain things from the beginning.
+
+Paris is six hours ahead of East Coast time, and flying from New York to Paris 
+takes about seven hours, and then taking a shuttle from Paris to Valadilene 
+adds another two hours to that.  So I booked a 6:35 PM flight from New York, 
+which got me to Valadilene at about 10:00 AM.  I slept fitfully on the flight 
+-- I was just too nervous about doing this job correctly -- and mostly I went 
+over and over the paperwork to make sure everything was just so.
+
+Thus I was a little groggy when I arrived in Valadilene, and I had to wonder 
+if I was dreaming, because just as I got to my hotel I saw the strangest 
+thing.  It was a funeral procession being led by a wind-up drummer and being 
+accompanied by several men using a weird lockstep gait.  The men sort of 
+looked like robots, but why would Anna Voralberg have created automatons for 
+walking in funeral processions?  Or were they just villagers dressed up like 
+automatons?  At least I could tell the horse drawing the hearse was real.
+
+I watched the procession for a bit, but then I hurried to the hotel.  It had 
+started to rain, and I didn’t want my hair to frizzle.  I was also tried of 
+lugging my suitcase around.
+
+The hotel seemed cozy.  I hung up my coat on the coat rack and put my suitcase 
+down by the door.  No employees seemed to be around, so I took a couple 
+minutes to glance through a brochure and chat with a boy named Momo sitting on 
+the far side of the room.
+
+Finally, I went up to the front desk to see if I could attract anybody’s 
+attention.  There I found a strange little bell.  I tried to ring it, but that 
+didn’t work.  The bell seemed like it might be one of those automaton things I 
+had just read about, so I used the key next to it to wind it up, and then I 
+pushed the button.  That worked!  The little robot guy went to work and rang 
+the bell four times.  It was so cute!
+
+The bell also finally brought the innkeeper to the front desk.  I introduced 
+myself and he let me know I was in room 6 on the next floor.  I briefly 
+considered carrying my suitcase up those narrow stairs myself, but then I 
+figured the boy Momo might be the hotel’s bellhop, and he could do it for me.  
+However, when I asked the boy he refused saying he was too busy.  He didn’t 
+look too busy to me.
+
+Luckily, when I asked the innkeeper, he offered to carry my suitcase for me.  
+Such a gentleman.  Of course, he also gave me the bad news, that Anna 
+Voralberg had died the previous evening.  That explained the funeral 
+procession I saw earlier.
+
+When I got to my room I saw that my boss, Edward Marson, had sent me a note of 
+encouragement.  Or was it a warning?  Regardless, I decided I better tell him 
+about Anna Voralberg’s death, and so I called him on my cell phone.  He took 
+the news in stride, and he told me I should contact Anna Voralberg’s lawyer.  
+Since Ms. Voralberg didn’t have an heir, the lawyer could no doubt sign the 
+contract in her stead.  Marson also told me to wait for a faxed letter of 
+introduction to the lawyer.
+
+Well, it looked like I wasn’t going to get a chance to freshen up after all.  
+I headed right back downstairs, and I asked the innkeeper about the fax.  It 
+had already arrived, and he handed it over to me.  It turned out the lawyer’s 
+name was Maitre Alfolter.
+
+I chatted with the innkeeper for a few more minutes, and then I headed over to 
+see what Momo had been working on.  Oops!  It looked like he had been carving 
+gear outlines into one of the innkeeper’s tables.  I scooped up the gears, all 
+four of them, so the innkeeper wouldn’t notice, and then I headed outside to 
+find the lawyer.  It had stopped raining by then, and I was feeling optimistic 
+that the weather would stay nice, so I left my coat in the hotel.
+
+After wandering around the quaint town for a while, I finally found the 
+lawyer’s office to the left of the hotel.  Somebody had left a newspaper on a 
+bench in front of it, and the lead story was about Anna Voralberg.  She had 
+lived to be 86.  That wasn’t too bad.  Along the way to the office, I also 
+spotted a baker, and when I talked to him I found out that the entire town was 
+in mourning for Anna Voralberg’s death, and that’s why nobody seemed to be 
+around.
+
+When I reached the lawyer’s office, I discovered he had a robot thing -- oops, 
+an automaton -- at his front door.  I played with it for a bit, and it seemed 
+to be some sort of security camera.  I tried letting it view my face, but that 
+didn’t work.  Its hand kept whacking me in the head.  Then I decided that the 
+automaton looked like it was trying to read something, so I put the letter of 
+introduction in its hand.  That did the trick!
+
+Inside I discovered the lawyer at his desk.  I sat down to talk to him, and 
+that’s when he dropped the second bombshell of the day:  Anna Voralberg’s 
+brother Hans, thought to be dead for over 50 years, was really alive and 
+somewhere in the “north of Siberia.”  If this was true, I’d have to track him 
+down and get him to sign the papers.  So much for the easy job!
+
+And that lawyer!  When I asked him for help, he said his health wouldn’t allow 
+it.  That’s just like the innkeeper and Momo, who said they were “too busy.”  
+I think these men of Valadilene are just lazy!  But at least the lawyer 
+pointed out where I could get the key to the Voralberg factory prior to taking 
+his “nap.”
+
+Since the lawyer was sleeping (or pretending to be sleeping), I decided to 
+snoop around in the front office.  Unfortunately, there wasn’t anything 
+interesting there, but I did notice a strange automaton on the desk.  It 
+looked like a desk pad, except it was too small, and it had the word 
+“approuve” on it.  My French is a little rusty, but I’m pretty sure that means 
+something close to “approved.”  I tried pushing the button on the machine, but 
+nothing happened, and I figured I’d spent enough time playing around in the 
+office anyway.  So I decided it was time to go.
+
+On the way out, I remembered to pick up the factory “key” from the coat rack.  
+It looked sort of like a metal divining rod.  I also decided to leave the 
+front door open, just in case I needed to come back.  I had already given away 
+the letter of introduction, and I didn’t know any other way to get the door 
+open should I close it.
+
+Kate
+
+April 17, 2002 (early afternoon)
+--------------------------------
+
+Dear Diary,
+
+After I talked to the lawyer, it seemed I wouldn’t be able to rush back to New 
+York like I thought, so I took a short nap at the hotel.  The bed sure was 
+comfy!  But then I had to make a decision: should I head for the factory and 
+see if I could find any information about Hans there, or should I go to the 
+cemetery and verify that his coffin was empty?
+
+Well, I like to verify things for myself, and it’s not like Momo and Anna were 
+terribly reliable sources of information.  Plus, if I discovered Hans really 
+was dead, I wouldn’t have to trot around all over Russia looking for him, and 
+I could get back to New York much more quickly.  So I decided to head for the 
+cemetery.
+
+On the way I got a call from my fiancé Dan.  He has an important meeting with 
+the Goldbergs tomorrow night, and he wanted me to be there.  But with the job 
+so much up in the air, I told him I probably couldn’t make it.  He didn’t seem 
+to understand, and then he called the Voralberg plant a “measly toy factory!”  
+If we kept talking, I knew he’d call my job a “hobby” again and suggest I give 
+it up so I could play the dutiful future wife.  So I begged off as quickly as 
+I could.  I didn’t want to get into a fight over it.  Again.
+
+The church and surrounding cemetery were very pretty.  Almost pastoral.  I 
+explored the grounds and found the Voralberg family tomb on the left side of 
+the church, but there didn’t seem to be any way inside, and I couldn’t find a 
+caretaker anywhere to let me in.  I also got another call.  I thought it was 
+going to be Dan again, but instead it was Marson, and he wasn’t happy at all 
+that I hadn’t gotten the papers signed yet.  I wonder what he’ll say if I have 
+to strike out for Siberia?
+
+The front door to the church was locked, but along the side I found an odd 
+compartment.  There was a gearbox next to the compartment, but it seemed to be 
+missing some gears.  Was this where Momo had gotten the gears he had been 
+playing with?  I thought about trying to fix the mechanism, but then decided 
+to ignore it for now and keep looking for a caretaker or priest to let me in 
+the tomb.
+
+Finally, I discovered a back door into the church, and it was open.  Nobody 
+was inside, so I took the opportunity to do some snooping.  The wall behind a 
+crucifix looked scuffed, and when I moved the crucifix I discovered a key!  So 
+I took it.  Mother would be so proud that I’m stealing things from churches.
+
+I also found an odd dresser with some sort of crank on it, and I decided to 
+rummage through it.  The dresser was locked but the key I found behind the 
+crucifix opened it.  Inside I found some punch cards, and when I pulled out 
+the middle drawer I discovered it had a poorly hidden false back.  I couldn’t 
+pull out the drawer far enough to get at the objects in the back, but then I 
+decided maybe that’s what the crank was for.  So I turned the crank, and 
+voila!  I found one of those special Voralberg keys and a letter.
+
+The letter was written by the parish priest in 1938, the year when Hans died 
+(or not).  He admitted to learning that Hans was still alive and not doing 
+anything about it.  That would have added more evidence that Hans was still 
+alive, except that the priest was basing his beliefs on a confession from 
+Anna, and so everything still came down to Anna.  Maybe she hated that her 
+brother had died so much that she had made up the story that he was still 
+alive.  So I still needed to look inside Hans’ coffin.
+
+Well, nobody seemed to be around to let me into the tomb, so I decided to take 
+a closer look at that compartment I had skipped before.  Momo’s gears fit 
+inside its mechanism perfectly, and when I pulled the lever I found that the 
+compartment was really an elevator!  I couldn’t resist; I jumped in right 
+away.
+
+The elevator led to the top of the church’s bell tower, and inside was a large 
+automaton.  Did the automaton control the bells, maybe?  It had a slot in its 
+back, and the slot looked like it was the right size for those punch cards I 
+had discovered earlier.  So I put one in, and I was delighted to hear the 
+church’s bells play a Christmas tune!
+
+Another one of the cards was responsible for a funeral dirge, but when the 
+music played I thought I heard some mechanical movement coming from outside.  
+So I went back down the elevator, and, sure enough, I found that the “statue” 
+on the Voralberg tomb was really an automaton!  Moreover, it had moved its hat 
+to present a winding mechanism.  I still had the Voralberg key from the 
+church, so I tried that, and I was in luck!  The tomb door opened!
+
+Inside the tomb I found Hans Voralberg’s coffin, and, I guess not 
+surprisingly, it didn’t contain a body.  Instead I found a newspaper account 
+of Hans’ “accident” and an odd cylinder.  So it looked like Hans really was 
+alive -- and that I’d have to tack him down.  Oh well.
+
+Kate
+
+April 17, 2002 (late afternoon)
+-------------------------------
+
+Dear Diary,
+
+After “exploring” the local church I went back to the hotel to have some 
+dinner.  I figured I was going to need my fortitude if I was going to tackle 
+the automaton factory and hunt for information about Hans.
+
+When I got to the factory gate, I found that the T-shaped piece of metal the 
+lawyer had pointed me to really was a key, and it allowed me to pass through 
+the gate.  Once inside I found the factory grounds were huge.  Not only was 
+there a factory and a residence, but there was also an entire train station!  
+The Voralbergs must have done a lot of business at one point in their history 
+to need a train station.
+
+Since Anna mentioned in her letter to the lawyer that Hans had written her 
+sporadically and sent her automaton plans, I figured maybe she kept 
+correspondence from him at the factory.  Nobody seemed to be around, but 
+luckily the front door to the factory was open, so I went inside.
+
+I found Anna’s office up a set of stairs next to the front door.  It was 
+rather austere.  I thought some draperies and a nice carpet would have served 
+it well.  I mean, come on!  There were exposed pipes in the room!
+
+Anyway, I went back into snooping mode, and I started going through Anna’s 
+things.  In a cabinet I noticed a book out of alignment, and when I tried to 
+take a look at it, I inadvertently caused a secret compartment to swivel 
+around!  Man!  These automatons and secret compartments are everywhere!
+
+The compartment had a cute little music box in it, but I noticed the music 
+cylinder the box used was just like the one I had found in Hans’ coffin.  So I 
+tried it in the box, and it turned out to be a voice recording!  In it, Anna 
+described how she and Hans had found a secret cave with mammoth drawings in 
+it, plus some sort of mammoth toy.  Once the recording finished, the top of 
+the music box popped off, and I took it with me.
+
+Also in the office I struck gold at Anna’s desk.  On it was a letter she had 
+been writing to Hans, but drat!  She didn’t finish it and she didn’t address 
+it, either, so I was still no closer to finding him.  But she did mention a 
+train she had been building for him, so maybe visiting the train would prove 
+beneficial.  The train must be at the train station.
+
+The desk also contained several bills Anna had been unable to pay -- no wonder 
+she had wanted to sell the factory all of a sudden -- plus some plans for a 
+train, no doubt the one she had mentioned in the letter.  Could she really 
+have built it in a week?  And who was this Oscar person?
+
+So I trundled off to the train station, but I didn’t find anything useful 
+there.  Maybe Oscar would be able to shed some light on things if I were able 
+to find him.  But first I wanted to check the residence and see if Anna had 
+kept any papers there.
+
+Unlike the factory, the front door to the residence was locked, and nobody 
+answered when I knocked.  Did the butler have the day off?  Or maybe did he 
+need winding?  I didn’t know, so I used the same strategy as at the church; I 
+circled around to see if I could enter through the back door.  But no such 
+luck.  That door was locked, too.
+
+Stymied, I wandered into the garden behind the house and spoke to a gardener 
+lady there.  She didn’t seem very happy, and she even called her automaton 
+gardener a robot!  She also pronounced Valadilene incorrectly.  I wonder now 
+if she was a spy.  Maybe the Universal Toy Company was keeping tabs on me.
+
+There was a hedge maze in the garden, but luckily the gate to it was locked so 
+I didn’t have to go inside.  Also luckily, I found a fountain right next to 
+the hedge maze gate, and inside was a Voralberg key!  Were there more 
+automatons I’d have to deal with?  I guess so!
+
+I remembered seeing an odd ladder contraption next to the back door, and with 
+key in hand I went back to examine it more thoroughly.  Sure enough, the key 
+fit inside, and once I started it up it extended its ladder all the way to the 
+roof!  Those stairmaster exercises I had been doing lately really paid off, 
+because I was able to climb all the way to the top without breaking a sweat!
+
+On the roof I found an open window that led into the attic.  The attic was 
+rather musty, and I was sort of worried about running into spiders or rats, 
+but I wanted to have good news when I talked to Marson next, so I plugged 
+ahead and started going through things.
+
+Left of the window I found an old desk with ink and a journal inside.  The 
+journal was Anna’s, and it expounded on the fateful trip she and Hans had made 
+to the cave with the mammoth toy in it, and the sad things that had happened 
+after that.  Anna must have really been attached to Hans.  She mentioned two 
+of his birthdays but none of her own.
+
+The other side of the attic didn’t seem as exciting.  I had just turned on a 
+light so I could see better when I suddenly heard footsteps behind me!  Uh oh!  
+Busted!  But it was only Momo.  He apparently had followed me up to the attic 
+so he could ask me to draw a mammoth for him.  What was it about people around 
+here and mammoths?  Unfortunately, I’m not much of an artist, but I couldn’t 
+convince Momo of that.  He said Hans and Anna had drawn mammoths for him, so I 
+should be able to as well.  How can you argue with logic like that?
+
+I kept trying to convince Momo that mammoths were beyond my drawing skill, 
+when eventually I discovered that Momo knew about the cave with the mammoth 
+toy in it.  So we made a deal: I’d draw him a mammoth, and he’d take me to the 
+cave.  Of course, infuriatingly, from what I’d heard during my explorations, 
+there are mammoth drawings in the cave, and maybe I could have copied one of 
+them from there, but Momo was adamant that he wouldn’t show me to the cave 
+until after I had drawn him the picture.
+
+Well, I couldn’t do anything about the mammoth drawing for the moment, so I 
+decided to go back to my search of the attic.  Surely there must be more 
+letters up there.  So I went back to the area where I had just turned on the 
+light, when what do I see but a mammoth carving on the wall!  On closer 
+inspection it was carved by Hans in 1932, and so it probably looks just how 
+Momo would expect it.  So I took out the pencil and shaded the carving onto 
+the paper.
+
+When I gave the drawing to Momo, he was so happy that he danced a little jig.  
+Then he immediately set off to show me the cave.  I followed him for what 
+seemed like forever, and at one point I realized I was following a strange man 
+into the woods, all alone, without telling anybody where I was going.  But 
+Momo seemed harmless enough, so I figured I was safe.
+
+Eventually Momo stopped, but I didn’t see a cave anywhere.  I asked Momo, but 
+he said the cave disappeared.  I was skeptical at first, but Momo is just so 
+earnest that I had to believe him.  So I wandered around the area, and I 
+noticed a dam of reasonably new construction.  Maybe Anna had built the dam to 
+prevent anyone from getting to the cave!
+
+So I tried to open the dam, but I didn’t have any luck.  Momo is a strong 
+fellow, so I asked him for help, but it turned out he was too strong -- he 
+broke the opening mechanism!  Disheartened, I started wandering back towards 
+town when I noticed an old rowboat.  It was much too damaged to be of any use, 
+but next to it was an oar.  Maybe I could use the oar to fix the opening 
+mechanism!  Of course, the oar was in the water, and I did NOT want to get my 
+new clothes dirty -- I had just bought them for this trip, after all -- so I 
+asked Momo for help again and he was happy to oblige.  But it turned out Momo 
+was afraid of the water, and so he didn’t want to get the oar, either.
+
+That left us in a quandary, but then I remembered the broken lever from the 
+dam.  Maybe I could use that to draw the oar closer to shore.  So I went back 
+to the dam to get the lever, and then I returned to the boat, and sure enough 
+the lever was just long enough.  With the oar within reach, Momo was able to 
+pick up the muddy thing and, with a little more prompting, use it to open the 
+dam.
+
+With the water level lower, I was able to cross where the “river” had been 
+before, and that allowed me to access the cave.  It was still light enough 
+outside that I could see my way around in the cave, and sure enough there were 
+mammoth drawings on the walls, plus a mammoth toy in the back.  I picked up 
+the toy and headed back to town.  I would have walked back with Momo, but he 
+had disappeared after he opened the dam.
+
+At this point I was relatively stuck.  I had done a lot of interesting things 
+during the day, but I still wasn’t any closer to finding Hans.  In fact, the 
+only lead I had was some person named Oscar, but I hadn’t seen him anywhere.  
+Since Anna had mentioned him in conjunction with the train, and since he 
+wasn’t at the train station when I had checked there earlier, maybe I could 
+find him somewhere near the factory.  So I decided I’d have to check that area 
+more thoroughly.
+
+Back at the factory grounds, I discovered this little loading area between the 
+train station and the factory.  There was a cylindrical container there, plus 
+a lever.  I just can’t resist a lever, so I pulled it to see what would 
+happen.  Luckily, these conveyor claws came out and grabbed the container and 
+took it into the factory.  I don’t think I broke anything, and I might have 
+done something useful.  How about that?
+
+I was curious about the container, so I went into the factory to look for it.  
+I found it on the western side, at the end of a ramp.  I was just pondering 
+whether the container looked like it was supposed to be there when Mother 
+called.  She went on and on about this Russian opera singer she was seeing, 
+and it took me a while to get her off the phone.  I wanted to keep the line 
+clear in case Marson called.
+
+Once Mother hung up I noticed this automaton dolly next to the ramp.  Once 
+again I couldn’t resist, and I started it up.  It automatically went into 
+motion and carried the container to the other side of the factory, near some 
+automaton workbenches.  Maybe this is how the factory receives supplies?
+
+It’s not like I was planning to make any automatons -- let the Universal Toy 
+Company worry about that -- so I continued exploring.  Near the ramp I found a 
+door leading to a workshop.  Inside the workshop I noticed a humanoid 
+automaton hanging by some wires, but I didn’t think much of it until I 
+inadvertently lowered it and it started talking to me.
+
+That’s right, it talked to me, which totally freaked me out for a second, 
+especially since it sounded something like C-3PO from Star Wars.  But after 
+talking to the automaton for a few minutes, I realized that it was the elusive 
+Oscar, and that it had been constructed to act as a train’s engineer.  
+Suddenly Oscar didn’t seem like such a good source of information about Hans, 
+especially since he said he’d never met him before when I asked.
+
+Oscar also mentioned that he was missing his feet, and he asked me to make 
+some for him.  Since I was going to be exploring the factory anyway, I decided 
+why not?  I had already managed to bring supplies into the factory without 
+meaning to.  Maybe I could make some feet as well.  Oscar gave me a punch card 
+to help me out.
+
+So I went back exploring, and in a room on the opposite side of the factory I 
+found some more machinery.  There was a ramp and a wheel and a lever and a 
+chain... it looked complicated, but when I pulled the chain the large water 
+wheel outside the factory started turning, and when I pulled the lever I think 
+I hooked up the electricity to the factory.  So I had supplied power and 
+materials to the factory, and I had the punch card.  I was all set, right?
+
+Well, it turned out there was one more complication.  Up those stairs next to 
+Anna’s office was some sort of a console.  It looked like you could control 
+the factory floor from there.  There were six flip switches, which I think 
+corresponded to the six automaton workbenches on the factory floor, plus a 
+couple knobs, and also a slot.  The punch card Oscar gave me fit into the 
+slot, but I wasn’t sure what to do with the switches and the knobs.
+
+When in doubt, do something random.  That’s what I always say.  So I played 
+with the controls a little then pushed the master knob, and hey, some of the 
+automaton workers made a set of feet.  That was certainly easy.  But when I 
+retrieved the feet and took them to Oscar, he informed me they were 
+“incorrect.”  Drat.  Furthermore, Oscar told me that as far as he knew the 
+console was in working order, so I must be doing something wrong.
+
+So I headed back up to the console to take a closer look.  Only one of the 
+flip switches had a light on, but did that mean it was the right one or that 
+it was broken?  Since I only needed one set of feet, I decided it must 
+indicate the right one, and so I flipped that switch down and kept all the 
+others up.  As for the color knob, I kept playing with that one, looking at 
+the colors it presented, until I recognized one from the brochure I had seen 
+at the hotel.  The color knob must actually be the way you select the material 
+for the construction!  So I picked the color that looked like the picture from 
+the brochure, and then I pressed the master knob again.
+
+This time I knew I had it right because I saw a birdlike contraption grab 
+material from a different place in the factory than before, and when I picked 
+up the feet and handed them over to Oscar, he was thrilled.  “Kate Walker,” he 
+said.  “You’re my hero.”  (Well, ok, that’s paraphrased.  What he really said 
+was more boring and more robot-like.)  Then Oscar left to find his train.
+
+That got me to thinking.  Anna mentioned in the letter she was writing to Hans 
+that she had planned to show the train to him.  Did that mean the train was 
+programmed to go to wherever Hans was?  I didn’t have any better ideas, and 
+wandering aimlessly through Siberia didn’t sound appealing, so I chased after 
+Oscar to see if he’d let me ride on the train.
+
+I found Oscar in the passenger car of the train.  When I asked him about 
+hitching along, he told me I needed a ticket!  Here I had created feet for 
+him, and he still wanted me to buy a ticket!  And perhaps sensing my wrath, he 
+also took that opportunity to leave.
+
+So I got out of the train and hunted for the ticket office.  Luckily, it was 
+right next to the train, but who do you think was manning it?  Oscar!  This 
+automaton was driving me nuts, especially since he didn’t seem to understand 
+sarcasm at all.  Anyway, I finally got a ticket, plus some sort of permit.
+
+When I got back on the train, Oscar was there waiting for me again, as if he 
+hadn’t just been manning the ticket window.  So I tried to give him the 
+ticket, but he wouldn’t let me!  He had to “confirm my departure release!”  So 
+I tried giving him the permit, but he said it hadn’t been signed!  Arrgh!  I 
+pointed out that Anna Voralberg was dead, so she couldn’t release the train to 
+me, but then Oscar calmly informed me that a stamp from her lawyer would 
+suffice.
+
+So I went back to town and back to the lawyer’s office, but of course the 
+lawyer was still resting.  However, I realized that the automaton on the outer 
+desk must be for stamping documents, and so I put the permit on it and pressed 
+the button, but nothing happened.  Great.  But I fiddled with the automaton 
+for a bit more and realized the hat of the “stamper” opened up.  Maybe the 
+automaton was out of ink?  I still had the ink from the attic, and so I poured 
+that inside and pressed the button again.  This time the stamper did his job.  
+Success!
+
+Of course, when I got back to the train and handled over the permit and 
+ticket, I found out that the train still wasn’t ready to leave.  Why wasn’t I 
+surprised?  It turned out that the luggage compartment needed to have some 
+special items placed in it.  Well, I had “collected” some items during my 
+explorations, so maybe I had the right things.  (At least I hoped so.  My 
+jacket was getting a little crowded at this point.)
+
+Inside the luggage compartment, the two audio cylinders fit inside the 
+cabinet, the music box top fit on the round display in the center, and the 
+mammoth toy fit on the display to the side.  But when I tried to give my 
+ticket to Oscar once again, he informed me that the train hadn’t been wound up 
+yet, and that I’d have to do it myself since he didn’t know how.  This was 
+going to be a long trip.
+
+So back out of the train I went, this time looking for something that might be 
+a windup mechanism.  A nearby janitor wouldn’t talk to me, but luckily I found 
+the mechanism on my own.  It was on the opposite side of the train, and it had 
+a wheel and a lever on it.  I fiddled around with it a bit and finally 
+discovered the proper sequence: turn the wheel to open the mechanism, pull the 
+lever to wind up the train, and then turn the wheel again to close the 
+mechanism.
+
+Back in the train I finally got Oscar to accept my ticket, and we were off!  I 
+was so exhausted from my activities today that I never even made it to my bed.  
+I only managed to write down these paragraphs, and then I fell asleep in my 
+chair.
+
+Kate
+
+April 18, 2002 (morning)
+------------------------
+
+Dear Diary,
+
+The train wasn’t moving, but unless I had slept way more than I thought, we 
+hadn’t made it to Siberia yet.  I asked Oscar what had happened, and he let me 
+know that the train needed to be wound up again.  No problem -- I was a 
+veteran at that sort of thing now -- except for the fact that there didn’t 
+seem to be a windup mechanism in the odd train station we were in.
+
+Oscar also let me know that it was far too humid outside the train for him to 
+risk his wheelworks by leaving the area, so I set out on my own.  The train 
+station was definitely different.  Plants and birds were all over the place!  
+I also found a large metal door that wouldn’t open, some birds that seemed to 
+be guarding a ladder, and some sort of machine with a telephone attached.
+
+Eventually I even came to the stationmaster.  He was behind the train on the 
+right.  I told him how beautiful Barrockstadt Station was, and I asked him if 
+he knew where I could find a windup mechanism for the train.  He let me know 
+that there definitely wasn’t anything like that in the station, but that I 
+might want to try looking by “the Wall,” whatever that was.  He also mentioned 
+that the station had an automaton eagle, now broken, so maybe Hans had stopped 
+here at some point during his travels.
+
+I bid the stationmaster good day, picked up the hook lying near his feet, and 
+then went out in search of the Wall.  I exited the front of the station -- and 
+I couldn’t miss it!  The Wall was huge!  And as I approached it, I saw a 
+winding mechanism just like the one at Valadilene!  More evidence that Hans 
+had been here!
+
+Excited, I went back to the train to inform Oscar.  He didn’t seem very 
+confident that we’d be able to move the train to the winding mechanism, but he 
+did have some news of his own, that the rectors of the university wanted to 
+see me.
+
+So I left the train again and headed through the station’s doors on the right 
+side.  (Oddly, they had been closed and locked the first time I had seen them, 
+but now they were open.)  However, I didn’t go to the university right away.  
+I noticed some steps leading away from the right-hand door, and so I decided 
+to do some exploring first.  And am I glad I did!  I found a barge at the end 
+of the steps, a barge capable of towing the train up to the Wall!  The only 
+problem was that I mentioned to the people on board that I was a lawyer, and 
+they decided I was rich -- and consequently charged me $100 for use of their 
+barge.  They didn’t look like the type to take credit cards, so I had to find 
+some way to earn some cash.  Maybe the rectors would help.
+
+So I finally entered the university and went hunting for the rectors.  They 
+were located through a large door on the far left.  They weren’t happy that my 
+train was sitting in their station.  “Trains should first stop, then 
+subsequently leave,” they said.  I explained to them that my train was 
+slightly stuck, but that I had found a barge willing to tow it to the Wall to 
+be wound up.  The rectors then offered to pay me the $100 for the barge if I 
+could fix the bandstand in the university courtyard.
+
+It turns out that Hans had indeed visited the university.  The rectors had 
+remembered him, although they had disagreed about whether he was a genius or 
+not.  Hans had even built the bandstand that now needed fixing.  The day 
+before yesterday fixing odd pieces of machinery would have daunted me, but now 
+it just seemed par for the course.
+
+Before heading out to the courtyard to look at the bandstand, I decided to 
+explore the rest of the university building I was in.  Next to the rectors was 
+the university library.  The people inside weren’t very nice, but I did find a 
+couple of interesting books.  One was about the Amerzone cuckoo, which looked 
+exactly like the birds who were guarding the ladder in the station!  The book 
+mentioned that the birds were big fans of something called the “forest 
+Sauvignon grape,” and that the grapes were grown right here at the university.  
+I love coincidences like that!  The other book, which I had to climb a ladder 
+to get to (those shelves were tall!), was about the yangala-cola mushroom.  
+Supposedly if it was ground up and ingested, it would improve your eyesight!
+
+On the other side of the university I ran into a charming paleontologist named 
+Cornelius Pons.  He, too, had known Hans, and it seemed they had even had 
+something in common: they were both admirers of the wooly mammoth.  I wondered 
+if he’d be interested in seeing the mammoth toy I had picked up in Valadilene.  
+I also asked Pons about the forest Sauvignon grape, but he didn’t think it was 
+really at the university.  However, he suggested I ask the stationmaster, 
+since the stationmaster was the one in charge of the greenhouse, and so he 
+would know for sure.
+
+I then headed outside, fended off another call from Marson, and finally took a 
+look at the bandstand.  It had an odd locking mechanism on its door, something 
+like a weigh scale with an egg-shaped weight on one side.  Nothing I tried 
+would a balance the weight or otherwise open the door, so I decided to skip it 
+for the time being and ask the stationmaster about the Sauvignon grape.
+
+The stationmaster had seemed a little jittery the first time I had spoken to 
+him, but when I asked him about the grape he darn near well had a conniption 
+fit, and then he dashed off.  I followed him and pressed the attack, but he 
+still wouldn’t admit there were any Sauvignon grapes at the university.  
+Oddly, though, he suggested I talk to the paleontologist about it.
+
+Since I was in the area, I headed to the train to pick up the mammoth toy.  
+Oscar was still cooped up in the passenger compartment, so I chatted with him 
+for a bit before making my way to the back of the train.  Then I picked up the 
+mammoth toy, but in the process I noticed that my suitcase was in the sleeping 
+compartment.  Geez!  In all my haste yesterday, I had forgotten completely 
+about it!  Had Oscar fetched it when we were in Valadilene?  Maybe he wasn’t 
+such a bad robot after all.
+
+Back in the university, I went to talk to Professor Pons again, and this time 
+he suggested I ask the rectors about the Sauvignon grape!  Somebody -- or 
+perhaps a few somebodies -- were definitely hiding something here.  I also 
+showed Pons the mammoth toy, and he was delighted.  In fact, he right away 
+“borrowed” it from me so he could prepare a lecture about it, and he promised 
+to give it back after the lecture was over.  He then dashed into his lab.
+
+Never one to pass up an opportunity, I followed Pons into his lab and snooped 
+through his things while he was absorbed with the mammoth toy.  In a cabinet 
+by the door I found another audio cylinder, and on a table in the back I found 
+some yangala-cola powder plus a test tube holder.  I don’t think Pons even 
+knew I was in the room.
+
+I wanted to get to the bottom of the Sauvignon grape business, so I next 
+headed for the rectors.  They used the words “if” and “would” a lot, but 
+basically they admitted to growing Sauvignon grapes at the university to make 
+a small amount of wine.  I pondered blackmailing them to get the $100 I needed 
+for the barge, but I was confident I could fix the bandstand.  Besides, I 
+wanted to keep everybody happy so maybe I could pick up a few of the grapes.
+
+Back in the train station, I cornered the stationmaster about the Sauvignon 
+grapes, and he finally agreed to let me into the garden.  It was through that 
+big metal door that had been locked before.  Inside the garden I picked a few 
+grapes, and then I headed straight for the Amerzone cuckoo birds by the 
+ladder.
+
+And it turned out the book from the library was correct.  When I tossed the 
+grapes to the birds, they went straight for them and stopped paying attention 
+to the ladder.  So I took the opportunity to climb the ladder and see what was 
+up there.  What I found was the “nest” of the automaton eagle, and from its 
+back I picked up a cuckoo egg.  (I couldn’t quite reach the egg with my bare 
+hands, but with the test tube holder I was able to nab it.  Unfortunately, I 
+then dropped the test tube holder into the bushes down below and I couldn’t 
+find it again.  I just hope Pons doesn’t notice it’s gone.)  The egg looked 
+just like the weight in the balance scale lock of the bandstand.
+
+Since I was right next to the train, I decided to go in and listen to the 
+cylinder I had found in Pons’ office.  It was a message from Anna to Hans, 
+circa World War II.  In it Anna let Hans know that their father had passed 
+away, and that she missed him.  When I finished listening to the recording, I 
+put the cylinder with the other two I had found in Valadilene.  At least now I 
+knew when Hans had been in Barrockstadt, but I still had a lot of ground (and 
+time) to cover.
+
+I then proceeded to the bandstand in the university courtyard.  Along the way 
+the stationmaster ran up to me and handed me a bottle of the Sauvignon wine 
+they had produced.  I guess it was a reward for agreeing to keep my mouth 
+shut.  I figured I’d keep it until I found Hans, and then use it to celebrate.
+
+At the bandstand, the cuckoo egg fit into the door’s strange lock perfectly, 
+and when I turned the handle the door opened.  Inside, it turned out that the 
+bandstand wasn’t really broken.  All I had to do was pull a lever to get the 
+machine’s violinists to start playing again.  With all the hardships I’ve hard 
+lately, it was nice to have something resolve easily.  And when I went to see 
+the rectors again, they paid me the money as promised.
+
+Kate
+
+April 18, 2002 (afternoon)
+--------------------------
+
+Dear Diary,
+
+Well, that was a busy morning, and somehow I knew the afternoon was going to 
+be just as exciting!  To get things started I took the $100 from the rectors 
+and gave it to the couple on the barge.  They told me the money was all well 
+and good, but that they couldn’t tow the train until they could get through 
+the locks.  Apparently they had tried opening the locks themselves, without 
+luck, and now the telephone to the machine was broken, or they had broken it, 
+or something.  I couldn’t tell which.
+
+They then tossed me the key to the machine, and I had no choice but to see if 
+I could have better luck with it than they did.  The machine didn’t look 
+complicated -- either that or I had been spending too much time with Hans 
+Voralberg’s automatons lately.  The key opened a panel with a keyboard and a 
+set of instructions on it, but the instructions were in some language I didn’t 
+understand.
+
+There was a sign on the machine listing a number I could call for assistance, 
+and that sounded like a good idea.  The telephone connected to the machine was 
+broken, of course, but there wasn’t anything wrong with my cell phone.  
+However, the automated response from the phone number wasn’t very helpful, and 
+it looked like I was on my own.
+
+The machine seemed to work with two-digit codes.  Since there are only 100 
+two-digit codes, I figured I could just try them all out until I got one that 
+worked.  And it didn’t take long to discover that 42 was the right code to 
+drain the water from the lock and allow the barge to move forward.  So I went 
+back to tell the barge couple that everything was set, and then I returned to 
+the machine so I could type in the next code, which turned out to be 41, so 
+the barge could exit the station.
+
+Now everything was set for the towing!  I talked to the barge couple again, 
+and they threw me a chain.  All I had to do was connect it to the train.  
+Luckily, I still had that hook I had found the first time I had talked to the 
+stationmaster, and it worked like a charm.  In no time at all, the train was 
+right next to the winding mechanism.
+
+Of course, right as I was approaching the mechanism -- that is, once I was 
+about as far away from the university as I could get -- Professor Pons called 
+me on my cell phone and told me he was about to start his lecture.  I rushed 
+back to the university as quickly as I could, and I got to the auditorium just 
+in time for him to start his lecture.
+
+The lecture wasn’t as well attended as I thought it would be.  In fact, there 
+were only five other people there, and one of them was sleeping!  Anyway, the 
+lecture was about wooly mammoths and the Youkol tribe.  Apparently the Youkols 
+had lived in western Europe at one point, but had traveled east into Siberia 
+as weather conditions changed and the mammoths migrated.  Professor Pons also 
+mentioned the myth of the island of Syberia, where mammoths were supposed to 
+live still today!
+
+After the lecture, back in Pons’ lab, I picked up the mammoth toy plus a 
+pamphlet about another myth, the myth of the Youkol Ark.  The ark acted much 
+like an automaton supply vehicle, so no doubt if Hans hadn’t been interested 
+in mammoths before, the ark certainly would have grabbed his attention.  I 
+also wondered if maybe there hadn’t been a misunderstanding.  Maybe Hans 
+wasn’t in Siberia but looking for Syberia.
+
+Back at the train, I found that the Barrockstadt winding mechanism worked just 
+like the one at Valadilene: turn the wheel, pull the lever, and then turn the 
+wheel again.  Right after I had wound up the train, Dan called again, 
+impatient as ever to get me to come home, but all he did was tick me off.  I 
+was especially annoyed when he mentioned the “mess” that “we” were in.  You’d 
+think I had been gone for weeks instead of just a couple days.
+
+On a happier note, as soon as I got back on the train, I put the mammoth toy 
+on its display, and I told Oscar we could start moving again.  He didn’t even 
+ask for a ticket!  Of course, almost as soon as we started moving again we 
+also stopped again.  I guess I should have known something was wrong since I 
+was still carrying the yangala-cola powder and the wine.
+
+Outside, I found Oscar in a ticket booth, in a scene that looked all too 
+familiar.  When I went up to talk to him, he told me I needed an exit visa!  
+An exit visa!  Geez!  I suddenly took back all the nice things I had been 
+thinking about him.  I also noticed that we’d have to figure out some way to 
+open the gate.  So much for a leisurely afternoon!
+
+I explored the area a little, and I found a doorway on the left side of the 
+gate.  It led to a little guard post where I met a Captain Malatesta.  He 
+seemed to think that the lands beyond the Wall were far too dangerous for me 
+to go into, and he wouldn’t give me a visa.  But when I looked through his 
+telescope I discovered that the “enemy” he had been so worried about was only 
+an old, dead tree!
+
+Furthermore, on his desk I found a pair of broken glasses.  Malatesta’s vision 
+must be really bad without them.  However, I remembered what the library book 
+had said about yangala-cola powder, and that gave me an idea.  I poured wine 
+and powder into the wineglasses on the desk, and I offered Malatesta a drink.  
+He was reluctant at first, but I persuaded him, and then when I figured the 
+powder had had long enough to kick in, I suggested he take another look though 
+his telescope.
+
+Malatesta was flabbergasted -- and embarrassed.  But with no more danger 
+beyond the Wall, he wrote me out an exit visa.  I took the visa down to Oscar, 
+and he issued me another ticket.  I then went into the train and gave Oscar 
+the ticket, and we were off again.  It turned out we didn’t have to do 
+anything to open the gate.  The train opened it on its own.
+
+Kate
+
+April 19, 2002 (morning)
+------------------------
+
+Dear Diary,
+
+Well, the train stopped again, this time at an odd factory complete with giant 
+cowboys holding sickles.  Definitely Hans had to have been here.  I don’t 
+think anybody else could have created those cowboys.  (Well, ok.  They 
+probably weren’t cowboys.  They were probably heroes of the Russian Republic 
+or something, but they looked like cowboys to me.)
+
+I got off the train and scouted around the area a little, but I didn’t find 
+much of interest.  There was a large metal door, but I couldn’t figure out a 
+way to open it, and there was also an elevator leading down into darkness, but 
+I like darkness about as much as Momo likes water, and so I left it alone.
+
+Eventually, I climbed a ladder leading up to one of the cowboys, and that’s 
+when I hit pay dirt.  The ladder led to a small control room, and inside it on 
+a shelf I found three things: another audio cylinder, some sort of schematic 
+of the cowboys, and a metal handle.  I also found a control panel.  After 
+inserting the handle into the panel and playing around with it for a bit, I 
+discovered the cowboy could wind up the train.  I just had to move it forward 
+twice and then press the button.
+
+Well, this stop certainly seemed like it was going to be easy.  I moved the 
+cowboy back to its starting position, and then I headed for the train to let 
+Oscar know we could start back up again.  But on the way I noticed a strange 
+man scurrying away from the train with something under his arms.  Alarmed, I 
+rushed into the train to see if my suitcase was ok, and I found Oscar sitting 
+in the sleeping compartment, tied up and missing his hands.
+
+(It wasn’t until later that I wondered why Oscar had been in the sleeping 
+compartment at all, and right next to my suitcase, especially when he 
+mentioned he had been “polishing his metalwork.”  But then I decided I didn’t 
+want to think about it.)
+
+Well, we couldn’t go anywhere until Oscar got his hands back, so it looked 
+like I was going to have to figure out a way to get into the mining facility.  
+Maybe the shears the bandit had dropped at Oscar’s feet would help.
+
+But before taking on such an excursion, I decided to listen to the audio 
+cylinder I had found.  It was another message from Anna to Hans, and it seemed 
+to have been sent sometime after World War II.  At least now I knew for sure 
+that Hans had been here.
+
+With that bit of stalling complete, I started thinking about how to get into 
+the mining facility.  The two avenues I had discovered before, the door and 
+the elevator, weren’t viable.  But then I remembered that the cowboy had 
+gotten pretty close to the facility when I had used it to wind the train.  So 
+I went back to it and, sure enough, after I moved it forward once I could leap 
+from the ladder platform onto a ledge.
+
+The wall next to the ledge had a small hole in it, and that allowed me to use 
+the shears to create a bigger hole, one large enough for me to squeeze 
+through.  Beyond the hole was a small room.  There wasn’t much in the room, 
+but I did find a strange spark plug on a shelf near the back.
+
+The spark plug made me think of the machine I had seen when I had gone down 
+the elevator.  The machine had looked like a generator of some sort, but it 
+had been missing a part.  Maybe the spark plug was the right part.
+
+So I moved the cowboy back to its original position, and then I crossed the 
+railway platform and went back down the elevator.  Sure enough, the spark plug 
+fit into the machine at the bottom, and when I started it up it turned on all 
+the lights.  That allowed me to cross the tunnel, where I found a second 
+elevator.  Using that one put me inside the facility.
+
+I found myself right by a large door with a console next to it.  I poked 
+around on the console a bit until I figured out how to open the door, and then 
+I discovered that the door was the same one I had noticed on the train 
+platform before.  Now I had an easier way of getting into and out of the 
+facility.  I didn’t like those elevators much anyway.  I’m pretty sure I had 
+seen a rat when I had been using them.
+
+On the right side of the door, next to the elevator, I found some steps 
+leading up to a huge organ.  I wondered what the thing sounded like -- and why 
+it was even there.  It didn’t seem to go with the motif of the place.  
+However, I saw a screwdriver on the organ, and I snatched it up right away.  
+Screwdrivers are always useful.
+
+On the other side of the door I found a ladder with a plate blocking it.  So I 
+used the screwdriver to unscrew the plate, and then I climbed up.  At the top 
+I discovered the facility’s control room, complete with the facility’s 
+director, a man named Serguei Borodine.
+
+Borodine seemed just a touch insane.  He had converted the mining facility 
+into a music hall, and he needed to borrow Oscar’s hands so he could complete 
+his pianist automaton.  Of course, he had the same definition of “borrow” as 
+Professor Pons, and he claimed he’d give me back the hands when he was done 
+with them.
+
+What to do?  It looked like I going to have to help Borodine complete his mad 
+quest by contacting an opera singer named Helena Romanski and convincing her 
+to sing at the facility.  I bet that was going to be fun, especially since 
+Borodine had no idea where she could be located.  However, he had constructed 
+a “shrine” in her honor, and he thought maybe I could find some information 
+there.
+</span><span id="faqspan-2">
+So I went back down the ladder and into the shrine.  It was creepy.  I had 
+heard about guys who got obsessed like this, but I had never seen an example 
+with my own eyes.  At least Dan wasn’t this weird, at least so far as I knew.
+
+At the back of the shrine I found a drawer with a scrapbook and some mail in 
+it.  The scrapbook contained a series of press clippings covering Helena’s 
+career as a singer, and it even included a photo from when she had visited the 
+facility and caught Borodine’s attention.  There was also a story about how 
+she knew an opera singer named Franck Malkovitch.
+
+Wasn’t that the name of the man my Mother was seeing?  I called her to find 
+out, and sure enough it was.  Moreover, Franck was with her right then 
+(something I didn’t want to think about too much) and he remembered that 
+Helena had retired to a spa named Aralbad.
+
+I went back to Borodine to tell him I had located Helena.  He insisted that I 
+had to go and talk to her, but he wouldn’t give me Oscar’s hands back so I 
+could use the train.  Instead, he suggested I visit the nearby space compound 
+to see if any vehicles were available there.
+
+A monorail connected the mining facility to the space compound, so the trip to 
+the compound didn’t take very long.  When I arrived at the compound I received 
+a call from my friend Olivia.  She sure seemed to know a lot about what Dan 
+was up to lately.  But I didn’t have time to ponder the possibilities.  I had 
+to find the caretaker of the compound and wheedle a vehicle out of him.
+
+I explored the area for a bit, and eventually I found the caretaker in his, 
+well, I’d call it a hut except it was too modern.  Maybe it was an abandoned 
+space capsule.  Anyway, inside the caretaker was no help.  He was drunk as a 
+skunk, and I could barely understand anything he said.  So I gave up talking 
+to him and tried to figure out a way to sober him up.  I noticed a bottle of 
+vodka on the floor, and I picked it up thinking that at least I could prevent 
+him from getting even drunker.
+
+When the caretaker couldn’t find anything more to drink, he wandered outside 
+and fell into the bed of some sort of crane system, and then promptly fell 
+asleep.  He seemed perfectly comfortable where he was, so I left him there and 
+went back inside the capsule to do some snooping.  Near where he had been 
+sitting, I found a cabinet containing some papers detailing the closing of the 
+compound, plus a key.
+
+What I needed to find at this point was coffee -- a lot of coffee! -- but 
+since there didn’t seem to be any around, some alternative means of curing 
+drunkenness would have to do.  Maybe if I could get the caretaker standing up, 
+I could get him to walk it off.  So I went over to the control panel for the 
+crane system and turned it on using the key.  But the levers only seemed to 
+move around the container with the caretaker in it, and one lever didn’t seem 
+to do anything at all.
+
+So I walked down to the container and tried to pull the caretaker out of it by 
+hand, but that didn’t work.  However, I did notice a wheel nearby, and I gave 
+it a good spin figuring that maybe it was related to the lever that hadn’t 
+done anything before.  I was right.  Almost completely by accident I managed 
+to move the caretaker’s container under a water spigot and flood the container 
+with water.  Well, that woke the caretaker up quickly, and after that he was 
+much more coherent.
+
+The caretaker introduced himself as Colonel Boris Charov, a former test pilot.  
+He remembered Hans.  Apparently Hans had been helping the Russians build a 
+spring-loaded launcher, but he had bailed out on them when he had realized it 
+was going to be used for warheads rather than spacecraft.  Charov also 
+mentioned that Aralbad was just a little further to the east, and that an 
+airship at the compound had been programmed to take people there.  Maybe I 
+could use the airship to get there myself!
+
+So I did some more exploring.  Past Charov I found the launch pad.  On one 
+side was the airship, but its door was locked and birds were flocking all over 
+it.  On the other side was the mission control room.  There was a computer 
+inside, and even though I got it turned on by inserting a Voralberg key and 
+connecting some wires, I couldn’t make heads or tails of it.  Apparently it 
+was some sort of chemical analyzer, because it mentioned centrifuges and blood 
+samples.  I took its blood testing apparatus with me.
+
+I went back to Charov to see if he could shed any light on the mission control 
+computer or the airship, and he gave me the key to the airship.  Great!  I was 
+just about done then, I figured, because Charov also mentioned the airship had 
+an automatic pilot.
+
+So I went up to go take a ride on the airship, but I couldn’t make it work.  
+The lever inside didn’t do anything.  Could the ship detect the birds all 
+around it?  I went back down to ask Charov, but it took me a while to locate 
+him because he’d wandered over to in front of the mission control room.  When 
+I did find him, we ended up making a deal: I’d help him take a ride to the 
+stars using Hans’ springboard launcher, and he’d tell me how to start the 
+airship.
+
+That’s when I figured it out: the mission control room was intended for the 
+launcher, and the computer there must make it go!  So I figured the blood it 
+wanted was the pilot’s, and I got a sample from Charov.  However, when I 
+placed the sample into the computer and pressed the button with the syringe on 
+it, the computer replied that Charov’s blood alcohol level was too high.  
+Well, duh, I should have figured that out, so I used my own finger on the 
+blood testing apparatus, and the computer liked my blood much better.  No 
+wonder.  Not only had I not been drinking lately, I had barely had time to 
+eat!
+
+Next I realized the centrifuge the computer was talking about wasn’t one of 
+those little ones for breaking apart chemicals.  It was a big one for 
+subjecting pilots to g-forces.  So I pressed one button to raise the 
+centrifuge, and I pressed another to get it spinning.  Charov seemed a little 
+dazed but otherwise alright.  Finally, I told him to get into the spacecraft, 
+and I pressed the last button.
+
+That’s when I realized Charov hadn’t told me how to work the airship yet.  I 
+hurriedly asked him about it, but the connection was bad and I could barely 
+make him out.  I only heard something about it needing to be cranked.  Oh, 
+well, I’d just have to figure things out on my own again.
+
+As I was leaving the launch pad, I found a crank handle on the ground.  Charov 
+must have dropped it there.  But how could I use it to wind up the airship?  I 
+hadn’t seen anywhere for a crank to go when I’d looked at the airship earlier.
+
+So I explored some more, and I finally found the answer.  There was  a 
+staircase prior to Charov’s capsule that I hadn’t noticed before.  At the top 
+was the golden eagle Charov had talked about, plus a place to insert the 
+crank.  So I cranked away, and the sound must have triggered something in the 
+eagle, because it shot off to scare away the birds.  Now everything was set, 
+and when I returned to the airship and pulled the lever, it started moving!  
+And the flight was amazing!
+
+Kate
+
+April 19, 2002 (afternoon)
+--------------------------
+
+Dear Diary,
+
+Well, now all I had to do was find Helena Romanski and convince her to sing 
+for a crazy man.  Nooo problem!  So I left the airship and headed for the 
+hotel.  That’s when Marson called again.  If you can believe it, he sounded 
+even less happy with me than he had before.  He even sounded like he might 
+pull me off the case if I didn’t wrap it up quickly.  And here I thought I’d 
+been doing a pretty good job.
+
+But on to the spa.  Inside, Felix the receptionist barely gave me the time of 
+day.  He wouldn’t tell me if Helena was in the hotel, and he certainly wasn’t 
+going to let me go inside to do some exploring.  So I had to figure out a way 
+to get him away from the front desk so I could check the register and then 
+sneak into the spa if Helena was still staying there.
+
+Nearby in a closet I found some detergent.  I remembered the fountain out 
+front, and an idea came to me.  I’m so devious!  I poured the detergent into 
+the fountain, and it created a huge mess!  Now I figured Felix would have to 
+go outside and clean it up!  But nothing seemed to happen, so I went back 
+inside the spa to investigate.  That’s when I noticed the curtains were 
+closed, and Felix couldn’t see the fountain.  So I opened up the curtains and 
+then rang the bell to get Felix’s attention away from the TV.  Once he noticed 
+the problem he was off like a shot, mop in hand.
+
+Now I could explore the front desk at my leisure.  At the register I 
+discovered that not only was Helena still a guest at the spa (with access code 
+1270), Hans had been a guest as well!  I could feel that I was finally closing 
+in on him!  I also found a brochure for a chain of expensive hotels, and the 
+button that unlocked the gate into the interior of the spa.
+
+I didn’t waste any time.  I went right through the gate to see if I could find 
+Helena.  The first thing I found was an elegant dining room, and near the bar 
+was an automaton!  I asked him if he was the barman, but he replied he was 
+James, Helena’s nurse.  Furthermore, he mentioned that Helena was out on the 
+pier, so I only had to go out there to meet her.  Of course, James refused to 
+take me to see her, something about the salt in the air, so I knew he was 
+Hans’ creation.  He was so much like Oscar!
+
+The doorway to the pier was nearby, but it required some sort of access code.  
+I tried Helena’s code and even Hans’ code, but neither of them worked.  So I 
+decided it was time to do some more exploring.  At the far end of the hall I 
+found a wineglass, and on the side opposite from the dining room I found a 
+jacuzzi and a changing room.  Inside the changing room was a temporary access 
+card with the code 0968 on it.
+
+The temporary code finally allowed me to go through the door, and I found 
+myself in a cloakroom.  Oddly, there was a gas mask hanging on a peg here, and 
+I wondered how good a spa could be if you had to wear a gas mask to go 
+outside.  Shrugging, I put on the gas mask and headed to the pier.  Helena was 
+at the end, and soon we were chatting amicably.
+
+Of course, soon after that Felix the receptionist came storming out.  He 
+looked like he wanted to beat the crap out of me for what I did to the 
+fountain, but Helena calmly told him that I was her guest and that he should 
+go back inside.  I suddenly liked Helena a lot.
+
+At this point Helena decided she wanted to go back inside, and so she asked me 
+to call for James.  There was a bell nearby, but ringing it didn’t seem to do 
+anything other than upset the seals, so I went inside to fetch James myself.  
+But James, doing one of those automaton follow-the-regulations deals, decided 
+he wouldn’t go out unless he heard the bell.
+
+So I went out to complain to Helena, but along the way I noticed another bell 
+setting, this one much closer to the door.  So I went over to the bell, picked 
+it up, and then brought it to the new setting.  Surely if I rang it here James 
+would notice.  But once again it seemed that only the seals and I heard the 
+bell when I rang it.  So I went back inside to see James again, and this time 
+he admitted to hearing the bell, but he still didn’t want to go outside!  
+However, when I offered to let him use my gas mask, he reluctantly agreed to 
+go.
+
+Eventually, Helena and James arrived back inside, and I finally had a chance 
+to ask Helena about singing again.  She didn’t seem adverse to the idea, but 
+she was worried that her voice wasn’t good enough any more.  However, as she 
+kept talking she remembered a cocktail she had once had that had restored her 
+voice while on tour in France.  The cocktail had been made by a bartender 
+named George at the Meuritz Hotel.  If only I could make that cocktail!  But, 
+alas, Helena didn’t know the recipe.
+
+However, the name “Meuritz” triggered something in my brain.  I had just seen 
+that name mentioned somewhere recently, but where?  Oh, that was right, in the 
+hotel brochure!  I looked at the brochure again, and not only was the Meuritz 
+Hotel included, but somebody had written down a phone number for it!
+
+So I called the hotel, and, feeling a little silly, asked for George the 
+bartender.  Fortunately, George was the man’s last name, and while he wasn’t 
+working at the bar any longer, he had worked there for a long time and had 
+written down his cocktail recipes.  So the nice young man I was talking to 
+listed some of the recipe names for me until one sounded likely: the Blue 
+Helena.  It consisted of vodka, blue curacao, honey, lime, and ice, and it was 
+shaken, not stirred.
+
+Now all I had to do was figure out how this bar machine I was standing at 
+worked.  A little slip of paper wedged in with the controls looked promising.  
+It listed several spirits, but represented them as musical notes.  Since the 
+controls for the bar looked like a keyboard, I was pretty sure I could figure 
+it out.  The only problem was that some ingredients were missing.  I’d have to 
+find some vodka, honey, and lime.  Luckily, I already had a bottle of vodka, 
+so I put it into the machine.
+
+The lime (which looked suspiciously like a lemon) and honey were also nearby, 
+in a small refrigerator on the side of the bar.  But the honey was 
+crystallized, and there was no way it would flow into the cocktail like it was 
+supposed to, so I needed some way to heat it up.  That’s when I remembered the 
+jacuzzi.  So I rushed to the other side of the hall, turned the jacuzzi on, 
+and then dipped the honey into it.  In no time the honey was in liquid form, 
+and I returned to the bar to add it and the lime to the bar machine.
+
+Now making the Blue Helena cocktail was a snap.  First I pressed the I/O 
+button, which seemed to start the machine up.  Then I pressed the second key 
+from the left (for vodka).  Then I flipped the key switch and pressed the 
+third key from the left (for blue curacao).  Then I pressed the keys for 
+honey, lime, ice, and shake, and out popped a Blue Helena!
+
+Helena drank the cocktail, and it was obvious her voice was improved, but she 
+didn’t believe it.  I kept trying to convince her, and eventually James 
+mentioned that Helena had once been able to break crystal with her voice.  
+That gave me an idea!  I placed the wineglass I had found earlier onto the 
+counter, and I asked Helena to break it.  She seemed doubtful, but she tried 
+anyway, and after a few seconds the glass shattered!  That was all the 
+convincing she needed, and soon we were on the airship heading for the mining 
+facility.
+
+I probably would have taken the opportunity to sleep on the way back, but just 
+prior to leaving I got a call from Olivia.  It seems she had taken my place at 
+the Golberg dinner -- and she and Dan had slept together afterwards.  For some 
+reason this didn’t bother me as much as I thought it would have; in fact, it 
+sort of made me feel peaceful, and I pondered these feelings all the way back 
+to the mining facility.
+
+Kate
+
+April 20, 2002 (morning)
+------------------------
+
+Dear Diary,
+
+We arrived back at the mining facility (whose name I always forget; I can 
+barely pronounce it anyway) early in the morning.  I was running on pure 
+adrenaline at this point, as I was already anticipating the next leg of my 
+journey, and Helena was even excited about her upcoming performance.
+
+Soon enough Borodine had the stage ready and Helena was singing.  Her voice 
+really was beautiful.  But in the end, Charov was right: Borodine couldn’t be 
+trusted.  While I had been in Aralbad, he had set up a cage to drop down 
+around Helena!  He planned to keep her as a pet!
+
+Well, that was rather rude, so I quickly freed Helena by breaking the lock on 
+the cage with the shears I had picked up... geez, it seemed like years ago, 
+but it was only yesterday.  Then, while Helena raced for the exit, I used the 
+screwdriver to claim back Oscar’s hands.  Now we just needed to escape!
+
+However, it seemed that Borodine had planned for just such an event.  Right 
+after Helena made it through the doorway, he caused metal bars to block the 
+exit.  So I gave Oscar’s hands to Helena, told her to give them back to him, 
+and headed for the elevator.  I was suddenly glad I knew two ways in and out 
+of the facility!
+
+But Borodine had planned for this as well.  As soon as I made it down to the 
+bottom, he used bombs to blow up the elevators!  I was stuck!  Luck was one my 
+side, though, because the concussion from the second blast blew the grate off 
+of a ventilation shaft, and I was able to use the shaft to climb to the 
+surface.
+
+But we weren’t home free yet.  That madman Borodine even had a contingency 
+plan for the train!  One of the cowboys suddenly sprouted bars between his 
+legs and blocked our path!  Luckily, I had noticed an unused bomb when I had 
+exited from the ventilation shaft, and I so used it to blow the cowboy to 
+smithereens!  Take that, Borodine!
+
+Kate
+
+April 20, 2002 (afternoon)
+--------------------------
+
+Dear Diary,
+
+I finally got some much needed sleep on the train, but all too soon we arrived 
+at Aralbad.  Anna immediately returned to the spa, but I first took the 
+opportunity to wind up the train and talk to Oscar.  Oscar seemed a little bit 
+sad, I thought, if such a thing was possible.
+
+Just then Felix came running up.  He told me that a package had arrived for me 
+while I was at the mining facility.  That seemed odd, especially when I got to 
+the reception desk and discovered that the package contained a mammoth 
+automaton.  Did that mean Hans was near?  Did that mean my trip was almost 
+over?  For some reason the thought didn’t fill me with as much joy as I 
+thought it would.
+
+That’s when Marson called.  He was livid.  He told me he had made a serious 
+error in judgment assigning me to the case.  Suddenly I was more hopeful that 
+Hans was nearby.  Otherwise I was probably going to get fired.
+
+As soon as I finished talking to Marson, Felix received a call at the 
+reception desk.  It was Helena, and she wanted to see me at the bar.  I wanted 
+to say goodbye to her anyway, so I walked right over.  However, when I arrived 
+Helena surprised me.  She talked of her days with Hans at the spa, and how she 
+might have loved them.  Then she made an odd request, that I visit the supply 
+plane outside.
+
+Well, whatever.  The recent snowfall meant that I didn’t have to wear a gas 
+mask outside, and I was curious what the pier might look like without my 
+vision muffled anyway.  But no sooner did I walk outside than I saw Hans!  He 
+really was sort of a simple fellow, and he signed the contract papers without 
+even reading them (of course, he couldn’t read, but he didn’t want me to read 
+them to him, either).  He seemed much more concerned about the train, which he 
+planned to take to Syberia.
+
+Just as I was saying goodbye to Hans, Marson called yet again.  He said he was 
+going to send a backup team to do the job for me, but then I told him I had 
+finally tracked down Hans and gotten him to sign the contract.  After that 
+Marson was all peaches and cream, and even offered me a new case.  Of course, 
+he then reminded me not to do the “dumbest thing” and lose the papers.  Even 
+when he was trying to be nice, Marson was still a pompous jerk.
+
+As Hans got up to leave, he asked me if I wanted to accompany him on the 
+train.  I said no, of course.  My life was waiting for me in New York.  So 
+Hans let me know that the supply plane was heading for New York, but that I 
+had better go check to make sure.  So I approached the plane, but just as I 
+was getting ready to knock on the door, I remembered that my suitcase was 
+still on the train!  So I raced to the train station and jumped on the train
+-- just to get my suitcase.  Or at least that’s what I told myself.
+
+Kate
+
+*****
+
+This guide may be posted on any web site as long as the text is not changed 
+and as long as I am informed of the posting.  I will always submit new 
+versions to GameFAQs (www.gamefaqs.com) first, so if you are looking for the 
+most up-to-date version of this guide, please look there.
+
+
+*****
+
+Copyright © 2002 by Steven W. Carter
+
+</span></pre>
+</div>
+
+<p class="ffaq_page">View in: <button id="printable" onclick="make_printable();">Text Mode</button></p>
+
+
+<script type="text/javascript">
+
+window.onhashchange = hashHasChanged;
+
+function hashHasChanged()
+{
+	$(document).scrollTop(window.pageYOffset-130);
+}
+
+$().ready(function()
+{
+	$('.faq_bookmark_jumper').clone().appendTo('#faq_header_wrap');
+	if(window.pageYOffset>=150)
+	{
+		$('#faq_header_wrap').addClass('fixed');
+	}
+
+	window.onscroll = function()
+	{
+		if(window.pageYOffset>=150)
+		{
+			$('#faq_header_wrap').addClass('fixed');
+			$('.top_link').addClass('fixed').css('display','block');
+		}
+		else
+		{
+			$('#faq_header_wrap').removeClass('fixed');
+			$('.top_link').removeClass('fixed').css('display','none');
+		}
+	};
+
+	
+	$.each($('.ffaq img.imgnofloat'),function(){
+		var image = $(this);
+		if(image.attr('width')>400)
+		{
+			image.addClass('bigresize');
+		}
+	});
+
+	
+	var autobm = window.setInterval(function()
+	{
+		if(window.pos==$(document).scrollTop() || window.autobmstop==true)
+			clearInterval(autobm);
+		else
+			set_bookmark(1);
+	}, 5000);
+});
+
+
+$('img.imgresize').bind('click touch', function()
+{
+	if($(this).css('max-width')=='none')
+		$(this).css({'width':'100%','max-width':'100%'});
+	else
+		$(this).css({'width':'auto','max-width':'none'});
+});
+
+var timer, lastsearch;
+
+$('body :not(#faq_search_results)').bind('click touch', function(e)
+{
+	if($('#faq_search_results').css('display')=='block')
+	{
+		e.stopPropagation();
+		if($(this).attr('id')!='results_table' && $(this).attr('id')!='faq_search' && $(this).attr('id')!='faq_search_input' && $(this).attr('class')!='head' && $(this).attr('id')!='home_links')
+		{
+			dismiss_faq_search_results(0);
+		}
+	}
+});
+
+$('#faq_search_input, .search_mobile').click(function(e)
+{
+	e.preventDefault();
+	if($(this).attr('class')=='search_mobile')
+	{
+		$('#faq_search_module').toggle();
+	}
+	$('#faq_search_module, #faq_search_results').addClass('fixed');
+	$('#faq_header_wrap').addClass('search');
+	
+	if($('#faq_search_results').css('display')!='block')
+	{
+		$('#faq_search_results').show();
+	}
+	if($('#results_table tr').length==0)
+		$('.close_results').hide();
+	$('#faq_search_input').focus();
+});
+
+$('#faq_search_input').keyup(function()
+{
+	if(lastsearch != $('#faq_search_input').val())
+	{
+		if(timer)
+			clearTimeout(timer);
+		lastsearch = $('#faq_search_input').val();
+		if($('#faq_search_input').val().length>=3)
+		{
+			$('#faq_search_results').show();
+			timer = setTimeout(function(){faq_search(19167, $('#faq_search_input').val())},150);
+		}
+		else
+		{
+			dismiss_faq_search_results(1);
+		}
+	}
+});
+
+function dismiss_faq_search_results(fixed)
+{
+	$('#faq_search_results').hide();
+	$('#faq_search_overlay').fadeTo(200,0).remove();
+	if(!fixed)
+	{
+		$('#faq_search_module, #faq_search_results').removeClass('fixed');
+		$('#faq_header_wrap').removeClass('search');
+		if($('.search_mobile').is(':visible'))
+			$('#faq_search_module').toggle();
+	}
+	$('#results_table').empty();
+}
+
+function search_result(row)
+{
+	if($('#results_table tr[data-row="'+row+'"]').length>0)
+	{
+		var url = $('#results_table tr[data-row="'+row+'"]').attr('data-url');
+		if(url.indexOf('search_highlight')>=0)
+			eval(url);
+		else
+			window.location = $('#results_table tr[data-row="'+row+'"]').attr('data-url');
+	}
+}
+
+$('body :not(#faq_toc_header *, #faq_toc a.toc_toggle *)').bind('click touch', function(e)
+{
+	if($('#faq_toc_header').css('display')=='block')
+	{
+		e.stopPropagation();
+		if($(this).attr('class')!='toc_toggle active' && $(this).attr('id')!='faq_toc_header')
+		{
+			$('.toc_toggle').removeClass('active');
+			$('#faq_toc_header').css('display','none');
+		}
+	}
+});
+
+function toc_toggle()
+{
+	if($('.toc_toggle').hasClass('active'))
+	{
+		$('a.toc_toggle').removeClass('active');
+		$('#faq_toc_header').css('display','none');
+	}
+	else
+	{
+		$('a.toc_toggle').addClass('active');
+		$('#faq_toc_header').css('display','block');
+	}
+}
+
+function faq_search(id, term)
+{
+	var term = $('#faq_search_input').val();
+	var len = term.length;
+	if(term.length<3)
+		return;
+
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/faq_search',
+		data:  {id: 19167, term: term, key: '27e575c0'},
+		success: function(response)
+		{
+			if(response[0]=='error')
+			{
+				$('#results_table').html('<tr><td colspan="2" class="dismiss_results"><span onclick="dismiss_faq_search_results(0);">No Results Found - Close</span></td></tr>');
+				$('.close_results').remove();
+				$('#faq_search_results').show();
+			}
+			else
+			{
+				window.currentpage = 0;
+				$('#results_table').html('');
+				$('.close_results').remove();
+
+				$.each(response,function(j,i)
+				{
+					var val = i.value;
+					val = val.split('-');
+					var page = val[0];
+					
+					if(window.currentpage!=page)
+					{
+						window.currentpage = page;
+					}
+					var link, pagenum = '';
+
+					
+					
+					{
+						link = "search_highlight(19167,"+val[0]+",2,"+val[1]+","+len+");";
+					}
+					
+
+					$('#results_table').append('<tr data-url="'+link+'" data-row="'+j+'" style="cursor:pointer;" onclick="search_result('+j+');"><td class="title">'+i.label+'</td><td class="type">'+pagenum+'</td></tr>');
+				});
+
+				$('#results_table').after('<div onclick="dismiss_faq_search_results(0);" class="close_results">Close Results</div>');
+			}
+		}
+	});
+}
+
+function search_highlight(file_id,page,format,pos,len,section)
+{
+	window.textpage = page+1;
+
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/faq_search_highlight',
+		data: { id: file_id, page: page, for: format, pos: pos, len: len, section: '', key: '27e575c0' },
+		success: function(response)
+		{
+					$('span[name="search_jump"]').remove();
+			$("span.faq_highlight").contents().unwrap();
+			$('span#faqspan-'+window.textpage).html(response);
+		
+		var offset = $('span[name="search_jump"]').offset().top - 100;
+		if(offset<100)
+			$(document).scrollTop(0);
+		else
+			$(document).scrollTop(offset);
+		}
+	});
+}
+
+
+
+function set_bookmark(auto)
+{
+	var pos = $(document).scrollTop();
+	if(pos!=window.pos)
+		window.pos = pos;
+	else
+		return;
+	var page = 0;
+	if(page!=window.page)
+		window.page = page;
+	if(auto)
+		auto = 1;
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/faq_bookmark',
+		data: { id: 19167, pid: 545345, pos: pos, page: page, section: '', auto: auto, key: '27e575c0' },
+		success: function(response)
+		{
+			if(response)
+			{
+				if(response=="Missing cookie.")
+					window.autobmstop = true;
+				$('.faq_bookmark_jump').fadeOut();
+				$('#faq_bookmark').addClass('active');
+				var html = $('.bm_jumper_inner').html();
+				$('.bm_jumper_inner').animate({'opacity':0},200,function()
+				{
+					if($('.faq_bookmark_jumper:not(.active)'))
+						$('.faq_bookmark_jumper').css('visibility','visible');
+					$(this).html('Bookmark Saved').animate({'opacity':1},200);
+					$('.faq_bookmark_jumper').animate({'opacity':1},200);
+				});
+				setTimeout(function()
+				{
+					if($('.faq_bookmark_jumper:not(.active)'))
+					{
+						$('.faq_bookmark_jumper').animate({'opacity':0},200,function()
+						{
+							$(this).css('visibility','hidden');
+						});
+					}
+					$('.bm_jumper_inner').animate({'opacity':0},200,function()
+					{
+						$(this).html($.trim(html)).animate({'opacity':1},200);
+					});
+				}, 3000);
+			}
+		}
+	});
+}
+
+function bookmark_jump_dismiss()
+{
+	$('#faq_header > .faq_bookmark_jumper').css('visibility','hidden');
+	$('#faq_header_wrap > .faq_bookmark_jumper').remove();
+	$('#faq_bookmark').removeClass('active');
+}
+
+
+
+function page_top()
+{
+	$(window).scrollTop(0);
+}
+
+function make_printable()
+{
+	var faqdiv = $('#faqtext').detach();
+	faqdiv.appendTo('#fullscreen_overlay');
+	$('#fullscreen_overlay').show();
+	$('.wrapper').hide();
+	$('#faqtext').addClass("fullscreen_takeover");
+	$('#faqtext').append('<p id="restore_page"><button onclick="restore_page();">Restore Page</button></p>');
+	$(window).scrollTop(0);
+}
+
+function restore_page()
+{
+	$('#restore_page').remove();
+	$('#faqtext').removeClass("fullscreen_takeover");
+	$('#fullscreen_overlay').hide();
+	$('.wrapper').show();
+	var faqdiv = $('#faqtext').detach();
+	faqdiv.appendTo('#faqwrap');
+	$(window).scrollTop(0);
+}
+
+
+
+function set_rec_val(val)
+{
+	
+	var ftype = "guide";	
+	$('#recval').val(val);
+	if(val==2)
+		$('.rec_comment').attr('placeholder','What is missing from this '+ftype+'? (140 character max)');
+	$('#rec_one').hide();
+	$('#rec_two').show();
+	return;
+}
+
+function hide_rec()
+{
+	$('#rec_two').hide();
+	$('#rec_three').show();
+	var timer = setTimeout(function()
+	{
+		$('#contrib_rec').fadeOut('slow').remove();
+		$('#faq_header_wrap').addClass('rec_closed');
+	}, 2000);
+}
+
+function rec_submit(item_id, item_type_id, button)
+{
+	var recval = $('#recval').val();
+	if($('.rec_comment'))
+		var reccommentval = $('.rec_comment').val();
+	else
+		var reccommentval = '';
+
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/gamespace_contrib_rec',
+		data: { item: item_id, type: item_type_id, btn: button, val: recval, comment: reccommentval, key: '27e575c0' },
+		success: function(response)
+		{
+			if(response==2)
+			{
+				track_event(79);
+				return;
+			}
+			else
+				hide_rec();
+		}
+	});
+}
+
+</script>
+
+<script type="application/ld+json">
+{
+	"@context": "https://web.archive.org/web/20190524002820/http://schema.org",
+	"@type": "FAQPage",
+	"headline":"Syberia FAQ/Walkthrough",
+	"image":"https://web.archive.org/web/20190524002820/https://gamefaqs.akamaized.net/box/1/4/2/16142_thumb.jpg",
+	"author":"SWCarter",
+	"datePublished":"2002-09-06",
+	"dateModified":"2002-09-06",
+	"url":"https://web.archive.org/web/20190524002820/https://gamefaqs.gamespot.com/pc/545345-syberia/faqs/19167",
+	"reviewedBy":
+	{
+		"@type":"Organization",
+		"name":"GameFAQs",
+		"logo":
+		{
+			"@type":"ImageObject",
+			"url":"https://web.archive.org/web/20190524002820/https://gamefaqs.akamaized.net/images/default/logo_v13.png",
+			"width":"180",
+			"height":"50"
+		}
+	},
+	"genre":"Adventure",
+	"isPartOf":
+	{
+		"@type":"VideoGame",
+		"name":"Syberia",
+		"url":"https://web.archive.org/web/20190524002820/https://gamefaqs.gamespot.com/pc/545345-syberia",
+		"image":"https://web.archive.org/web/20190524002820/https://gamefaqs.akamaized.net/box/1/4/2/16142_thumb.jpg",
+		"description":"For the young Kate Walker, an ambitious lawyer, the Voralberg toy company acquisition seemed like a textbook case--a quick stopover to a small alpine village in France to buy-out an old automaton factory, then straight back home to New York.  But her journey across land and time throws all she values into question, and the deal she set out to sign turns into a pact with destiny.  Follow Kate through a magical world of automatons, amazing characters, and mysterious environments.  This...",
+		"datePublished":"2002-09-01",
+		"aggregateRating":
+		{
+			"@type":"AggregateRating",
+			"ratingValue":"82",
+			"reviewCount":"27",
+			"worstRating":"1",
+			"bestRating":"100"
+		},
+		"publisher":"The Adventure Company",
+		"genre":["Adventure","3D","Third-Person"],
+		"gamePlatform":["PC","AND","DS","IOS","MAC","NS","PS2","PS3","WINM","X360","XBOX"],
+		"operatingSystem":["PC","AND","DS","IOS","MAC","NS","PS2","PS3","WINM","X360","XBOX"],
+		"applicationCategory":"Game",
+		"sameAs":"https://web.archive.org/web/20190524002820/https://www.gamespot.com/syberia/",
+		"keywords":""
+	},
+	"breadcrumb":
+	{
+		"type": "BreadcrumbList",
+		"itemListElement":
+		[
+			{
+				"@type": "ListItem",
+				"position": 1,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190524002820/https://gamefaqs.gamespot.com/pc",
+					"name": "PC"
+				}
+			},									{
+				"@type": "ListItem",
+				"position": 2,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190524002820/https://gamefaqs.gamespot.com/pc/category/50-adventure",
+					"name": "Adventure"
+				}
+			},
+									{
+				"@type": "ListItem",
+				"position": 3,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190524002820/https://gamefaqs.gamespot.com/pc/category/77-adventure-3d",
+					"name": "3D"
+				}
+			},
+									{
+				"@type": "ListItem",
+				"position": 4,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190524002820/https://gamefaqs.gamespot.com/pc/category/192-adventure-3d-third-person",
+					"name": "Third-Person"
+				}
+			},
+						{
+				"@type": "ListItem",
+				"position": 5,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190524002820/https://gamefaqs.gamespot.com/pc/545345-syberia/faqs/19167",
+					"name": "Syberia FAQ/Walkthrough"
+				}
+			}
+		]
+	}
+}
+</script>
+								
+							</div>
+						</div>
+														</div>
+				
+												
+			</div>
+							
+
+							<footer id="footer" class="footer"><div class="footer_site container row"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/" class="footer_logo_gf">GameFAQs</a><a href="https://web.archive.org/web/20190524002820/http://www.facebook.com/GFAQs"><i class="fa fa-facebook-square"></i>facebook.com/GFAQs</a><a href="https://web.archive.org/web/20190524002820/http://www.twitter.com/GameFAQs"><i class="fa fa-twitter"></i>twitter.com/GameFAQs</a><span class="footer_break"></span><a href="/web/20190524002820/https://gamefaqs.gamespot.com/help">Help / Contact Us</a><span class="footer_color_drop" id="color_change"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/features/change_color">Change Colors <i class="fa fa-caret-up"></i></a><ul class="footer_color_subnav"><li class="footer_color_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/user/change_color?site_color=blue&amp;path=%2Fpc%2F545345-syberia%2Ffaqs%2F19167">Blue (Default)</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-blue&amp;path=%2Fpc%2F545345-syberia%2Ffaqs%2F19167">Blue on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/user/change_color?site_color=red&amp;path=%2Fpc%2F545345-syberia%2Ffaqs%2F19167">Red</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-red&amp;path=%2Fpc%2F545345-syberia%2Ffaqs%2F19167">Red on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/user/change_color?site_color=green&amp;path=%2Fpc%2F545345-syberia%2Ffaqs%2F19167">Green</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-green&amp;path=%2Fpc%2F545345-syberia%2Ffaqs%2F19167">Green on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/user/change_color?site_color=orange&amp;path=%2Fpc%2F545345-syberia%2Ffaqs%2F19167">Orange</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-orange&amp;path=%2Fpc%2F545345-syberia%2Ffaqs%2F19167">Orange on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/user/change_color?site_color=purple&amp;path=%2Fpc%2F545345-syberia%2Ffaqs%2F19167">Purple</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-purple&amp;path=%2Fpc%2F545345-syberia%2Ffaqs%2F19167">Purple on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/user/change_color?site_color=cloudy&amp;path=%2Fpc%2F545345-syberia%2Ffaqs%2F19167">Cloudy Blue</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/user/change_color?site_color=grayscale&amp;path=%2Fpc%2F545345-syberia%2Ffaqs%2F19167">Grayscale</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/user/change_color?site_color=sepia&amp;path=%2Fpc%2F545345-syberia%2Ffaqs%2F19167">Sepia</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190524002820/https://gamefaqs.gamespot.com/user/change_color?site_color=cottoncandy&amp;path=%2Fpc%2F545345-syberia%2Ffaqs%2F19167">Cotton Candy</a></li>
+</ul></span></div><div class="footer_network"><div class="container row">Popular:<a title="A full game guide and walkthrough for Kingdom Hearts III on the PlayStation 4" href="/web/20190524002820/https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812">Kingdom Hearts III Guide</a><a title="Cheat codes and passwords for Red Dead Redemption 2 on the PlayStation 4" href="/web/20190524002820/https://gamefaqs.gamespot.com/ps4/200179-red-dead-redemption-2/cheats">Red Dead Redemption 2 Cheats</a><a title="Cheat codes and passwords for Grand Theft Auto V on the PlayStation 4" href="/web/20190524002820/https://gamefaqs.gamespot.com/ps4/805601-grand-theft-auto-v/cheats">Grand Theft Auto V Cheats</a></div><div class="container row"><p><a href="https://web.archive.org/web/20190524002820/https://www.gamespot.com/?utm_source=gamefaqs&amp;utm_medium=partner&amp;utm_content=footer&amp;utm_campaign=footer" class="footer_logo_gs">gamespot.com</a><a href="https://web.archive.org/web/20190524002820/https://www.giantbomb.com/" class="footer_logo_gb">giantbomb.com</a><a href="https://web.archive.org/web/20190524002820/https://www.metacritic.com/" class="footer_logo_mc">metacritic.com</a><a href="https://web.archive.org/web/20190524002820/https://www.gamerankings.com/" class="footer_logo_gr">gamerankings.com</a></p><p><span class="footer_break"></span><a href="https://web.archive.org/web/20190524002820/http://sitemap.gamefaqs.com/">Sitemap</a><a href="https://web.archive.org/web/20190524002820/http://www.cbsinteractive.com/advertise">Advertise</a><a href="/web/20190524002820/https://gamefaqs.gamespot.com/feedback?type=61">Partnerships</a><a href="https://web.archive.org/web/20190524002820/https://cbs.avature.net/cbsinteractivecareers/SearchJobs/?3_56_3=%22260%22">Careers</a><a href="https://web.archive.org/web/20190524002820/https://legalterms.cbsinteractive.com/privacy">Privacy Policy</a><a href="https://web.archive.org/web/20190524002820/https://legalterms.cbsinteractive.com/adchoice">Ad Choice</a><a href="https://web.archive.org/web/20190524002820/https://legalterms.cbsinteractive.com/terms-of-use">Terms of Use</a><a style="z-index: 999999999; color: red; cursor: pointer" onclick="ad_report();">Report&nbsp;Ad</a></p><p>&copy; 2019 CBS Interactive Inc. All rights reserved.</p></div></div></footer>
+
+
+							
+		</div>
+
+		
+		<div id="site_dialog" class="site_dialog"></div>
+		<script type="text/javascript" src="//web.archive.org/web/20190524002820js_/https://dw.cbsi.com/js/ds.js"></script>
+<script type="text/javascript" src="/web/20190524002820js_/https://gamefaqs.gamespot.com/js/omniture_v2.20190522204818.js"></script>
+
+<script type="text/javascript">
+window._taboola = window._taboola || [];
+$().ready(function(){
+$(".gf_taboola").each(function(){
+	_taboola.push({mode: $(this).attr('data-mode'), container: $(this).attr('id'), placement: $(this).attr('data-placement'), target_type: $(this).attr('data-target') });
+});
+});
+
+var vguid = $('meta[id=view-guid-meta]').attr("content").substr(0, 24) + Math.random().toString(16).substr(2,12);
+var anon_id = $.cookie('XCLGFbrowser');
+$('meta[id=view-guid-meta]').attr("content", vguid);
+var dw_params = JSON.parse($('meta[name=dwPageParams]').attr("content"));
+dw_params['viewguid'] = vguid;
+var om_params = JSON.parse($('meta[name=o2PageParams]').attr("content"));
+om_params['evars'][24] = vguid;
+om_params['evars'][35] = anon_id;
+var delay = 0;
+if(!$.cookie('spt'))
+	delay = 500;
+if(typeof DW != 'undefined')
+{
+	if(!anon_id)
+	{
+		$.getScript("//web.archive.org/web/20190524002820/https://dw.cbsi.com/anonc.js").done( function( script, textStatus ) { if(typeof dw_anonc != 'undefined') { anon_id = dw_anonc().id;  $.cookie('XCLGFbrowser', anon_id, { expires: 3650, path: '/' }); om_params['evars'][35] = anon_id; } DW.pageParams = dw_params; DW.clear();  setTimeout(function() { om_params['evars'][16]=$.cookie('spt');  somni = omniture(om_params); },delay); });
+	}
+	else
+	{
+		DW.pageParams = dw_params; DW.clear(); setTimeout(function() { om_params['evars'][16]=$.cookie('spt'); somni = omniture(om_params); },delay); 
+	}
+}
+_taboola.push({flush: true});
+var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; googletag.cmd.push(function() { googletag.pubads().addEventListener('slotRenderEnded', revdbg); });
+</script>
+

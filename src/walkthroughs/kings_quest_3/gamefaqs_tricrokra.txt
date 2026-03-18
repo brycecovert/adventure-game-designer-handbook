@@ -1,0 +1,2025 @@
+<!doctype html>
+<html lang="en" class="js no-touch" itemscope>
+	<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human/faqs/71435","20190204191354","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1549307634");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+		<title>King&#039;s Quest III: To Heir Is Human Walkthrough for PC by Tricky - GameFAQs</title>
+
+				<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+
+				<meta name="description" content="For King's Quest III: To Heir Is Human on the PC, Walkthrough by Tricky."/>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta content="origin" id="mref" name="referrer"/>
+		
+		
+		
+		
+				
+					  		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  
+	  		<link href="https://web.archive.org/web/20190204191354cs_/https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Condensed|Roboto+Mono" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20190204191354cs_/https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		
+		<link href="/web/20190204191354cs_/https://gamefaqs.gamespot.com/css/v13.20190131214736.css" rel="stylesheet" type="text/css">
+		
+
+		
+				<link rel="canonical" href="https://web.archive.org/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human/faqs/71435"/> 
+		
+				<base href="/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human/faqs/71435"/> 
+		
+		
+		<meta name="dwPageParams" content="{&quot;siteid&quot;:19,&quot;ptid&quot;:6468,&quot;onid&quot;:37,&quot;pid&quot;:&quot;562687&quot;,&quot;familyid&quot;:&quot;2812&quot;,&quot;prodtypid&quot;:8,&quot;genre_id&quot;:23212,&quot;category_id&quot;:&quot;251&quot;,&quot;oid&quot;:&quot;6468-37-19-562687-71435&quot;,&quot;cid&quot;:71435,&quot;conttypid&quot;:9,&quot;useract&quot;:178,&quot;xref&quot;:&quot;https:\/\/gamefaqs.gamespot.com\/community\/Tricrokra\/contributions&quot;,&quot;edid&quot;:107,&quot;pguid&quot;:&quot;3a9822583b1b499f61a66f229f83df62&quot;,&quot;url&quot;:&quot;http:\/\/gamefaqs.gamespot.com\/pc\/562687-kings-quest-iii-to-heir-is-human\/faqs\/71435&quot;,&quot;ts&quot;:1549307634}"/>
+<meta name="o2PageParams" content="{&quot;account&quot;:&quot;cbsigamefaqssite&quot;,&quot;cloud_id&quot;:&quot;10D31225525FF5790A490D4D@AdobeOrg&quot;,&quot;channel&quot;:&quot;Games&quot;,&quot;site&quot;:&quot;gamefaqs&quot;,&quot;urs_id&quot;:null,&quot;hier1&quot;:&quot;Games|Game|FAQs|FAQ|Text&quot;,&quot;list1&quot;:null,&quot;products&quot;:&quot;;562687&quot;,&quot;evars&quot;:{&quot;1&quot;:&quot;Gamefaqs&quot;,&quot;2&quot;:&quot;ww&quot;,&quot;3&quot;:&quot;gamefaqs-desktop&quot;,&quot;5&quot;:&quot;cbsigamefaqssite&quot;,&quot;6&quot;:&quot;Games|Game|FAQs|FAQ|Text&quot;,&quot;7&quot;:&quot;D=g&quot;,&quot;10&quot;:&quot;game_faq_text&quot;,&quot;11&quot;:&quot;Games:game_faq_text&quot;,&quot;12&quot;:6468,&quot;15&quot;:&quot;false&quot;,&quot;20&quot;:&quot;King's Quest III: To Heir Is Human (PC) - Walkthrough by Tricky&quot;,&quot;22&quot;:&quot;faq&quot;,&quot;41&quot;:&quot;&quot;,&quot;50&quot;:&quot;2:00PM&quot;,&quot;51&quot;:&quot;Monday&quot;,&quot;63&quot;:&quot;562687&quot;,&quot;64&quot;:&quot;kings-quest-iii-to-heir-is-human|kings-quest&quot;,&quot;66&quot;:&quot;Adventure|General&quot;},&quot;page_event&quot;:null}"/>
+<meta id="ad-settings" itemprop="ad-settings" content="{&quot;script&quot;:&quot;\/\/www.googletagservices.com\/tag\/js\/gpt.js&quot;,&quot;target_params&quot;:{&quot;game&quot;:&quot;kings-quest-iii-to-heir-is-human&quot;,&quot;ptype&quot;:&quot;game_faq_text&quot;,&quot;franchise&quot;:&quot;kings-quest&quot;,&quot;genre&quot;:&quot;Adventure,General&quot;,&quot;rating&quot;:&quot;esrb-e&quot;,&quot;publisher&quot;:&quot;Sierra Entertainment&quot;,&quot;score&quot;:&quot;75&quot;,&quot;user&quot;:&quot;anon&quot;,&quot;session&quot;:&quot;g&quot;,&quot;rdate&quot;:&quot;bp52&quot;,&quot;cid&quot;:&quot;faq-71435&quot;,&quot;firstpg&quot;:0},&quot;unit_name&quot;:&quot;\/8264\/aw-gamefaqs&quot;,&quot;deferred&quot;:true,&quot;service&quot;:&quot;dart&quot;,&quot;client&quot;:&quot;xfp&quot;,&quot;load_in_head&quot;:&quot;gpt&quot;,&quot;single_request&quot;:true,&quot;disable_initial_load&quot;:true,&quot;enable_callback&quot;:true,&quot;enable_collapse_empty_divs&quot;:false,&quot;slot_order&quot;:[&quot;skybox-nav&quot;,&quot;leader_top&quot;,&quot;leader_plus_top&quot;,&quot;mpu_top&quot;,&quot;mpu_plus_top&quot;,&quot;interstitial&quot;,&quot;native-top&quot;,&quot;incontent-ad&quot;,&quot;mpu_bottom&quot;,&quot;leader_bottom&quot;],&quot;mapped_units&quot;:{&quot;skybox-nav&quot;:{&quot;size&quot;:[[5,5]],&quot;target&quot;:{&quot;pos&quot;:&quot;nav&quot;}},&quot;leader_plus_top&quot;:{&quot;size&quot;:[[728,90],[970,66],[970,150],[970,250],[960,150]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;leader_top&quot;:{&quot;size&quot;:[[728,90],[970,66]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;leader_bottom&quot;:{&quot;size&quot;:[[728,90],[970,66]],&quot;target&quot;:{&quot;pos&quot;:&quot;bottom&quot;}},&quot;mpu_plus_top&quot;:{&quot;size&quot;:[[300,250],[300,600],[300,100]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;mpu_top&quot;:{&quot;size&quot;:[[300,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;mpu_bottom&quot;:{&quot;size&quot;:[[300,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;bottom&quot;}},&quot;native-top&quot;:{&quot;size&quot;:[[11,11],&quot;fluid&quot;],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;incontent-ad&quot;:{&quot;size&quot;:[[321,31],[11,11],&quot;fluid&quot;],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;interstitial&quot;:{&quot;outOfPage&quot;:true}}}"/>
+<meta id="view-guid-meta" name="view-guid-meta" itemprop="view-guid" content="3a982258-3b1b-4499-f61a-66f229f83df6">
+<meta id="bsm-pub-zone-meta" name="bsm-pub-zone-meta" itemprop="bsm-pub-zone" content="gamefaqs.com/nucleus">
+<meta id="bsm-sizes-meta" name="bsm-sizes-meta" itemprop="bsm-sizes" content="728x90 300x250">
+
+
+
+
+		
+				<script type="text/javascript" src="/web/20190204191354js_/https://gamefaqs.gamespot.com/js/jquery_gf.20190131214736.js"></script>
+		<script type="text/javascript" src="/web/20190204191354js_/https://gamefaqs.gamespot.com/js/gamefaqs.20190131214736.js"></script>
+						<script type="text/javascript">window._taboola=window._taboola || []; _taboola.push({other:'auto'}); function setUpAgknTag(tag){tag.setBpId("cbsinteractive");}var _gaq = _gaq || [];  _gaq.push(['nT._setAccount', 'UA-27653683-1']);  _gaq.push(['nT._setAllowLinker', true]); _gaq.push(['nT._setSampleRate', '1']); _gaq.push(['nT._trackPageview']); _gaq.push(['_setAccount', 'UA-22577913-2']); _gaq.push(['_setSampleRate', '5']); _gaq.push(['_setCustomVar',1,'PageType','6468',3]); _gaq.push(['_setCustomVar',2,'LoggedIn','No',2]); _gaq.push(['_setCustomVar',3,'UserLevel','0',3]); _gaq.push(['_setCustomVar',4,'FAQType','txt',3]);  _gaq.push(['_trackPageview']); </script>
+		
+		
+		
+	  
+	  <script type="text/javascript">
+	    (function(id){function append(scriptid,url,async){var d=document,sn='script',f=d.getElementsByTagName(sn)[0];if(!f)f=d.head;var s=d.createElement(sn);s.async=!0;s.id=scriptid;s.src=url;f.parentNode.insertBefore(s,f)}
+	  function getRootDomain(){var parts=window.location.hostname.split('.');if(parts.length===2)rootDomain=parts[0];else if(parts.length>2){var part=parts[parts.length-2];if(part==='com'||part==='co'){rootDomain=parts[parts.length-3]}
+	  else{rootDomain=part}}
+	  return rootDomain}
+	  window.evidon={};window.evidon.id=id;var cdn='//web.archive.org/web/20190204191354/https://c.evidon.com/',rootDomain=getRootDomain(),noticecdn=cdn+'sitenotice/';append('evidon-notice',noticecdn+'evidon-sitenotice-tag.js',!1);append('evidon-location',cdn+'geo/country.js',!0);append('evidon-themes',noticecdn+id+'/snthemes.js',!0);if(rootDomain)append('evidon-settings',noticecdn+id+'/'+rootDomain+'/settings.js',!0);window.evidon.priorConsentCallback=function(){
+											append('google-analytics', "//web.archive.org/web/20190204191354/https://www.google-analytics.com/ga.js", true);
+			 
+			}
+				  window.evidon.closeCallback=function(){}
+				  window.evidon.consentWithdrawnCallback=function(){}})(425)
+	  		</script>
+		
+	</head>
+	<body class="  wf-active">
+		<div id="fullscreen_overlay"></div>
+				<div class="wrapper g_file p_562687 s_pc">
+						<div id="menubutton" class="menubutton" onclick="topnav_side_open();"><i class="fa fa-bars"></i> Menu</div><div class="sidenav" id="sidenav"><div class="sidenav_div"><div id="menuclose" class="menuclose" onclick="topnav_side_close();"><i class="fa fa-times fa-2x"></i></div><ul class="sidenav_menu"><li><a href="/web/20190204191354/https://gamefaqs.gamespot.com/">Home</a></li><li><a href="/web/20190204191354/https://gamefaqs.gamespot.com/answers">Answers</a></li><li><a href="/web/20190204191354/https://gamefaqs.gamespot.com/boards">Boards</a></li><li><a href="/web/20190204191354/https://gamefaqs.gamespot.com/community">Community</a></li><li><a href="/web/20190204191354/https://gamefaqs.gamespot.com/contribute">Contribute</a></li><li><a href="/web/20190204191354/https://gamefaqs.gamespot.com/games">Games</a></li><li><a href="/web/20190204191354/https://gamefaqs.gamespot.com/new">What&rsquo;s&nbsp;New</a></li><li><a href="/web/20190204191354/https://gamefaqs.gamespot.com/games/systems">Systems</a></li><ul class="sidenav_submenu"><li><a href="/web/20190204191354/https://gamefaqs.gamespot.com/3ds">3DS</a></li><li><a href="/web/20190204191354/https://gamefaqs.gamespot.com/android">Android</a></li><li><a href="/web/20190204191354/https://gamefaqs.gamespot.com/iphone">iOS</a></li><li><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc">PC</a></li><li><a href="/web/20190204191354/https://gamefaqs.gamespot.com/ps3">PlayStation&nbsp;3</a></li><li><a href="/web/20190204191354/https://gamefaqs.gamespot.com/ps4">PlayStation&nbsp;4</a></li><li><a href="/web/20190204191354/https://gamefaqs.gamespot.com/switch">Switch</a></li><li><a href="/web/20190204191354/https://gamefaqs.gamespot.com/vita">Vita</a></li><li><a href="/web/20190204191354/https://gamefaqs.gamespot.com/xbox360">Xbox 360</a></li><li><a href="/web/20190204191354/https://gamefaqs.gamespot.com/xboxone">Xbox One</a></li></ul></ul></div></div><div class="masthead"><div class="masthead_strip"><div class="container row"><nav class="masthead_systems"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/3ds">3DS</a><a class="notab" href="/web/20190204191354/https://gamefaqs.gamespot.com/android">Android</a><a class="notab" href="/web/20190204191354/https://gamefaqs.gamespot.com/iphone">iOS</a><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc">PC</a><a class="notab" href="/web/20190204191354/https://gamefaqs.gamespot.com/ps3">PS3</a><a href="/web/20190204191354/https://gamefaqs.gamespot.com/ps4">PS4</a><a href="/web/20190204191354/https://gamefaqs.gamespot.com/switch">Switch</a><a class="notab" href="/web/20190204191354/https://gamefaqs.gamespot.com/vita">Vita</a><a class="notab" href="/web/20190204191354/https://gamefaqs.gamespot.com/xbox360">Xbox 360</a><a href="/web/20190204191354/https://gamefaqs.gamespot.com/xboxone">Xbox One</a><span class="masthead_platform_drop"><a class="mast_nav_last" href="/web/20190204191354/https://gamefaqs.gamespot.com/games/systems">More&nbsp;Systems <i id="sysdrop_down" class="fa fa-caret-down"></i><i id="sysdrop_up" class="fa fa-caret-up"></i></a><ul id="sysdrop" class="masthead_platform_subnav"><li class="gotab masthead_platform_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/android">Android</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/arcade">Arcade</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/ds">DS</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/dreamcast">Dreamcast</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/gba">Game Boy Advance</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/gamecube">GameCube</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/genesis">Genesis</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/iphone">iOS</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/nes">NES</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/n64">Nintendo 64</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/ps">PlayStation</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/ps2">PlayStation 2</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/ps3">PlayStation 3</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/psp">PSP</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/snes">Super Nintendo</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/vita">Vita</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/wii">Wii</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/wii-u">Wii U</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/xbox360">Xbox 360</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/xbox">Xbox</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/games/systems">And 99 More...</a></li></ul></span></nav><div class="masthead_user" data-step="9" data-intro="Now that you've seen what we have to offer, you can register an account for free to have complete access to all of our great community features. If you already have an account, you can log in here as well.">
+	<a href="/web/20190204191354/https://gamefaqs.gamespot.com/user/login" onclick="return show_login();"><i class="fa fa-key nouser"></i>Log In</a>
+	<a href="/web/20190204191354/https://gamefaqs.gamespot.com/user/register" onclick="return show_signup('header');" class="nouser">Sign Up</a>
+</div>
+<div id="login_dialog">
+<div class="pod">
+	<div class="head"><h2 class="title">Log In to GameFAQs</h2></div>
+	<div class="body">
+
+<form class="login" id="login" method="post" action="/web/20190204191354/https://gamefaqs.gamespot.com/user/login" onsubmit="return submit_login();"><input type="hidden" name="path" value="/pc/562687-kings-quest-iii-to-heir-is-human/faqs/71435"/><input class="hidden" type="hidden" name="key" value="92721412">
+	<table class="contrib">
+
+	<tr>
+	<td>
+	<input class="text login_email" id="login_email" type="text" name="EMAILADDR" maxlength="90" placeholder="Username/Email"/>
+	</td>
+	</tr>
+	
+	<tr>
+	<td>
+	<input class="text login_password" id="login_password" type="password" name="PASSWORD" maxlength="64" placeholder="Password"/>
+	</td>
+	</tr>
+	
+	<tr>
+	<td>
+	<input id="kmli" type="checkbox" name="kmli" checked="CHECKED"/><label for="kmli"> Keep me logged in on this device</label>
+	</td>
+	</tr>
+
+	<tr><td>
+	
+	<input class="btn btn_primary btn_wide login_submit" id="login_submit" type="submit" value="login"/>
+	
+	</td></tr>
+	<tr><td>
+	
+	<a href="/web/20190204191354/https://gamefaqs.gamespot.com/user/recover">Forgot your username or password?</a><br/><br/>
+	<a href="/web/20190204191354/https://gamefaqs.gamespot.com/user/register" onclick="$('#login_dialog').dialog('close'); return show_signup('login_box');">Don't have an account? Sign up for free!</a>
+	
+	</td></tr>
+	</table>
+	
+</form>
+
+</div>
+</div>
+</div>
+
+
+</div></div><div class="masthead_main container row"><div class="masthead_logo_search"><div class="masthead_logo" data-step="1" data-intro="Welcome to GameFAQs, your one-stop site for gaming guides, cheats, and more. If you're ever lost on the site, you can click this logo to get back to the home page at any time."><a href="/web/20190204191354/https://gamefaqs.gamespot.com/">GameFAQs</a></div><div class="masthead_search"><form class="search" method="get" action="/web/20190204191354/https://gamefaqs.gamespot.com/search" data-step="2" data-intro="You can use this box to search our extensive database of games. There are quick links to all of the content we have for the game directly from the search results."><fieldset><button type="submit"><i class="fa fa-search"></i></button><input type="text" id="searchtextbox" name="game" value="" class="search" placeholder="Search Game Titles"/></fieldset></form></div></div><div class="masthead_nav"><nav><a href="/web/20190204191354/https://gamefaqs.gamespot.com/answers" data-step="3" data-intro="If you have a specific question for a game, you can ask it here and see if our users can answer it for you.">Answers</a><a href="/web/20190204191354/https://gamefaqs.gamespot.com/boards" data-step="4" data-intro="We have a unique message board for every version of every game in our extensive database, combining into the largest gaming message board on the Net.">Boards</a><a class="navtrim" href="/web/20190204191354/https://gamefaqs.gamespot.com/community" data-step="5" data-intro="GameFAQs wouldn't be what it is without our active community of users contributing content and conversations. See what your friends are up to, or browse through various categories of users like our top contributors here.">Community</a><a class="navtrim" href="/web/20190204191354/https://gamefaqs.gamespot.com/contribute" data-step="6" data-intro="If you'd like to contribute your own guides, reviews, or cheats for a game, this is the place to go. We accept many other types of content as well from trivia to game credits. You can find a full list and all of the guidelines for submitting content here.">Contribute</a><a class="navtrim" href="/web/20190204191354/https://gamefaqs.gamespot.com/games" data-step="7" data-intro="Explore our comprehensive library of games. Find out what's popular on the site or see how we rank games based on difficulty, length, and more.">Games</a><a class="notab" href="/web/20190204191354/https://gamefaqs.gamespot.com/new" data-step="8" data-intro="If you're wondering what games are coming out soon, or what content we've posted recently, this is the place to look.">What&rsquo;s New</a><a class="search_link" onclick="topnav_show_search();"><i class="fa fa-2x fa-search" title="Search"></i></a></nav></div></div></div>
+			
+			
+						
+			
+									
+						<div id="mantle_skin">
+												
+								<div id="content" class="container">
+
+					
+															
+															
+																<div class="post_content row">
+							<div class="span12">
+								<header class="page-header"><nav class="crumbs"><ol class="crumbs"><li class="crumb top-crumb"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc">PC</a></li><li class="crumb"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc/category/50-adventure">Adventure</a></li><li class="crumb"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc/category/251-adventure-general">General</a></li></ol></nav><h1 class="page-title"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human">King's Quest III: To Heir Is Human</a> &ndash; Walkthrough</h1></header><nav id="js_content_nav" class="content_nav_wrap"><div class="content_nav_imp_wrap"><div class="cnav_imp cnav_faqs cnav_item_active"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human/faqs">FAQs</a></div><div class="cnav_imp cnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human/answers">Answers</a></div><div class="cnav_imp cnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/boards/562687-kings-quest-iii-to-heir-is-human">Board</a></div><div id="js_content_nav_toggle" class="content_nav_label">More</div></div><ol class="content_nav content_nav_split"><li class="cnav_item cnav_has_drop"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human">Home</a><ol class="content_subnav"><li class="csubnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human">Summary</a></li><li class="csubnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human/data">Release Data</a></li><li class="csubnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human/credit">Game Credits</a></li><li class="csubnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human/playing">Also Playing</a></li><li class="csubnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human/stats">Collection Stats</a></li></ol></li><li class="cnav_imp cnav_item_active"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human/faqs">FAQs</a></li><li class="cnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human/cheats">Cheats</a></li><li class="cnav_item cnav_has_drop"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human/reviews">Reviews</a><ol class="content_subnav"><li class="csubnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human/reviews">Reader Reviews</a></li><li class="csubnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human/critic">Critic Reviews</a></li></ol></li><li class="cnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human/images">Images</a></li><li class="cnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human/videos">Videos</a></li><li class="cnav_imp cnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human/answers">Answers</a></li><li class="cnav_imp cnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/boards/562687-kings-quest-iii-to-heir-is-human">Board</a></li></ol></nav>
+
+<script type="text/javascript">
+$('#js_content_nav_toggle').click(function()
+{
+	$('.content_nav_wrap').toggleClass('content_nav_open');
+});
+</script>
+
+
+
+		
+<div id="faq_header_wrap">
+	<div id="faq_header">
+		<div id="home_links">
+			<a class="gfaqs_icon" href="/web/20190204191354/https://gamefaqs.gamespot.com/"><img src="/web/20190204191354im_/https://gamefaqs.gamespot.com/images/default/g_v13_dark.png" alt="GameFAQs"/></a>
+			<a class="search_mobile"><i class="fa fa-search"></i></a>
+		</div>
+		<div id="faq_search_module">
+			<div class="head">
+				<span class="search_head_mobile">What do you need help on?</span>
+				<span class="search_close" onclick="dismiss_faq_search_results(0);">Cancel X</span>
+			</div>
+			<fieldset id="faq_search">
+				<button disabled><i class="fa fa-search"></i></button>
+				<input type="text" id="faq_search_input" size="80" maxlength="80" placeholder="Search this Guide for" value=""/>
+			</fieldset>
+			<div id="faq_search_results">
+				<table id="results_table"></table>
+			</div>
+		</div>
+				<div id="faq_bookmark" onclick="set_bookmark(0);_gaq.push(['_trackEvent', 'faq-header-v2', 'bookmark-set', 'faqheader-test']);">
+			<i class="fa fa-bookmark"></i><span class="bm_inner"><br/>BOOKMARK</span>
+		</div>
+		<div class="faq_bookmark_jumper">
+			<div class="bm_jumper_inner">
+			Jump to:
+						</div>
+		</div>
+	</div>
+	<div id="contrib_rec">
+		<div id="rec_inner">
+			<div id="rec_one">
+				<span class="rec_text">Would you recommend this Guide?</span>
+				<a class="rec_yes" onclick="set_rec_val(1);rec_submit(71435, 1, 1);">Yes</a>
+				<a class="rec_no" onclick="set_rec_val(2);rec_submit(71435, 1, 2);">No</a>
+				<input type="hidden" name="recval" id="recval"/>
+				<span class="rec_hide" onclick="$('#contrib_rec').remove();$('#faq_header_wrap').addClass('rec_closed');_gaq.push(['_trackEvent', 'faq-header-v2', 'rec-module-hide', 'faqheader-test']);">Hide <i class="fa fa-times"></i></span>
+			</div>
+			<div id="rec_two">
+				<textarea class="rec_comment" name="comment" maxlength="140" rows="2" placeholder="How did you find this guide helpful? (140 character max)"></textarea>
+				<a class="rec_send" onclick="rec_submit(71435, 1, 3);">Send</a>
+				<a class="rec_skip" onclick="hide_rec();">Skip</a>
+				<span class="rec_hide" onclick="$('#contrib_rec').remove();$('#faq_header_wrap').addClass('rec_closed');_gaq.push(['_trackEvent', 'faq-header-v2', 'rec-module-hide', 'faqheader-test']);">Hide <i class="fa fa-times"></i></span>
+			</div>
+			<div id="rec_three">
+				<a class="rec_sent"><i class="fa fa-check"></i>&nbsp;&nbsp;Message Sent</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<a class="top_link" onclick="page_top();"><i class="fa fa-arrow-up"></i></a>
+
+<div class="pod">
+	<div class="body ffaq">
+		<h2 class="title">Walkthrough by <a class="contrib1" href="/web/20190204191354/https://gamefaqs.gamespot.com/community/Tricrokra">Tricky</a></h2>
+		<p><b>Version:</b> 15.04 | <b>Updated:</b> 04/06/15</p>	</div>
+</div>
+
+
+
+<div id="faqwrap" class="ffaq">
+	<pre class="faqtext" id="faqtext"><span id="faqspan-1">
+                ___________      .__        __                  
+                \__    ___/______|__| ____ |  | _____.__. ______
+                  |    |  \_  __ \  |/ ___\|  |/ &lt;   |  |/  ___/
+                  |    |   |  | \/  \  \___|    &lt; \___  |\___ \ 
+                  |____|   |__|  |__|\___  &gt;__|_ \/ ____/____  &gt;
+                                         \/     \/\/         \/ 
+
+Walkthrough for King's Quest III - To Heir is Human 
+This is a TXT conversion of a FAQ originally written in HTML. 
+For the HTML version (for which you are always guaranteed to have the 
+newest version) please visit http://faq.tbbs.nl 
+========================================================================== 
+FAQ Index 
+========================================================================== 
+
+* Intro section *
+     Introduction ................................ INT0000000000
+     A few things you MUST know before playing ... INT0000000001
+     Abondonware ................................. INT0000000002
+
+* Walkthrough *
+     Llewdor - The evil wizard Manannan .......... WLK0000000000
+     Llewdor - The wizard is gone ................ WLK0000000001
+     Pirate's ship ............................... WLK0000000002
+     Daventry - Mountains ........................ WLK0000000003
+     Daventry - The evil dragon .................. WLK0000000004
+
+* Maps *
+     Map of: The Wizard's castle ................. MAP0000000000
+     Map of: Llewdor ............................. MAP0000000001
+     Map of: Daventry Mountain Trial ............. MAP0000000002
+
+* Backgrounds *
+     Bugs &amp; Glitches ............................. BCK0000000000
+     Inventory Items ............................. BCK0000000001
+     Deaths ...................................... BCK0000000002
+
+* Ending Stuff *
+     Copyright ................................... END0000000000
+     Contacting me ............................... END0000000001
+ 
+                                                            INT0000000000 
+=========================================================================== 
+Introduction 
+=========================================================================== 
+Welcome to my guide of KQ3. 
+This is an old Sierra Game which does run in both DosBOX and ScummVM. 
+This game works with a text parser and you should use this FAQ on this way. 
+*:&gt; I start like this for any new location. Mostly I'll descripte the 
+    location so you know where you got to be. 
+!:&gt; If I start like this, you are in a location where you can be robbed by 
+    thieves. If the thief's appear quickly go to another location and come 
+    back. If you got the magic map it does work to just use it to teleport 
+    to the location you are and the thieves will have disappeared. 
+    = This way I'll summarize what you 
+    = have to do 
+    = AND THIS WAY I'LL TELL YOU WHAT TO TYPE. JUST QUOTE ME LITTERALLY. 
+    
+I know there's a remake of KQ3. This remake is a fan game and thus not 
+authorized by Sierra or the current representative. Whether or not the 
+copyright holders are ok with this version is not yet known to me. How well 
+this FAQ works on that version is currently unknown.   
+    
+And that covers how to use this FAQ. 
+                                                            INT0000000001 
+=========================================================================== 
+A few things you MUST know before playing 
+=========================================================================== 
+*:&gt; ALL puzzles revolve around the book &quot;The sorcery of all&quot;. It contains 
+    spells in alchemy form. Too bad this is the copy protection and that's 
+    why I cannot cover these spells in this FAQ unless the current 
+    copyright-holder did officially allow me to make that public. (This 
+    basically turns the entire game into one big copy-protection, and that 
+    is why I never wrote this walkthrough sooner. But I hope it's enough 
+    that I avoid the spells themselves. 
+    = You should have the spells in your manual or a PDF file that came 
+      with the game if you have a legal copy of the game. 
+    = To start creating a spell you need to turn to a page. If the manual 
+      says the spell is on page VII you must type &quot;TURN TO PAGE VII&quot; and 
+      you'll start creating the spell. 
+    = If you do an incorrect action (or if your action leads to the error 
+      &quot;how can you do that&quot; the spell will mess up which counts as death, 
+      so SAVE YOUR GAME BEFORE CASTING ANY SPELL!!! 
+    = All spells require you to recite a verse. Remove all &quot;,&quot; and &quot;.&quot; from 
+      it and just type one space. So if the manual says &quot;Tails of rats, and 
+      hair of cat&quot;, you must type &quot;TAILS OF RATS AND HAIR OF CAT&quot;. Please 
+      note the system is case insensitive, so it doesn't matter if you use 
+      upper or lower case. 
+   
+*:&gt; The old wizard is quite paranoid. Any item you have in your pocession 
+    he doesn't trust will mean he'll zap you to death. All these items are 
+    suffixed with a an asterisk (*). You can hide all these items under 
+    your bed. 
+*:&gt; The magic wand always needs to be safely in its safe in the wizard's 
+    office whenever he appears or he'll kill you. Hiding it under your bed 
+    won't save you. The magic wand is unique in that perspective. 
+*:&gt; As long as the wizard has not been taken care of properly, the game is 
+    timed. The time is pretty important as you can know the wizard's 
+    actions if you know a bit how the time works. 
+    = When the time is 0:00:00 - 0:05:00 you can encounter the wizard at 
+      random just to spy on you. Best is not to do anything foolish as long 
+      as you are in that time period. 
+    = When the time is at 0:05:00 the wizard will appear and announce to 
+      take a journey. During this journey you are free for 25 minutes until 
+      the wizard appears again. 
+    = At 0:30 or so, the wizard will announce he wants to eat. This demands 
+      to eat are your chance to get rid of him. If you can at the time do 
+      so if not then give him some food you can find in the kitchen. 
+    = At 0:35 or so, the wizard will announce to take a nap. Gives you 
+      another 25 minutes of freedom 
+    = At 1:00 or so, the wizard will demand another meal 
+    = At 1:05 or so the wizard will announce another journey  
+    = And so forth, und so weiter. 
+    = Now you have 3 piece of food you can give the wizard when you didn't 
+      yet cook something up to get rid of him. The fourth time you must get 
+      rid of him, as the wizard will kill you if you don't feed him. This 
+      means that you have two hours max to get rid of him. 
+    = One way to gain an extra 30 minutes is by leaving the castle with no 
+      forbidden items and hang around in the forest, if you are lucky the 
+      wizard will teleport you back to the castle, but this does not always 
+      happen and he'll only do this once. 
+    = DON'T EVEN THINK ABOUT ESCAPING LEWDOR WHEN THE WIZARD HAS NOT BE 
+      TAKEN CARE OF PROPERLY. The journey always takes 30 minutes exactly, 
+      which is just enough time for the wizard to reappear, and kill you on 
+      the spot. 
+   
+*:&gt; Sierra is rather infamous for the countless ways in which you can die 
+    causing a &quot;game over&quot;. So I advice you to save a lot. 
+*:&gt; Sierra is infamous too for its ways to get you stuck without a way to 
+    finish the game ever. Here are a few ways to get you stuck forever. 
+    = Leaving Lewdor when you didn't get rid of the Manannan first. 
+    = Leaving Lewdor without the Magic Rose Essense, Sleeping powder and 
+      storm brew. 
+    = Both spells &quot;Causing a deep sleep&quot; and &quot;Brewing a storm&quot; require the 
+      use of a brazier, so you must make them within a short amount of time 
+      or the brazier will die out and that will cause a stuck situation. 
+    = Getting yourself too little time to hide your stuff before the wizard 
+      appears will get you a stuck situation. So check the clock well ALL 
+      the time. 
+    = Don't eat the food in the kitchen prior to getting rid of the wizard. 
+      You never know if you need more time to get rid of him (though this 
+      FAQ focusses on getting rid of him first). 
+    = When you start up a spell but you don't have all the required 
+      ingredients, you are in trouble. 
+   
+*:&gt; Oh yeah, the wizard has a secret lab. ALWAYS MAKE SURE YOU CLOSED IT 
+    AND PLACED THE BOOKS HIDING THE LEVER TO IT BACK IN PLACE OR THE WIZARD 
+    WILL KILL YOU. 
+*:&gt; Last but not least. As soon as you can obtain the magic map, hidden in 
+    the wardrobe in the wizard's bed room. As long as you are still in 
+    Lewdor, you can save yourself a lot of time by using that map and in 
+    this FAQ I'll refer a lot of it while you are still in Lewdor. Once you 
+    escaped Lewdor the map will be less useful. ;)  
+                                                            INT0000000002 
+=========================================================================== 
+Abondonware 
+=========================================================================== 
+Aqcuiring this game though &quot;abandonware&quot; is basically always illegal. 
+Abandonware is no legal concept. 
+Unless the copyright holder announces differently this game remains illegal 
+to download until 70 years after its initial release. In the case of King's 
+Quest III, it will enter the public domain in 2056. 
+The fan-based remake could therefore be considered as &quot;illegal&quot;, unless a 
+official representative gave permission for that project, however I've 
+never been able to verify this. 
+If you know a legal way to obtain this game, please let me know, and I'll 
+add it to this FAQ. (I got my copy back in the old days, you see) :) 
+                                                            WLK0000000000 
+=========================================================================== 
+Llewdor - The evil wizard Manannan 
+=========================================================================== 
+Now the game has a multi-opening. If you sat out the opening sequence your 
+task will always be to clean the kitchen. If you did not sit it out, the 
+wizard will appear and give you a random task. 
+Look below for the task and I'll tell you how to do it. Please note, only 
+do the task you were given as some tasks may make you go to areas that 
+upset the wizard if you go there without his permission. 
+After you did your task return to the entrance hall, and I'll direct you 
+from there to the rest of the game :) 
+* CLEANING THE KITCHEN * 
+*:&gt; Entrance 
+    = Exit East 
+   
+*:&gt; Dining Room 
+    = Exit North 
+   
+*:&gt; Kitchen 
+    = GET BROOM 
+   
+* CLEANING WIZARD'S DESK * 
+*:&gt; Entrance  
+    = Exit North 
+*:&gt; Wizard's Office 
+    = Go to the safe 
+    = TAKE DUSTER 
+   
+* FEED THE CHICKENS * 
+*:&gt; Entrance 
+    = Exit South 
+   
+*:&gt; Outside 
+    = Go to the bags of chicken feed 
+    = FEED CHICKENS 
+   
+* CLEANING THE WIZARD'S POT * 
+*:&gt; Entrance 
+    = Exit upstairs 
+   
+*:&gt; Stairs 
+    = Exit North 
+   
+*:&gt; Wizard's Bed Room 
+    = GET POT 
+   
+   
+   
+   
+That covers all the tasks, after that as I said go back to the entrance 
+room. 
+*:&gt; Entrance 
+    = East 
+   
+*:&gt; Dining room 
+    = GET CUP 
+    = North 
+   
+*:&gt; Kitchen 
+    = GET FRUIT 
+    = GET MUTTON 
+    = GET BREAD 
+    = GET SPOON 
+    = GET KNIFE 
+    = GET BOWL 
+    = Exit south 
+   
+*:&gt; Entrance 
+    = Exit Upstairs 
+   
+*:&gt; Stairs 
+    = Now you need to wait until the timer reaches 0:05:00 and the wizard 
+      will appear and announce to make a journey, giving you 25 minutes 
+      time in which the wizard will not appear (which is important as we 
+      are now going to be very very naughty) 
+    = Exit North 
+   
+* WIZARD ON JOURNEY *   
+Before we start, if you see the cat, it can pop up in any location &quot;GRAB 
+CAT&quot; and &quot;GET HAIR&quot;. You need this hair to get rid of the wizard. 
+   
+*:&gt; Wizard's Bed Room 
+    = Go to the dresser 
+    = OPEN DRAWER 
+    = Go to the wardrobe 
+    = OPEN WARDROBE 
+    = LOOK BEHIND (you will obtain the magic map. Very important item. You 
+      can use to to teleport to any location you've been before). 
+    = CLOSE WARDROBE 
+    = LOOK TOP WARDROBE (you'll obtain a key) 
+    = Go to the closet south of the wardrobe 
+    = OPEN DRAWER (you will obtain Rose Essense). 
+    = South 
+   
+*:&gt; Stairs 
+    = Exit upstairs 
+   
+*:&gt; Tower  
+    = USE TELESCOPE 
+    = GET FLY (you will only take its wings and toss the rest of the fly) 
+    = Downstairs x2 
+   
+*:&gt; Entrance 
+    = South x2 
+   
+*:&gt; Wizard's mountain pass 
+    = Make your way down. Save often as any misstep will kill you. 
+   
+   
+*:&gt; Base of the wizard's mountain 
+    = Go down the pass 
+    = West 
+   
+!:&gt; Forest 
+      I must note this is one of the locations where thieves can appear and 
+    rob you. If they appear quickly go to another location and get back 
+    here, or use the magic map and teleport to the location where you are! 
+    = South 
+    
+!:&gt; Thief's tree 
+    = GET ACORNS (if the game refuses to make you get them, let it be for 
+      now, as it will be too time consuming, I'll get back to it later when 
+      the Wizard is gone forever). 
+    = Go to the big tree 
+    = GRAB HOLE 
+    = Climb the ladder (you don't have to type that. Just approach the 
+      ladder and you'll climb it automatically). 
+    
+*:&gt; Outside thief's hut 
+    = Move a bit up 
+    = LOOK INSIDE 
+    = If the game says that you see somebody moving around in the 
+      treehouse, go down and come back up and try it again, keep this up 
+      until the game notes somebody is sleeping. 
+    = Get inside the hut 
+   
+*:&gt; Inside treehut 
+     Be carefull. Any careless act. Any at all and the thief will wake up 
+    and kill you. 
+    = Move to the table 
+    = GET PURSE 
+    = LOOK MAP  
+    = Teleport to the base of the wizard's mountain. (Pfweeeew... we're 
+      outta here). 
+   
+*:&gt; Base of Wizard's Mountain 
+    = East x2 
+   
+*:&gt; Forest 
+    = South 
+   
+*:&gt; Village 
+    = Enter the store 
+*:&gt; Store 
+    = GET DOG HAIR 
+    = BUY FISH OIL 
+    = BUY LARD 
+    = BUY SALT 
+    = BUY POUCH 
+    = Exit the store (you already paid automatically for the items). 
+   
+*:&gt; Village 
+    = West 
+   
+!:&gt; Forest 
+    = South 
+    
+*:&gt; Bear family's house 
+     Now if you see the bear family coming home or if mama bear is sitting 
+    in the garden, leave this place and come back 
+     if you saw the family leave you're safe. If you see nothing happen, 
+    save and let's see what will happen. 
+     Well save anyway, you'll find out soon why. 
+    = Go to the door 
+    = OPEN DOOR (if papa bear kicks you out, leave and come back and try it 
+      again. I don't know if there's a limit to this though 
+   
+*:&gt; Inside Bear Family's house 
+     There must be three bowls of porridge on the table. If not leave this 
+    area and come back. If you saved nearby, load the savegame, as you 
+    cannot risk to waste too much time. 
+    = Go to the smallest bowl of porridge 
+    = GET PORRIDGE 
+    = Upstairs 
+   
+*:&gt; Bear's bedroom 
+    = OPEN DRAWER  
+    = GET THIMBLE 
+    = CLOSE DRAWER 
+    = Downstairs 
+   
+*:&gt; Inside Bear Family's house 
+    = South 
+   
+*:&gt; Bear family's house 
+    = Stand in the garden 
+    = GET DEW 
+    = North x2 (you can also use the map if you want to make sure you avoid 
+      the thieves). 
+*:&gt; Wizard's Mountain Base 
+     (I was lucky to have an eagle drop a feather. If it happens GET 
+    FEATHER. If it doesn't appear, don't aim for it now) 
+    = And now (I know you'll hate this), make your way up to the wizard's 
+      house! 
+   
+*:&gt; Outside Wizard's House 
+    = OPEN DOOR 
+   
+*:&gt; Entrance 
+    = North 
+   
+*:&gt; Wizard's office 
+     Now before we continue, how much time were you on? I was on approx 16 
+    minutes of play time. If you are around that as well, you got enough 
+    time. If you are at 20+ or so, hide all your stuff under your bed and 
+    take a piece of food and feed it to the wizard as soon as he asks. And 
+    wait until he goes to bad, retrieve your inventory and continue here. 
+    = OPEN CABINET (you'll obtain the magic wand) 
+    = PUSH BOOKS 
+    = PULL LEVER 
+    = Exit downstairs 
+   
+*:&gt; Secret stairway 
+     If the cat is here, be sure not to touch it or you'll die.  
+     Best is to leave and come back, but if you dare, you can get past it. 
+    = Exit Downstairs 
+*:&gt; Secret Lab 
+    = Go to one of the shelves 
+    = GET MANDRAKE 
+    = GET FISH BONE 
+    = GET SAFFRON 
+    = GET SPITTLE 
+    = GET TOADSTOOL POWDER 
+    = GET JUICE 
+    = Save your game!!! 
+    = Use the magic book to perform the &quot;TRANSFORMING ANOTHER INTO A CAT&quot; 
+      spell. 
+    = PUT COOKIE IN PORRIDGE 
+     I had 19 minutes played on this point. Enough time to do something but 
+    for this FAQ I decided to play it safe. ;) 
+    = Make your way back into the wizard's office. 
+   
+Wizard's:&gt; Office 
+              = PULL LEVER 
+              = PUSH BOOKS (the wizard should not know you've been in the 
+                lab). 
+              = OPEN CLOSET (you'll place the magic wand back the way you 
+                found it). 
+              = South 
+   
+*:&gt; Entrance 
+    = Upstairs 
+   
+*:&gt; Stairs 
+    = East 
+   
+*:&gt; Your bed room 
+    = Easter-Egg: LOOK BEHIND TAPESTRY 
+    = Go to your bed 
+    = HIDE ALL 
+    = GET PORRIDGE 
+    = Go back to the entrance hall 
+   
+*:&gt; Entrance Hall 
+    = Wait until the wizard appears and says that he's ready to eat. 
+    = Exit East 
+   
+*:&gt; Dining room 
+    = GIVE PORIDGE TO WIZARD (Manannan will turn into a cat and you are 
+      free, this lifts the time limits that you were dealing with so far). 
+   
+   
+                                                            WLK0000000001 
+=========================================================================== 
+Llewdor - The wizard is gone 
+=========================================================================== 
+Now that you are rid of the wizard you have no more time limits. Neither do 
+you have to fear items marked with a &quot;*&quot;. The magic wand does no longer 
+have to be returned to the safe after usage and who cares about leaving the 
+door to the secret lab open. 
+You are not yet ready to leave Llewdor, though as you still got a lot to 
+do, and neglecting to do it will get you stuck. 
+*:&gt; Dining room 
+    = Go to your bedroom 
+   
+*:&gt; Your bedroom 
+    = Go to your bed 
+    = GET ALL 
+    = Go outside 
+   
+*:&gt; Outside Wizard's house 
+    = OPEN GATE 
+    = GET CHICKEN 
+    = GET FEATHER	 
+    = LOOK MAP 
+    = Teleport to the Bear's Family House 
+   
+*:&gt; Bear's Family House 
+    = East 
+   
+*:&gt; Edge 
+    = GET MISTLETOE 
+    = South 
+   
+*:&gt; Spider Cave   
+    = East 
+   
+*:&gt; Beach 
+    = Step into the sea 
+    = GET WATER 
+    = West x2 
+   
+*:&gt; Forest 
+    = Stand in the water 
+    = GET MUD 
+    = West 
+   
+*:&gt; = If you don't have the eagle feather yet, wait for an eagle to drop a 
+      feater and GET FEATHER. If the eagle doesn't come leave and come 
+      back. 
+    = Type: SHOW MIRROR TO MEDUSA, but don't hit enter yet. 
+    = West 
+   
+*:&gt; Desert 
+    = Make sure you are facing east 
+    = Wait until Medusa appears and is close to you and then hit ENTER and 
+      she'll turn to stone. 
+    = GET SNAKE SKIN 
+    = North x2                    
+*:&gt; = GET CACTUS 
+    = West 
+   
+!:&gt; Thief's Tree 
+    = GET ACORNS (unless you did that before. If the game compains none are 
+      dry leave this place and come back and try it again, until you got 
+      them). 
+    = If you got them, make your way back to the wizard's castle and go to 
+      his office. 
+    
+*:&gt; Wizard's office 
+    = OPEN CLOSET (to get the wand) 
+    = PUSH BOOKS 
+    = PULL LEVER 
+    = And go to the secret lab 
+   
+*:&gt; Secret Lab 
+     Now you need to perform all spells, except TELEPORTATION AT RANDOM, as 
+    you do not have the required item for that yet (which is impossible to 
+    have at the current state anyway). 
+     Also note that BREWING A STORM and CAUSING A DEEP SLEEP both require 
+    the brazier to be used, so perform those next to each other (and you 
+    can skip the light brazier step in the second spell. It was still 
+    burning after all). 
+     Check the documentation you should have got when you got a legal copy 
+    of the game. 
+      
+     Once you have done all that you are finally ready to leave the castle 
+    forever (as TELEPORTATION AT RANDOM is optional). 
+    = Use the magic map to teleport to the spider cave. 
+   
+*:&gt; Spider Cave 
+    = PUT EAGLE FEATHER IN ESSENCE 
+    = Go to the cave and in eagle form you'll be able to kill the spider 
+      guarding it. You'll automatically do so and return to this spot and 
+      turn back into human form. 
+    = Enter the cave 
+   
+*:&gt; Oracle 
+    = Now you'll hear the oracle tell you the tragic tale of your sister 
+      being held captive by a dragon. After the story you'll receive an 
+      amber stone. 
+    = Optional: You may go back to the wizard's castle in order to create 
+      the TELEPORATION AT RANDOM spell, however this is a useless spell and 
+      you don't need it to finish the game. It's just for the points you 
+      may want to do this. 
+    = Go to the village (use your map if you please) 
+   
+*:&gt; Village 
+    = Enter the tavern 
+   
+HALT!!!! 
+BEFORE YOU CONTINUE!!!! 
+When you're past this point, you cannot go back to Lewdor any more. Make 
+sure you have turned Manannan into a cat (or he'll come after you to kill 
+you). 
+And that you have the next items in your inventory: 
+    = Eagle Feather* or Fly Wings* (either one of them will do) 
+    = Sleep Powder* 
+    = Storm Brew* 
+    = Invisibility Ointment* 
+    = Magic Rose Essence* 
+If you miss any of these items make sure you get them first before you 
+continue at this spot.  
+   
+*:&gt; Tavern   
+    = TALK SAILORS 
+    = GIVE GOLD 
+    = South 
+   
+*:&gt; Village 
+    = East 
+   
+*:&gt; Pier 
+    = Get on the ship 
+                                                            WLK0000000002 
+=========================================================================== 
+Pirate's ship 
+=========================================================================== 
+Now I warn ya, this part is just plain boring. You have exactly 30 minutes 
+before you arrive in Daventry and once there the pirates will kill you. 
+However, if you can do everything just in time you can get away alive thus 
+arrive in Daventry. I can tell you this, 30 minutes is about 25 minutes 
+more than you need to get the preparations done, so as soon as you have 
+your prerparations done, you might as well fix yourself a cup of coffee and 
+don't bother to hurry, but before all that there are a few things to be 
+done. 
+Your inventory (except the dough in ears if you have those) will be stolen. 
+So the steps are: 
+    = Recover your inventory 
+    = Wait until you arrive in Daventry 
+    = Put the pirates to sleep with the sleep powder 
+    = Escape 
+Oh yeah, once you recovered your inventory, you can check the magic map to 
+see how much you still have to go till you arrive. 
+And it goes without saying, but if the pirates find you doing stuff they 
+don't like they'll make you walk the plank, meaning you'll die! 
+*:&gt; Lower Deck - West 
+    = East 
+*:&gt; Lower Deck - East 
+    = If you got the Dough in Ears and you see two rats here, then wait 
+      until they speak. 
+    = GET BOX 
+    = West 
+*:&gt; Lower Deck - West 
+    = Go to the big box 
+    = DROP BOX 
+    = JUMP BOX (x2) 
+    = JUMP LADDER 
+   
+*:&gt; Middle deck - West 
+    = If the captain is in the hut, go back down and come back until he's 
+      gone. Be careful and quick as he can arrive back in his hut at any 
+      time 
+    = Enter the hut 
+    = Go to the chest there 
+    = OPEN CHEST 
+    = LOOK CHEST 
+    = CLOSE CHEST 
+    = Go back to the ladder (if the captain comes back while you are not in 
+      his hut you are basically safe as he won't see you). 
+    = East 
+   
+*:&gt; Middle Deck - East 
+    = If there's a pirate here, leave this place and come back 
+    = GET SHOVEL 
+    = West 
+   
+*:&gt; Middle Deck - West 
+    = Don't worry if the captain is in his hut. As long as he's in the hut 
+      and you are not, you are safe. 
+    = Use the ladder to go back down 
+   
+*:&gt; Lower Deck - West 
+    = Now go all the way to the floor 
+    = Now if you got the dough in ears, go east and hear out the rats, and 
+      come back here and go back east to hear more until they reveal the 
+      location of the pirate's treasure. (This is optional, but you need to 
+      so something). 
+    = Wait until the pirates yell &quot;land ho!&quot; 
+    = Wait some longer until the pirates yell to drop the anchor  
+     From this moment you got little time, but the little time can be 
+    enough.  Save your game, as the tiniest mistake can mess this up, 
+    eternally (though there is a glitch that can get you past this, read 
+    the special section about this glitch). 
+    = POUR SLEEP POWDER ON THE FLOOR 
+    = SLUMBER HENCEFORTH 
+     If the game says something about you you hear silence falling over the 
+    ship, you're cool. When the game says &quot;How can you do that&quot;, you messed 
+    up, either load a game when that happens or check the glitches and bugs 
+    section. 
+    = JUMP BOX (x2) 
+    = JUMP LADDER 
+    = Exit up x2 
+   
+*:&gt; Deck - West 
+    = Exit East 
+   
+*:&gt; Deck - East 
+    = Go to the south side of the ship 
+    = Jump overboard 
+   
+*:&gt; Beach - West 
+    = Quickly swim onto the land before the shark catches and eats you. (If 
+      you cannot make it, use the magic map to do this) 
+    = East 
+                                                            WLK0000000003 
+=========================================================================== 
+Daventry - Mountains 
+=========================================================================== 
+Now the easy part has begun. 
+Make sure you got the Invisibility Ointment, an Eagle Feather (or fly 
+wings) with Magic Essence, and the Storm Brew, and if you go those, you're 
+set.  
+This section is actually a let down for a true adventure player. 
+	 
+*:&gt; Beach - East 
+    = If there's a pirate here, quickly exit North and come back 
+    = Go to the palm 
+    = Make 5 steps east 
+    = DIG (if you didn't hear out the mice on board the pirate's ship, 
+      you'll find nothing, otherwise you'll find a treasure chest. You 
+      don't need it, it only scores points). 
+    = North 
+  
+*:&gt; Daventry Mountain Pass 
+    = East 
+*:&gt; = Get onto the pass 
+    = And go west with the pass 
+*:&gt; = You'll automatically climb the rocks when you approach them. Do so to 
+      get onto the upper level 
+    = East 
+*:&gt; = North 
+*:&gt; = Follow the path and exit East 
+*:&gt; = Go to the waterfall 
+    = Here you can go North, do so 
+*:&gt; Snow Mountains 
+    = PUT EAGLE FEATHER IN ESSENCE (alternatively you can also use the fly 
+      wings for that) 
+    = East x2 
+*:&gt; = Go to the southern path and you'll turn back into human form 
+    = Exit south before the snowman catches you 
+   
+*:&gt; More Rocks 
+     This part can go wrong many times. It is a bit buggy, so save a lot, 
+    as these bugs kill you. 
+    = Down until you stand on the floor 
+    = Enter the cave and you'll get out on the upper right part 
+    = Get on the rocks and make your way down to the cave below 
+    = Enter it and you'll end up on the lower left 
+    = Go up the rocks and enter the center cave  
+    = You'll now end up on the lower fight, and that's were we want to be.  
+    = Exit East 
+   
+*:&gt; Oh, look, another mountain pass 
+    = Make your way east and exit East 
+   
+*:&gt; End of the pass 
+    = Exit South 
+                                                            WLK0000000004 
+=========================================================================== 
+Daventry - The evil dragon 
+=========================================================================== 
+For the last time a point of no return. You'll fall off the mountain upon 
+arriving (don't worry, you'll only be dizzy, not killed) and you cannot go 
+back up any more (not even with the magic map) 
+All you need now is the Storm Brew and the Invisibility Ointment 
+*:&gt; Entrance Cave 
+    = Enter the cave 
+   
+*:&gt; Cave 
+    = Go all the way up until you reach the exit of the cave 
+    = Hit that exit 
+   
+*:&gt; Clouded land 
+    = RUB OINTMENT ON ME 
+    = West 
+*:&gt; Dragon 
+    = STIR STORM BREW WITH FINGER 
+    = BREW OF STORMS CHURN IT UP 
+    = Go to the tied girl 
+    = UNTIE GIRL 
+    = Exit East (the girl should keep following you for the remainder of 
+      the game. If she can't keep up, don't worry, as she'll be there when 
+      you enter the next room). 
+   
+*:&gt; Clouded land 
+    = Enter the cave 
+   
+*:&gt; Cave 
+    = All the way down 
+    = Exit the cave at the end 
+   
+*:&gt; Entrance Cave 
+    = Exit west 
+   
+*:&gt; Pit with stones 
+    = Exit North 
+   
+*:&gt; Gnome 
+    = Exit North 
+   
+*:&gt; Royal castle 
+     Upon your arrival here with princess Rosella, the ending sequence 
+    begins. 
+CONGRATULATIONS! YOU'VE WON KINGS QUEST III - TO HEIR IS HUMAN! 
+In case you cared. While writing this walkthrough I scored 202 out of 210 
+points. 
+                                                            MAP0000000000 
+=========================================================================== 
+Map of: The Wizard's castle 
+=========================================================================== 
+The wizard's house has 2 floors I'll map here.  
+The tower is only one room so no need to map it, and the laboratory has no  
+need for a map either. 
+Wizard's house - Downstairs
++-----------+---------+
+| Wizard's  | Kitchen |
+| Office    |         |
+|           |         |
++----   ----+---   ---+
+| Entrance  | Dining  |
+| Hall        Room    |
+|           |         |
++----   ----+---------+
+
+
+Wizard's house - Upstairs
+                +-------+
+                | Tower |
++----------+    +-------+
+| Wizard's |   /
+| Bed room |  /
+|          | /
++---   ----+-----------+
+| Stairs   | Your      |
+|            Bed Room  |
+|          |           |
++----------+-----------+
+
+                                                            MAP0000000001 
+=========================================================================== 
+Map of: Llewdor 
+=========================================================================== 
+Llewdor is the land where the wizard's castle is located.  
+When you exit the most northern position to the north you'll end up on the 
+most southern location and vice versa. 
+When you go too far east you'll drown in the ocean, if you go too far west 
+you'll dehydrate in the desert. Cut short if you want to stay alive keep 
+yourself only to the locations on this map 
+The spots I marked with a &quot;!&quot; are the spots where thieves can appear to rob 
+you. 
++--------+--------+--------+--------+--------+
+| Desert |        |        | Spider | Beach  |
+|        |        |        | Cave   |        |
+|        |        |        |        |        |
++--------+--------+--------+--------+--------+
+| Desert |        | Wizard |        | Beach  |
+|        |   !    | Mount  |        |        |
+|        |        |        |        |        |
++--------+--------+--------+--------+--------+
+| Desert | Thief  |        | Village| Pier   |
+|        | Tree   |   !    |        |        |
+|        |   !    |        |        |        |
++--------+--------+--------+--------+--------+
+| Desert |        | Bear   |        | Beach  |
+|        |   !    | House  |        |        |
+|        |        |        |        |        |
++--------+--------+--------+--------+--------+
+
+                                                            MAP0000000002 
+=========================================================================== 
+Map of: Daventry Mountain Trial 
+=========================================================================== 
+This basically is pretty self-explaining, however let's map it anyway. 
+                              +--------+------+------+
+                              | Snow   | Snow | Snow |
+                              |        | Cave | Man  |
+                              |        |      |      |
+                     +--------+--------+------+------+----+------+
+                     |        | Wat-   |      | Rock |    | End  |
+                     |        | Fall   |      | Cave |    | Path |
+                     |        |        |      |      |    |      |
+          +----------+--------+--------+      +------+----+   |  +
+          |          | Start  |                               V
+          |          | Pass   |                            To final part
+          |          |        |
++---------+----------+--------+
+| Arrival | Beach    |
+| Beach   | Treasure |
+|         |          |
++---------+----------+
+
+=========================================================================== 
+Map of: Daventry Final Part 
+=========================================================================== 
+Not much to tell here, but here goes. 
++----------+
+| Entrance |
+| Royal    |
+| Palace   |
++----------+
+| Old      |
+| Gnome    |
+|          |
++----------+----------+
+| Pit      | Entrance |
+| With     | Dragon   |
+| Rocks    | Cave     |
++----------+----------+
+
+
+                                                            BCK0000000000 
+=========================================================================== 
+Bugs &amp; Glitches 
+=========================================================================== 
+Bugs and glitches, often referred as the same thing, but they are not... 
+Bugs are the result of true programming errors. 
+Glitches are things never intended by the Devs, but not really a 
+programming error. 
+In King's Quest III I found one glitch, and a useful one. 
+*:&gt; Pirate's no sleep powder glitch 
+     If you forgot to bring the sleep powder or if you messed up in using 
+    it you can do the following 
+    = You still got to wait until the pirates drop the anchor as usual 
+    = Now use the magic map and teleport out of the ship, but at the part 
+      of the map where the ship now is. 
+    = Exit East 
+    = You can see the island, however swimming to it will get you eaten by 
+      the shark 
+    = Use the magic map, and you can see the beach of Daventry on it. 
+      Teleport to it and you're safe. Now you can finish the game as normal 
+   
+*:&gt; Abominable Snowman aftermath 
+     I also found out that the rock after the abominable snowman are a bit 
+    buggy and sometime make you fall down for no reason. So save a lot in 
+    this area.   
+                                                            BCK0000000001 
+=========================================================================== 
+Inventory Items 
+=========================================================================== 
+Item:&gt; Empty Cup 
+       = Found: Dining Room 
+       =  Used: Scoop ocean water with it 
+ 
+Item:&gt; Mutton 
+       = Found: Kitchen 
+       =  Used: Feed Manannan if you cannot get rid of him yet 
+ 
+Item:&gt; Fruit 
+       = Found: Kitchen 
+       =  Used: Feed Manannan if you cannot get rid of him yet 
+ 
+Item:&gt; Bread 
+       = Found: Kitchen 
+       =  Used: Feed Manannan if you cannot get rid of him yet 
+ 
+Item:&gt; Bowl 
+       = Found: Kitchen 
+       =  Used: Needed to mix your magic potions 
+ 
+Item:&gt; Spoon 
+       = Found: Kitchen 
+       =  Used: Container for mud and needed for several spells 
+ 
+Item:&gt; Knife 
+       = Found: Kitchen 
+       =  Used: Needed for some spells 
+ 
+Item:&gt; Mirror* 
+       = Found: Wizard's bedroom 
+       =  Used: Show to Medusa and her gaze will not turn herself to stone 
+ 
+Item:&gt; Magic Map* 
+       = Found: Wizard's wardrobe 
+       =  Used: Teleport to any location you've been before 
+ 
+Item:&gt; Brass Key* 
+       = Found: Wizard's bedroom 
+       =  Used: Open safe in office 
+ 
+Item:&gt; Rose Essense* 
+       = Found: Wizard's bedroom 
+       =  Used: Needed for spell 
+ 
+Item:&gt; Fly Wings* 
+       = Found: Tower 
+       =  Used: When put in magic rose essense, you temporarily transform 
+                into a fly 
+ 
+Item:&gt; Cat Hair* 
+       = Found: Pull out of cat 
+       =  Used: Used to make the Cat Cookie 
+ 
+Item:&gt; Purse* 
+       = Found: Steal from thieves 
+       =  Used: Need to buy items in store 
+ 
+Item:&gt; Dog Hair* 
+       = Found: Dog in the store 
+       =  Used: For Dough in Ears spell 
+ 
+Item:&gt; Fish Oil* 
+       = Found: Buy in store 
+       =  Used: For spell 
+ 
+Item:&gt; Lard* 
+       = Found: Buy in store 
+       =  Used: For spell 
+ 
+Item:&gt; Salt* 
+       = Found: Buy in store 
+       =  Used: For spell 
+ 
+Item:&gt; Empty Pouch* 
+       = Found: Buy in store 
+       =  Used: For spell 
+ 
+Item:&gt; Porridge 
+       = Found: In the bear's house 
+       =  Used: Put the cat cookie in it to poison Manannan 
+ 
+Item:&gt; Thimble* 
+       = Found: In the bear's house upstairs 
+       =  Used: Collect dew from the bear's garden 
+ 
+Item:&gt; Thimble of Dew* 
+       = Found: Bear's garden 
+       =  Used: Needed for spell 
+ 
+Item:&gt; Magic Wand* 
+       = Found: In the wizard's safe 
+       =  Used: Needed for ALL spells. Must always be in the safe if you 
+                don't need it or the wizard will kill you! 
+ 
+Item:&gt; Mandrake root powder* 
+       = Found: Manannan's secret lab 
+       =  Used: Spell Ingredient 
+ 
+Item:&gt; Powdered fish bone* 
+       = Found: Manannan's secret lab 
+       =  Used: Spell Ingredient 
+ 
+Item:&gt; Saffron* 
+       = Found: Manannan's secret lab 
+       =  Used: Spell Ingredient 
+ 
+Item:&gt; Toad Spittle* 
+       = Found: Manannan's secret lab 
+       =  Used: Spell Ingredient 
+ 
+Item:&gt; Toadstool powder* 
+       = Found: Manannan's secret lab 
+       =  Used: Spell Ingredient 
+ 
+Item:&gt; Nightshade juice* 
+       = Found: Manannan's secret lab 
+       =  Used: Spell Ingredient 
+ 
+Item:&gt; Cat Cookie* 
+       = Found: Created from: TRANSFORMING ANOTHER INTO A CAT 
+       =  Used: Put in the porridge to poison it 
+ 
+Item:&gt; Poisoned porridge 
+       = Found: Put the cat cookie in the porridge and the wizard will 
+                never now you're trying to poison him. 
+       =  Used: Feed to the wizard and he'll turn into a cat and YOU'RE 
+                FREE! 
+ 
+Item:&gt; Chicken Feather* 
+       = Found: Get from chickens 
+       =  Used: Spell ingredient 
+ 
+Item:&gt; Eagle Feather* 
+       = Found: Get from an eagle flying in the forest 
+       =  Used: Use in the magic rose essense to temporarily become an 
+                eagle 
+ 
+Item:&gt; Ocean Water* 
+       = Found: Get from the ocean. (you need the empty cup for this) 
+       =  Used: Spell ingredient 
+ 
+Item:&gt; Mud* 
+       = Found: Get from the river south of the bear house. (You need a 
+                spood for this) 
+       =  Used: Spell Ingredient 
+ 
+Item:&gt; Snakeskin* 
+       = Found: Desert 
+       =  Used: Spell ingredient 
+ 
+Item:&gt; Cactus* 
+       = Found: Desert 
+       =  Used: Spell Ingredient 
+ 
+Item:&gt; Three Acorns* 
+       = Found: On the ground below the thief's tree 
+       =  Used: Ingredient sleep powder 
+ 
+Item:&gt; Empty Lard Jar* 
+       = Found: Got during the becoming invisible spell 
+       =  Used: and is used in the very same spell 
+ 
+Item:&gt; Amber Stone* 
+       = Found: Given by the Oracle 
+       =  Used: You can use it for the TELEPORTATION AT RANDOM spell if you 
+                please. 
+ 
+Item:&gt; Dough in Ears 
+       = Found: Spell: UNDERSTANDING THE LANGUAGE OF THE CREATURES 
+       =  Used: The only item you can create with a spell that will not 
+                cause Manannan to kil you, because you cannot hide it (and 
+                if your inventory is stole this time will remain). Having 
+                this item will cause the animals to be able to speak with 
+                you. You cannot talk to them (only Manannan's cat will 
+                respond to you, but very likely it does not understand what 
+                you are saying). You can get some great background 
+                information from the animals this way, though this item is 
+                not required to finish the game 
+ 
+Item:&gt; Magic Stone* 
+       = Found: Spell: TELEPORTATION AT RANDOM 
+       =  Used: If you rub it, you will teleport to a random location. 
+                There is a limit though. If you use it inside Manannan's 
+                castle, you will only be taken to a different room inside 
+                the castle. The same goes if you use it in the forest etc. 
+                This item is not worth creating unless you wish to get a 
+                perfect score 
+ 
+Item:&gt; Sleep Powder* 
+       = Found: Spell: CAUSING A DEEP SLEEP 
+       =  Used: Put the pirates to sleep when you arrive at the coast of 
+                Daventry, so you can escape the ship 
+ 
+Item:&gt; Storm Brew* 
+       = Found: Spell: CAUSING A STORM 
+       =  Used: Kill the dragon which is keeping you sister hostage 
+ 
+Item:&gt; Invisibility Ointment* 
+       = Found: Spell: BECOMING INVISIBLE 
+       =  Used: The dragon cannot see you any more 
+ 
+Item:&gt; Magic Rose Essense* 
+       = Found: Spell: BECOMING AN EAGLE OR A FLY 
+       =  Used: Allows you to become an eagle or a fly 
+ 
+Item:&gt; Empty Purse* 
+       = Found: Pay the last of your gold to the sailors to get a trip to 
+                daventry 
+       =  Used: Useless, but you just get it in an action you are required 
+                to perform anyway 
+ 
+Item:&gt; Shovel 
+       = Found: Hidden on Pirate's ship 
+       =  Used: Dig up treasure 
+ 
+Item:&gt; Treasure Chest 
+       = Found: You can dig it up on the Daventry Beach 
+       =  Used: Useless, but good for the points 
+ 
+                                                            BCK0000000002 
+=========================================================================== 
+Deaths 
+=========================================================================== 
+DIE:&gt; If the wizard catches you with any item marked with a *, he'll kill 
+      you 
+DIE:&gt; If the magic wand is not in the safe when the wizard appears, he'll 
+      kill you 
+DIE:&gt; If you did not properly cover up you've been in the wizard's secret 
+      lab, you are dead! 
+DIE:&gt; If you touch the cat in the stairs to the lab you'll fall over him 
+      and die 
+DIE:&gt; Falling off a mountain pass will in 98% of the cases result into your 
+      death 
+DIE:&gt; Falling off the thief's rope ladder 
+DIE:&gt; Kick out the treehouse by the thief 
+DIE:&gt; Messed up a magic spell 
+DIE:&gt; Eaten by the spider guarding the spider cave 
+DIE:&gt; If you see Medusa you'll get petrified 
+DIE:&gt; If you go too far in the ocean you'll eventually get exhausted and 
+      drown 
+DIE:&gt; If you go too far into the desert you'll sooner or later die of 
+      dehydration 
+DIE:&gt; If the pirates catch you doing things they don't like, or if you 
+      exceed the time limit on their ship they'll make you walk the plank. 
+      A hungry shark will thank them for that. 
+DIE:&gt; Falling off the upper deck onto the middle deck on the pirate's ship 
+      will mean death 
+DIE:&gt; Go into the sea in Daventry and a shark will eat you 
+DIE:&gt; Taken by the abominable Snowman 
+DIE:&gt; Killed by the dragon 
+                                                            END0000000000 
+=========================================================================== 
+Copyright 
+=========================================================================== 
+This FAQ has been written and been copyrighted by Jeroen P. Broks aka 
+Tricky. 
+It has been licensed as:  
+Creative Commons: Attribution-NonCommercial-NoDerivatives 4.0 International 
+  
+http://creativecommons.org/licenses/by-nc-nd/4.0/ 
+                                                            END0000000001 
+=========================================================================== 
+Contacting me 
+=========================================================================== 
+First and most of all, DON'T try to e-mail me. E-mail addresses shown in 
+public are always only shown because some websites require me to and which 
+are as a result of that overflooded with spam and therefore never dug 
+through. In other words, your mail will very likely NEVER be seen at all! 
+Some websites have an internal personal message system. GameFAQs has that 
+system for example. Problem is I only visit GameFAQs to host my FAQs 
+because they are the biggest medium for FAQs and when I got nothing to 
+upload, you'll hardly see me there, so your messages there will also very 
+likely not reach me at all. When you see this FAQ on sites other than my 
+own or GameFAQs, it's very likely I don't even know it's hosted there, and 
+due to the Creative Commons license, hey I don't even have to know :) 
+So, if you have any questions or remarks regarding my FAQs, please go to my 
+own FAQ site at: http://faq.tbbs.nl and make your comment or your question 
+right there. When you post there, I will always know immediately and very 
+likely I will answer in only a few days, if you are lucky even the same 
+day. 
+Oh yeah not to sound arrogant or anything, but I'll give you a glimpse of 
+some mails/comments/spam I received in the past on my FAQs and those are 
+the kind of messages that will most likely not get answered. Here I give 
+you my reply at forehand! 
+*:&gt; Not to be rude but you know NOTHING about this game? 
+    = Not to be rude, but you write NOTHING I have to know about this game. 
+       
+    = I also need you to know that most games I wrote FAQs on have been 
+      played over and over about 20 times or more, and games I played less, 
+      will very likely get a FAQ update after another 10 or 20 
+      playthroughs. How many FAQ writers can say the same? (No, I'm not 
+      being arrogant. I'm just an idiot for doing that, but I like doing 
+      that) :P 
+   
+*:&gt; You did not cover even half you should cover 
+    = Then give me the other half 
+   
+*:&gt; Me gustan tus FAQs 
+    = Yo no comprendo 
+    = In other words only send your mails in English or Dutch. Those are 
+      the only two languages I know good enough to have a conversation in. 
+  
+*:&gt; Fix your English 
+    = Be glad I write in English. If I spoke my own language you may not be 
+      able to understand me, at all. 
+   
+*:&gt; Hey idiot, fix your FAQ! 
+    = Hey idiot, fix your manners! 
+   
+*:&gt; I got the best viagra for sale 
+    = If I would ever need that stuff you will NOT be the one I'd buy it 
+      from! 
+   
+*:&gt; Your stories about how copyrights work are incorrect 
+    = Obviously unlike you, I've read all proper documentation about that 
+      subject and even spoken with the guys who actually deal with stuff 
+      for a living. I'm not claiming to be an expert but I told you what I 
+      know and also what I needed to know for my other activities outside 
+      of FAQ writing. 
+    = Perhaps this is interesting: 
+      http://www.copyrightservice.co.uk/copyright/p01_uk_copyright_law 
+      (This is the UK version of the document, but copyright is an 
+      internationally set up phenomenon, and the core of the copyright 
+      rules are the same in all countries in which the copyrights are part 
+      of the law). 
+   
+*:&gt; You SUCK in levelling up (I often hear that about my RPG FAQs) 
+    = You need to cheat your way through a game by grinding? 
+   
+*:&gt; I simply LOVE your FAQs. Thanks a lot. 
+    = You're welcome. I'm glad they were helpful ;) 
+   
+ -- == END OF DOCUMENT == -- 
+       
+</span></pre>
+</div>
+
+<p class="ffaq_page">View in: <button id="printable" onclick="make_printable();">Text Mode</button></p>
+
+<script type="text/javascript">
+
+window.onhashchange = hashHasChanged;
+
+function hashHasChanged()
+{
+	$(document).scrollTop(window.pageYOffset-130);
+}
+
+$().ready(function()
+{
+	$('.faq_bookmark_jumper').clone().appendTo('#faq_header_wrap');
+	if(window.pageYOffset>=150)
+	{
+		$('#faq_header_wrap').addClass('fixed');
+	}
+
+	window.onscroll = function()
+	{
+		if(window.pageYOffset>=150)
+		{
+			$('#faq_header_wrap').addClass('fixed');
+			$('.top_link').addClass('fixed').css('display','block');
+		}
+		else
+		{
+			$('#faq_header_wrap').removeClass('fixed');
+			$('.top_link').removeClass('fixed').css('display','none');
+		}
+	};
+
+	
+	$.each($('.ffaq img.imgnofloat'),function(){
+		var image = $(this);
+		if(image.attr('width')>400)
+		{
+			image.addClass('bigresize');
+		}
+	});
+
+	
+	var autobm = window.setInterval(function()
+	{
+		if(window.pos==$(document).scrollTop() || window.autobmstop==true)
+			clearInterval(autobm);
+		else
+			set_bookmark(1);
+	}, 5000);
+});
+
+
+$('img.imgresize').bind('click touch', function()
+{
+	if($(this).css('max-width')=='none')
+		$(this).css({'width':'100%','max-width':'100%'});
+	else
+		$(this).css({'width':'auto','max-width':'none'});
+});
+
+var timer, lastsearch;
+
+$('body :not(#faq_search_results)').bind('click touch', function(e)
+{
+	if($('#faq_search_results').css('display')=='block')
+	{
+		e.stopPropagation();
+		if($(this).attr('id')!='results_table' && $(this).attr('id')!='faq_search' && $(this).attr('id')!='faq_search_input' && $(this).attr('class')!='head' && $(this).attr('id')!='home_links')
+		{
+			dismiss_faq_search_results(0);
+		}
+	}
+});
+
+$('#faq_search_input, .search_mobile').click(function(e)
+{
+	e.preventDefault();
+	if($(this).attr('class')=='search_mobile')
+	{
+		$('#faq_search_module').toggle();
+	}
+	$('#faq_search_module, #faq_search_results').addClass('fixed');
+	$('#faq_header_wrap').addClass('search');
+	
+	if($('#faq_search_results').css('display')!='block')
+	{
+		$('#faq_search_results').show();
+	}
+	if($('#results_table tr').length==0)
+		$('.close_results').hide();
+	$('#faq_search_input').focus();
+});
+
+$('#faq_search_input').keyup(function()
+{
+	if(lastsearch != $('#faq_search_input').val())
+	{
+		if(timer)
+			clearTimeout(timer);
+		lastsearch = $('#faq_search_input').val();
+		if($('#faq_search_input').val().length>=3)
+		{
+			$('#faq_search_results').show();
+			timer = setTimeout(function(){faq_search(71435, $('#faq_search_input').val())},150);
+		}
+		else
+		{
+			dismiss_faq_search_results(1);
+		}
+	}
+});
+
+function dismiss_faq_search_results(fixed)
+{
+	$('#faq_search_results').hide();
+	$('#faq_search_overlay').fadeTo(200,0).remove();
+	if(!fixed)
+	{
+		$('#faq_search_module, #faq_search_results').removeClass('fixed');
+		$('#faq_header_wrap').removeClass('search');
+		if($('.search_mobile').is(':visible'))
+			$('#faq_search_module').toggle();
+	}
+	$('#results_table').empty();
+}
+
+function search_result(row)
+{
+	if($('#results_table tr[data-row="'+row+'"]').length>0)
+	{
+		_gaq.push(['_trackEvent', 'faq-header-v2', 'search-result-click', 'faqheader-test']);
+		var url = $('#results_table tr[data-row="'+row+'"]').attr('data-url');
+		if(url.indexOf('search_highlight')>=0)
+			eval(url);
+		else
+			window.location = $('#results_table tr[data-row="'+row+'"]').attr('data-url');
+	}
+}
+
+$('body :not(#faq_toc_header *, #faq_toc a.toc_toggle *)').bind('click touch', function(e)
+{
+	if($('#faq_toc_header').css('display')=='block')
+	{
+		e.stopPropagation();
+		if($(this).attr('class')!='toc_toggle active' && $(this).attr('id')!='faq_toc_header')
+		{
+			$('.toc_toggle').removeClass('active');
+			$('#faq_toc_header').css('display','none');
+		}
+	}
+});
+
+function toc_toggle()
+{
+	if($('.toc_toggle').hasClass('active'))
+	{
+		$('a.toc_toggle').removeClass('active');
+		$('#faq_toc_header').css('display','none');
+	}
+	else
+	{
+		$('a.toc_toggle').addClass('active');
+		$('#faq_toc_header').css('display','block');
+	}
+}
+
+function faq_search(id, term)
+{
+	var term = $('#faq_search_input').val();
+	var len = term.length;
+	if(term.length<3)
+		return;
+
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/faq_search',
+		data:  {id: 71435, term: term, key: '92721412'},
+		success: function(response)
+		{
+			if(response[0]=='error')
+			{
+				$('#results_table').html('<tr><td colspan="2" class="dismiss_results"><span onclick="dismiss_faq_search_results(0);">No Results Found - Close</span></td></tr>');
+				$('.close_results').remove();
+				$('#gs_search_results').show();
+			}
+			else
+			{
+				window.currentpage = 0;
+				$('#results_table').html('');
+				$('.close_results').remove();
+
+				$.each(response,function(j,i)
+				{
+					var val = i.value;
+					val = val.split('-');
+					var page = val[0];
+					
+					if(window.currentpage!=page)
+					{
+						window.currentpage = page;
+					}
+					var link, pagenum = '';
+
+					
+					
+					{
+						link = "search_highlight(71435,"+val[0]+",2,"+val[1]+","+len+");";
+					}
+					
+
+					$('#results_table').append('<tr data-url="'+link+'" data-row="'+j+'" style="cursor:pointer;" onclick="search_result('+j+');"><td class="title">'+i.label+'</td><td class="type">'+pagenum+'</td></tr>');
+				});
+
+				$('#results_table').after('<div onclick="dismiss_faq_search_results(0);" class="close_results">Close Results</div>');
+			}
+		}
+	});
+}
+
+function search_highlight(file_id,page,format,pos,len,section)
+{
+	window.textpage = page+1;
+
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/faq_search_highlight',
+		data: { id: file_id, page: page, for: format, pos: pos, len: len, section: '', key: '92721412' },
+		success: function(response)
+		{
+					$('a[name="search_jump"]').remove();
+			$("span.faq_highlight").contents().unwrap();
+			$('span#faqspan-'+window.textpage).html(response);
+		
+		var offset = $('a[name="search_jump"]').offset().top - 100;
+		if(offset<100)
+			$(document).scrollTop(0);
+		else
+			$(document).scrollTop(offset);
+		}
+	});
+}
+
+
+
+function set_bookmark(auto)
+{
+	var pos = $(document).scrollTop();
+	if(pos!=window.pos)
+		window.pos = pos;
+	else
+		return;
+	var page = 0;
+	if(page!=window.page)
+		window.page = page;
+	if(auto)
+		auto = 1;
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/faq_bookmark',
+		data: { id: 71435, pid: 562687, pos: pos, page: page, section: '', auto: auto, key: '92721412' },
+		success: function(response)
+		{
+			if(response)
+			{
+				if(response=="Missing cookie.")
+					window.autobmstop = true;
+				$('.faq_bookmark_jump').fadeOut();
+				$('#faq_bookmark').addClass('active');
+				var html = $('.bm_jumper_inner').html();
+				$('.bm_jumper_inner').animate({'opacity':0},200,function()
+				{
+					if($('.faq_bookmark_jumper:not(.active)'))
+						$('.faq_bookmark_jumper').css('visibility','visible');
+					$(this).html('Bookmark Saved').animate({'opacity':1},200);
+					$('.faq_bookmark_jumper').animate({'opacity':1},200);
+				});
+				setTimeout(function()
+				{
+					if($('.faq_bookmark_jumper:not(.active)'))
+					{
+						$('.faq_bookmark_jumper').animate({'opacity':0},200,function()
+						{
+							$(this).css('visibility','hidden');
+						});
+					}
+					$('.bm_jumper_inner').animate({'opacity':0},200,function()
+					{
+						$(this).html($.trim(html)).animate({'opacity':1},200);
+					});
+				}, 3000);
+			}
+		}
+	});
+}
+
+function bookmark_jump_dismiss()
+{
+	$('#faq_header > .faq_bookmark_jumper').css('visibility','hidden');
+	$('#faq_header_wrap > .faq_bookmark_jumper').remove();
+	$('#faq_bookmark').removeClass('active');
+}
+
+
+
+function page_top()
+{
+	$(window).scrollTop(0);
+	_gaq.push(['_trackEvent', 'faq-header-v2', 'top-jump-click', 'faqheader-test']);
+}
+
+function make_printable()
+{
+	var faqdiv = $('#faqtext').detach();
+	faqdiv.appendTo('#fullscreen_overlay');
+	$('#fullscreen_overlay').show();
+	$('.wrapper').hide();
+	$('#faqtext').addClass("fullscreen_takeover");
+	$('#faqtext').append('<p id="restore_page"><button onclick="restore_page();">Restore Page</button></p>');
+	$(window).scrollTop(0);
+}
+
+function restore_page()
+{
+	$('#restore_page').remove();
+	$('#faqtext').removeClass("fullscreen_takeover");
+	$('#fullscreen_overlay').hide();
+	$('.wrapper').show();
+	var faqdiv = $('#faqtext').detach();
+	faqdiv.appendTo('#faqwrap');
+	$(window).scrollTop(0);
+}
+
+
+
+function set_rec_val(val)
+{
+	$('#recval').val(val);
+	if(val==2)
+		$('.rec_comment').attr('placeholder','What is missing from this guide? (140 character max)');
+	$('#rec_one').hide();
+	$('#rec_two').show();
+	return;
+}
+
+function hide_rec()
+{
+	$('#rec_two').hide();
+	$('#rec_three').show();
+	var timer = setTimeout(function()
+	{
+		$('#contrib_rec').fadeOut('slow').remove();
+		$('#faq_header_wrap').addClass('rec_closed');
+	}, 2000);
+}
+
+function rec_submit(item_id, item_type_id, button)
+{
+	var recval = $('#recval').val();
+	if($('.rec_comment'))
+		var reccommentval = $('.rec_comment').val();
+	else
+		var reccommentval = '';
+
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/gamespace_contrib_rec',
+		data: { item: item_id, type: item_type_id, btn: button, val: recval, comment: reccommentval, key: '92721412' },
+		success: function(response)
+		{
+			if(response==2)
+			{
+				track_event(79);
+				return;
+			}
+			else
+				hide_rec();
+		}
+	});
+}
+
+</script>
+
+<script type="application/ld+json">
+{
+	"@context": "https://web.archive.org/web/20190204191354/http://schema.org",
+	"@type": "FAQPage",
+	"headline":"King's Quest III: To Heir Is Human Walkthrough",
+	"image":"https://web.archive.org/web/20190204191354/https://gamefaqs.akamaized.net/box/7/9/3/19793_thumb.jpg",
+	"author":"Tricky",
+	"datePublished":"2015-04-06",
+	"dateModified":"2015-04-06",
+	"url":"https://web.archive.org/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human/faqs/71435",
+	"reviewedBy":
+	{
+		"@type":"Organization",
+		"name":"GameFAQs",
+		"logo":
+		{
+			"@type":"ImageObject",
+			"url":"https://web.archive.org/web/20190204191354/https://gamefaqs.akamaized.net/images/default/logo_v13.png",
+			"width":"180",
+			"height":"50"
+		}
+	},
+	"genre":"Adventure",
+	"isPartOf":
+	{
+		"@type":"VideoGame",
+		"name":"King's Quest III: To Heir Is Human",
+		"url":"https://web.archive.org/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human",
+		"image":"https://web.archive.org/web/20190204191354/https://gamefaqs.akamaized.net/box/7/9/3/19793_thumb.jpg",
+		"description":"Become Gwydion, young slave to the evil wizard Manannan of Llewdor. Discover the wizard's secret spells and use his magic to free yourself from his thrall. Embark upon a dangerous voyage to another land. Scale snowy peaks and brave a terrible monster to free a kingdom from its ravages!",
+		"datePublished":"1986-12-31",
+		"aggregateRating":
+		{
+			"@type":"AggregateRating",
+			"ratingValue":"0",
+			"reviewCount":"0",
+			"worstRating":"1",
+			"bestRating":"100"
+		},
+		"publisher":"Sierra Entertainment",
+		"genre":["Adventure","General"],
+		"gamePlatform":["PC","AMI","APL2","COCO","MAC","ST","MAC","PC","PC"],
+		"operatingSystem":["PC","AMI","APL2","COCO","MAC","ST","MAC","PC","PC"],
+		"applicationCategory":"Game",
+		"sameAs":"https://web.archive.org/web/20190204191354/https://www.gamespot.com/kings-quest-iii-to-heir-is-human/",
+		"keywords":""
+	},
+	"breadcrumb":
+	{
+		"type": "BreadcrumbList",
+		"itemListElement":
+		[
+			{
+				"@type": "ListItem",
+				"position": 1,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190204191354/https://gamefaqs.gamespot.com/pc",
+					"name": "PC"
+				}
+			},									{
+				"@type": "ListItem",
+				"position": 2,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190204191354/https://gamefaqs.gamespot.com/pc/category/50-adventure",
+					"name": "Adventure"
+				}
+			},
+									{
+				"@type": "ListItem",
+				"position": 3,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190204191354/https://gamefaqs.gamespot.com/pc/category/251-adventure-general",
+					"name": "General"
+				}
+			},
+						{
+				"@type": "ListItem",
+				"position": 4,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190204191354/https://gamefaqs.gamespot.com/pc/562687-kings-quest-iii-to-heir-is-human/faqs/71435",
+					"name": "King's Quest III: To Heir Is Human Walkthrough"
+				}
+			}
+		]
+	}
+}
+</script>
+								
+							</div>
+						</div>
+														</div>
+				
+												
+			</div>
+							
+
+							<footer id="footer" class="footer"><div class="footer_site container row"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/" class="footer_logo_gf">GameFAQs</a><a href="https://web.archive.org/web/20190204191354/http://www.facebook.com/GFAQs"><i class="fa fa-facebook-square"></i>facebook.com/GFAQs</a><a href="https://web.archive.org/web/20190204191354/http://www.twitter.com/GameFAQs"><i class="fa fa-twitter"></i>twitter.com/GameFAQs</a><span class="footer_break"></span><a href="/web/20190204191354/https://gamefaqs.gamespot.com/help">Help / Contact Us</a><span class="footer_color_drop" id="color_change"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/features/change_color">Change Colors <i class="fa fa-caret-up"></i></a><ul class="footer_color_subnav"><li class="footer_color_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/user/change_color?site_color=blue&amp;path=%2Fpc%2F562687-kings-quest-iii-to-heir-is-human%2Ffaqs%2F71435">Blue (Default)</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-blue&amp;path=%2Fpc%2F562687-kings-quest-iii-to-heir-is-human%2Ffaqs%2F71435">Blue on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/user/change_color?site_color=red&amp;path=%2Fpc%2F562687-kings-quest-iii-to-heir-is-human%2Ffaqs%2F71435">Red</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-red&amp;path=%2Fpc%2F562687-kings-quest-iii-to-heir-is-human%2Ffaqs%2F71435">Red on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/user/change_color?site_color=green&amp;path=%2Fpc%2F562687-kings-quest-iii-to-heir-is-human%2Ffaqs%2F71435">Green</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-green&amp;path=%2Fpc%2F562687-kings-quest-iii-to-heir-is-human%2Ffaqs%2F71435">Green on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/user/change_color?site_color=orange&amp;path=%2Fpc%2F562687-kings-quest-iii-to-heir-is-human%2Ffaqs%2F71435">Orange</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-orange&amp;path=%2Fpc%2F562687-kings-quest-iii-to-heir-is-human%2Ffaqs%2F71435">Orange on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/user/change_color?site_color=purple&amp;path=%2Fpc%2F562687-kings-quest-iii-to-heir-is-human%2Ffaqs%2F71435">Purple</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-purple&amp;path=%2Fpc%2F562687-kings-quest-iii-to-heir-is-human%2Ffaqs%2F71435">Purple on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/user/change_color?site_color=cloudy&amp;path=%2Fpc%2F562687-kings-quest-iii-to-heir-is-human%2Ffaqs%2F71435">Cloudy Blue</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/user/change_color?site_color=grayscale&amp;path=%2Fpc%2F562687-kings-quest-iii-to-heir-is-human%2Ffaqs%2F71435">Grayscale</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/user/change_color?site_color=sepia&amp;path=%2Fpc%2F562687-kings-quest-iii-to-heir-is-human%2Ffaqs%2F71435">Sepia</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190204191354/https://gamefaqs.gamespot.com/user/change_color?site_color=cottoncandy&amp;path=%2Fpc%2F562687-kings-quest-iii-to-heir-is-human%2Ffaqs%2F71435">Cotton Candy</a></li>
+</ul></span></div><div class="footer_network"><div class="container row">Popular:<a title="A full game guide and walkthrough for Red Dead Redemption 2 on the PlayStation 4" href="/web/20190204191354/https://gamefaqs.gamespot.com/ps4/200179-red-dead-redemption-2/faqs/76594">Red Dead Redemption 2 Guide</a><a title="Cheat codes and passwords for Red Dead Redemption 2 on the PlayStation 4" href="/web/20190204191354/https://gamefaqs.gamespot.com/ps4/200179-red-dead-redemption-2/cheats">Red Dead Redemption 2 Cheats</a><a title="Cheat codes and passwords for Grand Theft Auto V on the PlayStation 4" href="/web/20190204191354/https://gamefaqs.gamespot.com/ps4/805601-grand-theft-auto-v/cheats">Grand Theft Auto V Cheats</a></div><div class="container row"><p><a href="https://web.archive.org/web/20190204191354/https://www.gamespot.com/?utm_source=gamefaqs&amp;utm_medium=partner&amp;utm_content=footer&amp;utm_campaign=footer" class="footer_logo_gs">gamespot.com</a><a href="https://web.archive.org/web/20190204191354/https://www.giantbomb.com/" class="footer_logo_gb">giantbomb.com</a><a href="https://web.archive.org/web/20190204191354/https://www.metacritic.com/" class="footer_logo_mc">metacritic.com</a><a href="https://web.archive.org/web/20190204191354/https://www.gamerankings.com/" class="footer_logo_gr">gamerankings.com</a></p><p><span class="footer_break"></span><a href="https://web.archive.org/web/20190204191354/http://sitemap.gamefaqs.com/">Sitemap</a><a href="https://web.archive.org/web/20190204191354/http://www.cbsinteractive.com/advertise">Advertise</a><a href="/web/20190204191354/https://gamefaqs.gamespot.com/feedback?type=61">Partnerships</a><a href="https://web.archive.org/web/20190204191354/https://cbs.avature.net/cbsinteractivecareers/SearchJobs/?3_56_3=%22260%22">Careers</a><a href="https://web.archive.org/web/20190204191354/https://legalterms.cbsinteractive.com/privacy">Privacy Policy</a><a href="https://web.archive.org/web/20190204191354/https://legalterms.cbsinteractive.com/adchoice">Ad Choice</a><a href="https://web.archive.org/web/20190204191354/https://legalterms.cbsinteractive.com/terms-of-use">Terms of Use</a><a style="z-index: 999999999; color: red; cursor: pointer" onclick="ad_report();">Report&nbsp;Ad</a></p><p>&copy; 2019 CBS Interactive Inc. All rights reserved.</p></div></div></footer>
+
+
+							
+		</div>
+
+		
+		<div id="site_dialog" class="site_dialog"></div>
+		<script type="text/javascript" src="//web.archive.org/web/20190204191354js_/https://dw.cbsi.com/js/ds.js"></script>
+<script type="text/javascript" src="/web/20190204191354js_/https://gamefaqs.gamespot.com/js/omniture_v2.20190131214736.js"></script>
+
+<script type="text/javascript">
+window._taboola = window._taboola || [];
+$().ready(function(){
+$(".gf_taboola").each(function(){
+	_taboola.push({mode: $(this).attr('data-mode'), container: $(this).attr('id'), placement: $(this).attr('data-placement'), target_type: $(this).attr('data-target') });
+});
+});
+
+var vguid = $('meta[id=view-guid-meta]').attr("content").substr(0, 24) + Math.random().toString(16).substr(2,12);
+var anon_id = $.cookie('XCLGFbrowser');
+$('meta[id=view-guid-meta]').attr("content", vguid);
+var dw_params = JSON.parse($('meta[name=dwPageParams]').attr("content"));
+dw_params['viewguid'] = vguid;
+var om_params = JSON.parse($('meta[name=o2PageParams]').attr("content"));
+om_params['evars'][24] = vguid;
+om_params['evars'][35] = anon_id;
+var delay = 0;
+if(!$.cookie('spt'))
+	delay = 500;
+if(typeof DW != 'undefined')
+{
+	if(!anon_id)
+	{
+		$.getScript("//web.archive.org/web/20190204191354/https://dw.cbsi.com/anonc.js").done( function( script, textStatus ) { if(typeof dw_anonc != 'undefined') { anon_id = dw_anonc().id;  $.cookie('XCLGFbrowser', anon_id, { expires: 3650, path: '/' }); om_params['evars'][35] = anon_id; } DW.pageParams = dw_params; DW.clear();  setTimeout(function() { om_params['evars'][16]=$.cookie('spt');  somni = omniture(om_params); },delay); });
+	}
+	else
+	{
+		DW.pageParams = dw_params; DW.clear(); setTimeout(function() { om_params['evars'][16]=$.cookie('spt'); somni = omniture(om_params); },delay); 
+	}
+}
+_taboola.push({flush: true});
+var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; googletag.cmd.push(function() { googletag.pubads().addEventListener('slotRenderEnded', revdbg); });
+</script>
+
+
+<script type="text/javascript">(function(){var g=function(e,h,f,g){ this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b<e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null}; this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "}; this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&&(e=Math.random()>=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0}; this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g+ "&t=" + (new Date()).getTime();document.body&&document.body.appendChild(a)}}; this.start=function(){var a=this;window.addEventListener?window.addEventListener("load",function(){a.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){a.go()})}}; try{(new g(100,"r","QSI_S_ZN_1zcNvefGbweAxdb","//web.archive.org/web/20190204191354/https://zn_1zcnvefgbweaxdb-cbs.siteintercept.qualtrics.com/WRSiteInterceptEngine/?Q_ZID=ZN_1zcNvefGbweAxdb&Q_LOC="+encodeURIComponent(window.location.href))).start()}catch(i){}})(); </script><div id="ZN_1zcNvefGbweAxdb"><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+
+		
+<!--Page built in 0.0362 seconds on 2019-02-04 19:13:54 on box #214 (CSS 20190131214736)- O 0.0068 / S 0.0281 / M 0.0013 / U 0 / G 0 / SC 31-->
+
+	</body>
+</html>
+<!--
+     FILE ARCHIVED ON 19:13:54 Feb 04, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:24:17 Mar 18, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.597
+  exclusion.robots: 0.063
+  exclusion.robots.policy: 0.053
+  esindex: 0.01
+  cdx.remote: 18.707
+  LoadShardBlock: 123.686 (3)
+  PetaboxLoader3.datanode: 97.071 (4)
+  PetaboxLoader3.resolve: 432.363 (3)
+  load_resource: 442.027
+-->

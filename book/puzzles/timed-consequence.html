@@ -1,0 +1,680 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Timed Consequence - Puzzle Design Knowledge Base</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A taxonomy of puzzle design patterns from classic point-and-click adventure games">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-2459343d.css">
+        <link rel="stylesheet" href="../css/chrome-ae938929.css">
+        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-c567150f.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-35c178c7.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Puzzle Design Knowledge Base</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+                        <a href="https://github.com/noti/puzzle-design-kb" title="Git repository" aria-label="Git repository">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span>
+                        </a>
+                        <a href="https://github.com/noti/puzzle-design-kb/edit/main/src/puzzles/timed-consequence.md" title="Suggest an edit" aria-label="Suggest an edit" rel="edit">
+                            <span class=fa-svg id="git-edit-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M421.7 220.3l-11.3 11.3-22.6 22.6-205 205c-6.6 6.6-14.8 11.5-23.8 14.1L30.8 511c-8.4 2.5-17.5 .2-23.7-6.1S-1.5 489.7 1 481.2L38.7 353.1c2.6-9 7.5-17.2 14.1-23.8l205-205 22.6-22.6 11.3-11.3 33.9 33.9 62.1 62.1 33.9 33.9zM96 353.9l-9.3 9.3c-.9 .9-1.6 2.1-2 3.4l-25.3 86 86-25.3c1.3-.4 2.5-1.1 3.4-2l9.3-9.3H112c-8.8 0-16-7.2-16-16V353.9zM453.3 19.3l39.4 39.4c25 25 25 65.5 0 90.5l-14.5 14.5-22.6 22.6-11.3 11.3-33.9-33.9-62.1-62.1L314.3 67.7l11.3-11.3 22.6-22.6 14.5-14.5c25-25 65.5-25 90.5 0z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="timed-consequence-puzzle"><a class="header" href="#timed-consequence-puzzle">Timed Consequence Puzzle</a></h1>
+<h2 id="mechanic-definition"><a class="header" href="#mechanic-definition">Mechanic Definition</a></h2>
+<p>Urgency is conveyed through narrative consequence rather than mechanical time limits. The player learns that failure will result in permanent story change, but there’s no visible countdown, progress bar, or explicit mechanical deadline. The pressure is diegetic—existing within the story world, not imposed by the game interface.</p>
+<h2 id="information-architecture"><a class="header" href="#information-architecture">Information Architecture</a></h2>
+<p><strong>Conveyance Method</strong>: Threat of consequence through dialogue/narrative</p>
+<ul>
+<li>NPCs explicitly state what will happen if player doesn’t act</li>
+<li>The consequence is always permanent and story-altering</li>
+<li>No UI element tracks the deadline—the player must infer urgency from narrative</li>
+</ul>
+<p><strong>Player Action Pattern</strong>:</p>
+<ol>
+<li>Learn threat through dialogue/story event</li>
+<li>Understand what the consequence is (permanent story change)</li>
+<li>Determine what actions prevent the consequence</li>
+<li>Execute actions with appropriate urgency</li>
+<li>If successful, consequence avoided; if not, permanent change occurs</li>
+</ol>
+<p><strong>Core Mechanic</strong>: The puzzle is about managing urgency without visible metrics. The player must internalize the threat and act accordingly.</p>
+<h2 id="design-rationale"><a class="header" href="#design-rationale">Design Rationale</a></h2>
+<ul>
+<li>Maintains immersion—no UI elements break narrative</li>
+<li>Creates emotional stakes—the threat of permanent loss matters more than “game over”</li>
+<li>Rewards urgency without stress—players feel pressure without countdown anxiety</li>
+<li>Allows variable pacing—skilled/experienced players can take more time</li>
+</ul>
+<h2 id="why-its-effective"><a class="header" href="#why-its-effective">Why It’s Effective</a></h2>
+<p>The tension is narrative rather than mechanical. Failing doesn’t mean “game over and restart”—it means the story changes permanently. This creates real stakes without punishing exploration.</p>
+<h2 id="mechanic-variations"><a class="header" href="#mechanic-variations">Mechanic Variations</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Variation</th><th>Urgency Signal</th><th>Consequence Type</th></tr>
+</thead>
+<tbody>
+<tr><td>Dialogue-stated</td><td>Character says “you have limited time”</td><td>Permanent transformation/death</td></tr>
+<tr><td>Environmental</td><td>World visibly changes (emptying city, rising fire)</td><td>NPCs become unavailable</td></tr>
+<tr><td>Progressive</td><td>Character relationships degrade over time</td><td>Missing story content</td></tr>
+<tr><td>Celestial</td><td>Described event (alignment, eclipse) approaches</td><td>One-time opportunity lost</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="generic-example-structure"><a class="header" href="#generic-example-structure">Generic Example Structure</a></h2>
+<p><strong>Information Flow</strong>:</p>
+<ul>
+<li>Character: “You have until [event] to [action]. After that, [consequence].”</li>
+<li>Player understands consequence: Permanent story change, not restart</li>
+<li>Player determines required actions: What needs to be done before event</li>
+<li>Player acts with urgency but can still explore</li>
+<li>If completed before event: Normal continuation</li>
+<li>If not: [Consequence] occurs—game continues but fundamentally altered</li>
+</ul>
+<p><strong>The puzzle</strong>: Internalizing urgency without visible metrics and acting accordingly.</p>
+<h2 id="adventure-game-implementation"><a class="header" href="#adventure-game-implementation">Adventure Game Implementation</a></h2>
+<p>Limited actions become urgent:</p>
+<ul>
+<li>TALK to NPCs quickly—some become unavailable after consequence</li>
+<li>WALK between locations—with purpose, not exploration</li>
+<li>The puzzle isn’t about speed, it’s about priority</li>
+</ul>
+<p>This puzzle tests: “Can I internalize narrative urgency and act with appropriate priority without mechanical feedback?”</p>
+<hr>
+<h2 id="game-examples"><a class="header" href="#game-examples">Game Examples</a></h2>
+<h3 id="beneath-a-steel-sky-eyeball-guardian-timing-puzzle-bas"><a class="header" href="#beneath-a-steel-sky-eyeball-guardian-timing-puzzle-bas">Beneath a Steel Sky: Eyeball Guardian Timing Puzzle (BAS)</a></h3>
+<p><strong>Problem</strong>: In LINC-Space security zones, Eyeball guardians patrol virtual corridors. Player must navigate past them to retrieve critical items (TUNING FORK, DIVINE WRATH program) while managing 15-20 second blind duration windows before reactivation.</p>
+<p><small>Source: 5_steamah_walkthrough.html, lines 521-523 — “‘Blind’ the first EYEBALL. The idea is to get the TUNING FORK before the first EYEBALL reactivates in about 15-20 seconds… This eyeball reactivates only within a few seconds, so be quick!”</small></p>
+<p><small>Source: 1_preterhuman_mitch_shaw_walkthrough.html, lines 305-315 — “Use the BLIND program on the EYE. Go NORTH again. Get the TUNING FORK if the EYE is still blinded (white)”</small></p>
+<p><strong>Consequence Structure</strong>:</p>
+<pre><code>THREAT: Being trapped/locked out by reactivated eyeballs
+PERMANENTITY: Must disconnect and re-enter LINC-Space, losing progress
+NO VISIBLE TIMER: Player must estimate from visual feedback (eyeball color: white=blinded vs colored=active)
+
+PHASE 1 - BLIND FIRST EYEBALL (Timer ~15-20s):
+→ Use BLIND command → eyeball turns WHITE (inactive state)
+→ ⏱️ Invisible timer starts NOW
+→ Move to second room before reactivation
+
+PHASE 2 - BLIND SECOND EYEBALL (Timer "few seconds"):  
+→ Second eyeball reactivates much faster ("within a few seconds")
+→ Use BLIND immediately → white state achieved
+→ QUICKLY enter thick plasma exit beside it
+
+PHASE 3 - RACE TO TUNING FORK:
+→ Exit north (STOP before CRUSADER room—don't engage yet)
+→ Go right into side corridor
+→ GRAB TUNING FORK from floor
+→ ⏱️ If first eyeball reactivates during this phase = trapped
+
+PHASE 4 - SAFE RESET POINT:
+→ Return to hub with WELL in center
+→ Use PLAYBACK command on WELL (resets eyeball states)
+→ DISCONNECT safely to main terminal
+
+FAILURE STATE: If timer expires before Phase 4 complete
+→ Eyeballs reactivate (return to colored state)
+→ Player locked into section until disconnect/reconnect
+
+---
+
+### Broken Sword: Shadow of the Templars - Khan Cliff Escape (Chapter 4)
+
+**Problem**: Final confrontation with Khan creates narrative urgency—George must execute precise escape sequence at cliff edge. No visible timer but death occurs if action order deviates from required pattern (buzzer then immediate jump).
+
+&lt;small&gt;Source: broken-sword-1/4_agh_peter_christiansen_walkthrough.html, lines 420-427&lt;/small&gt;
+&lt;small&gt;Source: broken-sword-1/1_walkthroughking_broken_sword.html, lines 178-179&lt;/small&gt;
+
+**Consequence Structure**:
+</code></pre>
+<p>NARRATIVE URGENCY (No Mechanical Timer):
+→ Scene establishes Khan confrontation as life-or-death scenario
+→ No countdown visible, no progress bar tracking urgency
+→ Threat conveyed entirely through NARRATIVE context: failed actions = character death</p>
+<p>ESCAPE SEQUENCE REQUIREMENT:
+Step 1 → Approach cliff edge with Khan pursuing behind
+- Cutscene or dialogue establishes critical moment</p>
+<p>Step 2 → Press buzzer at exact location (bridge/escape mechanism trigger)
+- Activates bridge withdrawal or rope lowering mechanism</p>
+<p>Step 3 → JUMP OFF CLIFF Immediately after buzzer activation
+- Cannot pause, explore, or examine environment
+- Death state triggers if delay exceeds narrow window</p>
+<p>FAILURE STATE: Sequence deviation results in game over
+→ Jump before pressing buzzer = fall to death (no rescue mechanism active)
+→ Press buzzer then delay too long = Khan catches player / bridge collapses / narrative consequence triggers restart</p>
+<pre><code>
+**Why It's Timed Consequence**: Urgency exists entirely through NARRATIVE stakes (Khan pursuing, life-or-death scene establishment), not mechanical timer. Player internalizes threat from story context—cutscene language, dialogue, positioning all indicate "act now or die." No HUD element tracks the deadline; urgency is DIEGETIC within story world. The puzzle tests ability to prioritize correctly: player must recognize that immediate action required rather than exploration/interaction. This differs from Observation Replay's precise timing window (where exact button press moment matters for success) because TC focuses on ACTION SEQUENCE ORDER with narrative threat, not frame-perfect execution skill.
+
+---
+
+### Legend of Kyrandia: Malcolm Knife Throw-Back (LK1)
+
+**Problem**: At the entrance to Serpent's Grotto, the antagonist Malcolm appears and throws a knife at Brandon. The player must click to throw the knife back BEFORE it hits Brandon. This is a critical first-time-only encounter with immediate permanent consequence—failure results in death and game over. Any other action (saving, running, dialogue) triggers Malcolm throwing another knife that cannot be missed.
+
+&lt;small&gt;Source: classicgamesparadise_walkthrough.html, lines 107-108 — "When you try to enter, Malcolm will show up to taunt Brandon. When he throws the knife at Brandon, quickly click on it while it is stuck in the tree to throw it back. If you try to run, Malcolm will throw another and won't miss this time."&lt;/small&gt;
+
+&lt;small&gt;Source: bonny_ploeg_walkthrough.html, lines 45-46 — "Enter the grotto: Malcolm will come out. As soon as you can, throw the knife back at him: anything else, even saving the game, is lethal." + line 88 — "Getting turned to stone (or in the floppy version: knifed) by Malcolm at the serpent grotto" listed as death scenario&lt;/small&gt;
+
+</code></pre>
+<p>NARRATIVE URGENCY WITHOUT MECHANICAL TIMER:</p>
+<p>THREAT ESTABLISHMENT:
+→ Player attempts to enter Serpent’s Grotto after sealing ice with flute
+→ Cutscene/dialogue sequence establishes confrontation
+→ MALCOLM THROWS KNIFE at Brandon (animated projectile)
+→ CRITICAL MOMENT: Knife is STUCK IN TREE near Brandon (not yet lethal)</p>
+<p>TIME WINDOW:</p>
+<ul>
+<li>No visible countdown or progress bar</li>
+<li>Deadline implied: “click knife before it completes trajectory”</li>
+<li>Threat conveyed through cutscene tension, not UI element</li>
+</ul>
+<p>REQUIRED ACTION SEQUENCE:</p>
+<p>Step 1 → Malcolm throws knife; animation plays showing projectile
+- Player cannot interact during throw animation</p>
+<p>Step 2 → Knife lands STUCK IN TREE (briefly accessible state)
+- CRITICAL: Must click on stuck knife IMMEDIATELY
+- Pre-typing command won’t work—must wait for exact moment</p>
+<p>Step 3 → Click/USE on knife while it’s stuck (before game processes impact)
+- Brandon catches and throws knife back at Malcolm
+- Cutscene: Malcolm stunned, flees, seals grotto entrance with ice</p>
+<p>FAILURE STATES:</p>
+<p>A. RUN AWAY: Trigger different animation—Malcolm throws second knife
+→ Second projectile cannot be caught/deflected
+→ Direct hit = instant death/game over</p>
+<p>B. SAVE GAME during initial throw window:
+→ Saving triggers “too slow” failure state<br>→ Even the act of saving counts as “wrong action”
+→ Malcolm’s dialogue changes; second knife throws</p>
+<p>C. WRONG DIALOGUE/INTERACTION:
+→ Any command other than immediate knife-click fails
+→ Same outcome: lethal follow-up attack</p>
+<p>WHY IT’S TIMED CONSEQUENCE (Not Observation Replay):</p>
+<p>NARRATIVE URGENCY VS MECHANICAL PRECISION:
+This puzzle establishes urgency through STORY CONTEXT—Malcolm as antagonist, confrontation scene, life-or-death stakes—rather than requiring frame-perfect input skill. The “timing window” exists not because animation frames demand exact timing, but because the NARRATIVE establishes Malcolm’s attack as IMMEDIATE THREAT that demands immediate response.</p>
+<p>PERMANENT CONSEQUENCE:
+Failure = DEATH (permanent game state ending requiring restart/loading). Not just “puzzle failed, try different approach.” The consequence is binary: survive or permanent death. This matches TC’s emphasis on story-altering outcomes rather than mechanical retry loops.</p>
+<p>NO MEMORIZATION REQUIRED:
+Unlike Observation Replay where player must memorize sequence from one viewing then reproduce it later, here player acts DURING the event, not after witnessing it. No prior observation, no delayed reproduction—pure immediate response to narrative threat.</p>
+<p>“ANYTHING ELSE IS LETHAL” MECHANIC:
+The walkthrough explicitly states “even saving the game is lethal”—this emphasizes how NARRATIVE URGENCY overrides normal game systems. The save system (normally safe action) becomes DEATH TRIGGER because story context demands one specific immediate response. This is TC’s hallmark: urgency that exists beyond UI/menus, embedded in diegetic world rules.</p>
+<pre><code>
+---
+
+### Legend of Kyrandia: Fireberry Maze Navigation (LK1)
+
+**Problem**: Inside Shadowrealm/Serpent's Grotto, the player navigates a dark maze with limited visibility. Fireberries provide illumination but burn out after exactly 3 screen transitions when carried. If caught in darkness without light source, shadow wraiths devour Brandon (game over). The puzzle requires careful resource management across an unmemorable labyrinth with death as consequence for miscalculation.
+
+&lt;small&gt;Source: classicgamesparadise_walkthrough.html, lines 173-175 — "Be careful though; you can only safely move between rooms 3 times before the Fireberries will burn out. If you are caught in a dark room without any light, the shadow wraiths will no longer be repelled by the light and will devour you. If you drop a fireberry on the ground, it won't burn out and will make that room safe to go back to if you run out of berries."&lt;/small&gt;
+
+&lt;small&gt;Source: bonny_ploeg_walkthrough.html, lines 49-53 — "The caves are dark. If you are in a dark spot when you have no firebrities on you, you'll die... Fireberries will burn infinitely on the bush or on the floor, but you can only carry them for 3 screens."&lt;/small&gt;
+
+</code></pre>
+<p>NARRATIVE URGENCY THROUGH RESOURCE DECAY:</p>
+<p>THREAT ESTABLISHMENT:
+→ Shadowrealm is naturally dark (perpetual shadow/dungeon aesthetic)
+→ Fireberries are required to repel shadow wraiths (established through early death or hint)
+→ CRITICAL MECHANIC: Berries burn out after 3 screen transitions when HELD IN INVENTORY</p>
+<p>DEATH CONSEQUENCE:</p>
+<ul>
+<li>No timer visible, no progress bar tracking berry burn-rate</li>
+<li>Player must internally count “1 screen… 2 screens… 3 screens remaining”</li>
+<li>At zero burns: darkness activates → wraiths appear → instant death</li>
+</ul>
+<p>STRATEGY OPTIONS (Both Require Planning):</p>
+<p>OPTION A - Permanent Light Beacons:
+Step 1 → Pick up 4 fireberries at each bush
+Step 2 → Travel to new dark room, DROP ONE BERRY ON FLOOR before moving on
+- Berry placed on floor burns INDEFINITELY (doesn’t decay)
+- Room becomes permanently safe for re-entry
+Step 3 → Continue with remaining berries; each room gets beacon
+Step 4 → If run out of portable berries → backtrack to any lit room (safe zone)</p>
+<p>OPTION B - Map-Assisted Save/Reload at Bushes:
+Step 1 → Create external paper map, number all fireberry bush locations
+Step 2 → Establish secondary save file at EACH bush position
+- Label saves with location identifier from map
+- Primary save = progression; secondary save = bush checkpoint
+Step 3 → When carrying berries into unknown section, use primary save only
+Step 4 → If berries expire before finding next bush: RELOAD to nearest bush save</p>
+<p>CRITICAL STRATEGY ELEMENTS:</p>
+<ol>
+<li>
+<p>BERRY ECONOMY MANAGEMENT:</p>
+<ul>
+<li>Carrying = rapid decay (3 screens max)</li>
+<li>Dropped on floor = infinite burn time</li>
+<li>Each bush = finite resource pool, not renewable indefinitely</li>
+</ul>
+</li>
+<li>
+<p>NAVIGATION WITHOUT MEMORY:
+All rooms look identical (dark cave aesthetic, no unique visual markers). External mapping required because internal landmarks don’t exist.</p>
+</li>
+<li>
+<p>DEATH CONSEQUENCE STRUCTURE:
+Darkness death is PERMANENT (game over), not “lose current berries and respawn.” Player must manage risk through strategic berry placement or save-file discipline.</p>
+</li>
+</ol>
+<p>WHY IT’S TIMED CONSEQUENCE:</p>
+<p>RESOURCE-DECAY URGENCY VS MECHANICAL TIMER:
+No visible countdown exists. The “3 screens” burn rate is revealed through failed attempts or walkthrough knowledge. The urgency comes from INTERNAL COUNTING—player mentally tracks remaining screens before berry expiration. This creates NARRATIVE TENSION (“how far can I go before darkness claims me?”) without HUD timer.</p>
+<p>STORY-EMBEDDED MECHANIC:
+The fireberry mechanic is THEMATICO—shadow realms require light; carried light burns through use; abandoned light becomes permanent sanctuary. These rules feel diegetic, not arbitrary “3 moves before reset” puzzle structure.</p>
+<p>PERMANENT CONSEQUENCE FOR MISMANAGEMENT:
+Death in darkness = complete game over, requiring reload to much earlier save point. This is TC’s hallmark stakes—consequence is NARRATIVE FAILURE (Brandon consumed by shadows), not JUST mechanical setback (lose inventory and retry).</p>
+<p>DISTINCTION FROM PATTERNS/LOGISTICS PUZZLES:
+While inventory management involved (Cross-Realm Logistics element), the CORE PUZZLE MECHANIC is URGENCY MANAGEMENT. Not “where are items located” but “how long until items cease functioning.” The temporal decay creates narrative urgency absent from pure logistics puzzles.</p>
+<pre><code>
+---
+
+### SpaceQuest III: Ortega Force Field Escape (SQ3)
+
+**Problem**: Roger reaches Ortega, a planet protected by an impenetrable force field beam maintained by a shield generator. After discovering the generator's location via telescope and acquiring items needed for escape, Roger must destroy the generator to disable the shielding—triggering an invisible countdown before the entire planet explodes. The player receives warning that time is limited but no visible timer displays remaining duration.
+
+&lt;small&gt;Source: gamefaqs-tricrokra-archive.html, lines 485-491 — "Once you continued a timer will start to run. A timer you don't see, but one that is pretty narrow."&lt;/small&gt;
+
+&lt;small&gt;Source: the-spoiler-walkthrough.html, lines 126-128 — "'Throw detonator'. 'Climb down ladder'. The planet's going to explode!."&lt;/small&gt;
+
+</code></pre>
+<p>THREAT STRUCTURE:</p>
+<p>URGENCY SIGNAL (Dialogue-based):
+Walkthrough explicitly states “Once you continued here a timer will start to run. A timer you don’t see, but one that is pretty narrow.”
+The threat consequence: “If you exceed the time you are dead.” [game over]</p>
+<p>NO UI TIMER EXISTS:
+Player must infer remaining time from narrative cue alone (“planet’s going to explode!”) and internal urgency management</p>
+<p>PHASE 1 - PREPARATION (Before Timer Activates):</p>
+<p>STEP A - Wait for Scouting Party to Depart
+Prerequisite: Land on Ortega, wear thermoweave underwear (heat protection)
+Location: South → West → South (behind bridge structure)
+Action: Wait until armed men leave the area before proceeding
+Citation: the-spoiler-walkthrough.html, line 123 — “Walk behind the boulder and wait for the men to leave”</p>
+<p>STEP B - Discover Planet Location via Telescope
+Location: Scout observation post (same location as above)
+Action: LOOK in telescope → discover Pestulon coordinates
+Outcome: New destination added to ship navigation system
+Citation: gamefaqs-tricrokra-archive.html, line 489 — “Use the telescope, and you’ll discover Pestulon”</p>
+<p>STEP C - Acquire Escape Tools
+Items collected at scout post (before heading north):</p>
+<ul>
+<li>THERMAL DETONATOR (from box) → used to destroy generator</li>
+<li>METAL POLE → required to pole vault across chasm after explosion</li>
+</ul>
+<p>Citation: gamefaqs-tricrokra-archive.html, lines 490-491 — “= Get a detonator from the box = Get the pole”</p>
+<p>PHASE 2 - TIMER ACTIVATION SEQUENCE:</p>
+<p>STEP A - Navigate to Shield Generator
+Path: Exit south post → East × 2 → North (outside generator) → North again → Downstairs → North → East
+Citation: gamefaqs-tricrokra-archive.html, lines 498-503 — Path sequence to reach generator interior</p>
+<p>STEP B - Climb Final Access Point<br>Command: CLIMB ladder at north end of generator room</p>
+<p>STEP C - DESTROY GENERATOR (TIMER BEGINS)
+Action: THROW detonator into large hole in floor
+Consequence Triggered: Force field deactivates; planet enters destruction sequence
+Invisible Countdown: Walkthrough notes “pretty narrow” time limit</p>
+<p>Citation: gamefaqs-tricrokra-archive.html, line 508 — “Throw the Detonator into the big hole”</p>
+<p>PHASE 3 - ESCAPE SEQUENCE (Race Against Invisible Timer):</p>
+<p>STEP A - Descend Generator Building<br>Command: CLIMB DOWN ladder immediately after detonation
+Citation: gamefaqs-tricrokra-archive.html, line 509 — “= Climb down”</p>
+<p>STEP B - Navigate Back to Ship (Fixed Exit Path)
+Navigation Sequence (MUST NOT DEVIATE):</p>
+<ul>
+<li>West → South → South → West ×2 → North</li>
+</ul>
+<p>Critical Step at Chasm:
+Position: After second west direction, before final east
+Action: USE POLE to vault across ground crack formed by explosion
+Citation: gamefaqs-tricrokra-archive.html, line 468 — “USE POLE (you’ll use your pole to jump over the crack)”</p>
+<p>STEP C - Reach Ship and Launch
+Final Moves: EAST → NORTH (center of screen) → Enter ship based on position
+Commands in Ship: SIT → LOOK COMPUTER → Select “1” (Engines) → “3” (Takeoff)</p>
+<p>Citation: gamefaqs-tricrokra-archive.html, lines 520-527 — Final escape sequence</p>
+<p>CONSEQUENCE STRUCTURE:</p>
+<p>IF TIMER EXPIRES BEFORE ESCAPE:
+Consequence: Game over (death by planetary explosion)
+No UI warning—player must infer remaining time from narrative urgency alone</p>
+<p>WHY IT’S TIMED CONSEQUENCE PUZZLE:</p>
+<p>NARRATIVE URGENCY WITHOUT MECHANICAL TIMER:
+Walkthrough explicitly states “A timer you don’t see”—this is TC’s defining trait. The player knows time matters but cannot quantify remaining duration without external knowledge (walkthrough) or careful observation of explosion animations (which may not be visible before game ends).</p>
+<p>NO SAVE/LOAD GAMEPLAY LOOPS ALLOWED:
+While player can theoretically save/reload, the design intends single-attempt execution after detonation. There’s no “try again” safety net—player must prepare all items beforehand and know/remember escape route.</p>
+<p>CONSEQUENCE IS PERMANENT STORY CHANGE (Or Death):
+If player fails to escape in time, consequence is Roger Wilco dying—story ends. This is TC’s hallmark: stakes are narrative (character death) rather than mechanical (lose points/item).</p>
+<p>KEY DISTINCTION FROM PREDATOR CHASE ESCAPE:
+Predator Chase has immediate pursuit mechanic with no timer UI but ACTIVE PURSUER. Player is being hunted by Arnold in real-time. Ortega escape has no visible pursuer—only environmental destruction sequence triggered by player’s own action, requiring self-managed urgency without external threat presence.</p>
+<p>TIMED URGENCY VS FIXED ROUTE:
+The puzzle’s difficulty emerges from knowing/remembering a specific multi-step path (West → South × 2 → West × 2 → North → East) under time pressure. Unlike standard navigation puzzles, deviation or hesitation risks explosion death. This combines memory management with urgency—TC’s narrative tension applied to rote escape sequence.</p>
+<pre><code>
+---
+
+### Quest for Glory IV: Gypsy Rescue Window (QFG4)
+
+**Setup**: On days 4-5 of gameplay, the Burgomeister at the town office will announce that gypsies have been captured and accused of being werewolves, with Igor "missing." The player must investigate and rescue them before a specific deadline or the gypsies are executed/lost permanently.
+
+&lt;small&gt;Source: qfg4-gamefaqs-anonymous.txt lines 831-856 — "Day 4-5: Farmers found gypsy at Burgomeister's office... Gypsy accused of being werewolf, Igor 'missing'"&lt;/small&gt;
+
+</code></pre>
+<p>URGENCY SIGNAL - NARRATIVE THREAT:
+Step 1 → Visit Burgomeister’s office on Day 4+ (in-game calendar tracked by hotel nights)
+Event triggers automatically if player has progressed足够 enough in valley exploration</p>
+<p>Dialogue Conveyance:Burgomeister explains gypsies captured for “werewolf activities” near village farms.
+Igor the hunchback is “missing” and suspected of involvement.
+THREAT IMPLICIT: If gypsies are proven guilty or Igor not found, they face execution/expulsion from valley.</p>
+<p>NO MECHANICAL TIMER UI:Player has no countdown or explicit deadline displayed.
+Urgency must be inferred from narrative context: legal situations typically resolve quickly in medieval-settings.</p>
+<p>CONSEQUENCE OF INACTION:If player delays too long (approx. days 6-8 depending on playthrough):Gypsies may be executed, released prematurely without aid,
+OR the investigation opportunity closes entirely.
+Result: Cannot complete Gypsy-related quests including Fortune Teller readings OR Rusalka quest for Paladins</p>
+<p>REQUIRED ACTION SEQUENCE (Rescue Path):Step 1 → Search Igor’s likely locations (NOT town, NOT Dr. Cranium’s)
+Clue: Igor works at cemetery during day</p>
+<p>Step 2 → Visit Cemetery after gypsy accusation event
+Look for tipped tombstone or unusual markings near graves</p>
+<p>Step 3 → Investigate moaning sound coming from UNDER a disturbed grave
+Tombstone has been pushed over, revealing hidden cavity underneath</p>
+<p>Step 4 → Class-specific tombstone lifting:
+Fighter: Use strength to push/force tombstone aside directly
+Thief: Use rope tied to nearby tree branch as pulley system to lift stone<br>Wizard: Cast Fetch spell on tombstone to magically remove it
+Result: Igor freed from underground hiding/detention spot</p>
+<p>Step 5 → Automatic consequence: Gypsies are released once Igor is found
+Reasoning: Without Igor’s alleged leadership, accusation collapses</p>
+<p>REWARD FOR SUCCESSFUL RESCUE:Gypsy camp becomes fully accessible for future interactions.
+Magda the Fortune Teller available for tarot readings (up to 4, providing Undead Amulet/Aura Spell).
+Critical information about Dark One’s name “AVOOZL” eventually revealed through readings.</p>
+<p>PALADIN-SPECIFIC EXTENSION:Rescued gypsies provide quest hints for Rusalka lake spirit release.
+Magda can advise on “sacrifice needed” and guidance toward true redemption mechanics.</p>
+<p>WHY IT’S TIMED CONSEQUENCE PUZZLE:NARRATIVE URGENCY WITHOUT MECHANICAL DEADLINE:
+Player learns THREAT exists (gypsies face consequences) but NO COUNTDOWN DISPLAYS.
+Game continues normally if player ignores it—consequence only manifests as LOST OPPORTUNITY.</p>
+<p>PERMANENT STORY CHANGE:Puzzle opportunity closes after certain point (exact timing undocumented, varies by playthrough).
+Unlike “game over” puzzles, the game CONTINUES but specific content becomes UNACCESSIBLE.
+This is hallmark Timed Consequence: narrative urgency, player-managed priority, permanent consequence of delay.</p>
+<p>COMPARISON TO SPACEQUEST 4 EXPLOSION:SQ4 = mechanical death if fail (hard reset)
+QFG4 = missed questline content (soft lockout, game continues)
+Both share core TC trait: no visible timer, must infer urgency from narrative context.</p>
+<pre><code>
+&lt;small&gt;Cited from: qfg4-gamefaqs-anonymous.txt:831-856, qfg4-gamefaqs-sac.txt:2430-2447&lt;/small&gt;
+
+---
+
+### Quest for Glory IV: Will-o'-Wisp Nighttime Capture (QFG4)
+
+**Setup**: To reveal the Sense Ritual location at the Squid Stone, player must capture Will-o'-Wisps. Wisps only appear at NIGHT and die if not released before DAYBREAK. This creates a strict time-window puzzle combining environmental timing with consequence management.
+
+&lt;small&gt;Source: qfg4-gamefaqs-sac.txt lines 1946-1952 — "Make sure to let them out before daybreak or else they'll expire"&lt;/small&gt;
+
+</code></pre>
+<p>ENVIRONMENTAL URGENCY SIGNAL - Celestial Cycle:
+Step 1 → Travel to swamp edge area (west forest, near Dark One Cave entrance)
+CRITICAL CONSTRAINT: Must visit during NIGHT game time only</p>
+<p>NIGHTTIME DETECTION:Will-o’-Wisps visible as floating lights above dark water surface.
+During daytime: Wisps disappear entirely; cannot be captured or interacted with.</p>
+<p>CAPTURE MECHANIC:Step 2 → Ensure candy in inventory (purchased from General Store, town)
+Item prerequisite for luring wisps</p>
+<p>Step 3 → Use CANDY on ground/water near visible wisp
+Result: Wisps approach slowly, attracted by sweet smell</p>
+<p>Step 4 → Wait ~3-5 seconds until wisp enters capture range</p>
+<p>Step 5 → Use EMPTY FLASK on approaching wisp<br>Result: Wisp captured inside flask, added to inventory item “Flask of Will O’ Wisps”</p>
+<p>TIMED CONSEQUENCE WINDOW - Daybreak Deadline:
+URGENCY: Captured wisps are ALIVE organisms inside flask.</p>
+<pre><code>     THREAT: If daybreak occurs before releasing wisps back into environment,
+             they DIE inside the flask permanently.
+             
+     NO EXPLICIT WARNING: Game does not display countdown or "wisps dying soon" message.
+              Player must track time by observing sun/moon position OR checking clock UI.
+</code></pre>
+<p>RELEASE AND APPLICATION (Daytime):Step 6 → Travel to Squid Stone ritual marker location</p>
+<p>Step 7 → Use Flask of Will O’ Wisps on ritual stone BEFORE daybreak if captured at night end
+Result: Wisp light reveals hidden Mad Monk’s tomb entrance + Bone Ritual scroll location</p>
+<p>CONSEQUENCE STRUCTURE:If wisps die from daybreak before release:Flask becomes empty/useless.
+Must restart entire capture process (wait for next night cycle, repeat luring).
+No permanent game lockout, but creates REPLAY PENALTY and delays progression.</p>
+<p>WHY IT’S TIMED CONSEQUENCE PUZZLE:ENVIRONMENTAL URGENCY WITHOUT MECHANICAL TENSION:
+Player knows “before daybreak” is deadline but no explicit countdown.
+Natural celestial cycle serves as timer (day/night transition).</p>
+<p>SOFT CONSEQUENCE (Not Death/Lockout):Wisps dying = inconvenience and delay, not permanent story change or game over.
+This is softer Timed Consequence compared to Gypsy rescue (which can permanently close questlines).</p>
+<p>HYBRID WITH OBSERVATION REPLAY:OR component:Lure pattern must be observed and reproduced correctly (behavior learning).
+TC component: Capture-to-release window creates urgency layer on top of OR mechanics.</p>
+<p>The Will-o’-Wisp puzzle demonstrates TC can apply to ITEM PRESERVATION not just character survival—
+maintaining captured organism’s viability is the timed challenge, with mechanical consequence (item uselessness) if deadline missed.</p>
+<pre><code>
+&lt;small&gt;Cited from: qfg4-gamefaqs-anonymous.txt:1075-1080, qfg4-gamefaqs-sac.txt:1946-1952&lt;/small&gt;
+</code></pre>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../puzzles/repair-chain-construction.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="../puzzles/cross-temporal-causality.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../puzzles/repair-chain-construction.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="../puzzles/cross-temporal-causality.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+        <script>
+            window.playground_line_numbers = true;
+        </script>
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+        <script src="../ace-2a3cd908.js"></script>
+        <script src="../mode-rust-2c9d5c9a.js"></script>
+        <script src="../editor-16ca416c.js"></script>
+        <script src="../theme-dawn-4493f9c8.js"></script>
+        <script src="../theme-tomorrow_night-9dbe62a9.js"></script>
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-c2a407aa.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-a0b12cfe.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

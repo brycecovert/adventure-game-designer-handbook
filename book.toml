@@ -1,0 +1,13 @@
+[book]
+authors = ["Puzzle Design Knowledge Base"]
+language = "en"
+title = "Puzzle Design Knowledge Base"
+description = "A taxonomy of puzzle design patterns from classic point-and-click adventure games"
+
+[output.html]
+git-repository-url = "https://github.com/noti/puzzle-design-kb"
+edit-url-template = "https://github.com/noti/puzzle-design-kb/edit/main/{path}"
+
+[output.html.playground]
+editable = true
+line-numbers = true

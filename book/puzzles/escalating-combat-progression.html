@@ -1,0 +1,534 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Escalating Combat Progression - Puzzle Design Knowledge Base</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="A taxonomy of puzzle design patterns from classic point-and-click adventure games">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-2459343d.css">
+        <link rel="stylesheet" href="../css/chrome-ae938929.css">
+        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-c567150f.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-35c178c7.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Puzzle Design Knowledge Base</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+                        <a href="https://github.com/noti/puzzle-design-kb" title="Git repository" aria-label="Git repository">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span>
+                        </a>
+                        <a href="https://github.com/noti/puzzle-design-kb/edit/main/src/puzzles/escalating-combat-progression.md" title="Suggest an edit" aria-label="Suggest an edit" rel="edit">
+                            <span class=fa-svg id="git-edit-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M421.7 220.3l-11.3 11.3-22.6 22.6-205 205c-6.6 6.6-14.8 11.5-23.8 14.1L30.8 511c-8.4 2.5-17.5 .2-23.7-6.1S-1.5 489.7 1 481.2L38.7 353.1c2.6-9 7.5-17.2 14.1-23.8l205-205 22.6-22.6 11.3-11.3 33.9 33.9 62.1 62.1 33.9 33.9zM96 353.9l-9.3 9.3c-.9 .9-1.6 2.1-2 3.4l-25.3 86 86-25.3c1.3-.4 2.5-1.1 3.4-2l9.3-9.3H112c-8.8 0-16-7.2-16-16V353.9zM453.3 19.3l39.4 39.4c25 25 25 65.5 0 90.5l-14.5 14.5-22.6 22.6-11.3 11.3-33.9-33.9-62.1-62.1L314.3 67.7l11.3-11.3 22.6-22.6 14.5-14.5c25-25 65.5-25 90.5 0z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="escalating-combat-progression--rpg-in-adventure-hybrid"><a class="header" href="#escalating-combat-progression--rpg-in-adventure-hybrid">Escalating Combat Progression / RPG-in-Adventure Hybrid</a></h1>
+<p><strong>Information Architecture</strong>: Game establishes combat encounters within linear progression context where each victory yields weapon upgrades that enable defeating stronger opponents. Unlike Pattern Learning (where same rules apply to new targets), Combative Progression uses INCREASINGLY DIFFICULT enemies that require SPECIFIC counter-weapons obtained from previous victories. Player cannot skip ahead without proper equipment; sequence is enforced through combat stats rather than door locks.</p>
+<p><strong>Player Action Pattern</strong>:</p>
+<ol>
+<li>Enter arena location with limited traversal (cannot proceed without defeating gatekeepers)</li>
+<li>Challenge weakest opponent with available weapons (bare fists/feet initially)</li>
+<li>Victory rewards item: defeated enemy’s weapon dropped as loot</li>
+<li>New weapon has different attack profile (damage, speed, special effects)</li>
+<li>Identify next opponent’s specific weakness/exploit through experimentation or observation</li>
+<li>Select appropriate weapon counter; defeat → repeat until progression unlocked</li>
+</ol>
+<p><strong>Core Mechanic</strong>: Sequential combat encounters form linear gauntlet where each victory produces resource needed to overcome next challenge; cannot reorder sequence without grinding/replay.</p>
+<hr>
+<h2 id="variations"><a class="header" href="#variations">Variations</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Type</th><th>Enemy Scaling</th><th>Weapon Acquisition</th><th>Traversal Impact</th><th>Example</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Linear Gauntlet</strong></td><td>Each enemy stronger than last</td><td>Defeated opponent drops weapon</td><td>Must clear all to proceed</td><td>FT Mine Road biker fights</td></tr>
+<tr><td><strong>Optional Side Arena</strong></td><td>Fixed difficulty, no scaling</td><td>Single prize upon completion</td><td>Rewards not required for main path</td><td>DOTT time-based combat events</td></tr>
+<tr><td><strong>Resource Hoarding Required</strong></td><td>Enemies weak individually</td><td>Weapons found elsewhere, not drops</td><td>Must gather specific counters before entry</td><td>Traditional RPG dungeons</td></tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id="adventure-game-implementation"><a class="header" href="#adventure-game-implementation">Adventure Game Implementation</a></h2>
+<h3 id="standard-actions-applied"><a class="header" href="#standard-actions-applied">Standard Actions Applied:</a></h3>
+<ul>
+<li><strong>CLICK/INTERACT with opponent</strong> = Initiate combat sequence (real-time mini-game)</li>
+<li><strong>SELECT WEAPON from inventory</strong> = Choose attack method before engagement</li>
+<li><strong>TIME ATTACKS in real-time window</strong> = Execute strikes within enemy cooldown periods</li>
+<li><strong>OBSERVE ENEMY PATTERNS</strong> = Learn attack timing to avoid damage</li>
+</ul>
+<h3 id="key-distinctions-from-pattern-learning"><a class="header" href="#key-distinctions-from-pattern-learning">Key Distinctions from Pattern Learning:</a></h3>
+<ol>
+<li><strong>Weapon Gating</strong>: Cannot defeat Enemy B with fists—even if rules understood, stats insufficient</li>
+<li><strong>Progressive Enhancement</strong>: Player gets STRONGER (equipment upgrade) rather than WISER (rule mastery)</li>
+<li><strong>Single Linear Sequence</strong>: No “apply learned system to new domain”—only one correct path forward</li>
+<li><strong>Failure = Restart Attempt</strong> not “try different rule application”</li>
+</ol>
+<h3 id="key-distinctions-from-mini-game-integration"><a class="header" href="#key-distinctions-from-mini-game-integration">Key Distinctions from Mini-Game Integration:</a></h3>
+<ol>
+<li><strong>Narrative Progression Locked</strong>: Cannot proceed in story without combat resolution</li>
+<li><strong>In-Universe Justification</strong>: Weapons are inventory items, not abstract UI selections</li>
+<li><strong>Persistent Equipment</strong>: Acquired weapons carried across multiple encounters, not one-off tools</li>
+</ol>
+<hr>
+<h2 id="example-structure-full-throttle-mine-road-gauntlet"><a class="header" href="#example-structure-full-throttle-mine-road-gauntlet">Example Structure: Full Throttle Mine Road Gauntlet</a></h2>
+<h3 id="setup-post-bridge-destruction"><a class="header" href="#setup-post-bridge-destruction">Setup (Post-Bridge Destruction):</a></h3>
+<small>
+Source: lparchive_opendork_fullthrottle_combined.txt, lines 1806-1812 — "B: It blew up. F: Ooooh! Sorry I missed that! Well... You could jump it, like Ricky Myran. Cavefish got his ramp in their hideout..."
+</small>
+<pre><code>LOCATION: Mine Road (single narrow path with no branches)
+OBSTACLE: 8 hostile bikers positioned sequentially along route
+PLAYER STATE: Bare fists/feet + tire iron (obtained earlier from gas station pillow)
+GOAL: Reach Cavefish leader to obtain night-vision specs → ramp access → gorge jump
+
+PROGRESSION GATING:
+- Cannot bypass bikers via alternate route (no path exists)
+- Cannot talk/negotiate past enemies (hostile faction)
+- Must defeat each biker individually in sequence encountered
+</code></pre>
+<h3 id="sequential-combat-chain"><a class="header" href="#sequential-combat-chain">Sequential Combat Chain:</a></h3>
+<p><small>Source: lparchive_opendork_fullthrottle_combined.txt, lines 1824-1865 — Complete mine road opponent documentation with weapon drop details</small></p>
+<p><strong>PHASE 1 - Baseline Opponent (Tutorial)</strong>:</p>
+<pre><code>Opponent #1: Returning antagonist from game's first chapter
+Weapon: None (fists only)
+Difficulty: Wuss (lowest tier)
+Player Equipment: Fist/Feet + Tire Iron
+
+RESOLUTION: Simple victory with any attack method
+REWARD: None (teaches combat exists, no loot drop)
+</code></pre>
+<p><strong>PHASE 2 - First Weapon Acquisition</strong>:</p>
+<pre><code>Opponent #2: Rottwheeler gang member
+Weapon: Chain
+Difficulty: Slightly tougher than baseline
+
+STRATEGY DISCOVERY: Chain has moderate damage; tire iron counters effectively
+RESOLUTION: Victory with tire iron preferred (fists too weak)
+REWARD: CHAIN dropped as inventory item
+
+NEW PLAYER STATE: Fists + Tire Iron + CHAIN
+</code></pre>
+<p><strong>PHASE 3 - Weapon Tier Advancement</strong>:</p>
+<pre><code>Opponent #3: Female biker
+Weapon: None
+Difficulty: Minimal (token enemy)
+
+RESOLUTION: Trivial battle; reinforces combat mechanic
+REWARD: Fuel canister (needed for later bike modification, not combat)
+</code></pre>
+<p><strong>PHASE 4 - Escalating Threat</strong>:</p>
+<pre><code>Opponent #4: Rottwheeler with skull-mace
+Weapon: Skull-mace (powered-up chain variant)
+Difficulty: Moderate
+
+STRATEGY DISCOVERY: Skull-mace stronger than basic chain; player's chain now viable counter
+RESOLUTION: Use acquired chain weapon → victory possible
+REWARD: SKULL-MACE dropped (chain upgrade)
+
+CRITICAL DESIGN ELEMENT: Player can lose chain in certain puzzle uses. 
+If chain lost, must fight remaining opponents with weaker options or backtrack to acquire replacement.
+</code></pre>
+<p><strong>PHASE 5 - Evasion Counterplay</strong>:</p>
+<pre><code>Opponent #5: Fast retreat biker
+Weapon: Escape attempt (immediate flight)
+Difficulty: Low but time-sensitive
+
+STRATEGY DISCOVERY: Enemy attempts instant retreat; chain can restrain before escape
+RESOLUTION: Use chain IMMEDIATELY on fight initiation → enemy immobilized, bike captured
+REWARD: Fuel + bike parts (not combat weapon)
+
+SPECIAL CASE: This opponent doesn't drop a weapon—demonstrates not all fights follow same pattern.
+</code></pre>
+<p><strong>PHASE 6 - Elemental Weakness Introduction</strong>:</p>
+<pre><code>Opponent #6: Chainsaw wielder (gender-ambiguous rider)
+Weapon: CHAINSAW (insta-kill for player if hit)
+Difficulty: Highest pre-boss tier
+
+PROBLEM STATEMENT: Standard weapons chain/skull-mace insufficient; hitting enemy = instant loss
+SOLUTION DISCOVERY: Fertilizer bag (from earlier farming puzzle) blinds chainsaw operator
+RESOLUTION: Throw fertilizer → chainsawer incapacitated → victory
+REWARD: CHAINSAW added to inventory (strongest single-hit weapon)
+
+MECHANIC EXPANSION: First opponent requiring SPECIFIC non-combat counter rather than better weapon.
+Introduces "rock-paper-scissors" element where brute force fails against specialized threat.
+</code></pre>
+<p><strong>PHASE 7 - Damage Sponge</strong>:</p>
+<pre><code>Opponent #7: Heavy armor Rottwheeler
+Weapon: 2x4 (most powerful melee weapon)
+Difficulty: High HP, high damage output
+
+STRATEGY DISCOVERY: Standard weapons chip health slowly; chainsaw can defeat in reasonable time
+RESOLUTION: Use CHAINSAW → enemy defeated with minimal player damage taken
+REWARD: 2x4 (longest reach weapon, needed for final fight)
+
+DESIGN SIGNIFICANCE: Introduces "appropriate tool" concept—chainsaw IS strongest DPS but 2x4 
+has special utility value needed for progression.
+</code></pre>
+<p><strong>PHASE 8 - Boss Fight with Positional Requirements</strong>:</p>
+<pre><code>Opponent #8: Cavefish leader (final gatekeeper)
+Weapon: Oil slick (area denial, not direct attack)
+Difficulty: Special conditions required for victory
+
+COMPLEX CONSTRAINTS:
+1. Enemy positioned VERY LOW on bike (below normal hitboxes)
+2. Only 2x4 has sufficient REACH to strike at this height
+3. Enemy uses oil slick when player approaches → causes fall/reset
+4. Must wait for bumpy terrain section → enemy rises slightly, becomes hittable
+
+RESOLUTION CHAIN:
+- Wait for road bump animation (enemy sits up)
+- STRIKE with 2x4 ONLY (no other weapon has reach)
+- Land multiple hits before enemy retreats to low position
+- Repeat until KO
+
+FAILURE STATE: Forcing fight without 2x4 = impossible (hitbox unreachable)
+FAILURE STATE #2: Using terrain trick improperly → enemy blows up bike (specs lost forever)
+OPTIMAL RESOLUTION: KO with 2x4 on bumpy ground → Cavefish specs intact
+</code></pre>
+<p><strong>PHASE 9 - Progression Unlocked</strong>:</p>
+<pre><code>REWARD FROM BOSS DEFEAT: Cavefish night-vision spectacles
+
+APPLICATION OF LOOT:
+- Use specs to reveal hidden cave entrance (forcefield disabled when viewed through them)
+- Enter Cavefish hideout → ramp access available
+- Complete gorge jump → Mine Road cleared → story progression resumes
+</code></pre>
+<hr>
+<h2 id="why-this-is-escalating-combat-progression"><a class="header" href="#why-this-is-escalating-combat-progression">Why This Is Escalating Combat Progression</a></h2>
+<h3 id="distinction-from-pattern-learning"><a class="header" href="#distinction-from-pattern-learning">Distinction from Pattern Learning:</a></h3>
+<ul>
+<li><strong>PL</strong>: “I learned swordfight rules in Domain A, apply same rules to Sword Master”</li>
+<li><strong>FCP</strong>: “I acquired tire iron, then chain, then skull-mace, then chainsaw, then 2x4—each weapon REQUIRED for next opponent”</li>
+</ul>
+<p>The player could theoretically understand ALL combat mechanics from Opponent #1—but without the 2x4, Boss Fight is IMPOSSIBLE regardless of skill. This is RPG progression logic (equipment gating) applied to adventure game traversal.</p>
+<h3 id="distinction-from-mini-game-integration"><a class="header" href="#distinction-from-mini-game-integration">Distinction from Mini-Game Integration:</a></h3>
+<p>Combat isn’t optional side activity—<strong>linear progression is locked until all encounters resolved</strong>. The mine road has NO alternative path; player MUST fight, not talk/steal/smart-way around enemies. This integrates combat as CORE traversal mechanic rather than bonus content.</p>
+<h3 id="distinction-from-traditional-rpgs"><a class="header" href="#distinction-from-traditional-rpgs">Distinction from Traditional RPGs:</a></h3>
+<ol>
+<li><strong>No XP System</strong>: Player strength comes ONLY from equipment drops, not level advancement</li>
+<li><strong>Fixed Sequence</strong>: Cannot grind weaker enemies for stats; exactly 8 opponents in set order</li>
+<li><strong>Short Duration</strong>: Entire gauntlet takes 10-15 minutes, not hours of adventuring</li>
+</ol>
+<hr>
+<h2 id="design-considerations-for-escalating-combat-progres-sion"><a class="header" href="#design-considerations-for-escalating-combat-progres-sion">Design Considerations for Escalating Combat Progres sion</a></h2>
+<h3 id="implementation-patterns"><a class="header" href="#implementation-patterns">Implementation Patterns:</a></h3>
+<ol>
+<li><strong>Clear Visual Weapon Hierarchy</strong>: Player should see chain ≠ chainsaw (power differential obvious)</li>
+<li><strong>Reach/Range Differentiation</strong>: Not all power = damage; some weapons have special hitbox properties (FT’s 2x4 reach requirement)</li>
+<li><strong>Backtracking Prevention</strong>: If player loses key weapon, either allow acquisition of replacement OR implement save state</li>
+<li><strong>Counterplay Variety</strong>: Mix pure combat (chain vs skull-mace) with puzzle elements (fertilizer blinds chainsawer)</li>
+</ol>
+<h3 id="best-practices"><a class="header" href="#best-practices">Best Practices:</a></h3>
+<ol>
+<li><strong>First Fight as Tutorial</strong>: Opponent #1 should be trivial—teaches mechanic, not tests it</li>
+<li><strong>Escalation Pacing</strong>: 2-3 weak enemies → 1 medium → 1 strong requires specific counter → boss with multiple conditions</li>
+<li><strong>Weapon Utility Overlap</strong>: Later weapons should replace earlier ones functionally (chainsaw &gt; skull-mace for DPS) but some retain unique value (2x4 reach)</li>
+<li><strong>Fail Forward Option</strong>: If player screws up boss fight, provide alternative path or soft reset rather than game-breaking state</li>
+</ol>
+<h3 id="common-pitfalls"><a class="header" href="#common-pitfalls">Common Pitfalls:</a></h3>
+<ul>
+<li><strong>Weapon Loss Without Recovery</strong>: If player loses chain on puzzle with no replacement available → combat gauntlet becomes impossible</li>
+<li><strong>Unclear Enemy Weaknesses</strong>: Player shouldn’t need walkthrough to know “fertilizer stops chainsawer”</li>
+<li><strong>Hitbox Ambiguity</strong>: “Only 2x4 can reach low rider” needs visual telegraphing, not obscure collision rules</li>
+</ul>
+<hr>
+<h2 id="related-types"><a class="header" href="#related-types">Related Types</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Type</th><th>Similarity to Combat Progression</th><th>Distinction</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Pattern Learning</strong></td><td>Both teach systems through sequential encounters</td><td>PL = same power, new applications; CP = increasing power requirements</td></tr>
+<tr><td><strong>Meta-Puzzle Construction</strong></td><td>Both require sequential step completion</td><td>MPC = item A produces item B; CP = victory over enemy B produces weapon B</td></tr>
+<tr><td><strong>Timed Con sequence / Permadeath</strong></td><td>Both can create “get this right now” pressure</td><td>Timed = single critical moment; CP = sustained series of escalating moments</td></tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id="game-examples"><a class="header" href="#game-examples">Game Examples</a></h2>
+<h3 id="full-throttle-mine-road-combat-gauntlet-ft---main-example"><a class="header" href="#full-throttle-mine-road-combat-gauntlet-ft---main-example">Full Throttle: Mine Road Combat Gauntlet (FT) - Main Example</a></h3>
+<p>See complete solution chain documented in “Example Structure” section above.</p>
+<p><strong>Why It’s Escalating Combat Progression</strong>: This is the DEFINITIVE example—8 sequential opponents, each requiring specific weapon tier or counter-strategy obtained from previous victories. The entire sequence forms a single traversal obstacle where progression is EQUIPMENT-DEPENDENT rather than KNOWLEDGE-DEPENDENT. Even if player understood all combat tactics from opponent #1, they physically cannot defeat opponent #8 (Cavefish leader) without the 2x4 dropped by opponent #7.</p>
+<small>
+Source: lparchive_opendork_fullthrottle_combined.txt, lines 1704, 1824-1865 — Tire iron acquisition and complete enemy progression documentation
+</small>
+<hr>
+<h3 id="full-throttle-gang-social-recognition-ft-pattern-identification"><a class="header" href="#full-throttle-gang-social-recognition-ft-pattern-identification">Full Throttle: Gang Social Recognition (FT, Pattern Identification)</a></h3>
+<p>A secondary pattern system exists in Full Throttle’s biker gang identification mechanic. The game features three distinct motorcycle gangs—the Polecats (Ben’s gang), the Rottwheelers (hostile bikers on mine road), and the Cavefish (cult-like environmentalists). Each gang has visual identifiers that must be recognized for social interactions to succeed.</p>
+<small>
+Source: lparchive_opendork_fullthrottle_combined.txt — Multiple references to "Rottwheeler" identification and gang affiliation recognition
+</small>
+<p><strong>Identification Pattern</strong>:</p>
+<pre><code>POLECATS (Ben's allies):
+- Visual: Skull patches, specific vest designs
+- Behavior: Willing to talk/trade with Ben
+- Location: Corley Motors headquarters area
+
+ROTTWHEELERS (Mine Road enemies):
+- Visual: Distinct skull variations (rebel alliance tatoo mentioned)
+- Behavior: Hostile, will not negotiate, must fight
+- Location: Mine Road gauntlet exclusively
+
+CAVEFISH (Environmental cultists):
+- Visual: Bug-eating behavior, cave-dwelling appearance
+- Special: Use infrared night-vision; cannot see without specs
+- Behavior: Religious devotion to Ricky Myran ("spirit" reverence)
+</code></pre>
+<p><strong>Why This Is Pattern Recognition (NOT Social Engineering)</strong>:
+Player doesn’t learn a “social interaction system”—they simply identify WHICH gang is present at each location, then use appropriate approach. This is environmental context recognition rather than active social manipulation. Unlike Comedy-Based Persuasion (MI1), there’s no “insult-inspect” discovery process; gang affiliations are immediately apparent through dialogue and appearance.</p>
+<hr>
+<h2 id="when-to-document-as-escalating-combat-progression"><a class="header" href="#when-to-document-as-escalating-combat-progression">When to Document as Escalating Combat Progression</a></h2>
+<p>Document a puzzle sequence as this type when:</p>
+<ol>
+<li>✓ Player must defeat multiple opponents in FIXED SEQUENCE</li>
+<li>✓ Each victory awards WEAPON/ITEM required (or helpful) for next opponent</li>
+<li>✓ Cannot reorder sequence or skip opponents via alternate methods</li>
+<li>✓ Progression is EQUIPMENT-GATED rather than knowledge-gated</li>
+</ol>
+<p>DO NOT classify as this type if:</p>
+<ul>
+<li>Opponents can be bypassed entirely (optional side content = Mini-Game Integration instead)</li>
+<li>All enemies defeated with same abilities, no upgrades required (Pattern Learning instead)</li>
+<li>Single combat encounter without progression chain (Simple Combat Puzzle)</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../puzzles/robot-programming.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="../puzzles/corporate-infiltration.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../puzzles/robot-programming.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="../puzzles/corporate-infiltration.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+        <script>
+            window.playground_line_numbers = true;
+        </script>
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+        <script src="../ace-2a3cd908.js"></script>
+        <script src="../mode-rust-2c9d5c9a.js"></script>
+        <script src="../editor-16ca416c.js"></script>
+        <script src="../theme-dawn-4493f9c8.js"></script>
+        <script src="../theme-tomorrow_night-9dbe62a9.js"></script>
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-c2a407aa.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-a0b12cfe.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

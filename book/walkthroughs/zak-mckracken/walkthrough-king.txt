@@ -1,0 +1,340 @@
+Zak McKracken and the Alien Mindbenders
+=======================================
+From: Walkthrough King (Ashley Bennett)
+Date Updated: 6/10/2002
+Original URL: https://www.walkthroughking.com/text/zakmckracken.aspx
+
+Game Details: Sci-Fi, 1988
+Links: Moby Games, Steam
+Walkthrough Updated: 6/10/2002
+Suggested Listening: Give Up Now (Ash 25)
+
+Zak McKracken and the Alien Mindbinders is an early comedy game from LucasArts, 
+using their SCUMM interface, made famous by a long series of games from the same 
+company, beginning with Maniac Mansion. You play as Zak and several of his friends, 
+who uncover a plot by aliens to dumb down humans through the telephone system.
+
+  Table of Contents
+-------------------
+- San Francisco
+- Seattle
+- Miami
+- Cairo
+- Kinshasa
+- Katmandu
+- London
+- Lima
+- Mars
+- Mexico
+- Bermuda Triangle
+
+===============================================================================
+
+SAN FRANCISCO
+
+Zak
+---
+Open the desk drawer and take the kazoo, then close the drawer again. Try to pick 
+up the green card under the desk, but you will end up pushing it further away. 
+Open the dresser drawer on the left and take the phone bill. Pick up Sushi in the 
+fish bowl, and pick up the torn wallpaper next to the door. Use your phone bill to 
+get the card from under the desk, then open the door and leave the room. Pick up 
+the seat cushion next to the TV to tidy the room. Pick up the power cord and use 
+it on the power outlet. Pick up the left seat cushion, then take the remote control 
+and use it to watch the news on TV. Head right and take the small key from next to 
+the door, then open the door and go outside.
+
+Walk left and push the doorbell of the bakery 3 times, then pick up the stale bread. 
+Go back into your apartment. Take the bread knife from over the counter. Open the 
+refrigerator and pick up the egg, then go to your bedroom. Pick up the corner of 
+the rug and use the butter knife on the loose floor boards to bend it. Leave the 
+apartment again.
+
+Go right to the next street then up to 14th Avenue. Enter Lou's Loans. Go over to 
+the sell window and sell the bent butter knife for $1500. Now buy the golf club, 
+tool kit, wet suit, hat, guitar and nose glasses. Leave the shop and go right to 
+the Bob E Pinz store. Open your tool kit and use the wire cutters on the bobby pin 
+sign to get it. Return left and go up to return to 13th Avenue.
+
+Enter your apartment again. Open the cabinet under the sink and take the box of 
+crayons to get a yellow crayon. Use your monkey wrench on the pipe here, then put 
+your stale bread in the sink and turn on the switch. Pick up the breadcrumbs, then 
+turn off the switch again. Use your monkey wrench on the pipe to fix it, then use 
+Sushi on the sink to get the empty fish bowl. Leave your apartment.
+
+Enter the door just to the right. Pick up the application from the left, then try 
+to open the counter door, but the man won't let you through. Put on your nose glasses 
+and hat, then open the counter door and use the computer. Leave the office and remove 
+your nose glasses and hat. Use your yellow crayon with the application. Use your small 
+key to open the mailbox outside your apartment, then put the application inside. 
+Walk right and use the kazoo to wake up the bus driver. Walk into the bus and use 
+your cashcard in the reader. Give your cashcard to the devotee to get a book. Now 
+walk left to board the plane.
+
+PLANE
+
+Zak
+---
+After the stewardess gives out the peanuts, stand up and go to the bathroom at the 
+back of the plane. Pick up the toilet paper and put it in the sink, then turn on 
+the sink and press the call button. Head right to the front of the plane. Open the 
+microwave, put the egg inside, close the microwave and turn it on. Go back to your 
+seat and wait for the stewardess to start cleaning up, then pick up the front seat 
+cushion and pick up the lighter from the ground. Open all the overhead bins and 
+take the oxygen tank from one of them. Now wait for the plane to land.
+
+SEATTLE
+
+Zak
+---
+Head right to leave the airport, then walk over towards the squirrel in the cave. 
+Give your peanuts to the squirrel. Now take the branch from the tree and use it on 
+the loose dirt above the cave. Enter the cave. Use your tree branch to get the bird 
+nest (locate it with the "what is" tool). Now use the bird nest and tree branch on 
+the fire pit. Use your lighter on it and you will have light. Go right and use your 
+yellow crayon on the strange markings, then go through the doorway. Use your remote 
+control and take the crystal. Return to the airport and use the terminal to buy a 
+ticket to San Francisco, then board the plane.
+
+SAN FRANCISCO
+
+Zak
+---
+Leave the airport to return to your street, then go up to 14th Avenue. Read the 
+note on the red door, then put the blue crystal in the slot in the door. After meeting 
+Annie, you can now switch between characters. Leave Annie's apartment and return 
+to 13th Avenue. Go to your apartment and use the small key on the mailbox, then get 
+the fan club letter. Return right to stand next to the bus, then switch to Annie.
+
+Annie
+-----
+Lift up the blotter on the desk, then take the cashcard. Leave your apartment and 
+head to the bus.
+
+Zak
+---
+Use your kazoo to wake us the bus driver.
+
+Annie
+-----
+Board the bus and use your cashcard in the reader.
+
+Zak
+---
+Board the bus and use your cashcard in the reader. At the airport, use the terminal 
+to buy a ticket to Miami, then board the plane.
+
+MIAMI
+
+Zak
+---
+Give your book to the bum to get a bottle of whiskey. Use the terminal to buy a 
+ticket to Cairo, then board the plane.
+
+CAIRO
+
+Zak
+---
+Use the terminal to buy a ticket to Kinshasa, then board the plane.
+
+KINSHASA
+
+Zak
+---
+Leave the airport and keep walking through the jungle maze until you reach a village. 
+Enter the hut on the left and give your golf club to the shaman, then watch the dance 
+and write down the order that the 3 men crouch at the end (a sequence of 6 crouches). 
+Return east to the jungle and make your way back to the airport. Use the terminal 
+to buy a ticket to Katmandu, then board the plane.
+
+KATMANDU
+
+Zak
+---
+Leave the airport and give your book to the guard on the right, then head inside. 
+Walk right and talk to the Shaman, then go back outside and continue right to a 
+haystack. Use your lighter on the hay, then quickly head to the left and into the 
+other building. Take the prison key from the wall, then go back outside. Take the 
+flagpole from the wall here, then use your cashcard in the yak to return to the airport. 
+Use the terminal to buy a ticket to London, then board the plane.
+
+LONDON
+
+Zak
+---
+Use the terminal to buy a ticket to San Francisco, then board the plane.
+
+SAN FRANCISCO
+
+Zak
+---
+Use the terminal to buy a ticket to Lima, then board the plane.
+
+LIMA
+
+Zak
+---
+Leave the airport and walk through the jungle maze until you reach a valley. Read 
+the sign, then use your bread crumbs on the bird feeder. After the bird arrives, 
+use the blue crystal on it. As the bird, fly right to the huge carving, and into 
+the eye on the left. Pick up the scroll, then fly back and give it to Zak. Switch 
+back to Zak and quickly return to the jungle before the aliens arrive. Make your way 
+back to the airport, then switch to Melissa.
+
+MARS
+
+Melissa
+-------
+Open the door to the shuttlebug and head inside. Pick up the boom box, then open 
+the glove compartment and take the fuse and the cashcards. Pick up the digital audio 
+tape from the player in the middle. Turn on the oxygen valve to fill your supply, 
+then go outside. Give Leslie her cashcard and the fuse, then walk left and enter 
+the hostel.
+
+Leslie
+------
+Enter the shuttlebug and turn on the oxygen valve to fill your supply, then go outside. 
+Walk left to the monolith and use your cashcard on the slot to get a token. Go just 
+to the right and enter the hostel, then use your token on the metal plate to the 
+right of the door. Take the burnt fuse and use your new fuse with the fuse box. Push 
+the button above the fuse box to close the Mars door. Push the button on the right 
+and enter the room on the right. Take the vinyl tape from the right locker, then 
+open it and take the flashlight. Pick up the covers from the lower bunk bed, then 
+pick up the broom alien. Go further right and take the ladder, then return to the 
+entrance room. Give your vinyl tape to Melissa. Push the right button, then the main 
+button to open the Mars door. Take the fuse and return outside.
+
+Use your alien broom on the sand just here to reveal some solar panels. Go right to 
+a huge face. Use your ladder on the door, then press the buttons in the same order 
+you saw the men crouch in Kinshasa. Go through to the great chamber and go to the 
+massive door.
+
+Melissa
+-------
+Exit the hostel and go right to the huge face. Pick up the ladder and go inside, 
+then walk to the massive door. Use the ladder on the pedestal on the left. In your 
+inventory combine the vinyl tape and digital audio tape. Use this in the boom box, 
+then turn on the boom box and select Record. Push the crystal sphere at the top of 
+the pedestal, then turn off the boom box. Climb down the ladder again.
+
+Leslie
+------
+Pick up the ladder and head through the doorway. Turn on your flashlight, then go 
+through the purple doorway. Go left and through a blue doorway, then right through 
+another purple doorway. Turn on both the large switches, then wait for the gauges 
+to enter the green. Take off your helmet. Go right, then far right, far right and 
+far left to return to where Melissa is waiting. Turn off your flashlight.
+
+Melissa
+-------
+Take off your helmet, then switch to Zak.
+
+LIMA
+
+Zak
+---
+Use the terminal to buy a ticket to Mexico, then board the plane.
+
+MEXICO
+
+Zak
+---
+Leave the airport and walk through the jungle maze until you reach a temple. Go 
+through the lower left entrance to find a maze. Throughout the maze, use the "what is" 
+tool to find the torches, then light them with your lighter. Go through the upper 
+right doorway, then the far right, far right, far right and middle doorways to find 
+the statue room. Switch to Leslie.
+
+MARS
+
+Leslie
+------
+Return to the great chamber and walk right to the second statue. Read the strange 
+markings on it and remember the symbol you see. Switch back to Zak.
+
+MEXICO
+
+Zak
+---
+Use your yellow crayon on the strange markings, and draw the symbol Leslie just saw. 
+Pick up the crystal shard, then return left to the maze. Go through the left, left, 
+middle, far left and far right doors to leave the maze. Head left to the jungle and 
+make your way back to the airport, then switch to Annie.
+
+SAN FRANCISCO
+
+Annie
+-----
+Use the terminal to buy a ticket to London, then board the plane. After arriving, 
+switch to Zak.
+
+MEXICO
+
+Zak
+---
+Use the terminal to buy a ticket to Mexico, then board the plane.
+
+LONDON
+
+Zak
+---
+Give the whiskey, flagpole, scroll, wire cutters, and both crystal shards to Annie. 
+Use the terminal to buy a ticket to Miami, then board the plane.
+
+MIAMI
+
+Zak
+---
+Use the terminal to buy a ticket to the Bermuda Triangle, then board the plane.
+
+BERMUDA TRIANGLE
+
+Zak
+---
+Wait for a while and you will end up on a space ship. Write down the order the pilot 
+presses the buttons. After he leaves, press the small button on the right and go 
+through to meet the King. Give him your fan club card, then write down the order 
+the alien presses the buttons. Walk right and read the Lotto-O-Dictor, and write 
+down the winning numbers. Return left and push the buttons the pilot pushed, then 
+quickly step over the line on the left. When you are falling, put on the wet suit, 
+then use your parachute.
+
+In the water, use your kazoo to call the dolphin, then use the blue crystal on the 
+dolphin. As the dolphin, swim down and pick up all the seaweed until you find a glowing 
+object. Pick it up, then go up to the surface and give it to Zak. Switch back to Zak 
+and wait to get captured. You will eventually end up back on the streets.
+
+SAN FRANCISCO
+
+Zak
+---
+Wait until the commands return, then remove your wetsuit. Put on the hat and nose 
+glasses, and enter the office. Open the counter door and go to the back room, then 
+open the cabinet to get your items back. Go outside and remove the hat and nose glasses 
+again. Walk right, then head up to 14th Avenue, and into Lou's Loans. Go to the buy 
+window, and buy a lotto ticket (buy the sign above the window that says Lotto). Enter 
+the 4 digits you wrote down from the Lott-O-Dictor. Leave the shop and switch to Annie.
+
+LONDON
+
+Annie
+-----
+Leave the airport and give the bottle of whiskey to the sentry. Pull the switch in 
+his hut, then use your wire cutters on the fence and head through. Use the flagpole 
+and two crystal shards on the altar stone, then read your scroll and pick up the yellow 
+crystal.
+
+MARS
+
+Leslie
+------
+Return through the doorway to the maze. Go to the far right, then right through the 
+blue doorway and far right again to find a map room. Look at the markings beneath 
+the sphinx and write them down, then leave the map room again. Go left through the 
+purple doorway, left through the yellow doorway and far left to exit the maze.
+
+SAN FRANCISCO
+
+Zak
+---
+Open the door and enter Lou's Loans - you will receive the lotto prize. Leave the

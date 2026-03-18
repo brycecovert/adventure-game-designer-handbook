@@ -1,0 +1,828 @@
+<html>
+<head>
+<title>Full Throttle walkthrough - solution</title><meta name="viewport" content="initial-scale=1,width=device-width,user-scalable=yes,minimum-scale=0.5">
+<link rel="STYLESHEET" type="text/css" href="../../current.css">
+<META NAME="DESCRIPTION" CONTENT="Full Throttle walkthrough - solution - by Bananagirl from The Spoiler Centre collection of faqs for games" />
+<META NAME="KEYWORDS" content="full throttle walkthrough,games,spoiler,FAQ,cheat,strategy guide,Lucas Arts,Bananagirl,full,throttle" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<META NAME="resource-type" CONTENT="document" />
+<META NAME="AUTHOR" CONTENT="Bananagirl" />
+</head>
+<body>
+<CENTER>
+<!--- AD BEGIN BANNER -->
+<script language="JAVASCRIPT" src="/js/id_client.js"></script>
+<script language="JAVASCRIPT" src="/js/ad_referrer.js"></script>
+<!--- AD END BANNER -->
+</CENTER>
+<pre>
+                               ~ Full Throttle ~
+                  A Fast-Paced Motorcyle Adventure for the PC
+                         FAQ/Walkthrough by Bananagirl
+                              <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="90f2f1fef1fef1e3e1e5f9f4d0fde3febef3fffd">[email&#160;protected]</a>
+                                v1.1 - 06/25/02 
+
+
+
+                                  Disclaimer!
+                                  ``````````` 
+This document is copyright 2002 Bananagirl. All information contained within is 
+                   protected by international copyright law.
+
+===============================================================================
+                    .:*~*:.  { Table of Contents }  .:*~*:.
+===============================================================================
+
+1. Introduction
+2. Preliminary FAQ
+3. General Information
+     o Story
+     o Characters
+         } Ben
+         } Malcolm Corley
+         } Maureen
+         } Adrian Ripburger
+         } Miranda Rose Wood
+         } Nestor & Bolus
+         } Polecats
+         } Vultures
+         } Rottwheelers
+         } Cavefish
+4. Game Basics
+     o Controls
+     o Saving/Loading
+5. Walkthrough
+     o Kick Stand
+     o Melonweed
+     o Kick Stand
+     o The Highway
+     o The Mine Road
+     o Corley Motors
+     o The Highway (Again)
+6. FAQ
+7. Revision History
+8. Copyright & Contact Information
+9. Credits/Thanks
+
+
+
+===============================================================================
+                     .:*~*:.  { 1. Introduction }  .:*~*:.
+===============================================================================
+
+Howdy, and welcome to my Full Throttle FAQ/Walkthrough. If you're reading this,
+you probably need help. Which is good, 'cause this guide takes you by your 
+greasy little mitts and walks you step-by-step through the game. And if that's
+not what you're after, just check whichever area of the game you happen to be
+stuck at and skim through the section until you get to what you need.
+
+Full Throttle is an adventure game from LucasArts. At first glance, it seems 
+like the sort of game only motorcycle-lovers would enjoy, but fear not. It's 
+fun for the whole family. I loved this game, and I don't even like motorcycles. 
+I could hardly bring myself to finish reading Hell's Angels, even though it was
+one of those last-minute desperate school assignment type things. 
+
+Moving on... Just enjoy the guide. Try not to spoil the game for yourself or 
+anything, though. It's just not as fun that way. I mean that. Don't use this
+guide unless you really have to, and don't read anything other than the part
+you need. That said, enjoy what you *do* read, but don't overdo it.
+
+ - Bananagirl
+
+
+
+===============================================================================
+                   .:*~*:.  { 2.  Preliminary FAQ }  .:*~*:.
+===============================================================================
+Q. Is this game good for my kids?
+`````````````````````````````````
+   As long as they're at least twelve or so, yeah. There's a bit of swearing, 
+   and a lot of hitting people with chains and chainsaws, but a twelve year-old 
+   should be smart enough to realize that riding your bike with a chainsaw in
+   one hand while your little sister chugs along beside you on her tricycle is
+   a bad idea. And chances are pretty good that you've said all the harsh 
+   language used in front of them, and if you haven't, they've heard it in 
+   school.
+
+
+Q. I hate motorcycles. Is this game for me?
+```````````````````````````````````````````
+   Sure. I think motorcycles are overrated, and I loved Full Throttle. Maybe 
+   it's the chance to hit people with boards. Maybe it's releasing bunnies onto
+   a minefield and letting them blow up. Maybe it's just the classic LucasArts
+   humor. But it's a great game. Go buy it. Now.
+
+
+Q. OK. Where can I find it?
+```````````````````````````
+   I got it in one of the LucasArts Archives collections. Either the first one
+   or the third one. I forget. I just remember that it wasn't the second. Check
+   out the LucasArts website at http://www.lucasarts.com and check their 
+   products.
+
+
+Q. Where can I find _____?
+``````````````````````````
+   Use the find function on your browser or word processor. It's a good tool. 
+   Learn it. Live by it.
+
+
+Q. How do I do _____?
+`````````````````````
+   Ditto to the above.
+
+
+
+===============================================================================
+                 .:*~*:.  { 3.  General Information }  .:*~*:.
+===============================================================================
+                                     Story
+-------------------------------------------------------------------------------
+You are Ben, leader of one of the many local motorcycle gangs. While hanging
+around in a bar with your gang, Malcolm Corley, the last remaining motorcycle
+maker in the world, stops by for a chat. But halfway through, his partner,
+Adrian Ripburger, walks in and requests that you and your gang ride with Corley
+to a shareholders' meeting.
+
+Even though the gang is broke, the Polecats are not keen on being hired out, so
+you turn the job down. However, Ripburger has plans for you and your gang that
+he can't change, so he'll just have to get you out of the picture.
+
+When you wake up, you're in a dumpster. Ripburger and his friends are gone, as
+is the gang. Now what?
+
+
+
+-------------------------------------------------------------------------------
+                                  Characters
+-------------------------------------------------------------------------------
+
+Ben
+```
+ Leader of the Polecats, one of the last remaining motorcycle gangs. Ben is the
+ character you'll be controlling throughout the entire game. He has a big jaw,
+ but he's a pretty tough guy, and he's also pretty crafty.
+
+
+Malcolm Corley
+``````````````
+ Owner of Corley Motors, the last motorcycle company in the world. He's nearing
+ the end of his days, but his partners seem to think the end hasn't come soon
+ enough, so they aren't going to wait around for natural causes. Besides, if 
+ they wait too long, Corley might write a will that doesn't include them as 
+ owners of Corley Motors.
+
+
+Maureen
+```````
+ Maureen runs a small toaster repair shop in Melonwood. She and her dad used to
+ be big on bikes, but one day he left and didn't return, so Maureen went to 
+ live with her Uncle Pete at his Mink Ranch. Now she's all grown up, and when
+ Miranda drags a cut-up Ben and a broken bike into Mo's shop, she fixes them
+ both free of charge. 
+
+
+Adrian Ripburger
+````````````````
+ One of Corley's partners, Ripburger is out for Corley Motors when the old man
+ kicks the bucket, and he'll stop at nothing to get it. And nothing includes
+ murder, of which he's done quite a bit.
+
+
+Miranda Rose Wood
+`````````````````
+ Miranda is a journalist looking for coverage on accidents, and when she finds
+ Ben "all twisted up like a pretzel," she has a perfect model. When she's done
+ taking pictures of him, she brings him to Mo. Not because she's nice, though.
+ She just wants a quote.
+
+
+Nestor & Bolus
+``````````````
+ Nestor and Bolus are Ripburger's little flunkies. They help him out with all
+ the illegal stuff he engages in, and take care of loose ends. These include
+ photographers, gang leaders, and the occasional heir to Corley Motors.
+
+
+Polecats
+````````
+ Ben's gang is tough, but they aren't the strongest, fastest, or brutalist. 
+ They don't even have much money, so they jump at the opportunity to act as
+ Corley's escort, even though Ben says no. Of course, Ben is only the leader
+ 'cause he's the smartest and toughest one in the gang. Maybe they should've
+ listened to him when he said no.
+
+
+Vultures
+````````
+ The Vultures are one of three gangs who patrol the Old Mine Road looking for
+ trouble. Most of them are pansies, but there are a few among them with 
+ boosters on their bikes that make them a bit harder to deal with. 
+
+
+Rottwheelers
+````````````
+ The Rottwheelers are usually big, ugly, and bald. They aren't exceptionally
+ smart, either. They *are* tough, but nothing your average Polecat can't
+ handle.
+
+
+Cavefish
+````````
+ These guys are creepy. Their hideout is a hidden cave along the Old Mine Road, 
+ and only they can see it. They're pretty much blind from being in the dark all
+ the time, so they have to use special goggles to ride. They're also vicious 
+ little buggers, well-known for hijacking semis and stealing their cargo. Don't
+ worry, though. They're fairly easy to deal with as long as you have the right
+ tools. 
+
+
+
+===============================================================================
+                     .:*~*:.  { 4. Game Basics }  .:*~*:.
+===============================================================================
+                                   Controls
+-------------------------------------------------------------------------------
+Unlike most of the adventure games from LucasArts, Full Throttle doesn't use 
+the command box. Instead, you have a little + cursor that you wave around. When
+it has a little red box around it, you can click and hold to select the action
+you want to perform. Otherwise, clicking will just make you move to wherever 
+the mouse was placed, if possible.
+
+- The most important action is the hand. You can use that to knock, open, pull,
+  take, punch, and climb. You'll be using it a lot. Get used to it.
+
+- Across from the hand is a picture of Ben's boot, which you'll be using to 
+  kick down doors and other such things. 
+
+- The eyeballs of the skull are used to examine things, which can either 
+  trigger something or just give you some information on an object.
+
+- Below the eyeballs is a tongue. If used on most people, it will cause Ben
+  to talk to them. Otherwise, it will be some sort of mouth action like
+  licking, kissing, sucking, etc. Stop laughing. None of this is dirty, you
+  perverts!
+
+- To use an item, access your inventory with your right mouse button and 
+  choose the one you want. Next, move your mouse out of the inventory area
+  to close the window, and use the item on whatever it was you wanted to use
+  it on.
+
+- To open the menu to save or adjust settings, press F1. 
+
+- To pause the game, press the spacebar.
+
+
+
+-------------------------------------------------------------------------------
+                                Saving/Loading
+-------------------------------------------------------------------------------
+To save or load your game, access the menu by pressing F1 and select the 
+desired action. When saving, select a saved game slot and type in the name you 
+want to give your game, then press OK. If you're loading, just click on the 
+game you want to load and press OK. That was easy, wasn't it?
+
+
+===============================================================================
+                     .:*~*:.  { 5. Walkthrough }  .:*~*:.
+===============================================================================
+                                  Kick Stand
+-------------------------------------------------------------------------------
+When you finally take control, it will be in back of the tavern from the 
+introduction. Your character doesn't seem to be around, but if you click the 
+cursor on the right side of the dumpster's lid, Ben will punch his way out. Go 
+around to the front of the Kick Stand.
+
+If you try to ride your bike, you'll find that the keys are gone. The Kick 
+Stand is closed now, but you can kick the door down and go in. The bartender 
+isn't talking, so use your hand on him to force some information out of him. He
+doesn't know much, but he does have your keys, so now you can get out of there.
+
+As you speed down the highway, you'll encounter a Rottwheeler. Rival gangs 
+can't very well share the road, y'know... You'll have to fight. "Come on, 
+kitty. Let's get down." Keep using your enter key or left mouse button to 
+punch him, and use the arrow keys or your mouse to stay on the road. 
+
+When it's all over, Ben will do a victory wheelie or sorts, but someone's
+tampered with his bike. When he comes to, there's someone taking pictures of 
+him in the middle of the desert. By the time he's come fully awake, he's in 
+Maureen's toaster repair shop. 
+
+
+
+-------------------------------------------------------------------------------
+                                   Melonweed
+-------------------------------------------------------------------------------
+You can talk to her for a bit if you want, but sooner or later you'll have to
+leave Mo alone to fix your bike. Ask her how your bike looks and she'll tell 
+you what she needs. Grab the hose and gas can in the corner of the shop, then 
+leave.
+
+Outside, you'll run into the reporter who found you. You can chat with her for 
+a bit, or you can just leave. Mention "ambush" and she'll go away. Otherwise,
+just wait. It will happen soon enough on its own. Close the mailbox on your 
+way out. 
+
+Might as well go get Maureen's welder now. Head for the trailer with the 
+glowing thing in front of it. When you get there, you can look at the skylight.
+Someone seems to be doing some welding. Go knock on the door. OK, that didn't 
+go over well. Knock again. When the owner comes up to ask what you want, kick 
+the door in. With Todd out of the way, you've got free run of the place. 
+
+Open the cabinet over Todd's bed and take the lockpick that's hanging on the 
+door. Next, raid the fridge. It's got some meat you might want to take with you
+in case you (or someone else) gets hungry later. When you're done stealing all
+of Todd's stuff, use his top-secret hidden dresser elevator thing to go 
+down to his workshop. Take the torch, and Ben will go back to Maureen's to give
+it back to her.
+
+Now that you have the lockpick, getting the gas should be no problem. Make sure 
+you have both the hose and the gas can, then head for the big tank thing in the
+upper section of town. There's a lock on the door, so use Todd's lockpick to 
+take care of that. Pick up the lock before you go in.
+
+This next part is a bit tricky. You're standing in front of a giant tank of 
+gas, but if you touch the ladder, you'll set off the alarm, and the guards will 
+sweep in on their supercool flying thing to catch you. Beyond the tower, there
+are no lights, so go duck behind the tank on the left side. The guards will 
+climb up to get the guy who they think is hiding up there, so run out and steal
+the gas from their vehicle. 
+
+First, open the gas cap. Then put your hose into the tank and put your gas can
+under the hose. Gas doesn't just jump out of the tank, though. You'll need to 
+start the flow somehow, so put your lips on the hose to start the siphon. The
+tank will be filled in no time, leaving Ben to hightail it, gas can in hand,
+back to Maureen's. The police will go call for reinforcements. 
+
+All you need to find now are the new forks. Head for the junkyard beyond Todd's
+trailer for those. The entrance appears to be blocked off for now, so pull on 
+the chain to take care of that. Unfortunately, that only works temporarily. As
+soon as you let go, the door springs back into place. Plan B.
+
+Put the padlock you snagged from the tank door onto the rolling door to hold it
+in place. Now pulling the chain won't move it. Try to do it anyway, and Ben 
+will climb up and into the junkyard. Inside, there's a whole pile of spare 
+forks... But there's also a guard dog. Don't touch the forks for now; just jump
+off the wall and head to the right.
+
+Working quickly, put the meat you took from Todd's refrigerator into the blue
+car. The hungry little pooch will dive in and start eating, but he'll come out
+again if you touch anything. You'll have to trap him. See that magnet dangling
+from the crane above the cars?
+
+Climb back onto the wall and head to the right, then climb up the tower that 
+leads to the crane controls. Move the magnet over the blue car using the center
+lever, then use the left one to lower the crane. Hit the button on the right to
+turn on the magnet, then raise it again using the left controls. The dog is no
+longer a problem, so head back to the pile of forks and grab one.
+
+This is the last thing Maureen needs, so she'll get to work on fixing your bike
+right away. Ben will turn to leave, but he'll go back and ask about the picture
+on Maureen's wall. It's of Maureen and her Uncle Pete, taken in front of Pete's
+Mink Ranch. Pete's dead now, so the ranch belongs to Maureen. Now he'll really
+leave this time, but only to step outside and think out loud. Miranda is still 
+around, but if she hears "ambush" she'll perk up. Then she'll take the car she 
+supposedly didn't have and speed off. As soon as she does so, Ben's bike will 
+be ready. You're free to go.
+
+As soon as you leave town, you'll come across the reinforcements sent to look 
+for you after the tower incident. There's no way you'll get past them this 
+time, so Ben will turn around and head back to town. Go back to the gas tower
+and touch the ladder again to trigger the alarm. The police will come back to 
+nab you, but Ben is waiting at the edge of town on his bike to go as soon as 
+the way out is clear. 
+
+Soon, you'll stumble across a few of your fellow Polecats, who say Corley's 
+taking a pit stop. After a bit of talk, the scene will cut to Corley struggling
+with his fly and singing. The reporter is lurking in the bushes taking pictures 
+as Ripburger shows up to take care of his little problem. She'll get away, but
+now Ripbuger's henchmen are after that camera. 
+
+Ben will show up during Corley's last moments, and Corley will tell him about 
+his plans for the company. He'll also tell you to find his daughter. Luckily, 
+the two of you have already met. Unluckily, Maureen's about to meet Bolus. 
+She'll take care of him, and the scene will cut to Ben speeding back to 
+Melonwood to get her. Then it's back to Mo, who's found the camera. I guess 
+that guy caught the reporter... 
+
+When you get back to Maureen's shed, you'll find that both Ripburger and Mo
+are gone. Those of you who are careful observers will note that the picture of
+Maureen and her uncle is gone, too. There's nothing to do inside, so go out and
+dig through the debris. Ben will find the camera Bolus took from the reporter,
+but it's smashed and the film is gone. He'll also find the missing picture, 
+which he'll pocket. 
+
+Uncle Pete's Mink Ranch seems to be your only lead now, so hop back onto your 
+bike and leave town. Again. And again, you'll be turned back by the police. And 
+this time you can't hit the tower to get by. You'll have to leave town another 
+way. Get back on your bike and ride out via the road beside the junkyard. 
+You'll end up back at the Kick Stand.
+
+
+
+-------------------------------------------------------------------------------
+                                  Kick Stand
+-------------------------------------------------------------------------------
+You seem to be a murderer now. When you walk into the bar, you'll be greeted by
+the bartender and a TV showing the news. Your gang's been arrested, but now 
+there are roadblocks all over the place looking for the leader. And that leader
+just happens to be you. Talk to the Emmet, the guy at the table with a knife. 
+If you ask for a ride, you'll learn that they aren't even letting truckers 
+through the block. That's a bit of a let-down, eh? Head outside and around to 
+the back, where the game began. 
+
+Miranda's calling you from the dumpster. She wants you to find her editor, so 
+she'll give you a fake ID to get past the road block. Go back into the bar and
+give Emmet the fake ID you got from Miranda. When you mention Pete's Mink 
+Ranch, he'll talk about how he used to buy meat there and sell it to school 
+lunch programs. This sort of thing makes me glad I bring my own lunch...
+
+Anyway, now that Emmet can get past the roadblock, he's a bit friendlier. He'll
+even let you ride in his engine compartment. How nice of him! Emmet's a bit 
+smarter than he looks, and you'll get through easily. 
+
+
+
+-------------------------------------------------------------------------------
+                                  The Highway
+-------------------------------------------------------------------------------
+When you reach the ranch, Emmet will dump Ben and the bike off and drive away, 
+along with the fuel line from Ben's bike. This could be a bit of a setback. 
+There's nothing you can do about the truck for now, so just head into the 
+house. If you move the pillow, you can nab a tire iron that someone was 
+sleeping on. At least I *hope* that's what they were doing with it... Use it 
+to break the lock on the chest at the foot of the bed, and you'll find a new 
+fuel line.
+
+As you leave, Maureen will ride out of the barn, and Ben will hop aboard and 
+give chase. Unfortunately, she took his booster fuel, so Ben's stuck behind 
+everyone else, including Mo, Emmet, and some members of the Cavefish, a rival 
+gang. Emmet will drop his trailer to take out the Cavefish, but as soon as he
+hits the bridge, it will explode and Emmet's truck will crash into the water 
+below.
+
+When the chase is over and you've regained control of Ben, pick up some 
+fertilizer from the mess on the ground. Use your tire iron on the semi's wheels
+to loosen them up, and Ben will shove over the trailer, effectively blocking 
+the road. Get back on your bike, and head out to the right. 
+
+When you reach the bridge, check out that sign and look at the pictures. 
+According to the plaque, only one person has successfully crossed Poyahoga 
+Gorge -- a guy on a souped-up Corley motorcycle. This would all be fine and 
+dandy, but Maureen just made off with your booster fuel, and your bike doesn't 
+hover. You also don't have a ramp. It ain't gonna happen without those three 
+things. Hop back on your bike and go back to the Mink Ranch. Ripburger's 
+friends are waiting there, and as soon as you get there, they'll chase. Stay
+on the highway and take them through the overturned fertilizer truck. 
+
+As soon as Ripburger picks them up, turn around and go back to the scene of 
+the crash. When you see the stop sign, press enter or click your mouse to bring
+your bike to a halt. Use your tire iron on the car to steal their hover 
+equipment, then use it on your bike. Take off again. This time you're headed 
+for the Mine Road. When you get near an exit, click the mouse or press enter 
+to get off. The highway, you pervert!
+
+
+ 
+-------------------------------------------------------------------------------
+                                 The Mine Road
+-------------------------------------------------------------------------------
+The Mine Road is teeming with cyclers, and most of them won't think twice 
+about punching you. The first one you'll come across is actually a retired
+Polecat. Former leader, really. Ben will stop to chat a bit, but he doesn't 
+really tell you anything interesting, except for some fighting tips you should
+listen to. 
+
+Father Torque will tell you that timing is more important than muscle, and also 
+that the blind Cavefish ride by looking at the dots on the road. If you ask him 
+about the Vultures, he'll mention their boosters. Finally, ask him about the 
+gorge, and he'll tell you that the Cavefish have the ramp in their hideout, but 
+you can only see the entrance if you're wearing Cavefish goggles. Looks like 
+you'll be punching out a few of your fellow riders before you can continue.
+
+When you're done talking to Father Torque, he'll speed off, leaving you alone 
+to deal with your problems. Keep going until you run into a cycler, then punch 
+him or her out. Most of the cyclers carry weapons of some sort, so try to pick 
+up a chain or chainsaw. Maybe a board or spiked chain. Your call. You can cycle 
+through your available torture devices with your right mouse button, so always 
+be sure to use the best one you've got. The tire iron is a good choice for 
+starters, but remember to keep a bit of space between yourself and your 
+competition for best results. 
+
+The best weapon to have is probably the chainsaw, if you can take out the punk 
+who has it. Unfortunately, it's hard to knock her down. If you have the 
+fertilizer, you can use that and she'll fall down almost immediately. It only 
+takes one hit from the chainsaw to knock down most bikers...
+
+When you come across a Vulture, you'll have to be quick, because this guy has a 
+tendency to speed away with his booster. The chain is the fastest weapon there
+is, so use that to knock him over, and you'll be set.
+
+At some point, you'll have to fight a Cavefish. This guy is tough. He doesn't 
+really fight back, but if you get too close, his bike shoots out oil or some 
+other slippery substance that makes you fall instantly. Use your board and get
+close enough to hit him but not enough for him to knock you down, and wait for 
+him to sit up. Then close in and whack him with your 2x4. The goggles are 
+yours.
+
+If you can't handle all of this and you want to be a big pansy, just hit Left 
+Shift and V to bypass the fight. If you do that, I don't like you. I just want
+you to know that.
+
+At this point, the only thing you need to get across the gorge is the ramp, 
+which is hidden in the Cavefish hideout. Travel the road until a picture of 
+the goggles appears in the upper-right corner of the screen, then hit the
+right mouse button to put them on. Keep an eye out for the word "cave" to
+appear in the lower left corner of the goggle viewing area, then hit enter or 
+click the left button to go in.
+
+Take your bike furger into the cave, and eventually you should come across the
+ramp. At this point, get off your bike and push the ramp. Hook it onto your 
+bike and drive out. at the next screen, unhook your ramp and push it again. It
+will remove the dots on the road that help the Cavefish navigate. Ben will 
+drive out of the cave, ramp in tow, and take it to the edge of the bridge. 
+
+At this point, you should have everything needed to jump the bridge. Hop onto 
+your bike, and Ben will take it back to the ranch to get a good start. Watch 
+the lovely stunt, then it's all over here. You're off to Corley Motorcyle 
+Factory.
+
+
+
+-------------------------------------------------------------------------------
+                                 Corley Motors
+-------------------------------------------------------------------------------
+When you arrive, go right towards the stadium, then go in. Tempting though it 
+is to buy a bunny now, you're broke. Pick up the joystick and play with the car
+a bit. The batteries will die, but that's OK. Look at the souvenirs behind
+Horrace to make Ben ask if they're 100% cotton. While Horrace checks, grab that
+bunny. You're still poor, so there's nothing left to do. Go back to your bike,
+climb on, and ride north. You'll come to a minefield. 
+
+Ever hear about that sixth sense animals seem to have when it comes to hidden
+mines? Put down your bunny and follow it. OK, so it doesn't work with 
+mechanical bunnies... Either way, it dropped its batteries. That's something, 
+isn't it? Pick them up and head back to Corley Motors, and then back to the 
+stadium. 
+
+Put your batteries into the car and drive it north, then take it through the
+turnstile. Horrace will go chasing after it, leaving Ben alone with the 
+bunnies. Snag that box under the souvenirs, then go back to the minefield.
+
+Let loose your minions, but pick them up before they can blow up. They won't
+make it all the way across, and you don't want to waste them, do you? Go back
+the stadium and lift another box, and head back to the minefield. Drop your box
+and let the bunnies go. They'll clear a big chunk of a path out, but not enough
+to let you cross. This is where you let the rest of the bunnies go...
+
+When all your bunnies have sacrificed themselves for the greater good, cross 
+the minefield to the Vulture's hideout, where you'll be accused of killing
+Corley. They'll string you to their bikes, but you'll have a chance to talk.
+Say "Let me go or else..." then proceed to tell her that you'll call her names.
+Tempting though some of them are, use Diapered Dynamo to get out of this mess.
+
+Maureen, who had the film, will go get the pictures developed, and apologize
+to Ben upon seeing Ripburger doing the bludgeoning. They'll then formulate a
+plot to fake Ben and Maureen's death. 
+
+When the unnecessarily violent demolition derby thing begins, hit the ramp on
+the left. Ben will land on the brown car, stalling it. You need to get to
+Maureen, who's in the yellow car, but Ripburger's friends in the blue car
+aren't letting you get past. You'll have to push the stalled brown car all the
+way over to the right. Shove it off the ramp on that side, then drive off it
+yourself. Ben will take out the Boom-Boom Brothers by landing on them, leaving
+him free to smash into Maureen. 
+
+Make Ben run around in his cute little asbestos suit. If you run along the 
+wall, you can set the stadium on fire. The spectators will run, but shortly 
+after, Bolus and Nestor will get their car started again, and use it to chase 
+after Ben, who will jump onto the brown car. When the blue car starts ramming 
+it, jump on. When you get the chance, run into the inferno that is your car, 
+and the blue car will follow.
+
+Back at the Vulture hideout, Ben will find Maureen digging through her dad's
+disassembled bike. She needs the key that was hidden in it, but it's nowhere
+to be found. Talk to her if you want. You'll find out that the reason Corley's
+been hiding her all these years is that Mrs. Corley isn't her mother. You can
+find the key on one of the parts. Just examine them, and you'll find a number.
+Ride back to the factory to try to find the passage. Mo will give you the 
+pictures on your way out, in case you get the chance to show them to anyone. 
+
+At the factory, head around to the back and wait for all the green flashing 
+things to turn black. Then look for a spot that would be eye-level to a six
+year-old and kick. The place you want to kick is on the left side. There is a
+cluster of chunks of wall that have been separated from the rest by the cracks
+surrounding them. The one you want is the second from the end. It's pretty 
+small. Kick it, and you're good to go. 
+
+In Corley's office, examine the floor safe in front of the desk. You're looking
+for a six digit number to input as the safe code. Those parts had a six digit 
+number on them. Did you write it down? If not, it's 154492. When you've entered
+the code, hit the square in the middle. You'll snag a card and a tape. Head out
+through the doorway to the right. The first door on the right is locked, so 
+slip the card you got out of the safe into the slot to the left of the door and
+go in.
+
+Flip both the switches on the side of the projector to halt Ripburger's 
+presentation. Flip the light switch twice. You'll ruin the machine. Bravo! 
+While she's fixing the machine, slip into the next room down the hall and 
+deposit your pictures onto the easel. You'll get a nice little slideshow of 
+Ripburger doing the killing. Looks like Ben's out of trouble. He'll play the
+tape from the safe for the audience. 
+
+
+
+-------------------------------------------------------------------------------
+                              The Highway (Again)
+-------------------------------------------------------------------------------
+Maureen will take over the stage, and Ripburger will run away. She'll tell her
+story, and she and Ben will take off on their way to get Mo's bike back. 
+Unfortunately, hey'll soon be overtaken by Rip in a semi. When he hits you, 
+you'll be hanging on for dear life. You've only got a few minutes before you 
+reach the broken bridge, so work quickly. If you fail, you'll have to start the 
+scenario over again. 
+
+Ben and his bike will be dangling from the front of the semi, but Maureen will 
+slip off. Fortunately, the Vultures aren't far behind, so flip up the grill on
+the front of the truck. The fan inside is blocking any further progress, and 
+your tire iron is too small to handle it. Flip up the panel above the grill and
+grab Rip's cane when he sticks it out. Jam the cane into the fan, and Ben will 
+slip through onto the back of the truck. Use your tire iron on the fuel line on 
+the far right to disconnect it. 
+
+Just when it looks like all is over for Ben, Maureen will crawl back onto the 
+front of the semi and save the day. The Vultures' disabled plane will sweep 
+them up, but they're still heading straight for the gorge. Climb up the ladder
+to get to the cockpit. 
+
+Once there, you'll find all the controls have been shot out. Activate the 
+screen that miraculously escaped Ripburger's bullets. Emergency though this is,
+it's landing gear that's keeping the plane moving. Go to the TAKEOFF menu and 
+hit the Post-Takeoff option. Then select Gear, and finally Raise Gear. The 
+plane will come to a screeching halt, and just in the nick of time. Crawl into 
+the cab of the semi and activate the screen. Go to the Main Menu and then to
+the Defense Systems menu, and choose the Machine Guns. Under the Controls menu, 
+turn the system off. Since Rip is dangling from one of the guns, this is the
+end for him. 
+
+Crawl back to the plane, which is about to self-destruct. The whole setup is
+severely unbalanced now that the Vultures are out of there, so you've only got
+a few seconds to run. Walk to the left side of the plane and hop on your bike,
+or you'll never make it out of there alive. Just as the plane crashes over the
+broken bridge, Ben will fly out of the flames like some daredevil stuntman
+type. Watch the ending scene, and it's all over. Congratulations.
+
+
+
+===============================================================================
+                         .:*~*:.  { 6.  FAQ }  .:*~*:.
+===============================================================================
+
+Q. Hey, who took my keys?
+`````````````````````````
+   Oh, I dunno... why don't you ask Quohog inside? He might know something. 
+   You'll have to get physical if you want him to talk, though.
+
+
+Q. I keep getting caught at the gas tower! How do I avoid the guards?
+`````````````````````````````````````````````````````````````````````
+   You'll have to hide in the shadows. Don't worry; the tower isn't the only
+   source of gas around here.
+
+
+Q. How do I get past the tower guards on the highway?
+`````````````````````````````````````````````````````
+   They're searching for the guy from the tower, so why not make them think
+   he's back there again?
+
+
+Q. How do I get past the road block?
+````````````````````````````````````
+   They're only letting people of authority through, so you'll have to find a
+   federal agent (or at least someone with the ID for it) to smuggle you past.
+   Miranda might be able to help.
+
+
+Q. I need a fake ID, but I can't find Miranda!
+``````````````````````````````````````````````
+   She's been disposed of the same way as most of Ripburger's victims. Go back 
+   to where the game began and look in the dumpster.
+
+
+Q. How do I get past the minefield?
+```````````````````````````````````
+   You've heard of that uncanny ability animals have for sneaking around 
+   landmines, right? You'll have to get your hand on some bunnies.
+
+
+Q. How do I stop my bunnies from exploding?
+```````````````````````````````````````````
+   Don't worry, they're mechanical. They aren't supposed to be able to tell the
+   difference. Let them go.
+
+
+Q. I ran out of bunnies before I got to the end. Where can I find some more?
+````````````````````````````````````````````````````````````````````````````
+   You can only carry one boxful at once, so you'll just have to carry a lot of
+   them separately. Then you can run back and grab another box and let that go.
+   And when they're all gone, you can let the rest of them go. Problem solved!
+
+
+Q. I keep running out of time at the end!
+`````````````````````````````````````````
+   What a pity. Try again. Work faster this time.
+
+
+Q. How can I ask you something else?
+````````````````````````````````````
+   Just email me at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c3a1a2ada2ada2b0b2b6aaa783aeb0adeda0acae">[email&#160;protected]</a>. Make sure your question hasn't been
+   answered already, though. And also make sure you don't have a virus or 
+   something before you email me. They make me sad.
+
+
+
+===============================================================================
+                   .:*~*:.  { 7. Revision History }  .:*~*:.
+===============================================================================
+
+v1.1 (06/25/02)
+```````````````
+ I lied. I fixed some weird spelling and grammar things, though. The world 
+ makes sense again.
+
+
+v1.0 (06/24/02)
+```````````````
+ This thing is about as complete as it ever will be. I'll probably send in a 
+ few more updates if people actually ask questions, though. 
+
+
+
+===============================================================================
+           .:*~*:.  { 8.  Copyright & Contact Information }  .:*~*:.
+===============================================================================
+This document is copyright 2002 Bananagirl (<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1476757a757a756765617d705479677a3a777b79">[email&#160;protected]</a>). 
+
+This document was written exclusively for use on the internet. It is not 
+intended to be used in any way that is profitable for anyone, including the 
+author. It is not to be reproduced in any way without express written permission 
+from the author. 
+
+The information found within the document is, to the best of the abilities and 
+knowledge of the author, 100% accurate. However, the possibility exists that 
+inaccurate information may be found within. Any errors (human, computer, or 
+otherwise) should be reported to the author as soon as possible. 
+
+Full Throttle and all characters, locations, etc., are trademarks of 
+LucasArts. The author makes no claim to the creation of these. This document 
+can only legally be found at http://www.gamefaqs.com.
+
+
+
+=============================================================================== 
+                    .:*~*:.  { 9. Credits/Thanks }  .:*~*:.
+=============================================================================== 
+Author 
+`````` 
+Bananagirl (<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="177576797679766466627e73577a64793974787a">[email&#160;protected]</a>) 
+
+
+Thanks to 
+````````` 
+LucasArts, for creating some of the funniest and best games ever published.
+
+Whoever wrote the guide that I used oh-so-many years ago when I was stuck on a
+few parts the first time I played the game. I don't know who you are, but 
+thanks anyway.
+
+Whoever else thinks they deserve my thanks, for whatever reason. Nothing dirty,
+though.
+
+
+
+-------------------------------------------------------------------------------
+
+                                        iLfj:
+                                        K   jf
+                                  ;LLfjjW    LLGLLf:
+                                 GDi;;;t#     W;;;;E;
+                                .ELLLL;tK     KLDfjLt
+                                     tGEi    f#t
+                                     D#f     E,
+                                    jWK  jLfLEf;
+                                   tWiWEKGj;;;;jD:
+                                 .GD;,,,,,;DEt;;iK
+                               .fKi,,,,tKttE.Dt;;Dt
+                             .fEt,,,,tDL,fG. .W;;Ki
+                          :tGGi,,,;LDf,iEt    K;tK
+                        tDLi,,;tLDGi,;DL.     jLE:
+                        iDfjfLft;,;fLj.
+                            #:,,,:##
+
+------------------------------------------------------------------------------- 
+                                                      Copyright 2002 Bananagirl 
+</pre>
+<hr>
+<EM><A HREF="../.."><FONT FACE="Discovery,Arial" color="orange">The Spoiler Centre</FONT></A></EM>
+<div><center><a href="https://rpggamers.com/walkthrough/" target="_blank">Walkthroughs on RPG Gamers</a> | <a href="https://rpggamers.com">RPG Gamers - RPG news</a> | <a href="https://www.justadventure.com">Just Adventure Games</a></center></div><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

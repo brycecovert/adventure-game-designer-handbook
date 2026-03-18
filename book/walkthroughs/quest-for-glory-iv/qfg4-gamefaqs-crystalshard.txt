@@ -1,0 +1,1092 @@
+# Quest for Glory IV: Shadows of Darkness - Walkthrough by CRYSTALSHARD
+# Source: GameFAQs (archived from archive.org)
+# Date archived: 2018
+
+<!doctype html>
+<html lang="en" class="js no-touch" itemscope>
+	<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness/faqs/75526","20190511092255","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1557566575");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+		<title>Quest For Glory IV: Shadows of Darkness Walkthrough for PC by CrystalShard - GameFAQs</title>
+
+				<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+
+				<meta name="description" content="For Quest For Glory IV: Shadows of Darkness on the PC, Walkthrough by CrystalShard."/>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta content="origin" id="mref" name="referrer"/>
+		
+		
+		
+		
+				
+					  		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  
+	  		<link href="https://web.archive.org/web/20190511092255cs_/https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Condensed|Roboto+Mono" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20190511092255cs_/https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		
+		<link href="/web/20190511092255cs_/https://gamefaqs.gamespot.com/css/v13.20190429212937.css" rel="stylesheet" type="text/css">
+		
+
+		
+				<link rel="canonical" href="https://web.archive.org/web/20190511092255/https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness/faqs/75526"/> 
+		
+				<base href="/web/20190511092255/https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness/faqs/75526"/> 
+		
+		
+		<meta name="dwPageParams" content="{&quot;siteid&quot;:19,&quot;ptid&quot;:6468,&quot;onid&quot;:37,&quot;pid&quot;:&quot;565083&quot;,&quot;familyid&quot;:&quot;39951&quot;,&quot;prodtypid&quot;:8,&quot;genre_id&quot;:23351,&quot;category_id&quot;:&quot;257&quot;,&quot;oid&quot;:&quot;6468-37-19-565083-75526&quot;,&quot;cid&quot;:75526,&quot;conttypid&quot;:9,&quot;useract&quot;:178,&quot;xref&quot;:&quot;https:\/\/gamefaqs.gamespot.com\/pc\/565083-quest-for-glory-iv-shadows-of-darkness\/faqs&quot;,&quot;edid&quot;:107,&quot;pguid&quot;:&quot;4a8d8b568f58e78e3050887d6cea5cde&quot;,&quot;url&quot;:&quot;http:\/\/gamefaqs.gamespot.com\/pc\/565083-quest-for-glory-iv-shadows-of-darkness\/faqs\/75526&quot;,&quot;ts&quot;:1557566575}"/>
+<meta name="o2PageParams" content="{&quot;account&quot;:&quot;cbsigamefaqssite&quot;,&quot;cloud_id&quot;:&quot;10D31225525FF5790A490D4D@AdobeOrg&quot;,&quot;channel&quot;:&quot;Games&quot;,&quot;site&quot;:&quot;gamefaqs&quot;,&quot;urs_id&quot;:null,&quot;hier1&quot;:&quot;Games|Game|FAQs|FAQ|Text&quot;,&quot;list1&quot;:null,&quot;products&quot;:&quot;;565083&quot;,&quot;evars&quot;:{&quot;1&quot;:&quot;Gamefaqs&quot;,&quot;2&quot;:&quot;ww&quot;,&quot;3&quot;:&quot;gamefaqs-desktop&quot;,&quot;5&quot;:&quot;cbsigamefaqssite&quot;,&quot;6&quot;:&quot;Games|Game|FAQs|FAQ|Text&quot;,&quot;7&quot;:&quot;D=g&quot;,&quot;10&quot;:&quot;game_faq_text&quot;,&quot;11&quot;:&quot;Games:game_faq_text&quot;,&quot;12&quot;:6468,&quot;15&quot;:&quot;false&quot;,&quot;20&quot;:&quot;Quest For Glory IV: Shadows of Darkness (PC) - Walkthrough by CrystalShard&quot;,&quot;22&quot;:&quot;faq&quot;,&quot;41&quot;:&quot;&quot;,&quot;50&quot;:&quot;5:00AM&quot;,&quot;51&quot;:&quot;Saturday&quot;,&quot;63&quot;:&quot;565083&quot;,&quot;64&quot;:&quot;quest-for-glory-iv-shadows-of-darkness|quest-for-glory&quot;,&quot;66&quot;:&quot;Role-Playing|General&quot;},&quot;page_event&quot;:null}"/>
+<meta id="ad-settings" itemprop="ad-settings" content="{&quot;script&quot;:&quot;\/\/www.googletagservices.com\/tag\/js\/gpt.js&quot;,&quot;target_params&quot;:{&quot;game&quot;:&quot;quest-for-glory-iv-shadows-of-darkness&quot;,&quot;ptype&quot;:&quot;game_faq_text&quot;,&quot;franchise&quot;:&quot;quest-for-glory&quot;,&quot;genre&quot;:&quot;Role-Playing,General&quot;,&quot;publisher&quot;:&quot;Sierra Entertainment&quot;,&quot;score&quot;:&quot;86&quot;,&quot;user&quot;:&quot;anon&quot;,&quot;session&quot;:&quot;g&quot;,&quot;rdate&quot;:&quot;bp52&quot;,&quot;cid&quot;:&quot;faq-75526&quot;,&quot;firstpg&quot;:0},&quot;unit_name&quot;:&quot;\/8264\/aw-gamefaqs&quot;,&quot;deferred&quot;:true,&quot;service&quot;:&quot;dart&quot;,&quot;client&quot;:&quot;xfp&quot;,&quot;load_in_head&quot;:&quot;gpt&quot;,&quot;single_request&quot;:true,&quot;disable_initial_load&quot;:true,&quot;enable_callback&quot;:true,&quot;enable_collapse_empty_divs&quot;:false,&quot;slot_order&quot;:[&quot;skybox-nav&quot;,&quot;leader_top&quot;,&quot;leader_plus_top&quot;,&quot;mpu_top&quot;,&quot;mpu_plus_top&quot;,&quot;interstitial&quot;,&quot;native-top&quot;,&quot;incontent-ad&quot;,&quot;mpu_bottom&quot;,&quot;leader_bottom&quot;],&quot;mapped_units&quot;:{&quot;skybox-nav&quot;:{&quot;size&quot;:[[5,5]],&quot;target&quot;:{&quot;pos&quot;:&quot;nav&quot;}},&quot;leader_plus_top&quot;:{&quot;size&quot;:[[728,90],[970,66],[970,150],[970,250],[960,150]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;leader_top&quot;:{&quot;size&quot;:[[728,90],[970,66]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;leader_bottom&quot;:{&quot;size&quot;:[[728,90],[970,66]],&quot;target&quot;:{&quot;pos&quot;:&quot;bottom&quot;}},&quot;mpu_plus_top&quot;:{&quot;size&quot;:[[300,250],[300,600],[300,100]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;mpu_top&quot;:{&quot;size&quot;:[[300,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;mpu_bottom&quot;:{&quot;size&quot;:[[300,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;bottom&quot;}},&quot;native-top&quot;:{&quot;size&quot;:[[11,11],&quot;fluid&quot;],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;incontent-ad&quot;:{&quot;size&quot;:[[321,31],[11,11],&quot;fluid&quot;],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;interstitial&quot;:{&quot;outOfPage&quot;:true}}}"/>
+<meta id="view-guid-meta" name="view-guid-meta" itemprop="view-guid" content="4a8d8b56-8f58-4e78-e305-0887d6cea5cd">
+<meta id="bsm-pub-zone-meta" name="bsm-pub-zone-meta" itemprop="bsm-pub-zone" content="gamefaqs.com/nucleus">
+<meta id="bsm-sizes-meta" name="bsm-sizes-meta" itemprop="bsm-sizes" content="728x90 300x250">
+
+
+
+
+		
+				<script type="text/javascript" src="/web/20190511092255js_/https://gamefaqs.gamespot.com/js/jquery_gf.20190429212942.js"></script>
+		<script type="text/javascript" src="/web/20190511092255js_/https://gamefaqs.gamespot.com/js/gamefaqs.20190429212942.js"></script>
+						<script type="text/javascript">window._taboola=window._taboola || []; _taboola.push({other:'auto'}); function setUpAgknTag(tag){tag.setBpId("cbsinteractive");}var _gaq = _gaq || [];  _gaq.push(['nT._setAccount', 'UA-27653683-1']);  _gaq.push(['nT._setAllowLinker', true]); _gaq.push(['nT._setSampleRate', '1']); _gaq.push(['nT._trackPageview']); _gaq.push(['_setAccount', 'UA-22577913-2']); _gaq.push(['_setSampleRate', '5']); _gaq.push(['_setCustomVar',1,'PageType','6468',3]); _gaq.push(['_setCustomVar',2,'LoggedIn','No',2]); _gaq.push(['_setCustomVar',3,'UserLevel','0',3]); _gaq.push(['_setCustomVar',4,'FAQType','txt',3]);  _gaq.push(['_trackPageview']); </script>
+		
+		
+		
+	  
+	  <script type="text/javascript">
+	    (function(id){
+	    function append(scriptid,url,async){var d=document,sn='script',f=d.getElementsByTagName(sn)[0];if(!f)f=d.head;var s=d.createElement(sn);s.async=!0;s.id=scriptid;s.src=url;f.parentNode.insertBefore(s,f)}
+	  window.evidon={}; window.evidon.id=id; append('evidon-notice','//web.archive.org/web/20190511092255/https://gamefaqs.akamaized.net/js/sitenotice/evidon-sitenotice-tag.js',!1); append('evidon-location','//web.archive.org/web/20190511092255/https://c.evidon.com/geo/country.js',!0); append('evidon-themes','//web.archive.org/web/20190511092255/https://gamefaqs.akamaized.net/js/sitenotice/425/snthemes.js',!0); append('evidon-settings','//web.archive.org/web/20190511092255/https://gamefaqs.akamaized.net/js/sitenotice/425/gamefaqs/settings.js',!0); window.evidon.priorConsentCallback=function(){
+											append('google-analytics', "//web.archive.org/web/20190511092255/https://www.google-analytics.com/ga.js", true);
+			 
+			}
+				  window.evidon.closeCallback=function(){}
+				  window.evidon.consentWithdrawnCallback=function(){}})(425)
+	  		</script>
+
+	</head>
+	<body class="  wf-active">
+		<div id="fullscreen_overlay"></div>
+				<div class="wrapper g_file p_565083 s_pc">
+						<div id="menubutton" class="menubutton" onclick="topnav_side_open();"><i class="fa fa-bars"></i> Menu</div><div class="sidenav" id="sidenav"><div class="sidenav_div"><div id="menuclose" class="menuclose" onclick="topnav_side_close();"><i class="fa fa-times fa-2x"></i></div><ul class="sidenav_menu"><li><a href="/web/20190511092255/https://gamefaqs.gamespot.com/">Home</a></li><li><a href="/web/20190511092255/https://gamefaqs.gamespot.com/answers">Answers</a></li><li><a href="/web/20190511092255/https://gamefaqs.gamespot.com/boards">Boards</a></li><li><a href="/web/20190511092255/https://gamefaqs.gamespot.com/community">Community</a></li><li><a href="/web/20190511092255/https://gamefaqs.gamespot.com/contribute">Contribute</a></li><li><a href="/web/20190511092255/https://gamefaqs.gamespot.com/games">Games</a></li><li><a href="/web/20190511092255/https://gamefaqs.gamespot.com/new">What&rsquo;s&nbsp;New</a></li><li><a href="/web/20190511092255/https://gamefaqs.gamespot.com/games/systems">Systems</a></li><ul class="sidenav_submenu"><li><a href="/web/20190511092255/https://gamefaqs.gamespot.com/3ds">3DS</a></li><li><a href="/web/20190511092255/https://gamefaqs.gamespot.com/android">Android</a></li><li><a href="/web/20190511092255/https://gamefaqs.gamespot.com/iphone">iOS</a></li><li><a href="/web/20190511092255/https://gamefaqs.gamespot.com/pc">PC</a></li><li><a href="/web/20190511092255/https://gamefaqs.gamespot.com/ps3">PlayStation&nbsp;3</a></li><li><a href="/web/20190511092255/https://gamefaqs.gamespot.com/ps4">PlayStation&nbsp;4</a></li><li><a href="/web/20190511092255/https://gamefaqs.gamespot.com/switch">Switch</a></li><li><a href="/web/20190511092255/https://gamefaqs.gamespot.com/vita">Vita</a></li><li><a href="/web/20190511092255/https://gamefaqs.gamespot.com/xbox360">Xbox 360</a></li><li><a href="/web/20190511092255/https://gamefaqs.gamespot.com/xboxone">Xbox One</a></li></ul></ul></div></div><div class="masthead"><div class="masthead_strip"><div class="container row"><nav class="masthead_systems"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/3ds">3DS</a><a class="notab" href="/web/20190511092255/https://gamefaqs.gamespot.com/android">Android</a><a class="notab" href="/web/20190511092255/https://gamefaqs.gamespot.com/iphone">iOS</a><a href="/web/20190511092255/https://gamefaqs.gamespot.com/pc">PC</a><a class="notab" href="/web/20190511092255/https://gamefaqs.gamespot.com/ps3">PS3</a><a href="/web/20190511092255/https://gamefaqs.gamespot.com/ps4">PS4</a><a href="/web/20190511092255/https://gamefaqs.gamespot.com/switch">Switch</a><a class="notab" href="/web/20190511092255/https://gamefaqs.gamespot.com/vita">Vita</a><a class="notab" href="/web/20190511092255/https://gamefaqs.gamespot.com/xbox360">Xbox 360</a><a href="/web/20190511092255/https://gamefaqs.gamespot.com/xboxone">Xbox One</a><span class="masthead_platform_drop"><a class="mast_nav_last" href="/web/20190511092255/https://gamefaqs.gamespot.com/games/systems">More&nbsp;Systems <i id="sysdrop_down" class="fa fa-caret-down"></i><i id="sysdrop_up" class="fa fa-caret-up"></i></a><ul id="sysdrop" class="masthead_platform_subnav"><li class="gotab masthead_platform_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/android">Android</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/arcade">Arcade</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/ds">DS</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/dreamcast">Dreamcast</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/gba">Game Boy Advance</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/gamecube">GameCube</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/genesis">Genesis</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/iphone">iOS</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/nes">NES</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/n64">Nintendo 64</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/ps">PlayStation</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/ps2">PlayStation 2</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/ps3">PlayStation 3</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/psp">PSP</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/snes">Super Nintendo</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/vita">Vita</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/wii">Wii</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/wii-u">Wii U</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/xbox360">Xbox 360</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/xbox">Xbox</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/games/systems">And 99 More...</a></li></ul></span></nav><div class="masthead_user" data-step="9" data-intro="Now that you've seen what we have to offer, you can register an account for free to have complete access to all of our great community features. If you already have an account, you can log in here as well.">
+	<a href="/web/20190511092255/https://gamefaqs.gamespot.com/user/login" onclick="return show_login();"><i class="fa fa-key nouser"></i>Log In</a>
+	<a href="/web/20190511092255/https://gamefaqs.gamespot.com/user/register" onclick="return show_signup('header');" class="nouser">Sign Up</a>
+</div>
+<div id="login_dialog">
+<div class="pod">
+	<div class="head"><h2 class="title">Log In to GameFAQs</h2></div>
+	<div class="body">
+
+<form class="login" id="login" method="post" action="/web/20190511092255/https://gamefaqs.gamespot.com/user/login" onsubmit="return submit_login();"><input type="hidden" name="path" value="/pc/565083-quest-for-glory-iv-shadows-of-darkness/faqs/75526"/><input class="hidden" type="hidden" name="key" value="0459c70b">
+	<table class="contrib">
+
+	<tr>
+	<td>
+	<input class="text login_email" id="login_email" type="text" name="EMAILADDR" maxlength="90" placeholder="Username/Email"/>
+	</td>
+	</tr>
+	
+	<tr>
+	<td>
+	<input class="text login_password" id="login_password" type="password" name="PASSWORD" maxlength="64" placeholder="Password"/>
+	</td>
+	</tr>
+	
+	<tr>
+	<td>
+	<input id="kmli" type="checkbox" name="kmli" checked="CHECKED"/><label for="kmli"> Keep me logged in on this device</label>
+	</td>
+	</tr>
+
+	<tr><td>
+	
+	<input class="btn btn_primary btn_wide login_submit" id="login_submit" type="submit" value="login"/>
+	
+	</td></tr>
+	<tr><td>
+	
+	<a href="/web/20190511092255/https://gamefaqs.gamespot.com/user/recover">Forgot your username or password?</a><br/><br/>
+	<a href="/web/20190511092255/https://gamefaqs.gamespot.com/user/register" onclick="$('#login_dialog').dialog('close'); return show_signup('login_box');">Don't have an account? Sign up for free!</a>
+	
+	</td></tr>
+	</table>
+	
+</form>
+
+</div>
+</div>
+</div>
+
+
+</div></div><div class="masthead_main container row"><div class="masthead_logo_search"><div class="masthead_logo" data-step="1" data-intro="Welcome to GameFAQs, your one-stop site for gaming guides, cheats, and more. If you're ever lost on the site, you can click this logo to get back to the home page at any time."><a href="/web/20190511092255/https://gamefaqs.gamespot.com/">GameFAQs</a></div><div class="masthead_search"><form class="search" method="get" action="/web/20190511092255/https://gamefaqs.gamespot.com/search" data-step="2" data-intro="You can use this box to search our extensive database of games. There are quick links to all of the content we have for the game directly from the search results."><fieldset><button type="submit"><i class="fa fa-search"></i></button><input type="text" id="searchtextbox" name="game" value="" class="search" placeholder="Search Game Titles"/></fieldset></form></div></div><div class="masthead_nav"><nav><a href="/web/20190511092255/https://gamefaqs.gamespot.com/answers" data-step="3" data-intro="If you have a specific question for a game, you can ask it here and see if our users can answer it for you.">Answers</a><a href="/web/20190511092255/https://gamefaqs.gamespot.com/boards" data-step="4" data-intro="We have a unique message board for every version of every game in our extensive database, combining into the largest gaming message board on the Net.">Boards</a><a class="navtrim" href="/web/20190511092255/https://gamefaqs.gamespot.com/community" data-step="5" data-intro="GameFAQs wouldn't be what it is without our active community of users contributing content and conversations. See what your friends are up to, or browse through various categories of users like our top contributors here.">Community</a><a class="navtrim" href="/web/20190511092255/https://gamefaqs.gamespot.com/contribute" data-step="6" data-intro="If you'd like to contribute your own guides, reviews, or cheats for a game, this is the place to go. We accept many other types of content as well from trivia to game credits. You can find a full list and all of the guidelines for submitting content here.">Contribute</a><a class="navtrim" href="/web/20190511092255/https://gamefaqs.gamespot.com/games" data-step="7" data-intro="Explore our comprehensive library of games. Find out what's popular on the site or see how we rank games based on difficulty, length, and more.">Games</a><a class="notab" href="/web/20190511092255/https://gamefaqs.gamespot.com/new" data-step="8" data-intro="If you're wondering what games are coming out soon, or what content we've posted recently, this is the place to look.">What&rsquo;s New</a><a class="search_link" onclick="topnav_show_search();"><i class="fa fa-2x fa-search" title="Search"></i></a></nav></div></div></div>
+			
+			
+						
+			
+									
+						<div id="mantle_skin">
+												
+								<div id="content" class="container">
+
+					
+															
+															
+																<div class="post_content row">
+							<div class="span12">
+								<header class="page-header"><div class="header_split"><div class="header_left"><div class="header_image" style="background-image:url(https://web.archive.org/web/20190511092255im_/https://gamefaqs.akamaized.net/box/8/7/9/25879_thumb.jpg)"></div></div><div class="header_right"><h1 class="page-title">Quest For Glory IV: Shadows of Darkness &ndash; Walkthrough</h1><h4 class="platform-title"><span class="header_more">PC</span></h4></div></div></header><nav id="js_content_nav" class="content_nav_wrap"><div class="content_nav_imp_wrap"><div class="cnav_imp cnav_faqs cnav_item_active"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness/faqs">FAQs</a></div><div class="cnav_imp cnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness/answers">Answers</a></div><div class="cnav_imp cnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/boards/565083-quest-for-glory-iv-shadows-of-darkness">Board</a></div><div id="js_content_nav_toggle" class="content_nav_label">More</div></div><ol class="content_nav content_nav_split"><li class="cnav_item cnav_has_drop"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness">Home</a><ol class="content_subnav"><li class="csubnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness">Summary</a></li><li class="csubnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness/data">Release Data</a></li><li class="csubnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness/credit">Game Credits</a></li><li class="csubnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness/playing">Also Playing</a></li><li class="csubnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness/stats">Collection Stats</a></li><li class="csubnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness/trivia">Game Trivia</a></li></ol></li><li class="cnav_imp cnav_item_active"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness/faqs">FAQs</a></li><li class="cnav_item cnav_has_drop"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness/reviews">Reviews</a><ol class="content_subnav"><li class="csubnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness/reviews">Reader Reviews</a></li><li class="csubnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness/critic">Critic Reviews</a></li></ol></li><li class="cnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness/images">Images</a></li><li class="cnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness/videos">Videos</a></li><li class="cnav_imp cnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness/answers">Answers</a></li><li class="cnav_imp cnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/boards/565083-quest-for-glory-iv-shadows-of-darkness">Board</a></li></ol></nav>
+
+<script type="text/javascript">
+$('#js_content_nav_toggle').click(function()
+{
+	$('.content_nav_wrap').toggleClass('content_nav_open');
+});
+</script>
+
+
+
+		
+<div id="faq_header_wrap">
+	<div id="faq_header">
+		<div id="home_links">
+			<a class="gfaqs_icon" href="/web/20190511092255/https://gamefaqs.gamespot.com/"><img src="/web/20190511092255im_/https://gamefaqs.gamespot.com/images/default/g_v13_dark.png" alt="GameFAQs"/></a>
+			<a class="search_mobile"><i class="fa fa-search"></i></a>
+		</div>
+		<div id="faq_search_module">
+			<div class="head">
+				<span class="search_head_mobile">What do you need help on?</span>
+				<span class="search_close" onclick="dismiss_faq_search_results(0);">Cancel X</span>
+			</div>
+			<fieldset id="faq_search">
+				<button disabled><i class="fa fa-search"></i></button>
+				<input type="text" id="faq_search_input" size="80" maxlength="80" placeholder="Search this Guide for" value=""/>
+			</fieldset>
+			<div id="faq_search_results">
+				<table id="results_table"></table>
+			</div>
+		</div>
+				<div id="faq_bookmark" onclick="set_bookmark(0);">
+			<i class="fa fa-bookmark"></i><span class="bm_inner"><br/>BOOKMARK</span>
+		</div>
+		<div class="faq_bookmark_jumper">
+			<div class="bm_jumper_inner">
+			Jump to:
+						</div>
+		</div>
+	</div>
+	<div id="contrib_rec">
+		<div id="rec_inner">
+			<div id="rec_one">
+				<span class="rec_text">Would you recommend this Guide?</span>
+				<a class="rec_yes" onclick="set_rec_val(1);rec_submit(75526, 1, 1);">Yes</a>
+				<a class="rec_no" onclick="set_rec_val(2);rec_submit(75526, 1, 2);">No</a>
+				<input type="hidden" name="recval" id="recval"/>
+				<span class="rec_hide" onclick="$('#contrib_rec').remove();$('#faq_header_wrap').addClass('rec_closed');">Hide <i class="fa fa-times"></i></span>
+			</div>
+			<div id="rec_two">
+				<textarea class="rec_comment" name="comment" maxlength="140" rows="2" placeholder="How did you find this guide helpful? (140 character max)"></textarea>
+				<a class="rec_send" onclick="rec_submit(75526, 1, 3);">Send</a>
+				<a class="rec_skip" onclick="hide_rec();">Skip</a>
+				<span class="rec_hide" onclick="$('#contrib_rec').remove();$('#faq_header_wrap').addClass('rec_closed');">Hide <i class="fa fa-times"></i></span>
+			</div>
+			<div id="rec_three">
+				<a class="rec_sent"><i class="fa fa-check"></i>&nbsp;&nbsp;Message Sent</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<a class="top_link" onclick="page_top();"><i class="fa fa-arrow-up"></i></a>
+
+<div class="pod">
+	<div class="body ffaq">
+		<h2 class="title">Walkthrough by <a class="contrib1" href="/web/20190511092255/https://gamefaqs.gamespot.com/community/CrystalShard">CrystalShard</a></h2>
+		<p><b>Updated:</b> 01/21/18</p>	</div>
+</div>
+
+
+
+<div id="faqwrap" class="ffaq">
+	<pre class="faqtext" id="faqtext"><span id="faqspan-1">Quest for Glory IV: Shadows of Darkness - Walkthrough
+
+This solution assumes you haven't taken any foreign skills - that is, none
+other than those standard for the class. If you add any new skills it makes
+the game less fun and challenging. Imho.
+Paladins use the fighter solution. You can play one if you brought a non-
+thief character in from QfG2 or 3 and did the right things. It's basically a
+fighter that can sense danger (but you could also watch when the autosave is
+triggered, or the music changes), fight even better yet (flame weapon and
+honor shield) and heal himself (but you can buy plenty of healing potions
+since you don't need money anyway). So I wouldn't bother if I were you. Oh,
+if you play a Wizard and become a Paladin, you have just become a fighter
+with prodrigous magic skill.
+
+---Cave of Shadows---
+All: Search the three bodies. Light the torches using the flint (or a Flame
+  Dart), then take the rightmost one. Open the door.
+Fighter: Take sword and shield. Cross the rope hand over hand.
+Wizard: Take cloth. Near the chasm, cast Levitate. This doesn't work, so use
+  the cloth for a sail, then cast Levitate again.
+Thief: Walk the tightrope.
+All: Leave the cavern. Katrina will greet you, then leave. You'll meet her
+  again later. You should go to town now; it's six screens north, one east.
+
+---Town---
+All: The first thing you see is Erana's staff. Try and pick it up. Then, go
+  and speak to everybody. Also buy everything you can buy in the shop, and
+  lots and lots of rations. Ask Igor about the guildhouse, then get the key
+  from the burgomeister. You can train strength and climbing in there, and of
+  course write your name in the guest book. Be sure to read all books on the
+  shelf.
+Fighter: Smash the showcase to get the fine sword. Also get the rope.
+Thief: Just get the rope, forget about the sword. Now swing the rope to the
+  ceiling hook and climb it. Note the scribbling in the wood. Then look at
+  the painting above the bookshelf, and under the desk. Note the combination
+  of hooks. Turn the clothing hooks next to the bookshelf to open the secret
+  passage, then climb into the Thief Guild.
+  First thing to take is the guild card; it opens the door to the left. Read
+  the books on the shelf; now you can disarm the trap on the desk. Also check
+  out the wall underneath the safe, both paintings and both drain grates. Use
+  the dial on the safe; now open it with the combination FILCH (doh). Use the
+  lockpick on the desk and read the book, now open both safes with the thief
+  kit. Finally move the barrel and use the mechanism underneath. The code is
+  in the book - blue blue yellow, green green green, red green red. Talk to
+  the master, er, thief. You can use the exit behind him to get out of town
+  if you want, but you could also have climbed the gate. By the way climbing
+  out of your inn room window scores extra points.
+All: Dr. Cranium's house is a large puzzle. First is the doorbell; just
+  repeat the sequence shown. Next is a sliding puzzle on the far door. Then
+  open the right door. Use the TRAP and identify your animal as a baby
+  antwerp. Put a sandwich as bait in the TRAP, then open the left door and
+  maneuver the antwerp to the key and to the exit. Use the TRAP again and
+  identify a hexapod. Now open the north door and go speak to Dr. Cranium.
+  Also ask for a couple of empty flasks. You can buy healing and curing
+  potions here (this is copy protected, though). You needn't actually bother
+  though, as you'll find a couple of heals and you don't really need cures.
+Wizard: Ask for magic and you'll be given the Glide spell.
+All: Next stop is the monastery in town. You can open the door with the Dark
+  One symbol.
+Fighter: You can also climb into the building via the window. Climb to the
+  black bird statue in between the windows. If you're really strong you
+  can force the cabinet open. Feed the hexapod some garlic to calm it.
+Wizard: You can also Levitate into the building, but you cannot get out
+  unless you have climbing skill. Fetch the black bird statue from in between
+  the windows. Destroy the hexapod by Force Bolting it several times. You
+  can't open the cabinet. There's only a healing potion inside anyway.
+Thief: You can also climb into the building via the window. Climb to the
+  black bird statue in between the windows. Pick the lock to the cabinet for
+  a healing potion. Feed the hexapod some garlic to calm it.
+All: Open the secret passage by pulling the right lever near the fireplace.
+  Drink from the vat down there, and take the Ritual. Open the desk (i.e.
+  force it, cast Open or check for traps) and read the book. The one in the
+  desk, I meant, not the necrophilicon!
+Thief: There's also a statue to steal downstairs. You are not to touch it
+  with your bare hands, so use the shopping bag to carry it back to the guild
+  and give it to the master thief.
+
+---Woodlands---
+All: Pick some flowers, then locate the Rusalka in the lake at the southwest
+  and give her the flowers. Now you can talk to her. Also speak to the
+  gatekeeper at the castle gate. He and the shopkeeper in town have a lot to
+  say about one another, so you can keep going in between until their dialog
+  is over. Now find six wiggly bushes and touch them to reveal the Leshy.
+  That name is also the answer to his first riddle. Leave and return. Return
+  to the swamp and take a bone from underneath the tree, then go to the Dark
+  One pillar.
+Fighter/Thief: Use the rope on the bonsai bush until it's loose, then climb
+  to the platform above it with the rope and fetch the bush, again, with the
+  rope. You may not be able to do all this yet, as it requires good throwing,
+  climbing and strength scores respectively. If it doesn't work, train in
+  town then return later.
+Fighter: You can climb back up to the cave by pushing the obelisk.
+Wizard: Force Bolt the rocks under the bonsai bush until it's loose, then
+  fetch the bush. You can climb back up by Triggering the obelisk.
+Thief: You can climb back up to the cave via the center platform, then by
+  jumping to the topmost one.
+All: Get some goo in an empty flask. You'll need two portions, three if
+  you're a wizard. Now wait until nightfall. In the swamp, use some candy on
+  the ground near the will-o-wisps, then catch them in a bottle. Go to the
+  Dark One pillar nearby and use the wisps on it, then use the Symbol on it
+  and turn it to A-V-O-O-Z-L in that order to get a part of the Ritual.
+  There's also a ghost in the forest. Talk to her and help her. Return and do
+  this again a couple of times until she understands she's a ghost. Now go to
+  Erana's Garden and plant the bonsai bush in the hole. By the way there's
+  some gold in the left lantern.
+Wizard: Fetch a fruit from the tree. It restores your mana when you eat it.
+  You can get one every day. Also, south of Erana's is a fountain. If you
+  drink from it, a faerie will speak to you - once...
+  You can get a ritual here.
+All: Sleep at Erana's often, as this reveals a dream sequence.
+
+---Baba Yaga---
+All: Return to town. Talk to the old man about his ghostly wife, and he'll
+  leave. There should be a gnome in the inn, during the evening hours. Speak
+  to him, then go to his room the next day and hear him out. Get some corn
+  from just outside town. At night, meet the ghost (now ghosts) again twice,
+  and get the male ghost's hat.
+  Return to the Leshy. The answer to the next question is Rusalka. He'll tell
+  you about somebody hiding behind a bush. That would be to the southeast.
+  Talk to the bush to make it vanish.
+Wizard: Detect reveals which bush it is, and Trigger causes it to disappear
+  even before you've spoken to the Leshy.
+All: This is Baba Yaga's hut. Speak to the skull a lot, and mention the
+  gnome. He'll agree to let you pass if you give him the hat. Now give the
+  hut some corn and enter. Baba Yaga wants you to make a pie, so go and do it
+  or you'll be eaten instead. Locate the vampiric elderbury bush.
+Fighter/Thief: Throw rocks at the bush until berries fall off, and take them.
+Wizard: Force Bolt the bush until some berries fall off. Fetch them.
+All: Return to Baba Yaga. Use the bone in the grinder, then take it out in a
+  potion bottle. Put the ground bone, berries and swamp goo in the pie pan,
+  then use it on a skull to fry it. Enter the hut. You can get a gift of your
+  choice and are thrown out. Enter again and give Baba some goo to get the
+  next gift; there's two gifts, three for a wizard.
+  Return to the Leshy. The answer to the next questions are, Baba Yaga and
+  Elderbury.
+Fighter/Thief: The final answer is Wraith. Return here one last time, and the
+  Leshy will be gone.
+Wizard: The final answer is Erana's Staff. Return one last time, too.
+All: Return to town and feed the gnome the Good Humor Bar. You can meet him
+  one last time in the inn at night, and he'll be gone too.
+Fighter/Thief: At night, you can climb into the old man's house east in town.
+  Look in both sides of the closet, and the desk, for some gold and a potion.
+Wizard: Same here, except you Levitate instead of climbing.
+Thief: You can pick the chest to obtain a locket. Also, you can break into
+  the burgomaster's house via the window. Pick the lock to his desk for some
+  more gold. If you tell the master thief about your ventures he'll be real
+  proud.
+
+---Gypsies---
+All: By now you may have met Katrina at the town gate at dusk. You can talk
+  to her, which is fun but not that useful. After a while she agrees to meet
+  you at the castle gate, and then she'll ask you for a favor. Ask for
+  details. She always leaves after three questions though.
+  Another thing to wait for is a gypsy. One day a gypsy will be in town,
+  in the prison cell. Hear everybody out, then go to the graveyard. 
+Fighter: Just lift the gravestone.
+Wizard: Cast a Fetch spell on the gravestone.
+Thief: Use the rope on the tree for extra leverage to lift the stone.
+All: One or two days from now you'll be allowed into the gypsy camp. You can
+  speak to the fortune teller every day and get some more story background 
+  and hints. Also she gives you something to protect you from an undead's
+  life drain (either an amulet or the Aura spell).
+  Some day you have to go out at night and defeat all five wraiths. Without
+  their life drain they're not so tough. Search their vaults for a lot of
+  treasure, a plate mail armor, and another Ritual (unless you're a wizard).
+  The next Ritual is in the swamp tomb.
+Fighter: One of the wraiths has a battle axe, which is a better weapon. Your
+  strength should be high enough to enter the swamp without killing yourself.
+  Walk around until you find the tomb. You need to kill two chernovy.
+Wizard: Use the Glide spell to pass the swamp. Also cast Reversal as soon as
+  you see the chernovy. The fight shouldn't be too hard, as long as you keep
+  shooting large fireballs etc, which will absorb their small ones.
+Thief: Jump from one solid spot to another to get past the swamp. There's
+  only one chernovy this time.
+All: Use the Dark One symbol on the crypt pillar, then solve the puzzle to
+  get the Ritual. Apparently the code is 'Avoozl' again, but it doesn't do
+  much - I am told you have to try it a dozen times or so. However you can
+  also pass the puzzle by clicking beside it ten times.
+
+---Castle---
+All: Get Igor's crypt key. Now you can enter the crypt in the graveyard.
+Wizard: Alternately, you could have cast Open on it.
+All: Down in the crypt, use the crest on the floor to spell BORGOV in colors
+  (blue, orange, etc.) then unlock the rightmost relief to enter the castle.
+Thief: Most doors in the castle are locked, so you'll have to pick them.
+All: The castle is large but doesn't have much of interest inside. There's
+  a chest on the first floor, and on the ground floor. Both are trapped, and
+  the second is guarded by a wraith. Neither contains much of interest. At
+  night, you can overhear a conversation in the lower hall (do not forget to
+  oil the door first!) and you can speak to Tanya in her bedroom. There's
+  also some goons guarding the jail. The secret passages in the castle can be
+  opened by 1.touching the bent rightmost candle, 2.turning the borgov crest
+  above a bookshelf, and 3.spelling EXIT on the books in the library
+Wizard: There's a fourth secret door that you can open by casting Open on a
+  wall in the bedroom. This leads to the library (opposite of the EXIT door).
+All: Go to the inn room late at night. You can do this either by sleeping for
+  a couple of hours in your room, or by climbing/levitating inside when it's
+  late. Speak to the domovoi. Return the next day and speak to him again.
+  Now go to Dr. Cranium and buy the rehydration solution; this is also copy- 
+  protected. Enter the monastery and use the solution on the local domovoi.
+  Now that you're done here you can burn the monastery to the ground, by
+  using the torch, tinderbox or Flame Dart spell on the carpet.
+  Return to the inn and speak to that domovoi, then take the doll from the
+  closet. Bring the doll to Tanya in the castle, and tell her about the
+  sacrifice to be made. If you don't have this option, you have to click on
+  Erana's staff and then ask the gypsy Magda about it.
+Wizard: You now have the Summon Staff spell back.
+All: Go speak to the gypsies again, asking about the dark one. Keep this up
+  every day until you get a meaningful answer. Sleep in the inn at night,
+  until you get a note from Katrina. When you do, go to the meeting place and
+  you'll meet Ad Avis. No matter what you try you'll get captured and thrown
+  in the dungeon.
+Fighter: Break the chain open. Take the hammer and stake.
+Wizard: Fetch the hammer and stake. Cast Open on the chain.
+Thief: Pick the lock on the chain. Take the hammer and stake.
+All: Enter the iron maiden. Open the coffin you find and speak to Katrina. Or
+  whatever you do - she'll wake up anyway. You'll hear her part of the story,
+  and she'll let you go when you agree to help.
+
+---Avoozl---
+All: You should already have five rituals; if not Magda the gypsy can tell
+  you where to find the missing ones. She also has some more information on
+  the dark one. Also, if you didn't see all of the Erana's Garden dream
+  sequence yet, you can watch some more by sleeping there. When you're done
+  (and it doesn't really matter if you take more than three days) enter the
+  castle via the front entrance. You'll be 'ported to the Dark One cavern.
+Fighter: Climb down using the grapnel; defeat the monster and take the book.
+Wizard: Cast Calm on the monster, then Fetch on the book.
+Thief: Sneak mode on; climb down using the grapnel, then take the book. Climb
+  back up. Sneak mode off.
+All: Cross the rope, then through the door, then use the rightmost door back
+  to the room you started the game in. Go to the altar on the right and put
+  the everburning torch and the dark one symbol on it. Read the Bone Ritual.
+Fighter: Break open the cage.
+Wizard: At the bone cage, cast flame dart, frostbite, flame dart, frostbite.
+Thief: Jump out before the cage has fully closed.
+All: Leave the room, then take the leftmost cavern. Climb up to the altar
+  platform and read the Blood Ritual.
+Fighter: Use the grapnel to get to the topmost platform and push the boulder
+  down. Climb down again.
+Wizard: Cast Frostbite on the source of the blood, then quickly walk under
+  the blood shower.
+Thief: Use the grapnel to get to the topmost platform, then jump up then
+  left over the smaller platforms until you reach the exit.
+All: Leave the room; take the second one from the left. Use the Breath Ritual
+  on the altar, then blow the center, right and left horns. I mean the ones
+  on the BOTTOM of the altar. Finally blow the top center one. Leave now.
+Fighter: When you get caught in the breath, grab a plant.
+Wizard: When you get caught inside the mouth, cast Calm then Open.
+Thief: When you get caught in the breath, click the hand to your right a lot.
+All: Take the final doorway.
+  Move all the way to the upper right corner (via a long detour). Read the
+  Sense Ritual, then leave the way you came. Go to the large altar and read
+  the Heart Ritual, then climb the altar up to the Essence chamber.
+  Watch the animation. Then tell the Ultimate Joke to Ad Avis.
+Fighter: Use Erana's Staff. It'll transform into a spear; hit him with it.
+Wizard: Simply cast Force Bolt. Then cast Summon Staff.
+Thief: Use Erana's Staff. It'll transform into a stake. Jump at Ad Avis.
+  Apparently you can also do this by throwing daggers at him. Deja vu?
+All: Finally, use the staff on the crystal. You have won.
+
+I missed 15 points for the Fighter (probably some monster I forgot to hack to
+pieces) and 20 for the Thief (probably a break-in scene, or some loot in the
+sheriff's house I missed). For some reason I got full score for the Wizard,
+even if I never found the Faerie Queene or got the ritual from her (a bit of
+cheating there...)
+
+---Bugs (things to avoid doing to prevent crashes)---
+All: When you enter the castle you are always told you hear an argument, even
+  if you've already seen it. It is possible to free Tanya before hearing her
+  mother cry in the night; if this happens you can hear the cry afterwards
+  which ruins your game flags. If you try to pick up anything in Tanya's room
+  after she and Toby are gone, the game crashes. If you enter the dungeon
+  three nights after you get the geas (as you were told), the game crashes.
+  When Magda tells you about the rituals, she messes up which ones you do and
+  do not have yet. You can climb into the old man's house by day but you can
+  only climb out by night. If you get caught by Ad Avis's hounds of death on
+  the screen you meet him in, the game hangs. After Katrina releases you, if
+  you go to the town entrance you'll again get caught by Ad Avis and his
+  hounds of death. When you re-enter the Dark One cavern, you can exit by
+  using the exit door; Katrina will meet you like she did when you first
+  started the game. It takes up to eighty seconds to restore a game, even if
+  you saved the game five seconds ago! It also takes at least half a minute
+  for the quit button to take effect. Occasionally the main character stops
+  being animated and just slides instead of walking (you can remedy this by
+  messing with your speed setting). A website I read tells me the game can
+  occasionally hang when entering the guildhouse, among other things.
+Wizard: If you levitate into the monastery you can't get out again unless you
+  have climbing skill. I can't make the faerie queen appear. When you cast a
+  wrong spell inside the lung mouth, you get stuck inside permanently. Also
+  when you cast anything at Ad Avis before telling the joke, you can no
+  longer cast any spells.
+Thief: When you jump out of the cage in the Dark One cavern, the cursor will
+  only take on the hand shape no matter what you try to do.
+
+Walkthrough by Radiant.
+http://crystalshard.net
+</span></pre>
+</div>
+
+<p class="ffaq_page">View in: <button id="printable" onclick="make_printable();">Text Mode</button></p>
+
+
+<script type="text/javascript">
+
+window.onhashchange = hashHasChanged;
+
+function hashHasChanged()
+{
+	$(document).scrollTop(window.pageYOffset-130);
+}
+
+$().ready(function()
+{
+	$('.faq_bookmark_jumper').clone().appendTo('#faq_header_wrap');
+	if(window.pageYOffset>=150)
+	{
+		$('#faq_header_wrap').addClass('fixed');
+	}
+
+	window.onscroll = function()
+	{
+		if(window.pageYOffset>=150)
+		{
+			$('#faq_header_wrap').addClass('fixed');
+			$('.top_link').addClass('fixed').css('display','block');
+		}
+		else
+		{
+			$('#faq_header_wrap').removeClass('fixed');
+			$('.top_link').removeClass('fixed').css('display','none');
+		}
+	};
+
+	
+	$.each($('.ffaq img.imgnofloat'),function(){
+		var image = $(this);
+		if(image.attr('width')>400)
+		{
+			image.addClass('bigresize');
+		}
+	});
+
+	
+	var autobm = window.setInterval(function()
+	{
+		if(window.pos==$(document).scrollTop() || window.autobmstop==true)
+			clearInterval(autobm);
+		else
+			set_bookmark(1);
+	}, 5000);
+});
+
+
+$('img.imgresize').bind('click touch', function()
+{
+	if($(this).css('max-width')=='none')
+		$(this).css({'width':'100%','max-width':'100%'});
+	else
+		$(this).css({'width':'auto','max-width':'none'});
+});
+
+var timer, lastsearch;
+
+$('body :not(#faq_search_results)').bind('click touch', function(e)
+{
+	if($('#faq_search_results').css('display')=='block')
+	{
+		e.stopPropagation();
+		if($(this).attr('id')!='results_table' && $(this).attr('id')!='faq_search' && $(this).attr('id')!='faq_search_input' && $(this).attr('class')!='head' && $(this).attr('id')!='home_links')
+		{
+			dismiss_faq_search_results(0);
+		}
+	}
+});
+
+$('#faq_search_input, .search_mobile').click(function(e)
+{
+	e.preventDefault();
+	if($(this).attr('class')=='search_mobile')
+	{
+		$('#faq_search_module').toggle();
+	}
+	$('#faq_search_module, #faq_search_results').addClass('fixed');
+	$('#faq_header_wrap').addClass('search');
+	
+	if($('#faq_search_results').css('display')!='block')
+	{
+		$('#faq_search_results').show();
+	}
+	if($('#results_table tr').length==0)
+		$('.close_results').hide();
+	$('#faq_search_input').focus();
+});
+
+$('#faq_search_input').keyup(function()
+{
+	if(lastsearch != $('#faq_search_input').val())
+	{
+		if(timer)
+			clearTimeout(timer);
+		lastsearch = $('#faq_search_input').val();
+		if($('#faq_search_input').val().length>=3)
+		{
+			$('#faq_search_results').show();
+			timer = setTimeout(function(){faq_search(75526, $('#faq_search_input').val())},150);
+		}
+		else
+		{
+			dismiss_faq_search_results(1);
+		}
+	}
+});
+
+function dismiss_faq_search_results(fixed)
+{
+	$('#faq_search_results').hide();
+	$('#faq_search_overlay').fadeTo(200,0).remove();
+	if(!fixed)
+	{
+		$('#faq_search_module, #faq_search_results').removeClass('fixed');
+		$('#faq_header_wrap').removeClass('search');
+		if($('.search_mobile').is(':visible'))
+			$('#faq_search_module').toggle();
+	}
+	$('#results_table').empty();
+}
+
+function search_result(row)
+{
+	if($('#results_table tr[data-row="'+row+'"]').length>0)
+	{
+		var url = $('#results_table tr[data-row="'+row+'"]').attr('data-url');
+		if(url.indexOf('search_highlight')>=0)
+			eval(url);
+		else
+			window.location = $('#results_table tr[data-row="'+row+'"]').attr('data-url');
+	}
+}
+
+$('body :not(#faq_toc_header *, #faq_toc a.toc_toggle *)').bind('click touch', function(e)
+{
+	if($('#faq_toc_header').css('display')=='block')
+	{
+		e.stopPropagation();
+		if($(this).attr('class')!='toc_toggle active' && $(this).attr('id')!='faq_toc_header')
+		{
+			$('.toc_toggle').removeClass('active');
+			$('#faq_toc_header').css('display','none');
+		}
+	}
+});
+
+function toc_toggle()
+{
+	if($('.toc_toggle').hasClass('active'))
+	{
+		$('a.toc_toggle').removeClass('active');
+		$('#faq_toc_header').css('display','none');
+	}
+	else
+	{
+		$('a.toc_toggle').addClass('active');
+		$('#faq_toc_header').css('display','block');
+	}
+}
+
+function faq_search(id, term)
+{
+	var term = $('#faq_search_input').val();
+	var len = term.length;
+	if(term.length<3)
+		return;
+
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/faq_search',
+		data:  {id: 75526, term: term, key: '0459c70b'},
+		success: function(response)
+		{
+			if(response[0]=='error')
+			{
+				$('#results_table').html('<tr><td colspan="2" class="dismiss_results"><span onclick="dismiss_faq_search_results(0);">No Results Found - Close</span></td></tr>');
+				$('.close_results').remove();
+				$('#faq_search_results').show();
+			}
+			else
+			{
+				window.currentpage = 0;
+				$('#results_table').html('');
+				$('.close_results').remove();
+
+				$.each(response,function(j,i)
+				{
+					var val = i.value;
+					val = val.split('-');
+					var page = val[0];
+					
+					if(window.currentpage!=page)
+					{
+						window.currentpage = page;
+					}
+					var link, pagenum = '';
+
+					
+					
+					{
+						link = "search_highlight(75526,"+val[0]+",2,"+val[1]+","+len+");";
+					}
+					
+
+					$('#results_table').append('<tr data-url="'+link+'" data-row="'+j+'" style="cursor:pointer;" onclick="search_result('+j+');"><td class="title">'+i.label+'</td><td class="type">'+pagenum+'</td></tr>');
+				});
+
+				$('#results_table').after('<div onclick="dismiss_faq_search_results(0);" class="close_results">Close Results</div>');
+			}
+		}
+	});
+}
+
+function search_highlight(file_id,page,format,pos,len,section)
+{
+	window.textpage = page+1;
+
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/faq_search_highlight',
+		data: { id: file_id, page: page, for: format, pos: pos, len: len, section: '', key: '0459c70b' },
+		success: function(response)
+		{
+					$('span[name="search_jump"]').remove();
+			$("span.faq_highlight").contents().unwrap();
+			$('span#faqspan-'+window.textpage).html(response);
+		
+		var offset = $('span[name="search_jump"]').offset().top - 100;
+		if(offset<100)
+			$(document).scrollTop(0);
+		else
+			$(document).scrollTop(offset);
+		}
+	});
+}
+
+
+
+function set_bookmark(auto)
+{
+	var pos = $(document).scrollTop();
+	if(pos!=window.pos)
+		window.pos = pos;
+	else
+		return;
+	var page = 0;
+	if(page!=window.page)
+		window.page = page;
+	if(auto)
+		auto = 1;
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/faq_bookmark',
+		data: { id: 75526, pid: 565083, pos: pos, page: page, section: '', auto: auto, key: '0459c70b' },
+		success: function(response)
+		{
+			if(response)
+			{
+				if(response=="Missing cookie.")
+					window.autobmstop = true;
+				$('.faq_bookmark_jump').fadeOut();
+				$('#faq_bookmark').addClass('active');
+				var html = $('.bm_jumper_inner').html();
+				$('.bm_jumper_inner').animate({'opacity':0},200,function()
+				{
+					if($('.faq_bookmark_jumper:not(.active)'))
+						$('.faq_bookmark_jumper').css('visibility','visible');
+					$(this).html('Bookmark Saved').animate({'opacity':1},200);
+					$('.faq_bookmark_jumper').animate({'opacity':1},200);
+				});
+				setTimeout(function()
+				{
+					if($('.faq_bookmark_jumper:not(.active)'))
+					{
+						$('.faq_bookmark_jumper').animate({'opacity':0},200,function()
+						{
+							$(this).css('visibility','hidden');
+						});
+					}
+					$('.bm_jumper_inner').animate({'opacity':0},200,function()
+					{
+						$(this).html($.trim(html)).animate({'opacity':1},200);
+					});
+				}, 3000);
+			}
+		}
+	});
+}
+
+function bookmark_jump_dismiss()
+{
+	$('#faq_header > .faq_bookmark_jumper').css('visibility','hidden');
+	$('#faq_header_wrap > .faq_bookmark_jumper').remove();
+	$('#faq_bookmark').removeClass('active');
+}
+
+
+
+function page_top()
+{
+	$(window).scrollTop(0);
+}
+
+function make_printable()
+{
+	var faqdiv = $('#faqtext').detach();
+	faqdiv.appendTo('#fullscreen_overlay');
+	$('#fullscreen_overlay').show();
+	$('.wrapper').hide();
+	$('#faqtext').addClass("fullscreen_takeover");
+	$('#faqtext').append('<p id="restore_page"><button onclick="restore_page();">Restore Page</button></p>');
+	$(window).scrollTop(0);
+}
+
+function restore_page()
+{
+	$('#restore_page').remove();
+	$('#faqtext').removeClass("fullscreen_takeover");
+	$('#fullscreen_overlay').hide();
+	$('.wrapper').show();
+	var faqdiv = $('#faqtext').detach();
+	faqdiv.appendTo('#faqwrap');
+	$(window).scrollTop(0);
+}
+
+
+
+function set_rec_val(val)
+{
+	
+	var ftype = "guide";	
+	$('#recval').val(val);
+	if(val==2)
+		$('.rec_comment').attr('placeholder','What is missing from this '+ftype+'? (140 character max)');
+	$('#rec_one').hide();
+	$('#rec_two').show();
+	return;
+}
+
+function hide_rec()
+{
+	$('#rec_two').hide();
+	$('#rec_three').show();
+	var timer = setTimeout(function()
+	{
+		$('#contrib_rec').fadeOut('slow').remove();
+		$('#faq_header_wrap').addClass('rec_closed');
+	}, 2000);
+}
+
+function rec_submit(item_id, item_type_id, button)
+{
+	var recval = $('#recval').val();
+	if($('.rec_comment'))
+		var reccommentval = $('.rec_comment').val();
+	else
+		var reccommentval = '';
+
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/gamespace_contrib_rec',
+		data: { item: item_id, type: item_type_id, btn: button, val: recval, comment: reccommentval, key: '0459c70b' },
+		success: function(response)
+		{
+			if(response==2)
+			{
+				track_event(79);
+				return;
+			}
+			else
+				hide_rec();
+		}
+	});
+}
+
+</script>
+
+<script type="application/ld+json">
+{
+	"@context": "https://web.archive.org/web/20190511092255/http://schema.org",
+	"@type": "FAQPage",
+	"headline":"Quest For Glory IV: Shadows of Darkness Walkthrough",
+	"image":"https://web.archive.org/web/20190511092255/https://gamefaqs.akamaized.net/box/8/7/9/25879_thumb.jpg",
+	"author":"CrystalShard",
+	"datePublished":"2018-01-21",
+	"dateModified":"2018-01-21",
+	"url":"https://web.archive.org/web/20190511092255/https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness/faqs/75526",
+	"reviewedBy":
+	{
+		"@type":"Organization",
+		"name":"GameFAQs",
+		"logo":
+		{
+			"@type":"ImageObject",
+			"url":"https://web.archive.org/web/20190511092255/https://gamefaqs.akamaized.net/images/default/logo_v13.png",
+			"width":"180",
+			"height":"50"
+		}
+	},
+	"genre":"Role-Playing",
+	"isPartOf":
+	{
+		"@type":"VideoGame",
+		"name":"Quest For Glory IV: Shadows of Darkness",
+		"url":"https://web.archive.org/web/20190511092255/https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness",
+		"image":"https://web.archive.org/web/20190511092255/https://gamefaqs.akamaized.net/box/8/7/9/25879_thumb.jpg",
+		"description":"Sierra's fourth Quest For Glory game is a journey into the land of Mordavia, a Transylvania-like setting. Our Hero had just begun to enjoy his victory in Tarna, when a spell zapped him into parts unknown, without a weapon, items, or even a source of light. Life has never been quite so dangerous for our Hero. He'll discover his quest soon enough; that is, if he lives!  Like the previous Quest For Glory titles, the game is a combination of puzzle-solving adventure and RPG. You can play as a...",
+		"datePublished":"1993-12-31",
+		"aggregateRating":
+		{
+			"@type":"AggregateRating",
+			"ratingValue":"0",
+			"reviewCount":"0",
+			"worstRating":"1",
+			"bestRating":"100"
+		},
+		"publisher":"Sierra Entertainment",
+		"genre":["Role-Playing","General"],
+		"gamePlatform":["PC"],
+		"operatingSystem":["PC"],
+		"applicationCategory":"Game",
+		"sameAs":"https://web.archive.org/web/20190511092255/https://www.gamespot.com/quest-for-glory-iv-shadows-of-darkness/",
+		"keywords":""
+	},
+	"breadcrumb":
+	{
+		"type": "BreadcrumbList",
+		"itemListElement":
+		[
+			{
+				"@type": "ListItem",
+				"position": 1,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190511092255/https://gamefaqs.gamespot.com/pc",
+					"name": "PC"
+				}
+			},									{
+				"@type": "ListItem",
+				"position": 2,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190511092255/https://gamefaqs.gamespot.com/pc/category/48-role-playing",
+					"name": "Role-Playing"
+				}
+			},
+									{
+				"@type": "ListItem",
+				"position": 3,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190511092255/https://gamefaqs.gamespot.com/pc/category/257-role-playing-general",
+					"name": "General"
+				}
+			},
+						{
+				"@type": "ListItem",
+				"position": 4,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190511092255/https://gamefaqs.gamespot.com/pc/565083-quest-for-glory-iv-shadows-of-darkness/faqs/75526",
+					"name": "Quest For Glory IV: Shadows of Darkness Walkthrough"
+				}
+			}
+		]
+	}
+}
+</script>
+								
+							</div>
+						</div>
+														</div>
+				
+												
+			</div>
+							
+
+							<footer id="footer" class="footer"><div class="footer_site container row"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/" class="footer_logo_gf">GameFAQs</a><a href="https://web.archive.org/web/20190511092255/http://www.facebook.com/GFAQs"><i class="fa fa-facebook-square"></i>facebook.com/GFAQs</a><a href="https://web.archive.org/web/20190511092255/http://www.twitter.com/GameFAQs"><i class="fa fa-twitter"></i>twitter.com/GameFAQs</a><span class="footer_break"></span><a href="/web/20190511092255/https://gamefaqs.gamespot.com/help">Help / Contact Us</a><span class="footer_color_drop" id="color_change"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/features/change_color">Change Colors <i class="fa fa-caret-up"></i></a><ul class="footer_color_subnav"><li class="footer_color_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/user/change_color?site_color=blue&amp;path=%2Fpc%2F565083-quest-for-glory-iv-shadows-of-darkness%2Ffaqs%2F75526">Blue (Default)</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-blue&amp;path=%2Fpc%2F565083-quest-for-glory-iv-shadows-of-darkness%2Ffaqs%2F75526">Blue on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/user/change_color?site_color=red&amp;path=%2Fpc%2F565083-quest-for-glory-iv-shadows-of-darkness%2Ffaqs%2F75526">Red</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-red&amp;path=%2Fpc%2F565083-quest-for-glory-iv-shadows-of-darkness%2Ffaqs%2F75526">Red on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/user/change_color?site_color=green&amp;path=%2Fpc%2F565083-quest-for-glory-iv-shadows-of-darkness%2Ffaqs%2F75526">Green</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-green&amp;path=%2Fpc%2F565083-quest-for-glory-iv-shadows-of-darkness%2Ffaqs%2F75526">Green on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/user/change_color?site_color=orange&amp;path=%2Fpc%2F565083-quest-for-glory-iv-shadows-of-darkness%2Ffaqs%2F75526">Orange</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-orange&amp;path=%2Fpc%2F565083-quest-for-glory-iv-shadows-of-darkness%2Ffaqs%2F75526">Orange on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/user/change_color?site_color=purple&amp;path=%2Fpc%2F565083-quest-for-glory-iv-shadows-of-darkness%2Ffaqs%2F75526">Purple</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-purple&amp;path=%2Fpc%2F565083-quest-for-glory-iv-shadows-of-darkness%2Ffaqs%2F75526">Purple on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/user/change_color?site_color=cloudy&amp;path=%2Fpc%2F565083-quest-for-glory-iv-shadows-of-darkness%2Ffaqs%2F75526">Cloudy Blue</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/user/change_color?site_color=grayscale&amp;path=%2Fpc%2F565083-quest-for-glory-iv-shadows-of-darkness%2Ffaqs%2F75526">Grayscale</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/user/change_color?site_color=sepia&amp;path=%2Fpc%2F565083-quest-for-glory-iv-shadows-of-darkness%2Ffaqs%2F75526">Sepia</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511092255/https://gamefaqs.gamespot.com/user/change_color?site_color=cottoncandy&amp;path=%2Fpc%2F565083-quest-for-glory-iv-shadows-of-darkness%2Ffaqs%2F75526">Cotton Candy</a></li>
+</ul></span></div><div class="footer_network"><div class="container row">Popular:<a title="A full game guide and walkthrough for Kingdom Hearts III on the PlayStation 4" href="/web/20190511092255/https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812">Kingdom Hearts III Guide</a><a title="Cheat codes and passwords for Red Dead Redemption 2 on the PlayStation 4" href="/web/20190511092255/https://gamefaqs.gamespot.com/ps4/200179-red-dead-redemption-2/cheats">Red Dead Redemption 2 Cheats</a><a title="Cheat codes and passwords for Grand Theft Auto V on the PlayStation 4" href="/web/20190511092255/https://gamefaqs.gamespot.com/ps4/805601-grand-theft-auto-v/cheats">Grand Theft Auto V Cheats</a></div><div class="container row"><p><a href="https://web.archive.org/web/20190511092255/https://www.gamespot.com/?utm_source=gamefaqs&amp;utm_medium=partner&amp;utm_content=footer&amp;utm_campaign=footer" class="footer_logo_gs">gamespot.com</a><a href="https://web.archive.org/web/20190511092255/https://www.giantbomb.com/" class="footer_logo_gb">giantbomb.com</a><a href="https://web.archive.org/web/20190511092255/https://www.metacritic.com/" class="footer_logo_mc">metacritic.com</a><a href="https://web.archive.org/web/20190511092255/https://www.gamerankings.com/" class="footer_logo_gr">gamerankings.com</a></p><p><span class="footer_break"></span><a href="https://web.archive.org/web/20190511092255/http://sitemap.gamefaqs.com/">Sitemap</a><a href="https://web.archive.org/web/20190511092255/http://www.cbsinteractive.com/advertise">Advertise</a><a href="/web/20190511092255/https://gamefaqs.gamespot.com/feedback?type=61">Partnerships</a><a href="https://web.archive.org/web/20190511092255/https://cbs.avature.net/cbsinteractivecareers/SearchJobs/?3_56_3=%22260%22">Careers</a><a href="https://web.archive.org/web/20190511092255/https://legalterms.cbsinteractive.com/privacy">Privacy Policy</a><a href="https://web.archive.org/web/20190511092255/https://legalterms.cbsinteractive.com/adchoice">Ad Choice</a><a href="https://web.archive.org/web/20190511092255/https://legalterms.cbsinteractive.com/terms-of-use">Terms of Use</a><a style="z-index: 999999999; color: red; cursor: pointer" onclick="ad_report();">Report&nbsp;Ad</a></p><p>&copy; 2019 CBS Interactive Inc. All rights reserved.</p></div></div></footer>
+
+
+							
+		</div>
+
+		
+		<div id="site_dialog" class="site_dialog"></div>
+		<script type="text/javascript" src="//web.archive.org/web/20190511092255js_/https://dw.cbsi.com/js/ds.js"></script>
+<script type="text/javascript" src="/web/20190511092255js_/https://gamefaqs.gamespot.com/js/omniture_v2.20190429212942.js"></script>
+
+<script type="text/javascript">
+window._taboola = window._taboola || [];
+$().ready(function(){
+$(".gf_taboola").each(function(){
+	_taboola.push({mode: $(this).attr('data-mode'), container: $(this).attr('id'), placement: $(this).attr('data-placement'), target_type: $(this).attr('data-target') });
+});
+});
+
+var vguid = $('meta[id=view-guid-meta]').attr("content").substr(0, 24) + Math.random().toString(16).substr(2,12);
+var anon_id = $.cookie('XCLGFbrowser');
+$('meta[id=view-guid-meta]').attr("content", vguid);
+var dw_params = JSON.parse($('meta[name=dwPageParams]').attr("content"));
+dw_params['viewguid'] = vguid;
+var om_params = JSON.parse($('meta[name=o2PageParams]').attr("content"));
+om_params['evars'][24] = vguid;
+om_params['evars'][35] = anon_id;
+var delay = 0;
+if(!$.cookie('spt'))
+	delay = 500;
+if(typeof DW != 'undefined')
+{
+	if(!anon_id)
+	{
+		$.getScript("//web.archive.org/web/20190511092255/https://dw.cbsi.com/anonc.js").done( function( script, textStatus ) { if(typeof dw_anonc != 'undefined') { anon_id = dw_anonc().id;  $.cookie('XCLGFbrowser', anon_id, { expires: 3650, path: '/' }); om_params['evars'][35] = anon_id; } DW.pageParams = dw_params; DW.clear();  setTimeout(function() { om_params['evars'][16]=$.cookie('spt');  somni = omniture(om_params); },delay); });
+	}
+	else
+	{
+		DW.pageParams = dw_params; DW.clear(); setTimeout(function() { om_params['evars'][16]=$.cookie('spt'); somni = omniture(om_params); },delay); 
+	}
+}
+_taboola.push({flush: true});
+var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; googletag.cmd.push(function() { googletag.pubads().addEventListener('slotRenderEnded', revdbg); });
+</script>
+
+
+<script type="text/javascript">(function(){var g=function(e,h,f,g){ this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b<e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null}; this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "}; this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&&(e=Math.random()>=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0}; this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g+ "&t=" + (new Date()).getTime();document.body&&document.body.appendChild(a)}}; this.start=function(){var a=this;window.addEventListener?window.addEventListener("load",function(){a.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){a.go()})}}; try{(new g(100,"r","QSI_S_ZN_1zcNvefGbweAxdb","//web.archive.org/web/20190511092255/https://zn_1zcnvefgbweaxdb-cbs.siteintercept.qualtrics.com/WRSiteInterceptEngine/?Q_ZID=ZN_1zcNvefGbweAxdb&Q_LOC="+encodeURIComponent(window.location.href))).start()}catch(i){}})(); </script><div id="ZN_1zcNvefGbweAxdb"><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+
+		
+<!--Page built in 0.019 seconds on 2019-05-11 09:22:55 on box #219 (CSS 20190429212937)- O 0.0132 / S 0.0049 / M 0.0008 / U 0 / G 0 / SC 5-->
+
+	</body>
+</html>
+<!--
+     FILE ARCHIVED ON 09:22:55 May 11, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:06:20 Mar 18, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.653
+  exclusion.robots: 0.068
+  exclusion.robots.policy: 0.058
+  esindex: 0.011
+  cdx.remote: 345.691
+  LoadShardBlock: 97.425 (3)
+  PetaboxLoader3.datanode: 60.879 (4)
+  PetaboxLoader3.resolve: 149.331 (2)
+  load_resource: 117.687
+-->

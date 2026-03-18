@@ -1,0 +1,30 @@
+# Maniac Mansion - Wikipedia Article (Game Overview Section)
+
+## Game Mechanics
+- Player uses point-and-click interface with 15 action commands (Walk To, Unlock, etc.)
+- Choose 2 of 6 characters to accompany protagonist Dave Miller: Bernard, Jeff, Michael, Razor, Syd, Wendy
+- Each character has unique abilities (Syd/Razor play musical instruments, Bernard repairs appliances)
+- Game has multiple endings based on character choices and combinations
+- Features cutscenes for story advancement
+
+## Setting
+- Mansion of the Edison family: Dr. Fred (mad scientist), Nurse Edna (wife), Weird Ed (son)
+- Two large tentacles live there: purple and green
+- Sentient meteor crashed 20 years ago and brainwashed the Edisons
+- Dave's girlfriend Sandy was kidnapped by Dr. Fred for experiments
+
+## Key Game Mechanics
+- Mansion inhabitants are hostile (except green tentacle) and throw players to dungeon if seen
+- Characters can be killed; game ends when all die
+- Five possible endings based on characters chosen, who survives, and accomplishments
+
+## Development Notes (relevant to puzzle design)
+- Designed as paper-and-pencil game first, with mansion floor plan as game board
+- Used cellulose acetate strips to map out puzzle combinations by tracking items that work together with certain characters
+- Non-linear puzzle design made it hard to prevent no-win scenarios
+- Ron Gilbert wanted to avoid "sadistic" game design where everyday logic doesn't apply
+
+## Character Skills
+- Each character contributes different skills and resources
+- Different paths must be taken based on group composition
+- Game was completed with any combination of characters but requires different approaches
