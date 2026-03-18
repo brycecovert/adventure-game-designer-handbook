@@ -314,3 +314,57 @@ This demonstrates the timing requirement—the environmental exploit works ONLY 
 **Why It's Distraction Physics**: The puzzle requires exploiting the barman's existing behavior pattern (turned away to find ingredients) rather than creating a new distraction from scratch. Environmental manipulation (wax on spigot) occurs DURING naturally-occurring attention gap, triggering consequences (abandoned barrel outside). This differs from creating external noise or pulling levers—player hijacks NPC's routine moment of vulnerability through precise timing.
 
 ---
+
+## Game Examples
+
+### INDY1: Roast Boar Distraction via Fireplace Smoke
+<small>Source: walkthrough-king.txt, lines 154-158</small>
+
+**Setup**: Nazi Colonel Vogel's office at Castle Brunwald is guarded by his dog. Indy needs to pass through the office to access items in the drawers, but the dog will attack if he enters without distraction. The kitchen upstairs has a roast boar being prepared and a fireplace with burning coals.
+
+**Blocking Condition**: Dog stands guard in front of Vogel's office door. Cannot enter or take items from desk while dog is present. Direct combat possible but suboptimal (violence-heavy playstyle, loses puzzle points).
+
+**Solution Chain**:
+1. Go upstairs to kitchen area on 2nd floor
+2. Take empty stein from counter, fill it from ale keg spigot
+3. Go to fireplace adjacent to where roast boar hangs
+4. Pour first stein of ale onto burning coals → creates thick smoke that fills room
+5. Wait for smoke to clear enough to see/grab roast boar
+6. Take roast boar (dog's food) into inventory, refill stein one more time
+7. Return downstairs through guard corridors with boar in inventory
+8. Approach Vogel's office and GIVE roast boar to dog sitting at door
+
+<small>Source: walkthrough-king.txt, lines 209-210 — "Enter the first door to the west to find Vogel's office. Give the roast boar to the dog, then open the right drawer in"</small>
+
+9. Dog becomes occupied eating the boar → attention diverted from doorway
+10. Enter office while dog distracted by food, access desk drawers freely
+
+**Environmental Manipulation**: Fireplace coals convert liquid ale into smoke—physical transformation that temporarily reduces visibility enough to safely retrieve hanging meat. The ale creates a sensory barrier (smoke/ash) that protects Indy from thermal damage while accessing the otherwise unreachable item. Dog's behavior is not "hacked" through AI weakness—instead, player physically brings the object dog naturally wants to its location.
+
+**Why It's Distraction Physics**: Unlike Sensory Exploitation which attacks an NPC's direct vulnerability (feeding monkey fruit because monkeys like fruit), this puzzle requires MANIPULATING THE PHYSICAL ENVIRONMENT FIRST (ale→smoke conversion) before accessing the distraction item itself. The fireplace acts as a transformative medium: without creating smoke barrier, Indy cannot retrieve the boar due to proximity to burning coals. Once boar acquired, giving it to dog is straightforward—the complex puzzle was getting the boar, not convincing the dog. Environmental engineering (heat + liquid → temporary visibility reduction) creates opportunity window for item acquisition.
+
+### INDY1: Security Console Ale Short-Circuit
+
+**Setup**: Nazi security control room at Castle Brunwald contains an alarm system that will trigger during escape sequence unless disabled. The room is guarded by a Nazi soldier patrolling outside the door, but can be bypassed via combat or Mein Kampf book trade. Inside, the security console has ventilation grating on its side panel.
+
+<small>Source: walkthrough-king.txt, lines 190-192</small>
+
+**Blocking Condition**: Alarm system is active and functional. If triggered during escape, it will lead to confrontation with Donovan or fail Henry's rescue entirely. Cannot disable through normal "use console" interaction (no dialogue/options for deactivation). Physical short-circuiting required.
+
+**Solution Chain**:
+1. Acquire stein of ale from earlier kitchen sequence (carried throughout castle infiltration)
+2. Navigate to security control room on ground floor corridor
+3. Deal with guard outside door: either GIVE Mein Kampf book OR fight him
+4. Enter security room past the neutralized guard
+5. Locate grating/ventilation panel on SIDE of alarm console
+6. USE stein ON grating → Pour ale into electrical components
+7. Ale conducts electricity, short-circuiting the alarm system
+8. Alarm disabled—will not trigger during escape sequence
+
+<small>Source: walkthrough-king.txt, lines 191-192 — "Once done, pour your stein of ale into the grating on the side of the security console to disable the alarm system."</small>
+
+**Environmental Manipulation**: Liquid ale is conductive when poured onto exposed electrical contacts. The grating design exposes internal components without requiring tool-based disassembly. Indy exploits the console's poor industrial design (open ventilation near sensitive circuitry) to achieve what hacking or sabotage cannot—pure physical destruction through fluid dynamics. This is not "breaking the alarm"—it's repurposing a beverage container into a conductive fluid delivery mechanism.
+
+**Why It's Distraction Physics**: The puzzle uses environmental PHYSICS rather than NPC manipulation, but follows same pattern: observe system behavior (alarm triggers on escape) → identify exploitable interaction point (grating exposes internals) → use available item in unconventional way (ale as conductive destruction agent) → create window of opportunity (disabled alarm = safe route for Henry). The ale's dual-use nature mirrors other DNP items (wax barrel plug, thrown bucket)—everyday object repurposed through understanding of environmental rules. Unlike simple "break console" solution, player must recognize that liquid + exposed electronics = failure mode they can engineer intentionally.
+
+---

@@ -415,6 +415,101 @@ DO NOT use this classification if:
 
 ---
 
+### Indiana Jones and the Last Crusade: Library Stained Glass Window Puzzle (INDY1)
+
+**Problem**: After meeting Elsa Schön at Venice, Indiana Jones must escape a pursuing gunman by finding the correct stained glass window hidden among many in a library complex. The grail diary contains a visual diagram of one specific window AND a Latin quotation referencing roman numerals inscribed on stone pillars—player must translate both symbol types into physical actions to locate and trigger the escape mechanism.
+
+<small>Source: walkthrough-king.txt, lines 83-87 — "Look at the grail diary and note the design of a window, and a quotation. Walk through the rooms with stained glass windows until you find the one that exactly matches the picture from the book."</small>
+
+<small>Source: walkthrough-king.txt, lines 96-100 — "Now the quotation will mention a number and a direction, which indicate which roman numeral to read. If it says, for example, 'the first on the right', look on the inscription to your right (on the large stone pillars) and read the first numeral. Once you have the numeral, use the metal post to smash the indicated slab on the floor."</small>
+
+**Dual Symbol Translation System**:
+
+```
+SYMBOL SET 1: Window Pattern Recognition (Visual Matching)
+Source Material: Grail diary page showing stained glass design
+Application Method: Navigate library rooms displaying multiple stained glass windows
+Translation Process:
+- EXAMINE grail diary → observe specific window pattern (cross/geometric arrangement)
+- Walk through each room with stained glass windows
+- COMPARE each window's design to diary illustration
+- IDENTIFY exact match (only one window matches diary diagram exactly)
+
+SYMBOL SET 2: Latin Quotation → Roman Numeral Mapping (Linguistic-to-Positional)
+Source Material: Grail diary Latin quotation mentioning ordinal position + direction
+Application Method: Stone pillars surrounding matched window bear engraved roman numerals
+Translation Process:
+- READ quotation for directional instruction ("first on the right", "third from left")
+- Example: "the first on the right" → count roman numerals RIGHT of window, select FIRST
+- Extract numeral value (I, II, III, IV, etc.)
+- NUMERAL indicates which FLOOR SLAB to destroy
+
+ACTION OUTPUT: Smashing Sequence
+- Acquire metal post from library cordon posts (earlier collection)
+- USE metal post on floor slab corresponding to extracted roman numeral
+- Floor collapses → escape route opens below, avoiding gunman
+```
+
+**Why It's Symbol Code Translation**: Two distinct symbol systems must be TRANSLATED:
+1. **Visual Pattern Translation**: Window diagram → physical window identification through shape/color matching
+2. **Linguistic-to-Positional Translation**: Latin ordinal phrase → roman numeral selection → floor slab targeting
+
+Both require examining a static information source (diary) and translating its encoded information into game-world actions across different symbolic domains. Order sensitivity confirmed—must find window pattern BEFORE reading quotation makes sense; must extract numeral before smashing floor.
+
+**Distinction from Observation Replay**: No NPC demonstrates the sequence. Player DISCOVERES symbols through environmental examination, then INTERPRETS them mechanically (diagram→window match, phrase→numeral→floor position). The puzzle tests SYMBOL RECOGNITION + TRANSLATION skill, not memory of observed actions.
+
+**Distinction from Pattern Learning**: Single application only—no repeated framework across multiple similar puzzles. Pure "find environmental code and decode it" rather than "learn rule once, apply exhaustively."
+
+<small>Cited from: walkthrough-king.txt:83-100</small>
+
+---
+
+### Indiana Jones and the Last Crusade: 3-Statue Combination Lock (INDY1)
+
+**Problem**: In lower catacombs beneath Venice library, three rotating statues stand before a stone door. Each statue displays multiple plaque options showing different symbols. The grail diary contains visual clues indicating which combination is "good" (correct) versus which is "bad" (deadly trap). Player must match diagram to physical interface without error—wrong selection triggers fatal consequence.
+
+<small>Source: walkthrough-king.txt, lines 129-133 — "Look in the grail diary again for more clues - there is one combination which is good, and one which is very bad. Push the middle plaque until it shows the good image. Now push the right plaque until it is correct, and finally the left one."</small>
+
+**Symbol Translation Mechanic**:
+
+```
+SYMBOL SOURCE: Grail Diary Illustrations
+- One diagram showing CORRECT symbol combination (survival/escape imagery)
+- One diagram showing INCORRECT combination (death/danger imagery)
+- Player must memorize which visual pattern = safe passage
+
+PHYSICAL INTERFACE: Three rotating statues with selectable plaques
+- LEFT statue (statue 1): Multiple symbol options rotatable via plaque push
+- MIDDLE statue (statue 2): Multiple symbol options  
+- RIGHT statue (statue 3): Multiple symbol options
+
+TRANSLATION CHAIN:
+Step 1 → Examine grail diary, identify GOOD combination symbol pattern visually
+        - Note specific symbols/icons appearing on each of three positions
+        - Critical: Must distinguish from BAD combination shown nearby
+        
+Step 2 → Approach LEFT statue, push plaque until displays matching symbol from diary's left position
+        - Symbol recognition required: "this carved design = that diagram element"
+
+Step 3 → Move to MIDDLE statue per walkthrough instruction sequence  
+        - Push plaque until displays matching center-position symbol
+
+Step 4 → Complete RIGHT statue with final symbol from combination diagram
+        - All three statues now display GOOD combination pattern simultaneously
+
+Step 5 → Door opens safely (no trap triggered; player can proceed)
+```
+
+**Why It's Symbol Code Translation**: Visual symbols on static artifact (grail diary page) must be matched to interactive interface elements (rotating statue plaques) through shape/icon recognition. Order explicitly matters—walkthrough specifies sequence: middle, right, left. The translational layer exists because player observes symbols in 2D diagram format then applies to 3D mechanical interface where symbols appear as carved relief sculptures rather than flat drawings.
+
+**Critical Distinction from King's Quest VII Tomb Lock**: KQVII tomb uses environmental decorations (wall carvings) as clue source; this puzzle uses explicit INVENTORY ITEM examination (diary). Both are Symbol Code Translation but differ in information medium: KQVII = passive environment scanning; INDY1 = active item inspection with multiple diagrams requiring discriminative visual matching.
+
+**Deadly Consequence Mechanic**: Unlike most SCT puzzles where wrong combinations simply fail, this puzzle explicitly documents "one combination is very bad"—implying permanent consequence (likely death/game over) for selecting wrong pattern. This adds stakes to symbol recognition accuracy beyond simple lockout feedback.
+
+<small>Cited from: walkthrough-king.txt:129-133</small>
+
+---
+
 ### Indiana Jones: Fate of Atlantis - Sunstone/Moonstone Alignment with Plato's Lost Dialogue (INDY2)
 
 **Setup**: After obtaining the Sunstone (varies by path) and Moonstone (Crete excavation using surveyor's instrument), Indy must align these artifacts according to instructions in Plato's Lost Dialogue. The 3rd page contains a diagram showing which symbol positions correspond with different celestial features (horns of statues).

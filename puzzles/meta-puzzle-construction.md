@@ -1289,3 +1289,85 @@ IF THIS WERE MULTI-FACETED PLAN, structure would be:
 
 ACTUAL IMPLEMENTATION: Collar is PREREQUISITE FOR DISCOVERING SHIRT LOCATION. Not just "two random things needed together" but specifically "getting A reveals where B exists." That's Meta-Construction's signature OUTPUT→INPUT chain.
 
+
+---
+
+### Indiana Jones and the Last Crusade: Catacombs Torch/Water/Dungeon Drain Plug Sequence (INDY1)
+
+**Problem**: In Venice catacombs beneath the library, Indiana Jones must access a lower level dungeon area blocked by two obstacles: a torch caked in mud preventing it from being pulled down a tunnel, and a water-filled chamber with a drain plug that cannot be removed directly. Multi-step interdependency requires gathering items from upper catacombs, then executing precise sequence where each step's output enables the next action impossible without the completed prior phase.
+
+<small>Source: walkthrough-king.txt, lines 107-112 — "The first room you find has some dead pirates, and a hook that you can pick up... The next room has a large stone slab, and the following one is filled with water - you can't pass here, but note the plug in the floor."</small>
+
+<small>Source: walkthrough-king.txt, lines 115-118 — "Return to the catacombs, and head to the room that held the torch. Use the water on the torch to loosen it, then pull the torch."</small>
+
+<small>Source: walkthrough-king.txt, lines 121-125 — "Go back to the plug and push the hook into the plug, then use your whip on it. Go back to the fork and take the other path..."</small>
+
+**Sequential Production Chain**:
+
+```
+STEP 1A - Hook Acquisition (Upper Catacombs Scavenging)
+Location: First room in catacomb network (pirate skeleton area)
+Action: Collect HOOK from pirate body/remains
+Output Item: Hook (required for later plug extraction)
+Citation: walkthrough-king.txt, line 109
+
+STEP 1B - Torch Discovery (Mud-Caked State)
+Location: Subsequent room off main path  
+Observation: TORCH visible but IMMOVABLE—dried mud prevents removal
+Action: Note location for later return; cannot proceed without cleaning mechanism
+State Lock: Pull action BLOCKED until mud removed
+
+STEP 1C - Water Chamber Observation (Blockage Documentation)
+Location: Room following torch room
+Obstacle: Floor completely submerged; passage impassible
+Key Detail: DRAIN PLUG visible in floor center—removal would clear water
+Complication: Plug cannot be pulled directly (stuck/too tight)
+Output State: Knowledge that plug = solution but inaccessible with bare hands
+
+STEP 2 - Wine Bottle + Fountain Water Collection (External Loop)
+Location: Restaurant area → Library fountain outside
+Phase A: Collect WINE BOTTLE from restaurant table (exit via manhole to surface)
+Phase B: Navigate to library exterior, locate decorative fountain
+Action: USE bottle on fountain water → fills with liquid
+Output Item: Bottled Water (tool for mud loosening)
+Citation: walkthrough-king.txt, lines 116-117
+
+STEP 3 - Torch Liberation (Water Application)
+Location: Return to catacombs, torch room
+Prerequisite: Bottled water in inventory from Step 2
+Action Sequence:
+a) USE bottled water on mud-caked torch → loosens dried sediment  
+b) Pull torch down tunnel → breaks through obstruction into lower level
+Output: Access to LOWER CATACOMBS granted (previously unreachable zone)
+Citation: walkthrough-king.txt, lines 117-118
+
+STEP 4 - Drain Plug Removal (Hook + Whip Combination)
+Location: Lower catacombs water chamber (now accessible via torch tunnel)
+Prerequisites: Hook from Step 1A; whip (standard Indy inventory item); lower catacomb access from Step 3
+Action Sequence:
+a) PUSH hook into drain plug mechanism (insert into slot/handle opening)
+b) USE whip on protruding hook—whip acts as pulling lever/mechanical advantage
+c) Drag action extracts plug from floor chamber
+Output State: Water DRAINS completely; passage now walkable
+Citation: walkthrough-king.txt, lines 121-123
+
+STEP 5 - Continuation Path (Now Available)
+Location: Formerly-submerged area, now dry
+Action: Cross through bridge room, read inscriptions (needed for later grail temple puzzle)
+Result: Progression to next major zone (statues and knight's tomb area) enabled
+```
+
+**Why It's Meta-Puzzle Construction (Not Multi-Faceted Plan)**: Strict sequential dependency confirmed—each phase's OUTPUT becomes NEXT phase's PREREQUISITE:
+
+1. Hook acquired but USELESS until lower catacombs accessible
+2. Torch visible but BLOCKED until water obtained to clean mud
+3. Water bottle only valuable when taken to torch (no other use)
+4. Lower catacombs inaccessible until TORCH PULLED  
+5. Drain plug removable ONLY after hook+whip combination available
+6. Hook can't be used on plug until player in lower level via torch tunnel
+
+NO REORDERING POSSIBLE: Attempting to reach water chamber first fails (blocked by upper-level torch). Collecting bottle before hook is fine but hook still unusable until catacomb descent completed. Each item serves EXACTLY ONE purpose—no alternate applications create branching paths.
+
+**Intermediate State Utility Analysis**: Every intermediate artifact (bottled water, hook) has SINGLE-USE value within chain. Water becomes empty after torch application; hook is consumed in plug extraction. Player cannot "pre-stockpile" solutions across playthroughs or use items for alternate progressions.
+
+<small>Cited from: walkthrough-king.txt:107-125</small>

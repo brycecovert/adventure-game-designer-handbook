@@ -592,6 +592,61 @@ Attempting trap with incomplete set fails (paper alone won't light, basket witho
 
 ---
 
+### Indiana Jones and the Last Crusade: Fake Grail Diary Key Discovery (INDY1)
+
+**Problem**: At Barnett College, Indiana Jones receives his father's diary but cannot open a locked chest containing a fake grail diary at Henry's house. The key is hidden inside a seemingly empty jar in Indy's office—the player must discover the multi-step process to extract it using items gathered from separate locations.
+
+<small>Source: walkthrough-king.txt, lines 46-50 — "Pick up all the junk mail on your desk, then the letters, then the papers, and finally a package. Open the package to discover your father's grail diary."</small>
+
+<small>Source: walkthrough-king.txt, lines 58-59 — "Walk through to the bedroom on the right and take the small painting from the wall. Back in the main room, pull the bookcase over, then take the sticky tape from its back."</small>
+
+<small>Source: walkthrough-king.txt, lines 66-69 — "In your office, use the sticky tape with the jar of solvent on the shelves to the right of your desk, and you will discover a small key. Now leave your office via the window and travel back to Henry's house."</small>
+
+**Parallel Requirement Gathering**:
+
+```
+REQUIREMENT 1: Grail Diary (Package Opening Chain)
+Location: Barnett College / Donovan's Pad / Return to College
+Acquisition Method:
+- Pick up junk mail, letters, papers from desk
+- Collect PACKAGE from desk
+- Open package → obtain father's fake grail diary
+Independent of sticky tape acquisition
+
+REQUIREMENT 2: Sticky Tape (Henry's House Secret)
+Location: Henry's House bedroom / main room
+Acquisition Method:
+- Take small painting from bedroom wall
+- Pull bookcase over in main room
+- Obtain sticky tape hidden behind bookcase
+Independent of package opening sequence
+
+REQUIREMENT 3: Solvent Jar Access (Office Combination)
+Location: Indy's office at Barnett College
+Prerequisite: Both grail diary AND sticky tape in inventory
+Action Chain:
+- USE sticky tape on jar of solvent on shelves (right of desk)
+- Tape removes glass/plastic covering → reveals SMALL KEY inside
+- Collect small key from jar
+
+REQUIREMENT 4: Fake Diary Chest Opening
+Location: Henry's House main room
+Prerequisite: Small key obtained from office
+Action:
+- Pick up table cloth to reveal locked chest underneath
+- Use small key on chest → open and obtain old book (fake grail diary)
+
+FINAL SYNTHESIS: Both diaries (real from package, fake from chest) needed for later castle exchange decision
+```
+
+**Why It's Multi-Faceted Plan**: Four independent requirements gathered from spatially-separated locations (college office, Henry's house bedroom, college office shelves, Henry's house main room). The sticky tape has no apparent connection to the grail diary package until player synthesizes: "I need something sticky + solvent jar = access to hidden key → opens chest contains fake diary." No explicit checklist; discovery through environmental examination patterns.
+
+**Distinction from Meta-Puzzle Construction**: While there IS a mini-chain (tape + solvent = key), the OVERALL puzzle gathers items in FLAT PARALLEL: player could collect package first OR sticky tape first. The synthesis happens at APPLICATION (key on chest), not during component gathering. Components have no sequential dependency beyond final assembly point.
+
+<small>Cited from: walkthrough-king.txt:46-70</small>
+
+---
+
 ### Indiana Jones: Fate of Atlantis - Lost Dialogue Retrieval (IJOA)
 
 **Problem**: After obtaining initial clues from Iceland and Tikal, Indy must retrieve Plato's Lost Dialogue from Barnett College library, but the book is hidden in one of three inaccessible locations. The game provides three separate discovery methods for locating it.

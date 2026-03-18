@@ -561,3 +561,60 @@ Marble itself feeds into METALOGIC puzzle: Silver Altar Repair at Brynn's Temple
 The chase is ONE LINK in larger meta-construction, but its internal mechanic is pure observation replay.
 
 
+
+---
+
+### Indiana Jones and the Last Crusade: Skull Music Sequence Puzzle (INDY1)
+
+**Problem**: In lower catacombs of Venice, a chamber contains multiple skulls mounted on walls. Each skull produces a distinct musical tone when struck in sequence. The grail diary contains a musical notation indicating which skulls to strike and in what order. Player must observe the skull positions during initial exploration, then precisely replay the sequence when all conditions are met—hitting wrong skull or wrong order triggers failure state.
+
+<small>Source: walkthrough-king.txt, lines 137-139 — "Look at the diary once more to get some clues. The top line indicates the left skull, the next the second skull, etc. Play the skulls in the order indicated by the music to open the door."</small>
+
+**Observation Phase**:
+```
+INFORMATION SOURCE: Grail Diary Musical Notation
+- Open diary in inventory
+- Examine page showing staff notation with note positions
+- Each line/position corresponds to skull from left-to-right
+- Example: Top line = first skull (far left), second line = second skull, etc.
+
+SKULL CHAMBER EXPLORATION:
+- Enter chamber containing multiple mounted skulls
+- Note each skull produces DIFFERENT PITCH when struck
+- Skulls arranged horizontally along wall in linear sequence
+- Player must mentally map diary lines to physical positions (1st diagram line = 1st physical skull from left)
+
+BLOCKING CONDITION BEFORE OBSERVATION COMPLETE:
+- Door to next area locked, no alternate passage exists
+- Attempting random strikes produces incorrect notes (audio feedback indicates wrong sequence)
+- Only correct musical sequence opens door
+```
+
+**Replay Execution Phase**:
+```
+SEQUENTIAL STRIKE PATTERN (Per Diary Notation):
+
+Step 1 → Examine grail diary one final time, confirm note order mentally
+         - Critical: Must remember sequence; cannot look at diary during execution
+
+Step 2 → Strike FIRST skull indicated by top-most notational line in diary
+         - Position determined by line position (not absolute left-to-right on screen, 
+           but relative to diagram structure)
+
+Step 3 → Move to SECOND skull per next musical notation line
+         - Timing: Must occur within reasonable interval or sequence may reset
+
+Step 4 → Continue through ALL skulls matching notated pattern
+         - Audio feedback: Each strike produces distinct pitch
+         - Visual confirmation: Skull vibrates when struck correctly
+
+VALIDATION: After final correct skull struck, hidden mechanism activates → door unlocks silently
+```
+
+**Why It's Observation Replay (Not Symbol Code Translation)**: While there IS a diagram to decode, the core mechanic is MEMORY AND TIMING—player must internalize sequence from static notation then perform it without reference during execution phase. Unlike SCT where symbols map directly to interface buttons here, the player memorizes ACTION SEQUENCE (strike order) rather than translating symbol-to-button equivalency. The skulls are not "interface elements" with matching properties—they're distinct physical objects requiring correct STRIKE ORDER reproduction.
+
+**Distinction from Pattern Learning**: Single application only—no repeated framework across multiple door/sequence pairs. Pure observation → memory → exact reproduction structure. Once learned and executed successfully, puzzle complete with no further applications of the musical sequence system.
+
+**Critical Timing Element**: Walkthrough emphasis on "play skulls in order" suggests sequence must occur within time window—player cannot indefinitely flip back to diary between strikes. This creates memory load pressure where player must retain full sequence during single execution attempt.
+
+<small>Cited from: walkthrough-king.txt:137-139</small>

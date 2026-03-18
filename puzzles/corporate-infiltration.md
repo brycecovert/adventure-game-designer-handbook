@@ -319,3 +319,65 @@ Both use multi-stage barriers where each layer requires different solution (temp
 
 <small>Source: qfg3-gamefaqs-cyricz.txt, lines 2991-3004 — Leopardmen Chief hut stealth entry with panther and monkey obstacles</small>
 
+---
+
+### INDY1: Corridor Guard Disguise System (Servant/Officer Uniforms)
+<small>Source: walkthrough-king.txt, lines 161-188</small>
+
+**Setup**: Castle Brunwald contains multiple Nazi guards patrolling corridors on the ground floor and 2nd floor. Each guard presents a blocking condition that can be bypassed through three distinct methods: direct combat (violence path), dialogue negotiation (persuasion path), or wearing appropriate disguise uniforms. Two uniform types exist in circulation: servant uniform (access to lower-security areas) and officer's uniform (grants high-level access, requires brass key to unlock).
+
+**Blocking Condition - Multi-Layer Security**: Guards patrol corridors on two floors with conditional detection behaviors based on player appearance:
+- Ground floor corridor: Drunk guard + patrolling guard + armored closet area
+- 2nd Floor: West corridor guard (patrols east-west), additional guards at doorways
+- Each guard responds differently depending on whether Indy wears no uniform, servant clothes, or officer's attire
+
+<small>Source: walkthrough-king.txt, lines 166-169 — "There is another guard in the corridor to the west, and there are 3 ways to deal with him. Dressed as Indy, you can talk to him (1, 2, 2)... or... change into the servant's uniform, then talk to him (1, 1, 3, 2)"</small>
+
+**Solution Chain — Uniform Acquisition Sequence**:
+
+PHASE A - SERVENT UNIFORM (Ground Floor, Lines 161-164):
+1. Navigate past initial guard via combat or dialogue negotiation
+2. Enter closet room on east side of green carpet area
+3. TAKE servant uniform from unlocked storage (officer's uniform locked here—requires key)
+4. CHANGE INTO servant costume at closet or any accessible wardrobe
+5. Return to corridor, approach guards wearing servant disguise
+6. Guards accept lower-priority dialogue tree (different conversation options available)
+
+PHASE B - OFFICER'S UNIFORM REQUIREMENTS (2nd Floor Loop, Lines 174-183):
+1. Ascend to 2nd floor, follow corridor east, enter northern room
+2. Take 50 Marks from chest in this room
+3. Return south, navigate through west-patrolling guard (now bypassable as servant)
+4. Enter western door when corridor turns north
+5. Open chest → find OFFICER UNIFORM package inside
+
+<small>Source: walkthrough-king.txt, lines 179-180 — "Open the chest and look inside to get a uniform. Look at it to find a brass key."</small>
+
+6. INSPECT uniform in inventory → discover BRASS KEY hidden inside (essential item for unlocking)
+7. Return downstairs to ground floor closet where officer's uniform was originally locked
+8. USE brass key on closet lock
+9. TAKE officer's uniform (now unlocked) into inventory
+
+PHASE C - DISGUISE ACTIVATION (2nd Floor Activation, Lines 183-184):
+10. Ascend back to 2nd floor room containing 50 Marks chest (has change wardrobe option)
+11. CHANGE INTO officer's uniform at this location
+12. Exit through alternate door in same room
+
+PHASE D - HIGH-LEVEL ACCESS GRANTED (Lines 184-187):
+13. Encounter guard past exit door—new dialogue options available as officer: TALK (option 2, 2, 3) vs combat
+14. Continue north and east through previously inaccessible passages
+15. Enter northern office door—guard allows access based on officer status recognition
+
+<small>Source: walkthrough-king.txt, lines 186-187 — "Dressed as an officer, talk to this guy (2, 2, 3)... If you were dressed as an officer, this conversation will help you later on."</small>
+
+16. Navigate past guards who would have blocked combat/required payment when wearing civilian clothes
+17. Maintain officer disguise through security zones (guards defer to authority rather than challenge)
+
+**Why It's Corporate Infiltration Disguise Layering**: Unlike simple Sensory Exploitation (single vulnerability attack like "feed dog boar"), this puzzle implements MULTI-STAGE AUTHENTICATION where each disguise tier unlocks progressively access patterns:
+- **Tier 1 (No uniform)**: Guards respond with hostility—requires combat or monetary payment (15+ marks per guard)
+- **Tier 2 (Servant uniform)**: Guards recognize lower status—different dialogue, no payment required, but limited zone entry
+- **Tier 3 (Officer uniform)**: Guards recognize authority—complete corridor access, privileged conversations that advance plot
+
+The locked uniform requiring brass key demonstrates REDUNDANT AUTHENTICATION similar to SQ3's final door (keycard + photo scan). Player must acquire ITEM FROM LOCATION A (brass key in officer's package) → unlock RESTRICTION AT LOCATION B (ground floor closet lock) → obtain ITEM C (officer's uniform) → activate at LOCATION D (2nd floor wardrobe) → gain ACCESS PATTERN E (corridor passages previously blocked by guards).
+
+**Behavior Verification Mechanic**: Unlike SQ3 where vaporizing cans continuously tests whether you're "really a janitor," the disguise system here uses CONTEXTUAL DIALOGUE VERIFICATION. Guards don't periodically check if you're a "real officer"—instead, they recognize uniform type at first encounter and modify their response accordingly. The verification happens through available conversation trees (officer gets options 2-2-3, servant gets options 1-1-3-2), not behavioral performance checks.
+
