@@ -2,7 +2,7 @@
 
 A taxonomy of puzzle design patterns from classic point-and-click adventure games.
 
-[Front Matter](./puzzles-front-matter.md)
+[Introduction](./introduction.md)
 
 # Core Principles
 
