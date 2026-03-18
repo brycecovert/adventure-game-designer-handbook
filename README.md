@@ -1,84 +1,88 @@
-# Puzzle Types in Adventure Games
+# Adventure Game Designer's Handbook
 
-A taxonomy of puzzle design patterns derived from analysis of classic Sierra, LucasArts, Revolution Software, and Microids adventure games (King's Quest III-VIII, Maniac Mansion, Secret of Monkey Island I & II, Simon the Sorcerer, Legend of Kyrandia, Sam & Max Hit the Road, The Dig, Full Throttle, Indiana Jones: Last Crusade and Fate of Atlantis, Loom, Day of the Tentacle, Grim Fandango, Space Quest I-IV, Quest for Glory I-IV, Beneath a Steel Sky, Broken Sword I & II, Syberia, The Longest Journey, Gabriel Knight 1), focusing on mechanics of information conveyance and player action. Notable examples include mechanical/clockwork-themed puzzles (SYB), war/siege diplomacy scenarios (QFG3), multi-class ritual divergence (QFG3/QFG4), corporate espionage infiltration patterns (SQ3/QFG3/INDY1), voodoo investigation puzzles (GK1), and time-based cross-realm causality mechanics (DOTT).
+A knowledge base documenting puzzle design patterns from classic point-and-click adventure games. This repository distills mechanical patterns—how information is conveyed and what player actions solve puzzles—from games like King's Quest VI and the Monkey Island series into a reusable reference for designers.
 
-**New Documentation March 2026**: Complete Quest for Glory IV: Shadows of Darkness analysis revealing German folklore-based puzzles (Leshy riddles Baba Yaga, Rusalka), multi-realm traversal between Mordavia and Avoozl's Darkland dimension, expanded class-specific ritual challenges across seven major cave escape sequences, and dark Gothic horror puzzle themes. Also complete Gabriel Knight 1: Sins of the Fathers analysis documenting investigation/voodoo puzzles (Rada Drum translation, Loa Machine cipher system, Priest Disguise acquisition chain, Snake Scale evidence comparison, Vevě reconstruction multi-faceted plan).
+## Why This Exists
 
-**Previous Documentation March 2026**: Quest for Glory III: Wages of War analysis revealing unique puzzle patterns for class-specific gameplay, multi-faction negotiation mechanics, thief infiltration routes, and supernatural siege defense sequences. Additional coverage: Beneath a Steel Sky (LINC-Space password systems), Broken Sword I & II (plaster chemistry knowledge transfer, warehouse escape MFP), Grim Fandango (coat check → photo finish ticket pattern learning), Simon the Sorcerer (magic word learning system + witch duel combat application), Legend of Kyrandia 1 (bell musical sequence puzzle).
+At six years old, watching my grandfather play King's Quest made me realize software development was my path. That curiosity fueled 35 years of building.
 
-## Viewing the Knowledge Base
+Time has not been kind to adventure games. They're mocked—often justly—for moon logic, artificial barriers, and limited replayability. The Sierra classics I loved sinned most egregiously.
 
-This project is now built with [mdbook](https://rust-lang.github.io/mdBook/). To view locally:
+But when executed well, adventure games elevate above other genres. Their limitations breed creativity: finite interaction options force designers to maximize lateral thinking and novelty. The result is emergent, quality puzzle design that no amount of mechanical complexity can replicate.
+
+## What Makes Adventure Game Design Special
+
+Consider the "Knowledge Transfer" puzzle from Monkey Island. When learning to swordfight, the player memorizes responses to insults—each insult has a specific comeback. Later, fighting the swordmaster presents new insults where those same comebacks apply. The game never telegraphs this connection. It's not difficult, but it's masterful: you have yourself to credit for recognizing the pattern and applying it to a new domain.
+
+That's the design quality this handbook documents and empowers others to replicate.
+
+Unfortunately, very little material exists on how to design adventure games well. Even revered designers often discuss why the genre struggles. This project aims to change that.
+
+## Goals
+
+- **Establish a puzzle design playbook**: Help designers understand puzzle type structures independent of plot and setting
+- **Enable LLM-assisted design**: Current SOTA models produce generic puzzle slop when asked about adventure games. This playbook provides concrete critique criteria grounded in proven patterns
+- **Demonstrate local model capability**: The handbook was co-authored with Qwen3.5-27B—a model that punches above its weight class. If this model can grok these ideas, larger models certainly can
+- **Document reference implementations**: Catalog specific puzzle applications from popular adventure games for study and pattern recognition
+- **Support structural visualization** (future): Generate detailed Mermaid diagrams showing puzzle structure from design documents or walkthroughs
+
+## Non-Goals
+
+- Automating adventure game design. This is a reference, not a generator.
+
+## Handbook Structure
+
+The handbook follows this structure:
+
+### Introduction
+
+A hook showcasing a masterful puzzle and why it works, followed by why this handbook exists and what readers can expect.
+
+### Inspiration
+
+A sampling of 30+ popular adventure games, with the best three puzzles from each analyzed using a structured format: Problem, Why It Works, Solution, Steps. Each sample puzzle links to its corresponding puzzle type in the Playbook section. This serves as concrete reference material for pattern recognition.
+
+### Playbook: Puzzle Types
+
+A page for each puzzle type, following a consistent mechanical format:
+- Understandable title describing the core mechanic
+- What this puzzle type achieves and when to use it
+- Mechanic-oriented analysis (setting-independent patterns)
+- Three illustrative examples from reference games
+- Cross-links to cited puzzles in Inspiration section
+- Index table of other game implementations
+
+### FAQ: Common Design Problems
+
+Practical answers to recurring design challenges:
+- My game is too linear—how do I create parallel paths?
+- Players get stuck at the same spot—how do I avoid moon logic?
+- How do I create variation in how a puzzle might be solved?
+- And so on...
+
+## Repository Structure
+
+| Path | Contents |
+|------|----------|
+| `/src/puzzles/` | Markdown documents defining puzzle type patterns with mechanical analysis and game examples |
+| `/src/docs/` | Style guides and validation checklists for contributing pattern documentation |
+| `/src/SUMMARY.md` | Navigation structure for mdbook |
+| `/walkthroughs/` | Source walkthrough documents used as reference material for pattern extraction |
+| `/book/` | Generated HTML documentation (run `mdbook build` to create) |
+| `/src/mdbook.template` | Template file that converts patterns into puzzle design questions usable by LLMs |
+
+## Building the Documentation
 
 ```bash
-# View in browser (with auto-reload)
-mdbook serve --open
-
-# Or build once and open ./book/index.html
+# Build static HTML
 mdbook build
-xed book/index.html  # or your favorite browser
+
+# Serve with auto-reload during editing
+mdbook serve --open
 ```
 
-The generated HTML documentation is available at `./book/`.
+## Why This Matters
 
-## Table of Contents
+There's no canonical reference on adventure game puzzle mechanics. Designers reinvent patterns or miss them entirely. LLMs generate generic "find key, open door" slop without understanding what made Monkey Island or King's Quest memorable.
 
-| # | Puzzle Type | Core Mechanic | Game Source |
-|---|-------------|---------------|-------------|
-| 1 | [Multi-Faceted Plan Puzzle](src/puzzles/multi-faceted-plan.md) | Requirements discovered incrementally; player synthesizes complete mental model | KQVI/KQVII/KQVIII/INDY1/SIMON/LK1/SMHTR/INDY2/SQ1/SQ3/SQ4/QFG1/QFG2/QFG3/QFG4/BS1/BS2/TLJ/SYB/GF |
-| 2 | [Sensory Exploitation Puzzle](src/puzzles/sensory-exploitation.md) | Character perceptual vulnerabilities exploited through item matching | KQIII/KQVI/KQVII/MI/LK1/SMHTR/INDY2/SQ1/SQ3/QFG1/QFG3/QFG4/BS1/TLJ/SYB/GF/SIMON |
-| 3 | [Metaphor-to-Literal Translation](src/puzzles/metaphor-literal.md) | Abstract language interpreted as literal game mechanics | MI/SQ2/QFG4 |
-| 4 | [Information Brokerage Chain](src/puzzles/information-brokerage.md) | Implicit NPC exchange network mapped through incremental interaction | KQVI/KQVII/MI/LK1/INDY2/SQ1/TD/BS1/BS2/TLJ/SYB/GF/QFG3/QFG4 |
-| 5 | [Timed Consequence Puzzle](src/puzzles/timed-consequence.md) | Narrative urgency without mechanical deadline; consequence is permanent story change | KQIII/KQVI/MM/LK1/SIMON/QFG1/QFG3/QFG4/BAS/BS1/SQ3 |
-| 6 | [Environmental Storytelling Discovery](src/puzzles/environmental-storytelling.md) | Information hidden in environment; discovered through examination, observation | KQVI/KQVII/QFG1/QFG3/QFG4/SYB/GF |
-| 7 | [Cross-Realm Logistics Puzzle](src/puzzles/cross-realm-logistics.md) | Inventory management across multiple locations/realms; rewards forward planning | KQVI/KQIII/KQVII/KQVIII/LK1/INDY2/SQ3/SQ4/TLJ/SYB/QFG3/QFG4 |
-| 8 | [Truth Revelation Mechanic](src/puzzles/truth-revelation.md) | Items reveal hidden truth; truth itself is the solution | KQVI/KQVII/QFG3/SQ1/SYB/GF |
-| 9 | [Observation Replay Puzzle](src/puzzles/observation-replay.md) | Single viewing of sequence, must reproduce exactly when opportunity arises | KQIII/KQVII/KQVIII/MM/MI/LK1/SIMON/INDY1/INDY2/QFG1/QFG3/QFG4/SQ1/SQ2/SQ3/SQ4/BAS/BS1/BS2/TLJ/SYB/GF/GK1 |
-| 10 | [Pattern Learning / Knowledge Transfer](src/puzzles/pattern-learning.md) | Learn rule set in low-stakes domain; apply exhaustively under consequences | MI/LK1/TD/KQVII/BAS/BS1/BS2/GF/SIMON/QFG3/QFG4 |
-| 11 | [Environmental Memo Chain](src/puzzles/memo-chain.md) | Scattered written fragments across locations; synthesize narrative to reveal solution | MI/SQ4/SYB/GF/GK1 |
-| 12 | [NPC Distraction Physics](src/puzzles/distraction-physics.md) | Manipulate environment to break NPC blocking pattern without confrontation | MI/INDY1/INDY2/BS1/BS2/TLJ/GF/GK1/SIMON/QFG3 |
-| 13 | [Meta-Puzzle Construction](src/puzzles/meta-puzzle-construction.md) | Sequential interdependence; each step's output becomes next step's input | MI/MM/KQIII/KQVII/KQVIII/LK1/SMHTR/INDY1/IJOA/TD/INDY2/SQ1/SQ3/SQ4/BAS/BS1/TLJ/SYB/GF/SIMON/QFG3/QFG4 |
-| 14 | [Multi-Character Coordination Puzzle](src/puzzles/multi-character-coordination.md) | Multiple characters required for separated location actions; single character physically impossible | MM/DOTT/TD/INDY1/INDY2 |
-| 15 | [Cross-Temporal Causality Puzzle](src/puzzles/cross-temporal-causality.md) | Actions in one time period create immediate consequences in another; solution requires understanding historical causality | DOTT/TLJ/GF/QFG4 |
-| 16 | [Surreal Logic Bridge](src/puzzles/surreal-logic-bridge.md) | Real-world causality rejected for cartoon/comedy equivalences; success requires abandoning realistic reasoning | SMHTR/SIMON |
-| 17 | [Comedy-Based NPC Persuasion](src/puzzles/comedy-based-persuasion.md) | Dialogue success depends on tonal comedy matching, not logical argument or trade | SMHTR/GF/SIMON |
-| 18 | [Symbol Code Translation](src/puzzles/symbol-code-translation.md) | Visual symbols on artifact translate to interface actions via shape/color+order matching; applied exhaustively | TD/INDY1/INDY2/KQVII/KQVIII/BS1/BS2/TLJ/SYB/GF/QFG3/QFG4/GK1 |
-| 19 | [Robot Programming / Color-Encoded Sequences](src/puzzles/robot-programming.md) | Abstract color→action rule discovery through experimentation; compose original sequences | TD/SYB |
-| 20 | [Escalating Combat Progression](src/puzzles/escalating-combat-progression.md) | Sequential combat gauntlet where each victory yields weapon needed for next opponent | FT/SQ3/QFG3 |
-| 21 | [Corporate Infiltration Puzzle](src/puzzles/corporate-infiltration.md) | Multi-layer security breach requiring disguise, behavioral role-play, and credential synthesis | INDY1/SQ3/QFG3 |
-| 22 | [Predator Chase Escape](src/puzzles/predator-chase-escape.md) | Redirect environmental hazards toward pursuing antagonist; timing/positioning critical | SQ3 |
-| 23 | [Repair Chain Construction](src/puzzles/repair-chain-construction.md) | Sequential component installation where each repair enables next system functionality | SQ3 |
-| 24 | [Class-Specific Ritual Challenge](src/puzzles/class-specific-ritual.md) | Same narrative obstacle solved through mechanically distinct class implementations | QFG3/QFG4 |
-| 25 | [Multi-Faction Diplomacy Puzzle](src/puzzles/multi-faction-diplomacy.md) | Multiple warring groups independently satisfied before unified conflict resolution possible | QFG3 |
-
----
-
-## Core Principles
-
-These puzzle types share common characteristics that define adventure game puzzle design:
-
-### Limited Actions, Unlimited Combinations
-The standard adventure game action set (LOOK, TALK, USE, WALK, TAKE) is applied in novel ways. The puzzle emerges from the *combination* of actions, not from complex input systems.
-
-### Information as Puzzle Element
-The puzzle is often "what does the game know that I need to find out?" rather than "what do I need to do?" Information discovery is the primary mechanic.
-
-### Failure as Feedback
-Failed attempts reveal information about what's missing or wrong. The puzzle teaches through consequences, not explicit instruction.
-
-### Synthesis Over Collection
-The solution often requires combining information from multiple sources. No single action completes the puzzle—player must synthesize.
-
----
-
-## Documentation Structure
-
-Each puzzle type document contains:
-- **Information Architecture**: How information is conveyed to the player
-- **Player Action Pattern**: What the player does with that information
-- **Core Mechanic**: The underlying puzzle logic
-- **Variations**: Different ways this type can manifest  
-- **Adventure Game Implementation**: How limited actions (LOOK, TALK, USE, WALK) map to the puzzle
-- **Example Structure**: Generic template showing how the puzzle works
-- **Game Examples**: Concrete instances from walkthroughs
-- **Related Types**: Cross-references to similar puzzle mechanics
+This handbook captures the mechanical DNA of great adventure game puzzles—pattern-based, not narrative-based—so designers can build on proven foundations rather than starting from scratch.
