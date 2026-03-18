@@ -171,6 +171,125 @@ FAILURE STATES:
 
 ---
 
+### Indiana Jones: Fate of Atlantis - Generator/Truck Repair Chain (IJOA)
+
+**Problem**: At the desert dig site, the pickup truck needs repairs to continue journey to Crete. The generator must be repaired first to access parts and complete the vehicle restoration. This forms a strict sequential chain with no reordering possible.
+
+<small>Source: walkthroughking_ashley_walkthrough.html — "Go back to the truck and open the gas cap. Use the hose with the gas tank and the jar with the end of the hose. Now go back down the ladder and open the cap of the generator. Pour the gas in and press the 'little metal thing' (start button)."</small>
+
+**Complete Sequential Chain**:
+```
+PHASE 1: Gas Transfer Setup
+1- Pick up clay jar, ship rib, wooden peg, hose from dig site area
+2- Open truck gas cap → access fuel tank
+3- Attach hose to gas tank
+4- Attach clay jar to other end of hose
+5- Gravity siphons gas into jar
+
+PHASE 2: Generator Activation  
+6- Descend ladder to generator room
+7- Open generator cap
+8- Pour gas from jar into generator
+9- Press start button → generator runs, creates power
+
+PHASE 3: Mural Access & Peg Placement
+10- Use ship rib on crumbling wall (right side) → passage opens
+11- Place wooden peg in mural hole (previously inaccessible)
+12- [Optional sunstone placement varies by path - Team/Wits/Fists]
+
+PHASE 4: Final Vehicle Repair (after later locations)
+13- Obtain spark plug from powered generator (Team path only) OR use sunstone/orichalcum bead (Wits path)
+14- Insert spark plug into truck distributor cap assembly  
+15- Truck operational → can travel to Crete
+```
+
+<small>Source: walkthroughking_ashley_walkthrough.html — "Open the generator and switch it off, before stealing the spark plug. Now head back to the truck, and insert the distributor cap and spark plug."</small>
+
+**Why It's Meta-Puzzle Construction**: Output interdependence is strict—each phase produces required input for next:
+- Gas jar filled (output) → fuels generator activation (input)
+- Generator powered (output) → creates access to functional spark plug (input)  
+- Spark plug obtained (output) → repairs truck engine (input)
+
+Attempting steps out of order FAILS: Cannot fill gas jar without hose connection; cannot get spark plug without powered generator; truck won't start without spark plug.
+
+**Distinction from MFP**: The four items needed (hose, jar, peg, ship rib) CAN be gathered in parallel during initial exploration—but their *APPLICATION* follows strict sequential dependency. This is Meta-Construction layered ON TOP of minimal collection phase.
+
+---
+
+### Indiana Jones: Fate of Atlantis - Balloon Construction Chain (Wits Path, IJOA)
+
+**Problem**: After solving the Monte Carlo sunstone puzzle and reaching Thera, Indy must fly to the Nazi submarine location. The only viable transportation is a hot air balloon that must be constructed from scavenged parts found across multiple locations at the mountain dig site.
+
+<small>Source: walkthroughking_ashley_walkthrough.html — "Build a balloon using the basket, balloon bladder (in the small crate), fish net and hose."</small>
+
+**Sequential Assembly Chain**:
+```
+1- Close empty wooden crate → access invoice document inside
+2- Give invoice to shopkeeper at mountain docks → receives woven basket in trade
+3- Open small crate at dig site entrance → obtain balloon bladder (fabric envelope)
+4- Collect fish net from nearby storage area  
+5- Obtain spare hose during earlier generator/truck repair sequence
+6- ASSEMBLE at mountain vent location:
+   - Attach woven basket to base of structure
+   - Use fish net as structural reinforcement framework
+   - Connect balloon bladder (gas envelope)
+   - Attach hose as gas inlet from ground-level volcanic vent
+7- Use assembled balloon on volcanic vent → hot air inflates bladder
+8- Balloon achieves lift → cut rope and fly toward submarine location
+```
+
+**Why It's Meta-Construction**: Four discrete components gathered across separate locations, but ASSEMBLY follows strict sequence:
+1. Invoice retrieval (from crate) enables basket trade (with shopkeeper)
+2. Basket is required STRUCTURAL BASE for assembling net/bladder/hose
+3. Bladder cannot be inflated WITHOUT proper basket/net framework
+4. Hose connection to vent only works AFTER bladder properly mounted
+5. Final inflation triggers ONLY when complete assembly detected
+
+**Distinction from Multi-Faceted Plan**: While components found across locations (could appear parallel), the CRITICAL distinction is in ASSEMBLOGICALLY-required sequence—cannot attach bladder to nothing; cannot inflate without basket base; trade requires invoice as prerequisite. Physical construction logic enforces ordering.
+
+---
+
+### Indiana Jones: Fate of Atlantis - Robot Assembly Puzzle (Atlantis Ending, IJOA)
+
+**Problem**: In the final Atlantis section, four scattered bronze robot parts must be collected from separate rooms, then assembled on a large central statue in specific configuration to manipulate its arm mechanism for gate access and additional bead retrieval.
+
+<small>Source: walkthroughking_ashley_walkthrough.html — "Use the ladder with the statue and open the chest plate, before looking at it. Put the four pieces into their respective places to move the right arm down and put in a bead."</small>
+
+**Collection Phase (can be reordered)**:
+- Bronze gear → Robot Parts I room (wall-mounted)
+- Bronze spoked wheel → Robot Parts II room (in broken machinery)
+- Eel sculpture → Separate wall display room  
+- Crescent-shaped gear → cupboard inside canal floating exploration area
+
+<small>Source: walkthroughking_ashley_walkthrough.html — "Take the bronze gear attached to the wall... Take the bronze spoked wheel lying in the broken machine... Take the crescent-shaped gear from the cupboard and close the door."</small>
+
+**Assembly Configuration Phase (strict sequence)**:
+```
+1- Climb ladder onto large bronze statue platform
+2- Open statue's chest plate panel
+3- Examine interior mechanism → reveals diagram showing correct part placement
+4- PLACE GEARS ACCORDING TO DIAGRAM:
+   - Spoked wheel on axle slot A
+   - Circular gear on peg B  
+   - Eel sculpture into niche C
+   - Crescent gear in position D
+5- Rearrange piece configuration to lower arm → insert bead (counts toward total)
+6- Attach chain from right arm to nearby gate mechanism
+7- Rearrange pieces again to raise arm → pulls gate latch, opens passage
+8- Collect hinge pin from freed gate mechanism for later use (Sophia rescue)
+9- Insert second control bead when arm reaches final position
+```
+
+**Why It's Meta-Construction with MFP Hybrid**: Collection phase = parallel gathering (MFP characteristics—four independent locations can be visited in any order). BUT assembly phase = strict configuration dependency:
+1. Ladder and chest plate access → prerequisite for viewing assembly diagram
+2. Diagram observation → required before correct piece placement possible
+3. Correct placement → unlocks arm movement mechanic
+4. Arm manipulation → generates gate-access AND bead-counting outcomes
+
+**Hybrid Classification**: This puzzle exemplifies how Meta-Construction often EMBEDS within Multi-Faceted Plan frameworks. Four components gathered independently (MFP) but applied through strict sequential dependency (Meta-Construction). The assembly MECHANIC is the defining feature—configuration order produces cascading outputs.
+
+---
+
 ## Related Types
 
 - **Multi-Faceted Plan**: When requirements discovered in parallel, not sequence

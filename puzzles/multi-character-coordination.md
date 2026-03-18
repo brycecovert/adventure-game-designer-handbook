@@ -360,3 +360,82 @@ ESCAPE PHASE (all three characters):
 3. **Sequential Dependency Pipeline**: Each actor must complete their role before next can progress
 
 **Distinction from Timed Consequence**: Has urgency (crystal grab window), but PRIMARY mechanic is coordinating three actors through blocking states with distributed inventory—not just speed. TC applies to sub-puzzle; overall pyramid escape is MCC.
+
+---
+
+### Indiana Jones: Fate of Atlantis - Team Path Multi-Character Coordination (IJOA)
+
+**Problem**: On the Team path, players control both Indiana Jones and Sophia Hapgood with character-switching capability. Multiple puzzles require transferring control between characters to access separated locations or leverage unique knowledge/abilities each character possesses. Indy's Team path uses SEQUENTIAL handoff coordination rather than MM-style true parallel action.
+
+<small>Source: walkthroughking_ashley_walkthrough.html — "Let Sophia talk to Costa and then try it yourself." (Initial coordination pattern)</small>
+
+**Coordination Pattern Examples**:
+
+Example A - Sternhart Distraction (Tikal):
+```
+STEP 1 [INDY AT TIKAL]:  
+- Meet Dr. Sternhart blocking pyramid entrance
+- Direct confrontation fails; dialogue doesn't progress goal  
+
+STEP 2 [TRANSFER TO SOPHIA]:
+- Switch character control to Sophia at same location
+- Talk to Sternhart → he's fascinated by her psychic insights, distracted
+
+STEP 3 [RETURN TO INDY]:  
+- Transfer control back to Indiana Jones
+- While Sternhart occupied talking to Sophia → Indy sneaks behind him
+- Steal lantern from unattended position
+
+RESULT: SEPARATION OF ATTENTION enables theft impossible for single character alone
+```
+
+<small>Source: walkthroughking_ashley_walkthrough.html — "Get Sophia to keep him busy, while you go and steal his lantern."</small>
+
+Example B - Nazi Submarine Guard Elimination (Team Path Finale):
+```
+STEP 1 [SOPHIA IN ADJACENT CELL]:
+- Use intercom to communicate with Sophia through shared cell wall  
+- Sophia agrees to create diversion
+
+STEP 2 [COORDINATED DISTRACTION]:
+- Sophia makes noise → guards walk toward her position (out of patrol pattern)
+- Guard now exposed in vulnerable spot between cells
+
+STEP 3 [INDY EXPLOITS POSITIONING]:
+- Walk Indy around behind distracted guard  
+- After Sophia knocks him out with thrown object → Indy collects key items
+
+RESULT: PHYSICAL SEPARATION enables flanking hit that single character's positioning cannot achieve
+```
+
+<small>Source: walkthroughking_ashley_walkthrough.html — "Get her to distract the guard, and then walk around behind him. After she knocks him out..."</small>
+
+Example C - Gold Box Bead Puzzle (Atlantis):
+```
+STEP 1 [INDY GATHERS PRE-REQUISITES]:
+- Collect two orichalcum beads from game progression
+- Acquire golden box mechanism  
+- Obtain fish-shaped orichalcum detector item
+
+STEP 2 [TRANSFER TO SOPHIA FOR PHYSICAL POSITIONING]:  
+- Convence Sophia to crawl through narrow hole (smaller character model required)
+- Sophia positioned behind gate/barrier Indy cannot pass alone
+
+STEP 3 [INDY PROVIDES INVENTORY + DETECTOR FEEDBACK]:
+- Give Sophia gold box containing beads
+- Use orichalcum fish detector → points at Sophia (has hidden bead in necklace)
+- Convence her to place hidden bead into box, close lid
+
+RESULT: CHARACTER-SPECIFIC PHYSICAL CONSTRAINTS (size difference enabling passage through small aperture) + SHARED INVENTORY TRANSFER = solution impossible for solo character
+```
+
+<small>Source: walkthroughking_ashley_walkthrough.html — "Convince her to crawl through the hole... Use the fish and it will point at Sophia's necklace, convince her to put it in the gold box."</small>
+
+**Why It's Multi-Character Coordination**:
+1. **Physical Impossibility For Single Actor某些**: Guard flanking requires simultaneous positioning of attacker (Indy) and distraction-source (Sophia) in separated spatial contexts. Single character would need to walk BOTH approaches simultaneously—requiring sequential handoff mechanism  
+2. **Character-Switching as Core Mechanic**: Puzzle uses the control-transfer command strategically, not just for navigation
+3. **Sequential Handoff Pattern (vs MM Parallel)**: Unlike Maniac Mansion's true parallel control, Indy's Team path uses SEQUENTIAL switching—player controls ONE character at a time, but must alternate between them to maintain coordinated positions/attention states
+
+**Distinction from Multi-Faceted Plan**: MFP gathers independent requirements into synthesis; MCC requires simultaneous spatial occupation or sequential handoff for PHYSICALLY impossible actions. The core challenge is CHARACTER COORDINATION, not information synthesis.
+
+**Distinction from Information Brokerage**: While characters exchange items here, the PRIMARY mechanic is SPATIAL SEPARATION + CONTROL TRANSFER—brokerage focuses on NPC trade mapping regardless of physical positioning. MCC's core question: "how do two separated locations coordinate?" not "who trades what?"

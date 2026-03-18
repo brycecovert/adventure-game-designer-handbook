@@ -205,3 +205,78 @@ Source: the-spoiler_gamecat.html, lines 67-69 — "Remember that some spells can
 
 **Why It's NOT Just Observation Replay**:
 Player didn't just memorize "SILENCE melody = E-F-D-C" and replay it. Player must actively APPLY a learned principle: "If SILENCE is E-F-D-C, then UNSILENCE is C-D-F-E because I learned earlier that reversing any draft reverses its effect." That general rule is the pattern/ knowledge being transferred.
+
+---
+
+### Indiana Jones: Fate of Atlantis - Plato's Lost Dialogue Navigation System (IJOA)
+
+**Problem**: The entire mid-game through end-game navigation relies on a mechanical system taught early via Plato's Lost Dialogue text pages. Indy must understand a directional translation system that converts cryptic textual instructions into specific compass-direction actions with modifier rules for accuracy adjustment.
+
+<small>Source: walkthroughking_ashley_walkthrough.html — "Use all three disks with the spindle according to the Lost Dialogue" (Team path). Also "follow the next set of directions in the Lost Dialogue" (multiple references across paths).</small>
+
+**Learning Phase - System Discovery**:
+
+The Lost Dialogue provides a complete navigation framework with three core rules:
+
+<small>Source: walkthroughking_ashley_walkthrough.html — "Use the surveyor's instrument (as indicated on the mural) on the head statue and look at the left horn, then on the tail statue and look at the right horn. This will give you at site to dig..."</small>
+
+```
+RULE 1: Directional Translation System
+- "Face east" → Stand facing cardinal direction, observe target landmark  
+- "Look at left/right horn/feature" → Identify specific visual marker on object
+- The alignment of observed features provides coordinate data for digging/excavation
+
+RULE 2: Ten-fold Error Correction (Critical late-game rule)
+<small>Source: walkthroughking_ashley_walkthrough.html — "Guide [the boat] using Plato's Lost Dialogue, remembering the ten-fold error." (Fists Path)</small>
+- When following directions underwater/at certain distance scales
+- Navigation accuracy degrades exponentially  
+- Player must ADJUST course direction by factor of 10 to compensate
+
+RULE 3: Reverse/Contrary Principles (Final room solution)
+<small>Source: walkthroughking_ashley_walkthrough.html — "Use the disks again, but reverse everything ('contrary minds')." (Atlantis finale)</small>  
+- When mechanical system presents as mirror image or opposite
+- All directional/rotational inputs must be INVERTED
+- "Contrary minds" textual clue indicates reversal requirement
+```
+
+**Application Phase - Domain Transfer Examples**:
+
+Domain A1 → Crete Stone Dial Navigation:
+1. Lost Dialogue page provides cryptic instruction set  
+2. Player places sunstone/moonstone on dial in specified positions
+3. Follows "align symbol with horns" instructions from text
+4. Excavation site revealed where directions converge
+
+Domain A2 → Balloon Flight Navigation (Wits Path):
+1. After constructing balloon at Thera, must navigate to submarine location  
+2. Lost Dialogue provides directional bearings ("fly north until X appears")
+3. Player follows text coordinates during flight sequence
+4. Correct interpretation lands near target; wrong directions = crash/reset
+
+Domain B → Fists Path Submarine Approach (Underwater Navigation):
+<small>Source: walkthroughking_ashley_walkthrough.html — "Head back to the port and talk to the guy on the boat. Guide him using Plato's Lost Dialogue, remembering the ten-fold error."</small>
+1. Player now underwater with SCUBA suit
+2. Same directional commands from text APPLY at different scale
+3. Ten-fold error rule becomes CRITICAL: surface-level navigation fails  
+4. "Go north" on page = actual 10x offset underwater → player must compensate by going only 1/10th the indicated distance
+
+Domain C → Final Atlantis Disk Chamber (Contrary Rule Application):
+<small>Source: walkthroughking_ashley_walkthrough.html — "Use the disks again, but reverse everything ('contrary minds')."</small>
+1. Three rotating disks on spindle mechanism must be aligned to specific symbol positions
+2. Earlier solutions used direct interpretation of Lost Dialogue markings  
+3. Final chamber explicitly states "contrary minds" = all inputs reversed
+4. Player applies reversal rule taught in early text: opposite directions, flipped rotations
+
+**Why It's Pattern Learning/Knowledge Transfer**:
+1. **Same Mechanical Framework Across Domains**: The directional translation system learned on page 1 of Lost Dialogue operates identically at Crete stone dial, balloon navigation, underwater coordinates, and final disk mechanism—only context (domain) changes
+2. **Exhaustible Rule Set Discoverable**: Three core principles (translation, ten-fold error, contrary/reversal) constitute COMPLETE mechanic. Mastery requires discovering all three for full game completion  
+3. **Critical Recognition Required**: Underwater "ten-fold error" section only solvable by recognizing: "This IS the same navigation system, but with scale compensation needed." Player isn't learning new skills—applying SAME learned framework to NEW environment
+4. **Escalating Consequences Without New Teaching**: Balloon flight failure = simple reset. Submarine navigation failure = potentially lose items/progress. Final disk misalignment = cannot open gate, game ends without correct pattern application
+
+**Distinction from Observation Replay**: Player doesn't just watch "disk aligns at noon position" later reproduce the sequence. Instead: learn general principle ("symbol markings translate to compass-aligned physical movements"), apply that PRINCIPLE to entirely new targets. The framework transfers; specific values don't memorize-and-repeat.
+
+**Distinction from Simple Code-Cracking**: Many adventure games use "cipher learned early, applied late." This differs because Lost Dialogue isn't a one-time decryption—it's an ongoing MECHANICAL SYSTEM for spatial manipulation that reappears in 5+ different physical locations with same underlying rules. Player learns to NAVIGATE via text coordinates once; applies navigation framework repeatedly.
+
+---
+
+## Common Misidentifications (NOT Knowledge Transfer)

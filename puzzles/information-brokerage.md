@@ -114,6 +114,42 @@ Each map piece requires completing a different sub-trade chain with the Antiques
 
 All branches converge at Wally the cartographer who assembles the final map.
 
+### Indiana Jones: Fate of Atlantis - Algiers Trading Network (IJOA)
+
+**Problem**: Indy and Sophia need to reach the desert dig site by camel, but the local contact Omar demands proof of authentication (the sunstone). Even with the sunstone, they must acquire a balloon ticket for the final leg of journey. The trade network spreads across multiple NPCs with interdependent wants/needs.
+
+<small>Source: walkthroughking_ashley_walkthrough.html — "Let Sophia talk to Costa and then try it yourself. Costa seems to want a rare artifact in exchange for information..."</small>
+
+**Primary Goal Chain**:
+```
+Balloon Ticket ← Beggars (squab-on-a-stick) ← Grocer (items via trade network)
+```
+
+<small>Source: walkthroughking_ashley_walkthrough.html — "You'll need to start trading with Omar and the grocer (you'll eventually get the squab-on-a-stick). Give the squab to the beggar in exchange for balloon tickets..."</small>
+
+**Network Mapping Process**:
+1. **Initial Contact - Beggars**: Talk to beggars → they want food (squab-on-a-stick) → offer balloon tickets in return
+2. **Grocer Dependency**: Talk to grocer → wants payment for squab → player lacks currency/items initially
+3. **Omar Authentication**: Sunstone from Monte Carlo seance required before Omar will cooperate with trade
+4. **Trade Initiation**: After showing sunstone, begin trading loop between grocer/Omar/beggars
+
+**Key Network Nodes**:
+| NPC | Wants | Offers |
+|-----|-------|--------|
+| Beggar | Squab-on-a-stick | Balloon tickets |
+| Grocer | Various goods (player inventory) | Squab-on-a-stick |
+| Omar | Sunstone (authentication) | Trade network access, map via bamboo pole |
+| Knife-thrower | Nothing explicit | Demonstrates skill; souvenir knife obtainable if Sophia volunteers and is pushed forward |
+
+<small>Source: walkthroughking_ashley_walkthrough.html — "Talk to the beggar, and then the knife-thrower. Try to get Sophia to volunteer, and when she walks close to him, push her forward (you'll get a souvenir knife). Talk to the grocer, but you'll have to come back for that squab."</small>
+
+**Why It's Information Brokerage**: Player doesn't receive explicit trade menu or item list. Must discover through incremental TALK/failed GIVE attempts:
+- What each NPC wants → learned only when directly asked/offered something
+- Trade network structure (who connects to whom) → discovered by attempting trades and hearing responses  
+- Bootstrap solution (sunstone from separate Monte Carlo puzzle provides initial credential)
+
+**Distinction from Multi-Faceted Plan**: While multiple items are gathered, here the focus is on *trade relationships* rather than independent requirement discovery. Each NPC's want must be satisfied to gain access to their offering—it's a dependency graph, not parallel gathering. The network structure itself (who trades with whom) IS the puzzle, not just item collection.
+
 ---
 
 ## Related Types
