@@ -1,6 +1,6 @@
 # Puzzle Types in Adventure Games
 
-A taxonomy of puzzle design patterns derived from analysis of classic Sierra and LucasArts adventure games (King's Quest VI, Maniac Mansion, Secret of Monkey Island, Simon the Sorcerer, Legend of Kyrandia, Sam & Max Hit the Road), focusing on mechanics of information conveyance and player action.
+A taxonomy of puzzle design patterns derived from analysis of classic Sierra and LucasArts adventure games (King's Quest VI, Maniac Mansion, Secret of Monkey Island, Simon the Sorcerer, Legend of Kyrandia, Sam & Max Hit the Road, The Dig, Full Throttle), focusing on mechanics of information conveyance and player action.
 
 ## Table of Contents
 
@@ -25,6 +25,7 @@ A taxonomy of puzzle design patterns derived from analysis of classic Sierra and
 | 17 | [Comedy-Based NPC Persuasion](./puzzles/comedy-based-persuasion.md) | Dialogue success depends on tonal comedy matching, not logical argument or trade | SMHTR |
 | 18 | [Symbol Code Translation](./puzzles/symbol-code-translation.md) | Visual symbols on artifact translate to interface actions via shape/color+order matching; applied exhaustively | TD |
 | 19 | [Robot Programming / Color-Encoded Sequences](./puzzles/robot-programming.md) | Abstract color→action rule discovery through experimentation; compose original sequences | TD |
+| 20 | [Escalating Combat Progression](./puzzles/escalating-combat-progression.md) | Sequential combat gauntlet where each victory yields weapon needed for next opponent | FT |
 
 ---
 
