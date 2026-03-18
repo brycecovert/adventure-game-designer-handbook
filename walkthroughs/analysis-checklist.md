@@ -16,7 +16,7 @@ Status legend:
 - [ ] Day of the Tentacle (1993)
 - [x] Sam & Max Hit the Road (1993) - SMHTR
 - [x] The Dig (1995) - TD
-- [ ] Full Throttle (1995)
+- [x] Full Throttle (1995) - FT
 - [ ] Grim Fandango (1998)
 
 ## Sierra Games - Fantasy Series
@@ -59,5 +59,5 @@ Status legend:
 ## Analysis Progress
 
 **Total:** 30 games  
-**Complete:** 11 games (KQVI, MI1, MI2, SIMON, LK1, MM, ZAK, INDY1, LOOM, SMHTR, TD)  
-**Remaining:** 19 games
+**Complete:** 12 games (KQVI, MI1, MI2, SIMON, LK1, MM, ZAK, INDY1, LOOM, SMHTR, TD, FT)  
+**Remaining:** 18 games
