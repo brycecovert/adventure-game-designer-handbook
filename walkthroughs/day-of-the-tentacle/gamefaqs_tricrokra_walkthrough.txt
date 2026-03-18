@@ -1,0 +1,1549 @@
+<!doctype html>
+<html lang="en" class="js no-touch" itemscope>
+	<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle/faqs/52988","20190509091816","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1557393496");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+		<title>Maniac Mansion: Day of the Tentacle FAQ/Walkthrough for PC by Tricky - GameFAQs</title>
+
+				<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+
+				<meta name="description" content="For Maniac Mansion: Day of the Tentacle on the PC, FAQ/Walkthrough by Tricky."/>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta content="origin" id="mref" name="referrer"/>
+		
+		
+		
+		
+				
+					  		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  
+	  		<link href="https://web.archive.org/web/20190509091816cs_/https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Condensed|Roboto+Mono" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20190509091816cs_/https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		
+		<link href="/web/20190509091816cs_/https://gamefaqs.gamespot.com/css/v13.20190429212937.css" rel="stylesheet" type="text/css">
+		
+
+		
+				<link rel="canonical" href="https://web.archive.org/web/20190509091816/https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle/faqs/52988"/> 
+		
+				<base href="/web/20190509091816/https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle/faqs/52988"/> 
+		
+		
+		<meta name="dwPageParams" content="{&quot;siteid&quot;:19,&quot;ptid&quot;:6468,&quot;onid&quot;:37,&quot;pid&quot;:&quot;564903&quot;,&quot;familyid&quot;:&quot;1533&quot;,&quot;prodtypid&quot;:8,&quot;genre_id&quot;:23212,&quot;category_id&quot;:&quot;295&quot;,&quot;oid&quot;:&quot;6468-37-19-564903-52988&quot;,&quot;cid&quot;:52988,&quot;conttypid&quot;:9,&quot;useract&quot;:178,&quot;xref&quot;:&quot;https:\/\/gamefaqs.gamespot.com\/community\/Tricrokra\/contributions\/faqs&quot;,&quot;edid&quot;:107,&quot;pguid&quot;:&quot;f988e53224016b964c7b230a0e707cea&quot;,&quot;url&quot;:&quot;http:\/\/gamefaqs.gamespot.com\/pc\/564903-maniac-mansion-day-of-the-tentacle\/faqs\/52988&quot;,&quot;ts&quot;:1557393495}"/>
+<meta name="o2PageParams" content="{&quot;account&quot;:&quot;cbsigamefaqssite&quot;,&quot;cloud_id&quot;:&quot;10D31225525FF5790A490D4D@AdobeOrg&quot;,&quot;channel&quot;:&quot;Games&quot;,&quot;site&quot;:&quot;gamefaqs&quot;,&quot;urs_id&quot;:null,&quot;hier1&quot;:&quot;Games|Game|FAQs|FAQ|Text&quot;,&quot;list1&quot;:null,&quot;products&quot;:&quot;;564903&quot;,&quot;evars&quot;:{&quot;1&quot;:&quot;Gamefaqs&quot;,&quot;2&quot;:&quot;ww&quot;,&quot;3&quot;:&quot;gamefaqs-desktop&quot;,&quot;5&quot;:&quot;cbsigamefaqssite&quot;,&quot;6&quot;:&quot;Games|Game|FAQs|FAQ|Text&quot;,&quot;7&quot;:&quot;D=g&quot;,&quot;10&quot;:&quot;game_faq_text&quot;,&quot;11&quot;:&quot;Games:game_faq_text&quot;,&quot;12&quot;:6468,&quot;15&quot;:&quot;false&quot;,&quot;20&quot;:&quot;Maniac Mansion: Day of the Tentacle (PC) - FAQ\/Walkthrough by Tricky&quot;,&quot;22&quot;:&quot;faq&quot;,&quot;41&quot;:&quot;&quot;,&quot;50&quot;:&quot;5:00AM&quot;,&quot;51&quot;:&quot;Thursday&quot;,&quot;63&quot;:&quot;564903&quot;,&quot;64&quot;:&quot;maniac-mansion-day-of-the-tentacle|&quot;,&quot;66&quot;:&quot;Adventure|Point-and-Click&quot;},&quot;page_event&quot;:null}"/>
+<meta id="ad-settings" itemprop="ad-settings" content="{&quot;script&quot;:&quot;\/\/www.googletagservices.com\/tag\/js\/gpt.js&quot;,&quot;target_params&quot;:{&quot;game&quot;:&quot;maniac-mansion-day-of-the-tentacle&quot;,&quot;ptype&quot;:&quot;game_faq_text&quot;,&quot;genre&quot;:&quot;Adventure,Point-and-Click&quot;,&quot;rating&quot;:&quot;esrb-e&quot;,&quot;publisher&quot;:&quot;LucasArts&quot;,&quot;score&quot;:&quot;88&quot;,&quot;user&quot;:&quot;anon&quot;,&quot;session&quot;:&quot;g&quot;,&quot;rdate&quot;:&quot;bp52&quot;,&quot;cid&quot;:&quot;faq-52988&quot;,&quot;firstpg&quot;:0},&quot;unit_name&quot;:&quot;\/8264\/aw-gamefaqs&quot;,&quot;deferred&quot;:true,&quot;service&quot;:&quot;dart&quot;,&quot;client&quot;:&quot;xfp&quot;,&quot;load_in_head&quot;:&quot;gpt&quot;,&quot;single_request&quot;:true,&quot;disable_initial_load&quot;:true,&quot;enable_callback&quot;:true,&quot;enable_collapse_empty_divs&quot;:false,&quot;slot_order&quot;:[&quot;skybox-nav&quot;,&quot;leader_top&quot;,&quot;leader_plus_top&quot;,&quot;mpu_top&quot;,&quot;mpu_plus_top&quot;,&quot;interstitial&quot;,&quot;native-top&quot;,&quot;incontent-ad&quot;,&quot;mpu_bottom&quot;,&quot;leader_bottom&quot;],&quot;mapped_units&quot;:{&quot;skybox-nav&quot;:{&quot;size&quot;:[[5,5]],&quot;target&quot;:{&quot;pos&quot;:&quot;nav&quot;}},&quot;leader_plus_top&quot;:{&quot;size&quot;:[[728,90],[970,66],[970,150],[970,250],[960,150]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;leader_top&quot;:{&quot;size&quot;:[[728,90],[970,66]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;leader_bottom&quot;:{&quot;size&quot;:[[728,90],[970,66]],&quot;target&quot;:{&quot;pos&quot;:&quot;bottom&quot;}},&quot;mpu_plus_top&quot;:{&quot;size&quot;:[[300,250],[300,600],[300,100]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;mpu_top&quot;:{&quot;size&quot;:[[300,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;mpu_bottom&quot;:{&quot;size&quot;:[[300,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;bottom&quot;}},&quot;native-top&quot;:{&quot;size&quot;:[[11,11],&quot;fluid&quot;],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;incontent-ad&quot;:{&quot;size&quot;:[[321,31],[11,11],&quot;fluid&quot;],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;interstitial&quot;:{&quot;outOfPage&quot;:true}}}"/>
+<meta id="view-guid-meta" name="view-guid-meta" itemprop="view-guid" content="f988e532-2401-46b9-64c7-b230a0e707ce">
+<meta id="bsm-pub-zone-meta" name="bsm-pub-zone-meta" itemprop="bsm-pub-zone" content="gamefaqs.com/nucleus">
+<meta id="bsm-sizes-meta" name="bsm-sizes-meta" itemprop="bsm-sizes" content="728x90 300x250">
+
+
+
+
+		
+				<script type="text/javascript" src="/web/20190509091816js_/https://gamefaqs.gamespot.com/js/jquery_gf.20190429212942.js"></script>
+		<script type="text/javascript" src="/web/20190509091816js_/https://gamefaqs.gamespot.com/js/gamefaqs.20190429212942.js"></script>
+						<script type="text/javascript">window._taboola=window._taboola || []; _taboola.push({other:'auto'}); function setUpAgknTag(tag){tag.setBpId("cbsinteractive");}var _gaq = _gaq || [];  _gaq.push(['nT._setAccount', 'UA-27653683-1']);  _gaq.push(['nT._setAllowLinker', true]); _gaq.push(['nT._setSampleRate', '1']); _gaq.push(['nT._trackPageview']); _gaq.push(['_setAccount', 'UA-22577913-2']); _gaq.push(['_setSampleRate', '5']); _gaq.push(['_setCustomVar',1,'PageType','6468',3]); _gaq.push(['_setCustomVar',2,'LoggedIn','No',2]); _gaq.push(['_setCustomVar',3,'UserLevel','0',3]); _gaq.push(['_setCustomVar',4,'FAQType','txt',3]);  _gaq.push(['_trackPageview']); </script>
+		
+		
+		
+	  
+	  <script type="text/javascript">
+	    (function(id){
+	    function append(scriptid,url,async){var d=document,sn='script',f=d.getElementsByTagName(sn)[0];if(!f)f=d.head;var s=d.createElement(sn);s.async=!0;s.id=scriptid;s.src=url;f.parentNode.insertBefore(s,f)}
+	  window.evidon={}; window.evidon.id=id; append('evidon-notice','//web.archive.org/web/20190509091816/https://gamefaqs.akamaized.net/js/sitenotice/evidon-sitenotice-tag.js',!1); append('evidon-location','//web.archive.org/web/20190509091816/https://c.evidon.com/geo/country.js',!0); append('evidon-themes','//web.archive.org/web/20190509091816/https://gamefaqs.akamaized.net/js/sitenotice/425/snthemes.js',!0); append('evidon-settings','//web.archive.org/web/20190509091816/https://gamefaqs.akamaized.net/js/sitenotice/425/gamefaqs/settings.js',!0); window.evidon.priorConsentCallback=function(){
+											append('google-analytics', "//web.archive.org/web/20190509091816/https://www.google-analytics.com/ga.js", true);
+			 
+			}
+				  window.evidon.closeCallback=function(){}
+				  window.evidon.consentWithdrawnCallback=function(){}})(425)
+	  		</script>
+
+	</head>
+	<body class="  wf-active">
+		<div id="fullscreen_overlay"></div>
+				<div class="wrapper g_file p_564903 s_pc">
+						<div id="menubutton" class="menubutton" onclick="topnav_side_open();"><i class="fa fa-bars"></i> Menu</div><div class="sidenav" id="sidenav"><div class="sidenav_div"><div id="menuclose" class="menuclose" onclick="topnav_side_close();"><i class="fa fa-times fa-2x"></i></div><ul class="sidenav_menu"><li><a href="/web/20190509091816/https://gamefaqs.gamespot.com/">Home</a></li><li><a href="/web/20190509091816/https://gamefaqs.gamespot.com/answers">Answers</a></li><li><a href="/web/20190509091816/https://gamefaqs.gamespot.com/boards">Boards</a></li><li><a href="/web/20190509091816/https://gamefaqs.gamespot.com/community">Community</a></li><li><a href="/web/20190509091816/https://gamefaqs.gamespot.com/contribute">Contribute</a></li><li><a href="/web/20190509091816/https://gamefaqs.gamespot.com/games">Games</a></li><li><a href="/web/20190509091816/https://gamefaqs.gamespot.com/new">What&rsquo;s&nbsp;New</a></li><li><a href="/web/20190509091816/https://gamefaqs.gamespot.com/games/systems">Systems</a></li><ul class="sidenav_submenu"><li><a href="/web/20190509091816/https://gamefaqs.gamespot.com/3ds">3DS</a></li><li><a href="/web/20190509091816/https://gamefaqs.gamespot.com/android">Android</a></li><li><a href="/web/20190509091816/https://gamefaqs.gamespot.com/iphone">iOS</a></li><li><a href="/web/20190509091816/https://gamefaqs.gamespot.com/pc">PC</a></li><li><a href="/web/20190509091816/https://gamefaqs.gamespot.com/ps3">PlayStation&nbsp;3</a></li><li><a href="/web/20190509091816/https://gamefaqs.gamespot.com/ps4">PlayStation&nbsp;4</a></li><li><a href="/web/20190509091816/https://gamefaqs.gamespot.com/switch">Switch</a></li><li><a href="/web/20190509091816/https://gamefaqs.gamespot.com/vita">Vita</a></li><li><a href="/web/20190509091816/https://gamefaqs.gamespot.com/xbox360">Xbox 360</a></li><li><a href="/web/20190509091816/https://gamefaqs.gamespot.com/xboxone">Xbox One</a></li></ul></ul></div></div><div class="masthead"><div class="masthead_strip"><div class="container row"><nav class="masthead_systems"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/3ds">3DS</a><a class="notab" href="/web/20190509091816/https://gamefaqs.gamespot.com/android">Android</a><a class="notab" href="/web/20190509091816/https://gamefaqs.gamespot.com/iphone">iOS</a><a href="/web/20190509091816/https://gamefaqs.gamespot.com/pc">PC</a><a class="notab" href="/web/20190509091816/https://gamefaqs.gamespot.com/ps3">PS3</a><a href="/web/20190509091816/https://gamefaqs.gamespot.com/ps4">PS4</a><a href="/web/20190509091816/https://gamefaqs.gamespot.com/switch">Switch</a><a class="notab" href="/web/20190509091816/https://gamefaqs.gamespot.com/vita">Vita</a><a class="notab" href="/web/20190509091816/https://gamefaqs.gamespot.com/xbox360">Xbox 360</a><a href="/web/20190509091816/https://gamefaqs.gamespot.com/xboxone">Xbox One</a><span class="masthead_platform_drop"><a class="mast_nav_last" href="/web/20190509091816/https://gamefaqs.gamespot.com/games/systems">More&nbsp;Systems <i id="sysdrop_down" class="fa fa-caret-down"></i><i id="sysdrop_up" class="fa fa-caret-up"></i></a><ul id="sysdrop" class="masthead_platform_subnav"><li class="gotab masthead_platform_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/android">Android</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/arcade">Arcade</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/ds">DS</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/dreamcast">Dreamcast</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/gba">Game Boy Advance</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/gamecube">GameCube</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/genesis">Genesis</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/iphone">iOS</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/nes">NES</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/n64">Nintendo 64</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/ps">PlayStation</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/ps2">PlayStation 2</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/ps3">PlayStation 3</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/psp">PSP</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/snes">Super Nintendo</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/vita">Vita</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/wii">Wii</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/wii-u">Wii U</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/xbox360">Xbox 360</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/xbox">Xbox</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/games/systems">And 99 More...</a></li></ul></span></nav><div class="masthead_user" data-step="9" data-intro="Now that you've seen what we have to offer, you can register an account for free to have complete access to all of our great community features. If you already have an account, you can log in here as well.">
+	<a href="/web/20190509091816/https://gamefaqs.gamespot.com/user/login" onclick="return show_login();"><i class="fa fa-key nouser"></i>Log In</a>
+	<a href="/web/20190509091816/https://gamefaqs.gamespot.com/user/register" onclick="return show_signup('header');" class="nouser">Sign Up</a>
+</div>
+<div id="login_dialog">
+<div class="pod">
+	<div class="head"><h2 class="title">Log In to GameFAQs</h2></div>
+	<div class="body">
+
+<form class="login" id="login" method="post" action="/web/20190509091816/https://gamefaqs.gamespot.com/user/login" onsubmit="return submit_login();"><input type="hidden" name="path" value="/pc/564903-maniac-mansion-day-of-the-tentacle/faqs/52988"/><input class="hidden" type="hidden" name="key" value="b2a6cc0c">
+	<table class="contrib">
+
+	<tr>
+	<td>
+	<input class="text login_email" id="login_email" type="text" name="EMAILADDR" maxlength="90" placeholder="Username/Email"/>
+	</td>
+	</tr>
+	
+	<tr>
+	<td>
+	<input class="text login_password" id="login_password" type="password" name="PASSWORD" maxlength="64" placeholder="Password"/>
+	</td>
+	</tr>
+	
+	<tr>
+	<td>
+	<input id="kmli" type="checkbox" name="kmli" checked="CHECKED"/><label for="kmli"> Keep me logged in on this device</label>
+	</td>
+	</tr>
+
+	<tr><td>
+	
+	<input class="btn btn_primary btn_wide login_submit" id="login_submit" type="submit" value="login"/>
+	
+	</td></tr>
+	<tr><td>
+	
+	<a href="/web/20190509091816/https://gamefaqs.gamespot.com/user/recover">Forgot your username or password?</a><br/><br/>
+	<a href="/web/20190509091816/https://gamefaqs.gamespot.com/user/register" onclick="$('#login_dialog').dialog('close'); return show_signup('login_box');">Don't have an account? Sign up for free!</a>
+	
+	</td></tr>
+	</table>
+	
+</form>
+
+</div>
+</div>
+</div>
+
+
+</div></div><div class="masthead_main container row"><div class="masthead_logo_search"><div class="masthead_logo" data-step="1" data-intro="Welcome to GameFAQs, your one-stop site for gaming guides, cheats, and more. If you're ever lost on the site, you can click this logo to get back to the home page at any time."><a href="/web/20190509091816/https://gamefaqs.gamespot.com/">GameFAQs</a></div><div class="masthead_search"><form class="search" method="get" action="/web/20190509091816/https://gamefaqs.gamespot.com/search" data-step="2" data-intro="You can use this box to search our extensive database of games. There are quick links to all of the content we have for the game directly from the search results."><fieldset><button type="submit"><i class="fa fa-search"></i></button><input type="text" id="searchtextbox" name="game" value="" class="search" placeholder="Search Game Titles"/></fieldset></form></div></div><div class="masthead_nav"><nav><a href="/web/20190509091816/https://gamefaqs.gamespot.com/answers" data-step="3" data-intro="If you have a specific question for a game, you can ask it here and see if our users can answer it for you.">Answers</a><a href="/web/20190509091816/https://gamefaqs.gamespot.com/boards" data-step="4" data-intro="We have a unique message board for every version of every game in our extensive database, combining into the largest gaming message board on the Net.">Boards</a><a class="navtrim" href="/web/20190509091816/https://gamefaqs.gamespot.com/community" data-step="5" data-intro="GameFAQs wouldn't be what it is without our active community of users contributing content and conversations. See what your friends are up to, or browse through various categories of users like our top contributors here.">Community</a><a class="navtrim" href="/web/20190509091816/https://gamefaqs.gamespot.com/contribute" data-step="6" data-intro="If you'd like to contribute your own guides, reviews, or cheats for a game, this is the place to go. We accept many other types of content as well from trivia to game credits. You can find a full list and all of the guidelines for submitting content here.">Contribute</a><a class="navtrim" href="/web/20190509091816/https://gamefaqs.gamespot.com/games" data-step="7" data-intro="Explore our comprehensive library of games. Find out what's popular on the site or see how we rank games based on difficulty, length, and more.">Games</a><a class="notab" href="/web/20190509091816/https://gamefaqs.gamespot.com/new" data-step="8" data-intro="If you're wondering what games are coming out soon, or what content we've posted recently, this is the place to look.">What&rsquo;s New</a><a class="search_link" onclick="topnav_show_search();"><i class="fa fa-2x fa-search" title="Search"></i></a></nav></div></div></div>
+			
+			
+						
+			
+									
+						<div id="mantle_skin">
+												
+								<div id="content" class="container">
+
+					
+															
+															
+																<div class="post_content row">
+							<div class="span12">
+								<header class="page-header"><div class="header_split"><div class="header_left"><div class="header_image" style="background-image:url(https://web.archive.org/web/20190509091816im_/https://gamefaqs.akamaized.net/box/4/8/2/25482_thumb.jpg)"></div></div><div class="header_right"><h1 class="page-title">Maniac Mansion: Day of the Tentacle &ndash; FAQ/Walkthrough</h1><h4 class="platform-title"><span class="header_more_wrap"><span class="header_more" style="cursor: pointer">PC <i class="fa fa-caret-down"></i></span><div id="header_more_menu"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/mac/583708-maniac-mansion-day-of-the-tentacle/faqs"><span class="also_name">Macintosh</span></a><a href="/web/20190509091816/https://gamefaqs.gamespot.com/iphone/192720-day-of-the-tentacle-remastered"><span class="also_name">iOS (iPhone/iPad)</span></a><a href="/web/20190509091816/https://gamefaqs.gamespot.com/unixlinux/192711-day-of-the-tentacle-remastered"><span class="also_name">Linux</span></a><a href="/web/20190509091816/https://gamefaqs.gamespot.com/mac/188298-day-of-the-tentacle-remastered"><span class="also_name">Macintosh</span></a><a href="/web/20190509091816/https://gamefaqs.gamespot.com/pc/187889-day-of-the-tentacle-remastered"><span class="also_name">PC</span></a><a href="/web/20190509091816/https://gamefaqs.gamespot.com/ps4/124898-day-of-the-tentacle-remastered"><span class="also_name">PlayStation 4</span></a><a href="/web/20190509091816/https://gamefaqs.gamespot.com/vita/124899-day-of-the-tentacle-remastered"><span class="also_name">PlayStation Vita</span></a></div></span></h4></div></div></header><nav id="js_content_nav" class="content_nav_wrap"><div class="content_nav_imp_wrap"><div class="cnav_imp cnav_faqs cnav_item_active"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle/faqs">FAQs</a></div><div class="cnav_imp cnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle/answers">Answers</a></div><div class="cnav_imp cnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/boards/564903-maniac-mansion-day-of-the-tentacle">Board</a></div><div id="js_content_nav_toggle" class="content_nav_label">More</div></div><ol class="content_nav content_nav_split"><li class="cnav_item cnav_has_drop"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle">Home</a><ol class="content_subnav"><li class="csubnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle">Summary</a></li><li class="csubnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle/data">Release Data</a></li><li class="csubnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle/credit">Game Credits</a></li><li class="csubnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle/playing">Also Playing</a></li><li class="csubnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle/stats">Collection Stats</a></li></ol></li><li class="cnav_imp cnav_item_active"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle/faqs">FAQs</a></li><li class="cnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle/cheats">Cheats</a></li><li class="cnav_item cnav_has_drop"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle/reviews">Reviews</a><ol class="content_subnav"><li class="csubnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle/reviews">Reader Reviews</a></li><li class="csubnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle/critic">Critic Reviews</a></li></ol></li><li class="cnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle/images">Images</a></li><li class="cnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle/videos">Videos</a></li><li class="cnav_imp cnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle/answers">Answers</a></li><li class="cnav_imp cnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/boards/564903-maniac-mansion-day-of-the-tentacle">Board</a></li></ol></nav>
+
+<script type="text/javascript">
+$('#js_content_nav_toggle').click(function()
+{
+	$('.content_nav_wrap').toggleClass('content_nav_open');
+});
+</script>
+
+
+
+		
+<div id="faq_header_wrap">
+	<div id="faq_header">
+		<div id="home_links">
+			<a class="gfaqs_icon" href="/web/20190509091816/https://gamefaqs.gamespot.com/"><img src="/web/20190509091816im_/https://gamefaqs.gamespot.com/images/default/g_v13_dark.png" alt="GameFAQs"/></a>
+			<a class="search_mobile"><i class="fa fa-search"></i></a>
+		</div>
+		<div id="faq_search_module">
+			<div class="head">
+				<span class="search_head_mobile">What do you need help on?</span>
+				<span class="search_close" onclick="dismiss_faq_search_results(0);">Cancel X</span>
+			</div>
+			<fieldset id="faq_search">
+				<button disabled><i class="fa fa-search"></i></button>
+				<input type="text" id="faq_search_input" size="80" maxlength="80" placeholder="Search this Guide for" value=""/>
+			</fieldset>
+			<div id="faq_search_results">
+				<table id="results_table"></table>
+			</div>
+		</div>
+				<div id="faq_bookmark" onclick="set_bookmark(0);">
+			<i class="fa fa-bookmark"></i><span class="bm_inner"><br/>BOOKMARK</span>
+		</div>
+		<div class="faq_bookmark_jumper">
+			<div class="bm_jumper_inner">
+			Jump to:
+						</div>
+		</div>
+	</div>
+	<div id="contrib_rec">
+		<div id="rec_inner">
+			<div id="rec_one">
+				<span class="rec_text">Would you recommend this Guide?</span>
+				<a class="rec_yes" onclick="set_rec_val(1);rec_submit(52988, 1, 1);">Yes</a>
+				<a class="rec_no" onclick="set_rec_val(2);rec_submit(52988, 1, 2);">No</a>
+				<input type="hidden" name="recval" id="recval"/>
+				<span class="rec_hide" onclick="$('#contrib_rec').remove();$('#faq_header_wrap').addClass('rec_closed');">Hide <i class="fa fa-times"></i></span>
+			</div>
+			<div id="rec_two">
+				<textarea class="rec_comment" name="comment" maxlength="140" rows="2" placeholder="How did you find this guide helpful? (140 character max)"></textarea>
+				<a class="rec_send" onclick="rec_submit(52988, 1, 3);">Send</a>
+				<a class="rec_skip" onclick="hide_rec();">Skip</a>
+				<span class="rec_hide" onclick="$('#contrib_rec').remove();$('#faq_header_wrap').addClass('rec_closed');">Hide <i class="fa fa-times"></i></span>
+			</div>
+			<div id="rec_three">
+				<a class="rec_sent"><i class="fa fa-check"></i>&nbsp;&nbsp;Message Sent</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<a class="top_link" onclick="page_top();"><i class="fa fa-arrow-up"></i></a>
+
+<div class="pod">
+	<div class="body ffaq">
+		<h2 class="title">FAQ/Walkthrough by <a class="contrib1" href="/web/20190509091816/https://gamefaqs.gamespot.com/community/Tricrokra">Tricky</a></h2>
+		<p><b>Version:</b> 1.00 | <b>Updated:</b> 06/02/08</p>	</div>
+</div>
+
+
+
+<div id="faqwrap" class="ffaq">
+	<pre class="faqtext" id="faqtext"><span id="faqspan-1">+-----+ +-----+ +-+ +-----+ +-+ +-+  +-+ +-+  +-+ +------+
++-+ +-+ | --- | | | | +---+ | | / /  \ \ / /  | / | +----+
+  | |   | +---+ | | | |     | |/ /    \ + /   |/  | +----+
+  | |   | | \ \ | | | |     | | /\     \ /        +----+ |
+  | |   | | | | | | | +---+ | |/\ \    | |        +----+ |     
+  +-+   +-+ +-+ +-+ +-----+ +-+  +-+   +-+        +------+
+COMPLETE WALKTROUGH FOR DAY OF THE TENTACLE
+
+
+Version 1.00 - By Tricky
+
++------------------------------------------------------------------------------+
+| Index:                                                                       |
++------------------------------------------------------------------------------+
+     Introduction to this FAQ and the game ........................... IDX01
+     Prologue ........................................................ IDX02
+     Main Game ....................................................... IDX03
+     Epilogue ........................................................ IDX04
+     FAQ in Q&amp;A style ................................................ IDX05
+     Copyrights and permissions ...................................... IDX10
+     Contacting me ................................................... IDX11
+
++------------------------------------------------------------------------------+
+| Introduction to this FAQ and the game                                | IDX01 |
++------------------------------------------------------------------------------+
+Day of the Tentacle is one of the good old adventure games of long lost times. 
+If you wonder how to get this game, I cannot help you, I still got my copy from
+times this was still in store. I'm sure there are sites you can download it 
+from, but since I cannot support software piracy, I cannot give you links.
+If you can give me sites on which this game can be bought/downloaded from
+WITHOUT VIOLATING COPYRIGHTS mail me, and I'll add those to this FAQ.
+
+Also note that since this game is old you may NOT be able to play it on modern 
+machines. You may need an emulator to play it.
+One of the best out there is DOSBox.
+Download it from: http://www.dosbox.com
+
+I recommand only to use this FAQ when you are stuck, or else this game will be
+no challenge at all. If you are stuck look at the index on what you are doing
+and look at the IDX code. Open a search window (Ctrl-F in Windows and Linux and
+Apple-F in MacOS).
+
+There are a few things you should know though.
+- All items you pick up can be dropped anywhere you want. Please note that in 
+  most cases you can come back for those items. However there is one point in
+  which you need to check before continuing or else the game can NOT be 
+  completed.
+- There are jewels everywhere across Kyrandia. They appear at random so I cannot
+  tell you where to look for those. Only a few specific ones can be found at
+  fixed places. You can do well, in collecting those, but since you can only
+  carry 10 items, you may want to store them all in one location as long as the
+  game allows it. There are only two tasks in which these jewels have value
+- This game has a dozen of areas or &quot;rooms&quot; as we call them in adventure 
+  programming terms. Each time you get into a new room I start with &quot;-&quot; and the
+  name of the room, so you can check if you are in the right room.
+
+One important note.
+Day of the Tentacle is a game in which many events go in some kind of a choas
+through each other. Writing a FAQ on it that takes everything one by one is 
+therefore hard. In order to give some possibilities to look things up, I 
+provided a Q&amp;A chapter in which I try to answer some questions. 
+
+Another thing is, the game starts with Bernard as playable character, lateron
+Hoagie and Laverne will become available. When I call a name, it means you need
+to switch to that person. You can also give items to another character by 
+selecting that item, and click with it on a person's face (in the switch menu)
+with it.
+
+Well, that's all folks...
+Let's get started on this
+
++------------------------------------------------------------------------------+
+| Prologue                                                             | IDX02 |
++------------------------------------------------------------------------------+
+Bernard:  - Open the grandfather's clock to open the secret passage
+
+Now watch the rest of the intro. After the intro we can continue play
+
+Bernard:  - Walk to the &quot;To Do&quot; board east
+          - Pick up the paper from the board
+          
+If you have the old diskette version you get the copy-protection. Not gonna 
+give you the solution to that, as I'm not allowed to. When you got the 
+CD-ROM version the copy-protection will be skipped.
+The game will automaticly switch to Hoagie.
+
+The first thing we want to do is to get Laverne out of that damn tree, so let's
+get crackin'
+
++------------------------------------------------------------------------------+
+| Main game                                                            | IDX03 |
++------------------------------------------------------------------------------+
+Hoagie:   - Go west and exit south
+          - Enter the mansion
+          - Enter the main hall
+          - Go to the swinging door
+          - Pick up the spaghetti and the oil
+          - Exit east
+          - Pick up the bucket
+          - Open the cabinet and take the brush
+          - Fill the bucket with the water pump
+          - Exit north
+          - Go through the fireplace
+          - Enter the mansion through the window
+          - Pick up the red paint
+          - Use both beds
+          - Swap the beds 
+          - Use the north bed to distract the cat
+          - Steal the mouse toy
+          - Go out of the window
+          - Go into the chimney
+          - Leave the mansion
+          - Go to the outhouses
+          - Use the red paint on the kumquat tree to make it look like a 
+            cherry tree.
+          - Enter the mansion again and speak with George Washington
+          - Say &quot;Woah, you're like George Washington&quot;
+          - Say &quot;My name's Hoagie&quot;
+          - Say &quot;Is it true about you and the cherry tree&quot;. 
+          - Say &quot;I bet you lost it. You couldn't cut down a tree to save your
+                grandmother&quot;.
+                
+Now George Washington will cut the tree down, releasing Laverne out of the tree
+in the process, which makes her available now.
+Let's switch to her.
+
+Laverne:  Laverne is as human in a time where humans are demoted to pets, in
+          a bad position. We will have to get her into a disguise first so she
+          can move around freely. 
+          - Tell the guard you're not feeling well. You'll end up in the 
+            doctor's office.
+          - Pick up the Tentacle Chart
+          - Leave the office
+          - Exit north
+          - Exit north again to get back into the kennel
+          - Talk to the guard again and tell him you gotta go to the bathroom
+          - Now that you are in range of the Chron-O-John you can swap items.
+            Send the Tentacle Chart to Hoagie
+          - Also send the scalpel to Bernard
+ 
+ Bernard: - Leave the lab
+          - Exit north
+          - Go into the fireplace to get on the roof
+          - Get the crank out of the flagpole
+          - Give the crank to Laverne
+          
+ Hoagie:  - Enter the mansion
+          - Go up the stairs
+          - Pick the middle door
+          Here you meet Betsy Ross. She's desining a flag for the USA.
+          - Put the tentacle chart on the flag design table and in
+            Laverne's time the flag will change
+          
+Laverne:  Now we can get Laverne disguised.
+          - Get yourself back in the kennel and tell the guard again you 
+            are not feeling well.
+          - Leave the doctor's office
+          - Exit north
+          - Use the fireplace to get on the roof
+          - Use the crank to retrieve the &quot;flag&quot;
+          - Put in on and you are disguised. (Yeah the Tentacles are too
+            stupid to tell the diffrrence so, doncha worry).
+            
+          Good, now that we can all move freely, let's get onto the next 
+          step.
+          
+          - Go down the chimney
+          - Talk to the blue tentacle to get a name tag for the human show.
+          - Exit west
+          - Go up the stairs (you can now do so since the guard thinks you
+            are a Tentacle).
+          - Pick the middle door
+          - Pick up the extention cord
+          - Use the roller skates on the mummy
+          - Push him into the corridor :)
+          - Leave
+          - Go downstairs
+          - Put the nametag on the mummy and the human show can begin
+          
+          You're not gonna win that easily, so let's get ready to cheat.
+          Laverne can't do this on her own, so let's get the help from the 
+          boys.
+          
+Hoagie:   - Give the spagetti to Laverne
+
+Bernard:  - Give the textbook to Hoagie
+
+Hoagie:   - Leave Betsy's room
+          - Read the textbook to the horse and it will fall asleep
+          - Get its teeth and send them to Laverne
+          
+Bernard:  - Go down the chimney
+          - Use Laverne's scalpel on the clown
+          - Pick up the laugh box and send it to Laverne
+          - Exit west
+          - Go upstairs
+          - Pick the right door to meet Green Tentacle
+          - Push the speaker box on the floor
+          - Put on the stereo and downstairs the fake-barf will fall on the
+            floor
+          - Put the stereo off again (if you don't wanna go crazy)
+          - Pick up the video tape
+          - Go downstairs
+          - Pick up the fake barf and send it to Laverne.          
+          - Exit north
+          - Go through the swinging door
+          - Pick up the fork and send it to Laverne
+          
+All set, let the human show begin.
+
+Laverne:  - Go to the top floor of the mansion
+          - Put the fake barf in front of Harrold to get him disqualified
+          - Put the horse teeth on the mummy
+          - Use the soggy noodles (formely spagetti) on the mummy
+          - Use the fork to comb this &quot;hair&quot;
+          - Put the laugh box in the mummy's pocket
+          - Talk to the judges and get them to judge all categories to get
+            your mummy to win.
+            
+          Well that settles it for Laverne for the time being.
+          
+Bernard:  - Pick up both the coffee and the decaff
+          - Go to Dr. Fred's lab
+          - Give Dr. Fred the coffee and he'll fall asleep and start 
+            sleepwalking.
+          - Leave the lab
+          - Go upstairs
+          - Go upstairs again
+          - Pick the left door
+          - You are now in the office of nurse Edna.
+          
+Hoagie:   - Now it's Hoagie's turn to go into the secret lab. Go there.
+            (Passage in the clock, in case you missed that).
+          - Pick up the left-handed hammer
+          - Exit the lab
+          - Go up the stairs (twice)
+          - Take the left door
+          - After talking to Ned &amp; Jed switch the left handed hammer with 
+            the hammer Jed/Ned/whatever is using.
+          
+Bernard:  - Kick Nurse Edna out of the room
+          - Put the video tape in the VCR
+          - Look at the monitor
+          - Push the record button to get the combination recorded
+            (And Dr. Fred arrested).
+          - Rewind the tape
+          - Put the right switch to &quot;ep&quot;
+          - Play back the tape. You'll see the combination
+            (You don't have to memorize it. The game will do that for you).
+          - Eject and leave
+          - Go to the ground floor
+          - Go to the office and open the safe
+          - Pick up the contract
+          - Open the drawer to pick up the Booboo-B-Gone
+          - Pick up the swish bank book
+          
+Hoagie:   - Send the Paint to Bernard
+
+Bernard:  - Go to the roof using the chimney (there is no other way)
+          - Enter the house by the window
+          - Get the white rope from Fred
+          - Go out the window
+          - Use the rope on the pulley
+          - Go down the chimney
+          - Go outside
+          - Use the paint on the mummy
+          - Use the rope on the mummy
+          - Go inside and go to the roof with the fireplace
+          - Pull the rope to get the mummy up
+          - Get yourself up the roof again (with the fireplace)
+          - Inside swap Fred with the mummy
+          - Use the white rope on Fred
+          - Go out the window
+          - Pull the rope and you'll end up in the lab
+          - Leave the lab
+          - Go to the kitchen
+          - From there east into the washing room
+          - Open the cabinet and get the funnel from it
+          - Go back into the lab
+          - Put the funnel in Dr. Fred's mouth
+          - Pour the normal coffee in.
+          - Now give Dr. Fred the contract and any excuse will do to get
+            him to sign it (without reading it). Just say that you get
+            rid of Purple Tentacle yourself and give up the excuse you
+            like.
+          
+Hoagie:   - Go out of the mansion.
+          - Open the mailbox
+          - Get the letter and send it to Bernard
+          
+Bernard:  - Leave the lab
+          - Get upstairs
+          - Pick the middle door
+          - Give the suicidal guy the letter Hoagie ripped from the mailbox
+          - Pick up the disappearing ink
+          - Pick up the flag gun
+          - Leave
+          - Go upstairs
+          - Go through the door on the right to meed Weird Ed.
+          - After the chat use the disappearing ink on his stamp collection
+            (He'll get mad and kick you out, throwing his album at your face).
+          - Pick up the pony express stamp
+          - Pick up the album and give it back to Weird Ed.
+          - Now put the stamp on the contract and send it to Hoagie
+          
+Hoagie:   - Put the contract in the mailbox and the Pony Express will take
+            the letter
+            
+Bernard:  - Go to the floor with three doors and take the left one
+          - Put the television on. You hear a phone number. Bernard will
+            automaticly memorize it.
+          - Go to Dr. Fred's office.
+          - Use the phone to get your diamond ordered.
+          
+          
+Now the main unit of the time machine's fixed. However both Hoagie and
+Laverne should power up their Chron-O-John first before you can bring them
+back. Well, Ladies first, so let's get on getting Laverne's unit up first.
+
+Bernard: - Go to Weird Ed's room and get the hamster
+         - Go to the corridor on the first floor (or second if you count
+           in US counting).
+         - Put the hamster in the freezer
+         - Go to the entrance hall
+         - Pick up the dime from the telephone
+         - Go to the room with the sleeping guy
+         - Close the door
+         - Get the keys from the lock
+         - Leave the room
+         - Go outside the mansion
+         - Go to the parking lot
+         - Give the keys to the thief (the thief gives you a crowbar)
+         - Go back to the entrance hall
+         - Use the crowbar to get the dime in gum
+         - Chew the gum to release the dime (this is gross, I warn ya).
+         - Go to the room with the sleeping guy
+         - Use both dimes on the coin slot to drill the guy off the bed
+           (He'll remain sleeping, though).
+         - Pick up the sweater
+         - Leave this room
+         - Use the crowbar with the candy machine
+         - Take all the quarters that fall out of the machine
+         - Go to the laundry room (behind the kitchen)
+         - Open the dryer
+         - Put the sweater in
+         - Put in the quarters
+         - Go back into the entrance hall
+         - Remove the flyer from the post board
+         - Send it to Hoagie
+         - Send the Booboo-B-Gone(tm) to Laverne
+         
+Hoagie:  - Put the flyer into the suggestion box in the main hall.
+           (This will get a Vacuum Cleaner in Fred's Secret Lab in Laverne's 
+           time).
+         - Send the toy mouse to Laverne
+           
+Ok, finally Laverne's part to get her unit running.
+
+Laverne: - Go outside
+         There's a cat here. It goes away under the fence when approach it.
+         - Go close to it and use Booboo-B-Gone on the fence.
+         - Use the toy mouse to lure the cat
+         - Now go to the kennel
+         - Give the dinner coupon to the guard to make him leave
+         - Put off the forcefield
+         - Use the cat to scare the Edisons away (this will get the guard
+           at the clock to chase after them and never come back).
+         - Go upstairs
+         - Get the hamster out of the freezer
+         - Go to the kitchen
+         - Out the hamster in the microwave to defrost it
+         - Go to the laundry room
+         - Remove the sweater from the dryer (it'll have shrunk)
+         - Use the sweater on the hamster
+         - Go to the entrance hall
+         - Get into the secret lab (oh, yeah, did I mention it was in the
+           clock?)
+         - Put the extention cord in the machine
+         - Put the rest of the chord out of the window
+         - Put the hamster in the machine and it will flee
+         - Use the vaccuum cleaner to get the hamster out of its hole.
+         - Open the hatch to retrieve the hamster
+         - Put the hamster in the generator again and this time it won't 
+           escape.
+         - Go outside to the Chrono-O-John. Plug it in, and Laverne's unit
+           is ready.
+           
+Alright, now only Hoagie needs to get his stuff done.
+
+Bernard: - If you didn't do it before get the flag gun from the room of the
+           suicidal guy
+         - Go to the room with the fireplace and talk to the man here
+         - After the chat switch the guns
+         - Ask the man for a cigar
+         - Open the grating left of the fireplace
+         - Go to the moving teeth and chase them into grating hole
+         - Pick them up
+         - Send the lighter (pistol), cigar and teeth to Hoagie
+         
+Hoagie:  - Give the exploding cigar to George Washington
+         - Give him the fake teeth
+         - Take the blanket from the floor
+         - Make your way up to the roof (long way, since the fireplace is
+           unavailable)
+         - Use the blanket on the chimney
+         - Go back to the main hall
+         - Get the golden feather pen
+         - Go upstairs
+         - Take the most right door
+         - Pick up the wine bottle
+         - Go to the main hall
+         - Give the wine to Thomas Jefferson (the guy with the time
+           capsule).
+         - Give the can opener to Laverne
+
+Laverne: - Go into the mansion and go upstairs
+         - Take the left door
+         - Open capsule with the can opener
+         - Take the vinegar out of it and send it to Hoagie
+
+Hoagie:  - Go into the secret lab
+         - Show the battery plans to Red Edison
+         - Give the oil, gold pen and vinegar to Red Edison
+         - Pick up the battery (Hoagie will automaticly distract Red).
+         
+         That covers the batter, now to power it up.
+         - If you haven't already done it, get a bucket of water from the
+           kitchen
+         - Go upstairs and enter George's room
+         - Push the bed to mess it
+         - Pull the chord so the cleaner will come
+         - Leave and get the soap from the cart
+         - Put the soap in the bucket of water
+         - Go outside and wash the carriage
+         
+Bernard: - Go to the entrance hall
+         - Remove the Help-Wanted-sign and send it to Hoagie
+         
+Hoagie:  - Go to the secret lab
+         - Show the sign to Red
+         - Take the lab coat
+         - Leave the lab
+         - Go upstairs and visit Ben Franklin. (Most right door)
+         - Give the lab coat to Ben Franklin
+         
+         - When Franklin goes to test the kite put the battery in
+         - Then push the kite when Franklin requests you to.
+         - Go to the Crono-O-John
+         - Use the batter to power it.
+         
+         
+All set. Now everybody should get back and we can get on with the final part.
+
+
+
+
++------------------------------------------------------------------------------+
+| Epilogue                                                             | IDX04 |
++------------------------------------------------------------------------------+
+Now no more switching between party members, you'll soon see why ;)
+This part is pretty short, so let's get on it to get this fixed.
+
+- Leave the room
+- Open the middle door (the Tentacle will shrink you)
+- Go through the middle door
+- Use the mouse hole to get into the next room
+- Wait till you grow again
+- Pick up the bowling ball
+- Leave the room (the tentacle will be gone)
+- Go to the secret lab
+- Use the bowling ball on the tentacles (STRIKE!!!!)
+
+Now you get the final showdown with Purple.
+Say the next things
+= &quot;Just what is it you have against humans, anyway?&quot;
+= &quot;Sounds like that's all Dr. Fred's fault, really&quot;
+= &quot;You're pretty handy with that ray gun&quot;
+= &quot;Why don't you zap Dr. Fred if you hat him so much?&quot;
+
+CONGRATULATIONS! YOU'VE COMPLETED DAY OF THE TENTACLE! 
+         
+ 
+          
+       
+
++------------------------------------------------------------------------------+
+| FAQ Q&amp;A Style                                                        | IDX05 |
++------------------------------------------------------------------------------+
+Q: How to get Laverne out of the tree?
+A: Get yourself a can of red paint and use it on the Cherry Tree (Hoagie's time)
+   Then you have have George Washington to chop it down, and that tree happens
+   to be the same one that Laverne get stuck in. Time has been changed and
+   Laverne will be out of the tree.
+   
+Q: How to steal the mouse toy from the cat?
+A: On the top floor of the mansion in Hoagie's time. Use both bed, then swap
+   them with each other. Then use the beds again and the cat will be distracted.
+   Now to steal the mouse toy.
+   
+Q: How to disguise Laverne as a tentacle?
+A: You need the Tentacle Anatomy chart from the docter's office. Send it to 
+   Hoagie and let Hoagie put in on the table of the flag designer to change the
+   design of the American flag. With the crank (from Bernard's time) Laverne
+   can retreive it.
+   
+Q: How to enter the human show?
+A: - First you need a name tag from the blue Tentacle in the corridor.
+   - Next you need a human. You can use the mummy from the second floor.
+     Use the roller skates to get him down in the lobby.
+   - Put the name tag on him and you entered the show.
+   
+Q: How to win the human show?
+A:  First you need to get rid of Harrold, since he'll win everything.
+   Put the fake barf on the floor and he'll be disqualified.
+   - Best Hair: Put the spaghetti on the head of the mummy and use the fork
+                to comb it.
+   - Best smile: Put the fake teeth from the hose on it
+   - Beest laugh: The laughing box from Oozo the clown does this.
+   
+Q: How to get the combination from Dr. Fred?
+A: Put him asleep with Decaff. He'll opent he save and a security cam
+   records the combination
+   
+Q: All fine, but Nurse Edna wouldn't let me look at it.
+A: Kick her away.
+
+Q: That's nice, but she keeps coming back
+A: Have Hoagie to put the left handed hammer on the peddestal of the
+   statue maker and the statue will change. Now Nurse Edna cannot stop 
+   herself from being kicked away.
+   
+Q: How can I save Dr. Fred from those secret agents?
+A: - PGo aint the mummy red. 
+   - Untie Fred
+   - Use the rope to get the mummy in the in the room on the bed.
+   - Use the rope to get Fred down and you'll be in the office.
+
+Q: How can I wake Dr. Fred?
+A: By giving him coffee. Put a funnel in his mouth and pour it in.
+
+Q: How to get rid of that suicidal sucker?
+A: Give him the letter from the mailbox in Hoagie's time.
+
+Q: Is it true that you can play &quot;Maniac Mansion&quot; in DOTT?
+A: Yes. Quite true. You can do that with the computer in Weird Ed's room.
+
+Q: Ok. Dr Fred signed the contract. How to make millions of it?
+A: Steal a stamp from Weird Ed. You can do so by ruining his stamp collection
+   with disappearing ink. Then put the stamp on the contract and let Hoagie
+   send it by putting it into the mailbox. The Pony Express will take it
+   and the millions are made.
+   
+Q: How can I order the diamond?
+A: You get the phone number from the TV in the room with the sleeping guy.
+   Call and get your diamond ordered.
+   
+Q: The girl at the other side of the phone refuses my order. Why?
+   Two possible reasons:
+   Reason 1: You don't have the bank book. Get it from the table
+   Reason 2: You don't have the millions yet. The previous questions can
+   tell you hot to get that.
+   
+
+
+Q: Laverne needs a hamster. But I cannot put it in the Chron-O-John.
+   How am I supposed to get it there.
+A: Put it in the freezer. Laverne will be able to get it out.
+
+
+Q: I need two dimes. I got one, but how do I get the other
+A: You need the crowbar to get it loose. Then you can pick it up. 
+   Chew the gum to release the dime (YUCK).
+   
+Q: And how do I get this crowbar?
+A: Get the keys from the door in the room with the sleeping man. Give those
+   to the thief and he'll give you the crowbar.
+   
+   
+Q: How do I get the sweater?
+A: Get the sleeping guy of the bed. Two dimes in the slot beside his bed will
+   take care of that.
+   
+Q: How to get the sweater to Laverne?
+A: Put it in the dryer and put you highload of quarters in it. (You get it
+   when use use the crowbar on the candy machine). When Laverne comes in 
+   the room, the dryer just finished it's program.
+   
+Q: The hamster fled. How to get it?
+A: Use the vacuum cleaner
+
+Q: How does it come there
+A: Put the ad in Bernard's time in the suggestion box of Hoagie's time.
+
+
+Q: What to do with the cat in Laverne's time?
+A: Put Booboo-B-Gone on the fence. Then lure it with the toy mouse.
+   Now you can use it to scare the Edisons away from the kennel
+   
+Q: The kennel guard won't let me.
+A: Give him the dinner coupon you won at the human show and he'll leave.
+
+Q: How can I get that freaky moustached tentacle to leave the clock alone?
+A: Scare the Edisons out of the kennel with your cat
+
+
+Q: Powering up Laverne's Chrono-O-John at last?
+A: If you reached the lab, you need the hamster to power the machine.
+   The extention chord to get the power to the unit. When the hamster flees
+   use the vaccuum cleaner to get it back.
+
+Q: How to get the lighter?
+A: Switch the lighter gun with the flag gun
+
+Q: How to get an exploding cigar?
+A: After switching the guns, ask for one.
+
+Q: How to get that golden feather?
+A: Give Washington an exploding cigar. Then give him the fake teeth.
+   Now steal the blanket and put in on the chimney. The man will flee and
+   you are free to grab the pen.
+   
+Q: How do I get vinegar?
+A: Give a bottle of wine to the guy with the time capsule. Once you done
+   that have Laverne to find that capsule and open it with the can opener
+   to get it.
+   
+
+Q: How to get to talk to Ben Franklin?
+A: First get him inside. Wash the carriage to do that
+
+Q: How to get water and soap?
+A: Bucket and water in the kitchen. The soap from the cleaning cart.
+   That cart will appear if you mess up George Washington's bed and call for
+   the cleaner with the chord in that room
+   
+Q: Red doesn't allow me to take the lab coat
+A: Get the Help-wanted-sign from Bernard's time and show it to him.
+   This will get you the coat.
+   
+Q: How to power the super-battery
+A: Give the labcoat to Ben Franklin, put the battery in it and push it
+   when you are asked to.
+   
+   
++------------------------------------------------------------------------------+
+| Copyrights and permissions                                           | IDX10 |
++------------------------------------------------------------------------------+
+This FAQ has been copyrighted by Jeroen Broks aka Tricky, formely known as
+Tricrokra. This FAQ may be viewed, downloaded and printed for personal use
+only. It may not be sold, or used as a basis for commercial work. This FAQ
+may also not be modified. Parts of it may not be copied to your own FAQs 
+without my permission.
+
+This FAQ is NOT officially authorized by LucasArts or any
+other party that is related to Maniac Mansion or Day of the Tentacle
+
+If you want to host this FAQ, it's allowed, if you ask my permission first,
+permission will be granted assuming that the FAQ stays in this form 
+unmodified, that users can view it FREE OF CHARGE, and that no pop-ups have 
+been added to the page that views this FAQ.
+
+Sites with permission to host this FAQ:
+---------------------------------------
+GameFAQs            http://www.gamefaqs.com
+Mogolgott           http://www.mogolgott.de
+Supercheats         http://www.supercheats.com
+
+Sites banned from hosting this FAQ:
+-----------------------------------
+Neoseeker           http://www.neoseeker.com
+
+
+
++------------------------------------------------------------------------------+
+| Cantacting me                                                        | IDX11 |
++------------------------------------------------------------------------------+
+Before contacting me, please read carefully.
+
+If you want me to answer questions about the game itself please visit this
+site:
+
+      http://www.tbbs.nl/QuestionGen.php4
+
+That is my Q&amp;A site where I (or others) will answer all your game questions.
+If you do, please check if the question you want to ask hasn't been asked 
+before. :)
+
+If you want to inquire about me as a person, or when you have anything to 
+say about the FAQ itself, like asking permission to host, got suggestions
+for this FAQ, something like that please mail it to
+
+       tric1975@hotmail.com
+
+       AND PUT [Tric-FAQ] IN THE SUBJECT OR ELSE MY SPAMFILTER MAY
+       REJECT YOU!
+
+If you see that I missed things in this FAQ, then in stead of calling me
+names, you may tip me about that part, or if you want even come up with 
+a complete workout of that part, that I will copy into this FAQ (I may alter
+your lay-out to make it fit with the rest) and even credit you for your
+trouble. This also goes for alternate boss techniques.
+
+AND NEVER FORGET TO TELL ME WHICH FAQ OF MINE YOU'RE TALKING ABOUT!
+I get a lot of mails in which I must guess which FAQ it is we're talking 
+about, and since I'm very busy as a contributor for GameFAQs, and ocasionally
+other sites, I have quite a lot of FAQs here. So it will help me a lot when
+I know which FAQ/Game it is you're talking about. :)
+
+And one last thing. Below are remarks I got a lot about my FAQs. Some are
+funny, and some are just plainly too stupid for words. I don't want to be
+an arrogant bastard or anything, but some of them tire me a lot.
+
+So here are those mails with my standard replies:
+
+  M: Fix your English
+  A: Some people say they hardly hear the diffrence between me and an
+     English speaking fellow. Others say it sucks. Well, I honestly don't
+     care in which category you are. English is NOT my first language. If 
+     I spoke my own language you probably couldn't read my FAQs at all.
+
+  M: HEY IDIOT! FIX YOUR FAQ!
+  A: Anyone who sends mail like this won't receive a reply. In fact they
+     will be banned from ever mailing me again. I can understand you do not
+     agree with my technique. There are as many as there are people. I can
+     also agree you detected that I made a mistake. Well, I'm human you know.
+     Making mistakes is part of my nature, as much as it's yours. If you 
+     detect errors in my FAQ you can tell me about it in a civil way, and 
+     I'll fix it if I agree with you.
+
+  M: Are you a man? A woman? How old are you? Where do you live?
+  A: I really got that kind of mails a lot. I don't mind that you know.
+     I was quite amused by such mails actually.
+     Well, my name is Jeroen Broks. I'm not going to give my private adres
+     in this FAQ or anywhere else on the internet, but you may know that
+     I live in the Netherlands, I am a man, and I was born in 1975. So on
+     the moment I started on this version of this FAQ I was 31 years old.
+
+  M: Fsdasdadasf afsdfasd afdfsaf
+  A: Whatever you say I don't understand it. If you mail me, please only do
+     so in either English or Dutch or if you really need in German. 
+     (Be perpared that if you speak German to me, you might get an answer in
+     English, tough).
+     I don't speak any other language.
+
+  M: May I translate your FAQ into another language?
+  A: If you ask my permission, mostly no problem
+
+  M: Why is Neoseeker banned from hosting your FAQs?
+  A: That's something between me and Neoseeker. I don't find it necesary to
+     go into detail about that. I noted it in my FAQs to make sure they     
+     will never pop up there unnoticed. So don't mail me about it
+     cause I won't answer. I got very good reasons for it. That's all you
+     need to know.
+
+And so far this FAQ. I hope you have good use for it!
+
+(c) Copyright 2008, JBC-Soft, Jeroen Broks (Tricky)
+
+     </span></pre>
+</div>
+
+<p class="ffaq_page">View in: <button id="printable" onclick="make_printable();">Text Mode</button></p>
+
+
+<script type="text/javascript">
+
+window.onhashchange = hashHasChanged;
+
+function hashHasChanged()
+{
+	$(document).scrollTop(window.pageYOffset-130);
+}
+
+$().ready(function()
+{
+	$('.faq_bookmark_jumper').clone().appendTo('#faq_header_wrap');
+	if(window.pageYOffset>=150)
+	{
+		$('#faq_header_wrap').addClass('fixed');
+	}
+
+	window.onscroll = function()
+	{
+		if(window.pageYOffset>=150)
+		{
+			$('#faq_header_wrap').addClass('fixed');
+			$('.top_link').addClass('fixed').css('display','block');
+		}
+		else
+		{
+			$('#faq_header_wrap').removeClass('fixed');
+			$('.top_link').removeClass('fixed').css('display','none');
+		}
+	};
+
+	
+	$.each($('.ffaq img.imgnofloat'),function(){
+		var image = $(this);
+		if(image.attr('width')>400)
+		{
+			image.addClass('bigresize');
+		}
+	});
+
+	
+	var autobm = window.setInterval(function()
+	{
+		if(window.pos==$(document).scrollTop() || window.autobmstop==true)
+			clearInterval(autobm);
+		else
+			set_bookmark(1);
+	}, 5000);
+});
+
+
+$('img.imgresize').bind('click touch', function()
+{
+	if($(this).css('max-width')=='none')
+		$(this).css({'width':'100%','max-width':'100%'});
+	else
+		$(this).css({'width':'auto','max-width':'none'});
+});
+
+var timer, lastsearch;
+
+$('body :not(#faq_search_results)').bind('click touch', function(e)
+{
+	if($('#faq_search_results').css('display')=='block')
+	{
+		e.stopPropagation();
+		if($(this).attr('id')!='results_table' && $(this).attr('id')!='faq_search' && $(this).attr('id')!='faq_search_input' && $(this).attr('class')!='head' && $(this).attr('id')!='home_links')
+		{
+			dismiss_faq_search_results(0);
+		}
+	}
+});
+
+$('#faq_search_input, .search_mobile').click(function(e)
+{
+	e.preventDefault();
+	if($(this).attr('class')=='search_mobile')
+	{
+		$('#faq_search_module').toggle();
+	}
+	$('#faq_search_module, #faq_search_results').addClass('fixed');
+	$('#faq_header_wrap').addClass('search');
+	
+	if($('#faq_search_results').css('display')!='block')
+	{
+		$('#faq_search_results').show();
+	}
+	if($('#results_table tr').length==0)
+		$('.close_results').hide();
+	$('#faq_search_input').focus();
+});
+
+$('#faq_search_input').keyup(function()
+{
+	if(lastsearch != $('#faq_search_input').val())
+	{
+		if(timer)
+			clearTimeout(timer);
+		lastsearch = $('#faq_search_input').val();
+		if($('#faq_search_input').val().length>=3)
+		{
+			$('#faq_search_results').show();
+			timer = setTimeout(function(){faq_search(52988, $('#faq_search_input').val())},150);
+		}
+		else
+		{
+			dismiss_faq_search_results(1);
+		}
+	}
+});
+
+function dismiss_faq_search_results(fixed)
+{
+	$('#faq_search_results').hide();
+	$('#faq_search_overlay').fadeTo(200,0).remove();
+	if(!fixed)
+	{
+		$('#faq_search_module, #faq_search_results').removeClass('fixed');
+		$('#faq_header_wrap').removeClass('search');
+		if($('.search_mobile').is(':visible'))
+			$('#faq_search_module').toggle();
+	}
+	$('#results_table').empty();
+}
+
+function search_result(row)
+{
+	if($('#results_table tr[data-row="'+row+'"]').length>0)
+	{
+		var url = $('#results_table tr[data-row="'+row+'"]').attr('data-url');
+		if(url.indexOf('search_highlight')>=0)
+			eval(url);
+		else
+			window.location = $('#results_table tr[data-row="'+row+'"]').attr('data-url');
+	}
+}
+
+$('body :not(#faq_toc_header *, #faq_toc a.toc_toggle *)').bind('click touch', function(e)
+{
+	if($('#faq_toc_header').css('display')=='block')
+	{
+		e.stopPropagation();
+		if($(this).attr('class')!='toc_toggle active' && $(this).attr('id')!='faq_toc_header')
+		{
+			$('.toc_toggle').removeClass('active');
+			$('#faq_toc_header').css('display','none');
+		}
+	}
+});
+
+function toc_toggle()
+{
+	if($('.toc_toggle').hasClass('active'))
+	{
+		$('a.toc_toggle').removeClass('active');
+		$('#faq_toc_header').css('display','none');
+	}
+	else
+	{
+		$('a.toc_toggle').addClass('active');
+		$('#faq_toc_header').css('display','block');
+	}
+}
+
+function faq_search(id, term)
+{
+	var term = $('#faq_search_input').val();
+	var len = term.length;
+	if(term.length<3)
+		return;
+
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/faq_search',
+		data:  {id: 52988, term: term, key: 'b2a6cc0c'},
+		success: function(response)
+		{
+			if(response[0]=='error')
+			{
+				$('#results_table').html('<tr><td colspan="2" class="dismiss_results"><span onclick="dismiss_faq_search_results(0);">No Results Found - Close</span></td></tr>');
+				$('.close_results').remove();
+				$('#faq_search_results').show();
+			}
+			else
+			{
+				window.currentpage = 0;
+				$('#results_table').html('');
+				$('.close_results').remove();
+
+				$.each(response,function(j,i)
+				{
+					var val = i.value;
+					val = val.split('-');
+					var page = val[0];
+					
+					if(window.currentpage!=page)
+					{
+						window.currentpage = page;
+					}
+					var link, pagenum = '';
+
+					
+					
+					{
+						link = "search_highlight(52988,"+val[0]+",2,"+val[1]+","+len+");";
+					}
+					
+
+					$('#results_table').append('<tr data-url="'+link+'" data-row="'+j+'" style="cursor:pointer;" onclick="search_result('+j+');"><td class="title">'+i.label+'</td><td class="type">'+pagenum+'</td></tr>');
+				});
+
+				$('#results_table').after('<div onclick="dismiss_faq_search_results(0);" class="close_results">Close Results</div>');
+			}
+		}
+	});
+}
+
+function search_highlight(file_id,page,format,pos,len,section)
+{
+	window.textpage = page+1;
+
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/faq_search_highlight',
+		data: { id: file_id, page: page, for: format, pos: pos, len: len, section: '', key: 'b2a6cc0c' },
+		success: function(response)
+		{
+					$('span[name="search_jump"]').remove();
+			$("span.faq_highlight").contents().unwrap();
+			$('span#faqspan-'+window.textpage).html(response);
+		
+		var offset = $('span[name="search_jump"]').offset().top - 100;
+		if(offset<100)
+			$(document).scrollTop(0);
+		else
+			$(document).scrollTop(offset);
+		}
+	});
+}
+
+
+
+function set_bookmark(auto)
+{
+	var pos = $(document).scrollTop();
+	if(pos!=window.pos)
+		window.pos = pos;
+	else
+		return;
+	var page = 0;
+	if(page!=window.page)
+		window.page = page;
+	if(auto)
+		auto = 1;
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/faq_bookmark',
+		data: { id: 52988, pid: 564903, pos: pos, page: page, section: '', auto: auto, key: 'b2a6cc0c' },
+		success: function(response)
+		{
+			if(response)
+			{
+				if(response=="Missing cookie.")
+					window.autobmstop = true;
+				$('.faq_bookmark_jump').fadeOut();
+				$('#faq_bookmark').addClass('active');
+				var html = $('.bm_jumper_inner').html();
+				$('.bm_jumper_inner').animate({'opacity':0},200,function()
+				{
+					if($('.faq_bookmark_jumper:not(.active)'))
+						$('.faq_bookmark_jumper').css('visibility','visible');
+					$(this).html('Bookmark Saved').animate({'opacity':1},200);
+					$('.faq_bookmark_jumper').animate({'opacity':1},200);
+				});
+				setTimeout(function()
+				{
+					if($('.faq_bookmark_jumper:not(.active)'))
+					{
+						$('.faq_bookmark_jumper').animate({'opacity':0},200,function()
+						{
+							$(this).css('visibility','hidden');
+						});
+					}
+					$('.bm_jumper_inner').animate({'opacity':0},200,function()
+					{
+						$(this).html($.trim(html)).animate({'opacity':1},200);
+					});
+				}, 3000);
+			}
+		}
+	});
+}
+
+function bookmark_jump_dismiss()
+{
+	$('#faq_header > .faq_bookmark_jumper').css('visibility','hidden');
+	$('#faq_header_wrap > .faq_bookmark_jumper').remove();
+	$('#faq_bookmark').removeClass('active');
+}
+
+
+
+function page_top()
+{
+	$(window).scrollTop(0);
+}
+
+function make_printable()
+{
+	var faqdiv = $('#faqtext').detach();
+	faqdiv.appendTo('#fullscreen_overlay');
+	$('#fullscreen_overlay').show();
+	$('.wrapper').hide();
+	$('#faqtext').addClass("fullscreen_takeover");
+	$('#faqtext').append('<p id="restore_page"><button onclick="restore_page();">Restore Page</button></p>');
+	$(window).scrollTop(0);
+}
+
+function restore_page()
+{
+	$('#restore_page').remove();
+	$('#faqtext').removeClass("fullscreen_takeover");
+	$('#fullscreen_overlay').hide();
+	$('.wrapper').show();
+	var faqdiv = $('#faqtext').detach();
+	faqdiv.appendTo('#faqwrap');
+	$(window).scrollTop(0);
+}
+
+
+
+function set_rec_val(val)
+{
+	
+	var ftype = "guide";	
+	$('#recval').val(val);
+	if(val==2)
+		$('.rec_comment').attr('placeholder','What is missing from this '+ftype+'? (140 character max)');
+	$('#rec_one').hide();
+	$('#rec_two').show();
+	return;
+}
+
+function hide_rec()
+{
+	$('#rec_two').hide();
+	$('#rec_three').show();
+	var timer = setTimeout(function()
+	{
+		$('#contrib_rec').fadeOut('slow').remove();
+		$('#faq_header_wrap').addClass('rec_closed');
+	}, 2000);
+}
+
+function rec_submit(item_id, item_type_id, button)
+{
+	var recval = $('#recval').val();
+	if($('.rec_comment'))
+		var reccommentval = $('.rec_comment').val();
+	else
+		var reccommentval = '';
+
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/gamespace_contrib_rec',
+		data: { item: item_id, type: item_type_id, btn: button, val: recval, comment: reccommentval, key: 'b2a6cc0c' },
+		success: function(response)
+		{
+			if(response==2)
+			{
+				track_event(79);
+				return;
+			}
+			else
+				hide_rec();
+		}
+	});
+}
+
+</script>
+
+<script type="application/ld+json">
+{
+	"@context": "https://web.archive.org/web/20190509091816/http://schema.org",
+	"@type": "FAQPage",
+	"headline":"Maniac Mansion: Day of the Tentacle FAQ/Walkthrough",
+	"image":"https://web.archive.org/web/20190509091816/https://gamefaqs.akamaized.net/box/4/8/2/25482_thumb.jpg",
+	"author":"Tricky",
+	"datePublished":"2008-06-02",
+	"dateModified":"2008-06-02",
+	"url":"https://web.archive.org/web/20190509091816/https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle/faqs/52988",
+	"reviewedBy":
+	{
+		"@type":"Organization",
+		"name":"GameFAQs",
+		"logo":
+		{
+			"@type":"ImageObject",
+			"url":"https://web.archive.org/web/20190509091816/https://gamefaqs.akamaized.net/images/default/logo_v13.png",
+			"width":"180",
+			"height":"50"
+		}
+	},
+	"genre":"Adventure",
+	"isPartOf":
+	{
+		"@type":"VideoGame",
+		"name":"Maniac Mansion: Day of the Tentacle",
+		"url":"https://web.archive.org/web/20190509091816/https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle",
+		"image":"https://web.archive.org/web/20190509091816/https://gamefaqs.akamaized.net/box/4/8/2/25482_thumb.jpg",
+		"description":"Dr. Fred's mutated purple tentacle is out to take over the world. And only you can stop him. Travel through time with three outrageous characters in this wacky graphic adventure which features cartoon-style animation and over 100 zany sound effects.",
+		"datePublished":"1993-12-31",
+		"aggregateRating":
+		{
+			"@type":"AggregateRating",
+			"ratingValue":"93",
+			"reviewCount":"5",
+			"worstRating":"1",
+			"bestRating":"100"
+		},
+		"publisher":"LucasArts",
+		"genre":["Adventure","Point-and-Click"],
+		"gamePlatform":["PC","MAC","IOS","LNX","MAC","PC","PS4","VITA"],
+		"operatingSystem":["PC","MAC","IOS","LNX","MAC","PC","PS4","VITA"],
+		"applicationCategory":"Game",
+		"sameAs":"https://web.archive.org/web/20190509091816/https://www.gamespot.com/maniac-mansion-day-of-the-tentacle/",
+		"keywords":""
+	},
+	"breadcrumb":
+	{
+		"type": "BreadcrumbList",
+		"itemListElement":
+		[
+			{
+				"@type": "ListItem",
+				"position": 1,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190509091816/https://gamefaqs.gamespot.com/pc",
+					"name": "PC"
+				}
+			},									{
+				"@type": "ListItem",
+				"position": 2,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190509091816/https://gamefaqs.gamespot.com/pc/category/50-adventure",
+					"name": "Adventure"
+				}
+			},
+									{
+				"@type": "ListItem",
+				"position": 3,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190509091816/https://gamefaqs.gamespot.com/pc/category/295-adventure-point-and-click",
+					"name": "Point-and-Click"
+				}
+			},
+						{
+				"@type": "ListItem",
+				"position": 4,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190509091816/https://gamefaqs.gamespot.com/pc/564903-maniac-mansion-day-of-the-tentacle/faqs/52988",
+					"name": "Maniac Mansion: Day of the Tentacle FAQ/Walkthrough"
+				}
+			}
+		]
+	}
+}
+</script>
+								
+							</div>
+						</div>
+														</div>
+				
+												
+			</div>
+							
+
+							<footer id="footer" class="footer"><div class="footer_site container row"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/" class="footer_logo_gf">GameFAQs</a><a href="https://web.archive.org/web/20190509091816/http://www.facebook.com/GFAQs"><i class="fa fa-facebook-square"></i>facebook.com/GFAQs</a><a href="https://web.archive.org/web/20190509091816/http://www.twitter.com/GameFAQs"><i class="fa fa-twitter"></i>twitter.com/GameFAQs</a><span class="footer_break"></span><a href="/web/20190509091816/https://gamefaqs.gamespot.com/help">Help / Contact Us</a><span class="footer_color_drop" id="color_change"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/features/change_color">Change Colors <i class="fa fa-caret-up"></i></a><ul class="footer_color_subnav"><li class="footer_color_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/user/change_color?site_color=blue&amp;path=%2Fpc%2F564903-maniac-mansion-day-of-the-tentacle%2Ffaqs%2F52988">Blue (Default)</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-blue&amp;path=%2Fpc%2F564903-maniac-mansion-day-of-the-tentacle%2Ffaqs%2F52988">Blue on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/user/change_color?site_color=red&amp;path=%2Fpc%2F564903-maniac-mansion-day-of-the-tentacle%2Ffaqs%2F52988">Red</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-red&amp;path=%2Fpc%2F564903-maniac-mansion-day-of-the-tentacle%2Ffaqs%2F52988">Red on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/user/change_color?site_color=green&amp;path=%2Fpc%2F564903-maniac-mansion-day-of-the-tentacle%2Ffaqs%2F52988">Green</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-green&amp;path=%2Fpc%2F564903-maniac-mansion-day-of-the-tentacle%2Ffaqs%2F52988">Green on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/user/change_color?site_color=orange&amp;path=%2Fpc%2F564903-maniac-mansion-day-of-the-tentacle%2Ffaqs%2F52988">Orange</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-orange&amp;path=%2Fpc%2F564903-maniac-mansion-day-of-the-tentacle%2Ffaqs%2F52988">Orange on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/user/change_color?site_color=purple&amp;path=%2Fpc%2F564903-maniac-mansion-day-of-the-tentacle%2Ffaqs%2F52988">Purple</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-purple&amp;path=%2Fpc%2F564903-maniac-mansion-day-of-the-tentacle%2Ffaqs%2F52988">Purple on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/user/change_color?site_color=cloudy&amp;path=%2Fpc%2F564903-maniac-mansion-day-of-the-tentacle%2Ffaqs%2F52988">Cloudy Blue</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/user/change_color?site_color=grayscale&amp;path=%2Fpc%2F564903-maniac-mansion-day-of-the-tentacle%2Ffaqs%2F52988">Grayscale</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/user/change_color?site_color=sepia&amp;path=%2Fpc%2F564903-maniac-mansion-day-of-the-tentacle%2Ffaqs%2F52988">Sepia</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190509091816/https://gamefaqs.gamespot.com/user/change_color?site_color=cottoncandy&amp;path=%2Fpc%2F564903-maniac-mansion-day-of-the-tentacle%2Ffaqs%2F52988">Cotton Candy</a></li>
+</ul></span></div><div class="footer_network"><div class="container row">Popular:<a title="A full game guide and walkthrough for Kingdom Hearts III on the PlayStation 4" href="/web/20190509091816/https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812">Kingdom Hearts III Guide</a><a title="Cheat codes and passwords for Red Dead Redemption 2 on the PlayStation 4" href="/web/20190509091816/https://gamefaqs.gamespot.com/ps4/200179-red-dead-redemption-2/cheats">Red Dead Redemption 2 Cheats</a><a title="Cheat codes and passwords for Grand Theft Auto V on the PlayStation 4" href="/web/20190509091816/https://gamefaqs.gamespot.com/ps4/805601-grand-theft-auto-v/cheats">Grand Theft Auto V Cheats</a></div><div class="container row"><p><a href="https://web.archive.org/web/20190509091816/https://www.gamespot.com/?utm_source=gamefaqs&amp;utm_medium=partner&amp;utm_content=footer&amp;utm_campaign=footer" class="footer_logo_gs">gamespot.com</a><a href="https://web.archive.org/web/20190509091816/https://www.giantbomb.com/" class="footer_logo_gb">giantbomb.com</a><a href="https://web.archive.org/web/20190509091816/https://www.metacritic.com/" class="footer_logo_mc">metacritic.com</a><a href="https://web.archive.org/web/20190509091816/https://www.gamerankings.com/" class="footer_logo_gr">gamerankings.com</a></p><p><span class="footer_break"></span><a href="https://web.archive.org/web/20190509091816/http://sitemap.gamefaqs.com/">Sitemap</a><a href="https://web.archive.org/web/20190509091816/http://www.cbsinteractive.com/advertise">Advertise</a><a href="/web/20190509091816/https://gamefaqs.gamespot.com/feedback?type=61">Partnerships</a><a href="https://web.archive.org/web/20190509091816/https://cbs.avature.net/cbsinteractivecareers/SearchJobs/?3_56_3=%22260%22">Careers</a><a href="https://web.archive.org/web/20190509091816/https://legalterms.cbsinteractive.com/privacy">Privacy Policy</a><a href="https://web.archive.org/web/20190509091816/https://legalterms.cbsinteractive.com/adchoice">Ad Choice</a><a href="https://web.archive.org/web/20190509091816/https://legalterms.cbsinteractive.com/terms-of-use">Terms of Use</a><a style="z-index: 999999999; color: red; cursor: pointer" onclick="ad_report();">Report&nbsp;Ad</a></p><p>&copy; 2019 CBS Interactive Inc. All rights reserved.</p></div></div></footer>
+
+
+							
+		</div>
+
+		
+		<div id="site_dialog" class="site_dialog"></div>
+		<script type="text/javascript" src="//web.archive.org/web/20190509091816js_/https://dw.cbsi.com/js/ds.js"></script>
+<script type="text/javascript" src="/web/20190509091816js_/https://gamefaqs.gamespot.com/js/omniture_v2.20190429212942.js"></script>
+
+<script type="text/javascript">
+window._taboola = window._taboola || [];
+$().ready(function(){
+$(".gf_taboola").each(function(){
+	_taboola.push({mode: $(this).attr('data-mode'), container: $(this).attr('id'), placement: $(this).attr('data-placement'), target_type: $(this).attr('data-target') });
+});
+});
+
+var vguid = $('meta[id=view-guid-meta]').attr("content").substr(0, 24) + Math.random().toString(16).substr(2,12);
+var anon_id = $.cookie('XCLGFbrowser');
+$('meta[id=view-guid-meta]').attr("content", vguid);
+var dw_params = JSON.parse($('meta[name=dwPageParams]').attr("content"));
+dw_params['viewguid'] = vguid;
+var om_params = JSON.parse($('meta[name=o2PageParams]').attr("content"));
+om_params['evars'][24] = vguid;
+om_params['evars'][35] = anon_id;
+var delay = 0;
+if(!$.cookie('spt'))
+	delay = 500;
+if(typeof DW != 'undefined')
+{
+	if(!anon_id)
+	{
+		$.getScript("//web.archive.org/web/20190509091816/https://dw.cbsi.com/anonc.js").done( function( script, textStatus ) { if(typeof dw_anonc != 'undefined') { anon_id = dw_anonc().id;  $.cookie('XCLGFbrowser', anon_id, { expires: 3650, path: '/' }); om_params['evars'][35] = anon_id; } DW.pageParams = dw_params; DW.clear();  setTimeout(function() { om_params['evars'][16]=$.cookie('spt');  somni = omniture(om_params); },delay); });
+	}
+	else
+	{
+		DW.pageParams = dw_params; DW.clear(); setTimeout(function() { om_params['evars'][16]=$.cookie('spt'); somni = omniture(om_params); },delay); 
+	}
+}
+_taboola.push({flush: true});
+var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; googletag.cmd.push(function() { googletag.pubads().addEventListener('slotRenderEnded', revdbg); });
+</script>
+
+
+<script type="text/javascript">(function(){var g=function(e,h,f,g){ this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b<e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null}; this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "}; this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&&(e=Math.random()>=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0}; this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g+ "&t=" + (new Date()).getTime();document.body&&document.body.appendChild(a)}}; this.start=function(){var a=this;window.addEventListener?window.addEventListener("load",function(){a.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){a.go()})}}; try{(new g(100,"r","QSI_S_ZN_1zcNvefGbweAxdb","//web.archive.org/web/20190509091816/https://zn_1zcnvefgbweaxdb-cbs.siteintercept.qualtrics.com/WRSiteInterceptEngine/?Q_ZID=ZN_1zcNvefGbweAxdb&Q_LOC="+encodeURIComponent(window.location.href))).start()}catch(i){}})(); </script><div id="ZN_1zcNvefGbweAxdb"><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+
+		
+<!--Page built in 0.0318 seconds on 2019-05-09 09:18:15 on box #212 (CSS 20190429212937)- O 0.0079 / S 0.0227 / M 0.0012 / U 0 / G 0 / SC 29-->
+
+	</body>
+</html>
+<!--
+     FILE ARCHIVED ON 09:18:16 May 09, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:29:47 Mar 18, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.859
+  exclusion.robots: 0.115
+  exclusion.robots.policy: 0.1
+  esindex: 0.012
+  cdx.remote: 50.397
+  LoadShardBlock: 8482.583 (3)
+  PetaboxLoader3.datanode: 7863.659 (4)
+  PetaboxLoader3.resolve: 528.356 (2)
+  load_resource: 339.506
+-->

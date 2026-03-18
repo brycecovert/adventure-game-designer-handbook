@@ -1,0 +1,1990 @@
+<!doctype html>
+<html lang="en" class="js no-touch" itemscope>
+	<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://gamefaqs.gamespot.com/pc/88800-kings-quest-mask-of-eternity/faqs/2426","20190511013641","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1557538601");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+		<title>King&#039;s Quest: Mask of Eternity Walkthrough for PC by GKIson - GameFAQs</title>
+
+				<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+
+				<meta name="description" content="For King's Quest: Mask of Eternity on the PC, Walkthrough by GKIson."/>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta content="origin" id="mref" name="referrer"/>
+		
+		
+		
+		
+				
+					  		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  
+	  		<link href="https://web.archive.org/web/20190511013641cs_/https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Condensed|Roboto+Mono" rel="stylesheet" type="text/css">
+		<link href="https://web.archive.org/web/20190511013641cs_/https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		
+		<link href="/web/20190511013641cs_/https://gamefaqs.gamespot.com/css/v13.20190429212937.css" rel="stylesheet" type="text/css">
+		
+
+		
+				<link rel="canonical" href="https://web.archive.org/web/20190511013641/https://gamefaqs.gamespot.com/pc/88800-kings-quest-mask-of-eternity/faqs/2426"/> 
+		
+				<base href="/web/20190511013641/https://gamefaqs.gamespot.com/pc/88800-kings-quest-mask-of-eternity/faqs/2426"/> 
+		
+		
+		<meta name="dwPageParams" content="{&quot;siteid&quot;:19,&quot;ptid&quot;:6468,&quot;onid&quot;:37,&quot;pid&quot;:&quot;88800&quot;,&quot;familyid&quot;:&quot;34379&quot;,&quot;prodtypid&quot;:8,&quot;genre_id&quot;:23212,&quot;category_id&quot;:&quot;290&quot;,&quot;oid&quot;:&quot;6468-37-19-88800-2426&quot;,&quot;cid&quot;:2426,&quot;conttypid&quot;:9,&quot;useract&quot;:178,&quot;xref&quot;:&quot;https:\/\/gamefaqs.gamespot.com\/pc\/88800-kings-quest-mask-of-eternity\/faqs&quot;,&quot;edid&quot;:107,&quot;pguid&quot;:&quot;eb69d62478b3a628214a49ec3e09b96a&quot;,&quot;url&quot;:&quot;http:\/\/gamefaqs.gamespot.com\/pc\/88800-kings-quest-mask-of-eternity\/faqs\/2426&quot;,&quot;ts&quot;:1557538601}"/>
+<meta name="o2PageParams" content="{&quot;account&quot;:&quot;cbsigamefaqssite&quot;,&quot;cloud_id&quot;:&quot;10D31225525FF5790A490D4D@AdobeOrg&quot;,&quot;channel&quot;:&quot;Games&quot;,&quot;site&quot;:&quot;gamefaqs&quot;,&quot;urs_id&quot;:null,&quot;hier1&quot;:&quot;Games|Game|FAQs|FAQ|Text&quot;,&quot;list1&quot;:null,&quot;products&quot;:&quot;;88800&quot;,&quot;evars&quot;:{&quot;1&quot;:&quot;Gamefaqs&quot;,&quot;2&quot;:&quot;ww&quot;,&quot;3&quot;:&quot;gamefaqs-desktop&quot;,&quot;5&quot;:&quot;cbsigamefaqssite&quot;,&quot;6&quot;:&quot;Games|Game|FAQs|FAQ|Text&quot;,&quot;7&quot;:&quot;D=g&quot;,&quot;10&quot;:&quot;game_faq_text&quot;,&quot;11&quot;:&quot;Games:game_faq_text&quot;,&quot;12&quot;:6468,&quot;15&quot;:&quot;false&quot;,&quot;20&quot;:&quot;King's Quest: Mask of Eternity (PC) - Walkthrough by GKIson&quot;,&quot;22&quot;:&quot;faq&quot;,&quot;41&quot;:&quot;&quot;,&quot;50&quot;:&quot;9:30PM&quot;,&quot;51&quot;:&quot;Friday&quot;,&quot;63&quot;:&quot;88800&quot;,&quot;64&quot;:&quot;kings-quest-mask-of-eternity|kings-quest&quot;,&quot;66&quot;:&quot;Action Adventure|General&quot;},&quot;page_event&quot;:null}"/>
+<meta id="ad-settings" itemprop="ad-settings" content="{&quot;script&quot;:&quot;\/\/www.googletagservices.com\/tag\/js\/gpt.js&quot;,&quot;target_params&quot;:{&quot;game&quot;:&quot;kings-quest-mask-of-eternity&quot;,&quot;ptype&quot;:&quot;game_faq_text&quot;,&quot;franchise&quot;:&quot;kings-quest&quot;,&quot;genre&quot;:&quot;Action Adventure,General&quot;,&quot;rating&quot;:&quot;esrb-t&quot;,&quot;publisher&quot;:&quot;Sierra Entertainment&quot;,&quot;score&quot;:&quot;68&quot;,&quot;user&quot;:&quot;anon&quot;,&quot;session&quot;:&quot;g&quot;,&quot;rdate&quot;:&quot;bp52&quot;,&quot;cid&quot;:&quot;faq-2426&quot;,&quot;firstpg&quot;:0},&quot;unit_name&quot;:&quot;\/8264\/aw-gamefaqs&quot;,&quot;deferred&quot;:true,&quot;service&quot;:&quot;dart&quot;,&quot;client&quot;:&quot;xfp&quot;,&quot;load_in_head&quot;:&quot;gpt&quot;,&quot;single_request&quot;:true,&quot;disable_initial_load&quot;:true,&quot;enable_callback&quot;:true,&quot;enable_collapse_empty_divs&quot;:false,&quot;slot_order&quot;:[&quot;skybox-nav&quot;,&quot;leader_top&quot;,&quot;leader_plus_top&quot;,&quot;mpu_top&quot;,&quot;mpu_plus_top&quot;,&quot;interstitial&quot;,&quot;native-top&quot;,&quot;incontent-ad&quot;,&quot;mpu_bottom&quot;,&quot;leader_bottom&quot;],&quot;mapped_units&quot;:{&quot;skybox-nav&quot;:{&quot;size&quot;:[[5,5]],&quot;target&quot;:{&quot;pos&quot;:&quot;nav&quot;}},&quot;leader_plus_top&quot;:{&quot;size&quot;:[[728,90],[970,66],[970,150],[970,250],[960,150]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;leader_top&quot;:{&quot;size&quot;:[[728,90],[970,66]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;leader_bottom&quot;:{&quot;size&quot;:[[728,90],[970,66]],&quot;target&quot;:{&quot;pos&quot;:&quot;bottom&quot;}},&quot;mpu_plus_top&quot;:{&quot;size&quot;:[[300,250],[300,600],[300,100]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;mpu_top&quot;:{&quot;size&quot;:[[300,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;mpu_bottom&quot;:{&quot;size&quot;:[[300,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;bottom&quot;}},&quot;native-top&quot;:{&quot;size&quot;:[[11,11],&quot;fluid&quot;],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;incontent-ad&quot;:{&quot;size&quot;:[[321,31],[11,11],&quot;fluid&quot;],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;interstitial&quot;:{&quot;outOfPage&quot;:true}}}"/>
+<meta id="view-guid-meta" name="view-guid-meta" itemprop="view-guid" content="eb69d624-78b3-4a62-8214-a49ec3e09b96">
+<meta id="bsm-pub-zone-meta" name="bsm-pub-zone-meta" itemprop="bsm-pub-zone" content="gamefaqs.com/nucleus">
+<meta id="bsm-sizes-meta" name="bsm-sizes-meta" itemprop="bsm-sizes" content="728x90 300x250">
+
+
+
+
+		
+				<script type="text/javascript" src="/web/20190511013641js_/https://gamefaqs.gamespot.com/js/jquery_gf.20190429212942.js"></script>
+		<script type="text/javascript" src="/web/20190511013641js_/https://gamefaqs.gamespot.com/js/gamefaqs.20190429212942.js"></script>
+						<script type="text/javascript">window._taboola=window._taboola || []; _taboola.push({other:'auto'}); function setUpAgknTag(tag){tag.setBpId("cbsinteractive");}var _gaq = _gaq || [];  _gaq.push(['nT._setAccount', 'UA-27653683-1']);  _gaq.push(['nT._setAllowLinker', true]); _gaq.push(['nT._setSampleRate', '1']); _gaq.push(['nT._trackPageview']); _gaq.push(['_setAccount', 'UA-22577913-2']); _gaq.push(['_setSampleRate', '5']); _gaq.push(['_setCustomVar',1,'PageType','6468',3]); _gaq.push(['_setCustomVar',2,'LoggedIn','No',2]); _gaq.push(['_setCustomVar',3,'UserLevel','0',3]); _gaq.push(['_setCustomVar',4,'FAQType','txt',3]);  _gaq.push(['_trackPageview']); </script>
+		
+		
+		
+	  
+	  <script type="text/javascript">
+	    (function(id){
+	    function append(scriptid,url,async){var d=document,sn='script',f=d.getElementsByTagName(sn)[0];if(!f)f=d.head;var s=d.createElement(sn);s.async=!0;s.id=scriptid;s.src=url;f.parentNode.insertBefore(s,f)}
+	  window.evidon={}; window.evidon.id=id; append('evidon-notice','//web.archive.org/web/20190511013641/https://gamefaqs.akamaized.net/js/sitenotice/evidon-sitenotice-tag.js',!1); append('evidon-location','//web.archive.org/web/20190511013641/https://c.evidon.com/geo/country.js',!0); append('evidon-themes','//web.archive.org/web/20190511013641/https://gamefaqs.akamaized.net/js/sitenotice/425/snthemes.js',!0); append('evidon-settings','//web.archive.org/web/20190511013641/https://gamefaqs.akamaized.net/js/sitenotice/425/gamefaqs/settings.js',!0); window.evidon.priorConsentCallback=function(){
+											append('google-analytics', "//web.archive.org/web/20190511013641/https://www.google-analytics.com/ga.js", true);
+			 
+			}
+				  window.evidon.closeCallback=function(){}
+				  window.evidon.consentWithdrawnCallback=function(){}})(425)
+	  		</script>
+
+	</head>
+	<body class="  wf-active">
+		<div id="fullscreen_overlay"></div>
+				<div class="wrapper g_file p_88800 s_pc">
+						<div id="menubutton" class="menubutton" onclick="topnav_side_open();"><i class="fa fa-bars"></i> Menu</div><div class="sidenav" id="sidenav"><div class="sidenav_div"><div id="menuclose" class="menuclose" onclick="topnav_side_close();"><i class="fa fa-times fa-2x"></i></div><ul class="sidenav_menu"><li><a href="/web/20190511013641/https://gamefaqs.gamespot.com/">Home</a></li><li><a href="/web/20190511013641/https://gamefaqs.gamespot.com/answers">Answers</a></li><li><a href="/web/20190511013641/https://gamefaqs.gamespot.com/boards">Boards</a></li><li><a href="/web/20190511013641/https://gamefaqs.gamespot.com/community">Community</a></li><li><a href="/web/20190511013641/https://gamefaqs.gamespot.com/contribute">Contribute</a></li><li><a href="/web/20190511013641/https://gamefaqs.gamespot.com/games">Games</a></li><li><a href="/web/20190511013641/https://gamefaqs.gamespot.com/new">What&rsquo;s&nbsp;New</a></li><li><a href="/web/20190511013641/https://gamefaqs.gamespot.com/games/systems">Systems</a></li><ul class="sidenav_submenu"><li><a href="/web/20190511013641/https://gamefaqs.gamespot.com/3ds">3DS</a></li><li><a href="/web/20190511013641/https://gamefaqs.gamespot.com/android">Android</a></li><li><a href="/web/20190511013641/https://gamefaqs.gamespot.com/iphone">iOS</a></li><li><a href="/web/20190511013641/https://gamefaqs.gamespot.com/pc">PC</a></li><li><a href="/web/20190511013641/https://gamefaqs.gamespot.com/ps3">PlayStation&nbsp;3</a></li><li><a href="/web/20190511013641/https://gamefaqs.gamespot.com/ps4">PlayStation&nbsp;4</a></li><li><a href="/web/20190511013641/https://gamefaqs.gamespot.com/switch">Switch</a></li><li><a href="/web/20190511013641/https://gamefaqs.gamespot.com/vita">Vita</a></li><li><a href="/web/20190511013641/https://gamefaqs.gamespot.com/xbox360">Xbox 360</a></li><li><a href="/web/20190511013641/https://gamefaqs.gamespot.com/xboxone">Xbox One</a></li></ul></ul></div></div><div class="masthead"><div class="masthead_strip"><div class="container row"><nav class="masthead_systems"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/3ds">3DS</a><a class="notab" href="/web/20190511013641/https://gamefaqs.gamespot.com/android">Android</a><a class="notab" href="/web/20190511013641/https://gamefaqs.gamespot.com/iphone">iOS</a><a href="/web/20190511013641/https://gamefaqs.gamespot.com/pc">PC</a><a class="notab" href="/web/20190511013641/https://gamefaqs.gamespot.com/ps3">PS3</a><a href="/web/20190511013641/https://gamefaqs.gamespot.com/ps4">PS4</a><a href="/web/20190511013641/https://gamefaqs.gamespot.com/switch">Switch</a><a class="notab" href="/web/20190511013641/https://gamefaqs.gamespot.com/vita">Vita</a><a class="notab" href="/web/20190511013641/https://gamefaqs.gamespot.com/xbox360">Xbox 360</a><a href="/web/20190511013641/https://gamefaqs.gamespot.com/xboxone">Xbox One</a><span class="masthead_platform_drop"><a class="mast_nav_last" href="/web/20190511013641/https://gamefaqs.gamespot.com/games/systems">More&nbsp;Systems <i id="sysdrop_down" class="fa fa-caret-down"></i><i id="sysdrop_up" class="fa fa-caret-up"></i></a><ul id="sysdrop" class="masthead_platform_subnav"><li class="gotab masthead_platform_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/android">Android</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/arcade">Arcade</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/ds">DS</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/dreamcast">Dreamcast</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/gba">Game Boy Advance</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/gamecube">GameCube</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/genesis">Genesis</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/iphone">iOS</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/nes">NES</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/n64">Nintendo 64</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/ps">PlayStation</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/ps2">PlayStation 2</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/ps3">PlayStation 3</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/psp">PSP</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/snes">Super Nintendo</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/vita">Vita</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/wii">Wii</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/wii-u">Wii U</a></li><li class="gotab masthead_platform_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/xbox360">Xbox 360</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/xbox">Xbox</a></li><li class="masthead_platform_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/games/systems">And 99 More...</a></li></ul></span></nav><div class="masthead_user" data-step="9" data-intro="Now that you've seen what we have to offer, you can register an account for free to have complete access to all of our great community features. If you already have an account, you can log in here as well.">
+	<a href="/web/20190511013641/https://gamefaqs.gamespot.com/user/login" onclick="return show_login();"><i class="fa fa-key nouser"></i>Log In</a>
+	<a href="/web/20190511013641/https://gamefaqs.gamespot.com/user/register" onclick="return show_signup('header');" class="nouser">Sign Up</a>
+</div>
+<div id="login_dialog">
+<div class="pod">
+	<div class="head"><h2 class="title">Log In to GameFAQs</h2></div>
+	<div class="body">
+
+<form class="login" id="login" method="post" action="/web/20190511013641/https://gamefaqs.gamespot.com/user/login" onsubmit="return submit_login();"><input type="hidden" name="path" value="/pc/88800-kings-quest-mask-of-eternity/faqs/2426"/><input class="hidden" type="hidden" name="key" value="0459c70b">
+	<table class="contrib">
+
+	<tr>
+	<td>
+	<input class="text login_email" id="login_email" type="text" name="EMAILADDR" maxlength="90" placeholder="Username/Email"/>
+	</td>
+	</tr>
+	
+	<tr>
+	<td>
+	<input class="text login_password" id="login_password" type="password" name="PASSWORD" maxlength="64" placeholder="Password"/>
+	</td>
+	</tr>
+	
+	<tr>
+	<td>
+	<input id="kmli" type="checkbox" name="kmli" checked="CHECKED"/><label for="kmli"> Keep me logged in on this device</label>
+	</td>
+	</tr>
+
+	<tr><td>
+	
+	<input class="btn btn_primary btn_wide login_submit" id="login_submit" type="submit" value="login"/>
+	
+	</td></tr>
+	<tr><td>
+	
+	<a href="/web/20190511013641/https://gamefaqs.gamespot.com/user/recover">Forgot your username or password?</a><br/><br/>
+	<a href="/web/20190511013641/https://gamefaqs.gamespot.com/user/register" onclick="$('#login_dialog').dialog('close'); return show_signup('login_box');">Don't have an account? Sign up for free!</a>
+	
+	</td></tr>
+	</table>
+	
+</form>
+
+</div>
+</div>
+</div>
+
+
+</div></div><div class="masthead_main container row"><div class="masthead_logo_search"><div class="masthead_logo" data-step="1" data-intro="Welcome to GameFAQs, your one-stop site for gaming guides, cheats, and more. If you're ever lost on the site, you can click this logo to get back to the home page at any time."><a href="/web/20190511013641/https://gamefaqs.gamespot.com/">GameFAQs</a></div><div class="masthead_search"><form class="search" method="get" action="/web/20190511013641/https://gamefaqs.gamespot.com/search" data-step="2" data-intro="You can use this box to search our extensive database of games. There are quick links to all of the content we have for the game directly from the search results."><fieldset><button type="submit"><i class="fa fa-search"></i></button><input type="text" id="searchtextbox" name="game" value="" class="search" placeholder="Search Game Titles"/></fieldset></form></div></div><div class="masthead_nav"><nav><a href="/web/20190511013641/https://gamefaqs.gamespot.com/answers" data-step="3" data-intro="If you have a specific question for a game, you can ask it here and see if our users can answer it for you.">Answers</a><a href="/web/20190511013641/https://gamefaqs.gamespot.com/boards" data-step="4" data-intro="We have a unique message board for every version of every game in our extensive database, combining into the largest gaming message board on the Net.">Boards</a><a class="navtrim" href="/web/20190511013641/https://gamefaqs.gamespot.com/community" data-step="5" data-intro="GameFAQs wouldn't be what it is without our active community of users contributing content and conversations. See what your friends are up to, or browse through various categories of users like our top contributors here.">Community</a><a class="navtrim" href="/web/20190511013641/https://gamefaqs.gamespot.com/contribute" data-step="6" data-intro="If you'd like to contribute your own guides, reviews, or cheats for a game, this is the place to go. We accept many other types of content as well from trivia to game credits. You can find a full list and all of the guidelines for submitting content here.">Contribute</a><a class="navtrim" href="/web/20190511013641/https://gamefaqs.gamespot.com/games" data-step="7" data-intro="Explore our comprehensive library of games. Find out what's popular on the site or see how we rank games based on difficulty, length, and more.">Games</a><a class="notab" href="/web/20190511013641/https://gamefaqs.gamespot.com/new" data-step="8" data-intro="If you're wondering what games are coming out soon, or what content we've posted recently, this is the place to look.">What&rsquo;s New</a><a class="search_link" onclick="topnav_show_search();"><i class="fa fa-2x fa-search" title="Search"></i></a></nav></div></div></div>
+			
+			
+						
+			
+									
+						<div id="mantle_skin">
+												
+								<div id="content" class="container">
+
+					
+															
+															
+																<div class="post_content row">
+							<div class="span12">
+								<header class="page-header"><div class="header_split"><div class="header_left"><div class="header_image" style="background-image:url(https://web.archive.org/web/20190511013641im_/https://gamefaqs.akamaized.net/box/6/3/0/630_thumb.jpg)"></div></div><div class="header_right"><h1 class="page-title">King's Quest: Mask of Eternity &ndash; Walkthrough</h1><h4 class="platform-title"><span class="header_more">PC</span></h4></div></div></header><nav id="js_content_nav" class="content_nav_wrap"><div class="content_nav_imp_wrap"><div class="cnav_imp cnav_faqs cnav_item_active"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/pc/88800-kings-quest-mask-of-eternity/faqs">FAQs</a></div><div class="cnav_imp cnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/pc/88800-kings-quest-mask-of-eternity/answers">Answers</a></div><div class="cnav_imp cnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/boards/88800-kings-quest-mask-of-eternity">Board</a></div><div id="js_content_nav_toggle" class="content_nav_label">More</div></div><ol class="content_nav content_nav_split"><li class="cnav_item cnav_has_drop"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/pc/88800-kings-quest-mask-of-eternity">Home</a><ol class="content_subnav"><li class="csubnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/pc/88800-kings-quest-mask-of-eternity">Summary</a></li><li class="csubnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/pc/88800-kings-quest-mask-of-eternity/data">Release Data</a></li><li class="csubnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/pc/88800-kings-quest-mask-of-eternity/credit">Game Credits</a></li><li class="csubnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/pc/88800-kings-quest-mask-of-eternity/playing">Also Playing</a></li><li class="csubnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/pc/88800-kings-quest-mask-of-eternity/stats">Collection Stats</a></li></ol></li><li class="cnav_imp cnav_item_active"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/pc/88800-kings-quest-mask-of-eternity/faqs">FAQs</a></li><li class="cnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/pc/88800-kings-quest-mask-of-eternity/cheats">Cheats</a></li><li class="cnav_item cnav_has_drop"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/pc/88800-kings-quest-mask-of-eternity/reviews">Reviews</a><ol class="content_subnav"><li class="csubnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/pc/88800-kings-quest-mask-of-eternity/reviews">Reader Reviews</a></li><li class="csubnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/pc/88800-kings-quest-mask-of-eternity/critic">Critic Reviews</a></li></ol></li><li class="cnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/pc/88800-kings-quest-mask-of-eternity/images">Images</a></li><li class="cnav_imp cnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/pc/88800-kings-quest-mask-of-eternity/answers">Answers</a></li><li class="cnav_imp cnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/boards/88800-kings-quest-mask-of-eternity">Board</a></li></ol></nav>
+
+<script type="text/javascript">
+$('#js_content_nav_toggle').click(function()
+{
+	$('.content_nav_wrap').toggleClass('content_nav_open');
+});
+</script>
+
+
+
+		
+<div id="faq_header_wrap">
+	<div id="faq_header">
+		<div id="home_links">
+			<a class="gfaqs_icon" href="/web/20190511013641/https://gamefaqs.gamespot.com/"><img src="/web/20190511013641im_/https://gamefaqs.gamespot.com/images/default/g_v13_dark.png" alt="GameFAQs"/></a>
+			<a class="search_mobile"><i class="fa fa-search"></i></a>
+		</div>
+		<div id="faq_search_module">
+			<div class="head">
+				<span class="search_head_mobile">What do you need help on?</span>
+				<span class="search_close" onclick="dismiss_faq_search_results(0);">Cancel X</span>
+			</div>
+			<fieldset id="faq_search">
+				<button disabled><i class="fa fa-search"></i></button>
+				<input type="text" id="faq_search_input" size="80" maxlength="80" placeholder="Search this Guide for" value=""/>
+			</fieldset>
+			<div id="faq_search_results">
+				<table id="results_table"></table>
+			</div>
+		</div>
+				<div id="faq_bookmark" onclick="set_bookmark(0);">
+			<i class="fa fa-bookmark"></i><span class="bm_inner"><br/>BOOKMARK</span>
+		</div>
+		<div class="faq_bookmark_jumper">
+			<div class="bm_jumper_inner">
+			Jump to:
+						</div>
+		</div>
+	</div>
+	<div id="contrib_rec">
+		<div id="rec_inner">
+			<div id="rec_one">
+				<span class="rec_text">Would you recommend this Guide?</span>
+				<a class="rec_yes" onclick="set_rec_val(1);rec_submit(2426, 1, 1);">Yes</a>
+				<a class="rec_no" onclick="set_rec_val(2);rec_submit(2426, 1, 2);">No</a>
+				<input type="hidden" name="recval" id="recval"/>
+				<span class="rec_hide" onclick="$('#contrib_rec').remove();$('#faq_header_wrap').addClass('rec_closed');">Hide <i class="fa fa-times"></i></span>
+			</div>
+			<div id="rec_two">
+				<textarea class="rec_comment" name="comment" maxlength="140" rows="2" placeholder="How did you find this guide helpful? (140 character max)"></textarea>
+				<a class="rec_send" onclick="rec_submit(2426, 1, 3);">Send</a>
+				<a class="rec_skip" onclick="hide_rec();">Skip</a>
+				<span class="rec_hide" onclick="$('#contrib_rec').remove();$('#faq_header_wrap').addClass('rec_closed');">Hide <i class="fa fa-times"></i></span>
+			</div>
+			<div id="rec_three">
+				<a class="rec_sent"><i class="fa fa-check"></i>&nbsp;&nbsp;Message Sent</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<a class="top_link" onclick="page_top();"><i class="fa fa-arrow-up"></i></a>
+
+<div class="pod">
+	<div class="body ffaq">
+		<h2 class="title">Walkthrough by <a class="contrib1" href="/web/20190511013641/https://gamefaqs.gamespot.com/community/GKIson">GKIson</a></h2>
+			</div>
+</div>
+
+
+
+<div id="faqwrap" class="ffaq">
+	<pre class="faqtext" id="faqtext"><span id="faqspan-1">
+                        KING'S QUEST VIII
+Mask of Eternity
+AUTHOR: G. K. Ison (garr)
+KINGDOM OF DAVENTRY.
+  Connor is in front of Sarah's house. Enter the house. DON'T
+  click the kettle near the fire unless your red health bar is
+  low. The broth shouldn't be wasted. At the table, get the
+  mushrooms. From the shelf near the beds, get the square amber
+  potion of shield. Exit the house.
+  On the left side, get mushrooms from the ground. Your weapon
+  right now is your fists. Click the fist icon, go to the right
+  side of the house and punch the Goblin. Search it for anything
+  it might have. In a small corner by the house, get the coins.
+  If you lost a lot of red health in the fight, go back in the
+  house and drink from the kettle. The mushrooms should be saved
+  for later.
+  Click the raven and it flies down the road. Turn right and go
+  north to your house on the left. Punch the bull's-eye target,
+  in the field, till your experience rating increases. This
+  target only does it once. In the inclosed side yard, punch the
+  target for another experience increase. Left of the entry, get
+  three mushrooms. Avoid the Goblin for now.
+  Enter your house and go into the back room. Get the dagger
+  from the table top. If your health is low, there's a kettle of
+  healing brew by the fire. On a bottom shelf in the corner,
+  open the jar and get 35 coins. Exit the house. Choose your
+  dagger and get rid of the nearby Goblin. Hit Alt to put your
+  dagger away. At the fence post, click the play cursor on the
+  raven.
+  Follow the raven south, past Sarah's house, and down hill to
+  the west. Stay off the west road and to the right as you go by
+  a Mausoleum, then a Church on your left. There's a Spriggan
+  hiding with a crossbow in the fenced area between the two
+  structures. Hit End and run on past and straight toward a
+  Wizard who says, &quot;Come closer lad.&quot; Get rid of the Goblin
+  nearby.
+TIP: when you have a weapon in your hand, you can hold Ctrl to
+use your regular cursor without putting your weapon away! But you
+CAN click your potions with the weapon cursor.
+  Click your regular play cursor on the Wizard to talk to him.
+  He eventually gives you a magic map. You can view it anytime
+  by hitting Tab. Head back east and stay off the left side of
+  the road as you pass the Church and the Mausoleum. Near the
+  top of the hill, go due south (right) to the cliff overlooking
+  the Mausoleum roof. SAVE GAME!
+  Hit F2 to see yourself (third person view.) Line up the corner
+  of the cliff and the Mausoleum roof corner (hold down right
+  button and move mouse.) Back up a good bit, and while still
+  lined up with the two corners, make a running jump to the
+  Mausoleum roof (End toggles run/walk and Insert for jumping.)
+  Hold down the up arrow, then hit and hold Insert at the
+  correct time. Once on the roof, let up on the keys. Get out
+  your dagger.
+TIP: At other times, it may actually be easier to be in first
+person view (you can't see Connor) though. Then when there's an
+automatic scene, it temporarily switches to third person.
+  Go to the opening at the far end. When the camera view
+  changes, step forward and you automatically jump down and kill
+  the Spriggan. Take the crossbow. If your experience isn't at
+  least 5, avoid the zombies coming up out of the ground in the
+  graveyard area. Run around the Mausoleum to the road. Go to
+  the farmhouse north of the Mausoleum and on the right side of
+  the road. The small map icon at the lower right of your screen
+  has a tiny arrow showing direction. In the farmhouse, get
+  mushrooms from the table basket.
+  Next to the bed, get the leather boots. Get some coins from
+  the shelf. Open the chest on the shelf and get an additional
+  25 coins. Exit the farmhouse.
+TIP: For possible experience increase, and weird fun, kill some
+chickens with your crossbow. Every time you kill something, your
+green experience meter increases. When full, it increases your
+armor status and you start with zero in the experience meter
+again. Now you start building experience again and when it's
+full, you get another armor status increase. This routine is
+repeated over and over during the game.
+  Turn right and go around the farmhouse. Kill and search the
+  monster near the petrified farmer. Behind the farmhouse, kill
+  and search a couple of zombies. Go back around front and cross
+  the road to the farm stand. Get all the mushrooms from the
+  three baskets. If your health is down, eat the fish and fowl
+  hanging in the stand.
+  Go north up the road and to the fountain. If your health is
+  still down, get a drink.
+TIP: It is rumored that if you keep drinking, Connor will burp!
+  Go north west up the road to the tavern on the right. Enter
+  and go behind the counter. Get the leather gloves for another
+  Armor rating increase. On the shelf, get coins from the chest.
+  On the tables, drink from the mugs to see Connor get dizzy. Go
+  up to the balcony and get healing crystals from the large
+  chest. Go down and exit the tavern.
+  Find two barrels, on the side of the tavern, and use any
+  weapon to bust them. Get the potions. From the front of the
+  tavern, get out your bow and slowly go west toward the bridge.
+  When you see the TOUGH Spriggan, fast click shooting should
+  kill it. Cross the bridge and go to the intersection. Turn
+  left (south) and take a few steps. Look up (Page Up) to see
+  the windmill on the left. Get ready with your crossbow and
+  SAVE.
+  When you arrive, start shooting the hopping Spriggan near the
+  door (switch to dagger for second one if necessary; you can
+  even back up while fighting and eat mushrooms to restore
+  health.) Another crossbow Spriggan is inside. You can shoot it
+  out or rush forward with your dagger. Once safely inside, look
+  up to see an axe stuck in the roof beam.
+  Push the hay bale under the axe, jump onto the bale and get
+  the axe. Arm yourself with the axe and make sure your health
+  is 100 percent. Exit the windmill and get confronted by a
+  Henchman. Drink the square amber shield potion and kill the
+  Henchman. Pick up everything he drops. Go back north and east
+  over the bridge.
+  Go due south past the fountain and take the first right (west)
+  to the mill. To the right of the door, get the mushrooms near
+  the evergreen tree. Enter the mill and Connor says &quot;I could
+  use that rope and hook.&quot; Exit the mill and walk around the
+  left side to a tall tree and chop it down. The water is
+  stopped and the wheel quits turning. Reenter the mill.
+  Jump onto the milling area. Get squarely in front of the
+  balcony opening and jump onto the balcony. If it's too
+  difficult, maybe you could back flip onto the balcony. Facing
+  the opening, turn around and step forward a couple of steps if
+  you can. Hold the back (down) arrow and immediately hit
+  Insert. Once you're on the balcony, get the rope and hook.
+  Exit the mill, head due north and west back across the bridge.
+  Go to the intersection, then north to Kavanagh's house. Enter
+  and click on the hobby horse and the drawings on the table.
+  Take the mushrooms from the shelf basket, then exit the house.
+  Go around the left side to the outhouse. Get out your axe,
+  open the door and kill the surprised occupant.
+  Continue northeast to the fence and jump over. Go north along
+  the river bank toward the falls and click on the falling
+  water. You notice something behind the water. Approach the
+  wall on the west (left) and you should see a large yellow
+  rope/hook arrow appear at the lower right of your screen.
+  Click your rope and hook in inventory, and click that on the
+  wall.
+  Hold forward (up arrow) to climb to the top. Push the stone
+  blocks off the table, shutting off part of the water. Maneuver
+  to get the yellow down arrow and use your rope and hook on the
+  wall. Climb down and enter the revealed tunnel. Choose Yes to
+  enter the new region to Castle Daventry. Follow the zigzag
+  tunnel and click on the candle to open a secret door.
+  Enter the castle dining hall. Click the portrait of King
+  Graham. With no weapon in hand, walk against the portrait to
+  push it. Take the brass key from the secret niche. Walk
+  through the door to the left and pick up some ashes from
+  beneath the burned out wall torch. Continue on into the throne
+  room. Look at (click game cursor on) the two statues.
+  Click the mirror while it swirls to see an evil being that
+  taunts you. Return to the dining hall and exit through the
+  tunnel. Wade to the east shore of the river and go north up
+  the road to the Daventry sign. Turn right and go east. Five
+  zombies rise out of the path, kill them and take all the
+  things they drop. Slowly continue east till you see a Spriggan
+  guarding a mausoleum.
+  Kill him with your bow. The spirit of Sir James of Daventry is
+  released. He says to &quot;Find the door of divine origin; the urn
+  will reveal the way.&quot; Use your axe to bust the door and enter
+  the tomb. Put away the axe, and walk against the sarcophagus
+  lid to push it aside. Take the hero ring and exit the tomb.
+  Cross the bridge over the moat but don't enter the keep ruins.
+  Two Spriggans wait inside to either side of the passage. Make
+  sure your health is high and your healing potions are handy
+  (press Space bar to see inventory.) Get out your axe, enter
+  castle keep and defeat the two Spriggans. Pick up any potions
+  and coins. Keep your axe out , climb the nearby ramp, and kill
+  a Spriggan at the top just around to the left.
+  One more Spriggan is on this level. Climb the ramp to the
+  lookout post and kill the TOUGH guard. Talk what he drops,
+  including the leather breastplate. Go down both ramps to the
+  bottom. There's a small room on each side of the entrance. In
+  one is a single chain, and in the other are two chains. Pull
+  those three chains once each. This should disarm a couple of
+  nearby traps.
+  Enter the back hallway and follow it to the first corner. See
+  that wall slot, it's a trap that should be off. Continue
+  toward the locked doors. If you didn't turn off the traps,
+  you'll know when you step into the patch of sunlight. Use key
+  (from Graham's picture) to unlock the door and enter. This is
+  a Teleporter room. DO NOT use it right now!
+  Exit the room and run down the hall to the right, hugging the
+  right hand wall as you run. An arrow trap is firing away. If
+  you hurry, you can safely round the corner before getting it
+  in the backside. Exit the castle keep and go due east through
+  a narrow pass in the hills. You'll find a big beast with it's
+  forelegs in a foul pond. Don't step in the toxic water.
+  Talk to the beast, which is actually a unicorn. Click on the
+  beast till she has nothing new to say. Go around the beast and
+  head south to the Alchemist's house-with the boarded up front
+  door. Bust the boards with your axe, then put it away. Enter
+  and get the scroll for a Permanent Spell of Might. In
+  inventory, right click the scroll to see the ingredients
+  needed:
+  A piece of giant golden mushroom, a blue adamant, and the
+  tongue of a basilisk; combine these under a blast of
+  lightning, or something similar! Turn right to the shelf by
+  the stove. Get the Elixir of Life and the Potion of Shield. Go
+  back to the church down in the extreme south central part of
+  the map.
+  Approach the front door and your rope/hook arrow should
+  appear. Use your rope and hook on the wall and climb to the
+  roof. Approach the hole in the roof on the correct side and
+  use your rope and hook to climb down inside the church. Take
+  the burning candle from the side table in the entryway (sacred
+  flame.) Approach the large urn in the back near the lectern.
+  Push the urn, and through the window you see the mausoleum
+  door open. Return to the entryway and click some coins once on
+  the offering box. Use your rope and hook to climb to the roof.
+  Go to the opening in the wall and climb down to the ground. Go
+  around the church and hurry through the graveyard and into the
+  open mausoleum.
+  You can take your time and gain experience by killing some
+  zombies.
+  Step into the swirling light for a non interactive sequence
+  with a Shadow Bane guarding the entrance to the Dimension of
+  Death. Exit the mausoleum and the raven summons you again.
+  Hurry through the graveyard and go to the Wizard by the lake.
+  Talk to him and give him the candle from the church, the ring
+  from Sir James' sarcophagus, and torch ashes.
+  You get a magical Ring of Illumination. There's another item
+  you need to more easily survive the Dimension of Death. Go
+  into the lake behind the Wizard and swim due west to the tall
+  island in the middle of the lake. Look up to see a structure
+  on top of the rock. Walk around the island to the odd
+  structure.
+  Approach the wall directly behind the structure till your
+  climb arrow appears. Use your rope and hook on the wall to
+  climb. Open the door and enter the house. Under the desk to
+  the left, take the Potion of Invisibility. At the ink bottle
+  by the spell book, click the magical quill to inscribe the
+  Jupiter symbol on the parchment. Take the parchment.
+  Go to the spinning globe, by the door, and use the parchment
+  on the globe. Take a Potion of Reveal from inside. Turn to the
+  writing stand and drink the red Potion of Reveal to see a
+  chest near the writing stand. Open the chest and get a large
+  silver bell. Exit the house and climb back down the cliff.
+  Step over to the odd structure; it's a bell stand.
+  Use your bell on the stand. Use your axe to strike the bell
+  three times. Click on the Lady of the Lake to get the Sword of
+  the Lake. Now your ready for the Dimension of Death. Swim back
+  across the lake and return to the mausoleum by the church.
+  Step into the swirling vortex and your magical Ring of
+  Illumination dispels the Shadow Bane.
+DIMENSION OF DEATH.
+  You start out in the extreme south and east part of the map.
+  Turn around and examine the five symbols above the portal
+  vortex. Draw them on a piece of paper just as they appear.
+  You'll need them later. Turn back around and save if you want
+  (a good idea starting a new level.) Get out your sword. Ahead
+  in the dark is an archer skeleton on each side.
+  Step forward into the dark. You automatically encounter the
+  skeletons. Rush forward and turn to each skeleton to kill it.
+  Pick up potions, crystals, coins, etc. If you accidentally
+  pick up a broadsword, it's weaker than yours. Click it on your
+  Sword of the Lake to get it back. Notice the two pedestals,
+  with flames, on each side of the main walkway.
+  Facing the big metal doors, go left around the building. Just
+  west of the building is a pedestal with a spinning object over
+  it. Click the game arrow cursor on the pedestal to read it.
+  Then take the spinning object; Lever of Life. At each of the
+  two pedestals with flames, on each side of the main blue path,
+  insert the Lever of Life and walk against it to turn off the
+  pedestal flame.
+  As the fourth pedestal is turned off, lasers throw a fireball
+  against the doors and they open. Enter the building to a
+  floating tile puzzle. (Get out the drawing you made of the
+  five symbols over the portal door.) In third person view, turn
+  right and jump 3 times to the far end of the platform. Turn
+  left and you should see the first symbol, like a strange
+  pitchfork.
+  Simply step forward to jump onto the tile. Turn around and
+  step onto the tile with a half circle and small full circle
+  inside of it. Turn right and step onto the tile with a circle
+  and dot. Turn right and step onto the tile with two back to
+  back half circles and a line between them. Talk with Lord
+  Azriel. You end up back at the front of the entry hall.
+  Head back north west past Azriel's altar where you got the
+  spinning object. In the NW corner, break one of the boxes to
+  get to the fallen warrior. Click on the warrior to get a piece
+  of his iron shield. Some of the boxes have mushrooms, etc.
+  Other boxes have skeleton guards to kill for experience
+  increase. Stay out of the red area, or else!
+  Explore the rest of the entry hall. There's some skeleton
+  guards, with useful items, on the east side. In the SE and SW
+  corners, read the flame pedestals for an experience increase.
+  Go to the gate at the hall's north end, between two pyramids.
+  Two skeletons are on the other side. Try to get them with your
+  crossbow. You've probably learned by now that you never run
+  out of bolts. Use Azriel's key on the gate.
+TIP: Anytime you see boxes and urns, smash them for useful items.
+If the urns are on a platform, shoot them with your bow, then
+jump up on the platform.
+  A third skeleton shoots from the distance. Kill it too. DO NOT
+  go east right now. Instead, go west and look for a switch on
+  the south (left) wall before the corner. Make sure the switch
+  is down. This disarms eight arrow spitting skull traps just
+  around the corner. Stay against the left wall as you go around
+  the corner and head south.
+  Shoot the urns on the platform, jump up and get all the items.
+  Flip down the switch while you're on the platform. This
+  disarms fire traps directly south at the end of the hall. Go
+  south to the wall and turn west. Continue against the left
+  wall to another obstruction as you go west. Get over or around
+  it and continue along the left wall to the far SW corner where
+  there's zombies and you should hear a crying child. For now,
+  kill the zombies.
+  Turn north and continue along the left wall. You enter a large
+  open area. Pick up any rocks you might see (you eventually
+  need 4.) There's a large metal crate in each corner and a
+  water fountain in the very center. There's four shrine
+  structures surrounding the fountain. Drink from the fountain
+  if your health is down. Read all inscriptions you come across.
+  Push each of the four metal crates in this fountain room till
+  a metal plate pops up from beneath each one and torches light
+  on nearby pedestals. Don't forget to pick up the rock near the
+  NW metal crate. Go to the fountain and click on the Sylph to
+  talk to her. Click on her till she mentions rust and mold for
+  a protection spell.
+  Go south to the passage just left of the tower ( look up to
+  see the tower.) Just inside the passage, there's a room full
+  of boxes to either side. Enter the left room, kill two
+  skeleton guards, and take any items they drop. Smash the boxes
+  for some items. Read the pedestal about a key to Creation.
+  Exit the room and go to the next room blocked by a metal
+  crate.
+  There's several ways of getting into the room. Make a running
+  jump over the crate, do a back step and flip over, or climb
+  the outside wall of the tower and climb down into the room.
+  Once there, break all the boxes for items. Talk and listen to
+  the child, then go push the metal crate so she can escape.
+  Exit the room, go north toward the fountain and go west to the
+  wall.
+  Stay against the west wall and go north and kill three
+  skeleton archers. Continue north to the River of Death (DON'T
+  step in the water!) SAVE GAME! Dip your piece of iron shield
+  in the water. Enter the south end of the boat house and talk
+  to the boatman.
+  Keep clicking him till he tells you about &quot;Judging the skulls
+  on the left&quot;,...&quot;Down Creation plus Completion equals All
+  Things.&quot; Turn around and exit the boat house. Turn slightly
+  left and carefully enter the open area with a pedestal and a
+  Weeper. Take it out with your crossbow from distant shots
+  (weepers draw life out of you.)
+  Read the pedestal about &quot;Seven holds the key....&quot; Exit the
+  room, get out your sword and continue east along the
+  riverbank. Kill all rising zombies and any other monsters. You
+  come to a wall blocking your eastward route along the river.
+  Turn south and stay against the left wall. Three skeletons are
+  just around the south corner.
+  Keep against the left wall and pass a spiked gate. Continue
+  east and take the second left into a room with many urns.
+  Shoot them all from a distance, then collect all the goodies.
+  Exit south to the wall and turn east. Go east to the wall and
+  turn south. Go south to the second left and pick up a rock. At
+  the east wall, go north to wall and turn right to a wall
+  switch and pull it down. This turns off fireball traps on the
+  other side and just north.
+  From the short corner, go south to the wall then east to the
+  wall. Turn south and take the next right and go west through a
+  narrow passage. Follow it upward and around to a tower with
+  glyphs of Lord Azriel. You're at the East Tower. Walk to the
+  tower until the climb arrow appears. Make sure your health is
+  up, change view if necessary to see Connor (hit F2), and make
+  sure you're in run mode. Now SAVE GAME!
+  On top, you can't kill the Commander Skeleton, you have to
+  force him over the edge. Climb the wall, then if you have a
+  square amber shield potion, drink it. Wait till the skeleton
+  comes near, then run around it. He's near the edge and is
+  easier to force him to his death. After the skeleton falls,
+  climb down and take the Chain Mail outfit.
+  Now your experience might be around 12 or 13, depending on how
+  much fighting you've done. Go back down the winding path. At
+  the bottom, turn right and head south. Five skeletons guard
+  the hallway and a key box. From a distance, kill them with
+  your crossbow if possible, then finish up with your sword if
+  necessary.
+  Pick up any useful items and get a square key from the box. Go
+  W to wall, S to wall, W to wall, S to wall, W to wall and
+  slightly south to a blue locked door in the south central area
+  of the map. Use your square key on the door and automatically
+  enter to see 6 skeletons fighting and wagering. Carefully back
+  out to the narrow doorway and rapid fire your crossbow. You
+  should be able to get all the skeletons. Finish with your
+  sword if necessary.
+  Pick up any valuables and particularly the circular gold key.
+  Exit, turn right and go due north up the corridor with a patch
+  of burning stuff. Approach the wounded man in the corner and
+  talk with him. He tells about a Hammer necessary to cross the
+  River of Death. Continue left around the corner and get the
+  rock nearby. Beware a Weeper around the next corner and shoot
+  it from a distance.
+  Continue north and east from the Weeper and down a passage
+  with fallen columns. Kill a skeleton and pick up the potion.
+  There's 2 archer skeletons farther north in the dark. Ease
+  forward and shoot them from a distance. Continue north and
+  follow the passage around the Central Tower. At the top, make
+  sure you can see Connor, then Quickly SAVE GAME!
+  There's a pressure plate on each of the four corners of the
+  tower and you have to depress them with something heavy.
+  Around the tower, zombies rise out of the ground. Try to lure
+  one onto a pressure plate before you kill it (you probably
+  don't have four rocks.) Then throw a rock onto each of the
+  other plates. When all four are depressed, four VERY important
+  portals are activated down at the Sylph fountain.
+  There's another rock nearby. Walk around the tower till the
+  climb arrow appears. Climb to the top and read the pedestal.
+  Walk west over the crossway. At the far side, get a rock just
+  north of the ramp. Cross back to the tower and climb down. Use
+  the rock if necessary.
+  When all four plates are depressed, go back down the winding
+  path and continue around the south area and work your way over
+  to the large west central area to the fountain. You might see
+  another rock along the short twisting south hallways. The four
+  shrine structures around the fountain now glow with swirling
+  portals to the Halls of Light hidden in the four corners.
+  Approach the northwest portal inscribed with &quot;Hall of
+  Respite.&quot; (Look up and right click on the plaque over the
+  portal to make sure.) Get out your crossbow and step through
+  the swirling portal. Step forward, turn left and shoot the
+  skeleton archers. Jump onto the lower block, then the taller
+  block. Make sure you see Connor, press F2 if necessary.
+  SAVE GAME! Be sure you're in walk mode (End toggles walk or
+  run) and carefully walk to the far edge of the tall block
+  (next to the small block.) Put away your weapon and switch to
+  run mode. Make a running jump across the river. Avoid the
+  deadly river and stand in front of the statue. Get the shield
+  potion from the statue. Look at the skull collection in the
+  left cabinet. On the bottom shelf, take the seventh skull from
+  the left.
+  Turn right and go to the column with a crack in it. Push the
+  column into the river. In third person view, use the fallen
+  column and make a running jump across the river. Exit the hall
+  through the portal. Approach the northeast portal, inscribed
+  with Hall of War. Make sure your red health meter is high. Get
+  out your crossbow and SAVE GAME! Step through the portal, turn
+  right and shoot the archer.
+  Go around the pedestal and shoot the archer on this side. Get
+  his coins. Cross the bridge by carefully walking on the right
+  side railing to the gap. Jump across and carefully continue to
+  the other side. Get the potion of strength from the anvil. See
+  if the skeleton dropped anything. Put your skull (from hall of
+  respite) on the headless statue.
+  Pick up the Feather of Truth, and Save again if you want. Go
+  back across the bridge railing and exit through the portal
+  *(you might need the game patch right here!) Go through the
+  southwest portal marked with Hall of Immortality. Pick up the
+  red potion of reveal and exit through the portal. Finally, go
+  through the southeast portal Hall of Justice.
+  Take the green potion of invisibility above the pedestal fire.
+  Put your feather of truth on the scale. Step forward to jump
+  on other scale side. The heart is healed and Lord Azriel
+  appears. Step forward to jump off the scale, and forward again
+  to exit the portal.
+  All the blood pools are now dried up. From the fountain area,
+  go west to the wall and stay against the left side as you go
+  north to the boat house. Continue east along the river to the
+  wall, turn south and bear left around the north central
+  structure, east past the gate and take next left. Go north to
+  riverbank and turn east. Watch out for skeletons, especially
+  high up on the walls.
+  Continue east to wall and turn south. Go south and take the
+  next right to a narrow passage and go through it. As Connor
+  turns the first corner in the narrow passage, he says &quot;Phew!
+  What's that moldy smell?&quot; Continue to the drained blood pool,
+  get all the mushrooms AND the lump of Green Mold! Return to
+  the fountain. Give Sylph the rusty shield piece. Give her the
+  green mold. You get a spell that increases your Armor rating.
+  From the fountain, go west to the wall, north to the wall turn
+  east and ready your crossbow. Slightly to the right, go down a
+  narrow passage past a broken column. Watch out for a Weeper
+  and get it before it gets you. At the double doors in this
+  narrow passage, use your circular gold key (from the skeleton
+  training area to the extreme south central area.)
+  Through the doors, ready your crossbow. There's a skeleton in
+  each of the six boxes and two more stand in the open. Kill all
+  skeletons and pick up all the useful items. There's large
+  doors west and a barred gate east. There's lots of switches on
+  the walls. They open gates and cells in the jail area.
+  Carefully do the following instructions:
+1-EAST WALL SWITCHES.
+  Flip down all four switches on the east wall. You now have
+  access to four blocks of cells, each block has four cells for
+  a total of sixteen. Go east through the open gates, shooting
+  from a distance and killing everything in each of the 8 cells
+  to the left and to the right. Just remember to keep your
+  distance. With all 16 cells taken care of, return west to the
+  switch room.
+2-WEST WALL SWITCHES.
+  These four switches direct power to each of the four blocks of
+  cells. You can only pull down one switch at a time. The first
+  switch should already be down, so go to the south wall.
+3-SOUTH WALL SWITCHES.
+  These four switches open each of the 4 individual cells in a
+  particular block. Pull all 4 down. Return to west wall.
+4-WEST WALL.
+  Pull second switch down. Return to south wall.
+5-SOUTH WALL.
+  Pull all four switches down. Return to west wall.
+6-WEST WALL.
+  Pull down the third switch. Return to south wall.
+7-SOUTH WALL.
+  Pull all four switches down. Return to west wall.
+8-WEST WALL.
+  Pull down the fourth switch. Return to south wall.
+9-SOUTH WALL.
+  Pull down all four switches.
+  Now all 16 cells should be open. Get everything from each
+  cell. In the last cell on the east end and on the left (north)
+  side, pull the lever to open the main northern exit. For now
+  though, return west to the switch room.
+SWITCH ROOM.
+  Ready your crossbow. Face the west double doors and drink a
+  red Potion of Reveal. The doors are an illusion. Get close
+  enough to see the huge Egyptian Skeleton and fire away to kill
+  it before going through the fake door. Watch the wandering
+  Spirits and notice their patrolling pattern. Put away your
+  weapon, approach the platform steps and SAVE GAME!
+  Do a careful walking jump onto the front edge of the main
+  platform, but not into the spirit' path. Switch to run mode.
+  Time your run and jump past the spirits onto the center
+  platform. Your health will be depleted. Drink only Sacred
+  Water to heal! Third from left in inventory. Now take the
+  hammer and the spirits leave.
+  Go back through the illusion door to the switch room. Exit the
+  switch room to the north and turn right. Take the first left
+  and follow the path around this Northwest Tower. You have to
+  climb twice to reach the top. Get four healing crystals and a
+  red Potion of Reveal. You need the reveal potion much later in
+  a frozen region, so don't use it until then.
+  Climb down twice, go down the incline and return to the large
+  open fountain area. Get against the east wall, go south and
+  take the first left (east.) Turn south again and take the
+  first left. Turn north and take the next right. Turn south and
+  pick up another rock. Since you're just south of the central
+  tower, go up around it and pick up the rocks you left there.
+  Return to the north central structure. Make sure you're in
+  full health and your sword is ready. SAVE GAME! As you go
+  through the gate, a main skeleton talks the sends his squad
+  after you. Back away and make the skeletons come after you,
+  and shoot to kill. Then switch to your sword and drink a
+  shield potion if you have it. Rush forward and kill the main
+  skeleton. Pick up all useful items AND the double-edged sword.
+  Go left of the steps and look across the river at a lever.
+  Throw your hammer to trip the lever and lower a bridge. Cross
+  the bridge and go through the portal to the swamp.
+THE SWAMP.
+SAVE GAME! Be cautious of Swamp Bubbles-they're deadly underwater
+creatures. When you see hear or see them, throw your hammer at
+them till you see a dying tentacle. A Swamp Slimes are light
+brown four legged super water spiders. Swamp Fiends are big
+goonie creatures carrying big sticks. Avoid toxic green patches
+of water.
+  From where you arrive, go west and very slightly right as you
+  approach land. Find a big trunked tree against the hill. The
+  tree is the Oracle of the Tree. Talk to it and give it gold
+  when it asks. Keep giving it gold (10 times I think) till it
+  has no more to say. You get several boosts for your green
+  experience. From the Oracle, go southwest and through a narrow
+  area to a couple of swamp shacks. Enter the left shack. In the
+  left corner, open the trunk and take the gold. In the other
+  corner on the shelf, take the metal gloves.
+  Exit and go to the other boarded up shack. Smash the entrance
+  and go inside. Open a chest for some gold. Smash the inner
+  door, enter and get the white Hearing Horn. Get gold from
+  another chest. Exit the shack and go northeast back to the
+  Oracle tree, then go southeast towards the Whispering Weeds
+  (looks like people standing around.)
+  Take one step at a time till you get close enough to hear loud
+  whispering. Get too close and they go under water. Use your
+  Hearing Horn on them to hear about a Mask piece. Go north and
+  northeast to a cove with giant mushrooms. Get all small
+  mushrooms you can. In the back of the cove, get a piece of the
+  Golden Mushroom with your sword.
+  It's an ingredient for the Permanent Spell of Might. Exit the
+  cove, go north then northeast to a grove of dangerous
+  Mandragor Trees. Each one has two protective upright roots. Go
+  around the left side to the back of the cove. You'll see a
+  corpse hanging from a root. You HAVE get that Crossbow. SAVE
+  GAME! Rush in and take it and get away before suffering too
+  much damage.
+  To fight a Mandragor, use your sword to cut one of it's roots,
+  rush in and slice up the tree.
+  Exit the grove of trees and stay to your right against the
+  hill avoiding toxic water. As you go northwest along the hill,
+  you'll eventually notice a scaffold building surrounded by
+  toxic water. In the building is a teleporter. Forget it right
+  now and stay to the right as you round the cliff in a
+  northerly direction. Make sure your armed with the sword.
+  You'll start to see Wisps, snake like plants sticking up. Get
+  too close and they strike. Stay close to the cliff and cut the
+  ones too close for you to safely pass. To do this, squarely
+  face one from a distance, take a step and slash, take another
+  step and slash. Do this slash and step till you safely cut the
+  Wisp off. Continue to a far northwest cove where you see
+  sparkling patches of floating light.
+  Get close and talk to the Swamp Wisps. They ask for a secret
+  in return for cure of poisonous water. Click them again and
+  Connor tells about the secret from the Whispering Weeds. Click
+  the Wisps yet again to see a magic flower and learn of a
+  Golden Ladle to cleanse the waters. Take the flower and Connor
+  eats it. Now you're protected from poisonous waters.
+  Go all the way back toward the whispering weeds in the extreme
+  southeast, then go to the extreme south of the map to the
+  Swamp Witch's Tower, ready your sword and make sure your
+  health is high. SAVE GAME! Go around to the south side where
+  the Witch awaits. Use a square potion of Shield, horn potion
+  of Strength, then rush in and kill the Witch.
+  Approach the blocked door and look through to see hanging
+  sandbags. Use your crossbow on them and the door will open. Go
+  inside and enter the left room. Get any rocks you see. Go into
+  the right room with a dead Goblin on a table. Get the Unicorn
+  horn from its chest. Click the cauldron and watch a movie of
+  Henchmen being made.
+  Click the book on the pedestal. Click on the cauldron again.
+  Go to the foot of the upward ramp and stop. Click the holes on
+  the right-hand wall. Click on the bloodstains on the ramp. As
+  you slowly climb, click your sword on each hole to trip arrow
+  traps. Check out the second floor and break things to find a
+  large assortment of useful items.
+  Go outside to the balcony and pick up all health items. At the
+  edge of the spike trap at the bottom of the ramp, throw a rock
+  onto the trap to spring it. Go up the ramp to the third floor.
+  Go up the East ramp and get a full suit of Chain Mail. Go up
+  the west ramp, ready your sword and SAVE GAME! Open the chest
+  and get the second piece of the Mask.
+  Another Henchman appears. Rush forward and kill him. You
+  automatically cut off his hand. Pick it up and go back down
+  the ramps and exit the tower. Cross the swamp to the northwest
+  till you reach the tall scaffolding structure in the west-
+  central area of the map. Climb the wall side, then climb again
+  to reach the top. Cross the bridge to the gate.
+  Click on the hand print and realize your hand is too small.
+  Use the Henchman's hand on the print. Connor walks forward to
+  some stone columns and stumps.
+..........X.finish
+O.O.*.O.O.O.O
+O.*.O.O.O.O.O
+.*.O.O.*.O.O.O
+O.*..*.O.*..*..O
+O.O.O.OO.*..O
+O.O.OO.*.O..O
+...........X.start....
+SAVE GAME, and every time you make a correct jump! Where you
+arrived, follow the stars: ne2, n1, w1, nw1,sw1,w1,nw1, ne3.
+Safely across, you automatically enter the Swamp Witch's secret
+vault. Two Swamp Fiends attack, one from each side. Kill them,
+and get a Golden Ladle from the chest.
+  Pull the 2 chain handles to open a switch box by the door.
+  Pull the switch in the box. This opens the gate and disarms
+  the grid's charges. Go straight across to the other side. You
+  automatically walk out onto the bridge. Climb down the
+  building and return to the Witch's Tower in the extreme
+  southeast of the map.
+  At the cauldron on the first floor, use the Golden Ladle to
+  purify the swamp's water. Connor talks to Mudge, snail King of
+  the swamp. He creates a whirlpool. DO NOT GO NEAR IT, yet! Go
+  to the Teleport Tower in the northwest area of your map (the
+  gold star) and careful of any carnivorous plants there.
+  Climb the tower and stand on the swirling circle. At the lower
+  left of your map, scroll to The Kingdom of Daventry. Then
+  click the lower right teleport icon to go there. Just east of
+  where you arrive, go east to the Unicorn-beast, at the foul
+  pool, and give it the unicorn horn. You get a small dark
+  crystal pyramid in return.
+  Go to the brown Kavanagh house in the extreme west northern
+  area of the map. Inside, talk to Gwennie and get the gold she
+  offers. Then talk to her again. Go back to the teleporter in
+  Castle Keep and teleport back to the Swamp. Climb down the
+  teleporter tower, return to the Witch's Tower in the extreme
+  SE and step into the whirlpool in back to teleport to the
+  Underground Realm of the Gnomes.
+UNDERGROUND REALM OF THE GNOMES.
+SAVE! Rock Demons rise out of the floors, Bat Mantas drop from
+the ceilings, and Zombies roam the halls. You arrive in an entry
+hall. Look for a rock and health items. Pick mushrooms and break
+barrels. Get ready to use your hand weapon. Throw a rock onto the
+pressure plate to open the main door. Watch out for a Bat Manta
+on the other side.
+  Enter and kill the bat. From the main door, go due east and
+  kill a rock demon around the first corner. Bust barrels, get
+  health items and any rocks. Hear that digging? At the dead
+  end, speak to the Gnome and pick up a rock. Exit and go back
+  past the main door heading due west. Take the first left
+  (south) and go down a slope (kill a bat) that angles back east
+  under the entry hall.
+  Continue zig zagging east to a dead end and talk to another
+  Gnome. Go through a door to your right going south. Buy the
+  best armor you can afford; yellow bronze breastplate 350, or a
+  lesser plate mail for 250. To purchase, put on the item and
+  give coins to the merchant. Exit the armor shop and go left.
+  Go north at the first right.
+  Continue on to a ramp but don't go up yet. Kill a hopping
+  Spriggan and get it's gold. Get the rock. Go clockwise around
+  the open shaft under the ramp. Go under the ramp to find lots
+  of useful things. Go back around the shaft and continue up the
+  ramp. At the top, go west and bust a Rock Demon and 2 Bats.
+  Continue west along the twisting corridor and kill two more
+  Spriggans. Take their gold and potions. Enter the first
+  corridor right.
+  Go down the stairs and head east. Alert! When you turn north
+  at the end, kill a bunch of Zombies. Cross the bridge,
+  continue north and talk to the Old Man. You learn about a
+  Light of Life. Use your weapon to cut off and get a piece from
+  next to the old man. Pick up an Elixir of Life from the floor
+  nearby. Go back across the bridge.
+  At the steps, you have to jump up the higher ones. At the top
+  go right and keep right when you have the choice of direction.
+  Kill a Stone Beast and 3 Zombies. You arrive at an open pit.
+  SAVE GAME! Run/jump over the pit, then SAVE again! Go along
+  the corridor to a room guarded by a Rock Beast and some Bats;
+  kill them.
+  There's Amber-Glow on the wall. Use your sword to get some. Go
+  back to the pit and SAVE before you run/jump back across. Then
+  take the first corridor going north to a Teleporter but DON'T
+  use it just yet. Go back to the main door area (work your way
+  south, then west, down twisting stairs then due west and up
+  the ramp) where you arrived in the extreme south central area.
+  At the top of the ramp, go west continuing past the opening
+  with pressure plates to your right. Continue west and kill a
+  Rock Beast outside a door. Enter the weapon shop in this
+  extreme SW area. From left to right; heavy crossbow 300, small
+  bow 200, war hammer 400. Buy the best, most costly, leaving
+  yourself at least 250-275. If you can get the heavy bow and
+  the hammer, without going below 250-275, you'll be a mighty
+  foe.
+  Exit the shop and arm yourself. Zig zag east along the
+  corridor. Take the first left and kill Bats. Three pressure
+  plates control the turning bridge. Throw a rock on the left
+  plate to rotate the bridge. Throw a rock onto each of the
+  other 2 plates to lower the ramps, then cross the bridge.
+  Follow the corridor and take the first left leading down,
+  around and under, kill a Rock Beast and a Bat.
+  There's lots of items for sale here, but you SHOULD already
+  have plenty of crystals and potions. Just in case though, the
+  prices are: shield potion 75, invisibility 100, strength 50,
+  mushrooms-3 gold each, crystals 20. Click the statue on the
+  right to learn it's the Essence of Sun Tsu, a strength
+  enhancer. REMEMBER, you need at least 250 gold later.
+  Exit the shop and go up the ramp. Turn left and go to the
+  padlocked door. Use a hand weapon to break the lock, then take
+  it. Ready your weapon, open the doors and kill a Spriggan.
+  Take the gold and continue north. Take the first left, kill 2
+  bats and continue west. Hear the rumbling? SAVE! One at a
+  time, time you run through the boulders. Beware of a Rock
+  Beast at the end of the corridor. Go through the door at the
+  end.
+  Approach and talk to the Gnome Sage to learn his machine needs
+  a new lodestone. Exit and go back through the boulders. Go out
+  to the north south corridor and go north. At the next
+  intersection, beware 5 or 6 Bats. Then go west and down a ramp
+  to kill a Stone Beast and get a potion. Continue the corridor
+  and kill another Stone Beast.
+  Take the first right to a big empty room. Look up to see a
+  cliff wall. Maneuver to see the yellow climb arrow appear and
+  use your grappling hook to climb. At the next intersection, go
+  left to kill several bats and continue to another room. Cut
+  off a piece of tree root, pick it up and exit the room. Go
+  back to the intersection and turn right.
+  Slowly approach the edge, use your grappling hook and climb
+  back down. Continue south and go east. Go up a winding ramp
+  and go east to the central area and a brick wall blocking an
+  opening. Continue east up slope, if you have at least 2 shield
+  potions, use one then kill 2 Rock Beasts. Go south to another
+  wall and climb up.
+  Follow the passage to a room with a large boulder and a hole
+  in the floor. Push the boulder through the hole, then jump
+  down after it. Push the boulder around a circular corridor.
+  When you reach the down ramp, you automatically push it down.
+  The boulder breaks through the brick wall. Go through the
+  busted wall and enter a new area, but not too far!
+  Use your crystal piece (from old man at fire) on the purple
+  wall receptacle to light all lamps in this area. Ready your
+  hand weapon and SAVE! Continue down the corridor to the Dragon
+  Wyrm's Lair. Use a Shield AND Strength potion. Rush forward
+  and kill the Dragon Wyrm. Get the Black Diamond Heart and
+  someone briefly appears. Enter the next room.
+  Click the purple diamond switch on the right side to watch a
+  message. Hector tells Connor about the mask being betrayed.
+  When the bright crystal pyramid is offered, take it from the
+  top of the pedestal. Put the dark purple pyramid (from the
+  unicorn in Daventry) on top of the pedestal. Click the diamond
+  switch again for another message.
+  Retrieve the dark crystal, then take the lodestone from the
+  pedestal. Go back to the Gnome Sage in the extreme west
+  central area of the map. Give the lodestone to the Sage. Open
+  you map and scroll it to see the Barren Region is blank thus
+  far. To return to the Apothecary (red cross on the Underground
+  map), pass the rolling boulders, to the wall, turn south and
+  go to the first right. Go down, around and under. Give the
+  Amberglow, Tree root, and Iron lock. If you have at least 250
+  gold, click your coin icon on the Sun Tsu statue to get an
+  increase in you armor rating. Put any change back into
+  inventory.
+  Exit and go up, around and south across the bridge. Return to
+  the teleporter room (the star in east central area.) Go to the
+  south central area of the map, go down, around and under. Zig
+  zag east, take first north (left), go up and around the open
+  shaft. Go on north to the teleporter (star) on the map. SAVE!
+  Step onto the teleporter, open your map to the Barren Region
+  and teleport.
+THE BARREN REGION.
+  Quickly back up to the cliff and ready your crossbow. Start
+  picking off the fire ants with rapid shooting till their
+  numbers are considerably reduced. Then carefully go west,
+  picking mushrooms along the way. Watch out for Pyro Demons
+  rising in the lava river to the north. Continue west and cross
+  the bridge. Follow the path north to a couple of huts and
+  enter the east one. This is a weapon shop.
+  The super battle axe costs 500. Buy it if you have enough. The
+  long range weapons aren't any better than the one from the
+  Gnome Weapon Shop if you already have it. You learn of a
+  Basilisk and a weapon that can be made to kill it. You should
+  already have a black diamond heart. Now you need a good metal
+  shaft.
+  Exit and go to the west hut. Talk to the shaman woman. You
+  should already have enough healing potions and crystals. Exit
+  and go around behind the hut. Go up a path due west between
+  two pillars. Climb into the fortress and cross the footbridge.
+  The guards ignore you. Talk to the creature blowing the BIG
+  horn. You learn of the disappearance of the Stone of Order.
+  Enter the shop next door and talk to the blacksmith.
+  Exit the Sanctuary and go down the hill. Go north west along
+  lava, to the right of the sanctuary hill, and arrive at a
+  broken stone block bridge where stone blocks rise up. When you
+  step on a correct block, it stays put. Stay too long on an
+  intermediate block and it sinks.
+O....2.......finish.....6...O
+O...O...O...O...O...O...3
+5....O...O...O...7....O...O
+O...O...1....O...O...O...O
+O...O...O...O...O....4...O
+................start...............
+Jump n, nw. 1 safe. Jump nw, n, n. 2 safe. Jump se, e, e, e, e. 3
+safe. Jump sw, s, s. 4 safe. Jump w, w, w, nw, nw. 5 safe. Jump
+ne, e, e, e, ne. 6 safe. Jump s, sw. 7 safe.
+  Metal blocks line up between the two sides. Jump across the
+  blocks to the north side.
+  Watch out for 2 fire ants. You'll see one right away and
+  another as you continue. Listen carefully for it. Avoid the
+  lava geysers and go due north east along the left hill, then
+  turn north up an incline. Continue north and go up a ramp to a
+  stone pyramid. At the very top, take the fire gem from the
+  stone altar. You automatically speak with an Archon.
+  Go back south into the lava geyser field, go due east and
+  continue through a mountain pass down to the river and some
+  disconnected stone bridge sections. Ready your ranged weapon
+  and SAVE GAME! Several pairs of Pyro Demons are in the lava
+  lake. Cross the series of stone sections to the tall building.
+  SAVE after each successful jump.
+  Go to the structure; DO NOT jump the last 3 sections east
+  unless you want to fight an army of Pyro Demons. Climb the
+  building with your grappling hook. At the top, step forward
+  onto the inscribed platform and get out your crossbow. You
+  have to shoot the 7 gongs in the correct order; red, orange,
+  yellow, green, light blue, dark blue, and purple.
+  Of course, you won't know the color until you shoot a gong!
+  Just do the following:
+Number the gongs left to right 1-7 (1-3 on your left, 4 directly
+ahead, and 5-7 coming back toward you, on the right.) Shoot the
+gongs in this order: 4, 2, 7, 5, 1, 3, 6. After the bridge is
+fully extended, you go on across. Take the stone of Order and
+return to the fortress on the hill above the village igloos.
+  Next to the creature with the horn, place the Stone of Order
+  on the pedestal. Go into the blacksmith shop and get a strong
+  metal shaft. Go down the hill to the weapon shop. Give the
+  metal shaft and the black diamond to the shop owner. Give him
+  10 gold coins, and you get a powerful Black Diamond Pike. Exit
+  the village and head south.
+  Go across the bridge and continue to the far south central
+  area of the map toward the Basilisk Lair. Go west up the slope
+  that leads behind the Basilisk. Bear left (south east) through
+  a pass and to some stone blocks in the lava. You have to jump
+  from one block to another to reach the other side. Work you
+  way to the highest block, then run/jump to the back of the
+  cliff.
+  Climb the cliff and ready your diamond pike. Step forward and
+  Connor jumps onto the Basilisk and kills it with the pike.
+  Ready a ranged weapon; Pyro Demons could appear! Nearby, cross
+  the bridge. Go around the right side of the Temple and climb
+  the wall with your grappling hook. At the top. Approach the
+  hole in the roof, and use your grappling hook to climb down
+  the hole.
+  Click on the dead Fire Dwarf and pick up a granite key. Click
+  the square wall panel to get a bottle of Sacred Water. Look up
+  at the series of four symbols repeated around the wall. Each
+  symbol appears on each of the four pressure plates around the
+  sarcophagus in the middle of the room. Have Connor walk</span><span id="faqspan-2">
+  against the pressure plates in the following order: crescent,
+  triangle, circle, square. The door will open. Take the long-
+  sword off the sarcophagus.
+  Go through the open door and turn right. Get a bottle of
+  Sacred Water behind the square wall panel. Turn around and get
+  the full suit of armor for a big armor increase. Return to the
+  wall near the dead Dwarf and climb with your hook. From the
+  roof, climb down the outside wall and return to the Basilisk.
+  Use your sword to cut off its tongue, and pick it up.
+  Go past the right side of the Basilisk and start uphill. Head
+  back over the ridge behind the lair. This time, go right at
+  the fork. Work your way north, then west until you find a dead
+  tree near a narrow strip of land between the lava lakes. Ready
+  your crossbow, a couple of Pyro Demons hide nearby. Cross the
+  narrow strip of land, turn left and head south.
+  Continue south, staying close to the cliffs, until you find 2
+  Fire Dwarves guarding an entrance to their underground lair.
+  Kill the guards and get their gold, potions, and the Super
+  Fire Arrows. Turn around and go forward to the lava lake, and
+  kill another Pyro Demon for a combat boost. Find a lock in the
+  rock wall.
+  Use your granite key (from dead dwarf in temple) to open the
+  door and enter the lair. Follow the walkway, eliminating
+  guards as you go and get their potions. At the end, you should
+  find 3 buttons on the north wall. Shoot the buttons to extend
+  three ramps. Cross the leftmost ramp and flip a lever to
+  release Freesa the Snow Queen.
+  She opens a secret door, then leaves. In the leftmost cell,
+  get a pipe cap from the floor. Ready your sword, go through
+  the secret door and kill the Fire Dwarf. Get the potion.
+  Examine the wall safe. Click the panels in the same order as
+  at the temple sarcophagus. Get another pipe cap. Exit out to
+  the 3 ramps and cross the middle one.
+  In the chest is another mask piece and you have to kill
+  another Henchman. Get 3 potions from the floor. Exit and cross
+  the rightmost ramp. In the back of the room is another Fire
+  Dwarf to kill. Pick up any useful items dropped. Put a cap on
+  JUST ONE of the steam pipes and step on the platform. Use your
+  bow to shoot the button on the far wall and ride up.
+  Step off and get a crystal scepter and a red reveal potion.
+  Get on the elevator and shoot the button again to ride down.
+  Put a cap on the other pipe, get on the platform and shoot the
+  button a final time to go to the frozen reaches.
+FROZEN REACHES.
+  Enter the palace and talk to Queen Freesa wearing the crown.
+  She fills you in on the situation and gives you permission to
+  fly on her crystal dragon. Give the crystal scepter to the
+  queen but she says, &quot;You need it more than I do.&quot; Exit the
+  palace and follow the icy path due east to the Crystal
+  Dragon's Pen. Use the crystal scepter on the dragon.
+  She explains she can't fly until the door is open. A broken
+  pull chain lies on the floor. Look up to see a segment of
+  chain hanging from the ceiling. Push the ice block till it's
+  under the piece of ceiling chain. Stand facing the block but
+  careful not to bump it anymore. Turn around to face away from
+  it and take a couple of steps.
+  You're about to attempt a back flip onto the block of slippery
+  ice. You get more height than a forward run/jump! Hold the
+  back arrow and immediately hit Insert, then let up both. You
+  don't want to slide off the block. When you're finally on the
+  ice block, pull the chain segment to open the gate. Jump down
+  and use the crystal scepter again on the dragon and you're
+  off.
+FROZEN REACHES: Northern Shore.
+  After you arrive, SAVE! Ready your bow and go NW up the path.
+  As soon as you see a Frost Demon, start firing away and 5 of
+  the beasts come at you. Keep rapid firing to kill them and
+  back away if necessary. Frost Demons are relatively slow but
+  lethal closeup. Killing each one gives you a slight experience
+  boost.
+  Continue up the path, bearing right along the cliff. Continue
+  uphill and east through a narrow black pass. Turn left and
+  start running up the steep incline. Keep running to a Y
+  intersection and go left into a narrow pass. Turn around and
+  ease back one step at a time till you see 2 bowman on a black
+  ramp.
+  Ease forward a step at a time till your shots start hitting
+  them. Keep rapid firing to kill both guards and you should
+  suffer very little damage. Go up the ramp and get one of the
+  Ice Crossbows. Pick up the potions. Approach the tower wall
+  and use your grappling hook to climb. Go to the opposite
+  balcony, turn around and pull the lever.
+  Jump into the open trapdoor. Break each barrel and maneuver
+  around to make sure you get everything. Open the chest and get
+  four horn strength potions. Pull a lever to open the main
+  door. Exit and go left back around front. Go north down the
+  ramp. At the crossroad, follow the path due east. Up ahead is
+  a large group of Frost Demons.
+  Rapid fire to kill them, backing up when they start getting
+  close. With all the Frost Demons out of the way, ready your
+  sword and continue northeast up the main trail till you start
+  to hear something snoring. Just ahead is an invisible Snow
+  Mane. Drink a red Reveal, an amber Shield, and a horn of
+  Strength. Rush forward and kill the beast. Go to the frozen
+  pond ahead. Step onto the pond to realize the ice is thin.
+  Throw a rock onto the ice. Pick up the rock and throw it
+  again. Do this till the ice shatters and the rock sinks. Use
+  your Fire Gem (from Barren Region) on the pond. From the edge,
+  avoid the water and take the Flame Sword. Go back down toward
+  the east watchtower (where you got your ice bow) and continue
+  south. Turn west (right) at the first fork and go through a
+  narrow V-shaped crevice in the mountain.
+  Follow the path as it bears south through another narrow
+  crevice to another trail. Turn hard right and head north up a
+  very steep trail. Watch out for another group of Frost Demons.
+  You come to a mountain lake. The water is DEADLY cold. Two Ice
+  Orcs stand guard on the other side. It's possible to kill them
+  from the south side of the lake.
+  Slightly southeast of the lake is a guard house. Go inside of
+  it and get 4 items from each of the two barrels. Exit and go
+  forward to the lakeshore. Careful of the water, stay against
+  the cliff, and go around the right side. Get two potions near
+  the dead Orcs you shot. Go around to the backside of the
+  stronghold and climb the wall with your grappling hook.
+  Go to the grate on the roof to start an automatic scene. Then
+  continue forward into the jail area and turn left. Talk to an
+  imprisoned Gryph King. Turn around and stand at the lever near
+  the chair and maneuver so that you can see the chair. Pull the
+  lever to see the chair rise and the resulting electricity.
+  Go to the small balcony in front and the scene changes to an
+  overhead view. Walk forward and you automatically jump the
+  guard and kill him. Pick up a potion and the jail key. Go
+  around back and climb the wall again. Unlock the cell to free
+  the Gryph King. Ready your sword and go out on the room and
+  fall through the grate with another guard.
+  Drink a Shield and a Strength potion and kill Thork. In the
+  chest in a corner, get the Deciphering Amulet. Get the ice
+  shard on the floor. Look in the barred room to see a chest and
+  a frozen Henchman. Look at the slot by the door and realize,
+  &quot;Could be a locking device. Perhaps something fits there.&quot;
+  Open the front door and Connor tries to walk out but nearly
+  trips on the door gap. Press F2 if necessary to see Connor and
+  the doorway at the same time. Put the ice shard in the door
+  gap, then use the flame sword to melt it. Use your ice bow to
+  re-freeze it, then pick up your new ice lever. Back inside at
+  the barred door, use the ice lever on the door slot. Enter the
+  room and you automatically break the frozen Henchman and get
+  the fourth mask piece from the chest. The Henchman reforms so
+  kill him again, drink potions if necessary. Exit the
+  Stronghold, go around the left side of the cold lake,
+  returning south to the crystal dragon.
+  Ride the dragon back across the lake. From the dragon's pen,
+  go south and west past the Snow Palace and a teleporter on
+  your left. Continue northwest up a steep trail to the Gryph
+  Cave and go right on past the Gryph guards. Talk to the King
+  and he gives you a Blue Adamant. Return to the dragon and fly
+  across the lake again.
+  Return to the far north central area on the map and climb the
+  back wall of the Stronghold again. Now to use the 3
+  ingredients to make the Permanent Spell of Might. Put the Blue
+  Adamant, Basilisk tongue, and slice of gold mushroom in the
+  chair. Pull the lever for electricity and get the spell.
+  Notice the increase in your weapon and armor points.
+  Use your grappling hook to climb down the back of the
+  Stronghold. On the west side of the Stronghold, go through the
+  V shaped crevice and kill 2 Ice Orcs. Follow the curving trail
+  south and kill some more Orcs. Continue south until the West
+  Watchtower appears on your right. Kill the two Orcs on guard
+  there.
+  Go around the right side of the tower and use your ice bow to
+  kill the Frost Beast below the cliff. There's nothing on the
+  roof here so enter the tower, bust the barrels and pick up
+  everything. Exit the tower and go down due south and take the
+  first right. Stay against the right cliff and follow it
+  northwest (kill an Ice Beast) and go to the pillar.
+  Use your Deciphering Amulet to read the pillar, &quot;Only a blade
+  of fire can sever the heads of the Drake.&quot; Ready your bow and
+  continue north up the trail. Kill 7 more beasts. Continue
+  north to the huge structure and look up to see a two headed
+  drake. Climb with your grappling hook. At the top, ready your
+  Flame Sword and SAVE!
+  Jump up the ledge, get close to the drake and cut off both
+  heads. After killing the Drake, jump down the hole behind it.
+  You should have 4 pieces of the mask at this point. Go down
+  the tunnel and you're asked if you want to go to a new region.
+  Since you have 4 mask pieces, choose Yes.
+PARADISE.
+  Go to the altar in the middle of a stonehenge structure. Click
+  on the altar to notice &quot;a depression&quot; on top. Put your bright
+  Crystal Pyramid in the depression and an Archon appears. Since
+  you have the 4 mask pieces, you're transported.
+REALM OF THE SUN.
+  Level 1: Truth. SAVE! Exit the room and ready your sword.
+  Break all urns you see. Go south and enter the room of water.
+  Kill the Water Snake. There might also be a Shadow Demon.
+  Notice the dripping water. Look up to see an opening. Go to
+  the far wall and climb with your grappling hook. Bust the urn,
+  look down and take the Mask Medallion.
+  Climb back down and watch out for a Shadow Demon. Exit and
+  turn north. There's Henchmen and other manner of beasts around
+  the hallways. Go north from the water room and take the first
+  left. Go west all the way to a room at the end and kill 2
+  Henchmen. Open the south and the west wall panels for potions.
+  In some areas, stepping on certain sections of the floors
+  cause Shadow Demons to rise out of the floor. The sections
+  have very faint discolored outlines.
+  Exit the room to the north and work your way along, hugging
+  the left wall until you get to a room full of several statues.
+  Take the Tablet of Knowledge from the altar. Right click it in
+  inventory to realize it's &quot;void of its precepts.&quot; Listen to
+  some of the thoughts of the statues. Now you have to go to the
+  northeast to the big gold doors:
+Exit N to wall, E to wall, N to wall, E to wall, S to wall, E to
+wall, S to room, go east and take the second north and go through
+the room. Enter a large room with a central block. There's an
+Archon in the NW corner, leave him alone. Open all 8 panels
+around the block and get the potions. Approach the Archon and
+talk to him. He opens the doors.
+  Enter the Hall of Truth and enter the first room on your left.
+  Walk off the edge straight at the monster. Get the Key of
+  Truth. Exit south from the hall and continue south through the
+  room with 8 panels, carefully just entering the next room. 3
+  floor panels release Shadow Demons. Turn left, hug the left
+  wall, and go to the gold door on the left.
+  Use your Key of Truth to open the door. Enter and take a Sword
+  and Shield of Truth from the altar to start an automatic
+  scene. Your tablet is inscribed with the Precept of Truth. Now
+  for the extreme northwest: exit, go north to 8 panel room and
+  go around left of center block, take first left. Watch out for
+  loose floor panels. Go W, N, W, N, W, N, W, N.
+  As you approach the gold doors, you're asked &quot;What is the
+  power of truth?&quot; Use your Tablet of Knowledge on the door.
+  Before continuing, turn around and open a secret panel on your
+  right and get a potion. Now, go through the door.
+Level 2: Light.
+  SAVE! This level has several Henchmen. Go north to the room
+  and exit it on your left. Go W to wall, N to wall, W to wall
+  and turn north. Take the next left to a room with a center
+  block that has 3 urns in alcoves and a secret panel on the
+  west side. Bust the urns for potions and open the secret panel
+  for another.
+  There's an unlit candle on the south end of the central block
+  (sometimes it's in the northeast exit of this room.) Find that
+  unlit candle and pull it down. This opens a passage in the
+  room directly south. From the urn room, take the southeast
+  exit to wall, S to wall, turn east and take first right. Go
+  south and take next right. Enter the room for an automatic
+  scene where Connor finds the final mask piece.
+  As you leave the room, Henchmen are in the way. Kill them. In
+  the hallway, go N to wall, E to wall, S to wall, E to wall.
+  Zig zag north and take first right. Go east and take first
+  left. Kill some Henchmen on the way and enter a large room in
+  the NE of the map. There's an automatic scene of a Henchman
+  coming out of a cauldron.
+  Use your Mask Medallion (from level 1 water room) to change
+  the cauldron into a Healing Well. If your health is down,
+  drink till it is fully restored. Exit the room and S to wall,
+  W to wall, S to wall, E to wall, zig zag south to an Archon
+  outside a gold door. Click the Archon and listen to him. Enter
+  the Hall of Light.
+  Push the book pedestal to the center of the circle of light.
+  When you're close, you automatically push it to the very
+  center and the Key of Light appears. Take the key, turn around
+  and exit the hall. Continue north and zig zag north to wall, W
+  to wall, zig zag south to wall, W to wall, N to wall, turn
+  west and take next right to another gold door.
+  Use your Key of Light to unlock the door. Enter and take the
+  Armor of light. A new precept is inscribed on your tablet.
+  Exit the room and ready your sword. In the hallway, go east,
+  south, east and zig zag north and straight north to wall. Go
+  west to wall and turn north. Approach the door and you're
+  asked &quot;How gainest thou the Light?&quot; Use your tablet on the
+  door to open it. Enter the next level.
+Level 3: Order.
+  No monsters are in the hallways. Go north then east to a room
+  with a center block. On the east side of the room is a gold
+  urn. Push (or click) on it to open a wall panel. Get the
+  potion. Leave the room at the north exit, busting urns as you
+  go E to wall, N to wall, E to wall, turn north and take next
+  right. Bear left through the room and talk to the Archon.
+  Enter the Hall of Order. This puzzle requires Connor to push
+  the large gold blocks to form the Mask of Eternity image. Hit
+  F2 if necessary, to see Connor. Use the tilt up or tilt down
+  keys to see the top of the blocks. The Mask icon at the top
+  left of the screen (move your cursor there) is what the blocks
+  should eventually show. The completed image has to be centered
+  on the inner black outline on the floor.
+  When the doors open, enter the north room and take the Key of
+  Order from the altar. Exit the Hall of Order and ready your
+  weapon. Bust all urns on you way. In the room with sun bursts
+  around the walls, exit left and E to wall, S to wall, turn
+  east and take the next right to zig zag south to next left and
+  check your health. Then SAVE! and switch to your bow.
+  Slowly advance one step at a time till you see archers in the
+  shadows. Kill them and possibly some zombies, then quickly
+  switch to your sword and kill the commander skeleton. Use your
+  Key of Order to open the gold door. Enter the back room and
+  get the Chalice of Order from the altar. A new precept is
+  inscribed on your tablet.
+  Exit to the corridor and zig zag south, then go west to the
+  gold door and a voice says &quot;Speak thou of Order.&quot; Use your
+  tablet on the door, enter the passage and the final area
+  loads. If you've been busting everything, killing and picking
+  up potions and crystals, you should have plenty on hand. Click
+  the Archon by the door. If you have everything necessary, he
+  lets you pass.
+  Enter the Altar Room. After talking with Lucreto, approach the
+  altar and Lucreto attacks leaving your health very low. Use
+  mushrooms and crystals right now to rebuild your health to
+  full. Take a mask piece and place it on the altar. Lucreto
+  feels threatened and appears. Fight him till he vanishes. Put
+  another mask piece on the altar.
+  Fight Lucreto again (how's your health?) Put a third mask
+  piece on the altar and fight again. Place a fourth mask piece
+  on the altar (Lucreto doesn't appear!) Place the final mask
+  piece on the altar and a swirling vortex appears. Don't get
+  too close to it! Fight Lucreto and force him back into the
+  vortex. Enjoy the ending. Watch the credits to see your score.
+Did you think to use any of your invisibility potions in a
+particularly difficult area of the game? Could you have used one
+during this finale?
+AUTHOR: G. K. Ison (garr)
+</span></pre>
+</div>
+
+<p class="ffaq_page">View in: <button id="printable" onclick="make_printable();">Text Mode</button></p>
+
+
+<script type="text/javascript">
+
+window.onhashchange = hashHasChanged;
+
+function hashHasChanged()
+{
+	$(document).scrollTop(window.pageYOffset-130);
+}
+
+$().ready(function()
+{
+	$('.faq_bookmark_jumper').clone().appendTo('#faq_header_wrap');
+	if(window.pageYOffset>=150)
+	{
+		$('#faq_header_wrap').addClass('fixed');
+	}
+
+	window.onscroll = function()
+	{
+		if(window.pageYOffset>=150)
+		{
+			$('#faq_header_wrap').addClass('fixed');
+			$('.top_link').addClass('fixed').css('display','block');
+		}
+		else
+		{
+			$('#faq_header_wrap').removeClass('fixed');
+			$('.top_link').removeClass('fixed').css('display','none');
+		}
+	};
+
+	
+	$.each($('.ffaq img.imgnofloat'),function(){
+		var image = $(this);
+		if(image.attr('width')>400)
+		{
+			image.addClass('bigresize');
+		}
+	});
+
+	
+	var autobm = window.setInterval(function()
+	{
+		if(window.pos==$(document).scrollTop() || window.autobmstop==true)
+			clearInterval(autobm);
+		else
+			set_bookmark(1);
+	}, 5000);
+});
+
+
+$('img.imgresize').bind('click touch', function()
+{
+	if($(this).css('max-width')=='none')
+		$(this).css({'width':'100%','max-width':'100%'});
+	else
+		$(this).css({'width':'auto','max-width':'none'});
+});
+
+var timer, lastsearch;
+
+$('body :not(#faq_search_results)').bind('click touch', function(e)
+{
+	if($('#faq_search_results').css('display')=='block')
+	{
+		e.stopPropagation();
+		if($(this).attr('id')!='results_table' && $(this).attr('id')!='faq_search' && $(this).attr('id')!='faq_search_input' && $(this).attr('class')!='head' && $(this).attr('id')!='home_links')
+		{
+			dismiss_faq_search_results(0);
+		}
+	}
+});
+
+$('#faq_search_input, .search_mobile').click(function(e)
+{
+	e.preventDefault();
+	if($(this).attr('class')=='search_mobile')
+	{
+		$('#faq_search_module').toggle();
+	}
+	$('#faq_search_module, #faq_search_results').addClass('fixed');
+	$('#faq_header_wrap').addClass('search');
+	
+	if($('#faq_search_results').css('display')!='block')
+	{
+		$('#faq_search_results').show();
+	}
+	if($('#results_table tr').length==0)
+		$('.close_results').hide();
+	$('#faq_search_input').focus();
+});
+
+$('#faq_search_input').keyup(function()
+{
+	if(lastsearch != $('#faq_search_input').val())
+	{
+		if(timer)
+			clearTimeout(timer);
+		lastsearch = $('#faq_search_input').val();
+		if($('#faq_search_input').val().length>=3)
+		{
+			$('#faq_search_results').show();
+			timer = setTimeout(function(){faq_search(2426, $('#faq_search_input').val())},150);
+		}
+		else
+		{
+			dismiss_faq_search_results(1);
+		}
+	}
+});
+
+function dismiss_faq_search_results(fixed)
+{
+	$('#faq_search_results').hide();
+	$('#faq_search_overlay').fadeTo(200,0).remove();
+	if(!fixed)
+	{
+		$('#faq_search_module, #faq_search_results').removeClass('fixed');
+		$('#faq_header_wrap').removeClass('search');
+		if($('.search_mobile').is(':visible'))
+			$('#faq_search_module').toggle();
+	}
+	$('#results_table').empty();
+}
+
+function search_result(row)
+{
+	if($('#results_table tr[data-row="'+row+'"]').length>0)
+	{
+		var url = $('#results_table tr[data-row="'+row+'"]').attr('data-url');
+		if(url.indexOf('search_highlight')>=0)
+			eval(url);
+		else
+			window.location = $('#results_table tr[data-row="'+row+'"]').attr('data-url');
+	}
+}
+
+$('body :not(#faq_toc_header *, #faq_toc a.toc_toggle *)').bind('click touch', function(e)
+{
+	if($('#faq_toc_header').css('display')=='block')
+	{
+		e.stopPropagation();
+		if($(this).attr('class')!='toc_toggle active' && $(this).attr('id')!='faq_toc_header')
+		{
+			$('.toc_toggle').removeClass('active');
+			$('#faq_toc_header').css('display','none');
+		}
+	}
+});
+
+function toc_toggle()
+{
+	if($('.toc_toggle').hasClass('active'))
+	{
+		$('a.toc_toggle').removeClass('active');
+		$('#faq_toc_header').css('display','none');
+	}
+	else
+	{
+		$('a.toc_toggle').addClass('active');
+		$('#faq_toc_header').css('display','block');
+	}
+}
+
+function faq_search(id, term)
+{
+	var term = $('#faq_search_input').val();
+	var len = term.length;
+	if(term.length<3)
+		return;
+
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/faq_search',
+		data:  {id: 2426, term: term, key: '0459c70b'},
+		success: function(response)
+		{
+			if(response[0]=='error')
+			{
+				$('#results_table').html('<tr><td colspan="2" class="dismiss_results"><span onclick="dismiss_faq_search_results(0);">No Results Found - Close</span></td></tr>');
+				$('.close_results').remove();
+				$('#faq_search_results').show();
+			}
+			else
+			{
+				window.currentpage = 0;
+				$('#results_table').html('');
+				$('.close_results').remove();
+
+				$.each(response,function(j,i)
+				{
+					var val = i.value;
+					val = val.split('-');
+					var page = val[0];
+					
+					if(window.currentpage!=page)
+					{
+						window.currentpage = page;
+					}
+					var link, pagenum = '';
+
+					
+					
+					{
+						link = "search_highlight(2426,"+val[0]+",2,"+val[1]+","+len+");";
+					}
+					
+
+					$('#results_table').append('<tr data-url="'+link+'" data-row="'+j+'" style="cursor:pointer;" onclick="search_result('+j+');"><td class="title">'+i.label+'</td><td class="type">'+pagenum+'</td></tr>');
+				});
+
+				$('#results_table').after('<div onclick="dismiss_faq_search_results(0);" class="close_results">Close Results</div>');
+			}
+		}
+	});
+}
+
+function search_highlight(file_id,page,format,pos,len,section)
+{
+	window.textpage = page+1;
+
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/faq_search_highlight',
+		data: { id: file_id, page: page, for: format, pos: pos, len: len, section: '', key: '0459c70b' },
+		success: function(response)
+		{
+					$('span[name="search_jump"]').remove();
+			$("span.faq_highlight").contents().unwrap();
+			$('span#faqspan-'+window.textpage).html(response);
+		
+		var offset = $('span[name="search_jump"]').offset().top - 100;
+		if(offset<100)
+			$(document).scrollTop(0);
+		else
+			$(document).scrollTop(offset);
+		}
+	});
+}
+
+
+
+function set_bookmark(auto)
+{
+	var pos = $(document).scrollTop();
+	if(pos!=window.pos)
+		window.pos = pos;
+	else
+		return;
+	var page = 0;
+	if(page!=window.page)
+		window.page = page;
+	if(auto)
+		auto = 1;
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/faq_bookmark',
+		data: { id: 2426, pid: 88800, pos: pos, page: page, section: '', auto: auto, key: '0459c70b' },
+		success: function(response)
+		{
+			if(response)
+			{
+				if(response=="Missing cookie.")
+					window.autobmstop = true;
+				$('.faq_bookmark_jump').fadeOut();
+				$('#faq_bookmark').addClass('active');
+				var html = $('.bm_jumper_inner').html();
+				$('.bm_jumper_inner').animate({'opacity':0},200,function()
+				{
+					if($('.faq_bookmark_jumper:not(.active)'))
+						$('.faq_bookmark_jumper').css('visibility','visible');
+					$(this).html('Bookmark Saved').animate({'opacity':1},200);
+					$('.faq_bookmark_jumper').animate({'opacity':1},200);
+				});
+				setTimeout(function()
+				{
+					if($('.faq_bookmark_jumper:not(.active)'))
+					{
+						$('.faq_bookmark_jumper').animate({'opacity':0},200,function()
+						{
+							$(this).css('visibility','hidden');
+						});
+					}
+					$('.bm_jumper_inner').animate({'opacity':0},200,function()
+					{
+						$(this).html($.trim(html)).animate({'opacity':1},200);
+					});
+				}, 3000);
+			}
+		}
+	});
+}
+
+function bookmark_jump_dismiss()
+{
+	$('#faq_header > .faq_bookmark_jumper').css('visibility','hidden');
+	$('#faq_header_wrap > .faq_bookmark_jumper').remove();
+	$('#faq_bookmark').removeClass('active');
+}
+
+
+
+function page_top()
+{
+	$(window).scrollTop(0);
+}
+
+function make_printable()
+{
+	var faqdiv = $('#faqtext').detach();
+	faqdiv.appendTo('#fullscreen_overlay');
+	$('#fullscreen_overlay').show();
+	$('.wrapper').hide();
+	$('#faqtext').addClass("fullscreen_takeover");
+	$('#faqtext').append('<p id="restore_page"><button onclick="restore_page();">Restore Page</button></p>');
+	$(window).scrollTop(0);
+}
+
+function restore_page()
+{
+	$('#restore_page').remove();
+	$('#faqtext').removeClass("fullscreen_takeover");
+	$('#fullscreen_overlay').hide();
+	$('.wrapper').show();
+	var faqdiv = $('#faqtext').detach();
+	faqdiv.appendTo('#faqwrap');
+	$(window).scrollTop(0);
+}
+
+
+
+function set_rec_val(val)
+{
+	
+	var ftype = "guide";	
+	$('#recval').val(val);
+	if(val==2)
+		$('.rec_comment').attr('placeholder','What is missing from this '+ftype+'? (140 character max)');
+	$('#rec_one').hide();
+	$('#rec_two').show();
+	return;
+}
+
+function hide_rec()
+{
+	$('#rec_two').hide();
+	$('#rec_three').show();
+	var timer = setTimeout(function()
+	{
+		$('#contrib_rec').fadeOut('slow').remove();
+		$('#faq_header_wrap').addClass('rec_closed');
+	}, 2000);
+}
+
+function rec_submit(item_id, item_type_id, button)
+{
+	var recval = $('#recval').val();
+	if($('.rec_comment'))
+		var reccommentval = $('.rec_comment').val();
+	else
+		var reccommentval = '';
+
+	$.ajax(
+	{
+		type: 'POST',
+		url: '/ajax/gamespace_contrib_rec',
+		data: { item: item_id, type: item_type_id, btn: button, val: recval, comment: reccommentval, key: '0459c70b' },
+		success: function(response)
+		{
+			if(response==2)
+			{
+				track_event(79);
+				return;
+			}
+			else
+				hide_rec();
+		}
+	});
+}
+
+</script>
+
+<script type="application/ld+json">
+{
+	"@context": "https://web.archive.org/web/20190511013641/http://schema.org",
+	"@type": "FAQPage",
+	"headline":"King's Quest: Mask of Eternity Walkthrough",
+	"image":"https://web.archive.org/web/20190511013641/https://gamefaqs.akamaized.net/box/6/3/0/630_thumb.jpg",
+	"author":"GKIson",
+	"datePublished":"",
+	"dateModified":"",
+	"url":"https://web.archive.org/web/20190511013641/https://gamefaqs.gamespot.com/pc/88800-kings-quest-mask-of-eternity/faqs/2426",
+	"reviewedBy":
+	{
+		"@type":"Organization",
+		"name":"GameFAQs",
+		"logo":
+		{
+			"@type":"ImageObject",
+			"url":"https://web.archive.org/web/20190511013641/https://gamefaqs.akamaized.net/images/default/logo_v13.png",
+			"width":"180",
+			"height":"50"
+		}
+	},
+	"genre":"Action Adventure",
+	"isPartOf":
+	{
+		"@type":"VideoGame",
+		"name":"King's Quest: Mask of Eternity",
+		"url":"https://web.archive.org/web/20190511013641/https://gamefaqs.gamespot.com/pc/88800-kings-quest-mask-of-eternity",
+		"image":"https://web.archive.org/web/20190511013641/https://gamefaqs.akamaized.net/box/6/3/0/630_thumb.jpg",
+		"description":"Master storyteller Roberta Williams brings her best-selling King's Quest series into the next millennium with a revolutionary blend of technology, gameplay and storytelling. Long-time King's Quest fans and 3d action gamers alike will revel in a universe teeming with mythical monsters, magic elixirs and hand-to-hand combat. Enter this deep and compelling tale of an Eternal Champion's struggle to restore the Mask of Eternity and save the kingdom of Daventry. Never before has action been so...",
+		"datePublished":"1998-12-31",
+		"aggregateRating":
+		{
+			"@type":"AggregateRating",
+			"ratingValue":"0",
+			"reviewCount":"0",
+			"worstRating":"1",
+			"bestRating":"100"
+		},
+		"publisher":"Sierra Entertainment",
+		"genre":["Action Adventure","General"],
+		"gamePlatform":["PC"],
+		"operatingSystem":["PC"],
+		"applicationCategory":"Game",
+		"sameAs":"https://web.archive.org/web/20190511013641/https://www.gamespot.com/kings-quest-mask-of-eternity/",
+		"keywords":""
+	},
+	"breadcrumb":
+	{
+		"type": "BreadcrumbList",
+		"itemListElement":
+		[
+			{
+				"@type": "ListItem",
+				"position": 1,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190511013641/https://gamefaqs.gamespot.com/pc",
+					"name": "PC"
+				}
+			},									{
+				"@type": "ListItem",
+				"position": 2,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190511013641/https://gamefaqs.gamespot.com/pc/category/163-action-adventure",
+					"name": "Action Adventure"
+				}
+			},
+									{
+				"@type": "ListItem",
+				"position": 3,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190511013641/https://gamefaqs.gamespot.com/pc/category/290-action-adventure-general",
+					"name": "General"
+				}
+			},
+						{
+				"@type": "ListItem",
+				"position": 4,
+				"item":
+				{
+					"@id": "https://web.archive.org/web/20190511013641/https://gamefaqs.gamespot.com/pc/88800-kings-quest-mask-of-eternity/faqs/2426",
+					"name": "King's Quest: Mask of Eternity Walkthrough"
+				}
+			}
+		]
+	}
+}
+</script>
+								
+							</div>
+						</div>
+														</div>
+				
+												
+			</div>
+							
+
+							<footer id="footer" class="footer"><div class="footer_site container row"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/" class="footer_logo_gf">GameFAQs</a><a href="https://web.archive.org/web/20190511013641/http://www.facebook.com/GFAQs"><i class="fa fa-facebook-square"></i>facebook.com/GFAQs</a><a href="https://web.archive.org/web/20190511013641/http://www.twitter.com/GameFAQs"><i class="fa fa-twitter"></i>twitter.com/GameFAQs</a><span class="footer_break"></span><a href="/web/20190511013641/https://gamefaqs.gamespot.com/help">Help / Contact Us</a><span class="footer_color_drop" id="color_change"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/features/change_color">Change Colors <i class="fa fa-caret-up"></i></a><ul class="footer_color_subnav"><li class="footer_color_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/user/change_color?site_color=blue&amp;path=%2Fpc%2F88800-kings-quest-mask-of-eternity%2Ffaqs%2F2426">Blue (Default)</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-blue&amp;path=%2Fpc%2F88800-kings-quest-mask-of-eternity%2Ffaqs%2F2426">Blue on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/user/change_color?site_color=red&amp;path=%2Fpc%2F88800-kings-quest-mask-of-eternity%2Ffaqs%2F2426">Red</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-red&amp;path=%2Fpc%2F88800-kings-quest-mask-of-eternity%2Ffaqs%2F2426">Red on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/user/change_color?site_color=green&amp;path=%2Fpc%2F88800-kings-quest-mask-of-eternity%2Ffaqs%2F2426">Green</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-green&amp;path=%2Fpc%2F88800-kings-quest-mask-of-eternity%2Ffaqs%2F2426">Green on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/user/change_color?site_color=orange&amp;path=%2Fpc%2F88800-kings-quest-mask-of-eternity%2Ffaqs%2F2426">Orange</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-orange&amp;path=%2Fpc%2F88800-kings-quest-mask-of-eternity%2Ffaqs%2F2426">Orange on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/user/change_color?site_color=purple&amp;path=%2Fpc%2F88800-kings-quest-mask-of-eternity%2Ffaqs%2F2426">Purple</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/user/change_color?site_color=dark-purple&amp;path=%2Fpc%2F88800-kings-quest-mask-of-eternity%2Ffaqs%2F2426">Purple on Black</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/user/change_color?site_color=cloudy&amp;path=%2Fpc%2F88800-kings-quest-mask-of-eternity%2Ffaqs%2F2426">Cloudy Blue</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/user/change_color?site_color=grayscale&amp;path=%2Fpc%2F88800-kings-quest-mask-of-eternity%2Ffaqs%2F2426">Grayscale</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/user/change_color?site_color=sepia&amp;path=%2Fpc%2F88800-kings-quest-mask-of-eternity%2Ffaqs%2F2426">Sepia</a></li>
+<li class="footer_color_subnav_item"><a href="/web/20190511013641/https://gamefaqs.gamespot.com/user/change_color?site_color=cottoncandy&amp;path=%2Fpc%2F88800-kings-quest-mask-of-eternity%2Ffaqs%2F2426">Cotton Candy</a></li>
+</ul></span></div><div class="footer_network"><div class="container row">Popular:<a title="A full game guide and walkthrough for Kingdom Hearts III on the PlayStation 4" href="/web/20190511013641/https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812">Kingdom Hearts III Guide</a><a title="Cheat codes and passwords for Red Dead Redemption 2 on the PlayStation 4" href="/web/20190511013641/https://gamefaqs.gamespot.com/ps4/200179-red-dead-redemption-2/cheats">Red Dead Redemption 2 Cheats</a><a title="Cheat codes and passwords for Grand Theft Auto V on the PlayStation 4" href="/web/20190511013641/https://gamefaqs.gamespot.com/ps4/805601-grand-theft-auto-v/cheats">Grand Theft Auto V Cheats</a></div><div class="container row"><p><a href="https://web.archive.org/web/20190511013641/https://www.gamespot.com/?utm_source=gamefaqs&amp;utm_medium=partner&amp;utm_content=footer&amp;utm_campaign=footer" class="footer_logo_gs">gamespot.com</a><a href="https://web.archive.org/web/20190511013641/https://www.giantbomb.com/" class="footer_logo_gb">giantbomb.com</a><a href="https://web.archive.org/web/20190511013641/https://www.metacritic.com/" class="footer_logo_mc">metacritic.com</a><a href="https://web.archive.org/web/20190511013641/https://www.gamerankings.com/" class="footer_logo_gr">gamerankings.com</a></p><p><span class="footer_break"></span><a href="https://web.archive.org/web/20190511013641/http://sitemap.gamefaqs.com/">Sitemap</a><a href="https://web.archive.org/web/20190511013641/http://www.cbsinteractive.com/advertise">Advertise</a><a href="/web/20190511013641/https://gamefaqs.gamespot.com/feedback?type=61">Partnerships</a><a href="https://web.archive.org/web/20190511013641/https://cbs.avature.net/cbsinteractivecareers/SearchJobs/?3_56_3=%22260%22">Careers</a><a href="https://web.archive.org/web/20190511013641/https://legalterms.cbsinteractive.com/privacy">Privacy Policy</a><a href="https://web.archive.org/web/20190511013641/https://legalterms.cbsinteractive.com/adchoice">Ad Choice</a><a href="https://web.archive.org/web/20190511013641/https://legalterms.cbsinteractive.com/terms-of-use">Terms of Use</a><a style="z-index: 999999999; color: red; cursor: pointer" onclick="ad_report();">Report&nbsp;Ad</a></p><p>&copy; 2019 CBS Interactive Inc. All rights reserved.</p></div></div></footer>
+
+
+							
+		</div>
+
+		
+		<div id="site_dialog" class="site_dialog"></div>
+		<script type="text/javascript" src="//web.archive.org/web/20190511013641js_/https://dw.cbsi.com/js/ds.js"></script>
+<script type="text/javascript" src="/web/20190511013641js_/https://gamefaqs.gamespot.com/js/omniture_v2.20190429212942.js"></script>
+
+<script type="text/javascript">
+window._taboola = window._taboola || [];
+$().ready(function(){
+$(".gf_taboola").each(function(){
+	_taboola.push({mode: $(this).attr('data-mode'), container: $(this).attr('id'), placement: $(this).attr('data-placement'), target_type: $(this).attr('data-target') });
+});
+});
+
+var vguid = $('meta[id=view-guid-meta]').attr("content").substr(0, 24) + Math.random().toString(16).substr(2,12);
+var anon_id = $.cookie('XCLGFbrowser');
+$('meta[id=view-guid-meta]').attr("content", vguid);
+var dw_params = JSON.parse($('meta[name=dwPageParams]').attr("content"));
+dw_params['viewguid'] = vguid;
+var om_params = JSON.parse($('meta[name=o2PageParams]').attr("content"));
+om_params['evars'][24] = vguid;
+om_params['evars'][35] = anon_id;
+var delay = 0;
+if(!$.cookie('spt'))
+	delay = 500;
+if(typeof DW != 'undefined')
+{
+	if(!anon_id)
+	{
+		$.getScript("//web.archive.org/web/20190511013641/https://dw.cbsi.com/anonc.js").done( function( script, textStatus ) { if(typeof dw_anonc != 'undefined') { anon_id = dw_anonc().id;  $.cookie('XCLGFbrowser', anon_id, { expires: 3650, path: '/' }); om_params['evars'][35] = anon_id; } DW.pageParams = dw_params; DW.clear();  setTimeout(function() { om_params['evars'][16]=$.cookie('spt');  somni = omniture(om_params); },delay); });
+	}
+	else
+	{
+		DW.pageParams = dw_params; DW.clear(); setTimeout(function() { om_params['evars'][16]=$.cookie('spt'); somni = omniture(om_params); },delay); 
+	}
+}
+_taboola.push({flush: true});
+var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; googletag.cmd.push(function() { googletag.pubads().addEventListener('slotRenderEnded', revdbg); });
+</script>
+
+
+<script type="text/javascript">(function(){var g=function(e,h,f,g){ this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b<e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null}; this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "}; this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&&(e=Math.random()>=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0}; this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g+ "&t=" + (new Date()).getTime();document.body&&document.body.appendChild(a)}}; this.start=function(){var a=this;window.addEventListener?window.addEventListener("load",function(){a.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){a.go()})}}; try{(new g(100,"r","QSI_S_ZN_1zcNvefGbweAxdb","//web.archive.org/web/20190511013641/https://zn_1zcnvefgbweaxdb-cbs.siteintercept.qualtrics.com/WRSiteInterceptEngine/?Q_ZID=ZN_1zcNvefGbweAxdb&Q_LOC="+encodeURIComponent(window.location.href))).start()}catch(i){}})(); </script><div id="ZN_1zcNvefGbweAxdb"><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+
+		
+<!--Page built in 0.0318 seconds on 2019-05-11 01:36:41 on box #211 (CSS 20190429212937)- O 0.0142 / S 0.0167 / M 0.0009 / U 0 / G 0 / SC 6-->
+
+	</body>
+</html>
+<!--
+     FILE ARCHIVED ON 01:36:41 May 11, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:24:41 Mar 18, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 2.598
+  exclusion.robots: 0.227
+  exclusion.robots.policy: 0.18
+  esindex: 0.027
+  cdx.remote: 27.785
+  LoadShardBlock: 297.365 (3)
+  PetaboxLoader3.datanode: 181.26 (4)
+  PetaboxLoader3.resolve: 165.818 (2)
+  load_resource: 170.03
+-->

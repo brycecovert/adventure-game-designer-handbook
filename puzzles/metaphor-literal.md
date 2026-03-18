@@ -116,4 +116,71 @@ The limited action set maps directly to this puzzle:
 - USE items that match the literal interpretation
 - The puzzle is fundamentally about mapping text to world
 
+---
+
+### Loom: Gravestone Prophecy Translation
+
+**Abstract Text (from mother's gravestone)**:
+```
+Destiny shall draw the lightning
+Down from heaven; roll its thunder
+Far across the sea to where I
+Wait upon the Shore of Wonder
+On the day the sky is opened
+And the tree is split asunder
+```
+
+<small>
+Source: the-spoiler_gamecat.html, lines 116-122 — "Destiny shall draw the lightning Down from heaven; roll its thunder Far across the sea to where I Wait upon the Shore of Wonder On the day the sky is opened And the tree is split asunder"
+
+Source: strategywiki_loom_walkthrough.html, lines 658-659 — "Read the up front tombstone. It belongs to Cygna Threadbare, which is (in case you missed it), Bobbin's mother."
+</small>
+
+**Metaphor-to-Literal Translation Chain**:
+1. Player reads prophecy as poetic narrative describing future events
+2. Key metaphorical phrases identified:
+   - "sky is opened" → What could OPEN SKY literally look like?
+   - "tree is split asunder" → The tree must BE SPLIT somehow
+3. Earlier game: Player learned OPEN draft from egg (mechanically, "opening" is a known action)
+4. Hypothesis formation: "What if I cast OPEN on the SKY?" — literal interpretation of sky-opening metaphor
+5. Test execution: Return to opening location (Hillpeak), click stars/sky, cast OPEN draft
+6. Literal result: Lightning strikes, TREE SPLIT in half
+7. Split tree falls into water → becomes boat for sea crossing
+
+<small>
+Source: walkthrough-king_bennett.html, lines 68 — "Leave the village again and return to the mountain where you started. Cast Open on the sky, then return towards the village and go to the dock just left of the village."
+
+Source: gamefaqs_t_hayes_archived.html, lines 301-304 — "Walk right along the path to return to the top of the mountain. Cast Open on the sky, which causes a boat to sail to the dock."
+</small>
+
+**Second Layer: Scrying Sphere Visions (Symbolic Imagery → Future Events)**:
+
+The glassmaker's sphere shows symbolic scenes that translate to literal future events:
+
+1. **First viewing**: Shows cave with dragon on fire (seemingly abstract apocalyptic vision)
+2. **Translation discovery**: Player later learns GOLD-TO-STRAW draft, turns dragon's treasure to straw
+3. **Application**: Cast SLEEP on dragon → dragon breathes fire while sleeping → STRAW IGNITES → CAVE ON FIRE matches sphere vision exactly
+4. **Reward**: Fire reveals previously hidden cave exit (exactly as foretold)
+
+<small>
+Source: gamefaqs_tricrokra_archived.html, lines 518-530 — "Use the Terror draft on them and they'll flee... Examine the sphere you revealed 3 times to get all the hints from it and once again the 'Transendence' draft."
+
+Source: strategywiki_loom_walkthrough.html, lines 696 — "Now make sure that you empty the pool with the EMPTY draft, then look at the sphere three times; a few things happen:"
+</small>
+
+**Why It's Metaphor-to-Literal Translation**:
+1. **Poetic language requires symbolic interpretation**: Prophecy isn't instruction manual—it uses figurative phrases ("sky is opened") that must be reimagined as physical game actions
+2. **Visual symbolism becomes mechanical reality**: Sphere shows DRAGON CAVE ON FIRE as abstract image → player later ENACTS that exact scene through spell combinations
+3. **Linguistic creativity required**: Player can't just follow instructions—must ask "What would 'opening the sky' mean in THIS game world where OPEN is a specific castable draft?"
+
+**Distinction from Observation Replay**:
+Prophecy isn't a sequence to memorize and replay—it's ABSTRACT LANGUAGE requiring creative translation into concrete actions. The solution ("CLICK SKY + CAST OPEN") doesn't appear anywhere as explicit instruction; it emerges from metaphorical interpretation applied within the game's mechanical context.
+
+---
+
+## Related Types
+
+- **Pattern Learning**: Both involve understanding systems, but Metaphor-to-Literal requires linguistic translation before mechanical application
+- **Environmental Storytelling**: Both include narrative text, but this type centers on ACTIVE TRANSLATION of phrases into actions
+
 This puzzle type tests: "Can I imagine what this phrase would look like if the game world took it literally?"

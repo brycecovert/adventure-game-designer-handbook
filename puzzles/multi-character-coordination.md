@@ -253,7 +253,73 @@ DO NOT use this classification if:
 
 ---
 
+## Variations Extended
+
+| Type | Coordination Pattern | Urgency Level | Example |
+|------|---------------------|---------------|-------------|
+| **Single-Character Substitution** | Disguise/skin swap as mechanical workaround for blocking condition | Medium | Loom: Reflect draft enters forge as Rusty |
+
+---
+
+### Loom: Forge Entry via Reflection Substitution (Single-Character Substitution)
+
+**Problem**: Blacksmith's Guild entrance requires a Blacksmith's identity—Bobbin Threadbare as a Weaver is physically blocked from entry by the doorman guard with no dialogue options available to convince him otherwise. However, Bobbin just encountered Wellwrought "Rusty" Nailbender, a legitimate Blacksmith who can enter freely. The REFLECT draft enables appearance substitution, mechanically functioning as a single-character workaround for what appears to be a multi-character requirement.
+
+```
+BLOCKING CONDITION ANALYSIS:
+
+Standard Entry (Impossible):
+- Bobbin approaches guild door → doorman blocks access
+- No TALK/USE OPTIONS available to doorman while standing at gate  
+- Inventory contains distaff only—no items that would convince guard
+- Design intent: Weavers and Smiths are hostile guilds; no peaceful entry as Bobbin
+
+
+SINGLE-CHARACTER SUBSTITUTION SOLUTION:
+<small>Source: walkthrough-king_bennett.html, line 76 — "Cast the REFLECTION on RUSTY. You change appearances."
+
+Source: strategywiki_loom_walkthrough.html, line 694 — "Cast the REFLECTION on RUSTY. You change appearances."
+
+Source: the-spoiler_gamecat.html, lines 305-306 — "use the REFLECT spell on Rusty and you'll swap images. Now walk down to the Blacksmiths' Guild..."
+</small>
+```
+
+**Preparation Phase (Forest Gravestone)**:
+1. After escaping dragon's cave maze, arrive at Blacksmith's cemetery
+2. Wake sleeping boy Wellwrought "Rusty" Nailbender using WAKE draft
+3. Rusty introduces himself as Blacksmith, explains role in firewood gathering
+4. Learn that he works for guild Bobbin needs to enter (unavailable directly)
+
+**Reflection Execution**:
+5. Cast REFLECT draft on Rusty's sleeping form → appearance swap animation plays
+6. Player character now APPEARS AS Rusty visually (skin/substitution not disguise item equipped)
+7. Walk to Blacksmith's Guild entrance
+8. Doorman recognizes "Rusty" as legitimate guild member → allows entry without question
+9. Bobbin enters forge chamber while maintaining Rusty's appearance
+
+**Why It's Single-Character Substitution Variation**:
+
+The REFLECT draft creates a mechanical equivalent of multi-character coordination using ONLY ONE character through identity substitution:
+
+1. **Physical Blocking Workaround**: Doorman's blocking script checks for Blacksmith identity, not specific character sprite. By swapping appearance via magical means, Bobbin bypasses gatekeeper without fighting or dialogue
+2. **Not True Multi-Character**: Unlike MM pool puzzle (two actors at separated locations simultaneously), this is ONE actor playing a different role—the "coordination" comes from having encountered Rusty earlier
+3. **Identity-Based Access Control**: The guard checks VISUAL IDENTITY rather than physical presence—this is key to why single character succeeds where it would normally fail
+
+**Distinction from Sensory Exploitation**:
+- Sensory Exploitation tricks the GUARD'S PERCEPTION (they see something different)
+- Reflection changes THE PLAYER'S APPEARANCE (doorman genuinely sees "Rusty")
+- SE: Guard is fooled; Reflect: Player IS (visually) someone else
+
+**Distinction from Stealth/Disguise Items**:
+In most adventure games, disguise items are inventory objects that player EQUIPS. In Loom, the appearance change is a CASTABLE SPELL with no ongoing inventory tracking—the transformation itself IS the puzzle solution, not an item application step.
+
+---
+
 ### Zak McKracken: Pyramid Escape (Position Lock + Inventory Distribution)
+
+(continuing next...)
+
+
 
 **Problem**: Final pyramid tomb in Cairo contains White Crystal needed to complete the alien communication machine. Golden key opens chest but activates timed escape sequence. Three characters must coordinate at sarcophagus, chest/stairs, and exterior—each holding unique inventory items required for successful exit.
 

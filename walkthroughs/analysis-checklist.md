@@ -11,7 +11,7 @@ Status legend:
 - [x] Indiana Jones and the Last Crusade: The Graphic Adventure (1989) - INDY1
 - [x] The Secret of Monkey Island (1990) - MI1
 - [x] Monkey Island 2: LeChuck's Revenge (1991) - MI2
-- [ ] Loom (1990)
+- [x] Loom (1990) - LOOM
 - [ ] Indiana Jones and the Fate of Atlantis (1992)
 - [ ] Day of the Tentacle (1993)
 - [ ] Sam & Max Hit the Road (1993)
@@ -59,5 +59,5 @@ Status legend:
 ## Analysis Progress
 
 **Total:** 30 games  
-**Complete:** 8 games (KQVI, MI1, MI2, SIMON, LK1, MM, ZAK, INDY1)  
-**Remaining:** 22 games
+**Complete:** 9 games (KQVI, MI1, MI2, SIMON, LK1, MM, ZAK, INDY1, LOOM)  
+**Remaining:** 21 games

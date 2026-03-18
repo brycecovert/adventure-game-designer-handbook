@@ -10,6 +10,7 @@
 - Numeric sequences (safe combinations, door codes)
 - Action sequences (push/pull patterns, dance moves)
 - Visual patterns (light arrangements, color orders)
+- Musical sequences (melodies, chord progressions)
 
 **Adventure Game Implementation**:
 - NPC performs action while blocking player interaction
@@ -195,9 +196,98 @@ Source: walkthrough-king.txt, lines 187-189 — "Use your ladder on the door, th
 
 ---
 
+### Loom: Draft Watching and Reverse Casting
+
+**Problem**: Loom's entire gameplay revolves around the distaff—a musical instrument that plays "drafts" (spells) as 4-note melodies. Player must WATCH drafts being played by NPCs, objects, or environmental events, then MEMORIZE and REPLAY the exact sequences later to replicate effects. The game explicitly cannot provide written spell lists because sequences RANDOMIZE each playthrough.
+
+<small>
+Source: gamefaqs_tricrokra_archived.html, lines 276-290 — "except for two drafts, all drafts are different on each play-through, so that is why I cannot write them down in this FAQ as you will always have different notes than I have. Please check out the draft table near the buttom of this FAQ and you can print the table and write down the notes in it."
+
+Source: strategywiki_loom_walkthrough.html, lines 652-654 — "It has trouble OPENING, so help it. (If you try twice to leave the room without opening the egg, it will open by itself, but then you wil acquire the next level slightly later.)"
+</small>
+
+**Discovery Phase (Pattern Established from First Draft)**:
+1. Game begins in Elder's tent after cutscene
+2. Player examines egg → cutscene plays OPEN draft melody automatically
+3. Egg announces "I have trouble OPENING"
+4. Player clicks egg, then MUST replay the same 4-note sequence just witnessed
+5. FIRST draft learned and cast: OPEN
+
+<small>
+Source: gamefaqs_t_hayes_archived.html, lines 287-291 — "Look at the egg to get the Open draft. Cast the Open draft by clicking the egg, then entering the notes for the draft by either selecting them with the mouse or typing them with the keyboard."
+</small>
+
+**Core Mechanic Propagated Through Entire Game**:
+- Every new draft is LEARNED via forced observation:
+  - EXAMINE object/NPC → cutscene plays melody → player must write down notes externally
+  - Common learning triggers: clicking egg, examining dye pot, watching waterspout, looking at spinning wheel, observing shepherds appear/disappear
+- Player has NO in-game memory aid—must use paper/pen or external text file
+- Draft sequences are RANDOMIZED per playthrough (except OPEN and TRANSCENDENCE which are cast during unskippable cutscenes)
+
+**Return Phase Example (First Critical Replay: DYE)**:
+1. Early game: Examine dye pot in Hetchel's tent → learn DYE draft melody (e.g., "E-D-F-E")
+2. Practice on white cloth in room, observe green result
+3. Later at shepherd's field: Dragon approaches flock of sheep
+4. Recall DYE sequence from memory/notes
+5. Click sheep, cast DYE → sheep turn green, blend into grass
+6. Consequence: Player is now the only white thing visible → dragon captures player (required plot progression)
+
+<small>
+Source: walkthrough-king_bennett.html, lines 73-74 — "Head back outside and cast Dye on the sheep in the field."
+
+Source: gamefaqs_tricrokra_archived.html, lines 507-510 — "Use the dye green draft to color all the sheep green and you'll be taken by the dragon."
+</small>
+
+**Reversed Draft Example (SILENCE → UNSILENCE)**:
+1. Final confrontation: Chaos casts SILENCE on Hetchel via the Loom
+2. Cutscene plays SILENCE melody → player must memorize immediately
+3. Player examines Loom again to HEAR SILENCE sequence replay (if missed first time)
+4. CHORD REVERSAL MECHANIC: Player inputs SAME 4 notes but IN REVERSE ORDER
+5. Effect: UNSILENCE — Hetchel can speak again
+
+<small>
+Source: strategywiki_loom_walkthrough.html, lines 713-716 — "Watch the dialogue until Chaos casts SILENCE on Hetchel. Cast the reverse on Hetchel. (note that if you didn't manage to memorize the spell, you can hear it again by examining the Loom."
+
+Source: gamefaqs_t_hayes_archived.html, lines 412-416 — "After Hetchel has been silenced, look at Loom to get the Silence draft. Cast the reverse Silence draft on Hetchel. After she starts to talk again, Chaos will cast the Roast draft on her. Look at Loom to get the Roast draft, and cast the reverse Roast draft to bring her back to normal."
+</small>
+
+**External Memory System Requirement**:
+The game is UNPLAYABLE without external note-taking:
+- 20+ total drafts must be memorized throughout gameplay
+- Most can only be heard once (no replay until learned)
+- Drafts are needed HOURS later in different locations
+- Reverse casting rules mean player must track BOTH direction AND sequence
+
+<small>
+Source: the-spoiler_gamecat.html, lines 62-68 — "Before starting the game, have a paper and pen handy as there is no in-game way of noting different spells, which gets very annoying... some of the spells appear to be random, which is why I won't write down what combinations I had."
+</small>
+
+**Why It's Observation Replay**:
+- **Forced Single Viewing**: Draft melodies play automatically; player has no rewind/replay control during initial exposure
+- **Deferred Application**: Most drafts are learned early but not usable until hours later in different contexts (e.g., LEARN DYE on island → USE DYE on sheep to trigger dragon capture)
+- **Exact Reproduction Required**: Wrong note = red sparkles, spell fails. No partial credit or hints about which note was wrong
+- **External Memory System Mandated**: Unlike most adventure games that provide in-game clues or journals, Loom requires literal paper-and-pencil documentation
+- **Chord Reversal Layer**: Adds second memorization dimension—player must track not just "E-D-F-E = DYE" but also "E-F-D-E = BLEACH (opposite effect)"
+
+**Distinction from Pattern Learning**:
+While the chord reversal is a consistent SYSTEM, each draft sequence is a UNIQUE VALUE to memorize. The player doesn't learn "how to create spells"—they learn THE SPECIFIC SPELLS that exist. This is observation-based value retention, not abstract principle extraction.
+
+Compare to sword fighting (Pattern Learning):
+- Sword fighting: Learn 16 INSULT/RETORT RULES → apply generic framework to ANY pirate
+- Loom drafts: Learn SPECIFIC SEQUENCE "E-D-F-E" → applies ONLY to DYE spell, nothing else
+
+**Meta-Observation Layer**: Some objects allow REPLAY of observed spells after initial learning:
+- The Loom replays any spell Chaos cast (SILENCE, ROAST, RIFT) — second viewing opportunity for players who missed first observation
+- Scrying spheres show future events AND play relevant draft melodies again
+
+<small>
+Source: gamefaqs_tricrokra_archived.html, lines 479-483 — "Examine the sphere several times and you will see some hints and the 'Transcendence' draft (which you already have, but you cannot cast it yet), you'll also see the 'Terror' draft which you need pretty soon."
+</small>
+
+---
+
 ## Related Types
 
 - **Multi-Faceted Plan**: Requires synthesis of multiple requirements discovered at different times
 - **Timed Consequence**: Both involve missing opportunities, but OR is about *memory* + *timing* while TC is about narrative urgency
 - **Information Brokerage**: Both involve NPCs as information sources, but OR focuses on *action sequences* not exchange networks
-

@@ -108,3 +108,100 @@ Compare this to actual Pattern Learning like sword fighting:
 - Zak's drawing uses ONE symbol to unlock ONE door—no generalizable principle extracted
 
 **Correct Classification**: Extended-distance **Observation Replay** (visual pattern instead of numeric sequence; hours later instead of minutes; different continent instead of adjacent room). The core mechanic remains identical: watch once, memorize, reproduce exactly when opportunity arises.
+
+---
+
+### Loom: Draft Reversal System / Musical Grammar
+
+**Problem**: Loom teaches a complete mechanical system for "drafts" (spells) that must be applied across 20+ different puzzle contexts throughout the game. The player discovers early-game rules through safe experimentation, then applies those identical rules to critical mid/late-game situations where failure means permanent consequences.
+
+<small>
+Source: gamefaqs_tricrokra_archived.html, lines 269-281 — "This works differently than other games in the genre though. You only have ONE inventory item. The Weaver's Distaff, and you need it for almost everything. You need to learn drafts by examining stuff and find out where to use which draft."
+
+Source: the-spoiler_gamecat.html, lines 67-69 — "Remember that some spells can be played backwards to create the opposite effect; the straw-to-gold spell played backwards will change gold into straw. Try undoing some of the spells that you've cast, or trying out spells in likely places."
+</small>
+
+**Learning Phase (Loom Island - Low Stakes Training Ground)**:
+
+The first island provides a sandbox to discover THREE foundational rules:
+
+**Rule 1: EXAMINE = Learn, CAST = Apply**
+1. Player examines egg → learns OPEN draft melody automatically
+2. Player clicks egg + casts OPEN sequence → egg opens
+3. Pattern established: Objects with problems play "solution melodies" when examined
+
+<small>
+Source: strategywiki_loom_walkthrough.html, lines 652-655 — "Click on the DISTAFF and examine the EGG. It has trouble OPENING, so help it... Hetchel is reborn as a swanling and briefs you about your 'mission'."
+
+Source: walkthrough-king_bennett.html, lines 65-68 — "click on the egg to learn the Open draft (you need to write down the music sequence)... Now click on the egg and cast Open by repeating the music sequence you just wrote down."
+</small>
+
+**Rule 2: CHORD REVERSAL = Opposite Effect**
+1. Player learns DYE draft (greening) from dye pot examination
+2. Player practices forward DYE on white cloth → turns green
+3. Player experiments with REVERSE order of same 4 notes → BLEACH (greens back to white)
+4. Pattern established: Playing any draft in reverse reverses its effect
+
+<small>
+Source: gamefaqs_tricrokra_archived.html, lines 276-280 — "The drafts also work backwards. If A-B-C-D would turn day into night, then D-C-B-A would turn night into day."
+
+Source: strategywiki_loom_walkthrough.html, lines 655 — "Examine the CAULDRON and learn the DYEING draft. Try it on the white CLOTHs. You can also try the reverse (BLEACHING) on the green cloths."
+</small>
+
+**Rule 3: PRACTICE = Note Unlocking**
+1. Game starts player with only notes C, D, E
+2. Each successfully cast practice draft adds new available notes to distaff
+3. Player cannot leave first island until they've learned enough drafts to unlock F-note
+4. Pattern established: System forces mastery before progression
+
+<small>
+Source: gamefaqs_tricrokra_archived.html, lines 825-837 — "c → Start game, d → Start game, e → Start game, f → When you completed all tasks on the weaver's island. The 'Twist/Untwist' draft will always contain this note, so you cannot leave the island until this is done."
+</small>
+
+**Application Phase (Critical Consequences - Rules Apply Without Tutorial)**:
+
+The system learned on Loom Island applies IDENTICALLY to every puzzle that follows—zero reminders, zero reinforcement tutorials. The rules work exactly the same way across these escalating-stakes domains:
+
+**Domain B1: Dragon's Cave (Sleep/Wake Reversal)**
+1. Learned early: SLEEP draft from sleeping sheep observation
+2. Never taught explicitly that reverse exists for this draft
+3. Application: Cast REVERSE of SLEEP on dragon → AWAKEN effect fails, dragon stays awake
+4. Correct application: Cast forward SLEEP → dragon sleeps, cave exit revealed through fire
+
+<small>
+Source: gamefaqs_t_hayes_archived.html, lines 358-361 — "Cast the reverse Straw to Gold draft on the gold, then cast the reverse Wake spell to make the dragon fall asleep. The dragon starts to breathe fire on the straw as she sleeps, which reveals a hidden tunnel at the back of the cave."
+</small>
+
+**Why Rule Transfer is Critical**: Player wasn't told "reverse SLEEP = WAKE" anywhere—only discovered this through system understanding from early experiments with DYE/BLEACH.
+
+**Domain B2: Final Confrontation (SILENCE → UNSILENCE)**
+1. Chaos casts SILENCE on Hetchel → player hears melody for first time under life-or-death pressure
+2. NO tutorial says "reverse this to undo it"
+3. Player must APPLY Rule 2 learned hours earlier: "any draft reversed = opposite effect"
+4. Execution: Input same 4-note sequence in REVERSE ORDER
+5. Result: UNSILENCE activates, Hetchel can speak again
+
+<small>
+Source: walkthrough-king_bennett.html, lines 85 — "Click on the loom and Hetchel will appear and be silenced. Click on the loom again to learn the Silence/Speak draft. Cast Speak on Hetchel, then Chaos will roast her instead."
+
+Source: strategywiki_loom_walkthrough.html, lines 713-716 — "Watch the dialogue until Chaos casts SILENCE on Hetchel. Cast the reverse on Hetchel. (note that if you didn't manage to memorize the spell, you can hear it again by examining the Loom."
+</small>
+
+**Why This Is Pattern Learning/Knowledge Transfer**:
+1. **Same System, Different Contexts**: Not "I learned to unsilence Hetchel" but "I learned the reversal MECHANIC that applies to SILENCE, DYE, TWIST, STRAW/GOLD, SLEEP/WAKE (15+ drafts total)"
+2. **Complete Rule Space Discoverable**: Three core rules (EXAMINE=learn, REVERSE=opposite, PRACTICE=progression) exhaust the entire musical grammar
+3. **Domain Transfer Without Reteaching**: Loom Island teaches → Dragon's Cave applies → Final Battle applies with ZERO reminders or hints
+4. **Critical Recognition Required**: Player must identify "Oh, this SILENCE thing works the same way DYE worked earlier"
+
+**Distinction from Observation Replay (the draft WATCHING itself)**:
+- **Observation Replay component**: Each specific sequence must be memorized when heard (e.g., "SILENCE = E-F-D-C")
+- **Pattern Learning component**: The system that governs HOW those sequences work applies everywhere (reversal, practice, examine)
+
+The draft *mechanics* are Pattern Learning. The draft *sequences themselves* are Observation Replay. Both exist in Loom simultaneously, but address different gameplay dimensions.
+
+<small>
+Source: the-spoiler_gamecat.html, lines 67-69 — "Remember that some spells can be played backwards to create the opposite effect; the straw-to-gold spell played backwards will change gold into straw."
+</small>
+
+**Why It's NOT Just Observation Replay**:
+Player didn't just memorize "SILENCE melody = E-F-D-C" and replay it. Player must actively APPLY a learned principle: "If SILENCE is E-F-D-C, then UNSILENCE is C-D-F-E because I learned earlier that reversing any draft reverses its effect." That general rule is the pattern/ knowledge being transferred.
