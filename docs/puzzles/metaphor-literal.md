@@ -1,0 +1,119 @@
+# Metaphor-to-Literal Translation
+
+## Mechanic Definition
+
+The game presents abstract language—idioms, metaphors, poetic descriptions, or symbolic phrases—as puzzle instructions. The player must interpret figurative language as literal game mechanics: what would this phrase look like if it could physically exist in the game world?
+
+## Information Architecture
+
+**Conveyance Method**: Text-based symbolic language
+- Phrases appear in dialogue, item descriptions, book text, or environmental signage
+- The solution requires "translating" the metaphor into concrete game objects/actions
+- No explicit instruction—the player must recognize the symbolic nature
+
+**Player Action Pattern**:
+1. Encounter metaphorical phrase in text
+2. Identify what the phrase would mean if taken literally
+3. Locate or create the literal equivalent in the game world
+4. Execute literal action → solution achieved
+
+**Core Mechanic**: The puzzle tests linguistic creativity—can the player imagine what "wallflowers" literally looks like in a game with flowers?
+
+## Design Rationale
+
+- Creates world coherence—language manifests physically, making the world feel internally consistent
+- Rewards literary thinking—players who engage carefully with text are advantaged
+- Generates memorable moments—literalized metaphors become distinctive visual/cognitive landmarks
+- Avoids generic solutions—each phrase has unique literal translation
+
+## Why It's Effective
+
+The "aha" moment is distinct: recognizing that a phrase is symbolic rather than descriptive. This requires active reading rather than passive scanning—a skill that distinguishes engaged players.
+
+## Mechanic Variations
+
+| Variation | Text Type | Literal Translation Approach |
+|-----------|-----------|------------------------------|
+| Idiom | Common sayings | Identify physical objects that represent the idiom's meaning |
+| Poetic | Descriptive verse | Visualize the imagery as actual game elements |
+| Symbolic | Heraldic/mythic language | Map symbols to game objects through cultural knowledge |
+| Invented | Game-specific phrases | Learn the game's symbolic vocabulary through context |
+
+## Generic Example Structure
+
+**Puzzle Text**: "You will need salt water not from the sea to complete the binding."
+
+**Information Flow**:
+- Player reads text → recognizes metaphorical instruction
+- Player asks: "What could 'salt water not from the sea' literally be?"
+- Options: tears (salty), magical solution, mineral water
+- Player examines game world: Are there crying things? Plants with "tears"?
+- Player discovers: A patch of "baby's tears" plants that can be made to cry
+- Player finds: A way to make them cry (give milk to one, others cry in sympathy)
+- Player collects: The literal "tears"
+
+**The puzzle**: Translating "salt water not from the sea" → "plant tears" through symbolic interpretation.
+
+## Adventure Game Implementation
+
+The limited action set maps directly to this puzzle:
+- LOOK at text contexts (signs, books, dialogue) where phrases appear
+- EXAMINE objects referenced in phrases—do they have literal counterparts?
+- USE items that match the literal interpretation
+- The puzzle is fundamentally about mapping text to world
+
+## Game Examples
+
+### Monkey Island I: Troll's Red Herring Riddle
+
+**Metaphor**: "I want something that will attract attention but have no real importance"
+
+**Literal Translation Chain**:
+1. Player reads riddle as abstract requirement
+2. Interprets: "What object is literally known for 'attracting attention' yet being 'unimportant'?"
+3. Identifies idiom: "red herring" — distracting but irrelevant detail in storytelling/mystery
+4. Searches inventory: What's a literal RED HERRING? → Fish (which are often painted red as decoration)
+5. Execute: Give the Fish to Troll
+6. Troll's confirmation: "Ah! A red herring!" reveals the idiom was intentionally chosen
+
+**Design Elegance**: The phrase exists simultaneously as genuine puzzle instruction AND as a common English metaphor—the player wins by recognizing both layers.
+
+### Monkey Island II: Bone Maze Navigation Song
+
+**Metaphor (from dream sequence)**:
+```
+The HEAD bone is connected to the RIB bone.
+The RIB bone is connected to the LEG bone.  
+The LEG bone is connected to the HIP bone.
+```
+
+**Literal Translation Chain**:
+1. Player experiences bizarre song during near-death dream state
+2. Later faces maze of "Ugly Bone Things" — wall panels with different bone carvings
+3. Recognizes: Song lyrics describe physical connections between bones
+4. Translation rule emerges: Each verse maps to one passage; push the FIRST three bones mentioned (fourth is irrelevant noise)
+5. Execute sequence: HEAD → RIB → LEG passages, ignoring HIP each time
+6. Result: Passageway opens, progress granted
+
+**Key Distinction**: This is metaphor-to-literal because the song (poetic/abstract encoding) describes a PHYSICAL system (bone maze walls). Not "learn pattern" but "decode artistic encoding into mechanical solution."
+
+---
+
+## Common Misidentifications
+
+| Apparent Metaphor | Why It's Different |
+|------------------|--------------------|
+| Dance map = navigation instructions (MI1 fake map) | These are LITERAL dance moves applied as path choices, not metaphorical language | Pattern Learning / Code Translation |
+| Voodoo doll categories ("something of the Thread") | Categories are literal requirements, not symbolic phrases being decoded | Multi-Faceted Plan |
+
+**Test**: Is the text *figurative* (requires linguistic creativity to interpret) or *literal instructions in disguised form* (requires pattern recognition)? Metaphor-to-Literal requires the former.
+
+## Adventure Game Implementation
+
+The limited action set maps directly to this puzzle:
+- LOOK at text contexts (signs, books, dialogue) where phrases appear
+- EXAMINE objects referenced in phrases—do they have literal counterparts?
+- USE items that match the literal interpretation
+- The puzzle is fundamentally about mapping text to world
+
+This puzzle type tests: "Can I imagine what this phrase would look like if the game world took it literally?"
