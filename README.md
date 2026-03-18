@@ -19,7 +19,8 @@ A taxonomy of puzzle design patterns derived from analysis of classic Sierra and
 | 11 | [Environmental Memo Chain](./puzzles/memo-chain.md) | Scattered written fragments across locations; synthesize narrative to reveal solution | MI |
 | 12 | [NPC Distraction Physics](./puzzles/distraction-physics.md) | Manipulate environment to break NPC blocking pattern without confrontation | MI |
 | 13 | [Meta-Puzzle Construction](./puzzles/meta-puzzle-construction.md) | Sequential interdependence; each step's output becomes next step's input | MI/MM |
-| 14 | [Multi-Character Coordination Puzzle](./puzzles/multi-character-coordination.md) | Multiple characters required for separated location actions; single character physically impossible | MM |
+| 14 | [Multi-Character Coordination Puzzle](./puzzles/multi-character-coordination.md) | Multiple characters required for separated location actions; single character physically impossible | MM/DOTT |
+| 15 | [Cross-Temporal Causality Puzzle](./puzzles/cross-temporal-causality.md) | Actions in one time period create immediate consequences in another; solution requires understanding historical causality | DOTT |
 
 ---
 

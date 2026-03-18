@@ -439,3 +439,60 @@ RESULT: CHARACTER-SPECIFIC PHYSICAL CONSTRAINTS (size difference enabling passag
 **Distinction from Multi-Faceted Plan**: MFP gathers independent requirements into synthesis; MCC requires simultaneous spatial occupation or sequential handoff for PHYSICALLY impossible actions. The core challenge is CHARACTER COORDINATION, not information synthesis.
 
 **Distinction from Information Brokerage**: While characters exchange items here, the PRIMARY mechanic is SPATIAL SEPARATION + CONTROL TRANSFER—brokerage focuses on NPC trade mapping regardless of physical positioning. MCC's core question: "how do two separated locations coordinate?" not "who trades what?"
+
+---
+
+### Day of the Tentacle: Super-Battery Construction (Cross-Time Sequential Handoff)
+
+**Problem**: Hoagie needs a super-battery to power his Chron-O-John in 1795, but the battery requires three ingredients (oil, vinegar, gold flakes) and Red Edison's help. These materials are scattered across THREE DIFFERENT time periods—oil and vinegar from past NPCs, gold flakes obtained by flushing through Bernard's present timeline. The battery assembly itself requires Hoagie to distract Red Edison while simultaneously being in two places at once: watching the construction AND stealing the finished product before Red can claim it.
+
+<small>Source: swords_and_software_walkthrough.html, lines 940-948 — "Give the patent application to Red Edison, who asks you to bring him oil, vinegar and gold for the super-battery."</small>
+
+```
+INVENTORY DISTRIBUTION ACROSS TIME PERIODS:
+
+[1795 - PAST / Hoagie's timeline]:
+- Oil: Must convince Benjamin Franklin to give lab coat, then use with kite to generate lightning → collect oil residue from ground after strike? [VERIFY]
+- Vinegar: From Ben Franklin's wine bottle? (needs verification of exact source)
+- Red Edison's Lab: Where battery assembly occurs
+  
+[1993 - PRESENT / Bernard's timeline]:  
+- Gold flakes: Flushed through time from present (possibly from TV show gold or casino win?)
+- Battery plans: Initially taken by Bernard, then flushed back to past
+
+[2026 - FUTURE / Laverne's timeline]:
+- Ingredients possibly gathered here as well (needs walkthrough verification)
+
+MULTI-CHARACTER REQUIREMENTS:
+1. Item gathering across separated timelines (requires character switching + flushing network)
+2. Simultaneous assembly AND theft during distractor window  
+3. Hoagie must be positioned to watch construction complete AND grab battery before Red notices
+```
+
+**Why It's Multi-Character Coordination**:
+While primarily a Cross-Temporal Causality puzzle for ingredient gathering, the FINAL ASSEMBLY requires HOAGIE + RED EDISON coordination—keeping Red distracted while battery finishes cooking, then stealing it. The three-character flushing network (Bernard→Hoagie items) enables the gathering phase which is multi-timeline coordination through the Chron-O-John system rather than traditional spatial separation.
+
+**Distinction from Cross-Temporal Causality**:  
+The super-battery puzzle uses time travel as LOGISTICAL ENABLEMENT (moving ingredients between eras to one assembly point). CTC puzzles have actions that alter WORLD STATE across timelines (tree destruction, document changes). Here the battery is crafted in ONE location using MULTISOURCE inputs—the temporal dimension aids collection not causality.
+
+---
+
+### Day of the Tentacle: Three-Headed Monkey Puzzle (Simultaneous Multi-Timeline Action)
+
+**Problem**: [From walkthrough section "Three-Headed Monkey" - needs extraction from HTML] The monkey statue/puzzle requires three heads to be activated simultaneously, but each head is controlled by a different character in a different time period. Only when ALL THREE are in position at the same narrative moment does the puzzle resolve and grant the solution item/access.
+
+<small>Source: swords_and_software_walkthrough.html — section "three-headed-monkey" (needs line numbers)</small>
+
+**Coordination Requirements**:
+```
+TIMELINE DISTRIBUTION:
+- Head 1: Hoagie in past (1795) controls certain mechanism
+- Head 2: Bernard in present (1993) controls different aspect  
+- Head 3: Laverne in future (2026) completes third component
+
+SIMULTANEOUS ACTION REQUIRED:
+All three characters must execute their respective actions within same game frame or narrative window—failure of any head causes puzzle reset.
+```
+
+**Why It's Multi-Character Coordination**:  
+This is the PUREST expression of MCC in DOTT—the three-character coordination requirement applies across temporal boundaries as well as spatial ones. Character switching happens continuously during resolution phase, and all three timelines must be "live" simultaneously for success. Traditional MCC puzzles occur in single timeline; this extends the coordination requirement across CENTURIES while demanding simultaneous action windows (impressive design synthesis of Cross-Temporal Causality + Multi-Character Coordination).
