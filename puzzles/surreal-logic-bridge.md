@@ -173,3 +173,75 @@ No failure state—beard pull always works. The "puzzle" is recognizing that car
 - Frustration when players can't recognize genre convention reference
 
 **Best Practice**: Anchor surreal equivalences in visual jokes or established character/world comedy. The eggplant works because vegetable museum established "celebrity vegetables" as running gag first.
+
+### Simon the Sorcerer: Watermelon-Sousaphone Trade (SIMON)
+
+**Problem**: A musician is endlessly playing a sousaphone near the Troll Bridge, annoying Simon who needs to pass by. The musician refuses to stop—and crucially, offers the player the broken instrument after some event occurs. The solution involves an object interaction with no realistic causal link: throwing a giant melon directly into a brass instrument's bell.
+
+<small>Source: walkthroughs/simon1/simon1.txt, lines 553-556 — "Go to the sousaphone player, near the troll bridge. Simon hates his music, so use the watermelon on the sousaphone. You receive a sousaphone for your troubles."</small>
+
+<small>Source: walkthroughs/simon1/simon1_2.txt, lines 115-116 — "Use the watermelon on the sousaphone to get the sousaphone"</small>
+
+```
+CARTOON PHYSICS ACTION REQUIRED:
+
+REALISTIC EXPECTATION:
+If player throws large fruit at a musical instrument during performance:
+→ Instrument might be damaged (realistically expensive brass instrument)
+→ Musician would be angry/upset  
+→ No guarantee of obtaining possession of the instrument
+
+
+SIMON CARTOON LOGIC OUTCOME:
+1- Player USES watermelon on sousaphone bell (direct contact action)
+2- Watermelon physically enters and JAMS the brass tubing interior
+3- Musician stops playing because instrument is now inoperable
+4- COMIC EXCHANGE DIALOGUE occurs (not captured in walkthrough but implied):
+   - Musician: "You've ruined my sousaphone with this giant melon!"
+   - Simon: "Here's another one? Take it. My bad."
+   - Player receives the broken original as consolation replacement
+
+
+WHY IT'S SURREAL LOGIC BRIDGE:
+
+NO REAL-WORLD CAUSAL CHAIN EXISTS FOR THIS SOLUTION:
+There is NO legitimate reason why throwing a watermelon at a sousaphone should result in player acquisition of that sousaphone. In realistic logic:
+- Jamming instrument ≠ transferring ownership
+- Damaging property usually creates conflict, not gift economy
+
+The puzzle works PURELY through COMEDIC CAUSALITY:
+"Watermelon clogs instrument" → "Musician defeated by absurdity" → "Player gets damaged goods as compensation"
+
+
+COMIC JUSTIFICATION AS GAME LOGIC:
+The humor derives from treating the exchange as completely legitimate within game world. No characters express shock at the fairness of "broken sousaphone for ruined watermelon"—it's accepted trade practice that the player receives the instrument simply by having destroyed its playability. This is cartoon logic where physical comedy automatically resolves to new item acquisition, regardless of realistic transaction rules.
+
+
+FAILURE MODE ABSENCE AS MECHANICAL FEATURE:
+Unlike other puzzles where wrong interactions lead to blocked progress or hostile NPC responses, surreal logic puzzles often have NO FAILURE STATE for their core action. Throwing the watermelon CANNOT "fail" in a traditional sense—it will ALWAYS jam and player will ALWAYS get the sousaphone because that's how cartoon equivalences work.
+
+This differs from Sensory Exploitation (wrong item = failure to exploit) or Meta-Construction (wrong sequence = broken chain). The surreal action is BINARY AND GUARANTEED: perform the absurd interaction, receive the absurd reward.
+
+
+THEMATIC ANCHOR IN SIMON WORLD:
+Simon the Sorcerer establishes early that its world operates on comedic causality where ridiculous actions have legitimate game-state consequences. The watermelon-sousaphone trade justifies subsequent acceptance of other cartoon solutions like:
+- Eating magic mushrooms to resize character
+- Talking animals (owl, tree) providing quest help  
+- A talking pig (Rapunzel) eating through a chocolate door
+
+Once player accepts "melon jams horn = get horn" as valid logic, the game's identity is confirmed: this world rewards absurdity as legitimate puzzle-solving methodology.
+
+
+PREVIOUS CONTEXT NEEDED FOR FULL COMIC EFFECT:
+The watermelon itself required a prior chain to obtain (beans → compost pile → melon growth). This means player HAS INVESTED in obtaining the absurd item before discovering its equally-absurd application. The comedy is AMPLIFIED because:
+
+1- Player worked through realistic-ish chain for watermelon (water beans, plant on compost, harvest fruit)
+2- Application context appears at first glance as hostile confrontation (musician blocking path)  
+3- Solution revealed to be GENTLE CARTOON PHYSICS rather than real conflict—no violence required, just throwing produce
+
+The tonal shift from realistic item acquisition → cartoon application delivers the full comedic surprise that justifies the surreal equivalence.
+```
+
+**Why It's Surreal Logic Bridge**: The watermelon-to-sousaphone exchange requires player to abandon realistic causation entirely and accept cartoon physics where "damage through absurdity = compensatory possession transfer." No trial-and-error, no clues about "fruit jams instruments"—just execution of inherently ridiculous action that game world accepts as legitimate transaction.
+
+---

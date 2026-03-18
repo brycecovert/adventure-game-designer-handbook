@@ -361,3 +361,107 @@ WHY IT'S CROSS-REALM LOGISTICS:
 
 - **Multi-Faceted Plan**: MFP gathers requirements for one immediate solution; Cross-Realm spreads acquisition over extensive gameplay
 - **Meta-Puzzle Construction**: MPC creates strict sequential chains; Cross-Realm Logistics allows parallel collection across space/time
+
+---
+
+### Legend of Kyrandia: Darm's Scroll Dual Application (LK1)
+
+**Problem**: Darm gives Brandon a single scroll with icy magic that must be used TWICE in completely separate game worlds, for unrelated puzzle types. The scroll represents classic cross-realm logistics where one item bridges multiple geographic domains and serves non-obvious future purposes beyond its immediate acquisition context.
+
+<small>Source: classicgamesparadise_walkthrough.html, lines 112, 183, 245 — Scroll received from Darm after quill trade; used at volcanic river AND burning branch in Faeriewood</small>
+
+<small>Source: bonny_ploeg_walkthrough.html, line 113 — "Scroll With Icy Power - Received from Darm after you've given him the quill. Used twice: at the volcanic river and at the fiery bush."</small>
+
+```
+ITEM ACQUISITION PHASE (Timbermist Woods):
+
+Step 1 - Quill Collection Chain:
+- Explore Timbermist Woods, find injured songbird near nesting area
+- Songbird won't give quill until healed
+- Heal bird using yellow gem (healing power from Deadwood Glade puzzle)
+- Bird drops quill as reward
+
+Step 2 - Scroll Exchange:
+- Return to Darm's shack with quill in inventory
+- Give quill to Darm → dialogue exchange about "stones and the altar"
+- Darm writes and gives FREEZE SCROLL to Brandon
+- Scroll description indicates icy/freezing magic properties
+
+
+CROSS-REALM APPLICATION #1: Volcanic River Crossing (Serpent's Grotto)
+
+Location: Cave system after Darkmouth area, before Iron Key chamber
+
+Problem State:
+- Volcanic river blocks path forward, lava too hot to cross directly  
+- Iron Key visible on opposite bank but unreachable
+- No bridge or alternate route available
+
+Scroll Application:
+- Use Darm's scroll on volcanic river surface
+- Icy magic freezes lava into solid traversable path
+- Walk across frozen river, collect Iron Key
+- Path remains frozen for duration sufficient to complete crossing
+
+Critical Decision Point - Inventory Management:
+<small>Source: classicgamesparadise_walkthrough.html, line 183 — "Make sure you don't throw away the scroll just yet; it will come in handy again later"</small>
+<small>Source: bonny_ploeg_walkthrough.html, line 63 — "Now you can drop the scroll to save space" (given AFTER Faeriewood use)</small>
+
+Player MUST recognize scroll remains CONSUMABLE-ONCE but still usable AGAIN in different context. Common player mistake: discard scroll after lava crossing due to "item used" assumption or inventory pressure.
+
+
+CROSS-REALM APPLICATION #2: Burning Branch Extinguishment (Faeriewood)
+
+Location: Faeriewood realm - separate magical dimension accessed through cave system
+
+Problem State:
+- Malcolm steals one of Zanthia's crystal balls, ruins alchemy fountain
+- Missing crystal ball hidden inside burning branch/fire bush in western Faeriewood
+- Flames prevent direct interaction; cannot grab ball without extinguishing fire first
+
+Scroll Application (Second Use):
+- Navigate to burning branch location (requires Faeriewood exploration)
+- Use Darm's scroll on flames → icy magic extinguishes fire
+- Burnt bush now accessible, missing crystal ball can be collected
+- Return ball to fountain, restore Zanthia's laboratory
+
+
+WHY IT'S CROSS-REALM LOGISTICS:
+
+1. GEOGRAPHIC SEPARATION: Two applications span distinct game zones:
+   - Acquisition: Timbermist Woods (opening game area)
+   - Application 1: Serpent's Grotto volcanic cave (mid-game dungeon)  
+   - Application 2: Faeriewood magical realm (separate dimension, late mid-game)
+   
+2. TEMPORAL SPREAD: Scroll received early (~5-10 minutes into game), used potentially 30+ minutes later across multiple world transitions
+
+3. NO IMMEDIATE PURPOSE INDICATION: When Darm gives scroll with "stones and altar" hint, player cannot predict:
+   - Lava crossing requirement (Serpent's Grotto not yet visited)
+   - Faeriewood fire puzzle (completely separate dimension)
+   
+4. INVENTORY PRESERVATION CRITICAL: Scroll must be maintained in inventory through entire mid-game section. Discarding after first use = IMPOSSIBLE to retrieve crystal ball without save/reload.
+
+5. MULTIPLE SOLUTION DOMAIN TYPES: 
+   - River crossing = navigation/obstacle puzzle
+   
+   - Branch fire = item retrieval/lockout puzzle
+   Same item solves two mechanically distinct problem types across different spatial contexts.
+
+
+DISTINCTION FROM META-CONSTRUCTION:
+Not sequential because scroll doesn't NEED volcanic river application first, then enable Faeriewood use. Both applications would function independently if player visited zones in opposite order (theoretically). The "logistics" is maintaining one item through multiple game states until BOTH unrelated puzzles present themselves.
+
+
+POTENTIAL PLAYER FAILURE MODES:
+- Discard scroll after lava freezing ("used up" assumption) → blocked from Faeriewood crystal ball
+- Forget scroll exists during Faeriewood exploration → stuck on burning branch puzzle
+- Use scroll incorrectly (e.g., on wrong fire source) → may consume scroll without solving intended puzzle
+
+
+RELATIONSHIP TO OTHER LK1 MECHANICS:
+Darm's scroll represents one of several "carry-through" items in Kyrandia I. Others include:
+- Amulet gems (activated through meta-construction, used across multiple puzzles)
+- Iron Key (obtained via scroll application #1, used later for castle gate)
+```
+
+---

@@ -30,15 +30,15 @@ Status legend:
 
 - [x] SpaceQuest 1: The Sarien Encounter (1986) - SQ1
 - [x] SpaceQuest II: Vohaul's Revenge (1987)
-- [ ] SpaceQuest III: The Pirates of Pestulon (1989)
+- [x] SpaceQuest III: The Pirates of Pestulon (1989) - SQ3 ***Documented March 2026***
 - [x] SpaceQuest IV: Roger Wilco and the Time Rippers (1991) - SQ4
 
 ## Sierra Games - Adventure RPG Series
 
 - [x] Quest for Glory 1: So You Think You're a Hero (1989) - QFG1
 - [x] Quest for Glory II: Trial by Fire (1990) - QFG2
-- [ ] Quest for Glory III: Wages of War (1992)
-- [ ] Quest for Glory IV: Shadows of Darkness (1994)
+- [x] Quest for Glory III: Wages of War (1992) - QFG3 ***Documented March 2026***
+- [x] Quest for Glory IV: Shadows of Darkness (1994) - QFG4 ***Documented March 2026***
 
 ## Revolution Software
 
@@ -48,9 +48,9 @@ Status legend:
 
 ## Other Studios
 
-- [ ] Simon the Sorcerer (1993) - SIMON ***Already covered***
-- [ ] Legend of Kyrandia: Book One (1992) - LK1 ***Already covered***
-- [ ] Gabriel Knight: Sins of the Fathers (1993)
+- [x] Simon the Sorcerer (1993) - SIMON ***Documented March 2026***
+- [x] Legend of Kyrandia: Book One (1992) - LK1 ***Documented March 2026***
+- [x] Gabriel Knight: Sins of the Fathers (1993) - GK1 ***Documented March 2026***
 - [x] The Longest Journey (1999) - TLJ
 - [x] Syberia (2002) - SYB
 
@@ -58,9 +58,9 @@ Status legend:
 
 ## Analysis Progress
 
-**Total:** 30 games  
-**Complete:** 26 games (KQVI, KQVII, KQVIII, KQIII, MI1, MI2, SIMON, LK1, MM, ZAK, INDY1, LOOM, SMHTR, TD, FT, INDY2, DOTT, SQ2, SQ4, QFG1, QFG2, BAS, BS1, TLJ, SYB, GF)  
-**Remaining:** 4 games
+**Total:** 31 games  
+**Complete:** 31 games  
+**Remaining:** 0 games
 
 ---
 
@@ -73,6 +73,12 @@ Status legend:
 | MI1 | Monkey Island 1 | LucasArts 1990 |
 | MI2 | Monkey Island 2 | LucasArts 1991 |
 | KQVI | King's Quest VI | Sierra 1992 |
+| LK1 | Legend of Kyrandia 1 | Westwood 1992 |
+| SIMON | Simon the Sorcerer | Adventure Soft 1993 |
 | GF | Grim Fandango | LucasArts 1998 |
 | TLJ | The Longest Journey | Funcom 1999 |
 | SYB | Syberia | Microids 2002 |
+| SQ3 | SpaceQuest III | Sierra 1989 |
+| QFG3 | Quest for Glory III: Wages of War | Sierra 1992 |
+| QFG4 | Quest for Glory IV: Shadows of Darkness | Sierra 1994 |
+| GK1 | Gabriel Knight: Sins of the Fathers | SIERRA-on-LINE 1993 |

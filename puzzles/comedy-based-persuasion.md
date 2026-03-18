@@ -210,4 +210,21 @@ This represents a variation where persuasion through comedy applies to PHYSICAL 
 - Solutions can seem arbitrary without strong tonal framing
 - May undermine player agency if ONLY humor works in serious situations
 
+### Simon the Sorcerer: Troll Bridge Whistle Negotiation (SIMON)
+
+**Problem**: The Troll blocks bridge passage on "strike"—refusing to negotiate logically or accept standard trade. Dialogue attempts at bargaining fail. Only by recognizing the comedic nature of both characters and providing a prop that matches the absurdity can progress occur.
+
+<small>Source: walkthroughs/simon1/simon1.txt, lines 98-102 — "Talk to the troll, and it is interested in Simon's whistle..."</small>
+
+#### Comedic Context Setup:
+The Troll explicitly declares a labor strike over unfair treatment by goats (Billy Goats Gruff reference). This establishes him as having bureaucratic/union-complaint humor rather than monster-hostility. 
+
+**Tonal Matching Required**: Player must recognize the Troll wants COMEDIC SATISFACTION not logical passage—offering something that creates funny situation works where direct requests fail.
+
+The Whistle (from Barbarian) triggers a comedic cascade: Troll blows it → absurd noise → Barbarian attacks Troll = "the strike gets violent resolution through musical instrument." This is the joke-based solution matching the NPC's established humor profile (cartoon villain with labor grievance rather than traditional monster).
+
+**Why It's Comedy-Based Persuasion**: The dialogue succeeds not because of logical argument or trade value, but because providing a WHISTLE creates the scenario where Troll's own action triggers his defeat. Comedic irony is the persuasion mechanism—Troll becomes participant in his own downfall via toy he was curious about.
+
+---
+
 **Best Practice**: Establish character comedy profiles early. Signal acceptable interaction style through introduction scenes or other NPC interactions with similar personality types.

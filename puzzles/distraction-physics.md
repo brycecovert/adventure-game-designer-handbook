@@ -220,3 +220,97 @@ ENVIRONMENTAL MANIPULATION SUMMARY:
 - **Timed Consequence**: Both use timing windows, but TC is about narrative urgency without mechanical deadline; DNP creates player's own temporary opportunity through active manipulation  
 - **Multi-Faceted Plan**: DNP often simpler "one action breaks blockage" vs MFP's multi-requirement synthesis from disparate sources
 - **Observation Replay**: Related when exploiting NPC behavior cycles, but OR waits for natural timing while DNP CREATES distraction conditions proactively rather than passively observing existing patterns
+
+### Simon the Sorcerer: Pub Barman Beeswax Beer Scheme (SIMON)
+
+**Problem**: The pub barman controls access to a barrel of beer and a brewery voucher needed for the Dwarf Mine plot. Direct theft or trade fails—barman only abandons these items after believing the barrel is damaged/leaking. Exploiting his diagnostic behavior creates the opportunity window.
+
+<small>Source: walkthroughs/simon1/simon1.txt, lines 614-620 — "When you have the wax, go to the pub and ask the bartender for a drink. While he looks for ingredients, use the wax on the beer barrel to plug it up. This tricks him into thinking the barrel is empty... The bartender puts the barrel of beer outside, and he gives Simon a brochure containing a free beer voucher."</small>
+
+<small>Source: walkthroughs/simon1/simon1_2.txt, lines 196-203 — "Enter the bar and talk to the barman. Say Mix me a Wet Wizard, barkeep. Quickly use the wax on the beer barrel behind the bar to get a beer voucher. Exit the bar and get the beer barrel."</small>
+
+```
+BLOCKING CONDITION ANALYSIS:
+
+LOCATION: Drunken Druid Pub (Village)
+GOAL: Acquire BARREL OF BEER + VOUCHER LEAFLET from barman's inventory
+OBSTACLE: Barman actively guards both items, no dialogue trade option available
+
+NPC BEHAVIOR PATTERN IDENTIFIED:
+- When asked to make a drink, barman consistently: 
+  - Turns away from counter
+  - Looks behind bar for "ingredients"
+  - Returns to front with completed beverage
+  
+This animation loop creates ~3-5 second window where his attention is diverted  
+from the beer barrel directly behind him.
+
+
+ENVIRONMENTAL MANIPULATION CHAIN:
+
+PHASE 1 - DISTRACTION INITIATION:
+→ Enter pub, navigate to bar counter  
+→ TALK to barman, select dialogue option: "Mix me a Wet Wizard, barkeep"
+→ Barman animation triggers (back turned, searching behind counter)
+
+
+PHASE 2 - TIMED INTERVENTION WINDOW:
+→ [CRITICAL TIMING]: Use WAX on beer barrel spigot while barman distracted
+  
+Why This Works: Wax plugs the spigot—barrel appears non-functional (no liquid flows when pressed)
+The intervention must occur during distraction window, or barman notices player tampering.
+
+
+PHASE 3 - NPC DIAGNOSTIC RESPONSE BEHAVIOR:
+→ Barman returns, attempts to serve from now-plugged barrel  
+→ Dialogue indicates: "Barrel's gone dry / broken—what a shame"
+→ BARREL DISPLACED OUTSIDE PUB (barman removes it from premises)
+  
+
+
+PHASE 4 - ITEM ACQUISITION WINDOW:
+→ VOUCHER given to player as compensation ("free drink coupon for another time")
+→ Exit pub immediately → BARREL now available for collection (outside door)
+
+Why Both Items Become Available Simultaneously: The barman's diagnostic conclusion 
+("barrel is broken/empty") triggers BOTH actions: discarding barrel AND compensating customer.
+
+
+WHY IT'S DISTRACTION PHYSICS:
+
+NPC ATTENTION REROUTE THROUGH ENVIRONMENTAL SETUP:
+Player doesn't distract barman with an object thrown elsewhere (like pulling totem nose). 
+Instead, creates CONDITIONS for item acquisition by exploiting NPC's built-in behavior loop. 
+
+The key distinction: Barman's "looking for ingredients" animation is NATURAL BEHAVIOR, not 
+something player FORCED him to do via environmental manipulation. Player TIMED their intervention
+(to use wax) during this naturally-occurring attention shift window.
+
+
+TEMPORARY OPPORTUNITY CREATION:
+Once wax applied, barman discovers problem and creates NEW opportunity state (barrel outside = accessible).
+This is distinct from Observation Replay where player watches NPC perform then waits for them to leave.
+Here player ACTIVELY CHANGES the barrel's physical state during window, which THEN triggers 
+new behavior chain from NPC.
+
+
+TIMING MECHANIC AS DISTRACTION CORE:
+Walkthrough emphasizes "Quickly use the wax" or timing language—underscores narrow window where
+barman's back is turned. This isn't about creating a lasting diversion (like knocking over object that he then investigates for 30 seconds). It's about EXECUTING THE CRITICAL ACTION during brief attention gap in his pattern.
+
+
+COMIC DELIVERY:
+Absurdity derives from wax-plugged-spigot = "empty/barrel-broken" conclusion. No logical person 
+would think a beer barrel is empty because one spigot fails—but the game's internal causality accepts this as valid barman reasoning. Barman never suspects foul play, only mechanical failure.
+
+
+FAILURE MODE:
+If player attempts to use wax while barman faces counter (no distraction active), interaction blocked:
+"Barman notices you tampering with his supplies and kicks you out."
+
+This demonstrates the timing requirement—the environmental exploit works ONLY during attention window.
+```
+
+**Why It's Distraction Physics**: The puzzle requires exploiting the barman's existing behavior pattern (turned away to find ingredients) rather than creating a new distraction from scratch. Environmental manipulation (wax on spigot) occurs DURING naturally-occurring attention gap, triggering consequences (abandoned barrel outside). This differs from creating external noise or pulling levers—player hijacks NPC's routine moment of vulnerability through precise timing.
+
+---

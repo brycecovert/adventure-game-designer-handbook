@@ -113,3 +113,141 @@ While both involve written documents, MI1's memo chain requires SYNTHESIZING mul
 
 **Distinction from Information Brokerage**:
 No NPC exchange network exists here. Player doesn't ask "who knows where brigands meet?" The notes are PHYSICAL OBJECTS discovered through examination, not knowledge obtained through dialogue trades. Tavern owner never mentions notes exist—they're pure environmental traces without social mediation.
+
+---
+
+### Quest for Glory IV: Hotel Mordavia Exercise Machine & Weight Training (QFG4)
+
+**Setup**: In the player's hotel room at Hotel Mordavia, an exercise machine sits unused. Through reading its manual and progressive use over multiple days, the player can increase Strength stat—not through quest reward, but through environmental interaction discovery.
+
+<small>Source: qfg4-gamefaqs-sac.txt lines 2187-2194 — "Read exercise manual add weights progressively over days for maximum strength gain"</small>
+
+```
+ENVIRONMENTAL DISCOVERY PHASE - Object Examination:
+Step 1 → Enter Hotel Mordavia room (automatically purchased upon first hotel visit)
+         Room contains: bed, chest, exercise machine in corner
+        
+Step 2 → EXAMINE exercise machine or USE it directly
+         Initial feedback: Machine exists but effectiveness unclear
+
+INFORMATION ACQUISITION - Manual Reading:
+Step 3 → READ instruction manual for exercise equipment
+         (Manual may be found on/next to machine via LOOK action)
+         
+         Information revealed:
+         - Machine requires progressive weight increases for optimal results
+         - Weights are stored in room or can be added incrementally
+         - Daily usage limits apply (body needs rest between sessions)
+
+ENVIRONMENTAL INTERACTION SEQUENCE - Progressive Training:
+Step 4 → Day 1: Use machine with starting weights
+         Result: Some strength increase, feedback about "need more resistance"
+         
+Step 5 → Add additional weight plate to machine (environmental object manipulation)
+         
+Step 6 → Day 2+: Return after night cycle has passed
+         Game-enforced rest period: Cannot overtrain in single day
+
+Step 7 → Repeat: Use machine → add more weight → sleep → return next day
+         Progressive strength gains track with weight increases
+
+ENVIRONMENTAL FEEDBACK LOOP - Physical Limit Detection:
+Step 8 → Eventually receive feedback: "You've reached maximum for today" or similar
+         Mechanic reveals: Daily usage cap exists, must wait 24 hours (in-game)
+
+Step 9 → Continue cycling through available weight plates until all added
+         Final reward: Maximum Strength increase achievable through this method
+
+ENVIRONMENTAL STORYTELLING ELEMENTS:INFORMATION HIDDEN IN PHYSICAL SPACE:
+Strength training isn't offered through quest NPCs—player must DISCOVER it by examining room contents.
+
+PROGRESSIVE ENVIRONMENTAL CHANGES:Machine configuration changes as player adds weights.
+This visible modification teaches the progression system (more weight = more benefit).
+
+TEMPORAL LAYER - Day/Night Cycle Matters:Cannot brute-force strength in hours; environment enforces realistic rest periods.
+Teaches player that some environmental interactions are time-gated by world mechanics.
+
+WHY IT'S ENVIRONMENTAL STORYTELLING:KNOWLEDGE NOT CONVEYED THROUGH DIALOGUE:No NPC offers "go exercise at hotel" quest.
+Information exists ONLY in physical space (machine + manual).
+
+EXAMINATION-DRIVE DISCOVERY:Player must actively LOOK/USE objects to uncover training mechanic.
+World contains hidden depth—environment is richer than surface exploration suggests.
+
+SPATIAL ANCHORING - Location-Specific Training:Exercise machine location matters; hotel room becomes "training ground" through discovery.
+This contrasts with generic "go to gym" quests—here, the puzzle IS noticing the existing environmental feature.
+
+COMPARISON TO QFG1 BRIGAND NOTE:Both use PHYSICAL DOCUMENTS as information sources rather than NPC dialogue.
+QFG1 = stolen note with meeting time/location
+QFG4 = manual with training instructions  
+Both rewards LOOK/EXAMINE actions; both teach players that environment contains untapped knowledge.
+
+This puzzle exemplifies subtle Environmental Storytelling: it's optional, low-stakes, but demonstrates
+that environmental examination pays off—training player to look more carefully in high-stakes situations too.
+```
+
+<small>Cited from: qfg4-gamefaqs-sac.txt:2187-2194</small>
+
+---
+
+### Quest for Glory IV: Olga & Boris Estranged Couple Reconciliation (QFG4)
+
+**Setup**: Gatekeeper Boris Stovich and shopkeeper Olga share the same last name. Environmental clues (name matching, NPC dialogue about estrangement) reveal they're a separated couple that the player can reconcile through messenger roleplay. Purely honor-based with no puzzle mechanic lock, but excellent environmental storytelling.
+
+<small>Source: qfg4-gamefaqs-sac.txt lines 2343-2350 — "Tell Olga about Boris... tell him about Olga... bouncing back and forth until the two agree to get back together"</small>
+
+```
+ENVIRONMENTAL CLUE DISCOVERY - Name Observation:
+Step 1 → Speak to Boris Stovich at town gates (gatekeeper)
+         Player learns his full name: "Boris Stovich"
+         
+Step 2 → Visit General Store, speak to Olga the shopkeeper  
+         Player learns her full name: "Olga Stovich" (same last name!)
+
+ENVIRONMENTAL STORYTELLING - Dialogue Context Clues:
+Step 3 → Mention Boris's name to Olga during conversation
+         Environmental emotional trigger: Olga becomes "snippy" or defensive
+        
+Dialogue Revealed:"My estranged husband" comment from Olga confirms relationship.
+Information not explicitly stated as puzzle; emerges through casual environmental dialogue.
+
+PLAYER AS MESSENGER - Facilitating Environmental Reconciliation:
+Step 4 → Report to Boris that Olga was asked about him
+         Result: Boris shows interest, asks to send message back
+
+Step 5 → Return to Olga with Boris's "greetings" (player-selected dialogue)
+         Each exchange reveals more emotional context from both sides
+        
+Step 6 → Repeat messenger exchanges ~3-5 times
+         Environment changes: NPC attitudes soften, dialogue becomes warmer
+
+ENVIRONMENTAL RESOLUTION - Natural Convergence:
+Step 7 → Eventually NPCs independently agree to reconcile
+         Triggered by player's message-passing but resolution is NPC-driven
+
+Step 8 → Boris and Olga reunite; may see them together later in game
+         OR hear confirmation from other town NPCs about reconciliation
+
+ENVIRONMENTAL STORYTELLING ELEMENTS:INFORMATION EMERGES FROM DIALOGUE CONTEXT:
+Player isn't given "reconcile couple" quest explicitly.
+Clue exists in environment (shared last name) + emotional dialogue responses.
+
+SPATIAL ANCHORING - Two Locations, One Story:Boris at gates, Olga in store—player connects them through repeated WALK actions.
+Physical traversal between locations mirrors narrative bridging of estrangement.
+
+PROGRESSIVE ENVIRONMENTAL CHANGE - NPC Attitudes Shift:World FEELS different after reconciliation; NPCs reference the restored relationship.
+This is environmental storytelling because the WORLD STATE changed, not just player inventory/flag.
+
+WHY IT'S ENVIRONMENTAL STORYTELLING (NOT INFORMATION BROKERAGE):NO EXPLICIT PUZZLE STRUCTURE:No "I'll give you X if you do Y" exchange network.
+Information brokerage requires NPC trade logic; this is organic relationship evolution facilitated by player observation.
+
+OBSERVATION OVER MECHANIC:Success depends on NOTICING name similarity and being curious enough to bridge the connection.
+Not a requirement-based puzzle but a world-enrichment discovery.
+
+HONOR-BASED REWARD (Non-Mechanical):Puzzle Points? None. Key item? Nothing tangible.
+Reward is WORLD IMPROVEMENT: estranged couple reunited, NPCs happier, player Honor stat increases.
+
+This exemplifies "soft" Environmental Storytelling—no gates locked until solved, but the world feels more complete
+when environmental clues are noticed and acted upon. Teaches players that exploration has narrative value beyond item acquisition.
+```
+
+<small>Cited from: qfg4-gamefaqs-sac.txt:2343-2350</small>

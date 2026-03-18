@@ -37,6 +37,73 @@ Return Phase:
 
 **King's Quest VI Parallel**: None identified in walkthrough.
 
+---
+
+### Quest for Glory IV: Dr. Cranium's Doorbell Sequence (QFG4)
+
+**Setup**: To enter Dr. Cranium's laboratory, the player must ring doorbells in the exact sequence they play when activated. This is a pure observation-replay puzzle where the correct order is demonstrated once at the door.
+
+<small>Source: qfg4-gamefaqs-anonymous.txt, lines 641-647 — "Ring doorbells in exact sequence they play (listen and repeat)"</small>
+
+```
+OBSERVATION PHASE - Sequence Demonstration:
+→ Approach Dr. Cranium's office exterior  
+→ Click on door or bell rope to initiate demonstration
+→ Four bells ring in specific melodic sequence:
+  Bell Order Heard: 2nd → 4th → 1st → 3rd (example)
+→ Audio cue is distinct for each bell position  
+→ Dialogue feedback: "You must match the sequence to enter!"
+
+REPLAY EXECUTION PHASE - Memory Test:
+→ Return to bell ropes after demonstration completes
+→ Click bells in EXACT same order observed during demo
+→ Success condition: All four clicked correctly in sequence, no errors
+→ Failed attempt: Door remains locked; can retry but must remember sequence
+
+Reward upon completion (6 puzzle points): Laboratory access granted.
+```
+
+**Why It's Observation Replay**: Single demonstration of correct sequence under "observation only" conditions. Player cannot interact during demo—must memorize exact bell order, then reproduce precisely when interaction becomes available. No partial hints given; perfect recall required for success.
+
+<small>Cited from: qfg4-gamefaqs-sac.txt:2201-2204</small>
+
+---
+
+### Quest for Glory IV: Will-o'-Wisp Capture (QFG4)  
+
+**Setup**: To reveal the Sense Ritual at a Squid Stone location, the player must capture Will-o'-Wisps at night using candy, then release them in daytime. The puzzle combines timed consequence with observation replay of wisp movement patterns.
+
+<small>Source: qfg4-gamefaqs-anonymous.txt, lines 1075-1076 — "Use candy to lure wisp at night catch in empty flask"</small>
+
+```
+OBSERVATION PHASE - Behavior Learning:
+→ Visit swamp edge at NIGHT (time-gated) only
+→ Observe Will-o'-Wisps floating above dark water  
+→ Note attraction pattern: Wisps approach source of sweets/candy slowly
+→ Observe collection opportunity: Use Empty Flask near wisp when it's close enough
+
+REPLAY EXECUTION PHASE - Timing and Conditions:
+Step 1 → Ensure candy in inventory (purchased from General Store)
+Step 2 → Return to swamp edge at night, confirm Wisps visible
+Step 3 → Use candy on ground/near water surface → Wisps approach lured by sweet smell
+Step 4 → Wait for wisp to come within capture range (~3-5 seconds of wandering)
+Step 5 → Use Empty Flask on approaching wisp → captures it inside
+Time Criticality: Must release Wisps before daybreak or they die in flask!
+
+Deferred Application - Ritual Revelation:
+Step 6 → Visit Squid Stone area with captured Wisps during appropriate conditions
+Step 7 → Release Will-o'-Wisps from flask onto ritual marker  
+Result: Light reveals hidden Mad Monk's tomb entrance/Bone Ritual location
+
+Why It's Observation Replay + Timed Consequence hybrid:Player must OBSERVE wisp attraction behavior then REPLAY the luring sequence correctly.
+CRITICAL TIMING: Wisps must be released BEFORE dawn otherwise puzzle fails permanently.
+This combines OR (observe-reproduce) with TC (narrative urgency without hard deadline but real consequence).
+```
+
+<small>Cited from: qfg4-gamefaqs-anonymous.txt:1075-1080, qfg4-gamefaqs-sac.txt:1946-1952</small>
+
+**Monkey Island Examples**:
+
 **Monkey Island Examples**:
 - **Safe Combination**: Storekeeper opens safe while player watches (notes combination). Later, when storekeeper leaves shop unsupervised after going to find Sword Master, player returns and enters exact PULL/PUSH sequence he observed.
 
@@ -403,3 +470,94 @@ Unlike BAS's guard patrol timing, SYB uses Momo as a MECHANICAL intermediary tha
 - The discovery (scales match) only possible because player observed AND replayed the removal location
 
 **Distinction from Pattern Learning**: Player doesn't learn a SYSTEM with multiple applications. They observe ONE specific sequence with ONE required reproduction. Grace's action is not part of a reusable mechanic—it's a narrative event that must be witnessed to enable later solution.
+
+---
+
+### Legend of Kyrandia: Merith Marble Chase Path (LK1)
+
+**Problem**: After healing the rotten willow tree with a teardrop from Pool of Sorrows, the spirit Merith appears and mentions finding a marble needed to repair Brynn's silver altar. To obtain it, Brandon must play a game of tag—following Merith's exact movement pattern and sneaking up from behind to claim the marble.
+
+<small>Source: classicgamesparadise_walkthrough.html, line 47 — "At the rotten willow tree, try using the teardrop you found at the Pool of Sorrows to heal the tree. After it is healed, Merith shows up and mentions a marble he found. To get it, you will need to play a little game of tag. He will lead you to the northeast where you can sneak up on him."</small>
+
+<small>Source: classicgamesparadise_walkthrough.html, line 55 — Summary step: "Chase Merith for the marble"</small>
+
+```
+OBSERVATION PHASE - Initial Encounter and Path Demonstration:
+
+Step 1 → Prerequisite Completion:
+- Earlier in game: Obtain teardrop from Pool of Sorrows (separate puzzle chain)
+- Navigate to rotten willow tree location (Timbermist Woods area)
+- Use teardrop on diseased tree → healing transformation cutscene triggers
+
+Step 2 → Merith Appearance:
+- Tree spirit Merith materializes after healing complete
+- Dialogue exchange: Merith mentions discovering marble, implies it belongs on altar
+- No explicit handover; Merith initiates chase game instead
+
+Step 3 → Path Demonstration (Observation Critical):
+- Merith begins moving in SPECIFIC DIRECTION (northeast from willow tree)
+- Movement pattern establishes exact route through forest terrain
+- Brandon cannot interact with Merith during this phase ("too fast!") or if approaching from wrong angle (Merith flees)
+
+REPLAY EXECUTION - Path Following and Capture:
+
+Step 4 → Follow Observed Route:
+- Player must navigate Brandon along SAME northeast path Merith demonstrated
+- Key spatial detail: Merith's movement establishes correct navigation through maze-like woods
+
+
+Step 5 → Position for Approach:
+- Continue following until reaching endpoint of chase path
+- Merith slows/stops at destination point (northeast forest clearing)
+
+Step 6 → Sneak-Up Maneuver (Timing/Angle Critical):
+- Player must approach from BEHIND Merith's position
+- Attempting frontal interaction or wrong angle → Merith runs again, requires respawning/chase restart
+  
+Step 7 → Marble Acquisition:
+- Successful sneak approach triggers capture event
+- Marble automatically added to inventory
+- Merith departs, puzzle resolved
+
+
+WHY IT'S OBSERVATION REPLAY:
+
+SINGLE VIEWING ESTABLISHES SOLUTION:
+Merith's initial northeast movement is the ONLY demonstration of correct path. No map marker, no compass hint, no repeated dialogue explaining direction. Player must MEMORIZE the exact route Merith took during opening chase phase.
+
+
+EXACT REPRODUCTION REQUIRED:
+Path following isn't "general area navigation." The walkthrough specifies "northeast" as critical detail—wrong directional choice leads to dead ends or requires backtracking to restart pursuit.
+
+Angle/Timing Component Adds Memory Load:
+Beyond path memorization, player must remember APPROACH MECHANIC: sneak from behind. This is demonstrated implicitly by game's blocking behavior (can't grab Merith during chase, fails if approached incorrectly). Successful reproduction requires combining BOTH spatial memory (where) AND interaction memory (how).
+
+
+NO TRIAL-AND-ERROR DISCOVERY:
+Unlike exploration puzzles where player experiments with different paths, here the SOLUTION EXISTS IN THE CUTSCENE. Trial-and-error only works through multiple save/loads or by correctly retaining path information from initial observation.
+
+FAILURE MODES DEMONSTRATE MEMORY REQUIREMENT:
+- Wrong direction from willow tree → cannot find Merith, must revisit and reobserve chase start
+- Correct path but wrong approach angle → Merith flees, sequence potentially resets
+- Frontal approach attempt → blocked by game state ("can't catch him!")
+
+
+DISTINCTION FROM DISTRACTION PHYSICS:
+Player doesn't CREATE distraction condition or manipulate environment. Merith's movement pattern is pre-scripted game loop—Brandon must ADAPT to it, not cause it. The puzzle tests OBSERVATION → MEMORY → REPRODUCTION chain, not environmental manipulation or timing-based NPC state change.
+
+
+POTENTIAL IMPLEMENTATION VARIANTS:
+This chase structure could easily be a Pattern Learning if marble-catching mechanics applied elsewhere (e.g., "catch other escaping sprites using same path-follow rule"). But in LK1's context, it's single-instance observation replay: one cutscene establishes solution, one reproduction sequence succeeds.
+
+
+CONNECTION TO LARGER PUZZLE CHAIN:
+Marble itself feeds into METALOGIC puzzle: Silver Altar Repair at Brynn's Temple:
+1. Get teardrop from Pool of Sorrows (earlier chain)  
+2. Heal willow tree → triggers Merith appearance
+3. Chase Merith for marble (this observation replay)
+4. Return marble to Brynn's temple altar
+5. Place silver rose on repaired altar → activates amulet
+
+The chase is ONE LINK in larger meta-construction, but its internal mechanic is pure observation replay.
+
+

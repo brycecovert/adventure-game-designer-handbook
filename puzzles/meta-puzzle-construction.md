@@ -99,6 +99,142 @@ Result: Player swings to Security HQ building, crashes through window
 - The CABLE dropping to Middle Level creates temporal dependency—you MUST visit upper level first, then return later during middle-level exploration
 - Each intermediate item (cable, anchor) has exactly one purpose in this chain
 
+---
+
+### Quest for Glory IV: Dark One's Rituals Collection Chain (QFG4)
+
+**Setup**: Seven ancient rituals must be collected to build the Dark One construct capable of defeating the final villain. Unlike parallel Multi-Faceted Plan puzzles, these rituals require specific sequential discoveries where information from one location enables accessing another ritual.
+
+<small>Source: qfg4-gamefaqs-sac.txt, lines 2276-2300 — "First Ritual: Placed within the Mad Monk's tombstone... Next Ritual: Placed within the Squid Stone..."</small>
+
+```
+RITUAL ACQUISITION CHAIN:
+
+Step 1 - Mouth Ritual (Output: Mouth Scroll)
+Location: Castle Borgov gate
+Prerequisite: Meet Katrina multiple times (days 6-8)
+Action: Speak to Katrina at castle gates after establishing relationship
+Result: Receives Mouth Ritual scroll directly
+Citation: qfg4-gamefaqs-sac.txt:2617-2620
+
+Step 2 - Blood Ritual (Output: Blood Scroll)  
+Location: Monastery basement
+Prerequisite: Enter monastery (Dark One Sign on door)
+Action: Drink from Cask of Amon Tillado → receive vision scroll forms from droplets
+Result: Blood Ritual scroll discovered in basement
+Citation: qfg4-gamefaqs-sac.txt:2292-2296
+
+Step 3 - Sense Ritual (Output: Sense Scroll)   
+Location: Mad Monk's Tomb (swamp area)
+Sequential Dependency: Requires information from monastery diary (sense = Mad Monk's tomb)
+Action: Fight guarding chernovy, use Dark One Sign + spell sequence "AVOOZL"
+Result: Sense Ritual scroll obtained from tomb interior
+Citation: qfg4-gamefaqs-anonymous.txt:1057-1068
+
+Step 4 - Heart Ritual (Output: Heart Scroll)
+Location: Wraith Barrow (Fighter/Thief path) OR Erana's Staff area (Wizard path)
+Sequential Dependency: Must have learned about "Gregor" from monastery diary
+Action: 
+  Fighter/Thief: Defeat Wraith at barrow, take ritual from tomb
+  Wizard: Use Heart Crystal on Erana's Staff base in fairy fountain
+Result: Heart Ritual scroll obtained
+Citation: qfg4-gamefaqs-sac.txt:2678-2690
+
+Step 5 - Breath Ritual (Output: Breath Scroll)
+Location: Baba Yaga's Hut
+Sequential Dependency: Requires completing Baba Yaga pie quest (see below)
+Action: Feed grue goo pie to Baba Yaga → she reveals Breath Ritual in hut kitchen
+Result: Breath Ritual scroll obtained
+Citation: qfg4-gamefaqs-anonymous.txt:1056-1055
+
+Step 6 - Bone Ritual (Output: Bone Scroll)
+Location: Squid Stone area
+Sequential Dependency: Requires Will-o'-Wisp + Dark One Sign activation
+Action: Capture wisp at night with candy, use on squids → light reveals Mad Monk's tomb location  
+Result: Bone Ritual scroll discovered at tomb marker
+Citation: qfg4-gamefaqs-anonymous.txt:1070-1080
+
+Step 7 - Essence Ritual (Output: Essence Scroll)
+Location: Dark One's Cave interior (past Boyar ghost)
+Sequential Dependency: Requires completing ALL previous rituals first
+Action: Navigate cave past obstacles, defeat Boyar ghost to retrieve scroll
+Result: Final ritual completes collection
+Citation: qfg4-gamefaqs-anonymous.txt:1090-1098
+
+WHY IT'S META-CONSTRUCTION (NOT MULTI-FACETED PLAN):While rituals can be collected in flexible order, the INFORMATION CHAIN is linear:
+Diary → reveals ritual locations → enables access to each ritual site
+Will-o'-Wisp quest output → enables Squid Stone revelation → Bone Ritual access  
+Baba Yaga pie quest output → Breath Ritual reward
+
+SOME SEQUENTIAL DEPENDENCIES ARE RIGID:
+Must complete Baba Yaga side-quest before receiving Breath Ritual
+Must obtain Will-o'-Wisp (night-only) AND Dark One Sign to reveal Sense Ritual clues
+Monastery diary information gates all ritual location awareness
+```
+
+<small>Cited from: qfg4-gamefaqs-sac.txt:2276-2300, qfg4-gamefaqs-anonymous.txt:1030-1098</small>
+
+---
+
+### Quest for Glory IV: Baba Yaga's Pie Construction (QFG4)
+
+**Setup**: To bribe Baba Yaga with pie requiring three impossible-to-find ingredients. Each ingredient requires completing its own sub-puzzle before being combinable.
+
+<small>Source: qfg4-gamefaqs-sac.txt, lines 2560-2592 — "Grind bones in mortar/pestle... catch grue goo in flask... elderbury berries from the attacking bush"</small>
+
+```
+INGREDIENT ACQUISITION CHAIN:
+
+Step 1 - Pie Pan Acquisition (Output: Empty Pie Pan)
+Location: General Store, Mordavia town
+Action: Purchase from Olga for ~8 crowns
+Result: Base container for pie assembly
+
+Step 2 - Bonemeal Preparation (Output: Flask of Bonemeal)
+Sub-Chain:
+  a) Collect bones from southeast swamp shore or Wraith barrow
+  b) Use bones on mortar/pestle at Baba Yaga's hut exterior → bones ground to powder
+  c) Transfer powdery bonemeal into empty flask (powder can't be carried otherwise)
+Result: Flask of Bonemeal ready for mixing
+
+Step 3 - Grue Goo Collection (Output: Flask of Goo)  
+Location: Squid Stone area (accessible after leaving opening cave)
+Sequential Dependency: Requires Dr. Cranium's empty flask first
+Action: Use Empty Flask on green ooze pool at Squid Stone → fills with goo
+Result: Flask of Goo obtained
+
+Step 4 - Elderberry Harvesting (Output: Elderberries)
+Location: Elderbury Bush (west forest edge, guarded by vampire bush attacks when approached)
+Class-Specific Methods:
+  Fighter/Thief: Throw rocks at bush while approaching → berries dislodge → collect quickly  
+  Wizard: Force Bolt knocks berries off → Fetch spell retrieves them
+Result: Elderberries added to inventory
+
+Step 5 - Pie Assembly (Output: Unbaked Pie)
+Location: Baba Yaga's hut kitchen area
+Dependencies: All three ingredients + pie pan must be in inventory
+Action: Combine Flask of Bonemeal + Flask of Goo + Elderberries into Pie Pan → unbaked mixture
+
+Step 6 - Baking (Output: Baked Grue Goo Pie)
+Location: Skull ovens outside Baba Yaga's hut  
+Dependencies: Unbaked pie ready, specific skull oven selected
+Action: Use pie on ONE of the large skulls arranged around hut → bakes automatically
+Result: Perfectly baked grue goo pie
+
+Step 7 - Bribe Application (Output: Breath Ritual + good will)
+Dependncies: Baked Pie in inventory, have already met Baba Yaga at least once
+Action: Use pie on Baba Yaga when speaking to her
+Result: Receives Breath Ritual scroll; hut becomes accessible for future visits
+
+WHY IT'S META-CONSTRUCTION:Each ingredient must be produced before combination is possible.
+The flask system creates hard dependency: need empty flask first→ fill with goo OR bonemeal.
+Cannot "pre-gather" components—inventoried powder spoils without flask storage.
+Sub-chain for bonemeal (bones → mortar → flask transfer) is pure Meta-Construction.
+Baba Yaga pie serves as gatekeeper puzzle for Breath Ritual acquisition.
+```
+
+<small>Cited from: qfg4-gamefaqs-anonymous.txt:954-967, qfg4-gamefaqs-sac.txt:2560-2592</small>
+
 **16-bit SCUMM Engine Note**: The inventory combination system treats object pairing as transformation rules (Anchor + Cable = Hook via USE command). Classic Sierra/Revolution pattern where creative combinations unlock new verbs/actions not initially available.
 
 ---
@@ -558,4 +694,598 @@ Clockwork/Mechanical Motif: All items are themselves automatons or music-box mec
 Cutscene-Based Validation: Unlike MI2's physical outputs (crackers, water), SYB validates through NARRATIVE CUTSCENES—each item placement plays video sequences that confirm correct positioning. The museum functions as both puzzle and storytelling device simultaneously.
 ```
 
+### Simon the Sorcerer: Goblin Cave Key Escape Chain (SIMON)
+
+**Problem**: Simon is locked in a goblin cave after being kidnapped via the grocery delivery box. The door has a key inside the lock, inaccessible without triggering it to fall out. A sequence of item interactions is required where each step produces the condition for the next.
+
+<small>Source: walkthroughs/simon1/simon1.txt, lines 676-691 — "Open the box to stand up. Pick up the rat bone. Look at the boxes to get the spell book, then open the spell book to get a piece of paper... Use the paper on the door, to push the paper through the crack at the bottom of the floor. Then, use the rat bone on the lock. This causes the key to fall out of the lock and onto the paper on the floor."</small>
+
+<small>Source: walkthroughs/simon1/simon1_2.txt, lines 153-160 — "Open the box. Get the rat bone. Look at the boxes and get the spell book. Open the spell book to find the paper... Use the paper on the door. Use the rat bone on the lock. Get the paper to get the key."</small>
+
+```
+SEQUENTIAL PRODUCTION CHAIN:
+
+STEP 1 - RAW MATERIAL ACQUISITION (RAT BONE)
+Prerequisite: None, item available immediately upon entering cave
+Action: OPEN box (giant delivery crate Simon arrived in), stand up fully
+Result: RAT BONE visible on floor, COLLECT IT
+Output Item: Rat Bone (physical tool for lock manipulation)
+
+
+STEP 2 - INFORMATION ARTIFACT RETRIEVAL (SPELL BOOK)  
+Prerequisite: Having opened the delivery box and gained full standing room
+Action: LOOK at other boxes in cave → dialogue indicates something inside
+Result: SPELL BOOK obtained from box contents
+Output Item: Spell Book (container for paper, not used directly)
+
+
+STEP 3 - INTERMEDIATE ITEM EXTRACTION (PAPER)
+Prerequisite: Possessing Spell Book from Step 2  
+Action: OPEN Spell Book in inventory → reveals loose PAGES/PAPER falling out
+Result: PLAYER AUTOMATICALLY ACQUIRES PAPER item
+Output Item: Paper (flexible thin object that can pass through crack)
+
+Why Not Direct Extraction? The paper exists ONLY as a component inside the book.
+Opening the book is a transformation action: Book Container → Released Contents
+
+
+STEP 4A - DOOR PREPARATION (PAPER UNDER CRACK)
+Prerequisite: Paper obtained from Step 3
+Action: USE paper on door → paper slides through bottom crack to interior floor
+Critical: Paper must be positioned BEFORE lock manipulation
+Result: Paper now lies INSIDE the locked room, directly below the keyhole
+Output State: Paper trap set up (no new item created, but environmental condition established)
+
+
+STEP 4B - LOCK MANIPULATION TRIGGER (RAT BONE JAM)  
+Prerequisite Rat Bone from Step 1 positioned for rapid access
+Action: USE rat bone on lock → jam bone into keyhole mechanism
+Result: Bone pushes KEY out of the lock, key falls downward onto paper
+
+Why The Paper Matters: Without paper underneath, key would fall to floor but be
+inaccessible (player outside locked room). Paper with key on it can then be retracted.
+
+
+STEP 5 - OUTPUT RETRACTION (PAPER + KEY COMBINATION)
+Prerequisite: Both Step 4A and 4B completed successfully  
+Action: GET paper from floor (outside door but previously inserted through crack)
+Result: PAPER retrieved WITH KEY riding on top → PLAYER NOW HAS KEY ITEM
+
+Transformation Rule: Paper acts as conveyor belt, carrying key through same
+crack it entered. Key has no independent means of passing through crack.
+
+
+STEP 6 - FINAL ACTION (DOOR UNLOCKING)
+Prerequisite: KEY obtained from Step 5  
+Action: USE key on lock → standard unlock mechanic
+Result: Door opens, access to rest of goblin cave granted
+
+Why This Is The Terminal Output: Key's only purpose is door opening. Once used,
+puzzle complete. No further transformations or chaining occurs.
+
+
+WHY IT'S META-CONSTRUCTION (NOT MULTI-FACETED PLAN):
+
+LINEAR DEPENDENCY STRUCTURE: Each step's OUTPUT is EXACTLY ONE STEP 1's INPUT:
+1. Rat bone → [Step 4B] lock-jamming tool (acquired Step 1, used Step 4)
+2. Book → [Step 3] opens to create paper (acquired Step 2, transformed Step 3)  
+3. Paper → [Step 4A/5] conveyor for key retrieval (created Step 3, used Steps 4-5)
+4. Key on paper → [Step 6] door opening (retrieved Step 5, final use Step 6)
+
+
+NO PARALLEL GATHERING POSSIBLE:
+Unlike Multi-Faceted Plan where requirements can be collected in any order, here:
+- Cannot insert paper before obtaining it from book
+- Cannot retrieve book without first being able to stand/search boxes (Step 1 prerequisite)
+- Rat bone must wait until lock manipulation moment, despite being collectible immediately
+- Key retrieval requires BOTH paper AND rat bone present and correctly sequenced
+
+The player cannot "prepare ahead" by gathering all components before starting—the chain itself DICTATES the order.
+
+
+INTERMEDIATE STATE HAS NO ALTERNATIVE USE:
+Paper in hand serves NO PURPOSE other than becoming key-delivery system.
+Spell book serves NO PURPOSE other than being paper container.
+Rat bone's ONLY use is jamming lock (no alternative application exists).
+Each item is single-use, single-purpose within this specific chain.
+
+
+FAILURE MODE DEMONSTRATES CHAIN BREAKING:
+If player uses rat bone BEFORE inserting paper:
+→ Key falls to floor inside room → cannot retrieve → puzzle FAILED, game state locked
+
+This is DIFFERENT from MFP failure (where missing component just prevents final assembly).
+Here the ENTIRE CHAIN breaks if order violated. No backtracking available—must restart.
+
+
+COMIC DELIVERY AS MECHANICAL JUSTIFICATION:
+The absurdity of "paper slides under door while bone jams lock, key falls on paper"
+is delivered with game logic that treats this as straightforward cause-and-effect rather
+than cartoon physics override. The chain is internally consistent even if ridiculous.
+```
+
 ---
+
+### Legend of Kyrandia: Deadwood Glade Activation Chain (LK1)
+
+**Problem**: To activate the healing gem (yellow gem) on Brandon's amulet, player must restore life to the Deadwood Glade—a barren area with a large hole in the center. This requires collecting three specific seeds from disparate locations and planting them together.
+
+<small>Source: classicgamesparadise_walkthrough.html, lines 109-113 — "Collect the walnut at the Songbird's Nest, the pinecone west of the oldest tree in Kyrandia (with Old Nolby sitting under it) and an acorn to the northwest of the pinecone. Drop these 3 items in the hole at Deadwood Glade."
+
+Source: bonny_ploeg_walkthrough.html, lines 109-112 — "Acorn - Found at oak tree. Put in hole to make bush. Pineapple [pinecone] - Found lying around. Put in hole to make bush. Walnut - Found at songbird. Put in hole to make bush."</small>
+
+```
+SEQUENTIAL PRODUCTION CHAIN:
+
+PREREQUISITE ITEM COLLECTION (gathered in any order):
+→ WALNUT: Found beneath the Songbird's Nest (east of Darm's shack)
+→ PINECONE: West of the oldest tree where Old Nolby sits
+→ ACORN: Northwest of the pinecone location
+
+
+CHAIN STEP 1 - Seed Delivery to Deadwood Glade:
+Location: Deadwood Glade (south of Darm's shack, large hole in center)
+Action Sequence:
+- Drop WALNUT into hole
+- Drop PINECONE into hole  
+- Drop ACORN into hole
+Result: A small plant/bush suddenly sprouts and comes to life
+
+
+CHAIN STEP 2 - Healing Gem Activation:
+Prerequisite: Plant successfully grown from seed combination
+Effect: The yellow gem on Brandon's amulet is ACTIVATED
+Player now has access to HEALING SPELL ability (used later on songbird, snake bite, Herman)
+
+Why sequential: Cannot activate healing gem without first completing seed combination. The plant's emergence TRIGGERS the gem activation—no plant = no healing power. Each seed independently worthless until all three combined at glade location.
+
+
+CHAIN STEP 3 - Healing Application (Extended Chain):
+The yellow gem enables subsequent puzzle solutions, continuing the interdependency:
+- Heal injured songbird → obtain quill for Darm
+- Heal after snake bite at ruby tree (life-or-death application)
+- Put Herman to sleep in castle (access to bell room, golden key)
+
+Each healing application is a NEW META-CONSTRUCTION chain that depends on this initial activation.
+
+
+WHY IT'S META-CONSTRUCTION:
+
+PARALLEL SEED COLLECTION WITH SEQUENTIAL ACTIVATION:
+While seeds can be gathered in any order, the ACTUAL PUZZLE CHAIN is strictly sequential:
+Step 1 (collect walnut) → no effect alone
+Step 2 (collect pinecone) → no effect alone
+Step 3 (collect acorn) → no effect alone
+STEP 4 (combine all three at glade) → PLANT APPEARS → HEALING GEM ACTIVATES
+
+The synthesis moment is CRITICAL—individual seeds have ZERO VALUE until combined. This differs from Multi-Faceted Plan because the THREE SEEDS together create a NEW ITEM (the plant) that triggers gem activation, rather than being independently useful items assembled for one goal.
+
+
+OUTPUT/INPUT DEPENDENCY CHAIN:
+Output of Step 4 (activated healing gem) → Input for subsequent puzzles (songbird cure, snake bite cure, Herman sleep spell)
+
+This creates a MAJOR PROGRESSION GATE. Without completing the Deadwood Glade sequence, player cannot:
+- Obtain Darm's scroll (quill requires healed songbird)
+- Cross volcanic river in Shadowrealm (scroll required)
+- Retrieve ruby from ruby tree (healing required after bite)
+- Access upper castle floors (Herman blocks without sleep spell)
+
+FAILURE MODE - INCOMPLETE COMBINATION:
+Using only 1 or 2 seeds → nothing happens, items remain in inventory for later combination.
+No permanent loss—can correct mistake by returning with missing seed(s).
+
+
+THEMATIC JUSTIFICATION:
+The puzzle theme is REJUVENATION—dead earth brought back to life through planting. This foreshadows Brandon's role as heir who will restore magic throughout Kyrandia. Mechanically, the chain enforces the sequence: gather seeds → plant → receive power → use power for further restoration acts.
+
+```
+
+---
+
+### Legend of Kyrandia: Birthstone Altar Puzzle (LK1)
+
+**Problem**: To obtain the Magic Flute needed to shatter the ice blocking Serpent's Grotto, player must arrange four birthstones in a random order on the Marble Altar's golden dish. Each correct placement lights a corresponding gem on Brandon's amulet; all four gems lit transforms the dish into a flute.
+
+<small>Source: classicgamesparadise_walkthrough.html, lines 117-121 — "The best method for placing the stones is to save first and then reload once you have placed the correct stone. This way you won't burn up all of the stones trying to find the correct order... The stone order is random for every game but the first stone is always the Sunstone which can be found at the bubbling spring to the east."
+
+Source: bonny_ploeg_walkthrough.html, lines 41-44 — "Once you have the sunstone, ruby, garnet, peridot, sapphire, diamond, opal, onyx, pearl, topaz, amethyst and aquamarin, take them all to the altar. Place the sunstone in the golden dish... You'll need to find the 3 other stones that need to be placed in the correct order on the dish. This is random and can only be solved by trial and error."</small>
+
+```
+SEQUENTIAL INTERDEPENDENCE WITH RANDOMIZATION:
+
+PREREQUISITE COLLECTION (MUST GATHER BEFORE STARTING):
+→ SUNSTONE (always first in sequence) - Bubbling spring east of cave entry
+→ RUBY (always last in sequence) - Ruby tree northwest, guarded by poisonous snake
+→ 12+ OTHER GEMS scattered throughout Timbermist Woods exploration
+→ The remaining TWO correct stones are RANDOM subset from the other 10 gems
+
+CHAIN STEP 1 - Save Game (Critical Meta-Preparation):
+Before attempting altar puzzle:
+- Save game state at Marble Altar location
+- This is ESSENTIAL because wrong stones are CONSUMED (burned up)
+
+
+CHAIN STEP 2 - Place Sunstone (Deterministic First Step):
+Input: SUNSTONE only (guaranteed to work)
+Action: Place in golden dish
+Result: FIRST gem on amulet lights up, stone consumed
+Output state: Amulet gem #1 lit, save point established for reload
+
+
+CHAIN STEP 3-5 - Trial and Error for Middle Stones (Randomized):
+Loop for each middle position:
+  Step A → Select candidate gem from inventory
+  Step B → Place on dish
+  Check Result:
+    - CORRECT: Second/third amulet gem lights, stone consumed → Continue to next position
+    - WRONG: Stone burned/destroyed, nothing happens → RELOAD SAVE, try different stone
+  
+Critical Constraint: Cannot brute-force all combinations without saves—would exhaust gem inventory.
+
+
+CHAIN STEP 6 - Place Ruby (Deterministic Final Step):
+Input: RUBY only (guaranteed final position)
+Prerequisite: All three previous gems lit on amulet  
+Action: Place on dish as fourth and final stone
+Result: FOURTH amulet gem lights, golden dish TRANSFORMS into Magic Flute
+Output Item: FLUTE created (new item in inventory)
+
+
+CHAIN STEP 7 - Ice Shattering Application:
+Input: Magic Flute from altar transformation
+Location: Serpent's Grotto entrance (formerly ice-blocked)
+Action: Play flute → high note cracks the ice seal
+Result: Grotto access granted, Shadowrealm exploration unlocked
+
+
+WHY IT'S META-CONSTRUCTION WITH RANDOMIZATION LAYER:
+
+OUTPUT/INPUT CHAIN STRUCTURE:
+1. Sunstone placement → Output: Gem 1 lit (enables position 2)
+2. Random gem #1 correct → Output: Gem 2 lit (enables position 3)
+3. Random gem #2 correct → Output: Gem 3 lit (enables final position)
+4. Ruby placement → Output: FLUTE CREATED (new inventory item)
+5. Flute use at grotto → Output: ICE SHATTERED (progression gate removed)
+
+Each step produces EXACTLY ONE OUTPUT needed for next step. No reordering possible—four positions must be filled in sequence. The flute cannot exist until all four stones correctly placed.
+
+
+RANDOMIZATION AS MECHANICAL CONSTRAINT:
+Unlike fixed meta-construction puzzles, this one has RANDOM correct solutions (middle two gems differ per playthrough). This creates a META-LAYER of puzzle management:
+- Player cannot memorize solution between playthroughs
+- Must use game's SAVE/LOAD mechanics as PART OF SOLUTION strategy
+- Gem economy matters—burning too many stones can create permanent failure state
+
+This is STILL meta-construction because despite randomization, the OUTPUT/INPUT STRUCTURE remains identical. Each correct placement ENABLES next position. Player crafts solution through sequential assembly rather than parallel gathering.
+
+
+DISTINCTION FROM PATTERN LEARNING:
+Pattern Learning would be: learn rule set (e.g., musical scale) then apply to multiple targets. Here, there is NO discoverable RULE—solution is truly random per game. The "learned" element is SAVE/LOAD technique, not a world mechanic.
+
+
+COMPARISON TO LK1'S POTION PUZZLE:
+The Potion Mixing puzzle (Faeriewood) has FIXED recipes (red+yellow=orange, blue+red=purple) while this birthstone altar has RANDOM middle positions. Both are meta-construction, but potion mixing uses KNOWLEDGE TRANSFER (learn formula, apply repeatedly), whereas altar uses BRUTE FORCE WITH CHECKPOINTING (try stones, reload on failure).
+
+```
+
+---
+
+### SpaceQuest III: Astro Chicken Hidden Message Chain (Monolith Burger) (SQ3)
+
+**Problem**: After reaching Monolith Burger, Roger must discover help for rescuing two people held captive on Pestulon. The message is encoded in an arcade game called "Astro Chicken" and can only be decoded with a decoder ring hidden inside a specific fast food meal. This requires purchasing the meal, extracting the ring, playing the arcade game to minimum point threshold, then using the ring to decode the resulting message.
+
+<small>Source: gamefaqs-tricrokra-archive.html, lines 430-450 — "Order the Fun meal, after the silly questions pay... You'll get a decoder ring."</small>
+
+<small>Source: the-spoiler-walkthrough.html, lines 110-116 — "'Look menu'. '7'. 'Q'. 'Pay bill'... Complete Astro Chicken. 'Decode message'."</small>
+
+```
+SEQUENTIAL PRODUCTION CHAIN:
+
+STEP 1 - Purchase Monolith Fun Meal (Output: Decoder Ring)
+Prerequisites: Buckazoids in inventory (from selling gem on Phleebhut)
+Action Sequence:
+- West to clerk counter
+- LOOK MENU → Select item #7 (Fun Meal)
+- Answer questions ("Q" for name, bypass dialogue)
+- PAY BILL
+- East to empty seat → SIT → EAT
+- Bag of fast food consumed reveals hidden item
+Output Item: MONOLITH DECODER RING added to inventory
+Citation: gamefaqs-tricrokra-archive.html, lines 435-438 — "= Sit at a table = Eat. You'll get a decoder ring."
+
+
+STEP 2 - Play Astro Chicken Arcade Game (Output: Secret Message Code)
+Prerequisites: Decoder Ring in inventory; Buckazoids remaining for game tokens
+Positioning: Walk west back to arcade machine near entrance
+Action Sequence:
+- PLAY MACHINE on arcade cabinet
+- PUT MONEY IN MACHINE (insert buckazoid tokens)
+- Play Astro Chicken minigame repeatedly
+
+MINIGAME MECHANIC DETAILS:
+Astro Chicken objective: Land the character on soft "mat" surfaces, avoiding hard ground.
+Difficulty: High—landing zone is small relative to movement speed, requiring precise timing.
+Point System: Points accumulate with successful landings; actual player score irrelevant for trigger.
+Secret Message Trigger: Reaching 308+ points (or completing game a certain number of times) unlocks hidden message sequence.
+Citation: gamefaqs-tricrokra-archive.html, lines 452-457 — "I got mine to 308 and then the game stopped counting points... Once you played enough you get the secret message."
+
+
+STEP 3 - Decode Message with Ring (Output: Complete Information Package)
+Prerequisites: SECRET MESSAGE CODE displayed by arcade machine; Decoder Ring in inventory
+Command: DECODE MESSAGE on screen using decoder ring
+Decoded Content Reveals:
+"Help us! we are being held captive by ScumSoft on the small moon of Pestulon. 
+An impenetrable force field surrounds the moon. It must first be deactivated. 
+Its origin is unknown to us. ScumSoft security is armed with jello pistols. 
+We're counting on you whoever you are."
+- Signed: "Two guys in trouble"
+
+Citation: gamefaqs-tricrokra-archive.html, lines 460-475 — Decoded message text
+
+
+STEP 4 - Navigation Application (Output: New destination planet: Pestulon)
+Prerequisites: Ship systems operational; new intel from decoded message
+Action Sequence:
+- Enter ship → SIT → LOOK Computer
+- Select "2" (Navigation System) → "1" (Scan)
+- Scan finds Pestulon → "1" to select → "1" for confirm destination
+- "2" (Set Course) → "5" (Light Speed) → "3" (Land)
+Citation: gamefaqs-tricrokra-archive.html, lines 467-470 — "Next stop Ortega" [then Pestulon after decoding]
+
+
+```
+
+**Why It's Meta-Puzzle Construction (Sequential Interdependence)**:
+This is a strict production line where each step's output enables the next action. Without the decoder ring (Step 1), the code cannot be translated regardless of Arcade skill. Without playing Astro Chicken to unlock threshold (Step 2), no code exists to decode. Without decoding the message (Step 3), Pestulon never becomes known as a destination. Player CANNOT reorder these steps: buying meal after playing game doesn't help if ring only works on revealed codes; cannot play effectively without having funds from gem sale earlier.
+
+**Key Feature**: The hidden mechanic threshold is NOT communicated—walkthrough author found 308 points through trial and error ("I hope you can appreciate this crappy game"). Player receives no feedback about "X more landings to unlock message." This adds frustration layer to the meta-construction: player must deduce that repeated play = unlocking code, not just getting high score.
+
+---
+
+### Quest for Glory III: Lost City Chamber Sequencing (QFG3)
+
+**Problem**: After the Peace Conference disaster, player and companions must infiltrate the Demon-controlled Lost City of Makhtur in southern jungles to prevent the Demon Portal from opening. The final chamber contains ritual progress—Demons attempting to open portal using accumulated deaths from Simbani-Leopardman war. Player must complete a strict sequence of actions within this sealed chamber to either defeat Demons or seal the portal permanently.
+
+<small>Source: qfg3-gamefaqs-cyricz.txt, lines 2245-2298 — Lost City infiltration and final ritual chamber confrontation</small>
+
+```
+SEQUENTIAL CHAIN INSIDE FINAL CHAMBER:
+
+PREREQUISITE: ALL COMPANIONS REACHED LOSS CITY BEFORE DAY LIMIT
+This MFP-style requirement must be completed before entering the chamber itself. Players who arrived late find city destroyed, game over state triggered.
+
+
+CHAMBER ENTRY SEQUENCE (Strict Output/Input Dependency):
+
+STEP 1 - Chamber Access Gate Activation:
+Input: Five heroes present (Player + Rakeesh + Yesufu + Johari + Kreesha)
+Action Approach gate with complete party
+Output State GATE OPENS → entry into Lost City interior chambers
+
+
+STEP 2 - Ritual Observation Phase:
+Requirement Walk through halls, observe Demon ritual preparations
+Discovery Demons conducting portal-opening ceremony using war casualties as fuel
+Critical Information Learned Player must REACH central shrine BEFORE ritual completes
+
+
+STEP 3 - Doppelganger Chamber Confrontation:
+Location Upper floors of Lost City, final room before shrine
+Obstacle Five evil clones (Doppelgangers) block path—each hero faces their own shadow self
+Combat Phase Sequential battles against mirror enemies
+
+DOPPELGANGER MECHANIC (Sequential Combat Chain):
+Fighter's Doppel: Mirror combat skills; requires precise weapon use counter-attacks
+Wizard's Doppel Copied spell repertoire; magic duels back-to-back with real threats
+Thief's Doppel Equal stealth/agility—difficult to outmaneuver own skillset
+
+CRITICAL COMBAT CONSTRAINT: All five heroes initially LOSING their battles (lines 2290-2293)
+Output State If any hero loses → they are absorbed by evil clone; game over possible
+
+
+STEP 4 - Harima Redemption Intervention:
+Prerequisite Helped Harami in earlier Bazaar nights sequence (MFP-style relationship building)
+Action Wait for intervention moment during Doppelganger combats
+Output: Harami enters chamber, STABS player's Doppelganger from behind (lines 2292-2293)
+         - Single action resolves what would otherwise be unwinnable fight
+         - Creates opportunity window to escape up stairs
+
+
+STEP 5 - Shrine Portal Sealing Ritual:
+Location Top of tower, central shrine with portal formation in progress
+Input Requirement All five heroes alive and reached shrine level before ritual timer expires
+
+RITUAL CHAIN (Sequential actions required to close portal):
+
+PHASE A - Demon Leader Identification:
+Action Examine altar area → reveal Master Demon overseeing ceremony
+Output Information gain: Must defeat leader first; minor demons indestructible while he lives
+
+
+PHASE B - Combat Engagement Sequence:
+Step 1 → Player engages Master Demon in final boss battle
+         - Combat mechanics vary by class (Fighter weapons, Wizard spells, Thief throws)
+         
+Step 2 → Companions assist automatically if still alive at this point
+         - Rakeesh (Paladin), Yesufu (warrior), Johari (healer), Kreesha (support)
+         - Each provides buffs/healing/attacks in scripted AI patterns
+
+Step 3 → Master Demon weakened below critical threshold
+         - Triggers transformation/enragement phase (optional, class-dependent)
+
+
+PHASE C - Portal Closure Mechanism:
+Prerequisite: Master Demon defeated OR ritual interrupted before completion
+
+OPTION A - Full Victory Path:
+Action Defeat all minor demons after leader falls
+Result City secured, portal never opens → optimal ending
+
+OPTION B - Sealed But Incomplete (Honorable Alternative):
+Action Use Dispel Potions on possessed warriors (ritual participants)
+         instead of killing them
+Result Portal temporarily sealed but threat remains; world saved for now
+
+
+STEP 6 - Escape Sequence:
+Trigger Master Demon defeated OR ritual halted
+Output City begins collapsing/portal destabilizes
+Required Action All heroes must retreat to entrance before total destruction
+
+
+WHY IT'S META-CONSTRUCTION (NOT MULTI-FACETED PLAN):
+
+STRICT ORDERING ENFORCED BY NARRATIVE STATE MACHINE:
+Step 1's output (gate opens) → required for Step 2 (enter city)
+Step 2's discovery (ritual in progress) → creates urgency for Steps 3+5
+Step 4's intervention window only appears DURING Step 3 combat, not before or after
+Step 5 requires Master Demon defeat BEFORE portal closure becomes possible
+
+CRITICAL CHAIN BREAKING POINTS:
+- Arrival too late → no opportunity to enter (MFP prerequisite failure)
+- Lose Doppelganger fight without Harami help → game over state
+- Master Demon defeated but companions dead → reduced ending quality
+- Failed intervention timing → permanent story consequence (some cannot be saved)
+
+
+COMPARED TO SPACE QUEST III ASTRO CHICKEN SEQUENCE:
+
+Similarities:
+- Hidden thresholds (Harami must be helped X nights → Doppelganger help available at specific combat moment)
+- Sequential dependency where earlier MFP choices affect later MC outcomes
+- Time pressure element in execution phase
+
+Differences:
+- SQ3's chain = item production line (ring→code→message→navigation)
+- QFG3's chain = COMBAT STATE MANAGEMENT with narrative consequences
+
+
+CLASS-SPECIFIC IMPLEMENTATION WITHIN CHAIN:
+Fighter path through Doppelganger fight uses weapon skills, not spells or stealth
+Wizard path counters magic clones with spell selection rather than melee timing  
+Thief path requires dodge/agility checks during same encounter
+
+The OUTPUT is identical (all five survive to Shrine), but mechanical INPUT varies by class.
+```
+
+<small>Source: qfg3-gamefaqs-cyricz.txt, lines 2270-2298 — Final battle sequence with Doppelgangers and Harami intervention</small>
+
+---
+
+## Related Types  
+
+| Type | Similarity | Where Meta-Construction Differs |
+|------|------------|----------------------------------|
+| **Multi-Faceted Plan** | Both require gathering multiple components | MFP gathers in PARALLEL; MC requires SEQUENTIAL execution where order matters |
+| **Pattern Learning** | Both build toward final application moment | PL applies same system repeatedly; MC creates ONE output feeding next step |
+| **Observation Replay** | Both have critical timing elements | OR copies exact sequence once seen; MC constructs new state at each phase |
+
+---
+
+### Gabriel Knight 1: Priest Disguise Acquisition Chain (GK1)
+
+**Problem**: To infiltrate restricted Catholic Church locations and gain access to voodoo-related evidence within priest sanctums, Gabriel needs authentic religious garb. The disguise requires sequential acquisition—each step's output enables the next—with no possibility of parallel collection or backtracking shortcuts.
+
+<small>Source: justadventure_walkthrough.html, lines 1062-1085 — Complete priest disguise chain documented</small>
+
+```
+META-CONSTRUCTION CHAIN - SEVEN STEP SEQUENCE:
+
+STEP 1 - INITIAL SCOUTING (Identifying Target):
+→ Visit Catholic Church on Esplanade Avenue during daytime hours
+→ Attempt to enter sacristy/priest preparation area → BLOCKED by door
+→ EXAMINE door → Requires priest's collar + black shirt for access attempt
+→ DISCOVERY: Two components needed—neither in inventory yet
+
+
+STEP 2 - COLLAR ACQUISITION PREREQUISITE (Obtaining Empty Vestments):
+→ Approach church from main entrance during confession hours window
+→ Enter confessional booth through public access side
+→ EXAMINE interior → Father's vestments hanging on back wall, includes collar left unattended
+→ Action: Take priest collar while Father at other end of screen (non-stealth "borrowing")
+→ Inventory gain: Priest Collar
+→ CRITICAL: This enables Step 3 but doesn't complete disguise requirement
+
+
+STEP 3 - BLACK SHIRT DISCOVERY (Second Component Location Identification):
+→ Have collar in inventory now → unlocks new NPC dialogue options at church
+→ Talk to Father or church attendant about borrowing "complete vestments"
+→ REVEALED: Black dress shirt also required; one available from priest's personal quarters
+→ NEW PUZZLE ELEMENT INTRODUCTION: Collar alone insufficient, creates requirement for shirt
+
+STEP 4 - ACCESS TO RESTRICTED AREA (Using Collar as Key):
+→ Exit church sacristy area → return to blocked door from Step 1
+→ ATTEMPT entry WITH collar in inventory → partial access gained!
+→ Door opens slightly but FULL ENTER still requires BOTH components
+→ CRUCIAL TEACHING MOMENT: Partial solutions exist—encourages player to continue quest
+
+
+STEP 5 - BLACK SHIRT ACQUISITION (From Priest Quarters Chain):
+→ New clue from Step 4 dialogue indicates specific location of spare shirt
+→ Navigate back through church areas to previously inaccessible quarters
+→ Examine wardrobe/dressers → Black dress shirt found hanging/folded
+→ TAKE action → Shirt added to inventory
+→ Now possess BOTH components: Collar + Black Shirt
+
+
+STEP 6 - COMBINATION ACTION (Creating Disguise Item):
+→ Open inventory with both items present
+→ USE Priest Collar ON Black Shirt → composite item created
+→ NEW INVENTORY OBJECT: "Priest's Disguise" (merged single item from two components)
+→ MECHANICAL TRANSFORMATION: 2 raw materials → 1 functional tool
+
+
+STEP 7 - FINAL ACCESS GRANTED (Disguise as Key):
+→ Return to originally-blocked sacristy door
+→ USE Priest's Disguise on door interface OR wear disguise via inventory selection
+→ Authentication successful → door fully opens
+→ SACRISTY INTERIOR NOW ACCESSIBLE → Contains voodoo evidence items and plot-critical notes
+
+
+WHY IT'S META-CONSTRUCTION (NOT MULTI-FACETED PLAN):
+
+STRICT SEQUENTIAL ORDER ENFORCED:
+1. Can't take collar without first visiting church during correct hours (Step 2)
+2. Collar acquisition (output of Step 3) → required for NEW DIALOGUE revealing shirt location (Step 4 input)
+3. No partial access granted until BOTH components possessed, preventing shortcut exploitation
+4. Shirt location CLUE depends on possessing collar—not just exploration luck
+
+
+OUTPUT-INPUT DEPENDENCY CHAIN:
+┌─────────────────┐     OUTPUT      ┌──────────────────┐
+│ Step 1: Scout   │ ───→ Block────> │ Step 2: Access   │
+│ Door Blocked    │                 │ Confessional     │
+└─────────────────┘                 └──────────────────┘
+                                            │
+                                            │ collar acquired
+                                            ↓
+┌─────────────────┐     OUTPUT      ┌──────────────────┐
+│ Step 3: Talk    │ ───→ Clue────> │ Step 4: New      │
+│ NPC with Collar │                 │ Area Accessible  │
+└─────────────────┘                 └──────────────────┘
+                                            │
+                                            │ shirt location revealed
+                                            ↓
+┌─────────────────┐     OUTPUT      ┌──────────────────┐  
+│ Step 5: Take    │ ───→ Shirt────>│ Step 6: Combine  │
+│ Black Shirt     │                 │ Into Disguise    │
+└─────────────────┘                 └──────────────────┘
+                                            │
+                                            │ disguise created
+                                            ↓
+┌─────────────────┐                      ┌──────────────────┐
+│ Step 7: Enter   | <────── KEY ──────> │ Final Access     │
+│ Sacristy        |                      │ Granted          │
+└─────────────────┘                      └──────────────────┘
+
+
+CRITICAL DISTINCTION FROM MFP ALTERNATIVE:
+
+IF THIS WERE MULTI-FACETED PLAN, structure would be:
+- Collar found during general church exploration (independent path A)  
+- Black shirt also available via different NPC trade or environmental search (independent path B)
+- Player could collect EITHER first—the two paths have no mechanical dependency
+- Both items brought together for final combination at sacristy door
+
+ACTUAL IMPLEMENTATION: Collar is PREREQUISITE FOR DISCOVERING SHIRT LOCATION. Not just "two random things needed together" but specifically "getting A reveals where B exists." That's Meta-Construction's signature OUTPUT→INPUT chain.
+

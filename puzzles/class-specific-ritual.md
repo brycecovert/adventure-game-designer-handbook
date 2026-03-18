@@ -169,6 +169,127 @@ BUT COMPLETELY DIFFERENT MECHANICS:
 
 ---
 
+### Quest for Glory IV: Dark One Cave Escape Sequence (QFG4)
+
+**Setup**: After collecting each of the seven Dark One Rituals, the player must escape from progressively dangerous caves. Each cave presents the same narrative obstacle (escape the collapsing chamber) but with mechanically distinct solutions by class.
+
+<small>Source: qfg4-gamefaqs-sac.txt, lines 2701-2750 — Fighter blood cave: "push the boulder into the gap"; Wizard: "cast Frost Bite twice to freeze the blood flow"</small>
+
+```
+BLOOD CAVE ESCAPE (After Blood Ritual):
+Fighter Push boulder to block acid flow through chamber
+Wizard Cast Frost Bite twice, freeze path across blood pool
+Thief   Use Acrobatics skill to leap between narrowing platforms
+
+BREATH CAVE ESCAPE (After Breath Ritual):
+Fighter Grab lung tendril, run when thrown across chamber
+Wizard Cast Calm on valve mechanism, then Open spell to release pressure
+Thief   Climb invisible glass wall using stealth detection
+
+SENSE CAVE NAVIGATION (Progressive Sense Restoration):
+Common to all: Click Hand icon repeatedly to restore senses in order
+Touch → Smell → Hearing → Sight
+Fighter/Thief Navigate using restored physical perception abilities
+Wizard     Use magic detection to find sense-restoration points
+
+SENSE CAVE ESCAPE (Electrical Hazard Chamber):
+Fighter Time dendrite clusters, use grapnel swings across live wires
+Wizard   Cast Resistance spell, then Lightning Ball to short-circuit barrier
+Thief    Multiple grapnel swings; precise timing over electricity
+
+BONE CAVE CAGE ESCAPE (Collapsing Prison):
+Fighter Attack bone cage structure directly until it shatters
+Wizard   Alternating Flame Dart / Frost Bite spells to brittle bones → Force Bolt
+Thief    Use Acrobatics before cage fully closes, slip through gaps
+
+ESSENCE CAVE FINAL BATTLE (Ad Avis Confrontation):
+Common Step: Tell Ultimate Joke to stun the Dark Master
+Fighter Erana's Staff transforms to spear, throw at Ad Avis through portal
+Wizard  Cast Force Bolt → Summon Staff to crystal in other realm → final attack  
+Thief   Use stake from dungeon OR Acrobatics jump through dimensional rift
+
+WHY IT'S CLASS-SPECIFIC RITUAL:
+
+MECHANICAL DIVERGENCE WITH NARRATIVE CONVERGENCE:
+Each escape presents identical story goal (survive the cave gauntlet)
+but requires fundamentally different player skills:
+- Fighter = physical strength, timing, combat
+- Wizard  = spell selection, mana management, magical solutions
+- Thief   = stealth mechanics, acrobatics, precision movement
+
+NO OVERLAP IN REQUIRED ACTIONS:
+Player never sees other class's solution method during their playthrough.
+Each class experiences entirely different gameplay for same narrative beat.
+
+COMPARISON TO QFG3 INITIATION:Similar to Simbani Warrior Trials (QFG3) in structurebut expanded from single ritual to gauntlet of 6 sequential escapes
+```
+
+<small>Cited from: qfg4-gamefaqs-sac.txt:2701-2850, qfg4-gamefaqs-anonymous.txt:1110-1198</small>
+
+---
+
+### Quest for Glory IV: Monster Combat Solutions (QFG4)
+
+**Setup**: Common combat encounters resolved differently by class specialization. Some monsters only approachable by specific class abilities.
+
+<small>Source: qfg4-gamefaqs-cyricz.txt, lines 1716-1730 — "Wraith will continue to suck life out of you in combat unless you have some kind of protection, like the Aura Spell or Undead Amulet"</small>
+
+```
+WRAITH COMBAT (Life-Sucking Undead):
+Fighter/Thief Must obtain Undead Amulet from Gypsy camp first
+            Then approach while dodging cold touch, hack repeatedly
+Wizard     Requires Aura Spell to create protective field
+            Can then attack directly without life drain
+
+CHERNOVY WIZARD COMBAT (Magic-Reflecting Cultists):
+Fighter/Thief Approach only when not casting; melee attacks work
+Wizard     Must watch for Reversal spell indication
+            Switch to Frost Bite (physical damage) during reversal period
+
+NECROTAUR COMBAT (High-Difficulty Charge Attack):
+Fighter  Pin against wall, repeat strikes while dodging charge
+Thief    Use daggers at range; kiting strategy
+Wizard   Spells only - must maintain distance with Frost Bite / Force Bolt
+
+WHY IT'S CLASS-SPECIFIC RITUAL:Combat is fundamental game mechanic, but each class has distinct encounter structure
+Some enemies require class-specific preparation (pre-combat acquisition)
+Solution paths diverge at multiple decision points within same encounter
+```
+
+<small>Cited from: qfg4-gamefaqs-sac.txt:1638-1730</small>
+
+---
+
+### Quest for Glory IV: Entry Method Divergence (Multiple Puzzles) (QFG4)
+
+**Setup**: Multiple location access puzzles solved through class-specific approaches. Same destination, different entry mechanics.
+
+<small>Source: qfg4-gamefaqs-anonymous.txt, lines 702-718 — monastery entry; crystalshard.txt:398-399 — Borgov tomb entry</small>
+
+```
+MONASTERY ENTRY:
+All classes Use Dark One Sign on door (universal solution)
+Fighter/Thief Climb through window with sufficient skill level
+Wizard        Cast Levitate to reach window ledge
+
+BORGOV TOMB CRYPT:
+All classes Obtain key from Igor after Gypsy rescue quest
+Wizard        Cast Open spell on locked door
+Thief         Pick lock with Lockpick tool (from Thieves' Guild)
+
+ELDERBURY BUSH BERRIES:
+Fighter/Thief Throw rocks to dislodge berries, then sneak collection
+Wizard        Force Bolt knocks berries off → Fetch spell collects them
+
+WHY IT'S CLASS-SPECITAL RITUAL:Primary narrative outcome identical (area access / item acquisition)
+but solution path determined by character design choices.
+Class mechanics gate different approach availability.
+```
+
+<small>Cited from: qfg4-gamefaqs-sac.txt:2259-2270, qfg4-gamefaqs-anonymous.txt:937-1010</small>
+
+---
+
 ## Related Types
 
 | Type | Similarity | Distinction |

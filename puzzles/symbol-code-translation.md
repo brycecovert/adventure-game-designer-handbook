@@ -176,6 +176,83 @@ Each rod is independently complete—no synthesis across rods needed. The purple
 
 ---
 
+### Quest for Glory IV: Dr. Cranium's Keyhole Slider Puzzle (QFG4)
+
+**Setup**: After obtaining the key from the Antwerp maze, the player must open Dr. Cranium's main laboratory door using a sliding puzzle panel mechanism that requires matching colored background keys to form a keyhole image.
+
+<small>Source: qfg4-gamefaqs-anonymous.txt lines 684-687 — "Match colored background keys in sliding panel puzzle to form keyhole image"</small>
+
+```
+SYMBOL OBSERVATION PHASE - Keyhole Pattern Recognition:
+→ Approach locked door with sliding tile panel interface  
+→ Panel contains multiple movable tiles, each showing partial keyhole sections
+→ Goal state: Arrange tiles so complete KEYHOLE shape emerges from combined pieces
+→ CRITICAL VISUAL CLUE: Match COLORS of background keys on tiles to correct positions
+
+SLIDING MECHANIC APPLICATION:
+Step 1 → Identify edge pieces (keyhole outline segments) by color matching  
+Step 2 → Note specific tile colors must align (background keys have distinct hues)
+Step 3 → Slide tiles systematically—typically require ~8-12 moves for solution
+      Standard sliding puzzle mechanics apply: only adjacent empty space allows movement
+
+VALIDATION:→ When complete keyhole image forms correctly, grid lines of puzzle vanish  
+→ Panel automatically unlocks door to Dr. Cranium's private lab (6 points)
+```
+
+**Why It's Symbol Code Translation**: Player OBSERVES visual symbol pattern (keyhole image with color-coded sections), then TRANSLATES this into interface actions (sliding specific colored tiles to positions). Color matching on background keys creates explicit visual equivalency between desired state and tile properties.
+
+<small>Cited from: qfg4-gamefaqs-sac.txt:2227-2235</small>
+
+---
+
+### Quest for Glory IV: Borgov Tomb Color Spelling Puzzle (QFG4)
+
+**Setup**: Inside the Borgov family crypt, a secret passage to Castle Borgov is hidden behind a color-coded interactive floor mechanism. The player must spell "BORGOV" using six distinct colors mapped to letters on the tomb's crest carving.
+
+<small>Source: qfg4-gamefaqs-anonymous.txt lines 893-899 — Color-based spelling puzzle where colors map to literal letters</small>
+
+```
+SYMBOL DISCOVERY PHASE - Crest Examination:
+→ Locate Borgov family crest embedded in crypt floor or wall
+→ Crest displays word "BORGOV" with color-coded letter associations
+→ Observation reveals color-to-letter mapping (example):
+  B = Blue
+  O = Orange  
+  R = Red
+  G = Green
+  O = Orange (second instance)
+  V = Violet/Purple
+
+COLOR SEQUENCE APPLICATION - Secret Passage Activation:
+Step 1 → Approach color-sensitive pressure plate or interactable mechanism near crest
+      Note: Location may be subtle—often requires "look around" for clickable colored tiles/rings
+
+Step 2 → Press activated colors in EXACT letter order spelling B-O-R-G-O-V:
+  Click Blue → Orange → Red → Green → Orange → Violet
+  
+Step 3 → Confirm sequence is complete (mechanism provides visual/audio feedback)
+
+VALIDATION:Secret passage opens behind crested wall or floor panel shifts
+→ Leads directly to hidden interior of Castle Borgov, bypassing front gate security
+```
+
+**Why It's Symbol Code Translation **(with Unique Color-to-Alphabet Mapping)This puzzle introduces a DISTINCT sub-variation: colors don't match visual shapes but instead TRANSLATE to LITERAL LETTERS via an explicit mapping system. Player observes the code (crest displaying colored letters), then translates abstract symbols (colors on interface) into semantic meaning (letters spelling name).
+
+This is MORE COMPLEX than standard SCT because:
+1. **Two-step translation**: Color → Letter → Position in word
+2. **Semantic layer added**: Not just visual shape matching but also spelling comprehension
+3. **Repeated color handling**: Orange appears twice but must be used twice in sequence (O_RGOV)
+
+**Comparison to Standard SCT Framework:**
+- The Dig rods: Shape+color ON rod → same shape+color on PANEL buttons (direct visual match)
+- Borgov tomb: Color ON interface → LETTER value → correct word spelling (semantic translation required)
+
+Both share core SCT structure but Borgov adds **METAPHOR LAYER**: colors represent abstract concepts (letters), not just matching visual patterns. This bridges Symbol Code Translation with Metaphor-to-Literal Translation mechanics.
+
+<small>Cited from: qfg4-gamefaqs-anonymous.txt:893-899, crystalshard.txt:398-401</small>
+
+---
+
 ## Related Types
 
 | Type | Similarity to Symbol Code Translation | Distinction |
@@ -183,6 +260,7 @@ Each rod is independently complete—no synthesis across rods needed. The purple
 | **Pattern Learning / Knowledge Transfer** | Both teach system once, apply exhaustively across new targets | SCT adds visual recognition matching layer; standard PL is abstract rule transfer only |
 | **Observation Replay** | Both require careful observation of symbolic sequence | OR copies exact values repeated; SCT translates symbols to interface actions each time |
 | **Multi-Faceted Plan Puzzle** | Both involve collecting scattered artifacts across exploration | MFP SYNTHESIZES multiple unique requirements; SCT applies ONE framework to multiple instances |
+| **Metaphor-to-Literal Translation** | Borgov tomb color spelling uses symbolic representation | MMI interprets abstract language as GAME MECHANICS; this uses colors as LETTER stand-ins (visual metaphor, not linguistic) |
 
 ---
 
@@ -396,6 +474,80 @@ DO NOT use this classification if:
 **Distinction from Observation Replay**: While there IS a single sequence to memorize and replay, the key differentiator is that player must first DISCOVER the code through environmental investigation—not just WATCH someone use it once. The clue presentation (graveyard decoration pattern) REQUIRES symbol interpretation, not just visual note-taking of an action performed by NPC/Game character.
 
 **Distinction from Pattern Learning**: Single application only—no repeated framework applied across multiple doors. This is pure "find the code through environmental reading" puzzle rather than "learn system once, apply exhaustively."
+
+---
+
+### Gabriel Knight 1: Rada Drum Translation (GK1)
+
+**Setup**: In Jackson Square outside the Police Station, an African drummer sits beating complex rhythms on a large drum. After obtaining the Rada Book from Tulane University (requested by Grace at bookshop), Gabriel must decode the hidden message embedded within 36 drum symbols to discover the location and timing of the Voodoo Conclave.
+
+<small>Source: justadventure_walkthrough.html, lines 1017-1040 — Rada Book has three pages of symbol translations; decoder must scan both drum-symbol-lines</small>
+
+```
+SYMBOL DISCOVERY PHASE (Rada Drumbeat Observation):
+Step A → Approach drummer in Jackson Square (ignores Gabriel initially)
+         <small>Source: lines 1018-1019 — "Approach the drummer and try to talk to him – but he ignores Gabriel"</small>
+
+Step B → Use Rada Book on drummer from inventory
+         → Drummer continues playing, reveals two horizontal lines of drum symbols
+         → Each line contains 18 symbols (36 total)
+
+Step C → Screen splits into TWO PANELS:
+         LEFT PANEL: Three accessible pages of Rada Book dictionary
+                    - Each page shows symbol groups with English translations
+                    - Navigation via curved arrows (clockwise/anticlockwise)
+         RIGHT PANEL: Two lines of drum symbols (the encoded message)
+
+SYMBOL TRANSLATION PROCESS (Multi-Page Dictionary Lookup):
+Step D → PAGE 1 SCANNING PROCEDURE:
+         - Scan down symbol list on Page 1 (left panel)
+         - Identify matching symbol GROUP in drumbeat line (right panel)
+         - CRITICAL: Symbols appear in specific ORDER within the 36-symbol camouflage
+
+         MATCH FOUND at Line 2, Positions 2-5:
+         Drum symbols → [SYMBOL A][SYMBOL B][SYMBOL C][SYMBOL D]
+         Translation on Page 1 Row 2 → "TONIGHT"
+         <small>Source: lines 1030-1031 — "This string of symbols is identical to the second row down on page-1...translation is 'Tonight'"</small>
+
+Step E → Turn to PAGE 2 via arrow navigation
+
+         MATCH FOUND at Bottom Line, Positions 11-15:
+         Drum symbols → 5-symbol sequence (positions from left)
+         Translation on Page 2 Row 6 → "SWAMP"
+         <small>Source: lines 1034-1035 — "Bottom Right hand side...Five symbols, 11th through 15th yielding 'SWAMP'"</small>
+
+Step F → Turn to PAGE 3 via arrow navigation
+
+         MATCH FOUND at Top Line, Positions 7-12:
+         Drum symbols → 6-symbol sequence
+         Translation on Page 3 Bottom Row → "CALL CONCLAVE"
+         <small>Source: lines 1039-1040 — "Top Right hand side...Five symbols, 7th through 12th yielding 'CALL CONCLAVE'"</small>
+
+FINAL MESSAGE ASSEMBLY:
+Three words discovered across three pages → "TONIGHT SWAMP CALL CONCLAVE"
+Complete translation reveals conclave timing (tonight) + location (swamp)
+
+WHY IT'S SYMBOL CODE TRANSLATION:
+1. VISUAL SYMBOL MATCHING: Player must recognize that symbol shapes on drumbeat = same symbols in book dictionary
+2. MULTI-PAGE NAVIGATION: Translation requires navigating across three separate pages of reference material
+3. ORDER WITHIN CAMOUFLAGE: Only THREE WORDS hidden among 36 meaningless symbols—player must find positionally-correct sequences
+4. DICTIONARY-LIKE TRANSLATION: Not mechanical pattern (like engraved rods), but linguistic translation via symbol→word mapping
+5. NO SINGLE SEQUENCE TO MEMORIZE: Unlike Observation Replay, player isn't memorizing order—they're translating using reference dictionary
+
+DISTINCTION FROM PATTERN LEARNING:
+- PL would be: Learn rule "symbol A = word X", apply to NEW instances
+- SCT here is: Use book as CIPHER KEY to decode this SPECIFIC message (no framework reuse)
+- Player doesn't learn a repeatable system—just decodes once using provided dictionary
+
+COMPARISON TO STANDARD ENGRAVED ROD SYSTEM:
+Similarities: Both use visual symbol matching + order sensitivity
+Differences: 
+  - Rods use shape/color for direct mechanical translation (shape on rod → shape on button)
+  - Rada Drums use abstract symbols for LINGUISTIC translation (symbol pattern → English word)
+  - Rada requires multi-page navigation; rods are single-examination
+```
+
+<small>Cited from: justadventure_walkthrough.html:1017-1040</small>
 
 ---
 

@@ -567,9 +567,157 @@ Player → [Take Cartridge] → Critical Item Acquired (worth 5 points)
 
 ---
 
+### Quest for Glory IV: Ghost Couple Reunion Chain (QFG4)
+
+**Setup**: An old man Nikolai wanders Mordavia town searching for his dead wife Anna. Completing their reunion requires discovering the ghosts' location, convincing them of their true status and orchestrating a meeting between spirit and mortal. The chain involves gathering information from graveyard NPCs cemetery records, and supernatural encounters at night.
+
+<small>Source: qfg4-gamefaqs-anonymous.txt, lines 501-509 — "Find ghost wife wandering in forest at night... tell old man Nikolai about his lost Anna"</small>
+
+```
+INFORMATION BROKERAGE CHAIN (each reveal enables next interaction):
+
+Step 1 - Initial Problem Discovery (Daytime, Mordavia town streets)
+NPC: Nikolai (hunchbacked stone carver near monastery)
+Information Revealed: He's searching for his deceased wife Anna claims she may be "in the cemetery" or "near graves"
+Player Response: Can't help yet—don't know where to find her soul/ghost
+Citation: qfg4-gamefaqs-sac.txt:2199-2200
+
+Step 2 - Cemetery Clue Acquisition (Daytime, Cemetery)  
+NPC: Igor (the hunchback graveyard worker)
+Information Revealed: Sometimes mentions unusual nighttime activity in the forest; ghosts wandering near gravestones
+Player Response: Now aware spectral encounters possible at night
+Citation: qfg4-gamefaqs-anonymous.txt:501-509
+
+Step 3 - Ghost Encounter (Nighttime, Forest near Cemetery)
+NPC: Female ghost Anna (only appears at night)
+Action Required: Speak to her multiple times until she reveals her name and circumstances
+Information Revealed: She is Anna Stovich Nikolai's wife; doesn't remember being dead initially
+Discovery Mechanism: Multiple dialogue passes reveal increasing memory restoration
+Constraint: Ghost only appears after nighttime transition (timed encounter)
+Citation: qfg4-gamefaqs-anonymous.txt:501-509
+
+Step 4 - Knowledge Transfer (Daytime, Town)
+NPC: Nikolai again
+Action Required: Tell him about Anna's ghost sighting in the cemetery/forest
+Information Exchange: He believes you; now aware his wife is "near" as a spirit
+Intermediate State: Nikolai begins frequenting forest area hoping to "feel" her presence
+Citation: qfg4-gamefaqs-sac.txt:2199-2207
+
+Step 5 - Reunion Facilitation (Nighttime, Forest again after multiple days)
+NPCs: Both Anna's ghost and Nikolai present
+Trigger Condition: Have told Nikolai about ghost + night cycle completed after initial ghost meeting
+Information Revealed: Male ghost appears—Nikolai's spirit form has also manifested!
+Result: Ghost couple reunited; they thank player express gratitude
+Citation: qfg4-gamefaqs-anonymous.txt:501-509
+
+Step 6 - Reward Acquisition (Post-reunion multiple returns to forest)
+NPCs: Both Anna and Nikolai's ghosts together  
+Action Required: Visit them 2+ more times after reunion ceremony
+Information Revealed: They can't interact with physical world much but feel "at peace"
+Reward Given: Male ghost's hat is gifted (critical item for next chain—Baba Yaga's Bonehead)
+Citation: qfg4-gamefaqs-anonymous.txt:920-926
+
+Step 7 - Secondary Brokerage (Hat → Baba Yaga's hut guard skull)
+NPC: Bonehead the Skull (outside Baba Yaga's hut)
+Information Context: Skull won't let player approach until his "bald spot" is covered
+Action Required: Use Nikolai's ghost hat on Bonehead
+Information Exchange: Hat solves bonehead's vanity concern → passage granted to Baba Yaga
+Citation: qfg4-gamefaqs-sac.txt:2504-2510
+
+WHY IT'S INFORMATION BROKERAGE (NOT MULTI-FACETED PLAN):Each NPC holds UNIQUE information that unlocks next interaction.
+Cannot skip steps—telling Nikolai about ghost before encountering it provides no benefit.
+Information flows LINEARLY through NPCs: graveyard worker → ghost Anna → mortal Nikolai → reunited spirits → hat reward
+
+KEY DIFFERENTIATOR:Unlike Multi-Faceted Plan where requirements CAN be gathered in parallel,
+this chain requires SEQUENTIAL NPC interactions. Each conversation's output creates
+conditions for the next conversation to occur or succeed.
+
+The "brokerage" element is clear: Player acts as messenger between characters who need
+to share information but cannot directly communicate (mortal and ghost worlds separate).
+```
+
+<small>Cited from: qfg4-gamefaqs-anonymous.txt:501-509, qfg4-gamefaqs-sac.txt:2199-2207</small>
+
+---
+
+### Quest for Glory IV: Thieves' Guild Discovery (QFG4 Thief path only)
+
+**Setup**: The hidden entrance to the Thieves' Guild is concealed behind Adventurer's Guild through a visual code puzzle requiring careful observation. Once inside, information gathered from books and logbooks gates multiple subsequent puzzles.
+
+<small>Source: qfg4-gamefaqs-anonymous.txt, lines 530-621 — "Use rope on ceiling hook high thief mark... look under desk low thief mark... turn coat hooks pattern"</small>
+
+```
+INFORMATION BROKERAGE CHAIN (scattered examination → visual code synthesis):
+
+Step 1 - Entry Trigger
+Location: Adventurer's Guild main hall
+Action Requirement: Examine scene thoroughly for hidden clues  
+Information Discovered:
+  a) Rope on ceiling hook → reveals HIGH thief mark symbol  
+  b) Painting with coat hooks → shows specific pattern arrangement (3 vertical, 2 horizontal)
+  c) Item under desk → reveals LOW thief mark symbol
+Citation: qfg4-gamefaqs-anonymous.txt:530-540
+
+Step 2 - Visual Code Translation (Meta-Puzzle sub-component)
+Action Requirement: Use information from Step 1 to operate coat hooks on painting
+Pattern Matching: Replicate exact hook arrangement observed in the painting
+Result: Secret passage opens behind Guild wall
+Citation: qfg4-gamefaqs-anonymous.txt:538-546
+Note: This sub-step is Symbol Code Translation embedded within Information Brokerage
+
+Step 3 - Initial Items and Knowledge Acquisition  
+Location: Thieves' Guild interior (first room)
+Actions:
+  a) Steal Guild Card from desk → proves membership unlocks future entry  
+  b) Read books on trap disarming mechanics → critical info for monastery locked desk later
+  c) Pick lock/open safe with combination FILCH → retrieve Lockpick tool for other puzzles
+Information Gained: Trap-disarm rules, physical tools guild credentials
+Citation: qfg4-gamefaqs-anonymous.txt:573-600
+
+Step 4 - Logbook Color Code Discovery  
+Location: Chief Thief's private room (behind barrel)
+Prerequisite: Must have Lockpick to access locked desk
+Security Mechanism: Desk has color-coded lock mechanism requiring pattern input from logbook
+Action Sequence:
+  a) Move barrel blocking passage
+  b) Read logbook entry with color sequence code  
+  c) Enter "blue blue yellow, green green green red green red" on adjacent control panel
+Result: Final secret door opens → leads to Master Thief area
+Citation: qfg4-gamefaqs-anonymous.txt:605-621
+
+Step 5 - Secondary Item Acquisition (Logbook Color Code Application)
+Location: Secret passage beyond final door  
+Actions: Retrieve additional tools information about dark forces in valley
+Information Transfer: Learn specific intel about monastery basement evil statues
+Citation: qfg4-gamefaqs-anonymous.txt:621-639
+
+Step 6 - Knowledge Deployment to Monastery Puzzle (Deferred Application)
+Location: Monastery basement (different building entirely)
+Prerequisite Information: Trap disarming rules learned from Thieves' Guild books
+Action Required: Use lockpick on Mad Monk's desk → disarm poison trap FIRST → then open safely  
+Result Can read diary entry revealing ritual locations
+Honor/Points Penalty Avoided: If forced open without disarming takes poison damage
+Citation: qfg4-gamefaqs-sac.txt:2270-2291
+
+WHY IT'S INFORMATION BROKERAGE (NOT SYMBOL CODE NOT MULTI-FACETED PLAN):Initial gathering phase involves scattered examination points across Guild.
+Information from Guild books explicitly enables Monastery basement puzzle solution days later—
+knowledge transfers between locations separated by physical space and time.
+
+DISTINCTIONS:
+- vs Symbol Code: The color code IS pure symbol translation, but it's only ONE COMPONENT of broader brokerage chain
+- vs Multi-Faceted Plan: Information must be gathered in specific order (can't read logbook before opening safe can't open safe without lockpick from earlier step)
+
+The core "brokerage" is knowledge transfer: Thieves' Guild trap books → Monastery basement locked desk solution.
+Player brokers information between two physically separated puzzle domains.
+```
+
+<small>Cited from: qfg4-gamefaqs-anonymous.txt:530-621, qfg4-gamefaqs-sac.txt:2270-2291</small>
+
+---
+
 ## Related Types
 
-- **Multi-Faceted Plan**: Both involve multiple requirements, but MFP is about parallel discovery (ingredient A AND B AND C) while Brokerage emphasizes chained dependencies (Item A gets you Thing B which trades for Target)
+- **Multi-Faceted Plan**: Both involve multiple requirements but MFP is about parallel discovery (ingredient A AND B AND C) while Brokerage emphasizes chained dependencies (Item A gets you Thing B which trades for Target)
 - **Pattern Learning/Knowledge Transfer**: KT teaches a reusable *system*; Brokerage is one-off network mapping per puzzle instance
 
 ### SpaceQuest 1: Bar Conversation Overhear for Sector Location (SQ1)
@@ -751,5 +899,157 @@ PHASE 5 - FINAL ACQUISITION:
 The key characteristic: information flows through SOCIAL EXCHANGES between NPCs and player. General won't leave unless Nico provides distraction; Renaldo blocks chart until pyramid expedition discussion; Conchita requires CHART EVIDENCE as trade-currency for detonator. This is NOT simple item collection—it's mapping an implicit intelligence network where each NPC's cooperation depends on specific conditions being met through OTHER NPC interactions.
 
 **Distinction from Multi-Faceted Plan**: All items/gatherings serve one goal (escape prison), but MFP collects independent COMPONENTS that converge at end. Here, INFORMATION ABOUT THE SOLUTION flows through NPCs who won't cooperate without specific triggers from other NPC interactions. Conchita → detonator is gated by chart access → which requires General distraction → which requires Nico coordination. This creates CHAINED DEPENDENCIES rather than parallel collection.
+
+### Simon the Sorcerer: Woodcutter Staff Acquisition Chain (SIMON)
+
+**Problem**: The Wizards in the pub promise to make Simon an official wizard if he retrieves a special staff. Finding it requires navigating a multi-NPC trade chain involving woodcutter assistance, blacksmith crafting, and archaeologist manipulation.
+
+<small>Source: walkthroughs/simon1/simon1.txt, lines 723-766 — "The wizards at the pub asked Simon to get a wizard's staff... go to the woodcutter's house. He can't cut trees without an axe head made of milrith... he gives you a metal detector."</small>
+
+<small>Source: walkthroughs/simon1/simon1_2.txt, lines 73-84 — Woodcutter dialogue about milrith requirement and giving metal detector</small>
+
+```
+TRADE NETWORK MAPPING (Six NPCs in dependency chain):
+
+NETWORK NODES & DEPENDENCIES:
+
+NPC 1: WIZARDS at Pub (Initial Contact)
+Wants: Magic Staff to make Simon a wizard  
+Offers: Wizard status (plot progression unlock)
+Dependency: None—direct initial request
+
+
+NPC 2: Woodcutter (Tool Provider - Forest)
+Wants: Milrith axe head to cut magical trees
+Offers: Metal detector (required item for milrith detection)
+Dependency: Must first learn ABOUT milrith from his dialogue
+
+
+NPC 3: Blacksmith (Crafting Node - Village)
+Trade A: Wants rock with fossil, Offers fossil extracted from rock
+Trade B: Wants milrith ore, Offers milrith axe head forged from ore
+Dependencies: 
+  - Has no knowledge of fossil's existence until player provides rock
+  - Cannot forge axe without milrith being discovered
+
+
+NPC 4: Archeologist Dr. Von Jones (Information Node - Forest)
+Wants: Fossils for paleontological research
+Offers: Will dig in snowy area if told fossils exist there
+Dependency: Requires FOSSIL as proof-of-concept; won't believe word alone
+
+
+NPC 5: Milrith Ore (Environmental Resource - Snowy Area)
+Access Condition: Only appears after Archeologist digs the specific location
+Discovery Method: Metal detector shows milrith presence but can't be retrieved directly
+Player must manipulate NPC 4 to excavate on player's behalf
+
+
+NPC 6: Woodcutter (Return Visit - Forest, Staff Location Unlock)  
+Wants: Nothing now—receives fulfilled promise of axe head
+Offers: Access to interior of his house where staff is located
+State Change: After receiving milrith axe, leaves to cut trees, abandoning house
+
+
+STAFF ACQUISITION ITSELF REQUIRES SEPARATE SUB-CHAIN (Mummy Tomb):
+
+This creates a SECONDARY BROKERAGE CHAIN nested inside the primary staff plotline:
+
+SUB-NPC A: Woodworms at Forest Stump
+Trade: Wants mahogany wood from woodcutter's basement → Offers consumed-woodworms
+
+
+SUB-NPC B: Rapunzel's Tower Floorboards  
+Requirement: Woodworms eat through floor to reveal hole access  
+Result: Ladder placement grants access to basement
+
+
+SUB-NPC C: Mummy in Tomb
+Action: Open tomb twice, retrieve loose bandage from mummy's back (timing challenge)
+Reward: Staff materializes and is collectable
+
+
+COMPLETE TRADE GRAPH VISUALIZATION:
+
+```
+Wizards [Want: Staff] → Player must explore
+
+Branch A - Milrith Acquisiton Chain (Tool Fabrication):
+  Woodcutter → Metal Detector → Snowy Area Detection
+    ↓
+  Blacksmith → Fossil Trade (rock→fossil) 
+    ↓
+  Archeologist ← Give Fossil → "I'll dig snowy area"
+    ↓
+  Player Returns to Snowy Area with now-excavated MILRITH ORE
+    ↓
+  Blacksmith ← Milrith → Forges Milrith Axe Head
+    ↓
+  Woodcutter (Return) ← Axe Head → Leaves house, interior accessible
+
+
+Branch B - Staff Physical Retrieval (Mummy Sub-chain):
+  Woodcutter's House Basement → Pick up Mahogany
+    ↓
+  Woodworm Stump ← Mahogany → Returns mahogony-with-woodworms
+    ↓  
+  Rapunzel Tower ← Ladder + woodworms on floorboards → Hole chewed through
+    ↓
+  Mummy Tomb (via ladder down hole) ← Open twice, grab bandage → STAFF ACQUIRED
+
+Final Step: Return to Wizards at Pub with Staff (+30 gold coins payment)
+← Wizard Status Granted (unlocks witch duel capability)
+
+
+WHY IT'S INFORMATION BROKERAGE:
+
+NON-EXISTENT DIRECT EXCHANGES:
+No single NPC can provide the staff or path to it. Player must:
+1. DISCOVER that woodcutter needs milrith (exploration dialogue)
+2. LEARN metal detector is available as trade commodity  
+3. FIND fossil independently, then convert to knowledge currency (Archeologist buys proof with labor)
+4. MANIPULATE blacksmith twice in DIFFERENT CAPACITY contexts (cracker → smelter)
+
+This creates an EXPLICIT DEPENDENCY NETWORK where each NPC holds a piece of the puzzle:
+- Woodcutter: Knows milrith is needed, has detection tool to find it
+- Blacksmith: Can extract fossils AND forge axe—he's TWO NODES in one location  
+- Archeologist: Has labor (digging) that unlocks inaccessible resource
+
+THE BROKERAGE "TRICK":
+Archeologist won't dig until convinced fossils exist. But milrith is ALSO in the snowy area—NOT the fossil itself! Player must LIE/connect unrelated dots:
+  "I found a fossil here [from random rock] → prove I know about fossils"
+  "Milrith detectors signal presence nearby, fossils probably too" → Convincing enough
+  
+This is COMPLEX BROKERAGE because it requires:
+1. Misdirection (fossil ≠ milrith but used as proxy credibility)
+2. Indirect labor outsourcing (Archeologist digs for Player's real goal)
+
+
+COMEDIC ELEMENT AS MECHANICAL JUSTIFICATION:
+The absurdity of the archeologist leaving immediately for 3 miles away based on one fossil, then player returning to find him casually excavating—delivers humor while maintaining internal logic ("if I found fossil nearby, digging continues makes sense"). Simon's world operates on "believable enough" causality rather than perfect realism, which allows trade chains to accelerate through NPC compliance with player manipulation.
+
+
+FAILURE MODES AS NETWORK BREAKPOINT IDENTIFICATION:
+If player attempts to give woodcutter axe before milrith obtained → dialogue reveals requirement ("this won't work on magical trees")  
+→ Network feedback loop identifies missing component
+
+If player asks for staff from wizards too early (before wizard status) → rejected ("only wizards can wield the staff")
+→ Secondary requirement discovered through failed exchange attempt
+
+
+DISTINCTION FROM META-CONSTRUCTION:
+While there's SEQUENTIAL DEPENDENCY here, items aren't TRANSFORMED into each other in a single chain. Instead:
+- Rock and fossil are separate trades (one NPC context: "this is interesting to me")
+  - Metal detector is simple fetch ("I have this too")
+  - Milrith is environmental state change dependent on NPC action
+  
+The puzzle exists in SOCIAL INTERACTION NETWORK, not in item transformation pipeline. Each step is a negotiation, transaction, or service trade with different NPCs holding distinct knowledge/inventory states.
+
+**Nested Meta-Construction Sub-Puzzle (Mummy Chain):**
+Once inside woodcutter's house, the actual staff retrieval follows linear chain:
+  Mahogany → Woodworms → Floor Access → Tomb Entry → Bandage Grab → Staff
+  
+This demonstrates how multiple puzzle types can layer: Information Brokerage creates HOUSE ACCESS; Meta-Construction retrieves PHYSICAL OBJECT from interior.
+```
 
 ---

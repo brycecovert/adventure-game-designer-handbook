@@ -98,6 +98,166 @@ OFFERING 3: Pillow
 Location Source: Bumpusville house, Monster-Truck-Bed room
 Acquisition Method:
 - Simple collection from bed during house exploration
+
+---
+
+### Quest for Glory IV: Leshy Riddle Progression (QFG4)
+
+**Setup**: A forest spirit asks sequential riddles that can only be answered after completing specific quests elsewhere in the game. Each correct answer unlocks the next riddle, creating a knowledge-gated dialogue tree. Unlike standard Symbol Code puzzles, the "code" here is gameplay knowledge acquired through world exploration and quest completion.
+
+<small>Source: qfg4-gamefaqs-sac.txt, lines 2368-2395 — "Q: Who am I? A: Leshy (found in Hero's Magazine)... Q: Save a plant from goo. A: Bush (must have bush in possession)"</small>
+
+```
+RIDDLE SEQUENCE WITH GAMEPLAY GATES:
+
+Riddle 1: Name Identification
+Question: "Who am I?"
+Required Knowledge: Reading the "Hero's Magazine" book in Adventurer's Guild library reveals forest spirit name
+Answer: "Leshy"
+Requirement State: Must have read books at Adventurer's Guild
+Citation: qfg4-gamefaqs-sac.txt:2368-2372
+
+Riddle 2: Environmental Action Gate  
+Question: "Save a plant from goo" (rhymeful version)
+Required Knowledge: Leshy will ask this only after Riddle 1 answered correctly
+Physical Requirement: Must have rescued bonsai bush AND planted it in Erana's Garden
+Answer: "Bush" or "I saved the bush"
+Requirement State: Must complete bush rescue quest + plant action
+Citation: qfg4-gamefaqs-sac.txt:2373-2381
+
+Riddle 3: NPC Encounter Knowledge
+Question: "Who's in the lake?" (rhymeful version)
+Required Knowledge: Player must recognize lake creature is a Rusalka
+Physical Requirement: Must have visited Lake Mordavia at least once, spoken to Rusalka
+Answer: "Rusalka"
+Requirement State: Encounter with lake spirit completed
+Citation: qfg4-gamefaqs-sac.txt:2382-2387
+
+Riddle 4: Hidden NPC Awareness
+Question: "Who hides behind 'trick sticks'?" (rhymeful version for hut on chicken legs)
+Required Knowledge: Learning about Baba Yaga's disguise mechanism
+Physical Requirement: Must have met Baba Yaga OR spoken to Punny Bones who mentions her
+Answer: "Baba Yaga"
+Requirement State: At least one source of information about Baba Yga consulted
+Citation: qfg4-gamefaqs-sac.txt:2388-2391
+
+Riddle 5: Quest Completion Gate
+Question: "A berry bush with attitude?" (rhymeful version)  
+Required Knowledge: Elderbury Bush identity and completion of pie quest
+Physical Requirement: Must have completed Baba Yaga's pie quest successfully
+Answer: "Elderbury Bush"
+Requirement State: Pie delivered to Baba Yaga, berries harvested beforehand
+Citation: qfg4-gamefaqs-sac.txt:2392-2395
+
+Riddle 6: Major Plot Milestone Gate
+Question: "Who has the Heart Ritual?" (rhymeful version)
+Required Knowledge: Discovery of Heart Ritual location varies by class
+Physical Requirement: Must have obtained Heart Ritual through class-specific method
+Answer: "Wraith" (Fighter/Thief obtained from barrow OR "Erana's Staff" for Wizard fairy fountain)
+Requirement State: One of seven major rituals already collected, significant plot progress
+
+WHY IT'S MULTI-FACETED PLAN (NOT SYMBOL CODE):Requirements are discovered INCREMETALLY through disparate gameplay activities
+Each requirement must be SATISFIED through world interaction, not just "knowing" an answer
+Player synthesizes complete picture: "Leshy requires me to do X quests in this order to unlock dialogue layers"
+
+DISTINCT FROM RIDDLE PUZZLES IN OTHER GAMES:
+Answers cannot be guessed or brute-forced; gates prevent progress without actual quest completion
+Knowledge is not "remembered"—it's PROVEN through inventory/world state checks
+    
+Related Types Differentiation:
+- vs Symbol Code Translation: No visual codes to decode; knowledge proven by action
+- vs Pattern Learning: Not about rule discovery; about quest completion verification  
+- vs Meta-Puzzle Construction: Requirements can be gathered in mostly flexible order, 
+  though dialogue sequence is locked
+```
+
+<small>Cited from: quest-for-glory-iv/qfg4-gamefaqs-sac.txt:2368-2395</small>
+
+---
+
+### Quest for Glory IV: Tanya's Liberation Quest (QFG4)
+
+**Setup**: A child named Tanya is being held captive by Domovoi in Castle Borgov. Her release requires assembling information and items from multiple sources across different character interactions.
+
+<small>Source: qfg4-gamefaqs-anonymous.txt, lines 985-1010 — "Listen at doored Inn room at night overhear Domovoi... give Rehydration Solution to dehydrated Domovoi"</small>
+
+```
+MULTI-SOURCE REQUIREMENT GATHERING (parallel discovery):
+
+Requirement 1: Discover the problem exists  
+Location: Hotel Mordavia, specific locked room in evening
+Action: Listen through door on nights 3-5 → overhear Domovoi conversation about Tanya and doll
+Information Gain: Learn that Tanya is missing from her family due to domestic spirit kidnapping
+Citation: qfg4-gamefaqs-anonymous.txt:985-990
+
+Requirement 2: Understand who Domovoi actually is  
+Location: Hotel Mordavia, same room (different nights)
+Action: Speak to Domovoi through door over multiple evenings
+Information Gain: Learn Domovoi's nature as house spirit; learn he's dehydrated and needs reactivation
+Citation: qfg4-gamefaqs-sac.txt:2530-2546
+
+Requirement 3: Obtain Rehydration Solution recipe  
+Location: Dr. Cranium's lab, Mordavia town
+Action: On third visit to doctor (day 3+), ask about "Rehydration Solution"
+Sub-puzzle: Provide formula from game manual/pamphlet (or online reference)
+Result: Dr. Cranium explains solution but needs ingredient
+Citation: qfg4-gamefaqs-sac.txt:1924-1936
+
+Requirement 4: Acquire Grue Goo ingredient  
+Location: Squid Stone area (west forest, near Dark One Cave entrance)  
+Action: Use Empty Flask on green ooze pool → fills flask with grue goo
+Information Dependency: Requires earlier visit to Dr. Cranium who provides empty flask
+Result: Return goo to Dr. Cranium → receive Rehydration Solution in exchange
+Citation: qfg4-gamefaqs-anonymous.txt:940-953
+
+Requirement 5: Locate and reactivate Domovoi  
+Location: Monastery basement (dehydrated cabinet) 
+Action: Use Rehydration Solution on dried figure in cabinet → Domovoi reactivates
+Result: Domovoi is now physically present to request doll retrieval
+Citation: qfg4-gamefaqs-sac.txt:2530-2546
+
+Requirement 6: Retrieve Tanya's doll  
+Location: Hotel Mordavia, closet in locked room where she was kept prisoner
+Action: Enter room (unlocked after Domovoi release), take doll from closet shelf
+Result: Doll obtained, ready to return to Tanya
+Citation: qfg4-gamefaqs-sac.txt:1287-1305
+
+Requirement 7: Deliver doll and gain trust  
+Location: Castle Borgov interior (where Tanya held captive)
+Action: Give doll to Tanya → she recognizes it, trusts player
+Result: Can now speak with her about liberation; reveals additional requirement
+Citation: qfg4-gamefaqs-anonymous.txt:1001-1010
+
+Requirement 8: Convince Tanya to leave (optional honor path)    
+Location: Gypsy camp, Magda fortune teller
+Action: Speak about sacrifice and what must be given up to go home
+Information Gain: Tanya's trust is won; she agrees to return home without forced extraction
+Honor Reward: Releasing child spirit peacefully
+
+WHY IT'S MULTI-FACETED PLAN:
+- Information gathered from 4+ separate NPCs/dialogue chains (Dr. Cranium, Domovoi, Innkeeper, Magda)
+- Physical items (Grue Goo, doll, rehydration solution) must be synthesized into coherent action plan
+- Requirements discovered through environmental observation (listening at door) AND directed quest-giving
+- Non-linear progression: player can visit any location in mostly flexible order once aware of components
+- Solution emerges from synthesis: "I need to find Tanya's guardian → reactivate him → get her doll → convince BOTH to let her leave"
+    
+Information Flow (Non-Linear):
+1. Overhear Domovoi conversation (night) → learn problem exists
+2. Talk to Dr. Cranium multiple times → learn Rehydration Solution recipe  
+3. Collect Grue Goo from wild → trade for solution
+4. Reactivate Domovoi at monastery  
+5. Retrieve doll from abandoned room
+6. Deliver to Tanya, then seek advice from Magda
+7. Liberate with or without force
+
+No single NPC explains complete solution path; player must synthesize requirements from:
+- Eavesdropping (Inn room at night)
+- Doctor dialogues over several days  
+- Exploration discovery (monastery basement cabinet)
+- Gypsy wisdom dialogue
+```
+
+<small>Cited from:qfg4-gamefaqs-anonymous.txt:985-1010, qfg4-gamefaacs-sac.txt:2530-2546</small>  
 - No complex sub-puzzle needed, just discovery through search
 Independent of other three offerings
 
@@ -585,7 +745,7 @@ A subtype of Multi-Faceted Plan where component puzzles must be COMPLETED in seq
 |--------------|-------------------------|
 | Four ingredients can be found in any order | Each step unlocks next puzzle state |
 | Synthesis = all requirements assembled | Synthesis = correct sequence discovered |
-| Example: Voodoo doll (all 4 gathered independently) | Example: Dinky Island water filtration |
+| Example: Voodoo doll (all 4 gathered independently) | Example: Dinky Island water filtration, QFG3 Lost City chamber |
 
 **Dinky Island Water Filtration (MI2)**:
 1. Find bottle → break on rock to get crowbar
@@ -1519,4 +1679,399 @@ Cocktail Machine as Automaton: Fits SYB's mechanical theme—another clockwork/m
 The Button Sequence is THEMED: Snowflake icon connects to cocktail preparation knowledge (cold drinks), lemon/honey icons are literal ingredient representations—visual-symbolic interface that reinforces mechanical/craftsmanship motif throughout game.
 ```
 
+### Simon the Sorcerer: Tower of Doom Demons Summoning Ritual (SIMON)
+
+**Problem**: The two demons Gerald and Max block access to the teleporter on the top floor of the Tower of Doom. They will teach Simon how to use it only if he can send them back to Hell—a ritual requiring multiple components acquired from different floors of the tower.
+
+<small>Source: walkthroughs/simon1/simon1.txt, lines 1004-1029 — "They'll agree to teach Simon how to work the teleporter here, if he can send them to Hell... The book shows that the player needs a magic square drawn in chalk, candles from the basement, a skull from the basement, the mouse from the bedroom, and he needs to know their true names."</small>
+
+<small>Source: walkthroughs/simon1/simon1_2.txt, lines 347-360 — "Talk to the demons... Say I'll just draw a quick magic square on the floor. Say OK, we're all set. Let's ROCK!"</small>
+
+```
+FOUR PRIMARY REQUIREMENTS (discovered incrementally through dialogue + examination):
+
+REQUIREMENT 1: Magic Square (Information from BOOK)
+Source Location: Top Floor (demons' room), cushion on bed
+Discovery Method: READ book that demon lends → reveals magic square drawing requirement
+Execution: Use CHALK (provided by demons) to draw square on floor
+Independent of other physical components
+
+
+REQUIREMENT 2: Candles (Physical Component from Basement)
+Source Location: Basement level, Treasure Chest puzzle
+Discovery Method: Examine chest containing candles (acquired via block-smashing lever puzzle)
+Execution Chain:
+  - Get TREASURE CHEST from bridge in basement
+  - Move LEVER to raise smashing block above lever
+  - Place chest on block below hammer mechanism
+  - PULL LEVER twice → chest crushed open, candles revealed
+Independent of skull acquisition (both from basement, separate actions)
+
+
+REQUIREMENT 3: Skull (Physical Component from Basement)  
+Source Location: Basement level, Upper wall alcove
+Discovery Method: Examine skull hanging high on wall → need tool to knock it down
+Execution Chain:
+  - Get SPEAR from main floor (hanging from ceiling)
+  - Return to basement with spear
+  - USE speak on skull → knocks it loose
+  - Collect SKULL that falls to floor
+Independent of candle acquisition (separate examination/use chain)
+
+
+REQUIREMENT 4: Mouse (Physical Component from Bedroom, Middle Floor)
+Source Location: Bedroom level, Mouse hole in steps under stairs
+Discovery Method: Attempt to enter mouse hole → reveals need for lure and capture method
+Execution Chain:
+  - Get SOCK from bedroom floor
+  - Get POUCH from bed
+  - Combine SOCK + POUCH (sock inside pouch acts as trap)
+  - Use SOCK on mouse hole first → mouse attempts to exit, fails
+  - Use POUCH on mouse hole → mouse enters pouch seeking sock scent → captured
+
+
+REQUIREMENT 5: True Names (Information via Spy Mechanic)
+This is a META-requirement that cannot be obtained through direct conversation.
+Discovery Method: Demons REFUSE to provide their true names when asked directly.
+Solution Chain:
+  - Get SHIELD from main floor
+  - Get CHEMICALS from top floor bookshelf
+  - Combine CHEMICALS + SHIELD → shiny, reflective surface created
+  - Mount SHINY SHIELD on high hook on top floor (above demons' room)
+  - Return to bedroom level
+  - USE talking MIRROR (magical object that shows any location with clear view)
+  - Ask mirror to show DEMONS while they are unguarded (top floor alone)
+  - Demons speak their TRUE NAMES in private, thinking not watched
+  
+WHY THIS IS MULTI-FACETED PLAN:
+
+INCREMENTAL DISCOVERY PATTERN:
+1. Initial dialogue with demons → learn they're oppressed, want to return to Hell
+2. Ask "can you teach me teleporter?" → conditional yes pending demonic banishment
+3. Request true names directly → REFUSED (critical information gap revealed)
+4. Examine book they lend → reveals 4 physical requirements + magic square drawing
+5. Player must now determine: WHERE are these items located?
+
+SYNTHESIS REQUIREMENT:
+- Candles and skull BOTH from basement, but DIFFERENT rooms/separate acquisition chains
+- Mouse from bedroom (middle floor), completely different mechanic than basement items
+- True names require SPY mechanism invention (shield + mirror system) because direct query failed
+- No NPC states complete solution list at once; player builds mental inventory: "I need A from basement, B from basement, C from bedroom, D from information spy trick"
+
+PARALLEL GATHERING POSSIBLE:
+Unlike Meta-Puzzle Construction's linear chain, these requirements CAN be gathered in different orders:
+- Could get mouse before candles (independent locations)
+- Could acquire skull while obtaining candles in same basement trip  
+- Spy mirror setup must happen AFTER shield polishing chemicals obtained but can occur before or after physical items collected
+
+THE CRITICAL DIFFERENCE from simple "collect 4 items":
+The TRUE NAMES requirement is INFORMATION, not physical object. The player must realize:
+1. Demons won't volunteer their names (dialogue closure)
+2. Magic requires true names per book instructions (informational prerequisite)
+3. Therefore: need INDIRECT acquisition method
+
+This meta-realization—designing a spy mechanism to bypass NPC refusal—is the SYNTHESIS that defines Multi-Faceted Plan. The complete solution emerges from combining failed dialogue attempt (names refused) with physical item discovery + environmental tool combination (mirror's viewing capability + shield's reflectivity).
+
+
+EXECUTION:
+Once all five requirements gathered, player initiates ritual:
+1- Draw magic square on top floor chalk-dusted ground
+2- Position candles at square's corners
+3- Place skull in center of square
+4- Hold mouse aloft as sacrificial offering
+5- Speak demons' true names (learned via mirror spy) + incantation from book
+
+Demons banished to Hell → learn teleporter operation → proceed to Fiery Pits.
+```
+
+**Why It's Multi-Faceted Plan**: The complete solution is never stated by any NPC in full. Player must assemble the requirement list from multiple sources: initial demon dialogue (they'll help if freed), book examination (lists ritual components), failed direct name request (triggers alternative acquisition method). No single interaction provides the checklist; synthesis happens across dialogue, inventory examination, and spatial exploration of three tower levels.
+
+### Simon the Sorcerer: Dwarf Mine Beer Trade Chain (SIMON)
+
+**Problem**: The dwarf mine blocks access to a gem worth selling. Entry requires wearing a beard and knowing the password. Inside, further obstacles require beer for one guard and a voucher for another NPC interaction. These items are obtained from the village pub via a complex scheme involving beeswax and timing.
+
+<small>Source: walkthroughs/simon1/simon1.txt, lines 589-647 — "You'll need a few things before you can solve this plotline: You need a feather from the Wise Owl... You need a beard... You need the rock with password 'BEER'... You need beer and a beer voucher from the pub"</small>
+
+<small>Source: walkthroughs/simon1/simon1_2.txt, lines 57-62, 208-216 — Detailed multi-step acquisition of beard, password, feather, beer, and voucher</small>
+
+```
+MULTIPLE INDEPENDENT REQUIREMENTS (gathered in any order):
+
+REQUIREMENT 1: Beard (Disguise Component)
+Source Location: Villiage Pub, sleeping dwarf on bench
+Discovery Method: Examine sleeping dwarf → scissors use option becomes available
+Acquisition Chain:
+  - Obtain SCISSORS from starting location (wizard house drawer)
+  - Return to pub after initial exploration
+  - USE scissors on sleeping dwarf → BEARD acquired
+
+Independent of other mine requirements
+
+
+REQUIREMENT 2: Password Knowledge (Information Component)
+Source Location: Center of Forest, stone outside dwarf mine entrance
+Discovery Method: Pick up rock/examine it → dialogue reveals password "BEER"
+Execution: 
+  - Navigate to center of forest from village
+  - PICK UP rock near cave entrance
+  - EXAMINE rock in inventory → "The word BEER is carved into it"
+
+Information learned can be remembered (MFP pattern) without affecting other requirements
+
+
+REQUIREMENT 3: Feather (Key Acquisition Tool, Inside Mine)
+Source Location: Owl Tree in forest, Wise Owl NPC
+Discovery Method: Talk to owl → dialogue animation shows feather falling
+Acquisition Chain:
+  - Navigate to Owl Tree from forest center
+  - TALK to wise owl repeatedly → FEATHER drops
+  - PICK UP feather from ground
+
+Independent gathering action
+
+
+REQUIREMENT 4 & 5: Barrel of Beer + Beer Voucher (Pub Sub-puzzle)
+These require a META-CONSTRUCTION SUBCHAIN within the MFP.
+
+PHASE A - Obtaining Beeswax (Prerequisite):
+1. Get Repulser from Rapunzel's Tower (separate plotline)
+2. Use Repulser on chocolate house door in village → entry granted
+3. Get SMOKEBOX and BEEKEEPER HAT from inside house
+4. Exit to outside chocolate house
+5. USE smokebox + wear hat + MATCHES from pub fruit machine → collect WAX from beehive
+
+PHASE B - Pub Distraction Timing Puzzle:
+6. Enter pub, TALK to bartender about getting a drink
+7. Bartender animation triggers (looks behind bar for ingredients)
+8. [TIMING WINDOW]: Quick inventory access while bartener distracted
+9. USE beeswax on beer barrel spigot → plugs leak → BARREL appears empty
+10. Bartender gives you LEAFLET with BEER VOUCHER inside, leaves pub
+11. Exit pub → TAKE barrels of beer that bartender discarded outside
+
+WHY THIS IS MULTI-FACETED PLAN:
+
+PARALLEL REQUIREMENT GATHERING: Four distinct categories acquired independently:
+- Physical disguise (beard from dwarf's snoring)
+  - Information knowledge (password from stone examination)  
+  - Tool item (feather from owl interaction, used inside mine for key)
+  - Trade items (beer + voucher from pub scheme with sub-requirements)
+
+SYNTHESIS AT ENTRY POINT: All requirements converge at dwarf mine entrance:
+  - WEAR beard to bypass guard's visual check
+  - SAY password "BEER" during dialogue  
+  - Enter mine proper
+
+FURTHER SYNTHESIS INSIDE MINE: The beer and voucher are used on DIFFERENT DWARVES in SEPARATE ROOMS—these weren't gathered as a paired set but as individual trade components that each satisfy one NPC's demand.
+
+
+DISTINCTION FROM META-CONSTRUCTION SUBCHAIN (Wax/Beer Puzzle):
+The beeswax → pub scheme → beer/voucher chain IS sequential and must be done in order:
+  - Cannot get without rapunzel plot complete
+  - Cannot plug barrel before bartender animation triggers
+  - Must collect voucher BEFORE exiting to grab beer barrel
+  
+But within the larger MFP structure, THIS ENTIRE PUB SCHEME is just ONE REQUIREMENT CATEGORY alongside three others that CAN be gathered in parallel or different order.
+
+
+FINAL EXECUTION:
+Once inside mine with beard + password known:
+1. Navigate past first guard (wearing beard bypasses visual check)
+2- Give BEER to left dwarf → he wanders off to drinking room southeast
+3. Use FEATHER on sleeping dwarf in drinking room → drops KEY  
+4. Use key on gold door, continue west → get HOOK for later plotlines
+5. Enter treasury room, give VOUCHER to guard dwarf → request GEM from pile
+6. Exit mine with gem, sell to Dodgy Geezer in village → GOLD COINS
+
+
+FAILURE MODES:
+- Without beard → guard refuses entry regardless of password
+- Wrong password → same result (both required simultaneously)
+- Missing beer → left guard maintains block on drinking room access
+- Missing voucher → treasury dwarf offers no items
+
+Four requirements, three locations (forest owl, village pub/sub-area, center/forest mine), one information check (stone examination).
+```
+
 ---
+
+### Legend of Kyrandia: Royal Vestments Collection (LK1)
+
+**Problem**: To enter the Kyragem chamber and defeat Malcolm, Brandon must collect three royal artifacts scattered across Castle Kyrandia and place them in the correct order on pillows in the foyer. Each artifact requires a separate acquisition chain from different castle zones.
+
+<small>Source: classicgamesparadise_walkthrough.html, lines 319-327 — Description of scepter in kitchen, crown behind library fireplace, chalice from Faun; pillow placement order</small>
+
+<small>Source: bonny_ploeg_walkthrough.html, lines 144-146 — "Scepter - Found in castle kitchen. Used to enter Kyragem room," "Crown - Found behind fireplace in study," "Chalice - Retrieved from Pipsqueak after you give him the apple"</small>
+
+```
+THREE INDEPENDENT ARTIFACT ACQUISITIONS (can be done in any order):
+
+ARTIFACT 1: Royal Scepter
+Location Source: Castle Kyrandia Kitchen
+Acquisition Method:
+- Enter castle using Iron Key at gate (requires invisibility gem to bypass gargoyles)
+- Navigate to kitchen area on main floor
+- Simple collection: scepter hanging over table, unobstructed pickup
+No sub-puzzle required; purely location discovery within castle exploration
+
+Independent of other artifacts—can collect first, last, or middle.
+
+
+ARTIFACT 2: Royal Crown  
+Location Source: Castle Kyrandia Library → Secret Passageway → Dungeon
+Acquisition Chain:
+- Go to library (study) on main floor
+- Investigate fireplace → reveals secret passage leading to dungeon
+- Crown visible but trapped behind forcefield barrier in adjacent chamber
+
+Book Sequence Sub-Puzzle:
+- Return to library before entering fireplace passage
+- Pull books from shelves in specific order by first letter of titles
+- Letters must spell "O-P-E-N" when extracted sequentially
+- Success: fireplace rotates without Brandon, creating open passageway
+
+Forcefield Bypass:
+- Enter dungeon through opened passage
+- Use blue gem (demagnetize power) on amulet to disable forcefield
+- Navigate past forcefield to room with loose floor tile
+- Move tile → discover Gold Key (needed for foyer door, not crown itself)
+- Crown can now be collected from its pedestal
+
+Why Independent: While crown collection involves sub-puzzles (book sequence, forcefield bypass), none of these affect scepter or chalice paths. Player could retrieve scepter first then do entire library/dungeon complex.
+
+
+ARTIFACT 3: Royal Chalice
+Location Source: Faeriewood → Pipsqueak/Faun trade
+Acquisition Chain:
+
+Phase A - Reach Faeriewood (separate game world):
+- Collect water from Castle Moat at tropical lagoon using empty bottle
+- Use blue gem on amulet to demagnetize floating chalice in air
+- Chalice appears but Pipsqueak/Faun steals it immediately
+
+Phase B - Apple Trade Sub-Puzzle:
+- Must obtain apple (found at Brandon's home outside cave OR in Faeriewood)
+- Create purple potion at Crystals of Alchemy: blue + red potions combined
+- Purple potion shrinks Brandon to miniature size
+
+Phase C - Enter Faun's Home:
+- Drink purple potion outside Faun's door while shrunken
+- Trade apple for Royal Chalice (dialogue exchange)
+- Exit, find chalice placed right of Faun's door
+
+Why Independent: Entire faeriewood sequence is separate world visit with its own mechanics. Chalice can be acquired before visiting castle or after; no mechanical overlap with scepter/crown paths.
+
+
+SYNTHESIS PHASE - Foyer Pillow Placement:
+
+Once all three artifacts collected (any order), enter foyer on main floor:
+- Three pillows visible in left-middle-right arrangement
+
+Correct Order Required (explicit puzzle):
+1. Scepter → LEFT pillow
+2. Crown → MIDDLE pillow  
+3. Chalice → RIGHT pillow
+
+Success: Doors to Kyragem chamber open, Malcolm confronts Brandon
+```
+
+WHY IT'S MULTI-FACETED PLAN:
+
+PARALLEL REQUIREMENT GATHERING CONFIRMED:
+Three artifacts acquired through completely independent paths:
+- Scepter: Simple pickup in kitchen (zero sub-puzzles)
+- Crown: Library book sequence + dungeon forcefield bypass + optional Gold Key discovery
+- Chalice: Separate world (Faeriewood) + potion crafting + size alteration + NPC trade
+
+Player can complete these in ANY ORDER and through DIFFERENT GAME SESSIONS. Walkthrough structure presents linearly but gameplay allows: collect scepter → visit Faeriewood for chalice → return to castle for crown, or any permutation.
+
+
+INFORMATION DISCOVERY STRUCTURE:
+No single source provides complete "get scepter, crown, chalice" checklist. Player must:
+- Explore Faeriewood separately (learned from Zanthia's dialogue)
+- Discover kitchen through castle exploration (no explicit hint about scepter there)
+- Uncover library secret passage through examination, not instruction
+
+
+FAILURE AS FEEDBACK:
+- Attempting foyer placement with incomplete set → puzzle fails, missing artifact slots remain empty
+- Wrong pillow order → no progression, must reconfigure
+- Information about "three artifacts needed" comes incrementally from castle exploration and previous game sections (Iron Key dialogue mentions royal vestments vaguely)
+
+
+DISTINCTION FROM META-CONSTRUCTION:
+The three artifact paths have NO OUTPUT-INPUT dependency between them:
+- Getting scepter doesn't enable chalice collection (completely different world)
+- Crown acquisition doesn't require scepter or vice versa
+- Chalice from Faeriewood independent of castle interior puzzles
+
+If this were Meta-Construction, step 1's output would feed into step 2 (e.g., "scepter opens library door for crown"). Instead, all three converge at FINAL synthesis point (foyer pillows), satisfying MFP definition.
+
+
+SUB-PUZZLE WITHIN PATHS:
+Note that EACH artifact path contains its own mini-chains:
+- Crown path: Book sequence → fireplace rotation → forcefield bypass → collection
+- Chalice path: Potion mixing (blue+red) → shrinking → trade dialogue
+
+But these are SEQUENTIAL WITHIN ONE ARTIFACT ACQUISITION, not BETWEEN ARTIFACTS. The OVERALL structure remains Multi-Faceted Plan with three parallel requirements.
+
+
+MALCOLM FINAL CONFRONTATION (Post-MFP Resolution):
+Once foyer doors open after correct pillow placement:
+- Enter Kyragem chamber, Malcolm prepares spell attack
+- Time-sensitive escape required: Stand in front of mirror on room's right side
+- Use red gem (invisibility) at critical moment → spell bounces off mirror, hits Malcolm
+- Malcolm turned to stone, Kyrandia saved
+
+This final sequence is TIMED CONSEQUENCE, separate from the MFP vestment collection.
+
+
+GAME PROGRESSION CONTEXT:
+The Royal Vestments puzzle serves as penultimate barrier before finale:
+1. Earlier game (Timbermist/Faeriewood): Amulet powers gained through meta-construction chains
+2. Mid-game: Iron Key obtained, castle access granted
+3. Final prep phase: MFP vestment synthesis using earlier-discovered powers
+4. Climax: Timed escape from Malcolm's spell
+```
+
+---
+
+---
+
+### Gabriel Knight 1: Voodoo Code Pages Collection (GK1)
+
+**Problem**: After attending voodoo conclave rituals, Gabriel must collect scattered cryptic code fragments across multiple crime scenes and ritual locations. Four symbol-bearing pages/patterns can be gathered independently in any order—physical reconstruction follows classic MFP pattern where parallel acquisition feeds single synthesis endpoint via artist consultation.
+
+<small>Source: justadventure_walkthrough.html, lines 906-923 and 998-1040 — Complete voodoo code reconstruction sequence documented</small>
+
+```
+FOUR COMPONENT PARALLEL GATHERING (Independent Collection Paths):
+
+Page 1 - First Conclave Cryptic Message:
+→ After Crash's death scene at midnight ritual gathering  
+→ Sketch coded symbols on tombstone/wall during crime scene investigation
+→ Item acquired: "Voodoo Code" (later renamed after Page 2 found)
+
+Page 2 - Second Crime Scene Symbols:
+→ Return to conclave site after police evidence collection completes
+→ New coded message appears at previously-unmarked location  
+→ Document via sketchbook action → inventory gains Page 2
+→ Independent of Page 1—just sits there waiting for observation
+
+Pattern Fragment A - Vevé Design Partial #1:
+→ Examine chalk symbols floor/wall at Marie Laveau's murder house
+→ Sketchbook copies partial ceremonial diagram section
+→ Separate location from code pages entirely
+
+Pattern Fragment B - Vevé Design Partial #2:
+→ French Quarter exploration reveals second wall/floor symbol arrangement  
+→ Again, sketchbook documentation captures fragment
+→ Zero dependency on Pages 1, 2, or Fragment A collection status
+
+SYNTHESIS VIA ARTIST CONSULTATION:
+All four components carried to artist's studio → sequentially shown → merges into complete vevé diagram design as single composite inventory item.
+
+WHY IT'S MFP NOT META-CONSTRUCTION:
+Getting Page 2 requires no prior knowledge from Page 1. Both pages exist independently at their crime scenes waiting to be sketched. Zero interdependency during collection phase—pure parallel gathering with end-point convergence. Compare to meta-construction where A would OUTPUT location of B (Page 1 decoded text revealing coordinates for Page 2 discovery).
+```
+
+<small>Cited from: justadventure_walkthrough.html:906-1040</small>
