@@ -496,3 +496,105 @@ All three characters must execute their respective actions within same game fram
 
 **Why It's Multi-Character Coordination**:  
 This is the PUREST expression of MCC in DOTT—the three-character coordination requirement applies across temporal boundaries as well as spatial ones. Character switching happens continuously during resolution phase, and all three timelines must be "live" simultaneously for success. Traditional MCC puzzles occur in single timeline; this extends the coordination requirement across CENTURIES while demanding simultaneous action windows (impressive design synthesis of Cross-Temporal Causality + Multi-Character Coordination).
+
+---
+
+## The Dig Character-Coordination Patterns (Four Aliens, Shared Inventory)
+
+### The Dig: Crew Task Distribution via Radio Communication (TD)
+
+**Problem**: After arriving on the alien planet, crew members split up and explore different locations independently. Unlike traditional multi-character games with explicit character-switching mechanics, The Dig uses a hybrid system: player controls Boston (protagonist) directly while coordinating with Maggie and Brink through radio communication (Penultimate device). Character abilities are specialized—Maggie's linguistic expertise can interpret alien symbols, Brink's archaeology knowledge identifies artifacts—but they are physically SEPARATED by the game world. Coordination occurs through INFORMATION SHARING rather than simultaneous action.
+
+<small>
+Source: mogelpower_morgana_walkthrough.txt, lines 1-25 — "Maggie ... renowned journalist and linguistic expert"; "Ludger Brink (noted geologist and archaeologist)"
+
+Source: spoiler_paul_greunke_walkthrough.txt, multiple instances of "talk to Maggie about" and "talk to Brink about" as information exchange points
+</small>
+
+**Distribution Requirements**:
+```
+CHARACTER SPECIALIZATIONS:
+- Boston Low (player-controlled): Physical actions, inventory management, exploration
+- Maggie Robbins (linguist): Can interpret alien language symbols when shown artifacts
+- Ludger Brink (archaeologist/geologist): Expert knowledge of ancient technologies, burial chambers, artifacts
+
+INVENTORY SHARING LIMITATION:
+Unlike MM or DOTT where each character has separate inventory, The Dig uses a SINGLE SHARED INVENTORY managed by Boston. However, items must be physically carried TO separated locations where other characters can examine them via TALK/SHOW interactions.
+
+COORDINATION PATTERN ASYNCRONOUS (not simultaneous):
+1. Player/Boston collects artifact at Location A
+2. Travel to Location B where Maggie/Brink positioned
+3. SHOW item → character provides domain-specific insight
+4. Apply knowledge gained when returning puzzle context
+```
+
+**Information Exchange Solution Pattern**:
+
+[Source: mogelpower_morgana_walkthrough.txt, lines 1120-1137]
+
+Example - Glowing Crystals and Life Restoration:
+```
+DISCOVERY PHASE (Boston/Museum):
+→ Boston collects GLOWING CRYSTALS from museum floor
+→ Exhibits show skeleton transformation imagery but no explicit explanation
+
+COORDINATION PHASE (Maggie/Library):  
+→ Boston radios Maggie via Penultimate device
+→ SHOWS crystals to Maggie over radio
+→ Dialogue reveals: "the dead could be raised" via crystal display interpretation
+→ Maggie's linguistic knowledge decodes the museum display meaning
+
+APPLICATION PHASE (Boston/Nexus):
+→ Boston returns to Brink's body with crystals
+→ USEs crystals on body → Brink resurrected as undead being
+```
+
+**Why It's NOT Traditional Multi-Character Coordination**:
+1. **No Simultaneous Actions**: Characters never act in PARALLEL—no character switching for synchronized tasks
+2. **Single Actor Physicality**: All physical actions performed by Boston alone; Maggie and Brink are advisors not doers
+3. **Information Transfer, Not Spatial Coordination**: Puzzle resolution comes from Maggie's KNOWLEDGE being applied to Boston's ITEMS
+
+**Correct Classification**: This is more accurately **Information Brokerage** where NPCs (separated party members) provide expert interpretation. The "multi-character" aspect is narrative framing only—mechanically it's NPC expertise acquisition.
+
+---
+
+### The Dig: Weak Door Opening Requires Crew Member Strength (TD, Positional Coordination)
+
+**Problem**: On the Museum Spire, a WEAKENED DOOR cannot be opened by Boston alone despite being unlocked. It requires TWO crew members to apply force simultaneously—one character pushes while the other assists. This is a physical constraint based on character positioning rather than inventory or knowledge distribution.
+
+<small>
+Source: spoiler_paul_greunke_walkthrough.txt, lines 184-186 — "try to open weakened door (can't open it yet)"
+
+Source: mogelpower_morgana_walkthrough.txt, lines 1052-1053, 1187-1192 — "I couldn't OPEN the WEAKENED DOOR without help... Brink followed me back through... he did help me OPEN the WEAKENED DOOR"
+</small>
+
+**Coordination Requirements**:
+```
+PHYSICAL CONSTRAINT:
+Door mechanism functional but requires combined strength of two characters
+
+CHARACTER DISTRIBUTION:
+- Boston (Player): Positioned at door initially
+- Brink (NPC): Must be physically present at SAME location
+
+NOT INVENTORY DEPENDENT: Cannot solve through items alone—requires crew positioning
+
+SOLUTION SEQUENCE:
+1. [Boston]: Opens doors to Museum Spire, finds weakened door cannot be opened solo
+2. [Boston]: Resurrects Brink using glowing crystals at Nexus
+3. [Both Characters Together]: Enter tram together (Brink follows Boston on-screen)  
+4. [Both at Weak Door]: With BOTH characters present in scene → door can now be OPENED
+5. [Result]: Life crystal chamber revealed, additional crystals can be collected
+```
+
+**Why It's Multi-Character Coordination (Minimal Form)**:
+1. **Physical Presence Requirement**: Puzzle explicitly requires TWO bodies at same location—single character attempt fails with clear feedback ("can't open it yet")
+2. **Not Inventory or Knowledge Based**: No item makes Boston stronger; no conversation provides "how to pry door open"
+3. **Simplified Coordination Pattern**: Unlike MM's complex spatial separation + timing, this is simple PRESENCE DEPENDENCY—two characters adjacent = action possible
+
+**Distinction from Standard MCC**: This is the MINIMAL form of Multi-Character Coordination requiring:
+- Only two characters (not three)
+- No simultaneous actions across separated locations
+- Simple adjacency requirement for unlock condition
+
+It demonstrates that not all multi-character puzzles require MM's dual-location parallel execution—some merely need character stacking at single locus. The "coordination" is simplified to ensuring BOTH characters arrive BEFORE attempting action, rather than sequencing actions DURING puzzle resolution.

@@ -343,6 +343,68 @@ Exactly one path to completed costume. No branching allowed during assembly phas
 
 ---
 
+### The Dig: Planetarium Creature Trap Construction (TD)
+
+**Problem**: In the Planetarium Spire, a small critter guards a green engraved rod behind a sealed door. The door requires a machine part that only the trapped critter possesses. Player must construct a functioning trap from scattered components, then lure the critter into it to retrieve the door component and access the rod.
+
+<small>Source: mogelpower_morgana_walkthrough.txt, lines 1477-1506 — dowel+pin→wheel, pole+pin→hook, hook+cage→trapping mechanism, rod+cage→trap assembly</small>
+
+**Sequential Assembly Chain**:
+```
+PHASE 1: Component Discovery (scattered collection)
+- DOWEL: Wooden peg found near large wheel (cannot take directly)
+- POLE: Movable pole attached to wall nearby (not inventory-accessible)
+- RIB CAGE: Animal remains scattered across floor (can be collected)
+- ROD: Wooden stick found with rib cage area
+
+PHASE 2: Meta-Puzzle Construction (STRICT SEQUENCE):
+Step 1: Use DOWEL with WHEEL → creates PIN in wheel center
+        - DOWEL alone has no other function
+        - Step produces PIN as intermediate state (not inventory item)
+
+Step 2: Use POLE with PIN in wheel → converts to HOOK  
+        - POLE can only be moved via LOOK action
+        - Result: HOOK attached to wall (environment modification)
+
+Step 3: Use RIB CAGE with HOOK → creates CAGE structure
+        - Cage cannot exist without hook attachment point
+        - Transforms trapless cage into potential trapping device
+    
+Step 4: Use ROD with CAGE → completes TRAP mechanism
+        - Rod props up cage to create spring-loaded trigger
+        - Final assembly = functional trap ready for bait
+
+PHASE 3: Critter Luring and Capture (behavior exploitation):
+Step 5: Click HOLE near trap location → critter emerges from wall
+Step 6: Walk Boston DOWNSCREEN then LEFT in front of wheels (NOT between them)
+Step 7: Return RIGHT through wheel gap → critter follows into trap path
+        - Critter AI chases player along shortest route
+        - Specific positioning triggers automatic trap entry
+Step 8: CRITTER catches in TRAP automatically
+
+PHASE 4: Trap Resolution:
+Step 9: Attach BRACELET tracker to CRITTER before release
+Step 10: Release trapped critter (door part now accessible)
+Step 11: Use DEVICE/SHOVEL at TRACKER SPOT in cave → MACHINE PART unearthed
+Step 12: Return MACHINE PART + COVER to DOOR PANEL → door opens → GREEN ROD obtained
+```
+
+<small>Source: mogelpower_morgana_walkthrough.txt, lines 1514-1543 — critter luring technique and machine part retrieval</small>
+
+**Why It's Meta-Puzzle Construction**: Strict sequential dependency with output interdependence:
+- Dowel must first create pin (intermediate state A) before pole can become hook (state B)
+- Hook is environmental prerequisite for cage attachment—cage cannot function alone
+- Rod only completes trap AFTER cage properly mounted on hook
+- Cannot reorder any step; each transformation produces required input for next
+
+**Hybrid Design Element**: Puzzle combines two distinct mechanical patterns:
+1. **Meta-Construction**: Trap assembly chain (dowel→pin, pole→hook, cage+hook+rod=trap)
+2. **Behavior Exploitation**: Critter luring requires understanding AI positioning rules (walk in specific pattern to exploit shortest-path chasing logic)
+
+The trap construction itself is pure Meta-Construction; the creature capture adds positional puzzle-solving layered on top. Walkthrough author explicitly references LucasArts trap-building tradition: "I was somewhat familiar with the LucasArts theory of trap building; I'd done something similar in that game" (referencing Monkey Island 2).
+
+---
+
 ## Related Types
 
 - **Multi-Faceted Plan**: When requirements discovered in parallel, not sequence

@@ -15,7 +15,7 @@ Status legend:
 - [ ] Indiana Jones and the Fate of Atlantis (1992)
 - [ ] Day of the Tentacle (1993)
 - [x] Sam & Max Hit the Road (1993) - SMHTR
-- [ ] The Dig (1995)
+- [x] The Dig (1995) - TD
 - [ ] Full Throttle (1995)
 - [ ] Grim Fandango (1998)
 
@@ -59,5 +59,5 @@ Status legend:
 ## Analysis Progress
 
 **Total:** 30 games  
-**Complete:** 10 games (KQVI, MI1, MI2, SIMON, LK1, MM, ZAK, INDY1, LOOM, SMHTR)  
-**Remaining:** 20 games
+**Complete:** 11 games (KQVI, MI1, MI2, SIMON, LK1, MM, ZAK, INDY1, LOOM, SMHTR, TD)  
+**Remaining:** 19 games
