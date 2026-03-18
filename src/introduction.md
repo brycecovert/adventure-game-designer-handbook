@@ -2,31 +2,37 @@
 
 ## Feeling Smart
 
-Near the end of *Monkey Island 2: LeChuck's Revenge*, you face LeChuck's ghost blocking your path. You've just spent hours constructing a voodoo doll of his henchman Largo—figuring out that you needed thread, a head, some body material, and something dead. Each piece required its own sub-puzzle scattered across the game world.
+Near the end of *Monkey Island 2: LeChuck's Revenge*, you face LeChuck's ghost terrorizing you. No matter what you do, LeChuck finds Guybrush and torchers him. You've gone through the entire game just to be stuck in an endless loop, seemingly. But then, the elevator closes on his beard. That's weird. After harvesting his beard, it gives you, the player a flashback. Days earlier, you had  spent hours constructing a voodoo doll of his henchman Largo—figuring out that you needed thread, a head, some body material, and something dead. Each piece required its own sub-puzzle scattered across the game world.
 
 Now here's LeChuck's floating, invincible specter. The game doesn't explain anything. It doesn't need to.
 
 *Oh*, you think. *Another voodoo doll.*
 
-The rules transfer. You already know how this works. Thread from the laundromat. Head—maybe a lock of his hair? Body material. Something dead (tricky, he's already undead). You've played this game before, and it feels like the designer handed you a genuine challenge instead of a roadblock. When it clicks and LeChuck dissolves, you feel smart—not because the puzzle was easy, but because the game respected your ability to learn.
+The rules transfer. You already know how this works. Something of the head, Something of of the Therad, something of the body, something of the dead - the same recipe, not laid out for you, but you get to put the puzzle pieces together. That gentle nudge, when fulfilled, makes you feel smart.
 
 ## Feeling Stuck
 
-Years earlier, I sat on my grandfather's couch playing *King's Quest V*. We'd reached what seemed like progress when we hit a wall: a cat blocking our path, perched on a ledge inside an inn. The game gave us no indication we were stuck. No dialogue hint, no failed attempt that taught us something new.
+Years earlier, I sat on my grandfather's desk playing *King's Quest V*. We'd reached what seemed like progress when we hit a wall: sitting in the innkeeper's jail cell, tied up, and game over. This is a classic example of a "dead end" or a "dead man walking" problem, where there is no path forward but to load an old save file and play everything out again. Hours prior, a seemingly unimportant event occured, several screens away from this. A cat was chasing a mouse, caught it, and carried it away. It'd be easy to dismiss this as game flavor, but it turns out that this was important. The player needed to throw a boot at the cat in the nick of time. Nothing tells you this. If the player does this, then a mouse will come and chew through Graham's ropes, saving him.
 
-When the solution finally came—after consulting a guide, not through gameplay—it was throw a random object that happens to interest cats. The *only* telegraphing existed in death: when Graham died in the innkeeper's cellar, an animation showed a small mouse hole, suggesting perhaps rats roamed this space. A rat might attract a cat. Maybe.
-
-That's all the information the game offered. This wasn't a puzzle; it was a checkpoint behind a guess. We weren't problem-solvers—we were code-breakers with no cipher. The experience wasn't challenging in the right way. It was disempowering, and our session ended not with triumph but with the glow of a walkthrough on a monitor.
+The only clue about this is that there is a mousehole in the wall in the cellar. This wasn't a puzzle; it was a checkpoint behind a guess.  The experience wasn't challenging in the right way. It was disempowering, and our session ended not with triumph but with the glow of a walkthrough on a monitor.
 
 ## Why This Handbook Exists
 
-Those two moments defined my relationship with games. *King's Quest* series played with my grandfather introduced me to interactive storytelling. The frustration of bad puzzles and the satisfaction of good ones showed me that design mattered—that there was actual craft happening beneath the graphics and dialogue.
+Those two moments defined my relationship with adventure games. *King's Quest* series played with my grandfather introduced me to interactive storytelling. The frustration of bad puzzles and the satisfaction of good ones showed me that design mattered—that there was actual craft happening beneath the graphics and dialogue.
 
 That realization made me want to be a programmer. More specifically, it made me want to make games where players feel smart, not stuck.
 
-Adventure game puzzle design is fundamentally undertaught. The golden age produced masterworks like *Monkey Island*, *Quest for Glory*, *Grim Fandango*, and *The Longest Journey*—games built by designers who learned through practice and iteration. But nobody wrote the handbook. Nobody documented what made those puzzles work so that the next generation could build on it instead of rediscovering it.
+Adventure game puzzle design is fundamentally undertaught. The golden age produced masterworks like *Monkey Island*, *Quest for Glory*, *Grim Fandango*, and *The Longest Journey*—games built by designers who learned through practice and iteration. But nobody wrote the handbook. Nobody documented what made those puzzles work so that the next generation could build on it instead of rediscovering it. I've written on the topic periodically, but far more material explains what not to do than what to do. I hope to aim that
 
-This changes everything. A designer doesn't need to play thirty adventure games to understand why information brokerage chains create meaningful trade relationships, or how pattern learning lets you teach mechanics in low-stakes domains before applying them under pressure. The patterns are reproducible. They're mechanical, not narrative—so they work regardless of setting, era, or story context.
+
+### A note on LLMs
+
+I am a huge advocate of AI powered tools. In fact, this book was written over many sessions of interaction with Qwen3.5-27B. I took this as a specific challenge in authoring this book, for several reasons:
+
+1. LLMs -- event SOTA from OpenAI and Anthropic -- absolutely suck at adventure game design. Ask for advice and you'll get the most generic slop game design recommendation. This handbook should be usable by an LLM to help brainstorm ideas with designers.
+2. Qwen3.5-27B is a model that hits way above its weight class. As an open-weight model, and relatively low parameter, if an LLM can help author and use this handbook, then so can the larger models.
+
+This book is not meant to automate the process of adventure game design.  If anything, I think the systems in adventure games *need* a human touch, more than any other game type. But I believe that good games can be made great with the help of this handbook in the hands of an AI practitioner
 
 **This handbook documents those patterns.**
 
