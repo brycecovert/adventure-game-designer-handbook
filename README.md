@@ -1,6 +1,6 @@
 # Puzzle Types in Adventure Games
 
-A taxonomy of puzzle design patterns derived from analysis of King's Quest VI: Heir Today, Gone Tomorrow and The Secret of Monkey Island, focusing on mechanics of information conveyance and player action.
+A taxonomy of puzzle design patterns derived from analysis of classic Sierra and LucasArts adventure games (King's Quest VI, Maniac Mansion, Secret of Monkey Island, Simon the Sorcerer, Legend of Kyrandia), focusing on mechanics of information conveyance and player action.
 
 ## Table of Contents
 
@@ -10,15 +10,16 @@ A taxonomy of puzzle design patterns derived from analysis of King's Quest VI: H
 | 2 | [Sensory Exploitation Puzzle](./puzzles/sensory-exploitation.md) | Character perceptual vulnerabilities exploited through item matching | KQVI/MI |
 | 3 | [Metaphor-to-Literal Translation](./puzzles/metaphor-literal.md) | Abstract language interpreted as literal game mechanics | MI |
 | 4 | [Information Brokerage Chain](./puzzles/information-brokerage.md) | Implicit NPC exchange network mapped through incremental interaction | KQVI/MI |
-| 5 | [Timed Consequence Puzzle](./puzzles/timed-consequence.md) | Narrative urgency without mechanical deadline; consequence is permanent story change | KQVI |
+| 5 | [Timed Consequence Puzzle](./puzzles/timed-consequence.md) | Narrative urgency without mechanical deadline; consequence is permanent story change | KQVI/MM/SIMON |
 | 6 | [Environmental Storytelling Discovery](./puzzles/environmental-storytelling.md) | Information hidden in environment; discovered through examination, observation | KQVI |
 | 7 | [Cross-Realm Logistics Puzzle](./puzzles/cross-realm-logistics.md) | Inventory management across multiple locations/realms; rewards forward planning | KQVI |
 | 8 | [Truth Revelation Mechanic](./puzzles/truth-revelation.md) | Items reveal hidden truth; truth itself is the solution | KQVI |
-| 9 | [Observation Replay Puzzle](./puzzles/observation-replay.md) | Single viewing of sequence, must reproduce exactly when opportunity arises | MI |
+| 9 | [Observation Replay Puzzle](./puzzles/observation-replay.md) | Single viewing of sequence, must reproduce exactly when opportunity arises | MI/MM/SIMON |
 | 10 | [Pattern Learning / Knowledge Transfer](./puzzles/pattern-learning.md) | Learn rule set in low-stakes domain; apply exhaustively under consequences | MI |
 | 11 | [Environmental Memo Chain](./puzzles/memo-chain.md) | Scattered written fragments across locations; synthesize narrative to reveal solution | MI |
 | 12 | [NPC Distraction Physics](./puzzles/distraction-physics.md) | Manipulate environment to break NPC blocking pattern without confrontation | MI |
-| 13 | [Meta-Puzzle Construction](./puzzles/meta-puzzle-construction.md) | Sequential interdependence; each step's output becomes next step's input | MI |
+| 13 | [Meta-Puzzle Construction](./puzzles/meta-puzzle-construction.md) | Sequential interdependence; each step's output becomes next step's input | MI/MM |
+| 14 | [Multi-Character Coordination Puzzle](./puzzles/multi-character-coordination.md) | Multiple characters required for separated location actions; single character physically impossible | MM |
 
 ---
 

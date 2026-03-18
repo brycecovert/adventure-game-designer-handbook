@@ -89,6 +89,88 @@
 
 ---
 
+## Game Examples
+
+### Maniac Mansion: Music Room Demo Tape → Contract Chain
+
+**Problem**: Green Tentacle blocks Secret Laboratory access. Must acquire "recording contract" through music room puzzle chain and present it to Green Tentacle, triggering him to help defeat Purple Tentacles guarding laboratory entrance. Only playable with Syd or Razor characters (musicians).
+
+<small>Source: syntax2000_walkthrough.txt, lines 56-60 — "...go right, open and enter door to music room, go to the music-centre, use record player on record, use cassette player on cassette..."</small>
+
+```
+PHASE 1: Prerequisites (gathered from multiple locations)
+- Cassette Tape: Hidden behind bookcase panel in Library
+- Record "Tentacle Mating Calls": Green Tentacle's bedroom
+- Envelope + Stamps: From Weird Ed's package (intercept at mailbox)
+- Quarter: Contents of sealed envelope from Nurse Edna's hidden safe
+
+PHASE 2A: Music Recording → Demo Tape Acquisition
+1. Access Music Room (first floor, far right past security door)
+2. Use Record on Victrola/record player
+3. Use Cassette Tape on tape recorder  
+4. TURN ON BOTH → glass vase on piano shatters
+5. Obtain replacement cassette (music demonstration recording)
+6. Give recorded cassette to Green Tentacle → He leaves Demo Tape on bed
+
+PHASE 2B: Mail Demo → Receive Contract
+7. Return to mailbox outside mansion
+8. Place Demo Tape in envelope, affix stamps, mail
+9. Wait for return delivery trigger (doorbell rings)
+10. Character retrieves Contract from mailbox
+
+PHASE 3: Contract Resolution → Laboratory Access
+11. Present Contract to Green Tentacle → becomes ally
+12. Use Glowing Key on dungeon double padlocks
+13. Enter Arcade Code on numeric keypad → Lab access granted
+14. Purple Tentacle blocked by Green Tentacle intervention
+```
+
+**Why It's Meta-Construction (Not Multi-Faceted Plan)**:
+1. **Strict Sequential Dependency**: Cannot obtain Demo Tape without first recording music; cannot mail without Demo; Contract only arrives AFTER mailing
+2. **Single-Purpose Intermediates**: Cassette serves ONLY as music recording vehicle; Demo tape has ZERO alternative uses except mailing
+3. **State Changes Required**: Green Tentacle transitions from obstacle to ally ONLY after receiving cassette AND giving contract
+
+---
+
+### Maniac Mansion: Envelope Steam Extraction Puzzle
+
+**Problem**: Sealed envelope from Edna's safe contains Quarter (needed for arcade code). However, envelope is ALSO required later for mailing Demo Tape to publisher with Syd/Razor ending. Ripping it destroys envelope—making game unwinnable for music characters. Must find non-destructive opening method.
+
+<small>Source: classicgaming_walkthrough.html — "Rip open the envelope... you need the envelope unsealed using steam in the microwave (so the envelope can be reused)."</small>
+
+```
+PHASE 1: Gather Required Items
+- Microwave: Kitchen counter (ground floor)
+- Glass Jar: Pantry shelves (through dining room from kitchen)  
+- Water Source: Kitchen faucet ONLY (pool water radioactive—kills character!)
+- Sealed Envelope: Edna's hidden safe behind bedroom painting
+
+PHASE 2: Steam Extraction Process
+1. Fill Glass Jar at kitchen sink/faucet (tap water only)
+2. Place sealed envelope + jar of water in microwave
+3. Turn on microwave, wait for steaming to complete
+4. Remove ENVELOPE—now unsealed but intact (not ripped!)
+5. Open safely → Quarter appears in inventory
+6. Envelope REMAINS available for later Demo Tape mailing
+
+PHASE 3: Reuse for Music Room Resolution
+7. When ready to mail Demo Tape: Type address on envelope at typewriter
+8. Insert Demo Tape, affix stamps, mail at front door
+9. Receive Contract → present to Green Tentacle for ally status
+
+FAILURE STATES:
+- Ripping Envelope early → Quarter obtained BUT envelope destroyed = Syd/Razor/Wendy endings impossible
+- Using pool water → radioactive fumes kill character when microwave opened  
+- Skipping steam step → no quarter for arcade code OR no envelope for mailing
+```
+
+**Why It's Meta-Construction**:
+1. **Resource Transformation Chain**: Sealed Envelope → (via steam) → Unsealed Envelope + extracted Quarter → Reusable envelope for later puzzle step
+2. **Precise Input Requirements**: Microwave + water jar BOTH required; neither works alone; faucet location specific (not pool!)
+3. **Temporal Separation with Carry-Forward Value**: Unsealed envelope sits in inventory for extended gameplay, finally used 15+ steps later for Demo Tape mailing
+
+---
+
 ## Related Types
 
 - **Multi-Faceted Plan**: When requirements discovered in parallel, not sequence

@@ -60,3 +60,70 @@ Limited actions become urgent:
 - The puzzle isn't about speed, it's about priority
 
 This puzzle tests: "Can I internalize narrative urgency and act with appropriate priority without mechanical feedback?"
+
+---
+
+## Game Examples
+
+### Simon the Sorcerer: Dragon Breathing Puzzle
+
+**Problem**: Dragon's Cave (beyond Sleeping Giant area) contains Fire Extinguisher needed for later woodcutter basement access. However, dragon violently sneezes on every entry attempt, ejecting player from cave. Must find window of opportunity during breathing cycle without visible timer or guidance.
+
+<small>Source: simon1_3.txt, lines 177-180 — "This poor Dragon has got one helluva cold and sneezes you out of the cave. Go back inside and give him the Cold Medicine you picked up near the start of the game. You need to be quick to do this or you'll get sneezed outside again."</small>
+
+**Urgency Setup**:
+- No countdown timer visible
+- No "X seconds remaining" text prompt  
+- No progress bar or sound effect indicating urgency level
+- Player must watch for DYNAMIC INDICATORS only: chest movement, snore rhythm, head position
+
+**Execution Window (approximately 3 seconds per attempt)**:
+1. Enter cave during correct breathing phase
+2. Walk past dragon WITHOUT stopping → go straight to remedy use point
+3. Use Cold Remedy on dragon IMMEDIATELY upon approach
+
+**SUCCESS**: Dragon accepts Cold Remedy, collapses into permanent deep sleep; Fire Extinguisher accessible
+
+**FAILURE (Missed Timing)**: Dragon sneezes during approach → player ejected AGAIN; must retry timing
+
+`Why It's Timed Consequence`:
+1. **Narrative Urgency Through Behavior Patterns**: Player learns optimal timing ONLY through repeated failure observations—not from explicit UI feedback
+2. **Internalize-Through-Failure Model**: Player builds mental model of breathing cycle duration through ejection consequences alone
+
+---
+
+### Maniac Mansion: Pool Reactor Meltdown
+
+**Problem**: Swimming pool contains Glowing Key (dungeon exit access) and Radio (later power puzzle). Atomic reactor at pool bottom uses water as coolant. Draining pool exposes items but initiates meltdown that destroys mansion if not reversed. SINGLE character physically unable to complete both actions in time window.
+
+<small>Source: syntax2000_walkthrough.txt, lines 219-226 — "NOTE 4:- there is an atomic reactor at the bottom of the swimming pool, the water keeps it from over heating and exploding. To get the radio and the glowing key you must first empty the pool, and then afterwards refill it. A single character can not complete the task alone in the time before the reactor overheats."</small>
+
+**Narrative Urgency Established**:
+- NO countdown display when valve turned ON
+- NO "meltdown in progress" status indicator  
+- Player learns from NOTE/cutscene that reactor overheats = house explosion = ALL CHARACTERS DEAD = TRUE GAME OVER
+
+**Two-Character Required Solution**:
+```
+PHASE 1 - Setup:
+- HUNK CHARACTER opens front yard grate → accesses crawl space with water valve
+- SECOND CHARACTER positions at pool edge ladder waiting
+
+EXECUTION (character switching essential):
+1. [VALVE CHARACTER] Turn ON valve → Pool drains, MELTDOWN INITIATED
+2. [QUICK SWITCH TO POOL CHARACTER] Descend ladder as water recedes:
+   - Retrieve Radio from pool bottom
+   - Retrieve Glowing Key
+   - Ascend ladder quickly
+3. [SWITCH BACK TO VALVE CHARACTER] Turn valve OFF → Pool refills, meltdown aborted
+
+FAILURE CONSEQUENCE: House explodes, all three characters die—true game over requiring reload/new playthrough
+SUCCESS STATE: Both items obtained, reactor safe, story continues normally
+```
+
+**Why It's Timed Consequence**:
+1. **Narrative Urgency Without Timer**: Meltdown threat exists entirely within diegetic narrative (atomic reactor mechanics) with ZERO mechanical countdown visible anywhere in interface
+2. **Permanent Total Failure**: Unlike most adventure game mistakes where one character dies, this failure is GAME-ENDING and TOTAL—entire household destroyed, no partial continuation possible
+3. **Multi-Character Coordination Dependency**: Puzzle requires TWO characters precisely because of timing constraints—one cannot traverse between valve and pool fast enough alone
+
+**Distinction from Multi-Character Coordination Type**: The Timed Consequence classification explains WHY urgency exists (narrative stakes). The MCC classification would explain HOW it must be solved (two actors at separated locations). Both classifications apply here, but Timed Consequence is the PRIMARY mechanism—the coordination just makes it achievable.
