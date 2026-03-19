@@ -44,6 +44,14 @@ Flags positioned in vertical/horizontal pattern guide crocodiles into a walking 
 9. Open glass door on Dunk the Beast tank; Max gives sasquatch fur and hair
 10. Retrieve sno globe from inside tank, which unlocks Mystery Vortex location on map
 
+### Screenshots
+
+**Before**: Driving range with crocodiles in random positions blocking path to Dunk the Beast tank; Max visible behind glass prison door [THayes].
+
+**During**: Flags positioned at alternating X marks creating zigzag pattern; first crocodile moved from natural position toward initial flag placement point near windmill.
+
+**After**: Completed crocodile bridge spanning from Pro Shop shore to island; Sam walking across backs in precise line following established path geometry [abandonwaredos].
+
 [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) — Multiple independent flag placements (gathered as separate interactions) must be synthesized into unified crocodile path before traversal becomes possible, distinguishing this from simple sequential puzzles where one action enables the next without prior planning.
 
 ---
@@ -73,6 +81,14 @@ Tar, mammoth hair, costume, and toupee combine into wearable bigfoot disguise al
 5. Put on the full woolly costume via use command from inventory
 6. Attempt to walk through reception door; bigfoot guard now accepts players as legitimate patrons
 7. Enter hall beyond checkpoint, progressing to game's final puzzles
+
+### Screenshots
+
+**Before**: Sam & Max standing at reception unable to pass; bigfoot guard blocking door with hostile posture [StrategyWiki].
+
+**During**: Costume assembly in inventory showing tar applied to mammoth wool, toupee attached to headpiece; blue costume receiving each component via combined item command.
+
+**After**: Sam wearing complete woolly disguise approaching reception checkpoint; bigfoot guard now accepts party as legitimate patrons allowing entry to inner hall [abandonwaredos].
 
 [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Sequential chain where each location provides component that becomes meaningful at synthesis point (Savage Jungle Inn), distinguishing this from cross-temporal causality where changes propagate backward/forward through established timeline.
 
@@ -110,6 +126,14 @@ Sword extracted from stone used at precise moment (dragon mouth mid-opening, tar
 12. Return to exterior; use key obtained from heart on keyhole near Trixie's room door
 13. Savage Jungle Inn location appears on map
 
+### Screenshots
+
+**Before**: VR helmet selected in Lee-Harvey's mansion bedroom; dragon visible emerging from cave darkness in simulation environment [THayes].
+
+**During**: Sword extracted from stone held at ready position; dragon mouth mid-opening showing vulnerable center body strike zone (not head or tail).
+
+**After**: Dragon defeated dropping heart artifact that transforms into key; Sam & Max expelled from mansion as Lee-Harvey returns catching them [abandonwaredos].
+
 [Timed Consequence](../puzzles/timed-consequence.md) — Action window (dragon attack moment when mouth opens but before full strike) has fixed constraints requiring precise timing, distinguishing this from observation replay where entire sequence can be reviewed before acting.
 
 ---
@@ -133,3 +157,5 @@ Sword extracted from stone used at precise moment (dragon mouth mid-opening, tar
 [THayes] Tom Hayes, "FAQ/Walkthrough for Sam & Max Hit the Road" (June 19, 2008), archived via Adventure Gamers. https://web.archive.org/web/20210226223106/https://adventuregamers.com/walkthrough/full/sam-max-hit-the-road
 
 [StrategyWiki] StrategyWiki contributors, "Sam & Max Hit the Road/Walkthrough" (last modified April 2, 2016). https://strategywiki.org/wiki/Sam_%26_Max_Hit_the_Road/Walkthrough
+
+[abandonwaredos] Abandonware DOS, "Sam and Max Hit the Road - Solution" (hosted walkthrough). https://www.abandonwaredos.com/docawd.php?sf=samandmaxsolution.txt&st=walkthrough&sg=Sam+and+Max+Hit+the+Road&idg=2404
