@@ -1,6 +1,6 @@
 # Quest for Glory IV: Shadows of Darkness (1994)
 
-Quest for Glory IV: Shadows of Darkness is a 1994 Sierra Entertainment adventure-RPG designed by Corey Cole and Lori Ann Cole that integrates class-specific mechanics with location-based puzzle chains. Players can play as Fighter, Thief, Wizard, or Paladin (imported), each solving puzzles through distinct action verbs: Fighters smash obstacles, Thieves climb and pick locks, Wizards cast spells. As one walkthrough notes, "The greatest thing about the series is the well-done connection between RPG and the classic Sierra graphic adventure" [CyricZ]. Set in the dark gothic land of Mordavia, the game layers ritual-gathering meta-construction across interconnected locations where information discovered in Dr. Cranium's lab enables monastery secrets, which unlock castle access.
+Quest for Glory IV: Shadows of Darkness is a 1994 Sierra Entertainment adventure-RPG designed by Corey Cole and Lori Ann Cole that integrates class-specific mechanics with location-based puzzle chains. Players play as Fighter, Thief, Wizard, or Paladin (imported), each solving puzzles through distinct action verbs: smashing, climbing, picking locks, and casting spells. As one walkthrough notes, "The greatest thing about the series is the well-done connection between RPG and the classic Sierra graphic adventure" [CyricZ].
 
 ## At a Glance
 
@@ -19,35 +19,19 @@ Quest for Glory IV: Shadows of Darkness is a 1994 Sierra Entertainment adventure
 
 ### Problem
 
-Dr. Cranium's laboratory contains three locked doors that require sequential completion to access the inner lab. First, the player must use the T.R.A.P. (Totally Robotic Animal Processor) device to identify specific creatures through binary questioning. The baby Antwerp—a bouncy legless creature that does not sing—must be captured using an avocado as bait. Once captured, the Antwerp enters a rotating maze puzzle where it must bounce toward a key and exit without falling into holes. The door lock itself requires manipulating panels to create a keyhole image by matching colored backgrounds [CyricZ][CrystalShard].
+Dr. Cranium's laboratory contains three locked doors requiring sequential completion. First, the player uses the T.R.A.P. (Totally Robotic Animal Processor) device to identify creatures through binary questioning. The baby Antwerp—a bouncy legless creature that does not sing—must be captured using an avocado as bait. Once captured, it enters a rotating maze puzzle to retrieve a key then avoids falling into holes. Finally, the door lock requires manipulating panels to create a keyhole image by matching colored backgrounds [CyricZ][CrystalShard].
 
 ![Baby Antwerp in Key Maze bouncing toward key, with panel-sliding puzzle showing keyhole creation](./qfg4-puzzle1.png)
 
 ### What Makes It Rewarding
 
-This is pure Meta-Puzzle Construction: the T.R.A.P. identification (gathering information about creature properties and preferences), maze navigation (physics-based bouncing mechanics), and panel-sliding lock are three distinct puzzles that must complete in specific sequence to progress. The walker notes the "large puzzle" nature of this area, appreciating how "each door requires its own solution before you can unlock the next." The binary questioning system for creature identification—eliminating species by yes/no answers like "has legs," "sings"—provides a systematic deduction mechanic that feels fair and reproducible.
+This is pure Meta-Puzzle Construction: T.R.A.P. identification, maze navigation, and panel-sliding lock require sequential completion. The binary questioning system eliminates species by yes/no answers like "has legs," "sings"—providing a fair, reproducible deduction mechanic.
 
 ### Solution
 
-The player identifies a baby Antwerp through T.R.A.P., captures it with avocado, navigates it through the Key Maze to retrieve a key, then solves a panel-sliding puzzle to form a keyhole image before accessing Dr. Cranium's inner lab.
+The player identifies a baby Antwerp through T.R.A.P., captures it with avocado, retrieves a key from Key Maze, then solves a panel-sliding puzzle to form a keyhole image before accessing the inner lab.
 
-### Steps
-
-1. Ring the doorbell sequence (match lights: Red-Blue-Green-Red) to enter Dr. Cranium's property
-2. Click the Hand on the T.R.A.P. device in the anteroom to begin creature identification
-3. Answer questions to identify baby Antwerp: bounces=yes, has legs=no, sings Waltzing Matilda=no
-4. Place Food Rations (avocado) on T.R.A.P. when prompted to capture an Antwerp (6 puzzle points)
-5. Question T.R.A.P. for second time to learn about hexapods: six legs, eats garlic (save this information)
-6. Open the left door and place captured Antwerp inside Key Maze rotation puzzle
-7. Rotate maze clockwise/counter-clockwise so Antwerp bounces toward key, avoiding holes
-8. Guide Antwerp to exit with key; collect key (6 points)
-9. Interact with back door lock—sliding panel puzzle appears
-10. Manipulate panels to create keyhole image by matching background colors on edges
-11. Continue until grid lines vanish, indicating correct configuration
-12. Click chest in upper right corner of puzzle window to collect lock-picking tool (6 points)
-13. Use key collected from Antwerp maze on the locked door to open entrance to private lab
-
-[Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Sequential chain where T.R.A.P. identification enables maze access, which yields key required for panel-sliding lock completion, distinguishing this from Multi-Faceted Plan where items could be gathered in any order before final synthesis.
+[Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Sequential chain where T.R.A.P. identification enables maze access, which yields key for panel-sliding lock completion.
 
 ---
 
@@ -55,38 +39,19 @@ The player identifies a baby Antwerp through T.R.A.P., captures it with avocado,
 
 ### Problem
 
-Baba Yaga, the witch inhabiting a hut on chicken legs, demands the player create her an edible pie before she will grant gifts or knowledge. The recipe requires combining three specific ingredients obtained through distinct mechanics at separate locations: ground bone from a tree skeleton in Erana's Garden, elderberries from a vampiric bush that must be struck to release berries, and "Grue Goo" collected from the slime-covered Squid Stone area. The ingredients must then be processed sequentially using grinding equipment in Baba Yaga's own hut before frying in the presence of Punny Bones, a talking skull [CyricZ][CrystalShard].
+Baba Yaga, inhabiting a hut on chicken legs, demands an edible pie before granting gifts. The recipe requires three ingredients from separate locations: ground bone from a skeleton in Erana's Garden, elderberries from a vampiric bush, and "Grue Goo" from the Squid Stone area. Ingredients are processed using grinding equipment in Baba Yaga's hut before frying before Punny Bones, a talking skull [CyricZ][CrystalShard].
 
 ![Baba Yaga's pie assembly — ground bone, vampiric elderberries, and swamp goo combined on pie pan](./qfg4-puzzle2.png)
 
 ### What Makes It Rewarding
 
-This puzzle exemplifies Multi-Faceted Plan execution: ingredients are collected independently across three distinct areas before converging at Baba Yaga's location for synthesis. Each ingredient requires a different mechanical approach—throw rocks or force-bolt the vampiric bush to make it drop berries, collect goo into flask at Squid Stone, grind bone using mortar in hut. The information about what Baba Yaga wants comes gradually: she initially demands "something edible," then becomes specific once the player demonstrates capability. One walkthrough describes this as having a satisfying payoff when "she actually lets you live and gives you gifts" after completing her request [CyricZ].
+This puzzle exemplifies Multi-Faceted Plan: ingredients are collected independently across three areas before converging at Baba Yaga's for synthesis. Each requires different mechanics—throw rocks or Force Bolt the bush, collect goo in flask, grind bone in mortar. One walkthrough notes the satisfying payoff when "she actually lets you live and gives you gifts" after completion [CyricZ].
 
 ### Solution
 
-The player gathers bone, elderberries, and swamp goo from three separate locations, grinds the bone in Baba Yaga's mortar, combines ingredients on pie pan, fries it in front of Punny Bones skull, then receives gifts in exchange.
+The player gathers bone, elderberries, and swamp goo from three locations, grinds the bone in Baba Yaga's mortar, combines ingredients on pie pan, fries it before Punny Bones skull, then receives gifts.
 
-### Steps
-
-1. Visit Erana's Garden; locate dead tree with visible bones beneath
-2. Click Hand on under-tree area to collect bone from skeleton remains (6 points)
-3. Travel to Squid Stone area in forest; locate ground covered in green slime
-4. Use Empty Flask on goo slick to capture Grue Goo sample (6 points)
-5. Return to town gates at night when Baba Yaga hut appears after Leshy provides access
-6. Give hat to Punny Bones skull at entrance; he allows passage inside
-7. Enter hut and speak with Baba Yaga about "edible pie" ingredients
-8. Locate elderbury bush in yard—appears as dark red berry bush
-9. Fighter/Thief: throw rocks at bush until berries fall; Wizard: cast Force Bolt repeatedly
-10. Collect elderberries from ground (6 points)
-11. Inside hut, use bone on mortar grinder and click Hand to grind it into powder
-12. Use Empty Flask on finished ground bone to contain the powder
-13. Combine ingredients in exact sequence: Ground Bone + Elderberries + Grue Goo on Pie Pan
-14. Place assembled pie pan before Punny Bones skull and use Fire/Flame Dart to "fry it"
-15. Receive first gift from Baba Yaga (class-specific spell or item) after she consumes the pie
-16. Return with additional goo samples for second gift, as needed by class [CyricZ]
-
-[Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) — Multiple independent ingredients gathered in any order from distinct sources, then synthesized at finale location, distinguishing this from Meta-Puzzle Construction where sequential steps would prevent out-of-order completion.
+[Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) — Multiple independent ingredients gathered in any order from distinct sources, then synthesized at finale.
 
 ---
 
@@ -94,13 +59,13 @@ The player gathers bone, elderberries, and swamp goo from three separate locatio
 
 ### Problem
 
-Three Dark One ritual pillars scattered across Mordavia require the same solution mechanic: players must click colored lights in a specific sequence to reveal hidden rituals. The player learns the sequence "AVOOZLL" (red, yellow, orange, blue, green) through trial and observation at multiple locations. At the Squid Stone pillar near the Dark One site, clicking the symbol on the pillar after placing will-o'-wisp bottles activates it. The monastery crypt contains a color-tile floor puzzle where players must spell BORGOV using colored tiles. Each pillar requires exactly six clicks in proper order, with incorrect sequences resetting progress [CyricZ][CrystalShard].
+Three Dark One ritual pillars scattered across Mordavia require the same solution: clicking colored lights in a specific sequence to reveal hidden rituals. The player learns "AVOOZLL" (red, yellow, orange, blue, green) through observation at multiple locations. At the Squid Stone pillar, placing will-o'-wisp bottles then clicking the symbol activates it. The monastery crypt contains a color-tile floor puzzle where players spell BORGOV using colored tiles. Each requires exactly six correct clicks; errors reset progress [CyricZ][CrystalShard].
 
 ![Squid Stone pillar activated — AVOOZLL light sequence on rotating symbol reveals hidden ritual](./qfg4-puzzle3.png)
 
 ### What Makes It Rewarding
 
-This is a Pattern Learning puzzle: players observe that "the sign points to the C without a V" meaning certain clicks advance the sequence while others reset it. The pattern repeats identically across three locations—Squid Stone, monastery crypt floor, and Wraith Barrow crypt pillar—allowing players to learn once and reuse the mechanic elsewhere. One walkthrough notes: "click Blue, Orange, Red, Green, Orange, and Violet" for the Borgov crest as a specific actionable solution [CyricZ]. The player experiences a clear learning curve from confusion at first pillar to mastery when approaching later ones.
+This is a Pattern Learning puzzle: players observe which clicks advance the sequence and which reset it. The pattern repeats identically across three locations—Squid Stone, monastery crypt, Wraith Barrow crypt—allowing players to learn once and reuse elsewhere. One walkthrough specifies: "click Blue, Orange, Red, Green, Orange, and Violet" for the Borgov crest [CyricZ].
 
 ### Solution
 
@@ -108,18 +73,17 @@ After completing initial ritual collection steps, clicking colored lights in the
 
 ### Steps
 
-1. At Squid Stone area, wait until night and place Will-o'-Wisp bottles on pillar (collected earlier from swamp)
-2. Use Dark One Symbol object on pillar to activate color cipher interface
-3. Click rotating symbol lights in sequence: Red-A-Yellow-V-Orange-O-Blue-Green-ZL-Green-L (spelling AVOOZLL)
-4. Note which clicks cause "advance" animation versus reset feedback from sign pointer
-5. Upon correct six-click completion, pillar reveals First Ritual scroll; collect it (6 points)
-6. Return to monastery later and descend to crypt via secret passage near fireplace
-7. Use Borgov Crest on floor—color tile pattern puzzle activates
-8. Click colored tiles in sequence: Blue-Orange-Red-Green-Orange-Violet (BORGOV acronym)
-9. Rightmost relief unlocks; enter to access castle interior entrance (6 points)
-10. In Wraith Barrow crypt, locate second pillar with identical mechanics
-11. Use same AVOOZLL color sequence learned from Squid Stone on this cipher
-12. Upon correct completion, collect Blood Ritual scroll and treasure vault keys
+1. At Squid Stone area, place Will-o'-Wisp bottles on pillar (collected from swamp)
+2. Use Dark One Symbol on pillar to activate color cipher interface
+3. Click rotating symbol lights in sequence: Red-A-Yellow-V-Orange-O-Blue-Green-ZL-Green-L (AVOOZLL)
+4. Note which clicks advance versus reset the sequence
+5. Upon correct completion, collect First Ritual scroll (6 points)
+6. Return to monastery and descend to crypt via secret passage near fireplace
+7. Use Borgov Crest on floor—color tile puzzle activates
+8. Click colored tiles: Blue-Orange-Red-Green-Orange-Violet (BORGOV)
+9. Rightmost relief unlocks; enter for castle interior access (6 points)
+10. In Wraith Barrow crypt, use same AVOOZLL color sequence on second pillar
+11. Collect Blood Ritual scroll and treasure vault keys upon completion
 
 [Pattern Learning](../puzzles/pattern-learning.md) — Player observes and internalizes a repeatable sequence (AVOOZLL color order) at first location then applies it successfully to identical puzzles elsewhere, distinguishing this from Observation Replay where player would watch an NPC perform actions once.
 
