@@ -209,7 +209,7 @@
 	- [x] Link each puzzle to its pattern type from the Playbook
 
 	
-- [ ] Edit inspiration pages - screenshot placeholders and accuracy check - IN PROGRESS
+- [x] Edit inspiration pages - screenshot placeholders and accuracy check - IN PROGRESS
     - [x] zak-mckracken-and-the-alien-mindbenders.md - completed
     - [x] the-longest-journey.md - completed
     - [x] the-dig.md - completed
