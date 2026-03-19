@@ -40,6 +40,10 @@ Trap the guard goat under its feed using a rolling axle, then access the ladder 
 4. Axle jams under beam, crushing it down and trapping goat's legs
 5. Climb down the now-accessible ladder into the secret chamber
 
+### Screenshots
+
+![Show goat patrol path, axe location, and ladder position - before trap is set](./broken-sword-1-puzzle1-s1.png)
+
 **Pattern Type:** [[Observation Replay]](../puzzles/observation-replay.md) — environmental objects combined through spatial manipulation to disable barrier  
 **Also Uses:** [[Timed Consequence]](../puzzles/timed-consequence.md) — limited-time opportunity requires quick response before NPC recovers
 
@@ -73,6 +77,11 @@ Create a functional key by making a plaster cast of the statue's base, requiring
 8. After brief animation showing cast hardening, pick up finished key replica
 9. Insert cast into five holes beside previously locked door to open it
 
+### Screenshots
+
+![Display the five key-shaped holes in ground where statue fell - this is the mold for casting](./broken-sword-1-puzzle2-s1.png)
+![Show plaster drying animation after wet towel is applied, resulting in finished key cast](./broken-sword-1-puzzle2-s2.png)
+
 **Pattern Type:** [[Meta-Puzzle Construction]](../puzzles/meta-puzzle-construction.md) — sequential chain where step N's output (wet towel) enables step N+1 (plaster set)  
 **Also Uses:** [[Cross-Realm Logistics]](../puzzles/cross-realm-logistics.md) — player must travel between two scenes to complete solution chain
 
@@ -97,15 +106,23 @@ Exploit the guard's thermal sensitivity to create distraction windows, copy his 
 ### Steps
 
 1. Enter bathroom, observe keys on soap bar and boiler on right side of room
-2. Use plaster inventory item to create cast of the soap (revealing key imprint)
-3. Wet the plaster cast under tap water to form copy key mold
-4. Look at thermostat mounted near door—note it controls heating system
-5. Return downstairs, use phone to call Nico and request assistance with guard distraction
-6. Return upstairs, talk to painter about his work while fake key is visible
-7. Call Nico again; she contacts guard, causing him to leave post temporarily
-8. Use fake (painted black) key on real keys hanging from hook; game executes swap animation
-9. Return keys to guard when he returns upstairs (he wears gloves due to cold)
-10. Guard uses keys unaware they've been replaced; player now has access key
+2. Use keys on soap to create visible key imprint in the soft soap surface
+3. Apply plaster inventory item over soap imprint to capture the key shape
+4. Wet the plaster cast under tap water to form copy key mold
+5. Look at thermostat mounted near door—note it controls heating system
+6. Return downstairs, use phone to call Nico and request assistance with painter distraction
+7. Return upstairs, talk to painter about his work while fake key is visible
+8. Call Nico again; she contacts guard, causing him to leave post temporarily  
+9. While painter is distracted by phone call, paint the fake key black in the paint can
+10. Ask guard for keys again, enter bathroom, use fake key on real keys to execute swap
+11. Return swapped keys to guard; turn thermostat to make him wear gloves
+12. Guard uses keys unaware they've been replaced; player now has access key
+
+### Screenshots
+
+![Display the guard in lobby, thermostat on wall, and boiler location - showing thermal mechanic setup](./broken-sword-1-puzzle3-s1.png)
+![Show bathroom interior with soap bar containing key imprint and fake plaster key being created](./broken-sword-1-puzzle3-s2.png)
+![Capture the guard wearing gloves after thermostat is adjusted - this enables swapping painted fake key without detection](./broken-sword-1-puzzle3-s3.png)
 
 **Pattern Type:** [[Sensory Exploitation]](../puzzles/sensory-exploitation.md) — NPC's thermal sensitivity creates exploitable vulnerability window  
 **Also Uses:** [[Multi-Faceted Plan]](../puzzles/multi-faceted-plan.md) — multiple independent requirements (plaster cast, phone distraction access, paint decoy creation) synthesize into final solution
