@@ -85,12 +85,10 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 
 - [Multi-Character Coordination](puzzles/multi-character-coordination.md)
 
-# Programming & Logic
+# Systems & Logic
 
+- [Systems & Logic Overview](puzzles/systems-and-logic-overview.md)
 - [Robot Programming / Color-Encoded Sequences](puzzles/robot-programming.md)
-
-# Combat Progression
-
 - [Escalating Combat Progression](puzzles/escalating-combat-progression.md)
 
 # Infiltration & Stealth
