@@ -17,8 +17,8 @@ A taxonomy of puzzle design patterns derived from analysis of King's Quest VI: H
 | 9 | [Observation Replay Puzzle](./puzzles/observation-replay.md) | Single viewing of sequence, must reproduce exactly when opportunity arises | MI |
 | 10 | [Pattern Learning / Knowledge Transfer](./puzzles/pattern-learning.md) | Learn rule set in low-stakes domain; apply exhaustively under consequences | MI |
 | 11 | [Environmental Memo Chain](./puzzles/memo-chain.md) | Scattered written fragments across locations; synthesize narrative to reveal solution | MI |
-| 12 | [NPC Distraction Physics](./puzzles/distraction-physics.md) | Manipulate environment to break NPC blocking pattern without confrontation | MI |
-| 13 | [Meta-Puzzle Construction](./puzzles/meta-puzzle-construction.md) | Sequential interdependence; each step's output becomes next step's input | MI |
+| 12 | [NPC Distraction Physics](./puzzles/distraction-environmental-manipulation.md) | Manipulate environment to break NPC blocking pattern without confrontation | MI |
+| 13 | [Meta-Puzzle Construction](./puzzles/sequential-construction.md) | Sequential interdependence; each step's output becomes next step's input | MI |
 
 ---
 

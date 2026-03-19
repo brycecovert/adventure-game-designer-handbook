@@ -28,7 +28,7 @@
 
 ---
 
-### ✅ Meta-Puzzle Construction (`puzzles/meta-puzzle-construction.md`)
+### ✅ Meta-Puzzle Construction (`puzzles/sequential-construction.md`)
 - [x] Generator/Truck Repair Chain (sequential gas transfer → power → spark plug → vehicle)
 - [x] Balloon Construction Chain (Wits path: basket bladder/net/hose assembly sequence)
 - [x] Robot Assembly Puzzle (Atlantis finale: 4-part collection with strict assembly sequence)
@@ -103,7 +103,7 @@ Pending review for: Mural interpretation at Crete ruins; tomb/doorway clue place
 ### Files Modified:
 1. `puzzles/multi-faceted-plan.md` - Added 2 IJOA examples
 2. `puzzles/information-brokerage.md` - Added Algiers trading network example  
-3. `puzzles/meta-puzzle-construction.md` - Added 3 sequential chain examples
+3. `puzzles/sequential-construction.md` - Added 3 sequential chain examples
 4. `puzzles/pattern-learning.md` - Added Lost Dialogue Navigation System (major section)
 5. `puzzles/sensory-exploitation.md` - Added Seance ghost deception example
 6. `puzzles/multi-character-coordination.md` - Added Team path coordination examples
