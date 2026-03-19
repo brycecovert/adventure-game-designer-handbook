@@ -27,6 +27,7 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 - [King's Quest VII: The Princeless Bride (1994)](inspiration/kings-quest-vii-the-princeless-bride.md)
 - [King's Quest VIII: Mask of Eternity (1998)](inspiration/kings-quest-viii-mask-of-eternity.md)
 - [Kyrandria 1: Shadow of the Fox (1992)](inspiration/kyrandria-1-shadow-of-the-fox.md)
+- [Maniac Mansion (1987)](inspiration/maniac-mansion.md)
 
 # Multi-Source Discovery
 
