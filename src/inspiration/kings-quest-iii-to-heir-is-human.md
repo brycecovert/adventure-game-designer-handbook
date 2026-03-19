@@ -47,6 +47,10 @@ Six spells successfully brewed: animal language understanding, flight essence, s
 12. Cut cactus with knife, squeeze juice onto spoon
 13. At spell book in lab: execute Page II (animal language), Page IV (flight essence), Page XIV (sleep powder), Page XXV (cat cookie), Page LXXXIV (storm brew), Page CLXIX (invisibility ointment)
 
+### Screenshots
+
+![Spell book open to ingredient list pages with Gwydion standing at the brazier ready to mix](./kings-quest-iii-spells-screenshot.png)
+
 [Class-Specific Ritual Challenge](../puzzles/class-specific-ritual.md) — Multiple discrete ritual preparations (individual spells) each requiring their own ingredient gathering and verbal formula execution, distinguishing from Meta-Puzzle Construction where sequential steps build directly toward a single finale rather than parallel independent brews.
 
 ---
@@ -81,6 +85,10 @@ Manannan eats poisoned porridge and transforms into cat; permanent threat remove
 10. When Manannan complains about hunger in entry hall, walk to dining room
 11. Type "GIVE PORRIDGE TO MANANNAN"
 12. Observe transformation animation; Manannan becomes harmless cat
+
+### Screenshots
+
+![Manannan mid-transformation from wizard into cat after eating the poisoned porridge](./kings-quest-iii-manannan-transformation.png)
 
 [Sensory Exploitation](../puzzles/sensory-exploitation.md) — Exploits NPC's perceptual weakness (Manannan cannot detect magic in cooked food, and his hunger makes him accept suspicious offering), distinguishing from information brokerage where items are traded through negotiation sequence rather than deception exploiting blind spots.
 
@@ -119,6 +127,12 @@ Player successfully escapes ship, reaches treasure island, digs up chest near pa
 13. Repeat shark evasion until reaching sand beach
 14. On treasure island: count five steps east from palm tree, dig with shovel
 15. Open treasure chest; collect contents for score bonus
+
+### Screenshots
+
+![Pirate ship cargo hold showing crate stack navigation and Gwydion climbing upward](./kings-quest-iii-pirate-ship-cargo.png)
+
+![Gwydion swimming near screen bottom edge evading shark patrol toward island beach](./kings-quest-iii-shark-evasion.png)
 
 [Timed Consequence](../puzzles/timed-consequence.md) — Success depends on executing actions at precise narrative moments (ship arrival announcement, shark patrol patterns), distinguishing from cross-temporal causality where timing exists across eras rather than within immediate gameplay window.
 
