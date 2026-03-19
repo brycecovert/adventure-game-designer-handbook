@@ -39,6 +39,10 @@ Placing the feather on one scale pan while jumping onto the other balances the s
 5. Walk forward and jump onto left scale pan to provide counterweight
 6. Observe Azriel's appearance as heart begins healing
 
+### Screenshots
+
+![Scales balanced with feather on right pan, Connor standing on left pan](./kings-quest-viii-mask-of-eternity-puzzle1-screenshots.png)
+
 [Symbol Code Translation](../puzzles/symbol-code-translation.md) — Numerical symbols from scattered inscriptions (3, 7) must be translated into physical actions (feather weight = 3, player on opposite pan provides balance to reach 7). Differs from Pattern Learning because discrete symbolic information encodes rather than demonstrating transferable rules.
 
 ---
@@ -71,6 +75,10 @@ Executing jump sequence forward-right, forward-right, forward, left, forward-lef
 9. Complete with forward-right jump to destination stump
 10. Open trunk and retrieve golden ladle
 
+### Screenshots
+
+![Golden ladle inside trunk at stump maze endpoint visible across teleporting platforms](./kings-quest-viii-mask-of-eternity-puzzle2-screenshots.png)
+
 [Pattern Learning](../puzzles/pattern-learning.md) — Players observe mechanical rules (directional jump outcomes vary per stump), learn through iteration which moves work, then apply the discovered pattern to reach the goal. Unlike Observation Replay, the solution involves learning a system of directional consequences rather than memorizing a fixed sequence to replay verbatim.
 
 ---
@@ -88,15 +96,18 @@ Early in game, Connor cannot see hidden pathways and objects in low-light areas 
 The wizard combines all three items to create the ring of illumination, allowing Connor to see and access previously invisible pathways and objects.
 
 ### Steps
-1. Collect ashes from torch holder in King James's tomb entrance room after fighting Spriggan
-2. Break through tomb gate with axe to access inner chamber and retrieve ring from coffin
+1. Collect ashes from torch holder near castle entrance after killing Spriggan
+2. Break through tomb gate with axe to access inner chamber and retrieve ring from King James's coffin
 3. Use rope to climb church exterior wall on south side
 4. Drop into church window interior and pick up sacred candle near altar
 5. Push urn blocking front door mechanism from inside (unlocks entrance for NPC interaction)
 6. Climb back outside and return to wizard's lakeside tower entrance
 7. Enter water portal behind wizard's tower, climb mountain path to reach his home
-8. Give all three items (ring, candle, ashes) to wizard on workbench
-9. Wizard crafts and provides ring of illumination
+8. Give all three items (ring, candle, ashes) to wizard; he crafts ring of illumination
+
+### Screenshots
+
+![Wizard at workbench with three crafting ingredients displayed: ring, torch ashes in container, and sacred candle](./kings-quest-viii-mask-of-eternity-puzzle3-screenshots.png)
 
 [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Multiple sequential sub-puzzles each produce unique components that are synthesized at a single endpoint (wizard's crafting station). Distinguishes from Multi-Faceted Plan because item collection follows dependency chain: tomb must be accessed before ashes/ring can appear, church climb requires rope obtained from mill—each output enables next step rather than parallel independent tasks.
 
