@@ -49,3 +49,19 @@ Cognitive transfer puzzles differ from other categories by their emphasis:
 **Insufficient Transfer Distance**: If the application context looks identical to the learning context, players don't experience cognitive transfer—they recognize surface similarity rather than rule abstraction.
 
 **Hidden Learning Opportunities**: Players must have clear opportunities to learn the system before being asked to apply it. No tutorial means no fair transfer.
+
+## Design Process Notes
+
+**Failure Modes to Avoid:**
+- Creating "aha moments" that depend on pixel hunting rather than reasoning about learned rules
+- Making the learning phase too short or too long relative to the transfer challenge
+- Allowing players to brute-force the transfer through trial-and-error instead of applying the rule
+
+**Playtesting Focus:**
+- Do players articulate what rule they learned, or just stumble into the solution?
+- Is the transfer distance calibrated—visible enough to be fair, hidden enough to feel earned?
+- Do players recognize the learned system applies before or after encountering the transfer context?
+
+**Connection to Design Process:**
+- See [working-backwards.md](../design-process/working-backwards.md) for designing cognitive transfer puzzles from the solution backward
+- See [failure-modes.md](../design-process/failure-modes.md) for the dependency chart anti-pattern where transfer feels arbitrary

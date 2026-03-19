@@ -132,27 +132,27 @@ Transform the handbook from a simple taxonomy + examples structure into a compre
 
 ### 12. Add Design Notes to Category Overviews
 
-- [ ] **Modify information-discovery-overview.md** (MODIFY: src/puzzles/information-discovery-overview.md)
+- [x] **Modify information-discovery-overview.md** (MODIFY: src/puzzles/information-discovery-overview.md)
   - Add process notes explaining how to use these puzzle types in design
   - Link to design-process/puzzle-dependency-charts.md for dependency patterns
   - **Source material:** Self-synthesized from puzzle taxonomy knowledge
 
-- [ ] **Modify cognitive-transfer-overview.md** (MODIFY: src/puzzles/cognitive-transfer-overview.md)
+- [x] **Modify cognitive-transfer-overview.md** (MODIFY: src/puzzles/cognitive-transfer-overview.md)
   - Add process notes on teaching patterns to players
   - Link to design-process/player-psychology.md for inception vs. extraction
 
-- [ ] **Modify spatial-temporal-coordination-overview.md** (MODIFY: src/puzzles/spatial-temporal-coordination-overview.md)
+- [x] **Modify spatial-temporal-coordination-overview.md** (MODIFY: src/puzzles/spatial-temporal-coordination-overview.md)
   - Add process notes on timing and coordination design
   - Link to design-process/working-backwards.md
 
-- [ ] **Modify npc-interaction-overview.md** (MODIFY: src/puzzles/npc-interaction-overview.md)
+- [x] **Modify npc-interaction-overview.md** (MODIFY: src/puzzles/npc-interaction-overview.md)
   - Add process notes on NPC as systems
   - Link to design-process/internal-logic-fairness.md
 
-- [ ] **Modify systems-and-logic-overview.md** (MODIFY: src/puzzles/systems-and-logic-overview.md)
+- [x] **Modify systems-and-logic-overview.md** (MODIFY: src/puzzles/systems-and-logic-overview.md)
   - Add process notes on logical consistency
 
-- [ ] **Modify non-standard-domains-overview.md** (MODIFY: src/puzzles/non-standard-domains-overview.md)
+- [x] **Modify non-standard-domains-overview.md** (MODIFY: src/puzzles/non-standard-domains-overview.md)
   - Add process notes on surreal logic boundaries
 
 ### 13. Cross-Reference Taxonomy to Design Process
@@ -176,7 +176,7 @@ Transform the handbook from a simple taxonomy + examples structure into a compre
 
 ### 15. Create Cross-Reference Index
 
-- [ ] **Create inspiration/cross-reference-index.md** (CREATE: src/inspiration/cross-reference-index.md)
+- [x] **Create inspiration/cross-reference-index.md** (CREATE: src/inspiration/cross-reference-index.md)
   - Matrix of games to design principles
   - Quick lookup table
   - **Delegation suggestion:** General agent, depends on task 14
@@ -204,7 +204,7 @@ Transform the handbook from a simple taxonomy + examples structure into a compre
 
 ### 18. Create Quick-Start Design Worksheet (NEW)
 
-- [ ] **Create docs/quick-start-worksheet.md** (CREATE: src/docs/quick-start-worksheet.md)
+- [x] **Create docs/quick-start-worksheet.md** (CREATE: src/docs/quick-start-worksheet.md)
   - One-page design worksheet template
   - Key questions for each design phase
   - Puzzle dependency chart template
@@ -218,7 +218,7 @@ Transform the handbook from a simple taxonomy + examples structure into a compre
 
 ### 19. Create FAQ Structure and Core Entries
 
-- [ ] **Create docs/faq.md** (CREATE: src/docs/faq.md)
+- [x] **Create docs/faq.md** (CREATE: src/docs/faq.md)
   - Create actionable Q&A format
   - Minimum 10 common design problems with solutions
   - Link to playbook patterns where applicable
