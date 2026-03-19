@@ -184,3 +184,5 @@ The `.opencode/skills/adventure-puzzle-analyzer/` directory contains:
 When possible, use subagents to complete work. For complex multi-step tasks (analyzing walkthroughs, creating new puzzle type documentation from scratch), delegate appropriately rather than attempting all steps in a single agent session.
 
 **For any user request**: Check TODOS.md first, then update cross-references after each task completion before committing.
+
+Always refer to @README.md, as it has the overall structure of this project.
