@@ -33,6 +33,7 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 - [Quest for Glory III: Wages of War (1992)](inspiration/quest-for-glory-iii-wages-of-war.md)
 - [Quest for Glory IV: Shadows of Darkness (1994)](inspiration/quest-for-glory-iv-shadows-of-darkness.md)
 - [Sam & Max Hit the Road (1993)](inspiration/sam-and-max-hit-the-road.md)
+- [Simon the Sorcerer (1993)](inspiration/simon-the-sorcerer.md)
 
 # Multi-Source Discovery
 
