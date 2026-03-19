@@ -45,6 +45,16 @@ Simon places the bucket on the Druid's head, uses the flaming brand near it to p
 10. Hide from returning goblins inside the iron maiden in the cell
 11. Exit the iron maiden after goblins leave; collect the hacksaw the frog brought
 
+### Screenshots
+
+**Before:** Druid cell showing bucket hanging from ceiling above and flaming brand on stand nearby. Bucket's circular hole visible at bottom.
+
+**During:** Bucket placed on Druid's head; flaming brand positioned near bucket hole, casting light through ring opening creating "full moon" effect.
+
+**After:** Frog version of Druid reappears with hacksaw placed on ground beside him.
+
+### Pattern Type
+
 [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Sequential combination where step outputs enable step inputs (bucket + brand = moon illusion), differentiating from Multi-Faceted Plan where items are gathered independently and synthesized at a single endpoint.
 
 ---
@@ -83,6 +93,16 @@ Simon learns all four animal transformation spells earlier in the game; wins fiv
 10. Witch transforms into dragon and vows revenge—immediately say "Abracadabra!" to become mouse
 11. Exit through the mouse hole in the cottage back wall
 
+### Screenshots
+
+**Before:** Tree with pink paint splodge visible; inventory showing White Spirit purchased from Shoppe.
+
+**During:** Duel interface showing both Simon and Witch transformed into competing animals (e.g., Dog vs Snake; Cat vs Dog).
+
+**After:** Broomstick placed on table after victory; mouse hole in back wall of cottage with shrunken-size exit path.
+
+### Pattern Type
+
 [Pattern Learning / Knowledge Transfer](../puzzles/pattern-learning.md) — Player learns a symbolic system (spells → animals) then applies it across multiple instances, differentiating from Observation Replay which records one sequence for later reproduction rather than encoding reusable rules.
 
 ---
@@ -120,6 +140,16 @@ Simon collects all six ritual components (magic square drawn, candles smashed fr
 13. Activate banishment: use all components together (candles, skull, mouse, true names)
 14. Demons are banished to Hell; remaining demon teaches teleporter usage
 15. Walk to teleporter; say "The Fiery Pits of Rondor" as destination
+
+### Screenshots
+
+**Before:** Tower bedroom showing polished shield on hook above stairs; magical mirror in separate room below. Demons Gerald and Max talking freely when alone.
+
+**During:** Banishment ritual in progress: magic square drawn on floor with candles lit, skull positioned at center, mouse released into circle.
+
+**After:** Teleporter activation screen with text prompt for "The Fiery Pits of Rondor" destination selected.
+
+### Pattern Type
 
 [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) — Multiple requirements gathered in any order from different areas, synthesized at a single endpoint (ritual), distinguishing from Meta-Puzzle Construction where sequential outputs enable sequential inputs.
 
