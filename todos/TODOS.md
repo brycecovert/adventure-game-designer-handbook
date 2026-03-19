@@ -231,7 +231,7 @@
     - [ ] kings-quest-iii-to-heir-is-human.md - add Screenshots sections after Steps, verify against walkthroughs
     - [ ] indiana-jones-and-the-last-crusade.md - add Screenshots sections after Steps, verify against walkthroughs
     - [ ] indiana-jones-and-the-fate-of-atlantis.md - add Screenshots sections after Steps, verify against walkthroughs
-    - [ ] grim-fandango.md - add Screenshots sections after Steps, verify against walkthroughs
+    - [x] grim-fandango.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] gabriel-knight-1-sins-of-the-fathers.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] full-throttle.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] day-of-the-tentacle.md - add Screenshots sections after Steps, verify against walkthroughs
