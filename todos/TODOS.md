@@ -223,7 +223,7 @@
     - [ ] quest-for-glory-iv-shadows-of-darkness.md - add Screenshots sections after Steps, verify against walkthroughs
     - [ ] quest-for-glory-iii-wages-of-war.md - add Screenshots sections after Steps, verify against walkthroughs
     - [ ] quest-for-glory-ii-trial-by-fire.md - add Screenshots sections after Steps, verify against walkthroughs
-    - [ ] quest-for-glory-1-shadows-of-darkness.md - add Screenshots sections after Steps, verify against walkthroughs
+    - [x] quest-for-glory-1-shadows-of-darkness.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] maniac-mansion.md - add Screenshots sections after Steps, verify against walkthroughs
     - [ ] kyrandia-1-shadow-of-the-fox.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] kings-quest-viii-mask-of-eternity.md - add Screenshots sections after Steps, verify against walkthroughs
