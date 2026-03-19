@@ -132,11 +132,11 @@
 	- [x] Link each puzzle to its pattern type from the Playbook
 
 	
-- [ ] Quest for Glory IV: Shadows of Darkness: analyze walkthrough and create game section
-	- [ ] Examine walkthrough files in src/walkthroughs/quest-for-glory-iv/
-	- [ ] Identify the 3 best puzzles using analysis-checklist.md criteria
-	- [ ] Write Problem/Why It Works/Solution/Steps for each puzzle
-	- [ ] Link each puzzle to its pattern type from the Playbook
+- [x] Quest for Glory IV: Shadows of Darkness: analyze walkthrough and create game section
+	- [x] Examine walkthrough files in src/walkthroughs/quest-for-glory-iv/
+	- [x] Identify the 3 best puzzles using analysis-checklist.md criteria
+	- [x] Write Problem/Why It Works/Solution/Steps for each puzzle
+	- [x] Link each puzzle to its pattern type from the Playbook
 
 	
 - [ ] Sam & Max Hit the Road: analyze walkthrough and create game section
