@@ -234,7 +234,7 @@
     - [ ] grim-fandango.md - add Screenshots sections after Steps, verify against walkthroughs
     - [ ] gabriel-knight-1-sins-of-the-fathers.md - add Screenshots sections after Steps, verify against walkthroughs
     - [ ] full-throttle.md - add Screenshots sections after Steps, verify against walkthroughs
-    - [ ] day-of-the-tentacle.md - add Screenshots sections after Steps, verify against walkthroughs
+    - [x] day-of-the-tentacle.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] broken-sword-ii-the-smoking-mirror.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] broken-sword-1-shadow-of-the-templars.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] beneath-a-steel-sky.md - add Screenshots sections after Steps, verify against walkthroughs
