@@ -43,6 +43,10 @@ The kumquat tree becomes a "cherry tree" in Hoagie's time; George Washington cut
 8. George walks outside and cuts down the now-red tree
 9. Switch to Laverne in the future; she is now on the ground, no longer stuck
 
+### Screenshots
+
+![Hoagie painting the kumquat tree red with paintbrush and bucket](./day-of-the-tentacle-puzzle1-s1.png)
+
 [Cross-Temporal Causality](../puzzles/cross-temporal-causality.md) — An action in one time period (painting + cutting) creates a cascading change observable in a different era (Laverne freed), distinguishing this from simple fetch quests where items move but timeline doesn't shift.
 
 ---
@@ -77,6 +81,11 @@ The mummy wins all three contest categories (Best Hair, Best Smile, Best Laugh),
 10. Place fake barf at Harold's feet to disqualify him before judging
 11. Put box o' laughs in mummy's pocket; talk to judges for all three categories
 12. Mummy wins; collect dinner coupon and certificate
+
+### Screenshots
+
+![Mummy entering the contest lobby on roller skates](./day-of-the-tentacle-puzzle2-s1.png)
+![Mummy fully prepared with spaghetti hair, horse dentures, and laugh box before judges](./day-of-the-tentacle-puzzle2-s2.png)
 
 [Multi-Character Coordination](../puzzles/multi-character-coordination.md) — Multiple characters must contribute distinct items gathered separately, differentiating from Meta-Puzzle Construction where single-player sequential steps build toward a finale rather than distributed gathering with centralized application.
 
@@ -113,6 +122,11 @@ Red Edison constructs a super battery from oil, vinegar, and gold pen; Ben Frank
 11. Take battery outside during storm; place it under Ben Franklin's kite string
 12. Push the kite when Ben says "Now!" to charge the battery with lightning
 13. Collect fully-charged battery; use it with Chron-O-John plug to power up Hoagie's time machine
+
+### Screenshots
+
+![Red Edison receiving oil, gold-plated quill pen, and vinegar in the secret laboratory](./day-of-the-tentacle-puzzle3-s1.png)
+![Ben Franklin's kite experiment with battery positioned under lightning strike in field during storm](./day-of-the-tentacle-puzzle3-s2.png)
 
 [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Sequential chain where each component (wine → vinegar, oil from pantry, gold pen after tree-cutting) unlocks the next stage, distinguishing this from Multi-Faceted Plan where items would be gathered independently before synthesis.
 
