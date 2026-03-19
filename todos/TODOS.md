@@ -279,30 +279,20 @@
   - Keep parallel examples only (MI1 Voodoo Doll, SMHTR Bigfoot Totem)
   - Commit after restructuring
 
-## Phase 2: Delete Redundant Types (Content Redistribution)
-- [ ] Read corporate-infiltration.md content
-  - Extract SQ3 ScummSoft example for redistribution
+## PHASE 2 COMPLETE ✓ - Delete Redundant Types (Content Redistribution)
+- [x] Read corporate-infiltration.md content ✓
+- [x] Redistribute corporate-infiltration.md content ✓
+  - Moved SQ3 ScummSoft Janitor Disguise to distraction-physics.md (stealth section)
+  - Commit: cf7de16
+- [x] Delete corporate-infiltration.md file ✓
 
-- [ ] Redistribute corporate-infiltration.md content
-  - Move SQ3 ScummSoft Janitor Disguise to distraction-physics.md (stealth section)
-  - If credential gathering chain exists → move to sequential-construction.md
-  - Commit after redistribution complete
-
-- [ ] Delete corporate-infiltration.md file
-  - Verify content moved, then remove and commit
-
-- [ ] Read predator-chase-escape.md content
-  - Extract G1 cop chase example details
-  - Extract QFG3 leopardman fight details
-
-- [ ] Redistribute predator-chase-escape.md content
-  - Move Gabriel Knight 1 cop chase to distraction-physics.md (as Predator Rerouting variant)
-  - Add reference in timed-consequence.md for urgency framing
-  - Evaluate QFG3 leopardman for escalating-combat-progression.md or discard if pure action
-  - Commit after redistribution
-
-- [ ] Delete predator-chase-escape.md file
-  - Verify content moved, then remove and commit
+- [x] Read predator-chase-escape.md content ✓
+- [x] Redistribute predator-chase-escape.md content ✓
+  - Moved SQ3 Arnoid chase to distraction-physics.md (as Predator Rerouting variant)
+  - Added relationship reference in timed-consequence.md
+  - Note: G1 cop chase not present; only SQ3 example existed
+  - Commits: 82c7573, 66100f4
+- [x] Delete predator-chase-escape.md file ✓
 
 ## Phase 3: Specific Type Reorganizations
 - [ ] Promote and expand metaphor-literal.md
