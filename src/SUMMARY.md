@@ -26,6 +26,7 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 - [King's Quest III: To Heir Is Human (1986)](inspiration/kings-quest-iii-to-heir-is-human.md)
 - [King's Quest VII: The Princeless Bride (1994)](inspiration/kings-quest-vii-the-princeless-bride.md)
 - [King's Quest VIII: Mask of Eternity (1998)](inspiration/kings-quest-viii-mask-of-eternity.md)
+- [Kyrandria 1: Shadow of the Fox (1992)](inspiration/kyrandria-1-shadow-of-the-fox.md)
 
 # Multi-Source Discovery
 

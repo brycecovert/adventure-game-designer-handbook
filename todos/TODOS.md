@@ -90,11 +90,11 @@
 	- [x] Link each puzzle to its pattern type from the Playbook
 
 	
-- [ ] Kurdyndria 1: Shadow of the Fox: analyze walkthrough and create game section
-	- [ ] Examine walkthrough files in src/walkthroughs/kyrandia_1/
-	- [ ] Identify the 3 best puzzles using analysis-checklist.md criteria
-	- [ ] Write Problem/Why It Works/Solution/Steps for each puzzle
-	- [ ] Link each puzzle to its pattern type from the Playbook
+- [x] Kurdyndria 1: Shadow of the Fox: analyze walkthrough and create game section
+	- [x] Examine walkthrough files in src/walkthroughs/kyrandia_1/
+	- [x] Identify the 3 best puzzles using analysis-checklist.md criteria
+	- [x] Write Problem/Why It Works/Solution/Steps for each puzzle
+	- [x] Link each puzzle to its pattern type from the Playbook
 
 	
 - [x] Loom: analyze walkthrough and create game section
