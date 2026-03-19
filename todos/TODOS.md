@@ -213,7 +213,7 @@
     - [x] zak-mckracken-and-the-alien-mindbenders.md - completed
     - [x] the-longest-journey.md - completed
     - [x] the-dig.md - completed
-    - [ ] syberia.md - add Screenshots sections after Steps, verify against walkthroughs
+    - [x] syberia.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] spacequest-iv-the-rogerwars.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] spacequest-iii-the-pirates-of-pestulon.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] spacequest-2-the-vohaul-assault.md - add Screenshots sections after Steps, verify against walkthroughs
