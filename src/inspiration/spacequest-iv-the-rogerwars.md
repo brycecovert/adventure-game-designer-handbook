@@ -55,6 +55,14 @@ Player combines three symbols from gum wrapper (Estros) with three symbols from 
 20. ENTER COMPLETE SIX-DIGIT CODE using all collected information
 21. Travel successfully to Ulence Flats (Space Quest I timeline)
 
+### Screenshots
+
+| Visual | Description |
+|--------|-------------|
+| Time pod interface showing partial codes discovered—gum wrapper displays three symbols, hintbook reveals remaining three | Key moment when player has both halves of the code: gum wrapper from Estros soldier corpse (3 symbols) and SQ4 Hintbook menu page 4 (3 symbols), ready to enter complete sequence [GamerWalkthroughs][Tricrokra] |
+| Bird's nest with dead soldier corpse | Estros landscape where giant bird deposits Roger; player must wait for Vohaul's soldier to fall from sky before searching body for gum wrapper containing first three time pod digits [Tricrokra] |
+| Galaxy Galleria software store bargain bin | SQ4 Hintbook hidden among parody game boxes in discount pile; requires rearranging items to locate, then navigating fake menu pages to extract coded symbols [GamerWalkthroughs] |
+
 [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Sequential information gathering where each puzzle stage builds toward final synthesis; physical components from different eras must combine intellectually rather than mechanically merging as inventory items.
 
 ---
@@ -93,6 +101,14 @@ Roger lights cigar with matches in laser tube area, uses smoke to reveal beam po
 14. WALK NORTH through tube safely—no beam contact possible due to alignment
 15. Continue north to robot maze exit; lasers no longer pose threat after initial setup
 16. Return trips can now be made without relighting cigar (beam positions remain fixed)
+
+### Screenshots
+
+| Visual | Description |
+|--------|-------------|
+| Laser tube section with invisible beams—Roger holds lit cigar as smoke reveals otherwise unseen deadly obstacles | Critical before/after moment: laser beams invisible to direct sight become visible through cigarette smoke scattering, allowing player to see dangerous red beams rotating in three circular turrets [GamerWalkthroughs][Tricrokra] |
+| Terminal control panel showing angle input interface | Keypad where player enters 156-024-108 degrees to rotate laser rings from horizontal (lethal) to vertical (safe passage), leading zero required for sub-100 values [Tricrokra] |
+| Cigar item in Roger's inventory pre-lighting | Essential prerequisite item dropped by Monolith Burger manager after firing scene; must be collected before leaving Galaxy Galleria as point-of-no-return triggers upon Xenon return [GamerWalkthroughs] |
 
 [Sensory Exploitation](../puzzles/sensory-exploitation.md) — Physical medium (smoke) makes invisible danger observable, player gains advantage from manipulating environmental perception rather than bypassing through superior stats or direct combat.
 
@@ -138,6 +154,14 @@ Roger connects PocketPal to terminal, deletes all security robots via toilet ico
 20. SELECT "BEAM DOWNLOAD" from menu options, then "DISK UPLOAD" with cursor on Roger Junior's body target
 21. CONFIRM TRANSFER: Vohaul's soul removed from victim, original brain restored via disk upload
 22. Timer reaches zero without death—sequence complete
+
+### Screenshots
+
+| Visual | Description |
+|--------|-------------|
+| Supercomputer interface showing draggable icons—Roger must delete robots first, then brain, creating urgency through invisible countdown | Terminal display after flushing brain icon: explicit "9 seconds remaining" warning activates, triggering race against timer to retrieve diskette and complete soul transfer [Tricrokra][GamerWalkthroughs] |
+| Hidden keypad door before code entry | Keypad location in robot maze corridor (west twice from laser tube exit); accepts 69-65-84-76-69 from hintbook page 7, unlocks console room only after player returns with PocketPal configured [Tricrokra] |
+| PocketPal connected to terminal wall panel | Combined item state: battery (from bunny trap in Xenon) + connector plug (Radio Shock purchase) enable supercomputer access; missing any component renders final puzzle unwinnable [GamerWalkthroughs] |
 
 [Timed Consequence](../puzzles/timed-consequence.md) — Explicit countdown creates failure state where delay guarantees game over regardless of puzzle knowledge; preparation across eras determines survival capability in final confrontation.
 
