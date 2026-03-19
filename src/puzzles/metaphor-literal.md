@@ -128,10 +128,43 @@ The LEG bone is connected to the HIP bone.
 
 ---
 
+## Subtype Framework
+
+### Visual Metaphor Transformation
+
+**Core Distinction**: Requires interpreting VISUAL SYMBOLISM as mechanical actions through color/painting/transformation.
+
+**Example: Monkey Island II - Painted Cherry Tree **(MI2)
+- **Setup**: George Washington in DoD must chop down a "cherry tree" to unblock path
+- **Metaphor Layer**: Kumquat tree painted red = visual metaphor for cherry tree
+- **Solution**: Apply red paint to kumquat tree → convince Washington it's the legendary cherry tree → he chops it down
+- **Why It Works**: The game exploits historical legend (Washington chopping cherry tree) through VISUAL deception rather than wordplay
+
+### Wordplay Literalization
+
+**Core Distinction**: Requires translating HUMOROUS or BUREAUCRATIC LANGUAGE into concrete item/actions through literal interpretation.
+
+**Example: Sam & Max Hit the Road - Bumpus Vegetable Identity **(SMHTR)
+- **Setup**: Bumpus the sloth demands proof of vegetable identity to grant passage
+- **Metaphor Layer**: "Vegetable" as bureaucratic classification for sloth-like indolence
+- **Solution**: Present actual vegetables or vegetable-associated items as "identity documents"
+- **Why It Works**: Comedy arises from treating absurd bureaucratic categorization as genuine requirement
+
+### Symbolic Identity Substitution
+
+**Core Distinction**: Replaces narrative/character identity with PHYSICAL OBJECT through symbolic equivalence. General framework encompassing both visual and wordplay variants.
+
+**Design Principles**:
+1. Source material (phrase/symbol/story) must be culturally recognizable or explicitly established
+2. Target object/action must have clear physical representation in game world
+3. Translation rule should feel discoverable, not arbitrary
+
+---
+
 ## Common Misidentifications
 
-| Apparent Metaphor | Why It's Different |
-|------------------|--------------------|
+| Apparent Metaphor | Why It's Different | Actual Type |
+|------------------|--------------------|-------------|
 | Dance map = navigation instructions (MI1 fake map) | These are LITERAL dance moves applied as path choices, not metaphorical language | Pattern Learning / Code Translation |
 | Voodoo doll categories ("something of the Thread") | Categories are literal requirements, not symbolic phrases being decoded | Multi-Faceted Plan |
 
@@ -209,7 +242,11 @@ Prophecy isn't a sequence to memorize and replay—it's ABSTRACT LANGUAGE requir
 
 ## Related Types
 
-- **Pattern Learning**: Both involve understanding systems, but Metaphor-to-Literal requires linguistic translation before mechanical application
-- **Environmental Storytelling**: Both include narrative text, but this type centers on ACTIVE TRANSLATION of phrases into actions
+| Type | Similarity to Metaphor-to-Literal | Distinction |
+|------|----------------------------------|-------------|
+| **Pattern Learning / Knowledge Transfer** | Both involve understanding systems that transfer across domains | PL teaches abstract rule sets (insult/retort pairs); MTL requires creative LINGUISTIC interpretation before mechanical application |
+| **Symbol Code Translation** | Both translate symbols to actions | SCT uses direct VISUAL mapping (shape→button); MTL requires SEMANTIC interpretation of language/concepts |
+| **Comedy Persuasion** | Both can involve humorous language manipulation | Comedy Persuasion = dialogue tree selection; MTL = translating phrases into PHYSICAL item/action combinations |
+| **Environmental Storytelling** | Both include narrative text as information source | EnvStorytelling = passive observation reveals plot; MTL requires ACTIVE TRANSLATION of phrases into mechanical solutions |
 
 This puzzle type tests: "Can I imagine what this phrase would look like if the game world took it literally?"
