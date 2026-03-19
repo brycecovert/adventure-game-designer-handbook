@@ -43,6 +43,10 @@ All three beavers are extinguished and trapped in tar pool, allowing safe passag
 8. After all three trapped, return to gate and use previously-acquired key to open lock
 9. Pass through gate toward Rubacava
 
+### Screenshots
+
+![Busy Beavers puzzle showing all three beavers extinguished and submerged in tar river before gate](./grim-fandango-puzzle1-solution.png)
+
 [Pattern Learning](../puzzles/pattern-learning.md) — Players discover a rule system (beavers only swim when lit; extinguished beavers stay submerged) through repeated attempts and environmental observation. Unlike Sensory Exploitation which targets NPC perception weaknesses directly, this requires understanding physical interaction patterns between objects (fire, tar, bones).
 
 ---
@@ -83,6 +87,10 @@ Manny successfully infiltrates the hidden basement floor via wine cask transport
 16. At "hidden" floor, push forklift fork lever upward to block elevator mechanism from rising further
 17. Exit forklift and walk down hallway to security office; retrieve suitcase containing union card
 
+### Screenshots
+
+![Wine cask puzzle showing forklift positioned through elevator gap with fork lever raised to block elevator mechanism](./grim-fandango-puzzle2-solution.png)
+
 [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Sequential chain where each step's output enables the next: VIP access grants cask entry, can opener opens cask, wine consumption empties cask, forklift enables hidden floor. Unlike Multi-Faceted Plan, order is not flexible—cask cannot be entered before it's emptied, cannot open without can opener obtained after litter box visit.
 
 ---
@@ -117,6 +125,10 @@ Ticket printed with correct parameters (Week 2, Tuesday, Race 6); photo obtained
 10. Print ticket and exit printer menu
 11. Approach Photo Finish window (not ticket counter); offer printed ticket
 12. Receive photo of Nick kissing Maximino's girlfriend as reward for valid ticket
+
+### Screenshots
+
+![Photo Finish puzzle showing ticket printer interface with correct parameters entered: Week 2, Tuesday, Race 6](./grim-fandango-puzzle3-solution.png)
 
 [Symbol Code Translation](../puzzles/symbol-code-translation.md) — Abstract symbols (number from plaque, visual count from photo, temporal reference from dialogue) must be decoded into concrete parameters for machine input. Unlike Multi-Faceted Plan which allows flexible order and synthesizes at completion only, here all three values are required to unlock a single interface—the printer won't accept partial information.
 
