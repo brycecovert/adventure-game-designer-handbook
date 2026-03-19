@@ -1,18 +1,48 @@
-# TODO List for Adventure Game Design Articles Download
+# TODO List for Adventure Game Design Articles Organization
 
-## Task: Download and save 35 adventure game design articles
+## Task: Organize resources into logical category structure
 
-- [x] Batch 1: Articles 1-12 (GrumpyGamer, TicksTales, RockPaperShotgun, VentureBeat, FilFre articles) - 11/12 saved
-- [x] Batch 2: Articles 13-23 (GameDeveloper articles, StanislavCostiuc, JoseRafaelPerez, WestOfEntropy, ChristopherSacchi, StackExchange, AdventureClassicGaming, SlattStudio, GenesisTemple) - 10/11 saved
-- [x] Batch 3: Articles 24-35 (GenesisTemple continued, BrainBaking, SimplyPutPsych, MoonLogicalBlog, PCGamer, TVTropes, Reddit, TheHande, Vogons, IGN, Medium) - 8/12 saved
-- [x] Retry failed articles - 1/6 additional saved
-- [x] Create index.md file listing all resources with brief descriptions
+- [x] Read all articles to understand content
+- [x] Analyze and categorize articles into logical groups
+- [x] Create category subdirectories with README files
+- [x] Write 1-2 sentence summaries for each article
+- [x] Move files to appropriate subdirectories
+- [x] Create reorganized index.md with category structure
+- [x] Commit changes
 
-## Final Results: 30 articles saved, 5 failed (rate limits/403/404)
+## Article Categories Created
 
-## Failed URLs (blocked):
-- VentureBeat (rate limited)
-- joserafaelperez.com (404)
-- brainbaking.com (connection closed)
-- vogons.org (403)
-- Medium (403)
+### 1. Criticism & Self-Improvement (5 articles)
+Articles critiquing adventure games and suggesting design improvements
+
+### 2. Defense & Praise (2 articles)  
+Articles defending and praising adventure games
+
+### 3. Puzzle Design (7 articles)
+Articles specifically about puzzle mechanics and design
+
+### 4. Technical/Engineering (4 articles)
+SCUMM, LucasArts techniques, engineering aspects
+
+### 5. History & Analysis (6 articles)
+Historical analyses of the adventure game genre
+
+### 6. Moon Logic (5 articles)
+Specific topic - moon logic puzzles and psychology
+
+### 7. Community (2 articles)
+Community discussions, Reddit, StackExchange
+
+## Summary
+
+Organized 31 articles into 7 category subdirectories:
+- criticism/ (5 articles)
+- defense/ (2 articles)
+- puzzle-design/ (7 articles)
+- technical/ (4 articles)
+- history/ (6 articles)
+- moon-logic/ (5 articles)
+- community/ (2 articles)
+
+Each category has a README.md with summaries and key themes.
+Main index.md updated to link to all categories.
