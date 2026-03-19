@@ -36,16 +36,21 @@ The pool empties (revealing reactor), items are collected, then refilled before 
 1. As Dave, open drain grating at front of mansion
 2. Crawl to water valve located under the house
 3. Switch to Syd; unlock pool door with silver key
-4. Fill a glass jar from the drained pool for later use
-5. Position Syd beside the empty pool ladder
-6. Switch back to Dave underwater grating area
+4. Obtain glass jar from kitchen
+5. Position Syd beside the pool ladder
+6. Switch back to Dave at underground grating area
 7. Dave turns ON water valve to drain the pool completely
-8. Syd descends into empty pool to access reactor room
-9. Syd retrieves glowing key and radio from reactor room
-10. Syd climbs out before timer expires
-11. Dave immediately turns OFF valve to refill pool
-12. Water rises, refilling pool and preventing reactor overheating
-13. Both players survive; items secured for future puzzles
+8. Syd fills glass jar from pool (for plant puzzle later)
+9. Pool empties; Syd descends into empty pool to access reactor room
+10. Syd retrieves glowing key and radio from reactor room
+11. Syd climbs out before timer expires
+12. Dave immediately turns OFF valve to refill pool
+13. Water rises, refilling pool and preventing reactor overheating
+14. Both players survive; items secured for future puzzles
+
+### Screenshots
+
+![Pool empty with Syd at reactor collecting glowing key and radio, timer about to expire](./mm-puzzle1-screenshots-01.png)
 
 [Timed Consequence](../puzzles/timed-consequence.md) — Physical constraint (reactor overheats without water) creates mandatory deadline requiring coordinated parallel actions, distinguishing this from simple multi-character gathering where timing isn't the primary constraint.
 
@@ -84,6 +89,10 @@ The broken wires are repaired via coordinated breaker/attic work; arcade high sc
 13. Enter memorized high score at keypad
 14. Secret laboratory door opens, granting access to meteor control room
 
+### Screenshots
+
+![Meteor Mess arcade machine displaying high score number needed for secret lab keypad](./mm-puzzle2-screenshots-01.png)
+
 [Information Brokerage](../puzzles/information-brokerage.md) — Incidental game information (arcade high score) is collected and exchanged for functional progress (laboratory access), differentiating from Symbol Code Translation which requires systematic cipher work rather than direct value transfer.
 
 ---
@@ -108,19 +117,24 @@ Undeveloped film is collected, developer fluid absorbed in sponge, Michael proce
 
 1. As Dave, exit mansion front door
 2. Examine bush on right side of steps; collect undeveloped film
-3. Switch to Syd; enter storeroom through dining room
-4. Grab bottle of developer from top shelf—deliberately let it drop and shatter onto grating
-5. Dave positions sponge under the shattered bottle
-6. Dave uses sponge to soak up spilled developer fluid
-7. Michael receives undeveloped film from Dave in art room
-8. Michael enters darkroom door on second floor landing (dark initially)
-9. Michael closes door; uses "what is" command to find red light switch
-10. Turn ON red light, preserving film emulsion during processing
-11. Use developer-soaked sponge on photographic tray
-12. Apply film to tray to develop the image
-13. Collect developed prints from tray
-14. Deliver prints to Weird Ed in his room
-15. Weird Ed confirms meteor plans visible; schedules meeting in lab
+3. Open grating at base of steps; crawl under the house to area beneath storeroom grating
+4. Switch to Syd; enter storeroom through dining room
+5. Grab bottle of developer from top shelf—it slips and shatters onto underground grating
+6. Switch back to Dave under the mansion
+7. Use sponge to soak up spilled developer fluid through grating
+8. Michael receives undeveloped film from Dave in art room
+9. Michael enters darkroom door on second floor landing (dark initially)
+10. Michael closes door; uses "what is" command to find red light switch
+11. Turn ON red light, preserving film emulsion during processing
+12. Use developer-soaked sponge on photographic tray
+13. Apply film to tray to develop the image
+14. Collect developed prints from tray
+15. Deliver prints to Weird Ed in his room
+16. Weird Ed confirms meteor plans visible; schedules meeting in lab
+
+### Screenshots
+
+![Michael in darkroom with red light on, placing developed film on photographic tray](./mm-puzzle3-screenshots-01.png)
 
 [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Sequential dependency chain where each step's output enables the next (film collected → developer gathered → processing complete), distinguishing from Multi-Faceted Plan where requirements could be gathered in any order before synthesis.
 
