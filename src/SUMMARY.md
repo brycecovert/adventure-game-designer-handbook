@@ -34,6 +34,7 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 - [Quest for Glory IV: Shadows of Darkness (1994)](inspiration/quest-for-glory-iv-shadows-of-darkness.md)
 - [Sam & Max Hit the Road (1993)](inspiration/sam-and-max-hit-the-road.md)
 - [Simon the Sorcerer (1993)](inspiration/simon-the-sorcerer.md)
+- [Space Quest 1: The Sarien Encounter (1986)](inspiration/spacequest-1-the-sarien-encounter.md)
 
 # Multi-Source Discovery
 
