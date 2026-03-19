@@ -438,6 +438,64 @@ This demonstrates the timing requirement—the environmental exploit works ONLY 
 
 ---
 
+### SpaceQuest III: Arnoid Pursuit and Pod Trap (Phleebhut) (SQ3)
+
+**Problem**: After landing on Phleebhut, Roger Wilco is hunted by the "Arnold" — a relentless robotic terminator with superior combat capabilities. Direct confrontation guarantees death. The only escape requires luring the Arnold into carnivorous hanging pods that populate a specific cave area and harvest their bounty (invisibility belt) from the defeated machine.
+
+<small>Source: gamefaqs-tricrokra-archive.html, lines 376-382 — "Well, it'll take awhile before he finds you... Now the Terminator will catch you."</small>
+
+<small>Source: the-spoiler-walkthrough.html, lines 89-97 — "The Arnoid will show up. Luckily, he is in a good mood and will give you a small amount of time to run away."</small>
+
+**Predator Rerouting as Distraction Variant**:
+This is an extreme form of NPC distraction where the "NPC" is an active pursuer rather than a stationary guard. Player must guide the pursuer's attention away from themselves toward environmental hazards (carnivorous pods). Unlike standard distraction, Roger cannot simply hide—he must actively lure the Arnold into the trap zone while maintaining safe positioning himself. The mechanic shifts from "distract guard to steal item" to "route predator into death zone to survive."
+
+```
+PHASE 1 - PRE-CHASE PREPARATION:
+
+Step A - Purchase Required Items at World o' Wonders:
+Command Sequence: SELL Gem → BUY Orat on a stick → BUY Underwear → BUY Hat
+Citation: gamefaqs-tricrokra-archive.html, lines 393-401 — "= Sell the gem... = Buy Orat on a stick = Buy the chicken hat = Buy the thermoweave underwear"
+
+Critical: Must sell gem for enough buckazoids to afford all three items. The Orat is specifically required for extracting invisibility belt post-defeat.
+
+
+PHASE 2 - RELIABLE ESCAPE METHOD (Carnivorous Pod Trap):
+
+Step B - Lead Pursuer to Trap Zone:
+Command Sequence: South x3 → East → Enter cave with hanging pods
+Citation: gamefaqs-tricrokra-archive.html, lines 413-417 — "= Exit south x3"
+
+
+Step C - Position for Safe Harvest:
+Positioning Instruction: Stand BEHIND the carnivorous pods but NOT directly underneath them
+Critical Constraint: The "things-in-the-cave" will kill Roger if he enters beneath them while Arnold is present. Standing behind (not under) keeps player safe while Arnold passes through danger zone.
+Citation: gamefaqs-tricrokra-archive.html, lines 416-420 — "= Stand in the cave behind the 'things' and wait for the Terminator to come it'll get eaten by the 'things.'"
+
+
+Step D - Wait for Trap Activation:
+Mechanism: Carnivorous pods have independent detection system that triggers when humanoid (Arnold) enters kill zone but does not detect Roger unless he is directly below.
+Outcome: Arnold is captured and consumed; Roger emerges unharmed from protected position.
+
+
+Step E - Extract Invisibility Belt:
+Prerequisite: ORAT ON A STICK in inventory (purchased earlier on Phleebhut)
+Command: USE ORAT on defeated Arnold's remains
+Reward: INVISIBILITY BELT acquired
+Citation: gamefaqs-tricrokra-archive.html, line 421 — "= Use the Orat on a stick to get the Terminator's invisibility belt"
+
+
+FAILURE MODES:
+- If player returns to ship while being pursued → Arnold catches and kills Roger instantly (game over)
+Citation: gamefaqs-tricrokra-archive.html, lines 418-420 — "DON'T GO TO YOUR SHIP. If you go there, you'll be killed."
+
+- Unreliable alternative method exists ("hook grab" in building elevator) with low success rate and minimal points
+Citation: gamefaqs-tricrokra-archive.html, lines 406-411
+```
+
+**Why It's Distraction Physics (Predator Rerouting Variant)**: The puzzle uses environmental hazards to redirect NPC attention—but the "NPC" is an active hunter pursuing Roger directly. Standard distraction physics involves diverting a guard's gaze or rerouting their patrol; here the player guides an unstoppable pursuer into terrain-based death through precise positioning. Roger becomes environmental engineer creating lethal trap conditions, using the pods' independent detection as his weapon. Unlike Sensory Exploitation (attack vulnerability) or Timed Consequence (escape under deadline), this manipulates the spatial relationship between player, predator, and environmental hazard to transform pursuer into victim.
+
+---
+
 ## Game Examples
 
 ### INDY1: Roast Boar Distraction via Fireplace Smoke
