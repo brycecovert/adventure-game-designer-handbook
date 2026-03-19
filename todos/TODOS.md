@@ -1,9 +1,9 @@
 # TODO List for Puzzle Sampling Chapter
 
 
-- [ ] Create Inspiration chapter introduction document (src/inspiration.md)
-	- [ ] Write section explaining purpose: sampling of 30+ games with best puzzles analyzed
-	- [ ] Document Problem/Why It Works/Solution/Steps format requirements
+- [x] Create Inspiration chapter introduction document (src/inspiration.md)
+	- [x] Write section explaining purpose: sampling of 30+ games with best puzzles analyzed
+	- [x] Document Problem/Why It Works/Solution/Steps format requirements
 
 	
 - [x] Beneath a Steel Sky: analyze walkthrough and create game section
