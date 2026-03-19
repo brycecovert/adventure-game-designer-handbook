@@ -53,7 +53,7 @@ Roger clears all trashcans throughout ScummSoft, accesses executive office to st
 
 ![Roger disguised as janitor holding vaporizer in ScummSoft hallway—must clear all trashcans](./sq3-puzzle1.png)
 
-[Corporate Infiltration](../puzzles/corporate-infiltration.md) — Job disguise enables access, but player must actively perform role tasks (trashcan emptying) to maintain cover, distinguishing from simple costume-based stealth where appearance alone suffices.
+[Distraction & Environmental Manipulation](../puzzles/distraction-environmental-manipulation.md) — Job disguise enables access through systematic environmental maintenance (trashcan clearing). The vaporizer serves dual purpose: progress requirement AND security system disablement at finale.
 
 ---
 
@@ -149,14 +149,14 @@ Detonator destroys force field generator; Roger races through collapsing bridge 
 
 | Name | Problem & Solution | Pattern Type |
 |------|-------------------|--------------|
-| Garbage Scow Engine Salvage | Navigate conveyor systems; use grabber cart to locate and deliver engine parts to ship for escape | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
+| Garbage Scow Engine Salvage | Navigate conveyor systems; use grabber cart to locate and deliver engine parts to ship for escape | [Sequential Construction](../puzzles/sequential-construction.md) |
 | Rat Pit Ladder Retrieval | Fall into underground rat tunnels; collect reactor and wires while rats steal carried items upon ascent | [Observation Replay](../puzzles/observation-replay.md) |
-| Terminators Belt Theft via Cave Monsters | Bait Terminator pursuit into cave filled with man-eating lifeforms; retrieve invisibility belt from corpse | [NPC Distraction Physics](../puzzles/distraction-physics.md) |
+| Terminators Belt Theft via Cave Monsters | Bait Terminator pursuit into cave filled with man-eating lifeforms; retrieve invisibility belt from corpse | [Distraction & Environmental Manipulation](../puzzles/distraction-environmental-manipulation.md) |  Predatore rerouting—see main article
 | Face Scanner Photo Deception | Copy Elmo's picture in office; present copy to security scanner while boss is away at meeting | [Sensory Exploitation](../puzzles/sensory-exploitation.md) |
 | Glowing Gem Commerce Exchange | Sell initial inventory item (glowing gem) for Buckazoids; use currency to purchase critical quest items | [Information Brokerage](../puzzles/information-brokerage.md) |
-| Thermoweave Underwear Environmental Protection | Wear purchased heat-resistant clothing before Ortega landing; without it, character dies instantly on surface | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
+| Thermoweave Underwear Environmental Protection | Wear purchased heat-resistant clothing before Ortega landing; without it, character dies instantly on surface | [Sequential Construction](../puzzles/sequential-construction.md) |
 | Duke Nukem Combat Finale | Defeat ScummSoft boss in interactive combat sequence using timed attacks and shield management; progress to space battle | [Escalating Combat Progression](../puzzles/escalating-combat-progression.md) |
-| Spaceship Reactor Assembly | Collect reactor, wires, and engine across garbage scow sections; install components systematically for escape flight | [Repair Chain Construction](../puzzles/repair-chain-construction.md) |
+| Spaceship Reactor Assembly | Collect reactor, wires, and engine across garbage scow sections; install components systematically for escape flight | [Sequential Construction](../puzzles/sequential-construction.md) |
 
 ---
 
