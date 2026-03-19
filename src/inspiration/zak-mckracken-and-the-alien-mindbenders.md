@@ -67,38 +67,38 @@ This exemplifies Multi-Faceted Plan design: items gathered in any order but synt
 
 ### Solution
 
-Whiskey intoxicates sentry, gate opens, wire cutters disable fence, four stonehenge components are placed on altar and scroll is read—yellow crystal appears as puzzle solution.
+Whiskey intoxicates sentry at Stonehenge gate, switch in guard hut deactivates electric fence, four components (crystal shards, flagpole, scroll) are placed on central altar triggering yellow crystal manifestation [TKroon].
 
 ### Steps
 
 1. As Zak in Miami, give book to homeless person at airport
-2. Receive bottle of whiskey from bum in exchange for book
+2. Receive bottle of whiskey from bum in exchange for book  
 3. Transport whiskey to London via airline terminal
-4. Give all items to Annie: whiskey, flagpole (from Katmandu), both crystal shards (Egypt/Peru)
-5. Switch to Annie; exit London airport terminal building
-6. Approach Stonehenge site and give whiskey bottle to sentry/hawk guarding gate
-7. Sentry becomes intoxicated from whiskey consumption
-8. Enter guard hut where fallen sentry left access switch
-9. Pull switch in hut to lower electric fence around Stonehenge stones
-10. Use wire cutters on remaining fence section (if still active)
-11. Walk through deactivated fence to altar stone at center of circle
+4. As Zak in Katmandu (Nepal Monastery): burn hay with lighter, obtain flagpole revealed underneath
+5. Give all items to Annie: whiskey, flagpole, both crystal shards, scroll (from Peru bird temple)
+6. Switch to Annie; exit London airport terminal building
+7. Approach Stonehenge gate and give whiskey bottle to sentry/hawk guarding entrance
+8. Sentry becomes intoxicated from whiskey consumption
+9. Enter guard hut where fallen sentry left access switch
+10. Pull switch in hut to deactivate electric fence around Stonehenge stones
+11. Walk through lowered fence to altar stone at center of circle
 12. Place both crystal shards on the flat altar surface
 13. Insert flagpole vertically into altar's pole socket
-14. Pick up and read scroll aloud (obtained from Peru bird temple via Zak)
+14. Pick up and read scroll aloud (scroll obtained from Peru bird temple)
 15. Yellow crystal materializes on altar; pick it up immediately
-16. Return to London airport; give crystal to Zak for final machine assembly
+16. Return to London airport terminal; give crystal to Zak for final machine assembly
 
 [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) — Four distinct items collected across separate continents with no dependency chain but requiring simultaneous presence at conclusion, differentiating from Meta-Puzzle Construction where sequential output-to-input relationships mandate strict ordering.
 
 ---
 
-## Puzzle 3: Pyramid Interior Map via Multi-Character Timed Coordination and Symbol Translation
+## Puzzle 3: Pyramid Interior Access via Multi-Character Timed Coordination and Symbol Translation
 
 ### Problem
 
-The Great Pyramid interior requires four characters to simultaneously insert tokens into a tram system while one character navigates inner chambers—Leslie must push the sarcophagus feet to open a trapdoor, Zak must hold position at pyramid stairs, Melissa provides golden key from Mars, all within precise sequence. The pyramid maze itself uses hieroglyphics read by Annie (translating strange markings seen on Mars statues), creating a symbol translation layer before physical coordination even begins [WBennett].
+The Great Pyramid interior requires four characters to operate a tram system synchronously while navigating inner chambers—Leslie must push sarcophagus feet to open trapdoor, Zak must insert token at precise timing, Melissa provides golden key from Mars ankh puzzle, all within rapid character-switching sequence. The pyramid access itself uses hieroglyphics Annie translates after Zak reads strange markings on Mars statues, creating a symbol translation prerequisite before multi-character coordination even begins [WBennett][TKroon].
 
-![Great Pyramid entrance with tram token slot—the timed coordination point requiring character switching](./zak-mckracken-puzzle3.png)
+![Great Pyramid tram entrance showing token slot and four characters at monolith—the rapid character-switching coordination point](./zak-mckracken-puzzle3.png)
 
 ### What Makes It Rewarding
 
@@ -112,24 +112,25 @@ Hieroglyphics decoded in Sphinx allow pyramid entry; four characters simultaneou
 
 1. As Annie in London, acquire guitar from Lou's Loans
 2. Play guitar on bus in San Francisco to obtain cashcard
-3. Fly to London then Cairo; enter Sphinx interior
-4. Use crayon on strange markings at Sphinx leg entrance (draw Egyptian hieroglyphs read by Zak)
-5. Navigate through sun-marked doors until reaching two-eyes chamber
-6. Push buttons in sequence shown by hieroglyphics
-7. Exit Sphinx; return to Cairo airport, fly back to Mars via Zaire and Peru teleport sequence
-8. As Zak at Mars map room, examine sphinx carvings to read Martians markings
-9. Teleport back to Egypt pyramid area; locate tram entrance with token slot
-10. Switch to Melanie; use cashcard on monolith, receive tram token
-11. Insert token into tram slot while switching characters rapidly
-12. Switch to Leslie; insert her token in adjacent slot immediately
-13. Switch to Zak; stand inside pyramid at staircase entry point
-14. Switch to Melissa; provide golden key obtained from Mars ankh puzzle
-15. Leslie inside: push feet of sarcophagus to trigger trapdoor mechanism
+3. Fly to Cairo; enter Sphinx interior through leg opening (requires crayon drawing of Martian markings Zak saw)
+4. Navigate through sun-marked doors until reaching two-eyes chamber
+5. Push buttons in sequence shown by hieroglyphics read at Mars map room
+6. Exit Sphinx; return to Cairo airport
+7. As Zak at Mars, examine card room and second statue carvings to record hieroglyphic sequences  
+8. Use yellow crystal to teleport from Egypt via Zaire to pyramid area
+9. At pyramid tram entrance: switch to Melissa; use cashcard on monolith for token
+10. Insert Melissa's token into tram slot rapidly
+11. Switch to Leslie immediately; insert her token in second slot
+12. Switch to Zak immediately; insert his token in third slot
+13. Zak stands at pyramid staircase entry point inside
+14. Leslie uses broom alien on sand near entrance (optional speed boost)
+15. Leslie enters pyramid, walks right to doorway, pushes feet of sarcophagus to trigger trapdoor
 16. Trapdoor opens, revealing interior chamber with crystal pedestal
-17. Melissa enters and uses golden key in box at chamber center
-18. Push button to activate white crystal retrieval sequence
-19. Zak stands before white crystal as energy field activates
-20. All characters escape before chamber seals; final machine components assembled
+17. Switch to Melissa; enter through newly opened passage
+18. Melissa uses golden key (from Mars ankh puzzle) in box at chamber center
+19. Push button to activate white crystal retrieval sequence  
+20. Zak stands before white crystal as energy field activates; pick up crystal quickly
+21. Teleport to Egypt machine assembly point; all components now gathered
 
 [Multi-Character Coordination](../puzzles/multi-character-coordination.md) — Four-character simultaneous action requirement with precise timing window, distinguishing from Timed Consequence where deadline is explicit timer versus coordination-dependent execution rhythm.
 
