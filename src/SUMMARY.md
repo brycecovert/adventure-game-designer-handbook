@@ -20,6 +20,7 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 - [Full Throttle (1995)](inspiration/full-throttle.md)
 - [Gabriel Knight 1: Sins of the Fathers (1993)](inspiration/gabriel-knight-1-sins-of-the-fathers.md)
 - [Loom (1990)](inspiration/loom.md)
+- [Grim Fandango (1998)](inspiration/grim-fandango.md)
 
 # Multi-Source Discovery
 
