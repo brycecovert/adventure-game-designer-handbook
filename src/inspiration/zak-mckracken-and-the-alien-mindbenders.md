@@ -49,6 +49,10 @@ The six-number dance sequence learned in Zaire is entered on Mars's door panel, 
 14. Climb ladder; enter exact six-number sequence observed in Zaire dance
 15. Door unlocks; ancient civilization chambers now accessible
 
+### Screenshots
+
+![Three shaman dancers performing ritual ceremony in Kinshasa village—the six-number crouch sequence must be memorized](./zak-mckracken-puzzle1-screenshots-01.png)
+
 [Pattern Learning](../puzzles/pattern-learning.md) — Ritual observation creates transferable code that must be accurately recorded in one location then applied elsewhere, distinguishing from Observation Replay which requires reproducing the same action sequence rather than abstracting observed pattern into new form.
 
 ---
@@ -87,6 +91,11 @@ Whiskey intoxicates sentry at Stonehenge gate, switch in guard hut deactivates e
 14. Pick up and read scroll aloud (scroll obtained from Peru bird temple)
 15. Yellow crystal materializes on altar; pick it up immediately
 16. Return to London airport terminal; give crystal to Zak for final machine assembly
+
+### Screenshots
+
+![Whiskey bottle given to Stonehenge sentry—intoxication disables the guard and deactivates electric fence](./zak-mckracken-puzzle2-screenshots-01.png)
+![Four items placed on altar (crystal shards, flagpole, scroll)—yellow crystal materializes after reading scroll](./zak-mckracken-puzzle2-screenshots-02.png)
 
 [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) — Four distinct items collected across separate continents with no dependency chain but requiring simultaneous presence at conclusion, differentiating from Meta-Puzzle Construction where sequential output-to-input relationships mandate strict ordering.
 
@@ -131,6 +140,11 @@ Hieroglyphics decoded in Sphinx allow pyramid entry; four characters simultaneou
 19. Push button to activate white crystal retrieval sequence  
 20. Zak stands before white crystal as energy field activates; pick up crystal quickly
 21. Teleport to Egypt machine assembly point; all components now gathered
+
+### Screenshots
+
+![Great Pyramid tram entrance with token slots and four characters (Melissa, Leslie, Zak)—rapid character-switching sequence in progress](./zak-mckracken-puzzle3-screenshots-01.png)
+![Leslie pushing sarcophagus feet to open hidden trapdoor—trap reveals interior chamber with crystal pedestal](./zak-mckracken-puzzle3-screenshots-02.png)
 
 [Multi-Character Coordination](../puzzles/multi-character-coordination.md) — Four-character simultaneous action requirement with precise timing window, distinguishing from Timed Consequence where deadline is explicit timer versus coordination-dependent execution rhythm.
 
