@@ -40,6 +40,10 @@ Gabriel correctly completes the tomb message ("DJ BRING SEKEY MADOULE"), which s
 6. Write complete message: "DJ BRING SEKEY MADOULE" using learned cipher format
 7. Exit tomb without erasing message before leaving cemetery
 
+### Screenshots
+
+![Laveau's tomb with cipher symbols visible before sketchbook analysis](./gabriel-knight-1-puzzle1-cipher.png)
+
 [Symbol Code Translation](../puzzles/symbol-code-translation.md) — Unlike Observation Replay where the player memorizes a literal sequence to reproduce, this requires understanding and applying a cipher system with consistent internal rules (missing letters fill predictable gaps). The translation layer (Voodoo terminology from NPC dialogue) makes this distinct from pure pattern recognition.
 
 ---
@@ -73,6 +77,10 @@ Gabriel places all tiles correctly, triggers guardians, and escapes through Room
 10. At blocked exit in Room 6 (three creatures), use OPERATE icon on thick overhead vine
 11. Swing across to Room 7 where Wolfgang holds off guardians with torch
 12. Insert Snake Rod into second knothole just inside doorway to access Inner Wheel
+
+### Screenshots
+
+![Snake Mound Outer Ring showing circular room layout with guardian statues before activation](./gabriel-knight-1-puzzle2-mound.png)
 
 [Pattern Learning](../puzzles/pattern-learning.md) — Player learns tile-counting system from examining all rooms, applies counting rule across domains (different rooms), then executes the same escape pattern Wolfgang demonstrates later. Unlike Predator Chase Escape where creatures actively hunt, here guardians follow fixed patrol paths exploitable through observation and timing.
 
@@ -118,6 +126,10 @@ Gabriel infiltrates the hounfour, retrieves Grace from Room 8 with the talisman,
 21. Toss talisman to Mosely when opportunity arises; he escapes with Grace
 22. During final combat with Malia/Tetelo, use HAND icon on idol beneath tabletop
 23. When Malia hangs from crevasse edge, use HAND icon on her hand to save her (good ending)
+
+### Screenshots
+
+![Hounfour underground temple main hallway showing numbered room doors and control pads](./gabriel-knight-1-puzzle3-hounfour.png)
 
 [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) — Multiple requirements gathered in any order (disguises, keycard, money, timer initiation) are synthesized at the end in Room 8 and the ceremony. Unlike Meta-Puzzle Construction where step N's output enables step N+1 sequentially, these elements interlock without strict ordering—drum message can be sent before or after collecting disguises, keycard doors can be opened in any sequence.
 
