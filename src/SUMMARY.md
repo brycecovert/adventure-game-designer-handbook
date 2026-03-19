@@ -22,6 +22,7 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 - [Loom (1990)](inspiration/loom.md)
 - [Grim Fandango (1998)](inspiration/grim-fandango.md)
 - [Indiana Jones and the Fate of Atlantis (1992)](inspiration/indiana-jones-and-the-fate-of-atlantis.md)
+- [Indiana Jones and the Last Crusade (1989)](inspiration/indiana-jones-and-the-last-crusade.md)
 
 # Multi-Source Discovery
 
