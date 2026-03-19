@@ -165,6 +165,10 @@ Every puzzle type page should follow this structure (target: ≤400 lines):
 | **Distraction Physics** | Make the environmental chain logical and observable before player tries it; ensure cause-effect is visible |
 | **Observation Replay** | Make the observed sequence memorable but not trivially reproducible; add stakes so failure has consequence |
 | **Timed Consequence** | Create urgency through narrative stakes, not arbitrary deadlines; ensure player can always see the countdown |
+| **Symbol Code Translation** | Provide clear visual feedback on EXAMINATION—symbols must be readable; ensure shapes/colors on artifacts match button interfaces exactly; first instance should be a sandbox with no penalty until pattern discovered |
+| **Truth Revelation** | Make the hidden information logically deducible from the reveal action; ensure the item or action used has a natural connection to what's being revealed |
+| **Cross-Temporal Causality** | Make cause-effect between time periods obvious once observed; ensure player can always trace back what they changed and why it worked |
+| **Multi-Character Coordination** | Give each character a distinct role that's immediately clear; ensure simultaneous actions are achievable without tight real-time requirements |
 
 **Universal Principles:**
 - **Information conveyance should match the puzzle's difficulty** — complex puzzles need multiple hints, simple ones need fewer

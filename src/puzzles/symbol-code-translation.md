@@ -1,10 +1,12 @@
 # Symbol Code Translation
 
-**Core Mechanic**: Player observes symbolic patterns on artifacts (shapes, colors, glyphs) and translates them to matching interface elements through visual recognition. The translation framework is learned once through examination, then applied identically across multiple instances. Order sensitivity is critical—sequences must be entered exactly as displayed on the source artifact.
+## Core Mechanic
 
-**When to Use**: Game contains visual symbol systems (engraved rods, colored tiles, pictogram wheels) where patterns on collectible artifacts must be matched to panel interfaces. First instance serves as implicit tutorial with subsequent applications requiring self-reinforcement. Same mechanical framework applies to 3+ instances across gameplay.
+Player observes symbolic patterns on artifacts (shapes, colors, glyphs) and translates them to matching interface elements through visual recognition. The translation framework is learned once through examination, then applied identically across multiple instances. Order sensitivity is critical—sequences must be entered exactly as displayed on the source artifact.
 
----
+## When to Use
+
+Game contains visual symbol systems (engraved rods, colored tiles, pictogram wheels) where patterns on collectible artifacts must be matched to panel interfaces. First instance serves as implicit tutorial with subsequent applications requiring self-reinforcement. Same mechanical framework applies to 3+ instances across gameplay.
 
 ## Solution Chain
 
@@ -84,22 +86,10 @@
 | Multi-Faceted Plan | Both involve collecting scattered artifacts | MFP synthesizes multiple unique requirements; SCT applies ONE framework to multiple instances |
 | Metaphor-to-Literal Translation | Borgov tomb color spelling uses symbolic representation | MMI interprets abstract language as game mechanics; SCT uses colors as visual pattern stand-ins |
 
----
+## Index
 
-## Design Considerations
-
-**Implementation Patterns**:
-- **Randomization per playthrough**: Ensures walkthroughs cannot hard-code solutions
-- **Consistent visual grammar**: Shapes and colors on artifacts MUST match button interfaces exactly
-- **First instance as sandbox**: No penalty for wrong attempts until pattern discovered
-- **No backspace mechanic** (optional): Increases difficulty by requiring complete re-entry if one position wrong
-
-**Best Practices**:
-- Provide clear visual feedback on EXAMINATION—symbols must be readable and unambiguous
-- First success should produce immediate result (door hums then opens with cutscene)
-- Vary OUTPUT TYPE across instances (some doors open, some panels generate information)
-
-**Common Pitfalls**:
-- Players may incorrectly believe symbols require "decryption" rather than direct visual matching
-- Order sensitivity should be reinforced by first instance (left-to-right reading direction)
-- If randomized, ensure ALL symbol shapes/colors appear on panels—no symbol on artifact that panel cannot display
+| Game | Puzzle | Section |
+|------|--------|---------|
+| The Dig | Purple Engraved Rod → First Nexus Door | Examples |
+| QFG4 | Dr. Cranium's Keyhole Slider | Examples |
+| TLJ | Crystal Altar Puzzle | Examples |
