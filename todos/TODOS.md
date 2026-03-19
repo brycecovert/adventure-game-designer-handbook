@@ -324,9 +324,37 @@
 - [x] mdbook build passes with no broken links ✓ (only pre-existing HTML tag warnings remain)
 - [x] At least 25 commits created ✓ - Total hierarchy work commits: ~35+
 
-See commit history above for full breakdown by phase.ction-physics.md
-- [ ] All Related Types sections updated across all puzzle type files
-- [ ] All Inspiration pages checked and links fixed
-- [ ] SUMMARY.md restructured hierarchically under parent categories
-- [ ] mdbook build passes with no broken links
-- [ ] At least 25 commits created (one per completed task)
+See commit history above for full breakdown by phase.
+
+---
+
+# Puzzle Type Page Refactoring
+
+See [REFACTOR_PUZZLE_TYPES.md](../REFACTOR_PUZZLE_TYPES.md) for detailed plan.
+
+## Phase 1: Pilot - Refactor Tier 1 Pages (Most Verbose)
+- [ ] Refactor `pattern-learning.md` (target: ≤400 lines, 3 examples)
+  - Keep: Core Mechanic, Solution Chain, 3 best examples
+  - Move: Extended MI2/MI1/BAS/QFG4 analysis → respective game inspiration pages
+  - Commit after each change
+- [ ] Refactor `sensory-exploitation.md` (target: ≤400 lines, 3 examples)
+  - Keep: Core Mechanic, 3 examples (parrot, poodle, Medusa mirror)
+  - Move: QFG3 honeybird/meerbat, Loom tower, etc. → inspiration pages
+- [ ] Refactor `multi-faceted-plan.md` (target: ≤400 lines, 3 examples)
+  - Keep: Core Mechanic, parallel MFP examples only
+  - Move: QFG2/QFG3/QFG4 multi-examples → inspiration pages
+
+## Phase 2: Refactor Tier 2 Pages
+- [ ] Refactor `sequential-construction.md` — needs Core Mechanic, trim examples
+- [ ] Refactor `information-brokerage.md` — needs format cleanup
+- [ ] Refactor `environmental-storytelling.md` — needs format cleanup
+- [ ] Refactor `memo-chain.md` — needs format cleanup
+
+## Phase 3: Review and Cleanup Tier 3 Pages
+- [ ] Review and cleanup remaining puzzle type pages (≤400 lines each)
+- [ ] Verify Related Types tables are consistent across all pages
+
+## Phase 4: Validation
+- [ ] Run `npx remark-cli` on all changed files
+- [ ] Run `mdbook build` to verify no broken links
+- [ ] Final review of SUMMARY.md navigation structure

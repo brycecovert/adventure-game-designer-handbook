@@ -58,54 +58,89 @@ For each walkthrough section, note:
 
 ## Standard Template
 
+Every puzzle type page should follow this structure (target: ≤400 lines):
+
 ```markdown
 # [Puzzle Type Name]
 
-**Information Architecture**: How info is conveyed to player
+## Core Mechanic
 
-**Player Action Pattern**: 
-1. Step one
-2. Step two  
-3. Solution
+(3 sentences max explaining what this pattern achieves)
 
-**Core Mechanic**: One sentence on underlying logic.
+## When to Use
 
-**Variations**: Brief list or table of manifestations
+(When designer should consider this puzzle type)
+
+## Solution Chain
+
+1. (Specific player action)
+2. (Specific player action)
+3. (Specific player action)
+
+## Examples
+
+### [Game Code]: [Puzzle Name]
+
+**Problem**: One sentence on the obstacle.
+
+**Why It's This Type**: Explicit connection to Core Mechanic.
+
+**Solution**:
+1. Step...
+2. Step...
 
 ---
 
-## Game Examples
+### [Game Code]: [Puzzle Name]
 
-### [Game]: [Puzzle Name]
+(Same format)
 
-**Mechanic**: Brief setup.
+---
 
-**Solution Chain**:
-1. Action with discovery...
-2. Action...
-3. Result...
+### [Game Code]: [Puzzle Name]
 
-**Why It's This Type**: Explicit connection to core mechanic.
+(Same format)
 
 ---
 
 ## Related Types
 
 | Type | Similarity | Distinction |
+|------|------------|-------------|
+| [Type A](path.md) | Shared characteristic | Key difference |
+| [Type B](path.md) | Shared characteristic | Key difference |
+
+## Index
+
+| Game | Puzzle | Section |
+|------|--------|---------|
+| MI1 | Swordfight Insults | Examples |
+| KQVI | [Puzzle Name] | Inspiration |
 ```
+
+**Key Rules:**
+- Core Mechanic: ≤ 3 sentences
+- Exactly 3 examples (not 5, not 10)
+- Solution Chain: numbered, specific actions (not "solve puzzle")
+- "Why It's This Type": explicit connection to Core Mechanic
+- Move extended analysis to game inspiration pages, not type definitions
+- Use source codes (MI1, KQVI, QFG3) not full game names
 
 ## Guidelines
 
 ### DO:
 - Focus on MECHANICS, not story details
-- Use /README.md as reference for related types when cross-linking
-- Keep Core Mechanic to ONE sentence
+- Keep Core Mechanic to ≤ 3 sentences
+- Use exactly 3 examples with consistent format
+- Link extended analysis to game inspiration pages
+- Use source codes (MI1, KQVI, QFG3) not full game names
 - Distinguish parallel (MFP) vs sequential (Meta-Construction) requirements
 
 ### DON'T:
 - Document game-specific mechanics that don't generalize
 - Create new types without 2+ examples OR one very complex example
 - Use vague terms ("clever," "creative") — be mechanical
+- Exceed 400 lines per page — move details to inspiration pages
 
 ## Quick Pitfalls
 
@@ -114,6 +149,7 @@ For each walkthrough section, note:
 | Pattern Learning vs Observation Replay | Learn SYSTEM (PL) vs memorize SEQUENCE (OR) |
 | MFP vs Meta-Construction | Gather in any order? Yes = MFP, No = Meta-Construction |
 | Brokerage vs Sensory Exploitation | Trade ITEM for ITEM (IB) vs exploit PERCEPTION weakness (SE) |
+| Page length | If >400 lines, move examples to inspiration pages |
 
 ## Reference
 
