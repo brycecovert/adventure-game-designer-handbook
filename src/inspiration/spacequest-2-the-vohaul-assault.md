@@ -21,8 +21,6 @@ Space Quest II continues Roger Wilco's janitorial misadventures with enhanced me
 
 After crashlanding on the alien planet, Roger must cross a swamp guarded by a carnivorous monster that eats anything attempting passage. The solution requires finding berries in the jungle maze, then applying them to his skin through an explicit command interaction. One walkthrough specifies: "GET BERRIES" from bush past slime maze, then later "RUB BERRIES ON BODY"—making the taste-based camouflage mechanically explicit rather than implicit [Tricky].
 
-![Swamp monster about to attack—the moment sensory disguise activates](./spacequest-2-puzzle1.png)
-
 ### What Makes It Rewarding
 
 This puzzle transforms biological properties into mechanical rules: berries are not just inventory; they must be *rubbed on body* to alter how the world responds to Roger. The player learns through documentation that "the berries make you taste bad, the monster will spit you out, and thus you survive" [Tricky]—establishing consistent cause-and-effect rather than magic immunity. Unlike traditional disguise puzzles where costumes hide visual appearance, this exploits sensory perception (taste) as a vulnerability window. Fair design gates progress meaningfully: attempt crossing without berries triggers death; with berries, the monster's attack animation plays then reverses, providing immediate feedback on mechanic activation [StrategyWiki].
@@ -46,6 +44,13 @@ Berries are collected from jungle bush, rubbed onto Roger's body to create bad t
 
 [Sensory Exploitation](../puzzles/sensory-exploitation.md) — NPC perception vulnerability exploited through item application altering biological response (taste), distinguishing from Corporate Infiltration where visual uniform changes create authorization rather than sensory-based survival.
 
+### Screenshots
+
+| | |
+|---|---|
+| ![Swamp encounter—Roger swimming toward monster with berry camouflage active, before attack animation plays](./spacequest-2-puzzle1.png) | **Before:** Approaching swamp with berries in inventory but not yet applied |
+| ![Monster spitting Roger out after bite animation completes—the moment taste-based survival triggers](./spacequest-2-puzzle1-after.png) | **After:** Monster attack reversed, player survives and can continue swimming past |
+
 ---
 
 ## Puzzle 2: Rock Monster Distraction via Whistle and Puzzle Combination
@@ -53,8 +58,6 @@ Berries are collected from jungle bush, rubbed onto Roger's body to create bad t
 ### Problem
 
 A large rock monster blocks passage in the jungle, but can be temporarily distracted using two specific items found earlier in the game. Roger must blow a whistle (mail-ordered from the mailbox) to summon the creature, then throw a puzzle piece at it while it approaches. The StrategyWiki walkthrough breaks this into precise sequence: "use whistle" then "throw puzzle" as separate commands [StrategyWiki]. Timing matters—if the monster reaches Roger before hitting enter on the throw command, death occurs.
-
-![Rock monster charging after being whistled—the distraction timing moment](./spacequest-2-puzzle2.png)
 
 ### What Makes It Rewarding
 
@@ -80,6 +83,13 @@ Whistle summons rock monster; throwing puzzle distracts it while it digs hole, a
 
 [Distraction Physics](../puzzles/distraction-physics.md) — Environmental hazard (monster) neutralized through timed item deployment creating exploitable window, distinguishing from Sensory Exploitation where NPC perception is bypassed rather than actively redirected through physics interaction.
 
+### Screenshots
+
+| | |
+|---|---|
+| ![Rock monster charging after whistle command—player has thrown puzzle but must time ENTER keypress precisely](./spacequest-2-puzzle2.png) | **Before:** Whistle blown, monster approaching with player holding THROW PUZZLE command |
+| ![Monster digging hole in ground while distracted by thrown puzzle—the exploitable window appears](./spacequest-2-puzzle2-after.png) | **After:** Monster neutralized, hole contains retrievable rock item needed for guard knockout |
+
 ---
 
 ## Puzzle 3: Acid Trap Escape via Plunger Anchor and Fire Sprinkler Activation
@@ -87,8 +97,6 @@ Whistle summons rock monster; throwing puzzle distracts it while it digs hole, a
 ### Problem
 
 In Vohaul's fortress, Roger must navigate a corridor with deadly acid trap floor plates that open suddenly beneath the player. The solution requires three items across multiple floors: plunger (from 3rd floor closet), waste basket (from 5th floor janitorial closet), toilet paper (from 4th floor restroom). When trapped in the open pit, the plunger anchors Roger to prevent falling; then lighting the paper in the basket triggers sprinklers that disable killer robots. One walkthrough explains: "STICK PLUNGER ON BARRIER" before trap opens, then "PUT PAPER IN BASKET", "LIGHT BASKET" [Tricky].
-
-![Acid trap corridor with plunger on wall barrier—the escape sequence](./spacequest-2-puzzle3.png)
 
 ### What Makes It Rewarding
 
@@ -116,6 +124,13 @@ Plunger anchors Roger to wall barrier during acid trap opening; burning paper in
 14. Exit east safely past neutralized robot threat
 
 [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) — Multiple requirements gathered across different locations (plunger, basket, paper from separate floors) synthesized at climax moment for compound outcome (escape + robot neutralization), distinguishing from Meta-Puzzle Construction where sequential outputs chain rather than parallel collection converges.
+
+### Screenshots
+
+| | |
+|---|---|
+| ![Acid trap corridor with plunger stuck on wall barrier—Roger hanging as floor opens beneath him](./spacequest-2-puzzle3.png) | **Before:** Plunger anchored, acid pit open, player suspended above deadly acid |
+| ![Sprinkler system activated after burning basket in corridor—killer robots disabled by fire suppression](./spacequest-2-puzzle3-after.png) | **After:** Sprinklers triggered, corridor safe to exit east toward Vohaul's office |
 
 ---
 
