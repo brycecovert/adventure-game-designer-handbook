@@ -47,7 +47,7 @@ All five magical components are gathered from forest locations; Healer combines 
 10. Pick up green fur offered by Meep
 11. Navigate to Flying Falls: from Healer go north, east to find Flying Falls door
 12. Class-specific ascension: Thief climbs rocks / Fighter throws rocks at door summoning Henry the Hermit who reveals ladder / Magic User casts Detect spell for ladder reveal
-13. Fill empty flask with flying water from waterfall while inside cave
+13. Fill empty flask with flying water from waterfall inside cave
 14. From Healer, navigate west-four and south-two to reach mushroom ring location during nighttime
 15. Dance when told to dance by fairies appearing at midnight
 16. Ask fairies about magic dust with second empty flask in inventory
@@ -56,6 +56,10 @@ All five magical components are gathered from forest locations; Healer combines 
 19. Pick flowers from sacred area for Healer's component requirement
 20. Return to Healer during daytime and offer all five collected items
 21. Leave hut then re-enter immediately; receive completed Dispel potion
+
+### Screenshot
+
+![Healer's table with all five ingredients gathered—ready for potion synthesis](./qfg1-puzzle1.png)
 
 [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Sequential chain where ingredient gathering order is flexible but synthesis occurs only after all components convene, distinguishing from Multi-Faceted Plan where distinct categories combine without strict dependency chains.
 
@@ -101,6 +105,10 @@ Gem exchange triggers gate access; correct phrase during descent prevents crushi
 20. Re-enter hut; confirm giving the mandrake when prompted
 21. Receive reward: not eaten as human meal plus quest completion credit
 
+### Screenshot
+
+![Baba Yaga's chicken hut approaching player—the moment for timing the descent phrase](./qfg1-puzzle2.png)
+
 [Class-Specific Ritual](../puzzles/class-specific-ritual.md) — All classes solve identically through dialogue timing and item preparation, creating non-combat ritual challenge distinct from class-specific ability requirements in other puzzles.
 
 ---
@@ -141,6 +149,10 @@ Player survives through three trap encounters using observed patrol patterns to 
 16. Reach opened door rapidly; open nearby second door and wait in passage for fake door to collapse
 17. Jump ON top of collapsed door section then open real concealed door behind rubble
 18. Exit through newly accessible passage reaching Elsa's area
+
+### Screenshot
+
+![Trap room interior showing candelabra position—brigands about to enter from south doorway](./qfg1-puzzle3.png)
 
 [Pattern Learning](../puzzles/pattern-learning.md) — Player observes patrol loop, tests individual actions (chair blocking, candelabra movement), then synthesizes combined sequence—distinguishing from Observation Replay which reuses already-witnessed NPC behavior patterns rather than learning mechanical cause-effect chains.
 
