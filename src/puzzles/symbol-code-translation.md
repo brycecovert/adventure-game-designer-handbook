@@ -257,10 +257,12 @@ Both share core SCT structure but Borgov adds **METAPHOR LAYER**: colors represe
 
 | Type | Similarity to Symbol Code Translation | Distinction |
 |------|---------------------------------------|-------------|
-| **Pattern Learning / Knowledge Transfer** | Both teach system once, apply exhaustively across new targets | SCT adds visual recognition matching layer; standard PL is abstract rule transfer only |
+| **Pattern Learning / Knowledge Transfer** | Both teach system once, apply exhaustively across new targets | PL transfers abstract rule sets (insult A → retort B); SCT EXTENDS this by adding visual recognition matching layer requiring artifact-to-interface translation |
 | **Observation Replay** | Both require careful observation of symbolic sequence | OR copies exact values repeated; SCT translates symbols to interface actions each time |
 | **Multi-Faceted Plan Puzzle** | Both involve collecting scattered artifacts across exploration | MFP SYNTHESIZES multiple unique requirements; SCT applies ONE framework to multiple instances |
 | **Metaphor-to-Literal Translation** | Borgov tomb color spelling uses symbolic representation | MMI interprets abstract language as GAME MECHANICS; this uses colors as LETTER stand-ins (visual metaphor, not linguistic) |
+
+**Relationship Note**: Symbol Code Translation is best understood as an extension of Pattern Learning where the learned framework includes explicit VISUAL MAPPING. In PL, player learns "insult type A requires retort type B." In SCT, player learns AND APPLIES "symbol X on artifact maps to button Y on interface, left-to-right." See [Pattern Learning](pattern-learning.md#extended-visual-variant-symbol-code-translation) for the parent framework analysis.
 
 ---
 

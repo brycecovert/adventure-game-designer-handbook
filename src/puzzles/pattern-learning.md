@@ -179,11 +179,24 @@ Both are COMPLETE systems fully learnable before application required
 
 ---
 
+## Extended Visual Variant: Symbol Code Translation
+
+**Symbol Code Translation** extends Pattern Learning by adding a visual recognition mapping layer. While standard PL transfers abstract rule sets (insult A → retort B), SCT requires players to ALSO perform visual symbol matching across domains—recording specific sequences or combinations observed on a static artifact (engraved rod symbols, chessboard diagram) and translating them to actions at an interface (panel buttons, piece arrangement).
+
+The core distinction: Pattern Learning is "I learned this SYSTEM applies elsewhere." Symbol Code Translation is "I observed this EXACT CODE and must replicate its mapping." SCT inherits PL's exhaustive application framework but adds VISUAL-TO-ACTION translation as a required intermediate step.
+
+See [Symbol Code Translation](symbol-code-translation.md) for detailed analysis of visual mapping variants.
+
+---
+
 ## Related Types
 
-- **Multi-Faceted Plan**: Both gather across multiple steps, but MFP has different *categories* of requirement (key+code+distracter), not one unifying *system*
-- **Observation Replay**: OR reproduces exact sequence verbatim; KT applies rules to new targets
-- **Environmental Storytelling**: KT often includes world text, but puzzle is the mechanic transfer, not narrative connection
+| Type | Similarity to Pattern Learning | Distinction |
+|------|-------------------------------|-------------|
+| **Multi-Faceted Plan** | Both gather across multiple steps | MFP has different *categories* of requirement (key+code+distracter); PL has one unifying *system* applied exhaustively |
+| **Observation Replay** | Both require careful observation then reproduction | OR reproduces exact sequence verbatim once; PL applies rules to NEW targets across domains |
+| **Symbol Code Translation** | Both use "learn framework once, apply exhaustively" | SCT adds VISUAL symbol recognition layer requiring translation from artifact observation to interface action |
+| **Environmental Storytelling** | PL often includes world text as information source | EnvStorytelling = passive observation reveals plot; PL tests mechanical system transfer across contexts |
 
 ---
 
