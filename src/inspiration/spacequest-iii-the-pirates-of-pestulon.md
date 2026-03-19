@@ -21,8 +21,6 @@ SpaceQuest III is a 1989 Sierra adventure designed by Mark Crowe and Marc Ozera 
 
 Roger must infiltrate ScummSoft headquarters to rescue Mark Crowe and Scott Metzger, but the security system detects intruders through an unusual mechanism: full trash cans. Donning janitor coveralls provides initial access, but every room's waste bins must be vaporized before proceeding—any missed can triggers instant death. The player must methodically navigate ScummSoft's multi-room layout while tracking which locations have been cleared, creating a memory-intensive stealth puzzle where the disguise mechanic doubles as gameplay requirement [Tricrokra].
 
-![Roger disguised as janitor holding vaporizer in ScummSoft hallway—must clear all trashcans](./sq3-puzzle1.png)
-
 ### What Makes It Rewarding
 
 This creates structural stealth: the disguise isn't cosmetic—it defines player capability and failure state. Unlike games where invisibility bypasses guards entirely, Roger must *perform* janitorial duties to remain undetected. The constraint is explicitly communicated: "If you forget one [trashcan], you'll be dead"—so players can back-track confidently rather than relying on save-scumming. The mechanical elegance stems from dual-purpose design: vaporizer destroys both trash (progress requirement) and security systems (final puzzle tool). This wasn't merely stealth; it was job-based infiltration where player actions matched character identity [StrategyWiki].
@@ -51,6 +49,10 @@ Roger clears all trashcans throughout ScummSoft, accesses executive office to st
 16. Enter restricted area; USE VAPORIZER on Mark and Scott's containment jelly
 17. Wait for boss confrontation; initiate final Duke Nukem-style combat
 
+### Screenshots
+
+![Roger disguised as janitor holding vaporizer in ScummSoft hallway—must clear all trashcans](./sq3-puzzle1.png)
+
 [Corporate Infiltration](../puzzles/corporate-infiltration.md) — Job disguise enables access, but player must actively perform role tasks (trashcan emptying) to maintain cover, distinguishing from simple costume-based stealth where appearance alone suffices.
 
 ---
@@ -60,8 +62,6 @@ Roger clears all trashcans throughout ScummSoft, accesses executive office to st
 ### Problem
 
 At Monolith Burger's arcade section, Roger finds an ASTRO CHICKEN game. The only way forward is receiving a secret message hidden in the game—but it doesn't appear until achieving high enough cumulative score through repeated landings. A decoder ring obtained earlier from the Monolith Fun Meal unlocks message readability once the game displays it. This creates a pure skill-based gating mechanism where player improvement directly enables progression, bypassing traditional inventory puzzle patterns entirely [Tricrokra].
-
-![ASTRO CHICKEN arcade machine—landing chicken on mat repeatedly triggers secret message](./sq3-puzzle2.png)
 
 ### What Makes It Rewarding
 
@@ -90,6 +90,10 @@ Player lands Astro Chicken repeatedly until cumulative score triggers hidden mes
 15. Read decoded content: coordinates to Pestulon moon plus ScummSoft captive situation
 16. Exit Monolith Burger with new intelligence for next destination
 
+### Screenshots
+
+![ASTRO CHICKEN arcade machine—landing chicken on mat repeatedly triggers secret message](./sq3-puzzle2.png)
+
 [Pattern Learning](../puzzles/pattern-learning.md) — Skill development and repeated interaction reveal hidden information, distinguishing from Symbol Code Translation where decoding happens via intellectual cipher work rather than perseverance-based discovery.
 
 ---
@@ -99,8 +103,6 @@ Player lands Astro Chicken repeatedly until cumulative score triggers hidden mes
 ### Problem
 
 On Ortega's surface, Roger must destroy a force field generator protecting ScummSoft's orbital shield, then escape before the planet becomes uninhabitable. The sequence creates explicit time pressure: inserting the thermal detonator triggers an invisible countdown forcing rapid return to ship while crossing an unstable bridge and leaping a newly-formed chasm with scavenged metal pole. Unlike disguised timers elsewhere in adventure games, here death is guaranteed if timing fails—no second chances, no workaround through alternate puzzle solutions [Tricrokra].
-
-![Ortega force field generator—throw detonator into hole then race ship before planet becomes uninhabitable](./sq3-puzzle3.png)
 
 ### What Makes It Rewarding
 
@@ -134,6 +136,10 @@ Detonator destroys force field generator; Roger races through collapsing bridge 
 20. Navigate east or west depending on ship approach direction
 21. ENTER SHIP before timer expires
 22. Escape Ortega surface with mission complete and character alive
+
+### Screenshots
+
+![Ortega force field generator—throw detonator into hole then race ship before planet becomes uninhabitable](./sq3-puzzle3.png)
 
 [Timed Consequence](../puzzles/timed-consequence.md) — Physical constraint (planet becoming uninhabitable) creates mandatory deadline where delay guarantees failure, distinguishing from Corporate Infiltration where timing is procedural rather than survival-based.
 
