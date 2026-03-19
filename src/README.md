@@ -31,8 +31,7 @@ A taxonomy of puzzle design patterns derived from analysis of classic Sierra, Lu
 | 19 | [Robot Programming / Color-Encoded Sequences](./puzzles/robot-programming.md) | Abstract color→action rule discovery through experimentation; compose original sequences | TD/SYB |
 | 20 | [Escalating Combat Progression](./puzzles/escalating-combat-progression.md) | Sequential combat gauntlet where each victory yields weapon needed for next opponent | FT/SQ3/QFG3 |
 | 21 | [Corporate Infiltration Puzzle](./puzzles/corporate-infiltration.md) | Multi-layer security breach requiring disguise, behavioral role-play, and credential synthesis | INDY1/SQ3/QFG3 |
-| 22 | [Predator Chase Escape](./puzzles/predator-chase-escape.md) | Redirect environmental hazards toward pursuing antagonist; timing/positioning critical | SQ3 |
-| 23 | [Repair Chain Construction](./puzzles/repair-chain-construction.md) | Sequential component installation where each repair enables next system functionality | SQ3 |
+| 22 | [Repair Chain Construction](./puzzles/repair-chain-construction.md) | Sequential component installation where each repair enables next system functionality | SQ3 |
 | 24 | [Class-Specific Ritual Challenge](./puzzles/class-specific-ritual.md) | Same narrative obstacle solved through mechanically distinct class implementations | QFG3/QFG4 |
 | 25 | [Multi-Faction Diplomacy Puzzle](./puzzles/multi-faction-diplomacy.md) | Multiple warring groups independently satisfied before unified conflict resolution possible | QFG3 |
 
