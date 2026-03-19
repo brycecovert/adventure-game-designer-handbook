@@ -151,7 +151,7 @@ Detonator destroys force field generator; Roger races through collapsing bridge 
 |------|-------------------|--------------|
 | Garbage Scow Engine Salvage | Navigate conveyor systems; use grabber cart to locate and deliver engine parts to ship for escape | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
 | Rat Pit Ladder Retrieval | Fall into underground rat tunnels; collect reactor and wires while rats steal carried items upon ascent | [Observation Replay](../puzzles/observation-replay.md) |
-| Terminators Belt Theft via Cave Monsters | Bait Terminator pursuit into cave filled with man-eating lifeforms; retrieve invisibility belt from corpse | [Predator Chase Escape](../puzzles/predator-chase-escape.md) |
+| Terminators Belt Theft via Cave Monsters | Bait Terminator pursuit into cave filled with man-eating lifeforms; retrieve invisibility belt from corpse | [NPC Distraction Physics](../puzzles/distraction-physics.md) |
 | Face Scanner Photo Deception | Copy Elmo's picture in office; present copy to security scanner while boss is away at meeting | [Sensory Exploitation](../puzzles/sensory-exploitation.md) |
 | Glowing Gem Commerce Exchange | Sell initial inventory item (glowing gem) for Buckazoids; use currency to purchase critical quest items | [Information Brokerage](../puzzles/information-brokerage.md) |
 | Thermoweave Underwear Environmental Protection | Wear purchased heat-resistant clothing before Ortega landing; without it, character dies instantly on surface | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |

@@ -94,7 +94,6 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 # Infiltration & Stealth
 
 - [Corporate Infiltration](puzzles/corporate-infiltration.md)
-- [Predator Chase Escape](puzzles/predator-chase-escape.md)
 
 # Class & Faction Systems
 

@@ -172,11 +172,11 @@ Roger connects PocketPal to terminal, deletes all security robots via toilet ico
 | Name | Problem & Solution | Pattern Type |
 |------|-------------------|--------------|
 | Bunny Battery Theft via Rope Trap | Set rope snare in ruined city; catch wandering bunny alive; examine captured animal to extract hidden battery from its body | [Observation Replay](../puzzles/observation-replay.md) |
-| Slime Jar Collection from Sewer Grate | Lure acidic slime creature through sewers without contact; use empty jar on moving blob before it returns underground | [Predator Chase Escape](../puzzles/predator-chase-escape.md) |
+| Slime Jar Collection from Sewer Grate | Lure acidic slime creature through sewers without contact; use empty jar on moving blob before it returns underground | [NPC Distraction Physics](../puzzles/distraction-physics.md) |
 | ATM Account Theft via Gender Disguise | Purchase ladies' clothing; wear female disguise at software store exterior; use Zondra's abandoned ATM card to "clean house" account balance | [Sensory Exploitation](../puzzles/sensory-exploitation.md) |
 | Laser Angle Mathematics Puzzle | Calculate correct angles (156, 024, 108 degrees) for three rotating laser rings after revealing beam positions via smoke scattering | [Pattern Learning](../puzzles/pattern-learning.md) |
 | Droid Maze Route Memorization | Navigate robot patrol section; observe movement patterns through observation points; time crossings when guards are cleared | [Observation Replay](../puzzles/observation-replay.md) |
-| Skate-O-Rama Anti-Gravity Escape | Swim through zero-G rink to rooftop level while evading pursuers from arcade hall; moving prevents being shot by enemies | [Predator Chase Escape](../puzzles/predator-chase-escape.md) |
+| Skate-O-Rama Anti-Gravity Escape | Swim through zero-G rink to rooftop level while evading pursuers from arcade hall; moving prevents being shot by enemies | [Timed Consequence](../puzzles/timed-consequence.md) |
 | Monolith Burger Employment Sequence | Apply for burger-flipping job; complete timed minigame or be fired anyway either way (cigar retrieval succeeds on first dismissal) | [Comedy-Based Persuasion](../puzzles/comedy-based-persuasion.md) |
 | Final Disk Upload Beam Transfer | Insert disk in computer; navigate interface menu selecting beam download, disk upload options with correct body target selected | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
 
