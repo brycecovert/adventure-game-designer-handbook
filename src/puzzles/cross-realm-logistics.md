@@ -359,8 +359,13 @@ WHY IT'S CROSS-REALM LOGISTICS:
 
 ## Related Types
 
-- **Multi-Faceted Plan**: MFP gathers requirements for one immediate solution; Cross-Realm spreads acquisition over extensive gameplay
-- **Meta-Puzzle Construction**: MPC creates strict sequential chains; Cross-Realm Logistics allows parallel collection across space/time
+| Type | Similarity to Cross-Realm Logistics | Distinction |
+|------|-------------------------------------|-------------|
+| **Multi-Faceted Plan** | Both gather requirements across locations | MFP = single immediate solution synthesis; CTL = extensive gameplay span with items maintaining value across chapters/realms |
+| **Sequential Construction** | Both involve multi-step item chains | SC = strict sequential output dependencies (A→B→C); CTL allows parallel collection across separated realms without chain dependency |
+| **Cross-Temporal Causality** | Temporal equivalent: Both share same underlying mechanic of action across separated context | CTC = TEMPORAL boundaries (past→future causality); CTL = DIMENSIONAL/SPATIAL boundaries. Both exploit state changes across contexts—CTC via historical events, CTL via inventory transport |
+
+**Note on Cross-Temporal Causality Relationship**: Cross-Realm Logistics and Cross-Temporal Causality share identical core mechanics: player actions in Domain A affect world state in Domain B, where the separation is SPATIAL/DIMENSIONAL rather than TEMPORAL. DOTT's tree-cutting puzzle (CTC: past action destroys future tree) parallels TLJ's shift-travel puzzles (CTL: Stark item used in Arcadia). See [Cross-Temporal Causality](cross-temporal-causality.md) for the temporal variant analysis.
 
 ---
 

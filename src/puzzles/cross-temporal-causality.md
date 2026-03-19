@@ -332,9 +332,12 @@ While flushing enables cross-temporal item movement, it is a GAMEPLAY MECHANIC n
 | Type | Similarity to Cross-Temporal Causality | Distinction |
 |------|---------------------------------------|-------------|
 | **Multi-Character Coordination** | Both can require actions from separated characters | MCC = spatial separation; CTC = TEMPORAL separation as primary blocker |
-| **Meta-Puzzle Construction** | Both involve sequential multi-step solutions | MPC = item output chains; CTC = WORLD STATE changes across eras |
+| **Sequential Construction** | Both involve sequential multi-step solutions | SC = item output chains within single timeline; CTC = WORLD STATE changes across eras |
 | **Memo Chain** | Both reference historical documents | Memo = fragment gathering; CTC = HISTORICAL EVENT CREATION |
 | **Environmental Destruction** | Both alter game world permanently | EnvDestruction is single-timeline only; CTC specifically MULTI-ERA |
+| **Cross-Realm Logistics** | Dimensional variant: Both share same underlying mechanic of action across separated context | CTL = actions cross DIMENSIONAL boundaries (Stark⇄Arcadia, parallel worlds); CTC = actions cross TEMPORAL boundaries. Core principle identical—state in Realm A affects world state in Realm B |
+
+**Note on Cross-Realm Logistics Relationship**: Both puzzle types exploit SEPARATED CONTEXTS where player actions in Domain A create consequences in Domain B. Cross-Temporal Causality uses TIME as the separation axis (past→future); Cross-Realm Logistics uses SPACE/DIMENSION as the axis (Arcadia⇄Stark, parallel worlds). The underlying mechanic is identical: understand causal links across boundaries, then execute actions that manifest remotely. See [Cross-Realm Logistics](cross-realm-logistics.md) for the dimensional variant analysis.
 
 ---
 
