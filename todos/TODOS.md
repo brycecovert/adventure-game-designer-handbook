@@ -218,7 +218,7 @@
     - [ ] spacequest-iii-the-pirates-of-pestulon.md - add Screenshots sections after Steps, verify against walkthroughs
     - [ ] spacequest-2-the-vohaul-assault.md - add Screenshots sections after Steps, verify against walkthroughs
     - [ ] spacequest-1-the-sarien-encounter.md - add Screenshots sections after Steps, verify against walkthroughs
-    - [ ] simon-the-sorcerer.md - add Screenshots sections after Steps, verify against walkthroughs
+    - [x] simon-the-sorcerer.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] sam-and-max-hit-the-road.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] quest-for-glory-iv-shadows-of-darkness.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] quest-for-glory-iii-wages-of-war.md - add Screenshots sections after Steps, verify against walkthroughs
