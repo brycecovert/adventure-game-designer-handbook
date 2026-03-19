@@ -1,0 +1,144 @@
+# Task List for Puzzle Type Hierarchy Reorganization
+
+## Phase 1: Core Restructuring (Sequential Construction)
+
+- [ ] **Create sequential-construction.md**
+  - Rename meta-puzzle-construction.md → sequential-construction.md
+  - Add "Repair/Restoration Chains" section with SQ3 escape pod example
+  - Update all example headers to reflect new parent categorization
+  
+- [ ] **Delete repair-chain-construction.md**
+  - Verify content merged into sequential-construction.md first
+  - Remove from SUMMARY.md
+
+- [ ] **Restructure multi-faceted-plan.md**
+  - Explicitly define "Parallel MFP" (non-linear gathering) as primary variant
+  - Remove claim that Sequential Construction is a variation (now sibling type)
+  - Update Related Types table to reference Sequential Construction separately
+  - Keep only parallel examples (MI2 Voodoo Doll, SMHTR Bigfoot Totem)
+
+## Phase 2: Merging Redundant Types
+
+- [ ] **Delete corporate-infiltration.md** (distribute content):
+  - Move SQ3 ScummSoft example TO distraction-physics.md (stealth section)
+  - Credential gathering chain → sequential-construction.md
+  - Update Related Types references across other files
+  
+- [ ] **Delete predator-chase-escape.md** (distribute content):
+  - Gabriel Knight cop chase → distraction-physics.md + timed-consequence.md
+  - Leopardman fight → escalating-combat-progression.md (verify appropriateness)
+  - Update all cross-references
+
+## Phase 3: Metaphor-to-Literal Promotion
+
+- [ ] **Restructure metaphor-literal.md**:
+  - Promote to top-level category under "Cognitive Transfer"
+  - Add explicit subtype sections:
+    - Visual Metaphor Transformation (MI2 painted tree)
+    - Wordplay Literalization (SMHTR Bumpus vegetable)  
+    - Symbolic Identity Substitution (general framework)
+  - Update Related Types to connect with Pattern Learning and Comic Persuasion
+  
+- [ ] **Update symbol-code-translation.md** (optional decision needed):
+  - EITHER merge INTO pattern-learning.md as Visual Translation subsection
+  - OR keep separate but document clear dependency in both files
+
+## Phase 4: Cross-Temporal + Cross-Realm Decision
+
+- [ ] **Decide on Cross-Realm Logistics relationship**:
+  - Option A: Integrate fully into cross-temporal-causality.md as "Dimensional Variants" section
+  - Option B: Keep separate but clarify in Related Types that both share mechanics
+  
+- [ ] **Execute chosen option** (based on approval)
+
+## Phase 5: Distraction Physics Expansion
+
+- [ ] **Rename distraction-physics.md → distraction-environmental-manipulation.md**:
+  - Add "Predator Rerouting" subsection (from deleted predator-chase file)
+  - Integrate SQ3 ScummSoft stealth section (from corporate-infiltration)
+  - Update Related Types to connect with Timed Consequence
+
+## Phase 6: Cross-Reference Cleanup
+
+- [ ] **Update all "Related Types" sections**:
+  - Remove references to deleted files (corporate-infiltration, predator-chase-escape)
+  - Fix meta-puzzle-construction → sequential-construction links
+  - Clarify Multi-Faceted Plan ↔ Sequential Construction relationship
+
+- [ ] **Audit Inspiration game pages**:
+  - broken-sword-1.md: Check for corporate-infiltration references
+  - maniac-mansion.md: Verify cross-temporal or multi-character links
+  - day-of-the-tentacle.md: Check CTC references
+  - grim-fandango.md: Verify meta-puzzle → sequential updates
+  - All other games: Quick audit for deleted file references
+
+- [ ] **Update SUMMARY.md** with new hierarchical structure:
+  - Group puzzles under parent categories (Information Discovery, Cognitive Transfer, etc.)
+  - Remove deleted files
+  - Rename/reorder as per proposal
+  - Add category descriptions if creating overview sections
+
+## Phase 7: Validation & Final Updates
+
+- [ ] **Run mdbook build** to check for broken links
+- [ ] **Verify all examples still link correctly**
+- [ ] **Update Related Types tables** in remaining files to reflect new structure
+- [ ] **Final audit**: Search for any remaining references to deleted/renamed files
+
+## Decisions Made ✓
+
+1. **Cross-Realm Logistics**: Keep separate but clarify link in Related Types sections ✓
+2. **Symbol Code Translation**: Keep separate with dependency on Pattern Learning noted ✓  
+3. **Parent Category Overview Files**: Create overview content for each new category ✓
+
+## Updated Phase 4: Cross-Temporal + Cross-Realm Relationship
+
+- [ ] **Keep cross-realm-logistics.md SEPARATE** but:
+  - Update Related Types in CTC to reference Cross-Realm as "Dimensional Variant" 
+  - Update Related Types in CRL to reference CTC as "Temporal equivalent"
+  - Add note that both share same underlying mechanic (action across separated context)
+
+## Updated Phase 3b: Symbol Code Translation Dependency
+
+- [ ] **Document Pattern Learning ↔ Symbol Code relationship**:
+  - In pattern-learning.md: Add "Extended Visual Variant" section describing SymbCode
+  - In symbol-code-translation.md: Clarify it "extends Pattern Learning by adding visual mapping layer"
+  - Both reference each other in Related Types sections
+
+## New Phase 0: Create Parent Category Overview Pages
+
+- [ ] **Create src/puzzles/information-discovery-parent.md**:
+  - Overview of information-as-puzzle-solution domain
+  - Links to all child types (MFP, Brokerage, Environmental, Memo, Truth)
+  
+- [ ] **Create src/puzzles/cognitive-transfer-parent.md**:
+  - Overview of learned-system-application domain
+  - Links to Pattern Learning, Symbol Code, Metaphor Bridge, Sensory Exploitation, Observation Replay
+  
+- [ ] **Create src/puzzles/spatial-temporal-coordination-parent.md**:
+  - Overview of cross-context coordination puzzles
+  - Links to CTC, Cross-Realm, Multi-Character, Timed Consequence
+  
+- [ ] **Create src/puzzles/npc-interaction-parent.md**:
+  - Overview of social/dialogue-based puzzle domain
+  - Links to Comedy Persuasion, Distraction, Class-Specific, Multi-Faction
+  
+- [ ] **Create src/puzzles/systems-and-logic-parent.md**:
+  - Overview of formal system puzzles (programming, combat-as-puzzle)
+  - Links to Robot Programming, Escalating Combat
+  
+- [ ] **Create src/puzzles/non-standard-domains-parent.md**:
+  - Overview of non-realistic-causality domain  
+  - Links to Surreal Logic Bridge
+
+## Commit Strategy
+
+Per AGENTS.md requirements:
+- **After EACH phase item completes**: Mark done, commit immediately
+- **Commit message format**: "Complete: <task description>"
+- **Do NOT batch multiple deletions/restructuring into single commit**
+- **After each structural change**: Run mdbook build to verify links still work
+
+## Dependencies
+
+Phase 6 (Cross-Reference Cleanup) depends on completion of Phases 1-5. Phase 7 depends on all previous phases.
