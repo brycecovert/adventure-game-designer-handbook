@@ -40,6 +40,12 @@ Delegate conversation to Joey and instruct him to use his robot charm on the rec
 4. Receptionist accepts Joey's credentials and opens the door
 5. Enter Dr. Burke's office
 
+### Screenshots
+
+![Show Robert being rejected by holographic receptionist with dialogue options exhausted](./beneath-a-steel-sky-puzzle1-s1.png)
+
+![Display Joey using Natural Charm on receptionist, showing her accepting response](./beneath-a-steel-sky-puzzle1-s2.png)
+
 **Pattern Type:** [[Sensory Exploitation]](../puzzles/sensory-exploitation.md) — exploits NPC perception weakness (receptionist screens humans, not robots)  
 **Also Uses:** [[Comedy-Based NPC Persuasion]](../puzzles/comedy-based-persuasion.md) — humor derived from Joey's unexpected success
 
@@ -70,6 +76,12 @@ Decrypt and decompress data containers across LINC-Space rooms to extract passwo
 5. Cross bridge tiles by alternating passwords: place RED on current tile, collect it from next tile, then GREEN, etc.
 6. Reach thick plasma beam to access restricted area containing BUST (Phoenix) and DOCUMENT
 
+### Screenshots
+
+![LINC-Space interface showing the BALL item and CARPET BAG before decompression](./beneath-a-steel-sky-puzzle2-s1.png)
+
+![Plasma bridge tiles with red and green yin-yang password symbols placed on them](./beneath-a-steel-sky-puzzle2-s2.png)
+
 **Pattern Type:** [[Symbol Code Translation]](../puzzles/symbol-code-translation.md) — visual symbols must be matched to matching surfaces in sequence  
 **Also Uses:** [[Meta-Puzzle Construction]](../puzzles/meta-puzzle-construction.md) — tools gathered early enable later puzzle resolution
 
@@ -93,13 +105,19 @@ Create a chain distraction: place dog biscuits on a rope-launched plank to catap
 
 ### Steps
 
-1. Obtain DOG BISCUITS from Mrs. Piermont's apartment (distract Spunky with videotape while stealing them)
-2. Locate ground level plaza near pool where BRICKS and PLANK are stacked
-3. Place DOG BISCUITS on top of the PLANK
-4. Wait for Mrs. Piermont and Spunky to return from club after membership call
-5. When Spunky sniffs the biscuits on the plank, use ROPE mechanism to launch plank into pool with dog
-6. Officer Blunt runs to rescue Spunky; Mrs. Piermont follows in panic
-7. Enter St. James Club while both are distracted at the pool
+1. Talk to Mrs. Piermont about club sponsorship; she agrees and calls the club from her apartment
+2. While she's on the phone, distract Spunky by playing VIDEOTAPE in VCR
+3. Steal DOG BISCUITS from the bowl while Spunky is watching the tape
+4. Leave apartment; locate BRICKS and PLANK near pool at ground level
+5. Place DOG BISCUITS on top of PLANK, then enter/exit St. James Club waiting for Piermont to return
+6. When barking sounds (Spunky found biscuits), use ROPE to launch plank into pool
+7. Officer Blunt and Mrs. Piermont run to pool; enter St. James Club while they're distracted
+
+### Screenshots
+
+![Mrs. Piermont's apartment showing dog Spunky watching videotape with biscuit bowl accessible](./beneath-a-steel-sky-puzzle3-s1.png)
+
+![Ground level plaza showing PLANK with DOG BISCUITS placed on it, ROPE mechanism nearby](./beneath-a-steel-sky-puzzle3-s2.png)
 
 **Pattern Type:** [[Multi-Faceted Plan]](../puzzles/multi-faceted-plan.md) — multiple requirements (biscuits, plank access, rope timing) gathered independently, synthesized at climax  
 **Also Uses:** [[NPC Distraction Physics]](../puzzles/distraction-physics.md) — physical event (dog launch) creates time window for infiltration
