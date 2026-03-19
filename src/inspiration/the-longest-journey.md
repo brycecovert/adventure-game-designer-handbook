@@ -25,7 +25,7 @@ To access the police station archives, April must bypass a retinal scanner door.
 
 ### What Makes It Rewarding
 
-The puzzle creates timing-based satisfaction through observed NPC behavior. The walkthrough captures: "Use Minelli's key to open his locker, then look at the mirror and the broken shard... Note that he loses his synthetic eye when he sneezes"—establishing a predictable pattern players can exploit [Bennett]. Rather than asking for an arbitrary eye collection, the game teaches vulnerability through repeated observation, rewards patience with precise timing (turning off lights triggers the sneeze), and makes item substitution feel earned. The mechanical logic—any glass eye fools biometric scanner—feels like clever hacking rather than narrative convenience.
+The puzzle creates timing-based satisfaction through observed NPC behavior and predictable vulnerability. K. Daleng's walkthrough documents the fair clue placement: "Open Minelli's locker and take his medicine, look at the mirror, take the broken part... Push the light switch and replace the glass eye with the eye from the monkey when it falls out" [Daleng]. Rather than arbitrary item collection, the game teaches vulnerability through observation—giving Minelli medicine first, noting the mirror breakage, then exploiting predictable sneeze reflex when lights are switched off. The mechanical logic—any glass eye fools retinal scanner—feels like clever hacking rather than narrative convenience, rewarding systematic investigation over trial-and-error.
 
 ### Solution
 
@@ -54,13 +54,13 @@ The retinal scanner accepts the monkey's glass eye as valid authentication, gran
 
 ### Problem
 
-In Arcadia's forest labyrinth, April meets Roper Klakks who has "captured the wind." Captain Nebeve refuses departure without proof wind will return to his ship. The player must access a hidden tower room collecting essences and books, then synthesize multiple potions in precise color sequences to create lightness mixture (to reach red essence) and final wind mixture [Daleng][Bennett].
+In Arcadia's forest labyrinth, April meets Roper Klakks at the tower who has "captured the wind." Captain Nebeve refuses sail departure without proof wind conditions restored. The player must access tower laboratory collecting colored essence bottles and incomplete formula book pages, then synthesize multiple potions in precise pour sequences—invisibility mixture first (to retrieve hidden page), lightness mixture second (to reach red essence above window), finally wind mixture to complete the quest [Daleng][Bennett].
 
-![Tower laboratory showing four colored essence bottles on shelves and formula book](./the-longest-journey-puzzle2.png)
+![Tower laboratory interior showing four colored essence bottles (white, yellow, green, blue) on shelves with formula book](./the-longest-journey-puzzle2.png)
 
 ### What Makes It Rewarding
 
-This puzzle exemplifies sequential synthesis where each potion enables the next discovery. The walkthrough documents: "Mix the white, green and blue bottles to get a invisibility mixture (it's really important that you get the mix in that exact order)"—the emphasis on sequence creates mechanical rigor rather than guesswork [Daleng]. Players earn access to higher shelves through earned ability (lightness potion), then combine red essence into wind formula. The multi-stage synthesis ensures no single combination guess succeeds; players must complete invisible → page retrieval → lightness → red collection → wind creation in order, making the outcome feel procedurally justified.
+This puzzle exemplifies sequential synthesis where each potion's output enables the next step. K. Daleng documents: "Mix the white, green and blue bottles to get a invisibility mixture (it's really important that you get the mix in that exact order)... Mix yellow, white and blue essence (light-as-a-feather mixture). Drink the light-as-a-feather mixture and get the red bottle by the roof over the window" [Daleng]. The emphasis on exact sequence creates mechanical rigor—players must discover invisible → page retrieval → formula update → lightness potion → red collection → final wind mixture as locked progression. Each combination produces observable intermediate states; wrong orders fail visibly. Multi-stage synthesis ensures no single guess succeeds, making success feel procedurally earned rather than lucky item-use discovery.
 
 ### Solution
 
@@ -104,20 +104,20 @@ Voice echoes from treehouse phone through cliff → ruins → statue, waking Q'm
 
 ### Steps
 
-1. Collect rope from beach after arriving on Alais
-2. Summon Raven companion; have him scan jungle for overview
-3. Climb to ruins using rope swing on small tree
-4. Enter cave at bottom of rope descent; search rock pile for key item
-5. Exit cave and return to giant Q'man statue
-6. Enter mouth opening of statue; observe symbols indicating ear/mouth alignment requirements
-7. Navigate to first phone (treehouse); use key to rotate mouth OR ear components independently
-8. Travel to cliff phone via beach path; rotate components for line-of-sight with treehouse
-9. Visit village phone configuration; set mouth-to-ear orientation toward cliff and statue
-10. Return to ruins phone; complete chain: tree house → cliff → ruins → Q'man ears
-11. Speak into treehouse microphone; observe voice path through all four phones
-12. Wake Q'man with successful echo chain; receive assistance request capability
+1. Collect rope from beach after arriving on Alais island
+2. Summon Raven companion; have him scan jungle for overview map
+3. Climb to ruins using rope swing on small tree near ruins screen
+4. Enter cave at bottom of rope descent; search rock pile for stone key item
+5. Exit cave, return to giant Q'man statue location
+6. Enter mouth opening of statue; observe symbols indicating ear/mouth icon alignment requirements for four phones
+7. Navigate to first phone station (treehouse); use stone key to rotate mouth OR ear wheel components independently  
+8. Travel to second phone on cliff via beach path; rotate components so treehouse mouth targets cliff ear
+9. Configure third phone at village; orient so cliff phone's mouth hits village/ruins ear
+10. Complete fourth phone at ruins; align so mouth points toward Q'man statue's ears
+11. Speak into treehouse microphone; voice echoes: treehouse → cliff → ruins → Q'man ears
+12. Wake giant Q'man with successful echo chain; receive assistance request capability
 
-[Multi-Character Coordination](../puzzles/multi-character-coordination.md) — Voice must pass through four independently-configured devices where each phone's setting affects overall chain function, distinguishing this from Distraction Physics which creates single environmental chain reactions without multi-point coordination requirements.
+[Symbol Code Translation](../puzzles/symbol-code-translation.md) — Player must decode symbol meanings from statue mouth diagram (which icons represent ears vs mouths), then translate abstract symbols into physical device configurations across four separate locations, distinguishing this from Pattern Learning where exact sequences are reproduced rather than symbolic representations translated into environmental actions.
 
 ---
 

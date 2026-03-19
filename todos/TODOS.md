@@ -208,3 +208,34 @@
 	- [x] Write Problem/Why It Works/Solution/Steps for each puzzle
 	- [x] Link each puzzle to its pattern type from the Playbook
 
+	
+- [ ] Edit inspiration pages - screenshot placeholders and accuracy check
+  - [x] Edit zak-mckracken-and-the-alien-mindbenders.md - add screenshot placeholders, verify walkthrough accuracy
+  - [x] Edit the-longest-journey.md - add screenshot placeholders, verify walkthrough accuracy
+  - [x] Edit the-dig.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit syberia.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit spacequest-iv-the-rogerwars.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit spacequest-iii-the-pirates-of-pestulon.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit spacequest-2-the-vohaul-assault.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit spacequest-1-the-sarien-encounter.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit simon-the-sorcerer.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit sam-and-max-hit-the-road.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit quest-for-glory-iv-shadows-of-darkness.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit quest-for-glory-iii-wages-of-war.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit quest-for-glory-ii-trial-by-fire.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit quest-for-glory-1-shadows-of-darkness.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit maniac-mansion.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit kyrandia-1-shadow-of-the-fox.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit kings-quest-viii-mask-of-eternity.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit kings-quest-vii-the-princeless-bride.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit kings-quest-iii-to-heir-is-human.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit indiana-jones-and-the-last-crusade.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit indiana-jones-and-the-fate-of-atlantis.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit grim-fandango.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit gabriel-knight-1-sins-of-the-fathers.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit full-throttle.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit day-of-the-tentacle.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit broken-sword-ii-the-smoking-mirror.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit broken-sword-1-shadow-of-the-templars.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit beneath-a-steel-sky.md - add screenshot placeholders, verify walkthrough accuracy
+  - [ ] Edit loom.md - add screenshot placeholders, verify walkthrough accuracy
