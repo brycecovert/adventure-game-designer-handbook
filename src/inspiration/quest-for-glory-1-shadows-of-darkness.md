@@ -57,7 +57,7 @@ All five magical components are gathered from forest locations; Healer combines 
 20. Return to Healer during daytime and offer all five collected items
 21. Leave hut then re-enter immediately; receive completed Dispel potion
 
-### Screenshot
+### Screenshots
 
 ![Healer's table with all five ingredients gathered—ready for potion synthesis](./qfg1-puzzle1.png)
 
@@ -105,7 +105,7 @@ Gem exchange triggers gate access; correct phrase during descent prevents crushi
 20. Re-enter hut; confirm giving the mandrake when prompted
 21. Receive reward: not eaten as human meal plus quest completion credit
 
-### Screenshot
+### Screenshots
 
 ![Baba Yaga's chicken hut approaching player—the moment for timing the descent phrase](./qfg1-puzzle2.png)
 
@@ -150,7 +150,7 @@ Player survives through three trap encounters using observed patrol patterns to 
 17. Jump ON top of collapsed door section then open real concealed door behind rubble
 18. Exit through newly accessible passage reaching Elsa's area
 
-### Screenshot
+### Screenshots
 
 ![Trap room interior showing candelabra position—brigands about to enter from south doorway](./qfg1-puzzle3.png)
 
