@@ -43,6 +43,12 @@ Defeat Yesufu in five sequential trials to earn Warrior status from the Laibon, 
 7. **Spear Throw Contest:** Win unmoving and moving target throwing rounds using best weapon use skills available (5 PP)
 8. **Wrestling Bridge Duel:** Match opponent's moves inversely—when Yesufu jumps, duck; when he dodges left, dodge left; repeat until falling off three times (5-10 PP depending on victory)
 
+### Screenshots
+
+![Warrior Initiation Contest — Twisted Tree ring retrieval showing vine tied to spear](./qfg3-warrior-initiation-twisted-tree.png)
+
+![Wrestling Bridge mini-game interface showing directional controls and opponent stance](./qfg3-wrestling-bridge-controls.png)
+
 **Pattern Type:** [Class-Specific Ritual](../puzzles/class-specific-ritual.md) — sequential trials with exact action requirements specific to Fighter/Warrior path; Wizard and Thief bypass entirely via different methods  
 **Also Uses:** [Pattern Learning](../puzzles/pattern-learning.md) — Wrestling Bridge mechanics are taught earlier, then tested under pressure in Initiation
 
@@ -83,6 +89,14 @@ Gather three distinct magical ingredients across different regions of Tarna, del
 13. Return to Tarna Apothecary; give Salim all three ingredients one by one
 14. Leave and return next in-game day; purchase or receive two Dispel Potions for plot progression
 
+### Screenshots
+
+![Salim the Apothecary in his shop displaying ingredient dialogue options](./qfg3-salim-apothecary-ingredients.png)
+
+![Venomous Vines area showing meerbats and vine cluster with class-specific interaction hints](./qfg3-venomous-vines-meerbat.png)
+
+![Heart of the World tree top showing Guardian orb and water pouring animation](./qfg3-heart-of-world-gift.png)
+
 **Pattern Type:** [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — sequential gathering of multiple components required before synthesis at Apothecary; each step's output enables later combination  
 **Also Uses:** [Class-Specific Ritual](../puzzles/class-specific-ritual.md) — identical goal (get fruit from vine) requires three completely different mechanical approaches depending on Hero class
 
@@ -116,6 +130,14 @@ Win the Wizard's Duel by casting exactly seven counter-spells in correct sequenc
 8. **Round 7:** Pit opens in center floor casting LEVITATE to float above until it closes (4 PP)
 9. **Final Round:** Shaman transforms into demon hybrid; choose HONORABLE OPTION (USE DISPEL POTION, 8 PP) or COMBAT option (5 PP minimum)
 10. Receive spear of Death and magic drum from grateful Leopardman Chief upon honorable victory (10 PP for duel completion)
+
+### Screenshots
+
+![Wizard's Duel arena showing Shaman opponent and hero with staff summoned](./qfg3-wizard-duel-summon-staff.png)
+
+![Magical duel progression displaying Wall of Flames spell effect around hero character](./qfg3-wizard-duel-flames.png)
+
+![Final round showing possessed Shaman transformation with Dispel Potion use option](./qfg3-shaman-possessed-dispel.png)
 
 **Pattern Type:** [Class-Specific Ritual](../puzzles/class-specific-ritual.md) — entire puzzle path requires Magic skill; Fighter and Thief must complete warrior contest or stealth infiltration instead  
 **Also Uses:** [Escalating Combat Progression](../puzzles/escalating-combat-progression.md) — spell difficulty increases per round from simple counters to complex environment manipulation
