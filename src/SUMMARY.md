@@ -29,6 +29,7 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 - [Kyrandria 1: Shadow of the Fox (1992)](inspiration/kyrandria-1-shadow-of-the-fox.md)
 - [Maniac Mansion (1987)](inspiration/maniac-mansion.md)
 - [Quest for Glory 1: Shadows of Darkness (1989)](inspiration/quest-for-glory-1-shadows-of-darkness.md)
+- [Quest for Glory II: Trial by Fire (1989)](inspiration/quest-for-glory-ii-trial-by-fire.md)
 
 # Multi-Source Discovery
 
