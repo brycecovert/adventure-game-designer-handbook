@@ -69,11 +69,11 @@
 	- [x] Link each puzzle to its pattern type from the Playbook
 
 	
-- [ ] King's Quest III: To Heir Is Human: analyze walkthrough and create game section
-	- [ ] Examine walkthrough files in src/walkthroughs/kings_quest_3/ and kings-quest-iii/
-	- [ ] Identify the 3 best puzzles using analysis-checklist.md criteria
-	- [ ] Write Problem/Why It Works/Solution/Steps for each puzzle
-	- [ ] Link each puzzle to its pattern type from the Playbook
+- [x] King's Quest III: To Heir Is Human: analyze walkthrough and create game section
+	- [x] Examine walkthrough files in src/walkthroughs/kings_quest_3/ and kings-quest-iii/
+	- [x] Identify the 3 best puzzles using analysis-checklist.md criteria
+	- [x] Write Problem/Why It Works/Solution/Steps for each puzzle
+	- [x] Link each puzzle to its pattern type from the Playbook
 
 	
 - [ ] King's Quest VII: The Princeless Bride: analyze walkthrough and create game section
