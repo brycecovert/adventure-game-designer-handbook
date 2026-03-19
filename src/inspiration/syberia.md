@@ -119,6 +119,16 @@ The cuckoo egg balances the scale mechanism and opens the bandstand door, allowi
 10. Place egg on bandstand scale mechanism to unlock door
 11. Enter bandstand and pull lever to start musical performance
 
+### Screenshots
+
+![University library study area showing blue Amerzone book about cuckoos on wooden table](./syberia-puzzle3-s1.png)
+
+![Secret garden gate opening after stationmaster dialogue, revealing Sauvignon grape vines](./syberia-puzzle3-s2.png)
+
+![Cuckoo nest platform with egg visible after feeding grapes to distract birds](./syberia-puzzle3-s3.png)
+
+![Bandstand door balance scale lock with cuckoo egg inserted, mechanism unlocked](./syberia-puzzle3-s4.png)
+
 [Information Brokerage](../puzzles/information-brokerage.md) — Player must trade information across multiple NPCs (stationmaster, rectors, Pons) where each revelation enables subsequent action, distinguishing this from Sensory Exploitation which targets a single NPC's weakness directly.
 
 ---
