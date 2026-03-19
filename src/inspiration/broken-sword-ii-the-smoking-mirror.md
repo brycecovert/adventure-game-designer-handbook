@@ -48,6 +48,10 @@ Escape the warehouse rescue site by using masking tape to bypass elevator safety
 11. Talk to Nico; she assists in two-player push animation sliding statue through door
 12. Exit new passage; use manacles on overhead cable to descend to next location
 
+### Screenshots
+
+![Warehouse statue puzzle — crates stacked on pallet carrier with pulley system visible above and rope wound around statue base](./broken-sword-ii-puzzle1-s1.png)
+
 **Pattern Type:** [[Multi-Character Coordination]](../puzzles/multi-character-coordination.md) — requires explicit character collaboration; single George action insufficient despite completing all prerequisite steps  
 **Also Uses:** [[Meta-Puzzle Construction]](../puzzles/meta-puzzle-construction.md) — sequential chain where each sub-goal output (taped sensor, repositioned elevator block, reconfigured crate stack) enables subsequent step
 
@@ -82,6 +86,10 @@ Create distraction by provoking attendant's phone call to police, access locked 
 9. Insert weight card into narrow crack in panel faceplate; activates release mechanism
 10. Press red signal button to switch tracks, allowing train boarding
 11. Enter waiting train car during green-light clearance window; ride to Thames Docks
+
+### Screenshots
+
+![London Underground puzzle — weight card inserted into crack on cupboard door next to weighing machine with vending machine in background](./broken-sword-ii-puzzle2-s1.png)
 
 **Pattern Type:** [[Cross-Realm Logistics]](../puzzles/cross-realm-logistics.md) — vending machine coin retrieval enables weight scale card access which enables cupboard opening enabling signal change  
 **Also Uses:** [[Timed Consequence]](../puzzles/timed-consequence.md) — attendant distraction creates limited window for previously-guarded door interaction
@@ -122,6 +130,10 @@ Place surveyor's marker on rock needle using net-sensor extraction method, then 
 14. Identify marker sparkling in distance among four pillar positions
 15. Examine pillar located directly above marker line-of-sight
 16. New path reveals to north; descend using this route to access hidden chamber
+
+### Screenshots
+
+![Zombie Island summit — theodolite mounted on tripod with scope view showing sparkling surveyor's marker among pillars](./broken-sword-ii-puzzle3-s1.png)
 
 **Pattern Type:** [[Pattern Learning]](../puzzles/pattern-learning.md) — disguise/concealment mechanic established in earlier chapters (bank statement under leaves, stone in dog box) transfers to creeper covering marker  
 **Also Uses:** [[Observation Replay]](../puzzles/observation-replay.md) — player must remember specific visual cue (sparkling marker through theodolite scope), then replay that observation by examining corresponding pillar location
