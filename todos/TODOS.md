@@ -244,10 +244,10 @@
 # Puzzle Type Hierarchy Reorganization
 
 ## Phase 0: Create Parent Category Overview Pages (6 files)
-- [ ] Create information-discovery-parent.md
-  - Write overview explaining information-as-puzzle-solution domain
-  - Link to all 6 child types with brief descriptions
-  - Commit after creation
+- [x] Create information-discovery-parent.md
+   - [x] Write overview explaining information-as-puzzle-solution domain
+   - [x] Link to all 6 child types with brief descriptions
+   - [x] Commit after creation
   
 - [ ] Create cognitive-transfer-parent.md
   - Write overview explaining learned-system-application domain
