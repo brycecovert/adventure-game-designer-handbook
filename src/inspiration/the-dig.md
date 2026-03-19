@@ -25,7 +25,7 @@ After Brink falls down a hole on the planet surface, Boston must find him. The M
 
 ### What Makes It Rewarding
 
-This puzzle exemplifies observation-replay with spatial reasoning payoff. Tom Hayes notes players must "look at the fossil on the floor and note the position of the bones," then later "arrange them in the same way as the fossil structure we saw earlier" [THayes]. The walkthrough documents the mechanical fairness: left-click to pick up pieces, right-click to rotate, left-click again to drop. The moment of success—"use the canister with the dead creature"—only works *after* correct arrangement ensures players earned underwater access through pattern matching rather than trial-and-error combinations.
+This puzzle exemplifies observation-replay with jigsaw-style spatial reasoning and deliberate difficulty. Tom Hayes documents: "look at the fossil on the floor and note the position of the bones... arrange them in the same way as the fossil structure we saw earlier" [THayes]. Morgana's walkthrough reveals the mechanical depth and intentional obfuscation: "When I LOOKED at the FOSSIL again, I realized it was a map to the placement of the LOOSE BONES -- but since the FOSSIL was dark and hard to see, it was more of a suggestion of where they could go than an outright solution" [Morgana]. The assembly interface requires left-click to pick up bone pieces, right-click to rotate each individually, then left-click again to place. Only after correct six-legged turtle reconstruction does the DEAD CREATURE appear, allowing "use CANISTER with DEAD CREATURE" which triggers explosion—ensuring players earned underwater cave access through careful fossil pattern study rather than blind item-use trial-and-error combinations.
 
 ### Solution
 
@@ -60,7 +60,7 @@ At the Planetarium Spire plateau, a rodent-like critter has stolen the machine p
 
 ### What Makes It Rewarding
 
-This puzzle demonstrates meta-construction with positional gameplay. Morgana's walkthrough captures the discovery: "The DOWEL seemed the right shape for the HOLE in the wheel... NOW I had PIN... I tried USING it with the PIN. Cool. Now I had a HOOK" [Morgana]. Each inventory combination produces observable intermediate objects (dowel+wheel=pin, pin+pole=hook, hook+cage=cage), creating tactile satisfaction from physical assembly logic. The trap mechanics then require spatial coordination—click hole to lure critter out, walk downscreen then left *in front of* wheels, circle back right *between* wheels—which Morgana notes felt unfair until learning the precise positioning trick, making success genuinely earned.
+This puzzle demonstrates meta-construction where each step's output becomes next step's input. Morgana documents discovery: "The DOWEL seemed the right shape for the HOLE in the wheel... USED it there. A-ha! Now I had PIN... tried USING [POLE] with the PIN. Cool. Now I had a HOOK.... RIB CAGE and the HOOK (meat hook? who knows?) so I USED them together and ended up with a CAGE" [Morgana]. Each inventory combination produces observable intermediate objects (dowel+wheel=PIN, pole+PIN=HOOK, HOOK+rib cage=CAGE, ROD+CAGE=TRAP), creating tactile satisfaction from physical assembly logic. The trap mechanics require precise spatial positioning: Morgana shares the solution trick—"continue walking Boston to the left, toward the CLEARING, but have him walk _in front of_ both the wheels instead of between them... walk Boston back toward the right _between_ the wheels. The little critter will walk right into your TRAP" [Morgana]. This positional requirement makes success genuinely earned through execution mastery, not just puzzle understanding.
 
 ### Solution
 
@@ -101,25 +101,25 @@ Inside the planetarium chamber, two scepters (gold and silver) must align celest
 
 ### What Makes It Rewarding
 
-This puzzle rewards scientific observation with satisfying mechanical consequence. Tom Hayes documents the multi-step logic: "use the gold scepter with the faint light on the ceiling to view planets," then "click the gold scepter on the lightest part of the moon, and use the silver scepter on the darkest" [THayes]. Morgana's emotional response captures the puzzle's quality: "amazingly, this activated a MOON MAP that showed a projection of planets and their moons"—the word "amazingly" signals discovery moments players remember [Morgana]. The game fairly teaches through environmental observation (chamber's crack shows actual planetary positions), ensuring solution feels earned rather than random item-use guessing.
+This puzzle rewards spatial reasoning and celestial mechanics inference with satisfying discovery payoff. Morgana captures the moment: "I finally USED the GOLD SCEPTER with the FAINT LIGHT. How I was supposed to know to do this, I still have no clue, but amazingly, this activated a MOON MAP that showed a planet (maybe this one) and its moons" [Morgana]. The mechanical teaching is explicit once discovered: "the GOLD SCEPTER moved both moons around the planet, while the SILVER SCEPTER moved the SMALL MOON around the LARGE MOON." Players must infer from museum display's eclipse pattern that recreating the alignment—positioning SMALL MOON between PLANET and LARGE MOON in the light beam—triggers solution. The environmental clue through chamber crack shows actual planetary positions observed earlier, ensuring success feels earned rather than arbitrary scepter-guessing on random screen elements.
 
 ### Solution
 
 Correct alignment triggers door closure cutscene showing alien astronomical knowledge, granting access to green engraved rod and final map plate.
 
 ### Steps
-1. Enter planetarium chamber after fixing door with machine part from critter puzzle
-2. Collect items: green engraved rod on floor, two scepters (gold and silver), third map plate
-3. Use gold scepter on faint ceiling light to activate projection system
-4. Observe displayed celestial positions matching actual view through chamber crack
-5. Exit projection view; examine moon phases showing gradient shading variations
-6. Use gold scepter on lightest top-right portion of moon display
-7. Use silver scepter on darkest bottom-left portion of moon display
-8. Watch door close automatically if alignment correct (reset if incorrect)
-9. Push button to reopen door after cutscene completes
-10. Exit planetarium to collect green engraved rod and plate left on floor
+1. Enter planetarium chamber after installing machine part in door panel (from critter puzzle)
+2. Collect items from floor: green engraved rod, twin scepters (gold and silver), third map plate
+3. Use GOLD SCEPTER on faint ceiling light to activate moon map projection system
+4. Observe displayed celestial interface: PLANET with LARGE MOON and SMALL MOON orbit controls
+5. Exit close-up; examine ceiling dome crack showing actual eclipse pattern from earlier museum display
+6. Return to projection; use GOLD SCEPTER to move both moons into center light beam (illumination alignment)
+7. Use SILVER SCEPTER to position SMALL MOON between PLANET and LARGE MOON (eclipse recreation)
+8. Achieve correct positioning triggers automatic cutscene: door closes, light projects through lens to Tomb Spire
+9. After eclipse animation completes, push button to reopen planetarium door
+10. Exit chamber; green engraved rod and map plate remain collectible for later use
 
-[Pattern Learning](../puzzles/pattern-learning.md) — Player must observe natural astronomical pattern through chamber crack, then reproduce matching arrangement on control system using calibrated scepters, distinguishing this from Symbol Code Translation which deciphers arbitrary notation without environmental grounding.
+[Pattern Learning](../puzzles/pattern-learning.md) — Player observes eclipse pattern from museum display and actual sky positions through dome crack, then reproduces matching celestial arrangement on control interface using scepters as manipulation tools, distinguishing this from Symbol Code Translation which deciphers arbitrary notation systems without environmental astronomical grounding.
 
 ---
 
