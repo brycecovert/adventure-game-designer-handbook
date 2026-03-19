@@ -249,30 +249,11 @@
    - [x] Link to all 6 child types with brief descriptions
    - [x] Commit after creation
   
-- [ ] Create cognitive-transfer-parent.md
-  - Write overview explaining learned-system-application domain
-  - Link to Pattern Learning, Symbol Code, Metaphor Bridge, Sensory Exploitation, Observation Replay
-  - Commit after creation
-
-- [ ] Create spatial-temporal-coordination-parent.md
-  - Write overview explaining cross-context coordination puzzles
-  - Link to Cross-Temporal Causality, Cross-Realm Logistics, Multi-Character Coordination, Timed Consequence
-  - Commit after creation
-
-- [ ] Create npc-interaction-parent.md
-  - Write overview explaining social/dialogue-based puzzle domain
-  - Link to Comedy Persuasion, Distraction & Environmental Manipulation, Class-Specific Challenges, Multi-Faction Diplomacy
-  - Commit after creation
-
-- [ ] Create systems-and-logic-parent.md
-  - Write overview explaining formal system puzzles (programming, combat-as-puzzle)
-  - Link to Robot Programming, Escalating Combat Progression
-  - Commit after creation
-
-- [ ] Create non-standard-domains-parent.md
-  - Write overview explaining non-realistic-causality domain
-  - Link to Surreal Logic Bridge
-  - Commit after creation
+- [x] Create cognitive-transfer-overview.md ✓
+- [x] Create spatial-temporal-coordination-overview.md ✓
+- [x] Create npc-interaction-overview.md ✓
+- [x] Create systems-and-logic-overview.md ✓
+- [x] Create non-standard-domains-overview.md ✓
 
 ## Phase 1: Core Restructuring (Sequential Construction Merge)
 - [x] Read meta-puzzle-construction.md content
