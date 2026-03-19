@@ -350,10 +350,12 @@ See [REFACTOR_PUZZLE_TYPES.md](../REFACTOR_PUZZLE_TYPES.md) for detailed plan.
 - [x] multi-faceted-plan.md refactored (89 lines)
 
 ## Phase 2: Refactor Tier 2 Pages
-- [ ] Refactor `sequential-construction.md` — needs Core Mechanic, trim examples
-- [ ] Refactor `information-brokerage.md` — needs format cleanup
-- [ ] Refactor `environmental-storytelling.md` — needs format cleanup
-- [ ] Refactor `memo-chain.md` — needs format cleanup
+- [x] Refactor `sequential-construction.md` — needs Core Mechanic, trim examples
+- [x] Refactor `information-brokerage.md` — needs format cleanup
+- [x] Refactor `environmental-storytelling.md` — needs format cleanup
+- [x] Refactor `memo-chain.md` — needs format cleanup
+- [x] Verify all Related Types links after refactoring
+- [x] Run mdbook build to check for broken links
 
 ## Phase 3: Review and Cleanup Tier 3 Pages
 - [ ] Review and cleanup remaining puzzle type pages (≤400 lines each)
