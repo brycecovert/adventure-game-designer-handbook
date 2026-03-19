@@ -46,6 +46,12 @@ Pass four sequential elemental trials by casting correct spell combinations on e
 **Pattern Type:** [[Meta-Puzzle Construction]](../puzzles/meta-puzzle-construction.md) — tools gathered early enable later puzzle resolution through sequential chaining  
 **Also Uses:** [[Class-Specific Ritual]](../puzzles/class-specific-ritual.md) — only Magic Users can access this path; Fighter and Thief must take alternate routes
 
+### Screenshots
+
+![WIT entrance showing Detect Magic arrow pointing to hidden door in alleyway](./qfg2-wit-entrance.png)
+![Pre-test room with three bells and stand, one bell glowing after Detect Magic is cast](./qfg2-wit-pretest-bells.png)
+![Fire trial showing hole in path after Calm spell, door being fetched to cover it](./qfg2-wit-fire-trial.png)
+
 ---
 
 ## Puzzle 2: Fire Elemental Capture (Days 4-6)
@@ -78,6 +84,12 @@ Lure the Fire Elemental into an alley with incense, weaken it with water damage,
 **Pattern Type:** [[Multi-Faceted Plan]](../puzzles/multi-faceted-plan.md) — three independent requirements (incense lure, water weakness, lamp container) gathered separately, synthesized at climax  
 **Also Uses:** [[Timed Consequence]](../puzzles/timed-consequence.md) — hard deadline of Day 7 creates temporal pressure absent from typical adventure puzzles
 
+### Screenshots
+
+![Fire Elemental dancing in Gate Plaza on Day 5, merchants and stalls burned away](./qfg2-fire-elemental-plaza.png)
+![Incense trail leading elemental into alley, brass lamp placed on ground](./qfg2-fire-elemental-lure.png)
+![Water being poured on weakened elemental as it absorbs into Magic Lamp container](./qfg2-fire-elemental-capture.png)
+
 ---
 
 ## Puzzle 3: Julanar the Tree Woman Spirit Restoration
@@ -107,6 +119,11 @@ Present three symbolic gifts in sequence to restore Julanar's spirit until she y
 
 **Pattern Type:** [[Class-Specific Ritual]](../puzzles/class-specific-ritual.md) — sequential gift-giving ritual with exact action requirements  
 **Also Uses:** [[Meta-Puzzle Construction]](../puzzles/meta-puzzle-construction.md) — Earth Elemental must be captured in earlier puzzle to have "earth" for gifting
+
+### Screenshots
+
+![Julanar tree in desert before restoration, appearing as gnarled wood with trapped feminine form](./qfg2-julanar-before.png)
+![Tree blooming with flowers after all three gifts received, Fruit of Compassion visible on branch](./qfg2-julanar-restored.png)
 
 ---
 
