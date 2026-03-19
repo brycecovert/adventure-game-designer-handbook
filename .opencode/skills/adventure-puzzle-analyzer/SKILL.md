@@ -151,6 +151,27 @@ Every puzzle type page should follow this structure (target: ≤400 lines):
 | Brokerage vs Sensory Exploitation | Trade ITEM for ITEM (IB) vs exploit PERCEPTION weakness (SE) |
 | Page length | If >400 lines, move examples to inspiration pages |
 
+## How to Design Great Puzzles of This Type
+
+| Type | Best Practices |
+|------|---------------|
+| **Pattern Learning** | Teach the complete system in the tutorial domain before testing it; ensure identical mechanics between learning and application phases |
+| **Multi-Faceted Plan** | Let players discover requirements through exploration, not explicit checklists; ensure the "aha" moment comes from synthesis |
+| **Meta-Construction** | Make each step's output clearly feed into the next; avoid invisible dependencies |
+| **Memo Chain** | Place fragments in logical locations that reward exploration; ensure assembly is obvious once all pieces found |
+| **Metaphor-to-Literal** | Make the idiomatic expression memorable and culturally clear; ensure the literal mapping is logical within game world |
+| **Information Brokerage** | Give each NPC a distinct personality that explains why they want what they want |
+| **Sensory Exploitation** | State the perceived sense explicitly (character says "I trust only what I hear"); ensure the item genuinely matches that sense |
+| **Distraction Physics** | Make the environmental chain logical and observable before player tries it; ensure cause-effect is visible |
+| **Observation Replay** | Make the observed sequence memorable but not trivially reproducible; add stakes so failure has consequence |
+| **Timed Consequence** | Create urgency through narrative stakes, not arbitrary deadlines; ensure player can always see the countdown |
+
+**Universal Principles:**
+- **Information conveyance should match the puzzle's difficulty** — complex puzzles need multiple hints, simple ones need fewer
+- **Failure should teach, not punish** — when player fails, they should learn something useful
+- **The solution should feel inevitable once discovered** — avoid "moon logic" where solution requires arbitrary knowledge
+- **Reward the player's investment** — if puzzle requires effort, the payoff should feel earned
+
 ## Reference
 
 - `/puzzles/` directory: All existing puzzle type definitions
