@@ -226,7 +226,7 @@
     - [ ] quest-for-glory-1-shadows-of-darkness.md - add Screenshots sections after Steps, verify against walkthroughs
     - [ ] maniac-mansion.md - add Screenshots sections after Steps, verify against walkthroughs
     - [ ] kyrandia-1-shadow-of-the-fox.md - add Screenshots sections after Steps, verify against walkthroughs
-    - [ ] kings-quest-viii-mask-of-eternity.md - add Screenshots sections after Steps, verify against walkthroughs
+    - [x] kings-quest-viii-mask-of-eternity.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] kings-quest-vii-the-princeless-bride.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] kings-quest-iii-to-heir-is-human.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] indiana-jones-and-the-last-crusade.md - add Screenshots sections after Steps, verify against walkthroughs
