@@ -35,6 +35,7 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 - [Sam & Max Hit the Road (1993)](inspiration/sam-and-max-hit-the-road.md)
 - [Simon the Sorcerer (1993)](inspiration/simon-the-sorcerer.md)
 - [Space Quest 1: The Sarien Encounter (1986)](inspiration/spacequest-1-the-sarien-encounter.md)
+- [Space Quest II: The Vohaul Assault (1987)](inspiration/spacequest-2-the-vohaul-assault.md)
 
 # Multi-Source Discovery
 
