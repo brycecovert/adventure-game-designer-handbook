@@ -44,6 +44,10 @@ All three components are delivered to Maureen, who fixes the bike and installs a
 10. Retrieve the forks from the now-clear parts pile
 11. Return all three items to Maureen for bike repair and booster installation
 
+### Screenshots
+- ![Todd's trailer interior showing cabinet with lockpick, fridge with meat, and welding torch on desk](./full-throttle-puzzle1-s1.png)
+- ![Magnetic crane operation lifting car with dog above junk pile](./full-throttle-puzzle1-s2.png)
+
 [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) — Multiple requirements (forks, torch, fuel) are gathered independently from different locations and synthesized at completion. Unlike Meta-Puzzle Construction, step order is flexible rather than sequential—each location's output doesn't enable subsequent steps.
 
 ---
@@ -74,6 +78,10 @@ All four components are acquired: hover fan installed on bike, booster stolen fr
 7. Equip goggles to activate night vision mode revealing hidden cave entrance
 8. Enter Cavefish hideout when "Cave Entrance!" message appears; attach ramp to bike
 9. Before exiting, unhook ramp and knock yellow navigation markers off the road (causing pursuing Cavefish to crash later)
+
+### Screenshots
+- ![Weapon selection UI showing tire iron, plank, chainsaw, and chain available for biker combat](./full-throttle-puzzle2-s1.png)
+- ![Cavefish encounter showing timing mechanic: blind biker lifting head from oil fumes before attack](./full-throttle-puzzle2-s2.png)
 
 [Escalating Combat Progression](../puzzles/escalating-combat-progression.md) — Players acquire increasingly powerful counter-weapons through sequential combat encounters with distinct enemy types. Unlike Pattern Learning, this is action-based acquisition rather than observation-based rule discovery—the weapons are taken physically from defeated opponents.
 
@@ -106,6 +114,10 @@ A continuous path of exploded mines leads directly to the Vultures' hideout entr
 8. While Horrace chases his car, take entire box of bunnies from behind counter
 9. Return to minefield; drop one bunny at a time along the established path
 10. After each explosion, walk forward to the new furthest point and repeat until reaching hideout entrance
+
+### Screenshots
+- ![Horrace's souvenir stall with RC car, bunny on display, and battery slot](./full-throttle-puzzle3-s1.png)
+- ![Minefield path showing exploded mine revealing battery and bunny approaching next mine](./full-throttle-puzzle3-s2.png)
 
 [Distraction Physics](../puzzles/distraction-physics.md) — Environmental objects (RC car, toy bunnies) are used to break a blocking pattern (minefield guard) by exploiting NPC routines (Horrace chases lost property). Unlike Sensory Exploitation which targets perception weaknesses directly, this creates diversion through object manipulation.
 
