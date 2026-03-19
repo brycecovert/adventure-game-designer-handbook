@@ -1,620 +1,90 @@
 # Observation Replay
 
-**Information Architecture**: Game presents a procedural sequence once, under observation-only conditions (guard present, locked door, NPC interference). Player cannot interact during the demonstration.
+## Core Mechanic
 
-**Player Action Pattern**: Watch and memorize the exact sequence of actions or values. Return when guard/interference is absent. Replay sequence precisely to unlock new access.
+Player watches a procedural sequence demonstrated exactly once under observation-only conditions, then must reproduce that exact sequence later when interaction becomes available. The puzzle tests memory of specific details (order, timing, position) rather than rule deduction or pattern recognition across domains.
 
-**Core Mechanic**: Single viewing + exact reproduction = reward. Information is presented in correct order once; puzzle difficulty emerges from memory load plus opportunity management.
+## When to Use
 
-**Variations**:
-- Numeric sequences (safe combinations, door codes)
-- Action sequences (push/pull patterns, dance moves)
-- Visual patterns (light arrangements, color orders)
+Use this puzzle when you want to test whether players were paying attention during a moment they couldn't interact. Ideal for:
+- Safe combinations or door codes revealed by NPCs
+- NPC behavior timing windows that create stealing opportunities
+- Cutscene-locked information that becomes actionable after the scene ends
 
-**Adventure Game Implementation**:
-- NPC performs action while blocking player interaction
-- Cutscene triggers once, cannot be rewound
-- Player must note sequence through observation alone
-- Return later when conditions allow replication
-- Standard actions (USE TALK LOOK) applied in memorized order
+## Solution Chain
 
-**Example Structure**:
-
-```
-Player needs: Access to [LOCKED_LOCATION]
-
-Discovery Phase:
-→ Approach [LOC] and observe [NPC] perform exact sequence:
-  "Watch as guard opens safe: PULL-15, PUSH-3, PULL-27"
-→ Blocked from interacting ("Can't touch while watched!")
-
-Return Phase:
-→ Create opportunity (distract NPC, wait for departure)
-→ Apply memorized sequence to [OBJECT] with same standard actions:
-  USE safe → PULL handle 15 times...
-→ Reward unlocked
-```
-
-**King's Quest VI Parallel**: None identified in walkthrough.
+1. Observe the demonstration (sequence plays without player input)
+2. Memorize the exact order, timing, or positions shown
+3. Identify when replay opportunity becomes available (NPC leaves, conditions change)
+4. Return and execute the memorized sequence precisely
+5. Receive reward upon exact reproduction
 
 ---
 
-### Quest for Glory IV: Dr. Cranium's Doorbell Sequence (QFG4)
+## Examples
 
-**Setup**: To enter Dr. Cranium's laboratory, the player must ring doorbells in the exact sequence they play when activated. This is a pure observation-replay puzzle where the correct order is demonstrated once at the door.
+### Quest for Glory IV: Dr. Cranium's Doorbell Sequence
 
-<small>Source: qfg4-gamefaqs-anonymous.txt, lines 641-647 — "Ring doorbells in exact sequence they play (listen and repeat)"</small>
+**Problem**: To enter Dr. Cranium's laboratory, the player must ring four doorbells in the exact sequence they play when activated.
 
-```
-OBSERVATION PHASE - Sequence Demonstration:
-→ Approach Dr. Cranium's office exterior  
-→ Click on door or bell rope to initiate demonstration
-→ Four bells ring in specific melodic sequence:
-  Bell Order Heard: 2nd → 4th → 1st → 3rd (example)
-→ Audio cue is distinct for each bell position  
-→ Dialogue feedback: "You must match the sequence to enter!"
+**Why It's This Type**: Single demonstration plays at the door with no player interaction allowed. Player must memorize the melodic bell order (2nd→4th→1st→3rd) then reproduce it precisely when returning to attempt entry.
 
-REPLAY EXECUTION PHASE - Memory Test:
-→ Return to bell ropes after demonstration completes
-→ Click bells in EXACT same order observed during demo
-→ Success condition: All four clicked correctly in sequence, no errors
-→ Failed attempt: Door remains locked; can retry but must remember sequence
-
-Reward upon completion (6 puzzle points): Laboratory access granted.
-```
-
-**Why It's Observation Replay**: Single demonstration of correct sequence under "observation only" conditions. Player cannot interact during demo—must memorize exact bell order, then reproduce precisely when interaction becomes available. No partial hints given; perfect recall required for success.
-
-<small>Cited from: qfg4-gamefaqs-sac.txt:2201-2204</small>
+**Solution**:
+1. Approach Dr. Cranium's office exterior
+2. Click bell rope to initiate demonstration
+3. Listen to four bells ring in specific sequence
+4. Wait for demonstration to complete
+5. Click bells in EXACT same order observed
+6. If incorrect, retry with remembered sequence
 
 ---
 
-### Quest for Glory IV: Will-o'-Wisp Capture (QFG4)  
+### Grim Fandango: Meche's Vault Safe Combination Lock
 
-**Setup**: To reveal the Sense Ritual at a Squid Stone location, the player must capture Will-o'-Wisps at night using candy, then release them in daytime. The puzzle combines timed consequence with observation replay of wisp movement patterns.
+**Problem**: Manny must open a vault safe with four tumblers that must be aligned in an exact RIGHT-LEFT-RIGHT-LEFT rotation pattern before pulling the handle.
 
-<small>Source: qfg4-gamefaqs-anonymous.txt, lines 1075-1076 — "Use candy to lure wisp at night catch in empty flask"</small>
+**Why It's This Type**: The alternating rotation pattern must be remembered and reproduced precisely. The game provides no checklist—player learns through observing tumbler behavior as the wheel turns, then reproduces the exact timing when alignment matches the door jamb gap.
 
-```
-OBSERVATION PHASE - Behavior Learning:
-→ Visit swamp edge at NIGHT (time-gated) only
-→ Observe Will-o'-Wisps floating above dark water  
-→ Note attraction pattern: Wisps approach source of sweets/candy slowly
-→ Observe collection opportunity: Use Empty Flask near wisp when it's close enough
-
-REPLAY EXECUTION PHASE - Timing and Conditions:
-Step 1 → Ensure candy in inventory (purchased from General Store)
-Step 2 → Return to swamp edge at night, confirm Wisps visible
-Step 3 → Use candy on ground/near water surface → Wisps approach lured by sweet smell
-Step 4 → Wait for wisp to come within capture range (~3-5 seconds of wandering)
-Step 5 → Use Empty Flask on approaching wisp → captures it inside
-Time Criticality: Must release Wisps before daybreak or they die in flask!
-
-Deferred Application - Ritual Revelation:
-Step 6 → Visit Squid Stone area with captured Wisps during appropriate conditions
-Step 7 → Release Will-o'-Wisps from flask onto ritual marker  
-Result: Light reveals hidden Mad Monk's tomb entrance/Bone Ritual location
-
-Why It's Observation Replay + Timed Consequence hybrid:Player must OBSERVE wisp attraction behavior then REPLAY the luring sequence correctly.
-CRITICAL TIMING: Wisps must be released BEFORE dawn otherwise puzzle fails permanently.
-This combines OR (observe-reproduce) with TC (narrative urgency without hard deadline but real consequence).
-```
-
-<small>Cited from: qfg4-gamefaqs-anonymous.txt:1075-1080, qfg4-gamefaqs-sac.txt:1946-1952</small>
-
-**Monkey Island Examples**:
-
-**Monkey Island Examples**:
-- **Safe Combination**: Storekeeper opens safe while player watches (notes combination). Later, when storekeeper leaves shop unsupervised after going to find Sword Master, player returns and enters exact PULL/PUSH sequence he observed.
-
-### Grim Fandango: Year Three - Meche's Vault Safe Combination Lock (GF)
-
-**Problem**: Manny must open the vault safe where Meche is hiding from Domino. The safe has a complex combination lock with four tumblers that must be precisely aligned before pulling the opening wheel. Critical detail: Pulling too early causes tumblers to spin, requiring complete reset.
-
-<small>Source: the-spoiler_walkthrough.html, lines 723-760 — Safe combination Q&A and execution details</small>
-
-```
-OBSERVATION PHASE - Learning Combination Lock Mechanics:
-→ Initial vault door approach → "Can't just open; needs tumblers aligned"
-→ Examine wheel interface → Four tumblers visible through slot window
-→ Observation: Tumbler position relative to door jamb indicates alignment
-
-
-REPLAY EXECUTION CHAIN (Must be performed in exact order):
-
-STEP 1A - Align First Tumbler (TOP tumbler):
-Action: Rotate WHEEL RIGHT (clockwise) until all four tumblers begin spinning together
-Critical: Stop wheel exactly when TOPMOST tumbler aligns with door jamb gap
-Verification: Step away from wheel, look at it → Manny's dialogue confirms "they're lined up" or indicates misalignment
-
-
-STEP 1B - Lock First Tumbler in Place:
-Action: Use SCYTHE on spinning tumblers AFTER correct alignment achieved
-Critical Timing: Must block BEFORE pulling handle; handles spinning if pulled prematurely
-
-
-STEP 2 - Align Second Tumbler (SECOND from top):
-Action: Rotate WHEEL LEFT (counter-clockwise) until second tumbler aligns with jamb gap
-Constraint: Cannot overshoot; if passed alignment point, must restart entire sequence from Step 1
-
-
-STEP 3 - Align Third Tumbler (THIRD from top):  
-Action: Rotate WHEEL RIGHT again until third tumbler aligned
-Same constraints apply: Precision stopping required; no room for error
-
-
-STEP 4 - Align Fourth Tumbler (BOTTOM tumbler):
-Action: Rotate WHELL LEFT one final time until bottom tumbler matches jamb gap position
-Final check: All four tumblers should show gaps aligned with door jamb in single column
-
-
-STEP 5 - Open Vault Door:
-Prerequisite: SCYTHE already used on tumblers to lock their positions (Step 1B)
-Action: PULL HANDLE
-Result: If all alignment correct + tumblers locked → Vault opens, Manny enters
-
-FAILURE MECHANICS:
-If PULL HANDLE before SCYTHE locks tumblers → tumblers spin wildly, door won't open. Must restart entire sequence from zero alignment.
-
-
-WHY IT'S OBSERVATION REPLAY:
-
-MEMORIZED SEQUENCE REQUIRED:
-The RIGHT-LEFT-RIGHT-LEFT rotation pattern must be remembered and reproduced precisely. Game provides no on-screen checklist—player either recalls the alternating pattern or fails repeatedly until they notice the alternating direction requirement through observation of tumbler behavior.
-
-EXACT TIMING CRITICAL:
-Each tumbler must stop at exact jamb gap alignment. This is not trial-and-error but PATTERN RECOGNITION from observing how tumblers move as wheel rotates. The "aha" moment comes from watching movement patterns, then reproducing them.
-
-NOIR THEME - CLASSIC SAFE-CRACKING TROPES:
-Combination locks are quintessential noir elements—precision timing, mechanical understanding of locking mechanisms, the tension between success (opening smooth) and failure (tumblers spin). The dialogue feedback ("Manny tells you if they're lined up") mimics films where safecrackers rely on auditory/visual cues.
-
-DISTINCTION FROM PATTERN LEARNING:
-Unlike Pattern Learning, there's no Domain A → Domain B transfer. The vault safe is a single-instance puzzle where observation of THIS SPECIFIC MECHANISM enables success at THIS SPECIFIC LOCATION. No generalized tumbler-system learned for later application elsewhere.
-```
+**Solution**:
+1. Rotate WHEEL RIGHT until all tumblers begin spinning
+2. Stop when top tumbler aligns with door jamb gap
+3. Use SCYTHE on tumblers to lock position
+4. Rotate WHEEL LEFT until second tumbler aligns
+5. Rotate WHEEL RIGHT until third tumbler aligns
+6. Rotate WHEEL LEFT until fourth tumbler aligns
+7. Pull handle to open vault
 
 ---
 
-### Beneath a Steel Sky: Power Plant Switch Sequence (BAS)
-
-**Problem**: The control panel behind barred gates requires two switches positioned correctly before re-energizing the system, but the correct configuration cannot be determined through examination alone—player must create an opportunity to observe the mechanism working.
-
-<small>Source: 5_steamah_walkthrough.html, lines 382-384 — "Place the PUTTY on the LIGHT SOCKET and turn the main SWITCH back on. This results in a short circuit, opening the left CONTROL PANEL. Turn the main SWITCH back off. Notice two SWITCHes (levers) within the left CONTROL PANEL? Get the left SWITCH levered up and the right SWITCH levered down."</small>
-
-**Discovery Phase**:
-```
-Location: Power Plant (Middle Level)
-
-PHASE 1 - Create Observation Opportunity:
-1. Arrive at power plant with WRENCH and PUTTY (from Factory storeroom)
-2. Use WRENCH on two BUTTONS below steam pipe to unlock them
-3. Have Joey press right button while player presses left simultaneously
-4. Steam valve overloads, old worker leaves room
-5. Turn OFF main SWITCH above control panel → safe to examine
-
-PHASE 2 - Force System State Change (Observation Trigger):
-1. Remove LIGHT BULB from socket when power is off
-2. Replace with PUTTY (conductive material creates short circuit)
-3. Turn main SWITCH back ON → bars blow open due to electrical surge
-4. TURN POWER OFF immediately (now safe to inspect exposed panel)
-
-PHASE 3 - Observe Required Configuration:
-Two switches visible inside opened left control panel:
-- Left switch must be UP
-- Right switch must be DOWN
-
-PHASE 4 - Reproduce Correct Configuration:
-1. Set LEFT SWITCH levered UP
-2. Set RIGHT SWITCH levered DOWN  
-3. Turn main power back ON
-→ Elevator access granted to middle level
-```
-
-<small>Source: 1_preterhuman_mitch_shaw_walkthrough.html, lines 160-174 — Detailed switch manipulation and power cycling sequence</small>
-
-**Why It's This Type**: Player cannot know the correct switch configuration through direct interaction or hints. The puzzle requires creating conditions (short circuit with putty) that cause the game to *demonstrate* the working state (bars open when switches are positioned correctly), then reproducing that exact state later once the panel is accessible.
-
-**Note on 16-bit SCUMM Engine Quirk**: This puzzle leverages Revolution Software's SCUMM-derived engine mechanics—the short circuit isn't realistic behavior but exploits how voltage/short detection logic triggers cutscene events regardless of actual electrical physics. Common in 1990s point-and-click adventures where object interaction rules simplify real-world causality.
-
----
-
-### Broken Sword: Shadow of the Templars - Stealing Towel and Wire (Chapter 2)
+### Broken Sword: Stealing Towel and Wire
 
 **Problem**: Must steal two items from guarded locations—towel while Doyle takes a drink, wire while monk sneezes. Both require precise timing based on observed NPC action patterns.
 
-<small>Source: broken-sword-1/4_agh_peter_christiansen_walkthrough.html, lines 257-260</small>
-<small>Source: broken-sword-1/4_agh_peter_christiansen_walkthrough.html, line 269</small>
-<small>Source: broken-sword-1/1_walkthroughking_broken_sword.html, lines 97, 100</small>
+**Why It's This Type**: Classic observation replay—player watches NPC perform blocking action once, memorizes exact timing window created by secondary animation (drinking, sneezing), then replays identical sequence to steal item undetected.
 
-**Sub-Puzzle A - Towel Theft**:
-```
-OBSERVATION PHASE:
-→ Locate Doyle's office with towel hanging near desk
-→ Watch NPC pattern: Doyle periodically walks to desk corner, takes sip from glass
-→ Identify exact timing window: towel accessible ONLY during drinking animation
+**Solution (Towel)**:
+1. Locate Doyle's office with towel near desk
+2. Watch Doyle's periodic movement to desk corner
+3. Wait for drinking animation to begin
+4. Take towel at precise moment mouth reaches glass
 
-REPLAY PHASE:
-→ Wait for next sip cycle (no interaction possible outside window)
-→ At precise moment when mouth reaches glass → Take towel action executes
-→ Towel added to inventory; Doyle unaware due to animation-blocking state
-```
-
-**Sub-Puzzle B - Wire Theft**:  
-```
-OBSERVATION PHASE:
-→ Locate monk holding wire in side room/altar area
-→ Watch NPC pattern: Monk performs repetitive prayer gesture, then sneezes at interval
-→ Identify exact timing window: wire drops to floor during sneeze animation
-
-REPLAY PHASE:  
-→ Wait for next sneeze cycle from doorway (cannot approach without detection)
-→ At precise moment of sneeze → Grab wire action executes before monk recovers
-→ Wire added to inventory; used later for Plaster Casting System puzzle
-```
-
-**Why It's This Type**: Classic Observation Replay structure—player watches NPC perform blocking action once, memorizes exact timing window created by secondary animation (drinking, sneezing), then replays identical sequence to steal item. NOT Pattern Learning because no system rules transfer to new domains—each theft is unique one-off timing puzzle. NOT Distraction Physics because player doesn't manipulate environment; they exploit existing NPC behavior loop without modification.
+**Solution (Wire)**:
+1. Locate monk holding wire in side room
+2. Watch monk's repetitive prayer gesture cycle
+3. Wait for sneeze animation when wire drops
+4. Grab wire at precise moment before monk recovers
 
 ---
 
-### Broken Sword II: The Smoking Mirror - London Underground Signal Switch (Chapter 5)
+## Related Types
 
-**Problem**: Nico must board the train at Thames Dock by switching the signal light to red, but requires obtaining a weight card from a scale that needs coins, and coins are only accessible via hairclip trick on vending machine. The sequence of actions observed during exploration must be reproduced in precise order.
-
-<small>Source: 2_the_spoiler_tom_hayes_walkthrough.html, lines 274-281 — "Walk over to the vending machine. Use the hairclip with the coin slot. Get the coin from the coin reject slot."</small>
-
-<small>Source: 4_kasagaming_walkthrough.html, lines 370-377 — "Use the hairclip on the coin slot of the chocolate machine, then pick up the coin from the coin reject slot... Use the coin on the weighing machine and receive a weight card."</small>
-
-```
-OBSERVATION / EXPLORATION PHASE:
-→ Enter London Underground Station platform area
-→ Observe vending machine with locked items (chocolate, coin) behind slots
-→ Notice handbag in inventory contains hairclip
-→ Try direct interaction → "Can't open without coin" feedback
-  
-REPLAY EXECUTION CHAIN:
-Step 1 → Use hairclip on coin slot of chocolate vending machine
-         - Observed mechanism: clip jams/reverses slot logic
-Step 2 → Collect ejected coin from reject slot  
-         - Timing: immediate action after insertion, no delay
-
-Step 3 → Approach weighing machine with coin in hand
-         - Note display: "Insert penny for card" prompt visible
-
-Step 4 → Use coin on scale → receive weight card automatically
-         - Exchange is automatic; no additional timing window
-
-Step 5 → Locate cupboard next to weighing machine  
-Step 6 → Examine crack near cupboard mechanism (requires dagger)
-Step 7 → Use ancient dagger on cupboard lock → disables obstruction
-Step 8 → Use weight card on access crack → activates door mechanism
-
-Step 9 → Press red signal button → switches train lights to STOP signal
-         - Train now accessible for boarding
-
-Step 10 → Board train → cutscene triggers, arrive at Thames Dock
-```
-
-**Why It's This Type**: While primarily a sequential item use chain, the core mechanic is observing environmental cause→effect relationships then replaying them: hairclip→coin ejection, coin→card exchange, card+dagger→access. Player explores station and observes each mechanism's requirements independently, then replays exact sequences in correct order. The "observation" is reading environmental UI hints (slot prompts, crack visibility); the "replay" is executing the discovered action chains precisely as observed.
-
-**Distinction from Meta-Puzzle Construction**: Each step produces output for next step (coin→card→access), but player DISCOVERS this chain through exploration and observation of separate mechanisms, then REPLAYS it once fully understood. There's no "trial sequence that demonstrates solution" element—just cause-effect relationships learned individually.
+| Type | Similarity | Distinction |
+|------|------------|-------------|
+| Pattern Learning | Both require observing and reproducing sequences | Pattern Learning transfers rules across domains; OR is single-instance |
+| Sensory Exploitation | Both exploit NPC behavior | Sensory Exploitation uses perception weaknesses directly; OR uses memorized sequences |
+| Distraction Physics | Both create opportunity windows | Distraction Physics modifies NPC behavior; OR exploits existing NPC routines |
+| Meta-Construction | Both require multi-step sequencing | Meta-Construction chains steps where output enables input; OR reproduces demonstrated sequence |
 
 ---
 
-### Broken Sword II: The Smoking Mirror - Thames Dock Guard Evasion (Chapter 5)
-
-**Problem**: Nico must steal into the ship cabin where Professor Oubier holds the Jaguar Stone, but a guard patrols continuously with Pablo nearby. Success requires timing movement to exact patrol cycle—any deviation results in capture/death. The sequence must be memorized from initial observation and reproduced precisely.
-
-<small>Source: 2_the_spoiler_tom_hayes_walkthrough.html, lines 309-315 — "Click on the other crate on the left, so Nico can hide closer to the ship... Wait until the guard starts talking to Pablo, and then climb down the ladder..."</small>
-
-<small>Source: 4_kasagaming_walkthrough.html, lines 400-404 — Move to second crate after guard passes, move onto boat (ditto) and climb the ladder..."</small>
-
-```
-OBSERVATION PHASE - PATROL CYCLE ANALYSIS:
-→ Enter Thames Dock area, observe guard movement pattern
-→ Guard patrols back along dockside route at fixed intervals  
-→ Pablo stands stationary near ship ladder; occasional dialogue with guard
-→ Ship cabin accessible only during guard attention window on Pablo
-
-GUARD BEHAVIOR LOOPS IDENTIFIED:
-Loop A → Patrol approaches from left → reaches Nico's position → continues right
-Loop B → Reaches Pablo after ~10 seconds → engages in conversation (~5 seconds)
-Loop C → Returns to patrol loop; ship cabin exposed during entire Loop B window
-
-REPLAY EXECUTION - TIMING SEQUENCE:
-Step 1 → Wait for guard patrol → move to SECOND crate (after guard passes first)
-         <small>Source: kasagaming_walkthrough, line 402 — "Move to the second crate after the guard has passed"</small>
-         
-Step 2 → Continue movement ONTO SHIP as patrol clears area
-Step 3 → CLIMB LADDER before patrol completes cycle return
-
-CRITICAL TIMING WINDOW:
-Step 4 → Wait for guard to reach Pablo and START TALKING  
-         <small>Source: tom_hayes_walkthrough, line 312 — "Wait until the guard starts talking to Pablo"</small>
-         
-Step 5 → CLIMB DOWN LADDER (immediately as conversation begins)
-Step 6 → OPEN CUPBOARD door
-Step 7 → CLIMB BACK UP LADDER (guard now faces away, occupied with Pablo)
-
-COMPLETION SEQUENCE:
-Step 8 → Guard enters cupboard investigating → climb down, close cupboard
-Step 9 → Grab mop, use on cupboard door to stick it open/slow guard discovery  
-Step 10 → Look through porthole as cutscene triggers (Oubier/Karzac confrontation)
-
-Step 11 → Enter cabin automatically during scene break
-         → Check Oubier → he's still alive
-         → Grab Jaguar Stone immediately
-         → Karzac attacks → use ancient dagger to escape
-```
-
-**Why It's This Type**: Player observes guard patrol pattern, identifying that guard+Pablo conversation creates temporary vulnerability window. Entire sequence (climb down, open cupboard, climb back up, close behind guard) must reproduce exact timing observed during initial exploration. The "single viewing" is watching guard behavior; the "reproduce exactly" is executing the 4-action sequence during correct patrol cycle. Multiple saves/tries needed if timing fails—but successful run matches observed opportunity window precisely.
-
-**Distinction from Distraction Physics**: Player doesn't CREATE distraction; they EXPLOIT existing NPC routine. Guard-Pablo dialogue happens automatically in game loop—Nico must TIME her actions to it, not trigger it. DNP would involve "pull lever to make guard investigate noise" whereas this is "wait for guard to naturally talk to Pablo."
-
----
-
-### Syberia: Momo's Dam and Oar Sequence (Valadilene, SYB)
-
-**Problem**: To access the secret mammoth cave, player must open a dam that blocks the river path. The lever controlling the dam is broken when first attempted. Player must observe Momo (the automaton guide)'s movement pattern, then replicate key actions through timed interactions with Momo as intermediary.
-
-<small>Source: gamefaqs_thayes_syberia.txt, lines 360-371 — "ask Momo to Help open the dam. He'll try, but the lever will break off. Get the lever... Run right and ask him to Help get the oar. After Momo gets the oar, run right and ask him to Help open the dam."</small>
-
-```
-OBSERVATION PHASE (Momo's Behavior Pattern):
-
-Step 1 → Follow long forest path after Voralberg house attic sequence
-         - Momo walks ahead as visible guide through secret route
-         
-Step 2 → Reach dam control post with large lever mechanism
-         - Attempt to USE handle directly on dam → Lever BREAKS OFF
-         
-Step 3 → Receive BROKEN LEVER item in inventory (damaged state recorded)
-         - Dam remains closed, path blocked
-   
-Step 4 → Dialogue option "Help" appears when talking to Momo
-         - Player learns Momo CAN interact with environment independently
-
-
-REPETITION REQUIRED SEQUENCE (Exact Action Order):
-
-CRITICAL DISCOVERY:
-→ Dam lever physically broke off—human hands too weak/damaged mechanism
-→ Momo is automaton with superior strength but no independent agency trigger
-→ "Help" dialogue must be used in SPECIFIC CONTEXT to activate Momo's assistance
-
-
-EXECUTION SEQUENCE (must follow exact order):
-
-Step 1 → Collect broken lever from ground after first failed attempt
-         <small>Source: gamefaqs_thayes_syberia.txt, line 364 — "Get the lever"</small>
-         
-Step 2 → Navigate DOWN path to abandoned boat location
-         - Dam is uphill; boat with oar is downstream along riverbed
-
-Step 3 → Attempt to USE broken lever on boat's stuck oar
-         <small>Note: First player tries alone—mechanically fails</small>
-         
-Step 4 → Return to Momo (automaton reappears at boat location)
-         
-Step 5 → Select "Help" dialogue targeting the OAR retrieval
-         <small>Source: line 367-368 — "ask him to Help get the oar"</small>
-         - CRITICAL: Context must be "oar stuck in boat" not general help request
-         
-Step 6 → Momo's automaton animation triggers: Pulls oar free with mechanical strength
-         - Player observes exact action sequence (Momo grips oar, pulls smoothly)
-         - OAR now loose, retrievable by player
-
-Step 7 → Collect OAR from boat (inventory item acquired)
-         
-Step 8 → Navigate UPSTREAM back to dam location (retracing path)
-         
-Step 9 → Select "Help" dialogue targeting DAM lever again
-         <small>Source: line 369 — "ask him to Help open the dam"</strong></small>
-         - Context now is "dam won't open with broken lever"
-         
-Step 10 → Momo's animation triggers second time: Uses superior strength to force dam lever open
-          - Dam gates swing open, river flow unblocked
-          
-Step 11 → Follow newly opened path upstream into mammoth cave entrance
-
-
-WHY IT'S OBSERVATION REPLAY (Not Pattern Learning):
-
-SINGLE-SEQUENCE MEMORIZATION:
-Player does not learn a general SYSTEM to apply across multiple targets. Instead, discovers that Momo can be "helped" with specific tasks in a SPECIFIC ORDER:
-1. Get broken lever → break happens
-2. Go to boat, ask help on OAR first (not dam)
-3. Collect oar → return upstream  
-4. Ask help on DAM second (after oar task completed)
-
-The puzzle is NOT "Momo can lift heavy things" generalized rule—it's EXACT SEQUENCE: broken lever attempt creates item, downstream oar retrieval must complete before upstream dam opening succeeds. Order matters because game state tracks Momo's "help availability" through this specific sequence chain.
-
-
-TIMING/CONTEXT DEPENDENCY:
-Player cannot simply "ask for help twice." The "Help" dialogue option appears ONLY when player is at target location with appropriate context:
-- At boat = OAR help available  
-- At dam AFTER oar retrieved = DAM help available
-
-This creates observation-replay structure where player discovers opportunity windows through initial failure (broken lever), then reproduces the correct sequence of HELP REQUESTS in discovered order.
-
-
-SYBERIA AUTOMATON THEME IMPLEMENTATION:
-Unlike BAS's guard patrol timing, SYB uses Momo as a MECHANICAL intermediary that requires proper input sequencing. The automaton isn't teaching general principles—it's responding to specific command sequences. Player "observes" through trial (broken lever reveals problem) then "replays" correct interaction order with Momo assistant.
-```
-
----
-
-### Gabriel Knight 1: Snake Scale Observation - Face Removal Sequence (GK1)
-
-**Setup**: After being attacked by a python in the Voodoo Museum, Gabriel returns to his bookstore looking sick. Grace removes something from his face and places it in her ashtray. The player must observe this sequence during a cutscene, then reproduce specific actions when full control returns—using tweezers to retrieve a tiny snake scale that provides critical evidence linking the museum python to the crime scene murders.
-
-<small>Source: justadventure_walkthrough.html, lines 942-950 — "As Gabriel enters the bookstore, Grace remarks on how 'green' he looks and notices something sparkling on his face. (i) Watch CAREFULLY what happens next! (ii) She removes something from Gabriel's face …….. (iii) …………... and puts the small item into the ashtray on her desk. From inventory, use the Magnifying Glass to enlarge the small item in the ashtray – It is a snake scale from the python that attacked Gabriel in the Voodoo Museum. [+ 1 point] Since it is so fragile, from inventory, use the Tweezers to pick up the Museum Snake Scale. [+ 1 point]"</small>
-
-<small>Source: justadventure_walkthrough.html, lines 948-950 — "In inventory, compare the Museum Snake Scale with the Lake Snake Scale you picked up at the crime scene. See the 2 Snake Scales side by side in inventory – They are DEFINITELY from the SAME snake! [+ 2 points]"</small>
-
-**Single Viewing Phase (Cutscene - No Control)**:
-- Player watches Grace observe something on Gabriel's face during dialogue sequence
-- She removes an invisible-to-inventory item with specific hand motion
-- Places it in ashtray on her desk before player regains control
-- Player has NO opportunity to intervene during this sequence
-
-**Reproduction Phase (Full Control Restored)**:
-1. Use magnifying glass on ashtray → reveals tiny snake scale was left behind [+ 1 point]
-2. Use tweezers to pick up fragile Museum Snake Scale from ashtray [+ 1 point]
-3. Compare with Lake Snake Scale from earlier crime scene in inventory
-4. Discovery: Both scales are from the SAME snake species [+ 2 points]
-5. Critical evidence chain complete: Python attack at museum directly connected to murders
-
-**Why It's Observation Replay (Not Truth Revelation)**:
-- The scale existed but was effectively invisible until player WATCHED where Grace placed it during the cutscene
-- Without observing the sequence, player would never know to examine the ashtray specifically—too many other interactions available
-- Actions must be reproduced in exact order: magnifying glass first (reveals item), then tweezers for pickup
-- The discovery (scales match) only possible because player observed AND replayed the removal location
-
-**Distinction from Pattern Learning**: Player doesn't learn a SYSTEM with multiple applications. They observe ONE specific sequence with ONE required reproduction. Grace's action is not part of a reusable mechanic—it's a narrative event that must be witnessed to enable later solution.
-
----
-
-### Legend of Kyrandia: Merith Marble Chase Path (LK1)
-
-**Problem**: After healing the rotten willow tree with a teardrop from Pool of Sorrows, the spirit Merith appears and mentions finding a marble needed to repair Brynn's silver altar. To obtain it, Brandon must play a game of tag—following Merith's exact movement pattern and sneaking up from behind to claim the marble.
-
-<small>Source: classicgamesparadise_walkthrough.html, line 47 — "At the rotten willow tree, try using the teardrop you found at the Pool of Sorrows to heal the tree. After it is healed, Merith shows up and mentions a marble he found. To get it, you will need to play a little game of tag. He will lead you to the northeast where you can sneak up on him."</small>
-
-<small>Source: classicgamesparadise_walkthrough.html, line 55 — Summary step: "Chase Merith for the marble"</small>
-
-```
-OBSERVATION PHASE - Initial Encounter and Path Demonstration:
-
-Step 1 → Prerequisite Completion:
-- Earlier in game: Obtain teardrop from Pool of Sorrows (separate puzzle chain)
-- Navigate to rotten willow tree location (Timbermist Woods area)
-- Use teardrop on diseased tree → healing transformation cutscene triggers
-
-Step 2 → Merith Appearance:
-- Tree spirit Merith materializes after healing complete
-- Dialogue exchange: Merith mentions discovering marble, implies it belongs on altar
-- No explicit handover; Merith initiates chase game instead
-
-Step 3 → Path Demonstration (Observation Critical):
-- Merith begins moving in SPECIFIC DIRECTION (northeast from willow tree)
-- Movement pattern establishes exact route through forest terrain
-- Brandon cannot interact with Merith during this phase ("too fast!") or if approaching from wrong angle (Merith flees)
-
-REPLAY EXECUTION - Path Following and Capture:
-
-Step 4 → Follow Observed Route:
-- Player must navigate Brandon along SAME northeast path Merith demonstrated
-- Key spatial detail: Merith's movement establishes correct navigation through maze-like woods
-
-
-Step 5 → Position for Approach:
-- Continue following until reaching endpoint of chase path
-- Merith slows/stops at destination point (northeast forest clearing)
-
-Step 6 → Sneak-Up Maneuver (Timing/Angle Critical):
-- Player must approach from BEHIND Merith's position
-- Attempting frontal interaction or wrong angle → Merith runs again, requires respawning/chase restart
-  
-Step 7 → Marble Acquisition:
-- Successful sneak approach triggers capture event
-- Marble automatically added to inventory
-- Merith departs, puzzle resolved
-
-
-WHY IT'S OBSERVATION REPLAY:
-
-SINGLE VIEWING ESTABLISHES SOLUTION:
-Merith's initial northeast movement is the ONLY demonstration of correct path. No map marker, no compass hint, no repeated dialogue explaining direction. Player must MEMORIZE the exact route Merith took during opening chase phase.
-
-
-EXACT REPRODUCTION REQUIRED:
-Path following isn't "general area navigation." The walkthrough specifies "northeast" as critical detail—wrong directional choice leads to dead ends or requires backtracking to restart pursuit.
-
-Angle/Timing Component Adds Memory Load:
-Beyond path memorization, player must remember APPROACH MECHANIC: sneak from behind. This is demonstrated implicitly by game's blocking behavior (can't grab Merith during chase, fails if approached incorrectly). Successful reproduction requires combining BOTH spatial memory (where) AND interaction memory (how).
-
-
-NO TRIAL-AND-ERROR DISCOVERY:
-Unlike exploration puzzles where player experiments with different paths, here the SOLUTION EXISTS IN THE CUTSCENE. Trial-and-error only works through multiple save/loads or by correctly retaining path information from initial observation.
-
-FAILURE MODES DEMONSTRATE MEMORY REQUIREMENT:
-- Wrong direction from willow tree → cannot find Merith, must revisit and reobserve chase start
-- Correct path but wrong approach angle → Merith flees, sequence potentially resets
-- Frontal approach attempt → blocked by game state ("can't catch him!")
-
-
-DISTINCTION FROM DISTRACTION PHYSICS:
-Player doesn't CREATE distraction condition or manipulate environment. Merith's movement pattern is pre-scripted game loop—Brandon must ADAPT to it, not cause it. The puzzle tests OBSERVATION → MEMORY → REPRODUCTION chain, not environmental manipulation or timing-based NPC state change.
-
-
-POTENTIAL IMPLEMENTATION VARIANTS:
-This chase structure could easily be a Pattern Learning if marble-catching mechanics applied elsewhere (e.g., "catch other escaping sprites using same path-follow rule"). But in LK1's context, it's single-instance observation replay: one cutscene establishes solution, one reproduction sequence succeeds.
-
-
-CONNECTION TO LARGER PUZZLE CHAIN:
-Marble itself feeds into METALOGIC puzzle: Silver Altar Repair at Brynn's Temple:
-1. Get teardrop from Pool of Sorrows (earlier chain)  
-2. Heal willow tree → triggers Merith appearance
-3. Chase Merith for marble (this observation replay)
-4. Return marble to Brynn's temple altar
-5. Place silver rose on repaired altar → activates amulet
-
-The chase is ONE LINK in larger meta-construction, but its internal mechanic is pure observation replay.
-
-
-
----
-
-### Indiana Jones and the Last Crusade: Skull Music Sequence Puzzle (INDY1)
-
-**Problem**: In lower catacombs of Venice, a chamber contains multiple skulls mounted on walls. Each skull produces a distinct musical tone when struck in sequence. The grail diary contains a musical notation indicating which skulls to strike and in what order. Player must observe the skull positions during initial exploration, then precisely replay the sequence when all conditions are met—hitting wrong skull or wrong order triggers failure state.
-
-<small>Source: walkthrough-king.txt, lines 137-139 — "Look at the diary once more to get some clues. The top line indicates the left skull, the next the second skull, etc. Play the skulls in the order indicated by the music to open the door."</small>
-
-**Observation Phase**:
-```
-INFORMATION SOURCE: Grail Diary Musical Notation
-- Open diary in inventory
-- Examine page showing staff notation with note positions
-- Each line/position corresponds to skull from left-to-right
-- Example: Top line = first skull (far left), second line = second skull, etc.
-
-SKULL CHAMBER EXPLORATION:
-- Enter chamber containing multiple mounted skulls
-- Note each skull produces DIFFERENT PITCH when struck
-- Skulls arranged horizontally along wall in linear sequence
-- Player must mentally map diary lines to physical positions (1st diagram line = 1st physical skull from left)
-
-BLOCKING CONDITION BEFORE OBSERVATION COMPLETE:
-- Door to next area locked, no alternate passage exists
-- Attempting random strikes produces incorrect notes (audio feedback indicates wrong sequence)
-- Only correct musical sequence opens door
-```
-
-**Replay Execution Phase**:
-```
-SEQUENTIAL STRIKE PATTERN (Per Diary Notation):
-
-Step 1 → Examine grail diary one final time, confirm note order mentally
-         - Critical: Must remember sequence; cannot look at diary during execution
-
-Step 2 → Strike FIRST skull indicated by top-most notational line in diary
-         - Position determined by line position (not absolute left-to-right on screen, 
-           but relative to diagram structure)
-
-Step 3 → Move to SECOND skull per next musical notation line
-         - Timing: Must occur within reasonable interval or sequence may reset
-
-Step 4 → Continue through ALL skulls matching notated pattern
-         - Audio feedback: Each strike produces distinct pitch
-         - Visual confirmation: Skull vibrates when struck correctly
-
-VALIDATION: After final correct skull struck, hidden mechanism activates → door unlocks silently
-```
-
-**Why It's Observation Replay (Not Symbol Code Translation)**: While there IS a diagram to decode, the core mechanic is MEMORY AND TIMING—player must internalize sequence from static notation then perform it without reference during execution phase. Unlike SCT where symbols map directly to interface buttons here, the player memorizes ACTION SEQUENCE (strike order) rather than translating symbol-to-button equivalency. The skulls are not "interface elements" with matching properties—they're distinct physical objects requiring correct STRIKE ORDER reproduction.
-
-**Distinction from Pattern Learning**: Single application only—no repeated framework across multiple door/sequence pairs. Pure observation → memory → exact reproduction structure. Once learned and executed successfully, puzzle complete with no further applications of the musical sequence system.
-
-**Critical Timing Element**: Walkthrough emphasis on "play skulls in order" suggests sequence must occur within time window—player cannot indefinitely flip back to diary between strikes. This creates memory load pressure where player must retain full sequence during single execution attempt.
-
-<small>Cited from: walkthrough-king.txt:137-139</small>
+*Additional examples documented in inspiration pages: QFG4 Will-o'-Wisp, BAS Power Plant, BS1 Signal Switch/Thames Dock, SYB Momo Dam, GK1 Snake Scale, LK1 Merith Marble, INDY1 Skull Music.*
