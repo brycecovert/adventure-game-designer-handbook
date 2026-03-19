@@ -21,8 +21,6 @@ Space Quest 1 is a 1986 Sierra On-Line comedy adventure designed by Scott Murphy
 
 Roger must infiltrate the Deltaur mothership where Sarien guards patrol corridors. Direct entry is impossible without authorization, but a laundry room contains washing machines that Sarien staff use. The player discovers that entering a washing machine during a wash cycle causes Roger's clothes to be replaced with the exact uniform worn by Sariens—including an authentic ID card in the pocket. This transforms Roger from janitor impostor into apparently authorized personnel. One walkthrough emphasizes timing: "A Sarien will come in and start the wash cycle. Once it's finished you'll be wearing a Sarien uniform" [GamerWalk].
 
-![Laundry room with washing machines—the disguise transformation sequence](./spacequest-1-puzzle1.png)
-
 ### What Makes It Rewarding
 
 This is pure surrealist comedy executed mechanically: entering an appliance triggers costume change without explicit magic or technology explanation. The player must reason backwards—I need authorization, Sariens have uniforms, laundry processes clothes—then execute the absurd action of crawling into a washing machine. Unlike typical stealth games where disguises are crafted or stolen, Space Quest weaponizes mundane infrastructure. The reward isn't just visual; the uniform contains functional items (ID card) enabling armory access. This establishes comedy as problem-solving mechanic rather than decoration [Tricky].
@@ -48,6 +46,10 @@ Roger enters washing machine during active cycle, emerges wearing authentic Sari
 13. Examine new uniform: "look uniform" command reveals Sarien ID card in pocket
 14. Exit laundry using authentic Sarien authorization
 
+### Screenshots
+
+![Laundry room with washing machines—the disguise transformation sequence](./spacequest-1-puzzle1.png)
+
 [Corporate Infiltration](../puzzles/corporate-infiltration.md) — Access requires blending in as authorized personnel by exploiting mundane infrastructure (laundry system) rather than combat or tech bypass, distinguishing from Observation Replay which memorizes external security patterns instead of acquiring internal status.
 
 ---
@@ -57,8 +59,6 @@ Roger enters washing machine during active cycle, emerges wearing authentic Sari
 ### Problem
 
 The Star Generator—powered weapon threatening Earth—is protected by force field and requires a four-digit self-destruct code. The only source is a data cartridge found aboard the Arcada spaceship that must be read at the secret Keronian settlement on planet Kerona. Roger learns from a computer professor which cartridge type ("Astral Body") contains the data, retrieves it before Sariens destroy the Arcada, then later accesses Keronian computers to view the code: 6858. One walkthrough captures the chain: "Very importantly here you'll get the code, 6858, to self-destruct the Star Generator" [GamerWalk].
-
-![Computer console in Keronian settlement displaying the critical code 6858](./spacequest-1-puzzle2.png)
 
 ### What Makes It Rewarding
 
@@ -88,6 +88,10 @@ Cartridge containing Star Generator code 6858 is retrieved from Arcada, read at 
 16. Look at control panel; enter 6858 in keypad interface
 17. Self-destruct sequence initiates; force field deactivates
 
+### Screenshots
+
+![Computer console in Keronian settlement displaying the critical code 6858](./spacequest-1-puzzle2.png)
+
 [Information Brokerage](../puzzles/information-brokerage.md) — Data flows through multiple acquisition points (dialogue, physical item retrieval, terminal access) before being exchanged for progress (Generator destruction), distinguishing from Symbol Code Translation where cipher logic is the primary mechanic rather than multi-location data gathering.
 
 ---
@@ -97,8 +101,6 @@ Cartridge containing Star Generator code 6858 is retrieved from Arcada, read at 
 ### Problem
 
 After crash-landing on Kerona, Roger must navigate lethal desert terrain filled with acid geysers, laser beams, and sand monsters. The path requires using found objects against environmental hazards: a thrown rock activates a steam geyser to open sealed doors; reflective glass deflects three laser beams onto each other, deactivating them; precise timing avoids dripping acid pools from the ceiling. One walkthrough clarifies: "Put rock on geyser to open the door" and "Put glass in beam to deflect the lasers upon themselves" [GamerWalk].
-
-![Laser beam corridor with reflective glass—the physics deflection puzzle](./spacequest-1-puzzle3.png)
 
 ### What Makes It Rewarding
 
@@ -128,6 +130,10 @@ Reflective glass is positioned in laser corridor to deflect beams onto each othe
 16. Continue past now-safe corridor toward acid drip room
 17. Time movement between ceiling drips to avoid corrosion damage
 18. Reach dark room with Keronian hologram presence
+
+### Screenshots
+
+![Laser beam corridor with reflective glass—the physics deflection puzzle](./spacequest-1-puzzle3.png)
 
 [Distraction Physics](../puzzles/distraction-physics.md) — Environmental hazards neutralized by redirecting physics (laser reflection) or triggering chain reactions (geyser pressure), distinguishing from Sensory Exploitation where NPC perception limitations are bypassed rather than physical systems manipulated.
 
