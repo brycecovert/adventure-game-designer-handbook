@@ -275,19 +275,19 @@
   - Commit after creation
 
 ## Phase 1: Core Restructuring (Sequential Construction Merge)
-- [ ] Read meta-puzzle-construction.md content
+- [x] Read meta-puzzle-construction.md content
   - Document current structure and examples for merge planning
   
-- [ ] Read repair-chain-construction.md content
+- [x] Read repair-chain-construction.md content
   - Identify SQ3 escape pod example and any other unique content
 
-- [ ] Create sequential-construction.md (rename + merge)
+- [x] Create sequential-construction.md (rename + merge)
   - Start with meta-puzzle-construction.md content
   - Add "Repair/Restoration Chains" section with SQ3 escape pod
   - Update headers to reflect new parent categorization
   - Commit after creation
 
-- [ ] Delete repair-chain-construction.md
+- [x] Delete repair-chain-construction.md
   - Verify all content migrated first
   - Remove file and commit
 
