@@ -31,6 +31,23 @@ This is pure Meta-Puzzle Construction: T.R.A.P. identification, maze navigation,
 
 The player identifies a baby Antwerp through T.R.A.P., captures it with avocado, retrieves a key from Key Maze, then solves a panel-sliding puzzle to form a keyhole image before accessing the inner lab.
 
+### Steps
+
+1. Enter Dr. Cranium's house by repeating the doorbell sequence shown upon entrance
+2. Open right door; room fills with bouncing baby Antwerps
+3. Use T.R.A.P. device, answering questions to identify species: bounces=yes, has legs=no, sings=no (baby Antwerp)
+4. Place sandwich/avocado as bait in TRAP to catch one baby Antwerp
+5. Open left door leading to Key Maze chamber
+6. Rotate maze so Antwerp bounces toward key without falling into holes
+7. Continue rotating until Antwerp reaches exit with key (6 points)
+8. Proceed to far wall door with sliding panel lock puzzle
+9. Rearrange colored panels to form complete keyhole image against matching background
+10. Open door and enter Dr. Cranium's inner lab (6 points)
+
+### Screenshots
+
+![T.R.A.P. device in Dr. Cranium's right room showing binary question interface for species identification](./qfg4-puzzle1-trap.png)
+
 [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Sequential chain where T.R.A.P. identification enables maze access, which yields key for panel-sliding lock completion.
 
 ---
@@ -51,6 +68,28 @@ This puzzle exemplifies Multi-Faceted Plan: ingredients are collected independen
 
 The player gathers bone, elderberries, and swamp goo from three locations, grinds the bone in Baba Yaga's mortar, combines ingredients on pie pan, fries it before Punny Bones skull, then receives gifts.
 
+### Steps
+
+1. Collect bone from underneath tree in Erana's Garden or cemetery
+2. Navigate to Squid Stone area; use empty flask on goo source behind rocks to collect "Grue Goo" (6 points)
+3. Locate vampiric elderbury bush in southeastern woodlands near Baba Yaga's hut
+4. Throw rocks at bush (Fighter/Thief) or Force Bolt it (Wizard) until elderberries fall
+5. Collect elderberries from ground
+6. Travel to Baba Yaga's hut on chicken legs; give Punny Bones skull the ghost's hat to pass
+7. Feed hut corn to make it sit still; enter hut
+8. Baba Yaga demands pie before granting gifts
+9. Use bone in grinder/mortar and pestle inside hut
+10. Collect ground bone in potion bottle/flask from grinder output
+11. Place ground bone, elderberries, and swamp goo onto pie pan
+12. Take filled pie pan to Punny Bones talking skull outside hut
+13. Use OPERATE on skull to fry the pie (6 points)
+14. Return to hut entrance; give pie to Baba Yaga
+15. Request desired gift: Hide spell, Heal spell, or Sense Ritual location
+
+### Screenshots
+
+![Baba Yaga's hut interior showing mortar and pestle for grinding bones before pie assembly](./qfg4-puzzle2-mortar.png)
+
 [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) — Multiple independent ingredients gathered in any order from distinct sources, then synthesized at finale.
 
 ---
@@ -59,7 +98,7 @@ The player gathers bone, elderberries, and swamp goo from three locations, grind
 
 ### Problem
 
-Three Dark One ritual pillars scattered across Mordavia require the same solution: clicking colored lights in a specific sequence to reveal hidden rituals. The player learns "AVOOZLL" (red, yellow, orange, blue, green) through observation at multiple locations. At the Squid Stone pillar, placing will-o'-wisp bottles then clicking the symbol activates it. The monastery crypt contains a color-tile floor puzzle where players spell BORGOV using colored tiles. Each requires exactly six correct clicks; errors reset progress [CyricZ][CrystalShard].
+Three Dark One ritual pillars scattered across Mordavia require the same solution: clicking colored lights in a specific sequence to reveal hidden rituals. The player learns "AVOOZL" (6 letters corresponding to colored segments) by noting them on monastery crypt walls. At the Squid Stone pillar, placing will-o'-wisp bottles then clicking the symbol activates it. The monastery crypt contains a color-tile floor puzzle where players spell BORGOV using colored tiles. Each requires exactly six correct clicks; errors reset progress [CyricZ][CrystalShard].
 
 ![Squid Stone pillar activated — AVOOZLL light sequence on rotating symbol reveals hidden ritual](./qfg4-puzzle3.png)
 
@@ -69,13 +108,13 @@ This is a Pattern Learning puzzle: players observe which clicks advance the sequ
 
 ### Solution
 
-After completing initial ritual collection steps, clicking colored lights in the sequence red-yellow-orange-blue-green on activated pillars reveals hidden Dark One rituals needed for final confrontation.
+After completing initial ritual collection steps, rotating the symbol dial to spell AVOOZL on activated pillars reveals hidden Dark One rituals needed for final confrontation.
 
 ### Steps
 
 1. At Squid Stone area, place Will-o'-Wisp bottles on pillar (collected from swamp)
 2. Use Dark One Symbol on pillar to activate color cipher interface
-3. Click rotating symbol lights in sequence: Red-A-Yellow-V-Orange-O-Blue-Green-ZL-Green-L (AVOOZLL)
+3. Click rotating symbol dial segments spelling A-V-O-O-Z-L in sequence
 4. Note which clicks advance versus reset the sequence
 5. Upon correct completion, collect First Ritual scroll (6 points)
 6. Return to monastery and descend to crypt via secret passage near fireplace
@@ -84,6 +123,10 @@ After completing initial ritual collection steps, clicking colored lights in the
 9. Rightmost relief unlocks; enter for castle interior access (6 points)
 10. In Wraith Barrow crypt, use same AVOOZLL color sequence on second pillar
 11. Collect Blood Ritual scroll and treasure vault keys upon completion
+
+### Screenshots
+
+![Dark One symbol at Squid Stone with will-o'-wisp bottles placed, revealing rotating color cipher interface](./qfg4-puzzle3-squid-stone.png)
 
 [Pattern Learning](../puzzles/pattern-learning.md) — Player observes and internalizes a repeatable sequence (AVOOZLL color order) at first location then applies it successfully to identical puzzles elsewhere, distinguishing this from Observation Replay where player would watch an NPC perform actions once.
 
