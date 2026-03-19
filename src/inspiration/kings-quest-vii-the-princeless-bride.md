@@ -38,6 +38,10 @@ The player trades the mouse his glasses for a turquoise bead needed to complete 
 4. Give the mouse his glasses
 5. Trade the gourd seed (found nearby at a dried gourd plant) in exchange for a turquoise bead
 
+### Screenshots
+
+![Mouse at Rare Curiosities door after receiving glasses, about to complete trade for turquoise bead](./kings-quest-vii-the-princeless-bride-puzzle1-screenshots.png)
+
 [Information Brokerage Chain](../puzzles/information-brokerage.md) — Items are gathered specifically for trade with NPCs who need them (mouse needs glasses, gives bead). Unlike Sensory Exploitation, no NPC perception is being directly manipulated—this is a straightforward trade network chain.
 
 ---
@@ -69,6 +73,12 @@ Valanice gives the complete potion ingredients to Mathilde, reverting her from t
 8. Trade gem for hammer/chisel with worker, use tools on white dragon for scale
 9. Give bowl with green water, dragon scale, silver spoon, baked beetles to Mathilde
 
+### Screenshots
+
+![Kitchen scene showing golden bowl marked "16k Gold" on shelf; baked beetles to the right of shelves](./kings-quest-vii-the-princeless-bride-puzzle2-step1.png)
+![Dye-makers cave with purple archway; gold bowl being filled with green water from vat](./kings-quest-vii-the-princeless-bride-puzzle2-step4.png)
+![Mathilde receiving all five potion components: bowl of green water, dragon scale, silver spoon, baked beetles](./kings-quest-vii-the-princeless-bride-puzzle2-complete.png)
+
 [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) — Multiple independent requirements (five items from separate sub-puzzles) gathered in any order and synthesized at a single endpoint for the transformation. Distinguishes itself from Meta-Puzzle Construction because component outputs don't enable subsequent steps—they're all parallel tasks converging at Mathilde.
 
 ---
@@ -95,6 +105,11 @@ The correct harp melody (1-5-6-4) summons portal travel between Etheria and othe
 3. Return to the harp on a subsequent visit
 4. Press strings in the observed order: 1st, then 5th, then 6th, then 4th (left-numbered)
 5. Successfully playing the melody activates realm travel capability
+
+### Screenshots
+
+![Second screen in Etheria showing seven-stringed harp with dancing birds revealing the string pattern](./kings-quest-vii-the-princeless-bride-puzzle3-birds.png)
+![Harp interface after correctly entering 1-5-6-4 sequence, portal to realm travel now activated](./kings-quest-vii-the-princeless-bride-puzzle3-complete.png)
 
 [Observation Replay](../puzzles/observation-replay.md) — Information is gathered by watching an unrepeatable event (birds dancing), then replaying it from memory without being able to re-observe. Differs from Pattern Learning because specific sequence data is memorized rather than mechanical rules transferred to new contexts.
 
