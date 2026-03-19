@@ -1,15 +1,18 @@
-# Beneath a Steel Sky (1994)
+<!-- _category: Inspiration -->
+# Beneath A Steel Sky (1994)
 
-Beneath a Steel Sky is a 1994 Revolution Software point-and-click adventure featuring an inventory-free interface where player character Max and floating robot companion Joey solve puzzles through dialogue, exploration, and LINC-space navigation. The game's innovative touch-screen-style control scheme and non-lethal design eliminated dead ends entirely—information gathering always progressed forward—and introduced pattern-based digital puzzles alongside traditional environmental manipulation that would influence later LucasArts titles like Grim Fandango [Mitch Shaw].
+Revolution Software's 1994 sci-fi adventure demonstrates masterful integration of companion AI mechanics with puzzle design. The protagonist Robert Ford is accompanied by Joey, a free-floating robot spirit who can interact with the environment independently—creating puzzles that leverage dual-character coordination rather than simple item-inventory combinations.
 
 ## At a Glance
 
-| | |
-|---|---|
-| **Release Year** | 19994 |
+| Field | Details |
+|-------|---------|
+| **Release Year** | 1994 |
 | **Developer** | Revolution Software |
-| **Core Mechanic** | Dialogue-driven companion coordination; LINC-space pattern mini-games |
-| **What players found enjoyable** | "The game has no false steps. If it seems logical to try something, you can do it" [Mitch Shaw]. The companion-based design where Joey acts independently creates multi-character puzzles without complex switching mechanics. One walkthrough notes: "I can't think of anywhere in the game where you suffer any ill effects from saying everything you can to someone"—dialogue exhaustiveness is rewarded, never punished |
+| **Engine** | SCUMM (licensed from LucasArts) |
+| **Core Mechanic** | Companion AI enables dual-character puzzle solving; Joey's robot perception bypasses human obstacles |
+| **Player Quote** | "I can't think of anywhere in the game where you suffer any ill effects from saying everything you can to someone" — [Mitch Shaw] |
+| **Design Note** | "Joey's ability to enter the storeroom and disable the fuse box...you now have access undetected by the sensors" — [SteamAH] |
 
 ---
 
@@ -17,108 +20,111 @@ Beneath a Steel Sky is a 1994 Revolution Software point-and-click adventure feat
 
 ### Problem
 
-The player must enter Dr. Burke's office for a Schriebmann Port installation but faces a holographic receptionist who refuses entry, stating she cannot let "people" in without appointments. Max has no special credentials—only Joey, the floating robot companion with dialogue options including "Natural Charm" [Mitch Shaw].
+Dr. Burke's office door is controlled by a holographic receptionist AI that refuses entry to "unqualified visitors." The player cannot persuade her through normal dialogue options—she repeatedly rejects Robert's requests with programmed responses.
 
-![Holographic receptionist at Dr. Burke's office entrance](./beneath-a-steel-sky-receptionist.png)
+### Why It Works
 
-### What Makes It Rewarding
+This puzzle exploits the game's core comedic premise: Joey is literally a robot spirit, not a human being. The receptionist's filters are designed to screen humans, not synthetic intelligences. As Mitch Shaw notes in his walkthrough: "Ask JOEY to talk to her. Tell him to use his NATURAL CHARM." The humor lies in the bureaucratic AI failing to recognize an actual robot as non-threatening.
 
-This is a comedy-based sensory exploitation puzzle where the blocking NPC has a perception limitation—she cannot see Joey as human, making him invisible to her access control system. The player discovers this limitation through exhaustive dialogue: after being refused entry, they learn the receptionist's specific criteria (only refuses "people"), then exploit it by having Joey use his NATURAL CHARM dialogue option. Unlike typical Sensory Exploitation puzzles where items match NPC weaknesses, this uses a companion's inherent trait—non-human status—as the bypass method. The tone-shifting from bureaucratic denial to mechanical vulnerability exemplifies BAS's humorous approach: "Ask JOEY to talk to her. Tell him to use his NATURAL CHARM" [Mitch Shaw].
+The solution chain rewards players who remember Joey's unique capabilities rather than forcing repeated human dialogue attempts. It validates the companion mechanic by making Joey essential, not optional.
 
 ### Solution
 
-The player has Joey use Natural Charm on the holographic receptionist; she allows both companions entry, unaware a robot bypassed her authority.
+Delegate conversation to Joey and instruct him to use his robot charm on the receptionist.
 
 ### Steps
 
-1. Talk to the holographic receptionist until she refuses entry (citing no appointment)
-2. Note her specific refusal criteria: she blocks "people" only
-3. Ask Joey to talk to the receptionist using his Natural Charm option
-4. The door opens automatically after Joey's dialogue succeeds
-5. Enter Dr. Burke's office while receptionist remains unaware of being bypassed
+1. Exhaust all dialogue options with the holographic receptionist until she refuses entry
+2. Select Joey from your character controls
+3. Choose "Talk to her" → "Use natural charm"
+4. Receptionist accepts Joey's credentials and opens the door
+5. Enter Dr. Burke's office
 
-[Sensory Exploitation](../puzzles/sensory-exploitation.md) — The holographic receptionist has a perceptual blind spot (non-human entities). This differs from Distraction Physics where environmental manipulation creates the opportunity; here, the NPC's sensory weakness is directly targeted by companion action.
+**Pattern Type:** [[Sensory Exploitation]](../puzzles/sensory-exploitation.md) — exploits NPC perception weakness (receptionist screens humans, not robots)  
+**Also Uses:** [[Comedy-Based NPC Persuasion]](../puzzles/comedy-based-persuasion.md) — humor derived from Joey's unexpected success
 
 ---
 
-## Puzzle 2: LINC-Space Password System
+## Puzzle 2: LINC-Space Password Bridge Navigation
 
 ### Problem
 
-After gaining entry to LINC-Space through various interfaces, the player encounters a restricted door guarded by an eye-scanner interface. To unlock it, two password documents must be used in sequence. The passwords are visually represented as colored swirling patterns (green and red) obtained from decrypted documents throughout earlier progression [Mitch Shaw].
+Inside LINC-Space (the game's virtual reality network), the player must cross a bridge of plasma tiles to reach restricted data. Each tile requires a specific password symbol—green or red yin-yang patterns—but the passwords are locked inside compressed digital files scattered across different virtual rooms.
 
-![LINC-Space password interface showing eye scanner](./beneath-a-steel-sky-linc-password.png)
+### Why It Works
 
-### What Makes It Rewarding
+This puzzle demonstrates elegant information layering: the player receives decrypt and decompress tools in one room, but must apply them to files found elsewhere before they can progress. As SteamAH explains: "Decompress the Compressed Data to give you 'Green & Red passwords'" then later, "Place the 'Red Password' on the tile you're standing on. This opens a bridge for you to cross between tiles."
 
-This is the first adventure game implementation of abstract symbol-to-interface action translation where visual patterns directly map to menu sequence actions. The player learns a system—each document represents a discrete input value—then applies it exhaustively: using PASSWORDS "to get to the DOOR on the NORTH side" requires selecting both green and red swirls in correct order from an on-screen palette [Mitch Shaw]. Unlike pure Pattern Learning where rules are discovered through trial, here the visual symbols on documents clearly correspond to interface options (same swirling color patterns appear as clickable icons). This establishes a direct, non-arbitrary connection between information gathered and action required—no guesswork, only pattern matching across domains (physical documents → LINC-Space interface).
+The mechanical clarity comes from explicit visual cues: tiles light up when the correct symbol is used, providing instant feedback. The cross-domain pattern matching (green-red alternation) is discoverable through experimentation without requiring external knowledge.
 
 ### Solution
 
-The player uses two password documents displaying colored swirls by selecting matching colors on the door interface in correct sequence.
+Decrypt and decompress data containers across LINC-Space rooms to extract password symbols, then alternate them on bridge tiles to create a path forward.
 
 ### Steps
 
-1. Enter LINC-Space through an interface terminal
-2. Navigate north until reaching a locked door with eye-scanner interface
-3. Use DECRYPT program on previously collected documents revealing password patterns
-4. The passwords appear as green swirl and red swirl colored symbols
-5. Select the two colors in correct order on the door's interface menu bar
-6. Door unlocks, granting access to restricted area containing VIRUS
+1. Collect the BALL (compressed data with red/green yin-yang symbol) from first LINC-Space room
+2. Use OPEN command on CARPET BAG in second room to obtain MAGNIFYING GLASS (Decrypt) and SURPRISE GIFT (Decompress) commands
+3. Apply DECRYPT to two documents marked with "?" symbols
+4. Apply DECOMPRESS to the BALL data, creating RED PASSWORD and GREEN PASSWORD items
+5. Cross bridge tiles by alternating passwords: place RED on current tile, collect it from next tile, then GREEN, etc.
+6. Reach thick plasma beam to access restricted area containing BUST (Phoenix) and DOCUMENT
 
-[Symbol Code Translation](../puzzles/symbol-code-translation.md) — Visual symbols on decrypted documents (colored swirls) translate to interface actions via shape/color matching and order. Each password represents discrete input values applied exhaustively. This distinguishes from Pattern Learning: the rule is one-shot application of discovered codes, not learning a system to apply in multiple contexts.
+**Pattern Type:** [[Symbol Code Translation]](../puzzles/symbol-code-translation.md) — visual symbols must be matched to matching surfaces in sequence  
+**Also Uses:** [[Meta-Puzzle Construction]](../puzzles/meta-puzzle-construction.md) — tools gathered early enable later puzzle resolution
 
 ---
 
-## Puzzle 3: St. James Club Entry
+## Puzzle 3: St. James Club Entry Via Coordinated Distraction
 
 ### Problem
 
-The player must infiltrate the exclusive St. James Club to rescue captive Anita but faces three independent barriers: (1) Doorman requiring sponsorship from Mrs. Piermont, (2) Guard Officer Blunt patrolling constantly during band performance, and (3) Dog Spunky barking if food is left unattended outside. Each obstacle requires separate information gathering from different NPCs (Gardener/Eduardo on dandelions, Piermont on club access requirements, Band Colston on fingerprints) before synthesis [Mitch Shaw].
+The St. James Club's entrance is guarded by Officer Blunt, who will not let Robert pass without membership sponsorship from Mrs. Piermont. Even after she agrees to sponsor him, the club remains inaccessible because Blunt maintains constant vigilance. The player must create a distraction compelling enough to draw both Blunt AND Mrs. Piermont away simultaneously.
 
-![St. James Club entrance with doorman and pool area](./beneath-a-steel-sky-st-james.png)
+### Why It Works
 
-### What Makes It Rewarding
+This multi-faceted puzzle rewards systemic thinking: the player gathers components across different locations (dog biscuits from Piermont's apartment, rope access near the pool, plank positioning) that only synthesize into a solution when combined. As SteamAH details the sequence: "Put the DOG BISCUITS on the PLANK" then later "Use the ROPE to lower the PLANK, drawing Spunky [the dog] on it and catapulting him into the pool."
 
-This is a canonical Multi-Faceted Plan puzzle where independent requirements must be gathered from disparate sources then combined in precise coordination. The "Gardener" admits he isn't one after the player asks the local boy about dandelions (he claimed they should be blue, but boy says yellow), revealing Eduardo and his information on Anita's capture location [Mitch Shaw]. Independently, the player learns Mrs. Piermont needs to sponsor entry, her dog Spunky responds to Dog Biscuits found in her apartment after VIDEOTAPE triggers monitor barking, and Officer Blunt leaves his post when Spunky is rope-launched into the pool. The synthesis moment—"put the DOG BISCUITS on the PLANK" [Mitch Shaw]—requires all threads: bait placement timing, BLUNT's distraction window, and previously-obtained SPUNKY rope action. Unlike Meta-Puzzle Construction where each step enables the next, all requirements here can theoretically gather in any order; coordination only matters at execution.
+The temporal coordination requirement adds emergent complexity—the player must time rope activation with the dog's position, creating genuine tension. Unlike simple keycard puzzles, this solution feels earned through environmental manipulation rather than item collection.
 
 ### Solution
 
-The player creates a multi-stage distraction using dog biscuits as bait, launches Spunky into the pool with the rope to draw Officer Blunt away, then enters the club during his absence to find Anita.
+Create a chain distraction: place dog biscuits on a rope-launched plank to catapult Mrs. Piermont's dog Spunky into the pool, drawing both her and Officer Blunt away from the entrance.
 
 ### Steps
 
-1. Talk to Mrs. Piermont about club sponsorship requirements; schedule her endorsement
-2. Obtain Videotape from Lamb's apartment earlier in game
-3. Return to Piermont's apartment; insert Videotape in VCR while she calls club
-4. When Spunky barks at monitor, examine his bowl and take Dog Biscuits
-5. Locate bricks and plank near club area (from construction work)
-6. Place Dog Biscuits on the Plank as bait for distraction setup
-7. Enter St. James Club while band plays; talk to Colston then leave
-8. When BLUNT abandons post to help Piermont with Spunky incident, enter Cathedral through unguarded entrance
-9. Access locker room and find Anita behind middle door
+1. Obtain DOG BISCUITS from Mrs. Piermont's apartment (distract Spunky with videotape while stealing them)
+2. Locate ground level plaza near pool where BRICKS and PLANK are stacked
+3. Place DOG BISCUITS on top of the PLANK
+4. Wait for Mrs. Piermont and Spunky to return from club after membership call
+5. When Spunky sniffs the biscuits on the plank, use ROPE mechanism to launch plank into pool with dog
+6. Officer Blunt runs to rescue Spunky; Mrs. Piermont follows in panic
+7. Enter St. James Club while both are distracted at the pool
 
-[Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) — Independent requirements gathered from different sources (sponsorship, biscuits, plank placement, timing) synthesized at execution. The Distraction Physics element—using dog's food response to break guard pattern—is a component within the larger multi-faceted plan rather than the complete solution.
-
----
-
-## Other Puzzles
-
-| Name | Problem & Solution | Pattern Type |
-|------|-------------------|--------------|
-| Joey Robot Shell Repair | "Put the welder shell on him" using WRENCH from machine + disabled FUSE BOX stores access to give Joey functional body [Mitch Shaw] | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
-| Anchor Grappling Hook | Cable cut from power plant elevator combined with anchor statue (welded loose by Joey) forms escape tool to adjacent building: "Use the ANCHOR with the CABLE to form a GRAPPLING HOOK" [Mitch Shaw] | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
-| Lamb Factory Tour Trap | Ticket from travel agency obtained via magazine; tour ends when machine broken (earlier by player), Lamb leaves, assets frozen through LINC-Space D-Linc security system for cat/room access | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
-| Hologram Charm Entry | "Ask JOEY to talk to her. Tell him to use his NATURAL CHARM" bypasses receptionist who blocks only humans | [Sensory Exploitation](../puzzles/sensory-exploitation.md) |
-| Power Plant Button Chaos | Joey pushes first button, player pushes second simultaneously; "A PIPE will burst, and the OLD MAN will leave"—enables cable and light bulb collection | [Distraction Physics](../puzzles/distraction-physics.md) |
-| LINC-Space Blind Eye Hack | BLIND program applied to security eyes temporarily disables surveillance; timing-dependent acquisition of TUNING FORK while eyes remain blinded (white state) | [Timed Consequence](./timed-consequence.md) |
-| Reactor Linc Card Retrieval | Radiation suit from Anita's death scene locker worn before entering reactor lobby; enables accessing otherwise lethal environment for secondary LINC card | [Cross-Realm Logistics](../puzzles/cross-realm-logistics.md) |
-| Vein/Plaster Brute Force | Crowbar drives into plaster behind swelling vein, brickwork exposed, crowbar levered again with brick as hammer—"Use the BRICK on the CROWBAR" to breach wall [Mitch Shaw] | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
-| Temperature Tank Room Escape | Control unit reduces temperature; player stands on aperature while pulling metal bar loosens grate enough to collapse for android distraction | [Multi-Character Coordination](../puzzles/multi-character-coordination.md) |
-| Android Character Data Download | Circuit board retrieved from destroyed medical robot placed in cabinet; console DOWNLOAD CHARACTER DATA transfers Joey's data, RUN STARTUP PROGRAM transforms him into Ken | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
+**Pattern Type:** [[Multi-Faceted Plan]](../puzzles/multi-faceted-plan.md) — multiple requirements (biscuits, plank access, rope timing) gathered independently, synthesized at climax  
+**Also Uses:** [[NPC Distraction Physics]](../puzzles/distraction-physics.md) — physical event (dog launch) creates time window for infiltration
 
 ---
 
-### References
+## Other Notable Puzzles
 
-[Mitch Shaw] Mitch Shaw, Preter Human Walkthrough (1994). https://docs.preterhuman.net/BENEATH_A_STEEL_SKY_WALKTHROUGH
+| Puzzle | Core Pattern Type | Brief Description |
+|--------|-------------------|-------------------|
+| Joey Robot Shell Repair | [[Meta-Puzzle Construction]](../puzzles/meta-puzzle-construction.md) | Activate Joey's AI, then later upgrade his shell with welder mod for environmental interaction |
+| Anchor Grappling Hook Creation | [[Meta-Puzzle Construction]](../puzzles/meta-puzzle-construction.md) | Combine ANCHOR from insurance office statue with CABLE cut from upper level to form GRAPPLING HOOK |
+| Power Plant Button Chaos | [[Multi-Character Coordination]](../puzzles/multi-character-coordination.md) | Player and Joey must press two buttons simultaneously to overload steam valve and clear room |
+| LINC-Space Blind Eye Hack | [[Timed Consequence]](../puzzles/timed-consequence.md) |盲 the monitoring eyeballs for limited time window to retrieve TUNING FORK before they reactivate |
+| Reactor LINCCard Retrieval | [[Cross-Realm Logistics]](../puzzles/cross-realm-logistics.md) | Wear radiation suit from factory, enter reactor zone, extract LINCCard needed for security terminal access |
+| Temperature Tank Room Escape | [[Multi-Character Coordination]](../puzzles/multi-character-coordination.md) | Joey opens nutrient tank tap while player exploits temperature change to drop android through grate |
+
+---
+
+## References
+
+**Primary Sources:**
+
+[Mitch Shaw]: https://docs.preterhuman.net/BENEATH_A_STEEL_SKY_WALKTHROUGH  
+Mitch Shaw's walkthrough (1994), documented on Higher Intellect Documents. Original fan-created guide known for concise solutions and humorous commentary.
+
+[SteamAH]: https://steamah.com/beneath-a-steel-sky-100-walkthrough/  
+SteamAH 100% Walkthrough (2020). Modern detailed walkthrough with step-by-step mechanical breakdowns, useful for cross-verifying Mitch Shaw's original solutions against contemporary playthrough data.

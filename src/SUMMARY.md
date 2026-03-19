@@ -13,6 +13,7 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 
 ## Games Analyzed
 
+- [Beneath a Steel Sky (1994)](inspiration/beneath-a-steel-sky.md)
 - [Loom (1990)](inspiration/loom.md)
 
 # Multi-Source Discovery
