@@ -239,3 +239,176 @@
     - [x] broken-sword-1-shadow-of-the-templars.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] beneath-a-steel-sky.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] loom.md - add Screenshots sections after Steps, verify against walkthroughs
+
+
+# Puzzle Type Hierarchy Reorganization
+
+## Phase 0: Create Parent Category Overview Pages (6 files)
+- [ ] Create information-discovery-parent.md
+  - Write overview explaining information-as-puzzle-solution domain
+  - Link to all 6 child types with brief descriptions
+  - Commit after creation
+  
+- [ ] Create cognitive-transfer-parent.md
+  - Write overview explaining learned-system-application domain
+  - Link to Pattern Learning, Symbol Code, Metaphor Bridge, Sensory Exploitation, Observation Replay
+  - Commit after creation
+
+- [ ] Create spatial-temporal-coordination-parent.md
+  - Write overview explaining cross-context coordination puzzles
+  - Link to Cross-Temporal Causality, Cross-Realm Logistics, Multi-Character Coordination, Timed Consequence
+  - Commit after creation
+
+- [ ] Create npc-interaction-parent.md
+  - Write overview explaining social/dialogue-based puzzle domain
+  - Link to Comedy Persuasion, Distraction & Environmental Manipulation, Class-Specific Challenges, Multi-Faction Diplomacy
+  - Commit after creation
+
+- [ ] Create systems-and-logic-parent.md
+  - Write overview explaining formal system puzzles (programming, combat-as-puzzle)
+  - Link to Robot Programming, Escalating Combat Progression
+  - Commit after creation
+
+- [ ] Create non-standard-domains-parent.md
+  - Write overview explaining non-realistic-causality domain
+  - Link to Surreal Logic Bridge
+  - Commit after creation
+
+## Phase 1: Core Restructuring (Sequential Construction Merge)
+- [ ] Read meta-puzzle-construction.md content
+  - Document current structure and examples for merge planning
+  
+- [ ] Read repair-chain-construction.md content
+  - Identify SQ3 escape pod example and any other unique content
+
+- [ ] Create sequential-construction.md (rename + merge)
+  - Start with meta-puzzle-construction.md content
+  - Add "Repair/Restoration Chains" section with SQ3 escape pod
+  - Update headers to reflect new parent categorization
+  - Commit after creation
+
+- [ ] Delete repair-chain-construction.md
+  - Verify all content migrated first
+  - Remove file and commit
+
+- [ ] Restructure multi-faceted-plan.md
+  - Explicitly define "Parallel MFP" as primary variant (non-linear gathering)
+  - Remove claim that Sequential Construction is a variation
+  - Update Related Types table to reference Sequential Construction as sibling type
+  - Keep parallel examples only (MI1 Voodoo Doll, SMHTR Bigfoot Totem)
+  - Commit after restructuring
+
+## Phase 2: Delete Redundant Types (Content Redistribution)
+- [ ] Read corporate-infiltration.md content
+  - Extract SQ3 ScummSoft example for redistribution
+
+- [ ] Redistribute corporate-infiltration.md content
+  - Move SQ3 ScummSoft Janitor Disguise to distraction-physics.md (stealth section)
+  - If credential gathering chain exists → move to sequential-construction.md
+  - Commit after redistribution complete
+
+- [ ] Delete corporate-infiltration.md file
+  - Verify content moved, then remove and commit
+
+- [ ] Read predator-chase-escape.md content
+  - Extract G1 cop chase example details
+  - Extract QFG3 leopardman fight details
+
+- [ ] Redistribute predator-chase-escape.md content
+  - Move Gabriel Knight 1 cop chase to distraction-physics.md (as Predator Rerouting variant)
+  - Add reference in timed-consequence.md for urgency framing
+  - Evaluate QFG3 leopardman for escalating-combat-progression.md or discard if pure action
+  - Commit after redistribution
+
+- [ ] Delete predator-chase-escape.md file
+  - Verify content moved, then remove and commit
+
+## Phase 3: Specific Type Reorganizations
+- [ ] Promote and expand metaphor-literal.md
+  - Restructure with explicit subtype sections:
+    - Visual Metaphor Transformation (MI2 painted tree → cherry tree)
+    - Wordplay Literalization (SMHTR Bumpus vegetable identity proxy)
+    - Symbolic Identity Substitution (general framework)
+  - Update Related Types to connect with Pattern Learning and Comedy Persuasion
+  - Move to Cognitive Transfer category in SUMMARY.md later
+  - Commit after restructuring
+
+- [ ] Document Pattern Learning ↔ Symbol Code Translation relationship
+  - In pattern-learning.md: Add "Extended Visual Variant" section describing Symbol Code
+  - In symbol-code-translation.md: Clarify it "extends Pattern Learning" with visual mapping layer
+  - Update Related Types sections in both files to reference each other
+  - Commit after updates
+
+- [ ] Clarify Cross-Temporal Causality ↔ Cross-Realm Logistics relationship
+  - In cross-temporal-causality.md: Add Cross-Realm as "Dimensional Variant" in Related Types
+  - In cross-realm-logistics.md: Add CTC as "Temporal equivalent" in Related Types
+  - Add note that both share same underlying mechanic (action across separated context)
+  - Commit after updates
+
+## Phase 4: Distractor Physics Expansion & Rename
+- [ ] Read distraction-physics.md current content
+  - Document existing structure before adding new sections
+
+- [ ] Rename distraction-physics.md → distraction-environmental-manipulation.md
+  - Add "Predator Rerouting" subsection from redistributed predator-chase content
+  - Integrate SQ3 ScummSoft stealth section from corporate-infiltration
+  - Update Related Types to connect with Timed Consequence
+  - Commit after rename complete
+
+## Phase 5: Cross-Reference Cleanup in Puzzle Type Files
+- [ ] Audit all puzzle type files for deleted file references
+  - Search for "corporate-infiltration" links and update to appropriate replacements
+  - Search for "predator-chase-escape" links and update to Timed Consequence or Combat
+  - Search for "meta-puzzle-construction" links and update to "sequential-construction"
+  - Search for "repair-chain-construction" links and update to "sequential-construction"
+  - Commit after bulk updates
+
+- [ ] Update Related Types sections across all files
+  - Ensure deleted types no longer appear in any Related Types tables
+  - Fix all meta-puzzle → sequential construction references
+  - Verify Multi-Faceted Plan ↔ Sequential Construction relationship is clear
+  - Commit after updates
+
+## Phase 6: Cross-Reference Cleanup in Inspiration Pages
+- [ ] Audit broken-sword-1.md for deleted/rename references
+- [ ] Audit maniac-mansion.md for deleted/rename references  
+- [ ] Audit day-of-the-tentacle.md for deleted/rename references
+- [ ] Audit grim-fandango.md for deleted/rename references
+  - Specifically check meta-puzzle → sequential-construction links
+- [ ] Audit gabriel-knight-1-sins-of-the-fathers.md
+  - Update predator-chase references to Timed Consequence or Distraction
+- [ ] Audit spacequest-iii-the-pirates-of-pestulon.md
+  - Update corporate-infiltration references appropriately
+- [ ] Audit remaining inspiration pages for broken links
+- [ ] Commit after each batch of 2-3 files updated
+
+## Phase 7: SUMMARY.md Hierarchical Restructure
+- [ ] Read current SUMMARY.md structure
+- [ ] Add parent category groupings with descriptions
+- [ ] Move puzzle type links under appropriate parent categories
+- [ ] Remove deleted file entries (corporate-infiltration, predator-chase-escape, repair-chain)
+- [ ] Update link references (meta-puzzle → sequential-construction, distraction-physics → distraction-environmental-manipulation)
+- [ ] Commit after restructuring complete
+
+## Phase 8: Validation & Build
+- [ ] Run `mdbook build` to verify no broken links
+- [ ] If build fails, analyze errors and fix broken links
+- [ ] Final grep search for any remaining references to:
+  - corporate-infiltration
+  - predator-chase-escape
+  - repair-chain-construction
+  - meta-puzzle-construction
+- [ ] Commit final fixes if needed
+
+## Deliverables Checklist
+- [ ] 6 parent category overview pages created
+- [ ] sequential-construction.md exists (meta-puzzle + repair-chain merged)
+- [ ] corporate-infiltration.md deleted, content redistributed
+- [ ] predator-chase-escape.md deleted, content redistributed
+- [ ] repair-chain-construction.md deleted, content merged
+- [ ] distraction-environmental-manipulation.md renamed from distraction-physics.md
+- [ ] All Related Types sections updated across all puzzle type files
+- [ ] All Inspiration pages checked and links fixed
+- [ ] SUMMARY.md restructured hierarchically under parent categories
+- [ ] mdbook build passes with no broken links
+- [ ] At least 25 commits created (one per completed task)
