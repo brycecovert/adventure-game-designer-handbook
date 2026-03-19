@@ -361,6 +361,23 @@ See [REFACTOR_PUZZLE_TYPES.md](../REFACTOR_PUZZLE_TYPES.md) for detailed plan.
 - [ ] Review and cleanup remaining puzzle type pages (≤400 lines each)
 - [ ] Verify Related Types tables are consistent across all pages
 
+## Tier 3 Refactoring Tasks (15 files - need format cleanup)
+- [x] Refactor `truth-revelation.md` (124 lines → ensure ≤400, 3 examples, proper format)
+- [x] Refactor `cross-temporal-causality.md` (456 lines → trim to 3 examples, proper format)
+- [x] Refactor `cross-realm-logistics.md` (472 lines → trim to 3 examples, proper format)
+- [x] Refactor `multi-character-coordination.md` (662 lines → trim to 3 examples, proper format)
+- [ ] Refactor `timed-consequence.md` (528 lines → trim to 3 examples, proper format)
+- [ ] Refactor `comedy-based-persuasion.md` (230 lines → ensure proper format)
+- [ ] Refactor `distraction-environmental-manipulation.md` (551 lines → trim to 3 examples)
+- [ ] Refactor `class-specific-ritual.md` (299 lines → trim to 3 examples, proper format)
+- [ ] Refactor `multi-faction-diplomacy.md` (233 lines → trim to 3 examples, proper format)
+- [ ] Refactor `robot-programming.md` (314 lines → trim to 3 examples, proper format)
+- [ ] Refactor `escalating-combat-progression.md` (302 lines → trim to 3 examples, proper format)
+- [ ] Refactor `surreal-logic-bridge.md` (247 lines → ensure proper format)
+- [ ] Refactor `metaphor-literal.md` (252 lines → ensure proper format)
+- [ ] Refactor `observation-replay.md` (620 lines → trim to 3 examples, proper format)
+- [ ] Refactor `symbol-code-translation.md` (800+ lines → trim to 3 examples, proper format)
+
 ## Phase 4: Validation
 - [ ] Run `npx remark-cli` on all changed files
 - [ ] Run `mdbook build` to verify no broken links
