@@ -24,6 +24,7 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 - [Indiana Jones and the Fate of Atlantis (1992)](inspiration/indiana-jones-and-the-fate-of-atlantis.md)
 - [Indiana Jones and the Last Crusade (1989)](inspiration/indiana-jones-and-the-last-crusade.md)
 - [King's Quest III: To Heir Is Human (1986)](inspiration/kings-quest-iii-to-heir-is-human.md)
+- [King's Quest VII: The Princeless Bride (1994)](inspiration/kings-quest-vii-the-princeless-bride.md)
 
 # Multi-Source Discovery
 
