@@ -167,11 +167,11 @@
 	- [x] Link each puzzle to its pattern type from the Playbook
 
 	
-- [ ] Spacequest III: The Pirates of Pestulon: analyze walkthrough and create game section
-	- [ ] Examine walkthrough files in src/walkthroughs/spacequest-iii/
-	- [ ] Identify the 3 best puzzles using analysis-checklist.md criteria
-	- [ ] Write Problem/Why It Works/Solution/Steps for each puzzle
-	- [ ] Link each puzzle to its pattern type from the Playbook
+- [x] Spacequest III: The Pirates of Pestulon: analyze walkthrough and create game section
+	- [x] Examine walkthrough files in src/walkthroughs/spacequest-iii/
+	- [x] Identify the 3 best puzzles using analysis-checklist.md criteria
+	- [x] Write Problem/Why It Works/Solution/Steps for each puzzle
+	- [x] Link each puzzle to its pattern type from the Playbook
 
 	
 - [ ] Spacequest IV: The Rogerwars: analyze walkthrough and create game section
