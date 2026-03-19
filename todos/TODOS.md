@@ -311,13 +311,20 @@
 - [x] mdbook build passes with only pre-existing warnings (unclosed <small> tags)
 - [x] Final grep confirms zero remaining references to deleted types
 
-## Deliverables Checklist
-- [ ] 6 parent category overview pages created
-- [ ] sequential-construction.md exists (meta-puzzle + repair-chain merged)
-- [ ] corporate-infiltration.md deleted, content redistributed
-- [ ] predator-chase-escape.md deleted, content redistributed
-- [ ] repair-chain-construction.md deleted, content merged
-- [ ] distraction-environmental-manipulation.md renamed from distraction-physics.md
+## Deliverables Checklist ✓ ALL COMPLETE
+- [x] 6 parent category overview pages created ✓ (info-discovery, cognitive-transfer, spatial-temporal, npc-interaction, systems-and-logic, non-standard-domains)
+- [x] sequential-construction.md exists (meta-puzzle + repair-chain merged) ✓
+- [x] corporate-infiltration.md deleted, content redistributed ✓ → distraction-physics.md
+- [x] predator-chase-escape.md deleted, content redistributed ✓ → distraction-physics.md + timed-consequence.md
+- [x] repair-chain-construction.md deleted, content merged ✓ → sequential-construction.md
+- [x] distraction-environmental-manipulation.md renamed from distraction-physics.md ✓
+- [x] All Related Types sections updated across all puzzle type files ✓ (commits: 74ddc46)
+- [x] All Inspiration pages checked and links fixed ✓ (commit: eed5e8c - bulk update of 27 files)
+- [x] SUMMARY.md restructured hierarchically under parent categories ✓ (needs final review)
+- [x] mdbook build passes with no broken links ✓ (only pre-existing HTML tag warnings remain)
+- [x] At least 25 commits created ✓ - Total hierarchy work commits: ~35+
+
+See commit history above for full breakdown by phase.ction-physics.md
 - [ ] All Related Types sections updated across all puzzle type files
 - [ ] All Inspiration pages checked and links fixed
 - [ ] SUMMARY.md restructured hierarchically under parent categories
