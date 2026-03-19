@@ -43,61 +43,53 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 - [SpaceQuest III: The Pirates of Pestulon (1989)](inspiration/spacequest-iii-the-pirates-of-pestulon.md)
 - [SpaceQuest IV: The Rogerwars (1991)](inspiration/spacequest-iv-the-rogerwars.md)
 
-# Multi-Source Discovery
+# Puzzle Taxonomy
 
-- [Multi-Faceted Plan](puzzles/multi-faceted-plan.md)
-- [Information Brokerage Chain](puzzles/information-brokerage.md)
+### Information Discovery Puzzles
+Puzzles solved by gathering information from multiple sources and synthesizing it into actionable knowledge. [Information Discovery Overview](puzzles/information-discovery-overview.md)
+
+- [Parallel Multi-Faceted Plans](puzzles/multi-faceted-plan.md)
+- [Sequential Construction](puzzles/sequential-construction.md)
+- [Information Brokerage Chains](puzzles/information-brokerage.md)
 - [Environmental Storytelling Discovery](puzzles/environmental-storytelling.md)
+- [Memo Chain Fragments](puzzles/memo-chain.md)
 - [Truth Revelation Mechanic](puzzles/truth-revelation.md)
 
-# Cross-Domain Logistics
+### Cognitive Transfer Puzzles
+Puzzles requiring players to learn a system in one context and apply it in another, transferring learned knowledge across domains. [Cognitive Transfer Overview](puzzles/cognitive-transfer-overview.md)
 
-- [Cross-Realm Logistics](puzzles/cross-realm-logistics.md)
-- [Memo Chain](puzzles/memo-chain.md)
-
-# Observation & Memory
-
+- [Pattern Learning / Knowledge Transfer](puzzles/pattern-learning.md)
+- [Symbol Code Translation](puzzles/symbol-code-translation.md)
+- [Metaphor-to-Literal Bridges](puzzles/metaphor-literal.md)
 - [Sensory Exploitation](puzzles/sensory-exploitation.md)
 - [Observation Replay](puzzles/observation-replay.md)
-- [Pattern Learning / Knowledge Transfer](puzzles/pattern-learning.md)
 
-# Sequential Construction
+### Spatial & Temporal Coordination
+Puzzles requiring coordination across different spaces, times, or character perspectives. [Spatial & Temporal Overview](puzzles/spatial-temporal-coordination-overview.md)
 
-- [Sequential Construction (includes repair chains)](puzzles/sequential-construction.md)
-
-# Time-Based Mechanics
-
-- [Timed Consequence](puzzles/timed-consequence.md)
 - [Cross-Temporal Causality](puzzles/cross-temporal-causality.md)
-
-# Translation & Decoding
-
-- [Metaphor-to-Literal Translation](puzzles/metaphor-literal.md)
-- [Symbol Code Translation](puzzles/symbol-code-translation.md)
-
-# NPC Interaction
-
-- [Distraction & Environmental Manipulation](puzzles/distraction-environmental-manipulation.md)
-- [Comedy-Based NPC Persuasion](puzzles/comedy-based-persuasion.md)
-
-# Coordinated Actions
-
+- [Cross-Realm Logistics](puzzles/cross-realm-logistics.md)
 - [Multi-Character Coordination](puzzles/multi-character-coordination.md)
+- [Timed Consequence](puzzles/timed-consequence.md)
 
-# Systems & Logic
+### NPC Interaction & Social Puzzles
+Puzzles solved through dialogue, social manipulation, and understanding NPC motivations and hierarchies. [NPC Interaction Overview](puzzles/npc-interaction-overview.md)
 
-- [Systems & Logic Overview](puzzles/systems-and-logic-overview.md)
+- [Comedy-Based Persuasion](puzzles/comedy-based-persuasion.md)
+- [Distraction & Environmental Manipulation](puzzles/distraction-environmental-manipulation.md)
+- [Class-Specific Challenges](puzzles/class-specific-ritual.md)
+- [Multi-Faction Diplomacy](puzzles/multi-faction-diplomacy.md)
+
+### Systems & Logic Puzzles
+Puzzles based on formal systems, programming logic, or structured rules. [Systems & Logic Overview](puzzles/systems-and-logic-overview.md)
+
 - [Robot Programming / Color-Encoded Sequences](puzzles/robot-programming.md)
 - [Escalating Combat Progression](puzzles/escalating-combat-progression.md)
 
-# Class & Faction Systems
+### Non-Standard Logic Domains
+Puzzles operating on non-realistic causality or surreal logic that defies conventional reasoning. [Non-Standard Domains Overview](puzzles/non-standard-domains-overview.md)
 
-- [Class-Specific Ritual Challenge](puzzles/class-specific-ritual.md)
-- [Multi-Faction Diplomacy](puzzles/multi-faction-diplomacy.md)
-
-# Surreal Mechanics
-
-- [Surreal Logic Bridge](puzzles/surreal-logic-bridge.md)
+- [Surreal Logic Bridges](puzzles/surreal-logic-bridge.md)
 
 # Documentation Guidelines
 
