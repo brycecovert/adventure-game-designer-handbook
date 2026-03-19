@@ -333,16 +333,21 @@ See commit history above for full breakdown by phase.
 See [REFACTOR_PUZZLE_TYPES.md](../REFACTOR_PUZZLE_TYPES.md) for detailed plan.
 
 ## Phase 1: Pilot - Refactor Tier 1 Pages (Most Verbose)
-- [ ] Refactor `pattern-learning.md` (target: ≤400 lines, 3 examples)
+- [x] Refactor `pattern-learning.md` (target: ≤400 lines, 3 examples)
   - Keep: Core Mechanic, Solution Chain, 3 best examples
   - Move: Extended MI2/MI1/BAS/QFG4 analysis → respective game inspiration pages
   - Commit after each change
-- [ ] Refactor `sensory-exploitation.md` (target: ≤400 lines, 3 examples)
+- [x] Refactor `sensory-exploitation.md` (target: ≤400 lines, 3 examples)
   - Keep: Core Mechanic, 3 examples (parrot, poodle, Medusa mirror)
   - Move: QFG3 honeybird/meerbat, Loom tower, etc. → inspiration pages
-- [ ] Refactor `multi-faceted-plan.md` (target: ≤400 lines, 3 examples)
+- [x] Refactor `multi-faceted-plan.md` (target: ≤400 lines, 3 examples)
   - Keep: Core Mechanic, parallel MFP examples only
   - Move: QFG2/QFG3/QFG4 multi-examples → inspiration pages
+
+## Phase 1 Status
+- [x] pattern-learning.md refactored (75 lines)
+- [x] sensory-exploitation.md refactored (88 lines)
+- [x] multi-faceted-plan.md refactored (89 lines)
 
 ## Phase 2: Refactor Tier 2 Pages
 - [ ] Refactor `sequential-construction.md` — needs Core Mechanic, trim examples
