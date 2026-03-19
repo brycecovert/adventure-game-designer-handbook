@@ -109,7 +109,7 @@ The wizard combines all three items to create the ring of illumination, allowing
 
 ![Wizard at workbench with three crafting ingredients displayed: ring, torch ashes in container, and sacred candle](./kings-quest-viii-mask-of-eternity-puzzle3-screenshots.png)
 
-[Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Multiple sequential sub-puzzles each produce unique components that are synthesized at a single endpoint (wizard's crafting station). Distinguishes from Multi-Faceted Plan because item collection follows dependency chain: tomb must be accessed before ashes/ring can appear, church climb requires rope obtained from mill—each output enables next step rather than parallel independent tasks.
+[Meta-Puzzle Construction](../puzzles/sequential-construction.md) — Multiple sequential sub-puzzles each produce unique components that are synthesized at a single endpoint (wizard's crafting station). Distinguishes from Multi-Faceted Plan because item collection follows dependency chain: tomb must be accessed before ashes/ring can appear, church climb requires rope obtained from mill—each output enables next step rather than parallel independent tasks.
 
 ---
 

@@ -156,13 +156,13 @@ Hieroglyphics decoded in Sphinx allow pyramid entry; four characters simultaneou
 |------|-------------------|--------------|
 | Blue Crystal Cave Entrance | Use remote control on Ankh-marked wall to open secret door; retrieve blue crystal for later use | [Sensory Exploitation](../puzzles/sensory-exploitation.md) |
 | Squirrel Peanut Trade | Feed peanuts to two-headed squirrel in Seattle cave; squirrel allows passage through otherwise-blocked area | [Information Brokerage](../puzzles/information-brokerage.md) |
-| Plane Microwave Egg Cook | Use plane microwave (after bathroom flood distracts stewardess) to cook egg, retrieve oxygen tank from overhead bin | [Distraction Physics](../puzzles/distraction-physics.md) |
+| Plane Microwave Egg Cook | Use plane microwave (after bathroom flood distracts stewardess) to cook egg, retrieve oxygen tank from overhead bin | [Distraction Physics](../puzzles/distraction-environmental-manipulation.md) |
 | Dolphin Seaweed Treasure Hunt | Use blue crystal on dolphin; transform into dolphin and search underwater seaweed until finding glowing object | [Sensory Exploitation](../puzzles/sensory-exploitation.md) |
 | Space Ship Lotto-O-Dictor | Read tomorrow's winning numbers from alien machine in Bermuda Triangle; buy lottery ticket at Lou's Loans for prize money | [Comedy-Based Persuasion](../puzzles/comedy-based-persuasion.md) |
 | Bird Crystal Transformation | Use blue crystal on bird in Peru; become bird and fly into carving's left eye to retrieve scroll from hidden chamber | [Sensory Exploitation](../puzzles/sensory-exploitation.md) |
 | Lotus Number Code Entry | Remember sequence alien presses during spaceship tour; re-enter exact pattern at departure panel to escape | [Pattern Learning](../puzzles/pattern-learning.md) |
 | Yellow Crystal Teleporter | Acquire yellow crystal from Katmandu shaman; use it to teleport between marked locations for rapid cross-continental travel | [Cross-Realm Logistics](../puzzles/cross-realm-logistics.md) |
-| Final Machine Assembly | Combine glowing object, calendar, and three colored crystals in Egypt pyramid; pull switches with Annie and Zak simultaneously | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
+| Final Machine Assembly | Combine glowing object, calendar, and three colored crystals in Egypt pyramid; pull switches with Annie and Zak simultaneously | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
 
 ---
 

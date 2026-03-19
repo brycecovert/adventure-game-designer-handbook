@@ -90,7 +90,7 @@ Tar, mammoth hair, costume, and toupee combine into wearable bigfoot disguise al
 
 **After**: Sam wearing complete woolly disguise approaching reception checkpoint; bigfoot guard now accepts party as legitimate patrons allowing entry to inner hall [abandonwaredos].
 
-[Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Sequential chain where each location provides component that becomes meaningful at synthesis point (Savage Jungle Inn), distinguishing this from cross-temporal causality where changes propagate backward/forward through established timeline.
+[Meta-Puzzle Construction](../puzzles/sequential-construction.md) — Sequential chain where each location provides component that becomes meaningful at synthesis point (Savage Jungle Inn), distinguishing this from cross-temporal causality where changes propagate backward/forward through established timeline.
 
 ---
 
@@ -145,10 +145,10 @@ Sword extracted from stone used at precise moment (dragon mouth mid-opening, tar
 | Binocular Wire Control | Wires connected to ball of twine restaurant binoculars; mouse controls pan direction; frog rock spotted as distant target | [Sensor Exploitation](../puzzles/sensory-exploitation.md) |
 | Mystery Vortex Magnet Doors | Colored magnet combinations determine unlockable doors; trial-and-error through Shuv-Oohl's room grants mole man powder | [Pattern Learning](../puzzles/pattern-learning.md) |
 | Conroy Bumpus Eggplant Swap | Bumpus portrait traded at vegetable museum for gourd; returned to Bumpusville, swapped onto his head as replacement toupee | [Comedy-Based NPC Persuasion](../puzzles/comedy-based-persuasion.md) |
-| Maintenance Droid Wire Trick | Unplugging wires then reconnecting them triggers alarm while droid is distracted; house access during absence window | [Distraction Physics](../puzzles/distraction-physics.md) |
+| Maintenance Droid Wire Trick | Unplugging wires then reconnecting them triggers alarm while droid is distracted; house access during absence window | [Distraction Physics](../puzzles/distraction-environmental-manipulation.md) |
 | Ice Pick Cork Extraction | Ice pick from Savage Jungle freezer removes wine bottle cork; cork plugs sno globe's opening for vortex shrink ray application | [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) |
 | Cone of Tragedy Lost Items | Riding carnival ride drops all inventory items; claim ticket from attendant enables Lost & Found retrieval with bonus magnet | [Timed Consequence](../puzzles/timed-consequence.md) |
-| Dinosaur Tooth Tar Extraction | Twine used on dinosaur's open mouth to extract tooth; later combined with pool at Jungle Inn for final puzzle synthesis | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
+| Dinosaur Tooth Tar Extraction | Twine used on dinosaur's open mouth to extract tooth; later combined with pool at Jungle Inn for final puzzle synthesis | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
 
 ---
 

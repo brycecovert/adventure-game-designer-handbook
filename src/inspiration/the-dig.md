@@ -101,7 +101,7 @@ The critter is captured, bracelet attached for tracking, released; device locate
 
 ![Signal device glowing at tracker spot marking buried machine part location](./the-dig-tracker-spot-located.png)
 
-[Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Each step's output becomes next step's input (dowel→pin→hook→cage→trap), distinguishing this from Multi-Faceted Plan where items gather independently and synthesize at single application point.
+[Meta-Puzzle Construction](../puzzles/sequential-construction.md) — Each step's output becomes next step's input (dowel→pin→hook→cage→trap), distinguishing this from Multi-Faceted Plan where items gather independently and synthesize at single application point.
 
 ---
 
@@ -149,11 +149,11 @@ Correct alignment triggers door closure cutscene showing alien astronomical know
 
 | Name | Problem & Solution | Pattern Type |
 |------|-------------------|--------------|
-| Asteroid Explosive Placement | Zero-g digger creates target surface; shovel clears boulder; explosives armed and detonated to open asteroid tunnel | [Repair Chain Construction](../puzzles/repair-chain-construction.md) |
+| Asteroid Explosive Placement | Zero-g digger creates target surface; shovel clears boulder; explosives armed and detonated to open asteroid tunnel | [Repair Chain Construction](../puzzles/sequential-construction.md) |
 | Power Generator Crystal Control | Seven-button panel programs diamond collector path; lens repositioned in light beam restores Nexus power | [Robot Programming](../puzzles/robot-programming.md) |
 | Engraved Rod Door Codes | Five rod patterns (purple, red, orange, green, yellow) open specific Nexus doors through button shape sequencing | [Symbol Code Translation](../puzzles/symbol-code-translation.md) |
 | Map Spire Prism Alignment | Light bridge panel's prisms adjusted; source beam redirected to hit all gems in continuous bouncing line | [Robot Programming](../puzzles/robot-programming.md) |
-| Bat Creature Distraction | Flashlight drives bats at Brink, forcing him away from crystal stash so Boston can steal crystals for rescue bribe | [Distraction Physics](../puzzles/distraction-physics.md) |
+| Bat Creature Distraction | Flashlight drives bats at Brink, forcing him away from crystal stash so Boston can steal crystals for rescue bribe | [Distraction Physics](../puzzles/distraction-environmental-manipulation.md) |
 | Monster Nest Water Flood | Rock pushed at waterfall source diverts water; grate opened under monster washes spider creature away freeing Maggie | [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) |
 | Tomb Crypt Guardian Dogs | Glowing crystal revives second skeleton dog; two dogs attack each other, clearing path to pyramid chamber | [Multi-Character Coordination](../puzzles/multi-character-coordination.md) |
 | Tablet Island Discovery | Tablet shown to Maggie on Map Spire ledge; she decodes hidden meaning revealing secret island entrance location | [Information Brokerage](../puzzles/information-brokerage.md) |

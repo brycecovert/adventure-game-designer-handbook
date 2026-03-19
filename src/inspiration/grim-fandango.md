@@ -91,7 +91,7 @@ Manny successfully infiltrates the hidden basement floor via wine cask transport
 
 ![Wine cask puzzle showing forklift positioned through elevator gap with fork lever raised to block elevator mechanism](./grim-fandango-puzzle2-solution.png)
 
-[Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Sequential chain where each step's output enables the next: VIP access grants cask entry, can opener opens cask, wine consumption empties cask, forklift enables hidden floor. Unlike Multi-Faceted Plan, order is not flexible—cask cannot be entered before it's emptied, cannot open without can opener obtained after litter box visit.
+[Meta-Puzzle Construction](../puzzles/sequential-construction.md) — Sequential chain where each step's output enables the next: VIP access grants cask entry, can opener opens cask, wine consumption empties cask, forklift enables hidden floor. Unlike Multi-Faceted Plan, order is not flexible—cask cannot be entered before it's emptied, cannot open without can opener obtained after litter box visit.
 
 ---
 
@@ -139,10 +139,10 @@ Ticket printed with correct parameters (Week 2, Tuesday, Race 6); photo obtained
 | Name | Problem & Solution | Pattern Type |
 |------|-------------------|--------------|
 | Road Sign Iterative Positioning | Move sign repeatedly until arrow points to hidden cave entrance (center-left ground spot) | [Pattern Learning](../puzzles/pattern-learning.md) |
-| Pigeon Scare Bread Decoy | Bring cat balloon and bread to pigeon nest vent; use cat sound then bread to lure pigeons away from eggs | [Distraction Physics](../puzzles/distraction-physics.md) |
-| Dental Impression Escape | Use Fill-A-Dent with mouthpiece to create teeth impression for LSA border guards requiring dental verification | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
+| Pigeon Scare Bread Decoy | Bring cat balloon and bread to pigeon nest vent; use cat sound then bread to lure pigeons away from eggs | [Distraction Physics](../puzzles/distraction-environmental-manipulation.md) |
+| Dental Impression Escape | Use Fill-A-Dent with mouthpiece to create teeth impression for LSA border guards requiring dental verification | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
 | Glottis Heart Spiderweb Slingshot | Create slingshot from bone and web; shoot web to retrieve heart hanging above spiders' reach | [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) |
-| Work Order Automatic Signature | Climb tie-rope to roof, enter Don's window, reprogram computer intercom response to auto-sign documents | [Distraction Physics](../puzzles/distraction-physics.md) |
+| Work Order Automatic Signature | Climb tie-rope to roof, enter Don's window, reprogram computer intercom response to auto-sign documents | [Distraction Physics](../puzzles/distraction-environmental-manipulation.md) |
 | Tube Switching Card Blocker | Use hole-punched playing card on red message tube while relieving pressure to intercept Domino's memo | [Information Brokerage](../puzzles/information-brokerage.md) |
 | Basset Hound Tar Lure Variation | Similar to beavers: extinguish then tar-trap different enemy type with same fire/tar mechanic applied broadly | [Pattern Learning](../puzzles/pattern-learning.md) |
 | Bonewagon Synchronized Pumping | Move wheelbarrow back and forth across four pumps on marrow extractor tree to synchronize oscillation | [Multi-Character Coordination](../puzzles/multi-character-coordination.md) |

@@ -132,7 +132,7 @@ Bobbin becomes invisible to the guards and enters the tower, where he learns the
 | Waterspout Untwisting | "Look at the waterspout to learn the Twist draft. Use the reverse Twist draft to make the waterspout vanish" [THayes] | [Pattern Learning](../puzzles/pattern-learning.md) |
 | Dragon Put to Sleep | Reverse WAKE draft puts dragon asleep; fire reveals hidden tunnel behind her | [Pattern Learning](../puzzles/pattern-learning.md) |
 | Gold to Straw Reversal | "Cast the reverse Straw to Gold draft on the gold" revealing fire-blasted tunnel entrance [THayes] | [Pattern Learning](../puzzles/pattern-learning.md) |
-| Pool Reflection Puzzle | EMPTY draft on maze pool reveals sphere; second sphere interaction teaches HUMAN-TO-SWAN transformation | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
+| Pool Reflection Puzzle | EMPTY draft on maze pool reveals sphere; second sphere interaction teaches HUMAN-TO-SWAN transformation | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
 | Healing Rifts | HEAL draft (from lamb in barn) closes multiple rifts: "cast the Heal draft on it" repeatedly for Rusty, shepherds, terrain [THayes] | [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) |
 | Final Confrontation with Chaos | SILENCE, ROAST, and RIFT drafts learned from the Loom machine itself; played in reverse or forward depending on context to defeat final antagonist | [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) |
 

@@ -128,7 +128,7 @@ Red Edison constructs a super battery from oil, vinegar, and gold pen; Ben Frank
 ![Red Edison receiving oil, gold-plated quill pen, and vinegar in the secret laboratory](./day-of-the-tentacle-puzzle3-s1.png)
 ![Ben Franklin's kite experiment with battery positioned under lightning strike in field during storm](./day-of-the-tentacle-puzzle3-s2.png)
 
-[Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Sequential chain where each component (wine → vinegar, oil from pantry, gold pen after tree-cutting) unlocks the next stage, distinguishing this from Multi-Faceted Plan where items would be gathered independently before synthesis.
+[Meta-Puzzle Construction](../puzzles/sequential-construction.md) — Sequential chain where each component (wine → vinegar, oil from pantry, gold pen after tree-cutting) unlocks the next stage, distinguishing this from Multi-Faceted Plan where items would be gathered independently before synthesis.
 
 ---
 
@@ -138,10 +138,10 @@ Red Edison constructs a super battery from oil, vinegar, and gold pen; Ben Frank
 |------|-------------------|--------------|
 | George Washington's Exploding Cigar | Flag gun traded for cigar lighter; exploding cigar given to George knocks his teeth out, enabling denture replacement chain | [Comedy-Based NPC Persuasion](../puzzles/comedy-based-persuasion.md) |
 | Safe Combination Recording | Decaf coffee puts Dr. Fred asleep; VCR records his safe opening in EP mode; rewind and play reveals combination digits | [Observation Replay](../puzzles/observation-replay.md) |
-| Mummy Swap with Dr. Fred | Red paint on mummy + rope pulley system substitutes mummy for Dr. Fred during secret agent confrontation | [Distraction Physics](../puzzles/distraction-physics.md) |
+| Mummy Swap with Dr. Fred | Red paint on mummy + rope pulley system substitutes mummy for Dr. Fred during secret agent confrontation | [Distraction Physics](../puzzles/distraction-environmental-manipulation.md) |
 | Dead Cousin Ted Substitution | Same rope mechanic used to swap Fred with his mummified cousin; red paint makes substitution believable | [Surreal Logic Bridge](../puzzles/surreal-logic-bri dge.md) |
 | Hamster Power Generator | Frozen hamster sent from Bernard's time is thawed, warmed in sweater, inserted into generator to power Laverne's Chron-O-John | [Cross-Temporal Causality](../puzzles/cross-temporal-causality.md) |
-| Ben Franklin Kite Charging | Help-wanted sign gets lab coat; lab coat enables kite access; storm washing carriage creates lightning strike moment for battery charging | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
+| Ben Franklin Kite Charging | Help-wanted sign gets lab coat; lab coat enables kite access; storm washing carriage creates lightning strike moment for battery charging | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
 | Weird Ed's Disappearing Ink Stamp | Ink sprayed on stamp album makes Ed angry; he leaves room, album+pony express stamp collectible; returned to Ed for forgiveness | [Information Brokerage Chain](../puzzles/information-brokerage.md) |
 | Cat and Booboo-B-Gone | White stripe painted on fence guides cat atop it; squeaky mouse toy lures cat down for Laverne collection | [Sensory Exploitation](../puzzles/sensory-exploitation.md) |
 

@@ -43,7 +43,7 @@ Pass four sequential elemental trials by casting correct spell combinations on e
 7. **Fire Trial:** OPEN door, CALM flames (leaves hole), FETCH door closed, FORCE BOLT to push it onto hole (15 PP)
 8. Refuse oath to join as scholar; receive REVERSAL spell as graduation gift (7 PP)
 
-**Pattern Type:** [[Meta-Puzzle Construction]](../puzzles/meta-puzzle-construction.md) — tools gathered early enable later puzzle resolution through sequential chaining  
+**Pattern Type:** [[Meta-Puzzle Construction]](../puzzles/sequential-construction.md) — tools gathered early enable later puzzle resolution through sequential chaining  
 **Also Uses:** [[Class-Specific Ritual]](../puzzles/class-specific-ritual.md) — only Magic Users can access this path; Fighter and Thief must take alternate routes
 
 ### Screenshots
@@ -118,7 +118,7 @@ Present three symbolic gifts in sequence to restore Julanar's spirit until she y
 6. Tree blooms Flowers automatically; FRUIT OF COMPASSION appears on branch—take it (7 PP)
 
 **Pattern Type:** [[Class-Specific Ritual]](../puzzles/class-specific-ritual.md) — sequential gift-giving ritual with exact action requirements  
-**Also Uses:** [[Meta-Puzzle Construction]](../puzzles/meta-puzzle-construction.md) — Earth Elemental must be captured in earlier puzzle to have "earth" for gifting
+**Also Uses:** [[Meta-Puzzle Construction]](../puzzles/sequential-construction.md) — Earth Elemental must be captured in earlier puzzle to have "earth" for gifting
 
 ### Screenshots
 
@@ -135,7 +135,7 @@ Present three symbolic gifts in sequence to restore Julanar's spirit until she y
 | Earth Elemental Capture (Days 12-14) | [[Timed Consequence]](../puzzles/timed-consequence.md) | Weaken with Flame Dart or soulforge sword, gather dust into cloth bag before Day 14 |
 | Water Elemental Capture (Days 14-16) | [[Multi-Faceted Plan]](../puzzles/multi-faceted-plan.md) | Drop waterskin at fountain base, use bellows to blow elemental into container |
 | Dervish's Five Ws Puzzle | [[Symbol Code Translation]](../puzzles/symbol-code-translation.md) | "Whatever, whenever, wherewith, wherever, whereby" riddle requires collecting specific objects across desert |
-| Caged Beast Dispel Potion | [[Meta-Puzzle Construction]](../puzzles/meta-puzzle-construction.md) | Combine Griffin Feather + Fruit of Compassion + Beast Hair at Apothecary to cure Al Scurva |
+| Caged Beast Dispel Potion | [[Meta-Puzzle Construction]](../puzzles/sequential-construction.md) | Combine Griffin Feather + Fruit of Compassion + Beast Hair at Apothecary to cure Al Scurva |
 | Suleiman the Djinn's Ring Tomb | [[Observation Replay]](../puzzles/observation-replay.md) | Type "SULEIMAN" at door after seeing name in tomb entrance; later use ring for wishes |
 | Katta Pin Dungeon Escape (Day 29) | [[Multi-Faceted Plan]](../puzzles/multi-faceted-plan.md) | Show Sapphire Pin gathered in Shapeir to Sharaf the Katta to activate secret passage |
 

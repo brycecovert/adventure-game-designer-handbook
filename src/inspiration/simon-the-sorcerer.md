@@ -55,7 +55,7 @@ Simon places the bucket on the Druid's head, uses the flaming brand near it to p
 
 ### Pattern Type
 
-[Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Sequential combination where step outputs enable step inputs (bucket + brand = moon illusion), differentiating from Multi-Faceted Plan where items are gathered independently and synthesized at a single endpoint.
+[Meta-Puzzle Construction](../puzzles/sequential-construction.md) — Sequential combination where step outputs enable step inputs (bucket + brand = moon illusion), differentiating from Multi-Faceted Plan where items are gathered independently and synthesized at a single endpoint.
 
 ---
 
@@ -160,12 +160,12 @@ Simon collects all six ritual components (magic square drawn, candles smashed fr
 | Name | Problem & Solution | Pattern Type |
 |------|-------------------|--------------|
 | Troll Bridge Whistle Exchange | Barbarian gives whistle after thorn removal; troll steals it and blows; barbarian appears and defeats troll with rage | [Comedy-Based NPC Persuasion](../puzzles/comedy-based-persuasion.md) |
-| Dwarf Mine Beards and Beer Vouchers | Shear sleeping pub dwarf's beard to enter mine as dwarf; plug beer barrel spigot with wax to get voucher for gem | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
+| Dwarf Mine Beards and Beer Vouchers | Shear sleeping pub dwarf's beard to enter mine as dwarf; plug beer barrel spigot with wax to get voucher for gem | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
 | Chocolate House Pig Transformation | Kiss Rapunzel to transform her into pig; use pig to eat chocolate door and gain house entry | [Surreal Logic Bridge](../puzzles/surreal-logic-bridge.md) |
 | Oaf's Beans and Watermelon Chain | Water oaf's magic beans with bucket from witch's well; grow watermelon on wizard's compost pile | [Information Brokerage Chain](../puzzles/information-brokerage.md) |
-| Souvenir Shoppe Fire Alarm Catapult | Look at brochures to find elastic band hidden inside; combine with sapling for catapult; ring alarm bell to drive off attendant | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
+| Souvenir Shoppe Fire Alarm Catapult | Look at brochures to find elastic band hidden inside; combine with sapling for catapult; ring alarm bell to drive off attendant | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
 | Underwater Garden Sailboat | Create sail from leaf and matchstick mast; oil rusted tap with crushed seeds + stone; lure frog away threatening tadpole | [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) |
-| Dragon's Cave Gold Magnet Fishing | Use hook on boulder above cave entrance to climb rope; drop magnet-on-rope into ceiling hole three times for gold coins | [Distraction Physics](../puzzles/distraction-physics.md) |
+| Dragon's Cave Gold Magnet Fishing | Use hook on boulder above cave entrance to climb rope; drop magnet-on-rope into ceiling hole three times for gold coins | [Distraction Physics](../puzzles/distraction-environmental-manipulation.md) |
 | Mummy Tomb Bandage Trick | Open tomb, mummy rises aggressively; retry and grab loose bandage at mummy's back instead of confronting directly | [Comedy-Based NPC Persuasion](../puzzles/comedy-based-persuasion.md) |
 
 ---

@@ -116,7 +116,7 @@ Indy reaches Henry's detention cell on the third floor and frees him, enabling e
 
 ![Castle infiltration success — Indiana Jones as uniformed officer reaching Henry Jones's detention cell on third floor](./indiana-jones-last-crusade-puzzle3-rescue.png)
 
-[Corporate Infiltration](../puzzles/corporate-infiltration.md) — Progressive disguise acquisition grants access to increasingly restricted areas with guard patrol management—distinguishes from Sensory Exploitation by focusing on physical costume-based permission rather than NPC perception weakness exploitation.
+[Corporate Infiltration](../puzzles/distraction-environmental-manipulation.md) — Progressive disguise acquisition grants access to increasingly restricted areas with guard patrol management—distinguishes from Sensory Exploitation by focusing on physical costume-based permission rather than NPC perception weakness exploitation.
 
 ---
 
@@ -124,14 +124,14 @@ Indy reaches Henry's detention cell on the third floor and frees him, enabling e
 
 | Name | Problem & Solution | Pattern Type |
 |------|-------------------|--------------|
-| Fake Grail Diary Discovery | "Use sticky tape with jar of solvent on shelves to discover small key...open chest with small key and get old book (fake grail diary)" [King] | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
+| Fake Grail Diary Discovery | "Use sticky tape with jar of solvent on shelves to discover small key...open chest with small key and get old book (fake grail diary)" [King] | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
 | Statue Combination Room | Press plaques in correct sequence from diary illustrations: "middle plaque until good image, then right, then left" to avoid fatal trap [King] | [Symbol Code Translation](../puzzles/symbol-code-translation.md) |
-| Drawbridge Lowering Sequence | Tie red cordon to machinery wheel, activate to lower drawbridge in catacombs below for access | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
-| Drunk Guard Ale Distraction | Fill stein from keg, pour over fireplace coals, give to drunk guard then retrieve after distraction [King] | [NPC Distraction Physics](../puzzles/distraction-physics.md) |
+| Drawbridge Lowering Sequence | Tie red cordon to machinery wheel, activate to lower drawbridge in catacombs below for access | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
+| Drunk Guard Ale Distraction | Fill stein from keg, pour over fireplace coals, give to drunk guard then retrieve after distraction [King] | [NPC Distraction Physics](../puzzles/distraction-environmental-manipulation.md) |
 | Mein Kampf Trade Network | Steal book from library shelves, trade to specific Nazi guards at roadblocks for passage or IQ points | [Information Brokerage Chain](../puzzles/information-brokerage.md) |
-| Dog Roast Boar Bribe | Feed roast boar (from kitchen fireplace) to guard dog in Vogel's office to access desk drawers | [NPC Distraction Physics](../puzzles/distraction-physics.md) |
+| Dog Roast Boar Bribe | Feed roast boar (from kitchen fireplace) to guard dog in Vogel's office to access desk drawers | [NPC Distraction Physics](../puzzles/distraction-environmental-manipulation.md) |
 | Tesla Radio Destruction | Use music player to draw radio operator out of room, steal wrench, destroy radio, lower ladder for zeppelin escape | [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) |
-| Zeppelin Multi-Floor Navigation | Climb three-floor tower structure avoiding Nazi patrollers through maze-like passage system | [Corporate Infiltration](../puzzles/corporate-infiltration.md) |
+| Zeppelin Multi-Floor Navigation | Climb three-floor tower structure avoiding Nazi patrollers through maze-like passage system | [Corporate Infiltration](../puzzles/distraction-environmental-manipulation.md) |
 | Grail Selection Temple Test | "Using clues from earlier and your game manual, select correct grail" based on glow test vs. inscriptions [King] | [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) |
 
 ---

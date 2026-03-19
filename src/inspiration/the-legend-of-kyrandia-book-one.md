@@ -51,7 +51,7 @@ Player can travel to Castle Kyrandia and recover the Royal Chalice from Faun usi
 
 ![Screenshot: Orange and purple potions created at Crystals of Alchemy, ready for use](./kyrandia-1-puzzle1.png)
 
-[Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Sequential dependency chain where each output enables subsequent steps, distinguished from multi-faceted plan by requirement for ordered progression rather than parallel requirement gathering.
+[Meta-Puzzle Construction](../puzzles/sequential-construction.md) — Sequential dependency chain where each output enables subsequent steps, distinguished from multi-faceted plan by requirement for ordered progression rather than parallel requirement gathering.
 
 ---
 
@@ -134,7 +134,7 @@ Malcolm's spell reflects off mirror and petrifies him, ending the game.
 | Death's-Head Hawkmoth Statue | Plant walnut, pinecone, acorn in Deadwood Glade hole; plant sprouts and grants healing spell activation | [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) |
 | Birthstones Altar Sequence | Place four random-order gems on Marble Altar plate; trial-and-error with save/reload to activate all | [Pattern-Learning](../puzzles/pattern-learning.md) |
 | Fireberry Shadow Realm Navigation | Navigate labyrinth with limited-light resource (3 moves before berries burn out); strategically drop fireberries for safe return points | [Timed-Consequence](../puzzles/timed-consequence.md) |
-| Teardrop Willow Restoration | Use teardrop from Pool of Sorrows on rotting willow tree's indent; heals tree and summons sprite Merith | [Repair-Chain Construction](../puzzles/repair-chain-construction.md) |
+| Teardrop Willow Restoration | Use teardrop from Pool of Sorrows on rotting willow tree's indent; heals tree and summons sprite Merith | [Repair-Chain Construction](../puzzles/sequential-construction.md) |
 | Moonstone Coin Bribe | Gold coin from Cavern of Twilight thrown in well at Timbermist Woods yields moonstone for wisp altar completion | [Information-Brokerage](../puzzles/information-brokerage.md) |
 | Book Title Anagram | Pull library books by first letter to spell "OPEN", rotating fireplace without player entering dungeon passage | [Symbol-Code Translation](../puzzles/symbol-code-translation.md) |
 | Malcolm Knife Reflex Toss | During Serpent's Grotto confrontation, click knife mid-flight while impaled in tree to throw back at Malcolm; running causes instant death on second throw | [Timed-Consequence](../puzzles/timed-consequence.md) |

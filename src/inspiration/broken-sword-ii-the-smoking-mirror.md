@@ -53,7 +53,7 @@ Escape the warehouse rescue site by using masking tape to bypass elevator safety
 ![Warehouse statue puzzle — crates stacked on pallet carrier with pulley system visible above and rope wound around statue base](./broken-sword-ii-puzzle1-s1.png)
 
 **Pattern Type:** [[Multi-Character Coordination]](../puzzles/multi-character-coordination.md) — requires explicit character collaboration; single George action insufficient despite completing all prerequisite steps  
-**Also Uses:** [[Meta-Puzzle Construction]](../puzzles/meta-puzzle-construction.md) — sequential chain where each sub-goal output (taped sensor, repositioned elevator block, reconfigured crate stack) enables subsequent step
+**Also Uses:** [[Meta-Puzzle Construction]](../puzzles/sequential-construction.md) — sequential chain where each sub-goal output (taped sensor, repositioned elevator block, reconfigured crate stack) enables subsequent step
 
 ---
 
@@ -144,11 +144,11 @@ Place surveyor's marker on rock needle using net-sensor extraction method, then 
 
 | Puzzle | Pattern Type | Brief Description |
 |--------|--------------|-------------------|
-| Oubier's Burning House Escape | [[Meta-Puzzle Construction]](../puzzles/meta-puzzle-construction.md) | Knock bookcase onto spider, use dart on locked cabinet door, panties retrieve hot cylinder, combine with syphon to extinguish flames |
+| Oubier's Burning House Escape | [[Meta-Puzzle Construction]](../puzzles/sequential-construction.md) | Knock bookcase onto spider, use dart on locked cabinet door, panties retrieve hot cylinder, combine with syphon to extinguish flames |
 | Montfaucon Flask Theft | [[Timed Consequence]](../puzzles/timed-consequence.md) | Wait for ex-gendarme to hide face in hands after joke fails; quick-click flask while distracted or miss opportunity |
-| Glease Gallery Absinthe Revenge | [[Distraction Physics]](../puzzles/distraction-physics.md) | Pour absinthe into critic's wine glass twice, he stumbles and smashes display case—player loots label from packing crate during chaos |
+| Glease Gallery Absinthe Revenge | [[Distraction Physics]](../puzzles/distraction-environmental-manipulation.md) | Pour absinthe into critic's wine glass twice, he stumbles and smashes display case—player loots label from packing crate during chaos |
 | Warehouse Fan Block & Clamp Trap | [[Environmental Storytelling Discovery]](../puzzles/environmental-storytelling.md) | Hook blocks fan blade from window; clamp drops barrel, lures guard to precise position, second use knocks him over railing into water |
-| Jungle Press Collar Ironing | [[Repair Chain Construction]](../puzzles/repair-chain-construction.md) | Press won't operate without power belt; vine serves as drive belt between flywheel and press mechanism to iron Hubert's collar |
+| Jungle Press Collar Ironing | [[Repair Chain Construction]](../puzzles/sequential-construction.md) | Press won't operate without power belt; vine serves as drive belt between flywheel and press mechanism to iron Hubert's collar |
 | Ketch Sisters Museum Access | [[Information Brokerage]](../puzzles/information-brokerage.md) | Show Bronson's stolen survey plans to Ketch sisters; they grant museum entry in exchange for exposing his trespassing scheme |
 | Quaramonte Mine Detonator Heist | [[Multi-Faceted Plan]](../puzzles/multi-faceted-plan.md) | Distract General with Nico, remove Renaldo via Pearl conversation, access chart alone, return detonator to Conchita for legitimate purpose explanation |
 | Pyramid Symbol Tile Sequence | [[Symbol Code Translation]](../puzzles/symbol-code-translation.md) | Match machine wheel symbols to tile combinations in specific order—10-tile and 4-tile sets require progressive unlocking through alignment |

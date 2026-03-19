@@ -48,7 +48,7 @@ The player identifies a baby Antwerp through T.R.A.P., captures it with avocado,
 
 ![T.R.A.P. device in Dr. Cranium's right room showing binary question interface for species identification](./qfg4-puzzle1-trap.png)
 
-[Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Sequential chain where T.R.A.P. identification enables maze access, which yields key for panel-sliding lock completion.
+[Meta-Puzzle Construction](../puzzles/sequential-construction.md) — Sequential chain where T.R.A.P. identification enables maze access, which yields key for panel-sliding lock completion.
 
 ---
 
@@ -139,7 +139,7 @@ After completing initial ritual collection steps, rotating the symbol dial to sp
 | Thief Guild Safe Codes | Master thief book reveals FILCH dial setting; mechanical combination shows blue-blue-yellow, green-green-green, red-green-red sequence | [Information Brokerage Chain](../puzzles/information-brokerage.md) |
 | Monastery Secret Passage Entry | Pull bent rightmost candle on candelabra or force-bolt hexapod after feeding it garlic to reveal fireplace passage | [Class-Specific Ritual](../puzzles/class-specific-ritual.md) |
 | Leshy Riddle Chain | Six knowledge-based riddles require player to experience locations first; answers include "Leshy," "Bush," "Rusalka," "Baba Yaga" | [Information Brokerage Chain](../puzzles/information-brokerage.md) |
-| Domovoi Rehydration Solution | Buy formula from Dr. Cranium, collect Grue Goo from Squid Stone area to synthesize cure for monastery house spirit | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
+| Domovoi Rehydration Solution | Buy formula from Dr. Cranium, collect Grue Goo from Squid Stone area to synthesize cure for monastery house spirit | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
 | Thieves' Guild Master Escape Route | Mechanism beneath barrel activated via code from book; secret exit bypasses town guards when captured by Ad Avis | [Observation Replay](../puzzles/observation-replay.md) |
 | Katrina's Iron Maiden Rescue | Use hammer and stake collected from dungeon to wake her up before she becomes full vampire after three days | [Class-Specific Ritual](../puzzles/class-specific-ritual.md) |
 | Wraith Camp Life-Drain Defense | Gypsy fortune teller provides Aura spell or protective amulet; defeat five wraiths during nighttime window for ritual access | [Class-Specific Ritual](../puzzles/class-specific-ritual.md) |

@@ -83,7 +83,7 @@ Decrypt and decompress data containers across LINC-Space rooms to extract passwo
 ![Plasma bridge tiles with red and green yin-yang password symbols placed on them](./beneath-a-steel-sky-puzzle2-s2.png)
 
 **Pattern Type:** [[Symbol Code Translation]](../puzzles/symbol-code-translation.md) — visual symbols must be matched to matching surfaces in sequence  
-**Also Uses:** [[Meta-Puzzle Construction]](../puzzles/meta-puzzle-construction.md) — tools gathered early enable later puzzle resolution
+**Also Uses:** [[Meta-Puzzle Construction]](../puzzles/sequential-construction.md) — tools gathered early enable later puzzle resolution
 
 ---
 
@@ -120,7 +120,7 @@ Create a chain distraction: place dog biscuits on a rope-launched plank to catap
 ![Ground level plaza showing PLANK with DOG BISCUITS placed on it, ROPE mechanism nearby](./beneath-a-steel-sky-puzzle3-s2.png)
 
 **Pattern Type:** [[Multi-Faceted Plan]](../puzzles/multi-faceted-plan.md) — multiple requirements (biscuits, plank access, rope timing) gathered independently, synthesized at climax  
-**Also Uses:** [[NPC Distraction Physics]](../puzzles/distraction-physics.md) — physical event (dog launch) creates time window for infiltration
+**Also Uses:** [[NPC Distraction Physics]](../puzzles/distraction-environmental-manipulation.md) — physical event (dog launch) creates time window for infiltration
 
 ---
 
@@ -128,8 +128,8 @@ Create a chain distraction: place dog biscuits on a rope-launched plank to catap
 
 | Puzzle | Core Pattern Type | Brief Description |
 |--------|-------------------|-------------------|
-| Joey Robot Shell Repair | [[Meta-Puzzle Construction]](../puzzles/meta-puzzle-construction.md) | Activate Joey's AI, then later upgrade his shell with welder mod for environmental interaction |
-| Anchor Grappling Hook Creation | [[Meta-Puzzle Construction]](../puzzles/meta-puzzle-construction.md) | Combine ANCHOR from insurance office statue with CABLE cut from upper level to form GRAPPLING HOOK |
+| Joey Robot Shell Repair | [[Meta-Puzzle Construction]](../puzzles/sequential-construction.md) | Activate Joey's AI, then later upgrade his shell with welder mod for environmental interaction |
+| Anchor Grappling Hook Creation | [[Meta-Puzzle Construction]](../puzzles/sequential-construction.md) | Combine ANCHOR from insurance office statue with CABLE cut from upper level to form GRAPPLING HOOK |
 | Power Plant Button Chaos | [[Multi-Character Coordination]](../puzzles/multi-character-coordination.md) | Player and Joey must press two buttons simultaneously to overload steam valve and clear room |
 | LINC-Space Blind Eye Hack | [[Timed Consequence]](../puzzles/timed-consequence.md) |盲 the monitoring eyeballs for limited time window to retrieve TUNING FORK before they reactivate |
 | Reactor LINCCard Retrieval | [[Cross-Realm Logistics]](../puzzles/cross-realm-logistics.md) | Wear radiation suit from factory, enter reactor zone, extract LINCCard needed for security terminal access |

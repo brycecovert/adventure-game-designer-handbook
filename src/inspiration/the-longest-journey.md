@@ -94,7 +94,7 @@ The wind mixture is completed and given to Captain Nebeve, convincing him that s
 ![Invisibility mixture creation showing pouring sequence: white bottle, then green, then blue essence combined](./the-longest-journey-puzzle2-invisibility-mix.png)
 ![Lightness potion effect on April leaping to retrieve red bottle positioned above window ledge](./the-longest-journey-puzzle2-lightness-grab.png)
 
-[Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Each potion synthesis produces an output enabling subsequent steps (invisibility grants page access, lightness reaches red essence), distinguishing this from Multi-Faceted Plan where requirements gather in any order before synthesis.
+[Meta-Puzzle Construction](../puzzles/sequential-construction.md) — Each potion synthesis produces an output enabling subsequent steps (invisibility grants page access, lightness reaches red essence), distinguishing this from Multi-Faceted Plan where requirements gather in any order before synthesis.
 
 ---
 
@@ -143,10 +143,10 @@ Voice echoes from treehouse phone through cliff → ruins → statue, waking Q'm
 
 | Name | Problem & Solution | Pattern Type |
 |------|-------------------|--------------|
-| Rubber Duck Fishing Pole | Combine clamp + clothesline → inflate duck with bandaid repair → fish for key from sparking subway tracks | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
+| Rubber Duck Fishing Pole | Combine clamp + clothesline → inflate duck with bandaid repair → fish for key from sparking subway tracks | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
 | Police Station Form Chain | Obtain three documents (09042, 09042-A, original) via receptionist to allow security guards to repair door panel | [Memo Chain](../puzzles/memo-chain.md) |
 | Map Delivery Flute Trade | Purchase flute instrument from street merchant; play music for Captain Nebeve who demands entertainment before signing map | [Information Brokerage](../puzzles/information-brokerage.md) |
-| Soda Can Security Bypass | Shake soda can in paint mixer → offer to coughing officer → create distraction to bypass laser crash site security | [Distraction Physics](../puzzles/distraction-physics.md) |
+| Soda Can Security Bypass | Shake soda can in paint mixer → offer to coughing officer → create distraction to bypass laser crash site security | [Distraction Physics](../puzzles/distraction-environmental-manipulation.md) |
 | Crystal Placement Altar | Four crystals match holes by rotating outer ring symbols (wave, harpoon, fish, one-eyed temple) to correct pairings | [Symbol Code Translation](../puzzles/symbol-code-translation.md) |
 | Star Map Reveal | Show Burns the star map during final confrontation; reveals MTI conspiracy and unlocks escape capability | [Truth Revelation](../puzzles/truth-revelation.md) |
 | Shuttle Guard Manipulation | Send guards to breaks in sequence via control panel; timing windows must open cell department access | [Timed Consequence](../puzzles/timed-consequence.md) |

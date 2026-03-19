@@ -136,7 +136,7 @@ Undeveloped film is collected, developer fluid absorbed in sponge, Michael proce
 
 ![Michael in darkroom with red light on, placing developed film on photographic tray](./mm-puzzle3-screenshots-01.png)
 
-[Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Sequential dependency chain where each step's output enables the next (film collected → developer gathered → processing complete), distinguishing from Multi-Faceted Plan where requirements could be gathered in any order before synthesis.
+[Meta-Puzzle Construction](../puzzles/sequential-construction.md) — Sequential dependency chain where each step's output enables the next (film collected → developer gathered → processing complete), distinguishing from Multi-Faceted Plan where requirements could be gathered in any order before synthesis.
 
 ---
 
@@ -145,13 +145,13 @@ Undeveloped film is collected, developer fluid absorbed in sponge, Michael proce
 | Name | Problem & Solution | Pattern Type |
 |------|-------------------|--------------|
 | Security Door Symbol Matching | Save before attempting; booklet printing can mismatch symbols; reload and retry until codes align | [Pattern Learning](../puzzles/pattern-learning.md) |
-| Chandelier Drop via Cassette Player | Record music mixed with cassette on stereo, play in sitting room cabinet; vibration shatters chandelier for old rusty key | [Distraction Physics](../puzzles/distraction-physics.md) |
+| Chandelier Drop via Cassette Player | Record music mixed with cassette on stereo, play in sitting room cabinet; vibration shatters chandelier for old rusty key | [Distraction Physics](../puzzles/distraction-environmental-manipulation.md) |
 | Green Tentacle Feed Blockade | Feed bowl of wax fruit and fruit drinks to hungry tentacle guarding stairs; path opens to second floor | [Sensory Exploitation](../puzzles/sensory-exploitation.md) |
 | Weird Ed Package Pickup Trick | Michael waits by mailbox for preset delivery; when ED answers door, assumes trick and leaves—Michael intercepts package | [Observation Replay](../puzzles/observation-replay.md) |
 | Telescope Combination Viewing | Fix wires in attic, power restored; use dimes to operate telescope controls; view into Edna's bedroom to see safe combo | [Symbol Code Translation](../puzzles/symbol-code-translation.md) |
-| Plant Growth Vertical Transit | Water plant with jar of water; feed Pepsi to accelerate growth; climb vine into observatory ceiling hole | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
+| Plant Growth Vertical Transit | Water plant with jar of water; feed Pepsi to accelerate growth; climb vine into observatory ceiling hole | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
 | Arcade Game Coin Slot Pattern | Use dimes in two separate slots, press right-hand button twice to rotate telescope to correct viewing angle | [Pattern Learning](../puzzles/pattern-learning.md) |
-| Meteor Launch Sequence Finale | Enter meteor control room; deactivate power lever; retrieve meteor; place in car boot; ignite rocket engine with yellow key | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
+| Meteor Launch Sequence Finale | Enter meteor control room; deactivate power lever; retrieve meteor; place in car boot; ignite rocket engine with yellow key | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
 
 ---
 

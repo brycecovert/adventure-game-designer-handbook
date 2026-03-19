@@ -155,8 +155,8 @@ Moonstone discovered at marked excavation point; player now possesses two of thr
 | Monte Carlo Séance | Answer Trottier's four questions using prior conversation clues; one answer randomized requiring save scumming [GrayKnife] | [Information-Brokerage](../puzzles/information-brokerage.md) |
 | Algiers Balloon Heist | Trade items through Omar for grocer's squab, feed beggar for ticket, steal balloon with knife [DarthMaul] | [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) |
 | Nazi U-Board Rescue | Coordinate with Sophia to distract guard while retrieving key from acid-locker; steer submarine to Atlantis airlock [GrayKnife] | [Multi-Character Coordination](../puzzles/multi-character-coordination.md) |
-| Labyrinth Minotaur Pressure Plate | Knock minotaur head with whip; it falls on pressure plate, activating elevator to lower level [DarthMaul] | [Distraction-Physics](../puzzles/distraction-physics.md) |
-| Orichalcum Detector Navigation | Combine beads in gold box for magnetic shielding; use amber fish detector to locate hidden door [GrayKnife] | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
+| Labyrinth Minotaur Pressure Plate | Knock minotaur head with whip; it falls on pressure plate, activating elevator to lower level [DarthMaul] | [Distraction-Physics](../puzzles/distraction-environmental-manipulation.md) |
+| Orichalcum Detector Navigation | Combine beads in gold box for magnetic shielding; use amber fish detector to locate hidden door [GrayKnife] | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
 | Atlantis Stone Disk Alignment | Align all three disks on spindle per Dialogue's "contrary minds" instruction for final entrance [DarthMaul] | [Symbol-Code Translation](../puzzles/symbol-code-translation.md) |
 | Labyrinth Statue Head Gate | Collect three heads, place on shelf to open gate; requires remembering locations across multiple rooms [GrayKnife] | [Pattern-Learning](../puzzles/pattern-learning.md) |
 

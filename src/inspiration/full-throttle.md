@@ -119,7 +119,7 @@ A continuous path of exploded mines leads directly to the Vultures' hideout entr
 - ![Horrace's souvenir stall with RC car, bunny on display, and battery slot](./full-throttle-puzzle3-s1.png)
 - ![Minefield path showing exploded mine revealing battery and bunny approaching next mine](./full-throttle-puzzle3-s2.png)
 
-[Distraction Physics](../puzzles/distraction-physics.md) — Environmental objects (RC car, toy bunnies) are used to break a blocking pattern (minefield guard) by exploiting NPC routines (Horrace chases lost property). Unlike Sensory Exploitation which targets perception weaknesses directly, this creates diversion through object manipulation.
+[Distraction Physics](../puzzles/distraction-environmental-manipulation.md) — Environmental objects (RC car, toy bunnies) are used to break a blocking pattern (minefield guard) by exploiting NPC routines (Horrace chases lost property). Unlike Sensory Exploitation which targets perception weaknesses directly, this creates diversion through object manipulation.
 
 ---
 
@@ -128,15 +128,15 @@ A continuous path of exploded mines leads directly to the Vultures' hideout entr
 | Name | Problem & Solution | Pattern Type |
 |------|-------------------|--------------|
 | Gas Can Theft | Hide from police while siphoning fuel from hovercars using gas can and hose | [Timed Consequence](../puzzles/timed-consequence.md) |
-| Junkyard Crane Dog Lure | Use meat to distract guard dog, then operate magnetic crane to lift car with dog inside | [Distraction Physics](../puzzles/distraction-physics.md) |
+| Junkyard Crane Dog Lure | Use meat to distract guard dog, then operate magnetic crane to lift car with dog inside | [Distraction Physics](../puzzles/distraction-environmental-manipulation.md) |
 | Fake ID Convincement | Give Miranda's fake federal IDs to Emmet at Kickstand to gain transport to Mink Ranch | [Information Brokerage](../puzzles/information-brokerage.md) |
-| Fertilizer Truck Crash | Push fertilizer truck over road; lure pursuing thugs through spill to blind them into crashing | [Distraction Physics](../puzzles/distraction-physics.md) |
+| Fertilizer Truck Crash | Push fertilizer truck over road; lure pursuing thugs through spill to blind them into crashing | [Distraction Physics](../puzzles/distraction-environmental-manipulation.md) |
 | Cavefish Navigation Markers | Remove yellow dots that Cavefish use for night navigation, causing them to crash when pursuing Ben with goggles-equipped bike | [Sensory Exploitation](../puzzles/sensory-exploitation.md) |
-| Demolition Derby Escape | Control car via ramps; drive flaming body along arena walls to create firetrap escape route | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
+| Demolition Derby Escape | Control car via ramps; drive flaming body along arena walls to create firetrap escape route | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
 | Secret Wall Entry | Kick cracked wall at precise timing (when meters align) behind Corley factory for secret office access | [Timed Consequence](../puzzles/timed-consequence.md) |
 | Safe Code Decryption | Input five-digit code (154492) observed on Maureen's old bike to open Malcolm Corley's floor safe | [Symbol Code Translation](../puzzles/symbol-code-translation.md) |
-| Projector Sabotage | Break film projector by raising motor lever and maximizing lamp brightness, disrupting Ripburger's speech | [Distraction Physics](../puzzles/distraction-physics.md) |
-| Final Truck Escape | Hijack controls from truck interior to disable aircraft machine guns and prevent Ripburger escape via gorge | [Corporate Infiltration](../puzzles/corporate-infiltration.md) |
+| Projector Sabotage | Break film projector by raising motor lever and maximizing lamp brightness, disrupting Ripburger's speech | [Distraction Physics](../puzzles/distraction-environmental-manipulation.md) |
+| Final Truck Escape | Hijack controls from truck interior to disable aircraft machine guns and prevent Ripburger escape via gorge | [Corporate Infiltration](../puzzles/distraction-environmental-manipulation.md) |
 
 ---
 

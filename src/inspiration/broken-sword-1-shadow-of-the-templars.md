@@ -82,7 +82,7 @@ Create a functional key by making a plaster cast of the statue's base, requiring
 ![Display the five key-shaped holes in ground where statue fell - this is the mold for casting](./broken-sword-1-puzzle2-s1.png)
 ![Show plaster drying animation after wet towel is applied, resulting in finished key cast](./broken-sword-1-puzzle2-s2.png)
 
-**Pattern Type:** [[Meta-Puzzle Construction]](../puzzles/meta-puzzle-construction.md) — sequential chain where step N's output (wet towel) enables step N+1 (plaster set)  
+**Pattern Type:** [[Meta-Puzzle Construction]](../puzzles/sequential-construction.md) — sequential chain where step N's output (wet towel) enables step N+1 (plaster set)  
 **Also Uses:** [[Cross-Realm Logistics]](../puzzles/cross-realm-logistics.md) — player must travel between two scenes to complete solution chain
 
 ---

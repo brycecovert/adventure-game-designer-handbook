@@ -97,7 +97,7 @@ Gather three distinct magical ingredients across different regions of Tarna, del
 
 ![Heart of the World tree top showing Guardian orb and water pouring animation](./qfg3-heart-of-world-gift.png)
 
-**Pattern Type:** [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — sequential gathering of multiple components required before synthesis at Apothecary; each step's output enables later combination  
+**Pattern Type:** [Meta-Puzzle Construction](../puzzles/sequential-construction.md) — sequential gathering of multiple components required before synthesis at Apothecary; each step's output enables later combination  
 **Also Uses:** [Class-Specific Ritual](../puzzles/class-specific-ritual.md) — identical goal (get fruit from vine) requires three completely different mechanical approaches depending on Hero class
 
 ---
@@ -153,8 +153,8 @@ Win the Wizard's Duel by casting exactly seven counter-spells in correct sequenc
 | Lost City Fire Opal Door Lock | Insert previously-collected Fire Opal into jackal statue's eye socket; door opens via gem recognition | [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) |
 | Doppelganger Hall of Mirrors | Face five evil duplicates with friends; defeat only through Harami's last-second stab | [Escalating Combat Progression](../puzzles/escalating-combat-progression.md) |
 | Demon Wizard Final Battle | Use shield to knock over gargoyle blocking gap, then shoot across with spear while gargoyle restrains foot | [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) |
-| Thief's Laibon Hut Infiltration | Oil chest hinge silently, use lockpick kit on crack while sneaking; avoid guards outside | [Corporate Infiltration](../puzzles/corporate-infiltration.md) |
-| Thief's Panther Distraction | Toss meat to sleeping panther before crossing tightrope during Leopardman village stealth mission | [Distraction Physics](../puzzles/distraction-physics.md) |
+| Thief's Laibon Hut Infiltration | Oil chest hinge silently, use lockpick kit on crack while sneaking; avoid guards outside | [Corporate Infiltration](../puzzles/distraction-environmental-manipulation.md) |
+| Thief's Panther Distraction | Toss meat to sleeping panther before crossing tightrope during Leopardman village stealth mission | [Distraction Physics](../puzzles/distraction-environmental-manipulation.md) |
 | Temple of the Sekhmet Prophecy Trance | Select symbols matching class identity (Sword/Fist for Warrior, Pentagram for Wizard, Key for Thief) to receive prophecy | [Symbol Code Translation](../puzzles/symbol-code-translation.md) |
 
 ---

@@ -48,7 +48,7 @@ Momo accepts the traced mammoth drawing and reveals the path to a secret cave co
 
 ![Completed paper tracing of mammoth being given to Momo who begins dancing](./syberia-puzzle1-s3.png)
 
-[Repair Chain Construction](../puzzles/repair-chain-construction.md) — The tracing creation requires sequential item acquisition (paper + pencil from Momo, light to reveal pattern) where each step enables the next, distinguishing this from simple fetch quests where items lack production-chain value.
+[Repair Chain Construction](../puzzles/sequential-construction.md) — The tracing creation requires sequential item acquisition (paper + pencil from Momo, light to reveal pattern) where each step enables the next, distinguishing this from simple fetch quests where items lack production-chain value.
 
 ---
 
@@ -137,10 +137,10 @@ The cuckoo egg balances the scale mechanism and opens the bandstand door, allowi
 
 | Name | Problem & Solution | Pattern Type |
 |------|-------------------|--------------|
-| Oscar's Wooden Legs | Activate factory assembly line using punch card and material selector; deliver correctly-made legs to automaton engineer | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
-| Permit Stamping Automaton | Ink bottle from attic used in lawyer office stamper; train release permit becomes valid for departure | [Repair Chain Construction](../puzzles/repair-chain-construction.md) |
-| Valadilene Train Museum Display | Four artifacts (voice cylinders, toys) placed on museum car stands trigger Oscar's backstory cutscenes | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
-| Dam Lever and Oar Recovery | Broken lever from dam used as hook to retrieve oar Momo cannot grab from water; oar then opens dam | [Distraction Physics](../puzzles/distraction-physics.md) |
+| Oscar's Wooden Legs | Activate factory assembly line using punch card and material selector; deliver correctly-made legs to automaton engineer | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
+| Permit Stamping Automaton | Ink bottle from attic used in lawyer office stamper; train release permit becomes valid for departure | [Repair Chain Construction](../puzzles/sequential-construction.md) |
+| Valadilene Train Museum Display | Four artifacts (voice cylinders, toys) placed on museum car stands trigger Oscar's backstory cutscenes | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
+| Dam Lever and Oar Recovery | Broken lever from dam used as hook to retrieve oar Momo cannot grab from water; oar then opens dam | [Distraction Physics](../puzzles/distraction-environmental-manipulation.md) |
 | Water Lock Control Panel | Two-digit keypad codes (42, 41) raise and lower water level enabling barge tow train forward | [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) |
 | Captain Malatesta's Vision Cure | Yangala-cola powder from university lab mixed with Sauvignon wine; drink restores sight, reveals no enemy at telescope | [Information Brokerage](../puzzles/information-brokerage.md) |
 | Pipe Organ and Screwdriver | Screwdriver found atop pipe organ used to remove ladder safety panel; enables cosmodrome control room access | [Observation Replay](../puzzles/observation-replay.md) |

@@ -61,7 +61,7 @@ All five magical components are gathered from forest locations; Healer combines 
 
 ![Healer's table with all five ingredients gathered—ready for potion synthesis](./qfg1-puzzle1.png)
 
-[Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Sequential chain where ingredient gathering order is flexible but synthesis occurs only after all components convene, distinguishing from Multi-Faceted Plan where distinct categories combine without strict dependency chains.
+[Meta-Puzzle Construction](../puzzles/sequential-construction.md) — Sequential chain where ingredient gathering order is flexible but synthesis occurs only after all components convene, distinguishing from Multi-Faceted Plan where distinct categories combine without strict dependency chains.
 
 ---
 
@@ -169,7 +169,7 @@ Player survives through three trap encounters using observed patrol patterns to 
 | Thieves' Guild License and Steals | Thief only: use alley sign for password, access guild via tavern secret entrance, pay license fee, steal five items across town (candelabra, music box, vase, coins, candlesticks), sell at fence | [Information Brokerage](../puzzles/information-brokerage.md) |
 | Spitting Spirea Seed Retrieval | Class-specific seed capture after Dryad quest: Thief climbs cliff wall to catch / Fighter throws rocks at SEED (not flowers) until knocked down / Magic User Fetch repeatedly on floating seeds | [Class-Specific Ritual](../puzzles/class-specific-ritual.md) |
 | Flying Falls Ladder Access | Class-specific hermit cave entrance: Fighter throws rocks repeatedly until Henry reveals ladder / Magic User cast Detect Magic for invisible ladder display / Thief directly climbs rock wall | [Class-Specific Ritual](../puzzles/class-specific-ritual.md) |
-| Ogre Cave Treasure Retrieval | Kill ogre, search body for chest; class-specific opening: Fighter smashes / Thief pick lock / Magic User Open spell; free Baronet bear from kobold cage using recovered key | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
+| Ogre Cave Treasure Retrieval | Kill ogre, search body for chest; class-specific opening: Fighter smashes / Thief pick lock / Magic User Open spell; free Baronet bear from kobold cage using recovered key | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
 
 ---
 

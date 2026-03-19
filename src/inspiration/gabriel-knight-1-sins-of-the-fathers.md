@@ -140,7 +140,7 @@ Gabriel infiltrates the hounfour, retrieves Grace from Room 8 with the talisman,
 | Name | Problem & Solution | Pattern Type |
 |------|-------------------|--------------|
 | Grandma's Clock Puzzle | Set clock hands to 3:00 and rotate dial until dragon icon reaches 12; secret drawer opens with letter and photo | [Class-Specific Ritual](../puzzles/class-specific-ritual.md) |
-| Mime Distraction | Walk close to mime in Jackson Square, lead him to motorcycle cop; mime's antics draw cop away from radio | [Distraction Physics](../puzzles/distraction-physics.md) |
+| Mime Distraction | Walk close to mime in Jackson Square, lead him to motorcycle cop; mime's antics draw cop away from radio | [Distraction Physics](../puzzles/distraction-environmental-manipulation.md) |
 | Snake Scale Matching | Collect snake scales from crime scene, veil, and ashtray; magnify and compare all three confirm they match | [Information Brokerage](../puzzles/information-brokerage.md) |
 | Priest Disguise Infiltration | Assemble priest outfit (collar + robe) and use hair gel to convince Madame Cazaunoux Gabriel is Father McLaughlin | [Sensory Exploitation](../puzzles/sensory-exploitation.md) |
 | Drum Code Translation | Use Rada drum book on Jackson Square drummer to decode "call conclave, tonight, swamp" message | [Symbol Code Translation](../puzzles/symbol-code-translation.md) |

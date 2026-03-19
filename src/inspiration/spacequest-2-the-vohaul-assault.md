@@ -81,7 +81,7 @@ Whistle summons rock monster; throwing puzzle distracts it while it digs hole, a
 10. Walk to hole; type "GET ROCK" from excavation site
 11. Exit area north toward base entrance
 
-[Distraction Physics](../puzzles/distraction-physics.md) — Environmental hazard (monster) neutralized through timed item deployment creating exploitable window, distinguishing from Sensory Exploitation where NPC perception is bypassed rather than actively redirected through physics interaction.
+[Distraction Physics](../puzzles/distraction-environmental-manipulation.md) — Environmental hazard (monster) neutralized through timed item deployment creating exploitable window, distinguishing from Sensory Exploitation where NPC perception is bypassed rather than actively redirected through physics interaction.
 
 ### Screenshots
 
@@ -142,8 +142,8 @@ Plunger anchors Roger to wall barrier during acid trap opening; burning paper in
 | Hunter Knockout via Spores | Throw spore cloud at hunter after talking twice; steal keys from unconscious body to unlock cage door | [Sensory Exploitation](../puzzles/sensory-exploitation.md) |
 | Rope Bridge Construction | Tie rope to fallen log bridge; climb down and swing across monster gap with precise F6 timing to reach cave entrance | [Timed Consequence](../puzzles/timed-consequence.md) |
 | Alien Village Translator Use | Say dialect word learned from translator device; aliens move rock revealing secret passage downward | [Symbol Code Translation](../puzzles/symbol-code-translation.md) |
-| Keycard Door Authorization | Insert keycard (stolen from crash victim) into door panel at Vohaul's base; access spaceship interior controls | [Corporate Infiltration](../puzzles/corporate-infiltration.md) |
-| Shrink Beam Reversal via Computer | After being shrunk by Vohaul: escape glass, climb vent to life support system, press button, pull switch at computer, TYPE "ENLARGE" command to restore size | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
+| Keycard Door Authorization | Insert keycard (stolen from crash victim) into door panel at Vohaul's base; access spaceship interior controls | [Corporate Infiltration](../puzzles/distraction-environmental-manipulation.md) |
+| Shrink Beam Reversal via Computer | After being shrunk by Vohaul: escape glass, climb vent to life support system, press button, pull switch at computer, TYPE "ENLARGE" command to restore size | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
 | Oxygen Mask Breath Protection | Collect oxygen mask from broken tube corridor; WEAR MASK before continuing or suffocation occurs when glass breaks under Vohaul's attack | [Timed Consequence](../puzzles/timed-consequence.md) |
 | Kissing Disease Gatekeeping | Avoid kissing monster encounter on 5th floor entirely; if kissed, contract incurable disease that kills player during later Vohaul confrontation | [Timed Consequence](../puzzles/timed-consequence.md) |
 

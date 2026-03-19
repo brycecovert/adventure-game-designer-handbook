@@ -122,11 +122,11 @@ The correct harp melody (1-5-6-4) summons portal travel between Etheria and othe
 | Desert Cave Entrances | Plant corn kernel in damp soil, wait for growth, harvest ear; decode hieroglyphic clues to open sealed doors | [Symbol Code Translation](../puzzles/symbol-code-translation.md) |
 | Gourd Seed Collection | Examine gourd plant twice (player's action changes its state from closed to open), then collect seed | [Observation Replay](../puzzles/observation-replay.md) |
 | Statue Bead Puzzle | Move all beads to 3rd column on statue necklace via examination clicks; drains pool, reveals stairs | [Timed Consequence](../puzzles/timed-consequence.md) |
-| Turkey Flag Scorpion Trap | Combine ripped petticoat with stick to make flag, place on scorpion to immobilize it | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
+| Turkey Flag Scorpion Trap | Combine ripped petticoat with stick to make flag, place on scorpion to immobilize it | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
 | Moon Retrieval from Pond | Place rubber chicken in tree branch nest, insert fallen moon inside; chicken launches it skyward on spring | [Surreal Logic Bridge](../puzzles/surreal-logic-bridge.md) |
 | Graveyard Lock (Skull-Bat-Spider) | Press three symbols in correct sequence on coffin door to reveal hidden entrance with Troll King trapped inside | [Symbol Code Translation](../puzzles/symbol-code-translation.md) |
 | Horseman Quest for Head | Push lid off second coffin, retrieve Horseman's head; give to passing spirit rider for reward fife | [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) |
-| Malicia's Lamp Crystal | Time house entry to avoid dog patrols by walking away and returning until silent; collect lamp crystal during stealth window | [Corporate Infiltration](../puzzles/corporate-infiltration.md) |
+| Malicia's Lamp Crystal | Time house entry to avoid dog patrols by walking away and returning until silent; collect lamp crystal during stealth window | [Corporate Infiltration](../puzzles/distraction-environmental-manipulation.md) |
 
 ---
 

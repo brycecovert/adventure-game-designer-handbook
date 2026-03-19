@@ -50,7 +50,7 @@ Roger enters washing machine during active cycle, emerges wearing authentic Sari
 
 ![Laundry room with washing machines—the disguise transformation sequence](./spacequest-1-puzzle1.png)
 
-[Corporate Infiltration](../puzzles/corporate-infiltration.md) — Access requires blending in as authorized personnel by exploiting mundane infrastructure (laundry system) rather than combat or tech bypass, distinguishing from Observation Replay which memorizes external security patterns instead of acquiring internal status.
+[Corporate Infiltration](../puzzles/distraction-environmental-manipulation.md) — Access requires blending in as authorized personnel by exploiting mundane infrastructure (laundry system) rather than combat or tech bypass, distinguishing from Observation Replay which memorizes external security patterns instead of acquiring internal status.
 
 ---
 
@@ -135,7 +135,7 @@ Reflective glass is positioned in laser corridor to deflect beams onto each othe
 
 ![Laser beam corridor with reflective glass—the physics deflection puzzle](./spacequest-1-puzzle3.png)
 
-[Distraction Physics](../puzzles/distraction-physics.md) — Environmental hazards neutralized by redirecting physics (laser reflection) or triggering chain reactions (geyser pressure), distinguishing from Sensory Exploitation where NPC perception limitations are bypassed rather than physical systems manipulated.
+[Distraction Physics](../puzzles/distraction-environmental-manipulation.md) — Environmental hazards neutralized by redirecting physics (laser reflection) or triggering chain reactions (geyser pressure), distinguishing from Sensory Exploitation where NPC perception limitations are bypassed rather than physical systems manipulated.
 
 ---
 
@@ -144,7 +144,7 @@ Reflective glass is positioned in laser corridor to deflect beams onto each othe
 | Name | Problem & Solution | Pattern Type |
 |------|-------------------|--------------|
 | Slot Machine Gambling for Ship Purchase | Play bar slot machine repeatedly (save before each spin); accumulate 250+ buckazoids to afford Drallion cruiser for Deltaur travel | [Pattern Learning](../puzzles/pattern-learning.md) |
-| Translator Gadget for Hologram | Retrieve translator from Arcada airlock closet; turn on device; communicate with Keronian hologram who gives Orat mission | [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) |
+| Translator Gadget for Hologram | Retrieve translator from Arcada airlock closet; turn on device; communicate with Keronian hologram who gives Orat mission | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
 | Skimmer Key Theft Before Purchase Man | Arrive at Ulence Flats on stolen skimmer; take key before exiting vehicle or sales offer becomes impossible | [Timed Consequence](../puzzles/timed-consequence.md) |
 | Armory Grenade Heist During ID Wait | Show Sarien ID card to armory droid; while robot fetches weapon, quickly grab grenade from shelf before return | [Observation Replay](../puzzles/observation-replay.md) |
 | Security Droid Timing Puzzle | Listen for "footsteps approaching"; enter elevator or move off-screen until droid passes; resume exploration safely | [Pattern Learning](../puzzles/pattern-learning.md) |
