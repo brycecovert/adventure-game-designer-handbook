@@ -216,7 +216,7 @@
     - [ ] syberia.md - add Screenshots sections after Steps, verify against walkthroughs
     - [ ] spacequest-iv-the-rogerwars.md - add Screenshots sections after Steps, verify against walkthroughs
     - [ ] spacequest-iii-the-pirates-of-pestulon.md - add Screenshots sections after Steps, verify against walkthroughs
-    - [ ] spacequest-2-the-vohaul-assault.md - add Screenshots sections after Steps, verify against walkthroughs
+    - [x] spacequest-2-the-vohaul-assault.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] spacequest-1-the-sarien-encounter.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] simon-the-sorcerer.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] sam-and-max-hit-the-road.md - add Screenshots sections after Steps, verify against walkthroughs
