@@ -30,6 +30,7 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 - [Maniac Mansion (1987)](inspiration/maniac-mansion.md)
 - [Quest for Glory 1: Shadows of Darkness (1989)](inspiration/quest-for-glory-1-shadows-of-darkness.md)
 - [Quest for Glory II: Trial by Fire (1989)](inspiration/quest-for-glory-ii-trial-by-fire.md)
+- [Quest for Glory III: Wages of War (1992)](inspiration/quest-for-glory-iii-wages-of-war.md)
 
 # Multi-Source Discovery
 
