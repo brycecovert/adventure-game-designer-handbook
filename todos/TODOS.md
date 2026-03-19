@@ -220,7 +220,7 @@
     - [ ] spacequest-1-the-sarien-encounter.md - add Screenshots sections after Steps, verify against walkthroughs
     - [ ] simon-the-sorcerer.md - add Screenshots sections after Steps, verify against walkthroughs
     - [ ] sam-and-max-hit-the-road.md - add Screenshots sections after Steps, verify against walkthroughs
-    - [ ] quest-for-glory-iv-shadows-of-darkness.md - add Screenshots sections after Steps, verify against walkthroughs
+    - [x] quest-for-glory-iv-shadows-of-darkness.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] quest-for-glory-iii-wages-of-war.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] quest-for-glory-ii-trial-by-fire.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] quest-for-glory-1-shadows-of-darkness.md - add Screenshots sections after Steps, verify against walkthroughs
