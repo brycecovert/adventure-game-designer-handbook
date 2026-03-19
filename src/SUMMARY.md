@@ -14,6 +14,7 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 ## Games Analyzed
 
 - [Beneath a Steel Sky (1994)](inspiration/beneath-a-steel-sky.md)
+- [Broken Sword 1: Shadow of the Templars (1996)](inspiration/broken-sword-1-shadow-of-the-templars.md)
 - [Loom (1990)](inspiration/loom.md)
 
 # Multi-Source Discovery
