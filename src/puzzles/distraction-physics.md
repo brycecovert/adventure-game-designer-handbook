@@ -214,6 +214,129 @@ ENVIRONMENTAL MANIPULATION SUMMARY:
 
 ---
 
+### SpaceQuest III: ScummSoft Janitor Stealth Infiltration (SQ3)
+
+**Problem**: Roger must infiltrate ScummSoft headquarters while guards patrol hallways. After the invisibility belt breaks upon entry, the only way to avoid being killed is through disguise + behavioral compliance. Guards will execute any non-staff intruder immediately, but janitors who perform their duties correctly pass without challenge.
+
+<small>Source: gamefaqs-tricrokra-archive.html, lines 534-544 — "Wear the invisibility belt = Turn on the belt = Enter ScumSoft... The invisibility belt will get broken. Great."</small>
+
+<small>Source: the-spoiler-walkthrough.html, lines 131-148 — Complete infiltration sequence</small>
+
+**Distraction Physics via Disguise + Behavioral Compliance**:
+Unlike simple disguise mechanics where wearing a costume is sufficient, SQ3 requires maintaining behavioral consistency. Guards use trash can emptiness as a verification mechanism—if any can remains full while Roger passes by as janitor, he's immediately killed for "not doing job properly." The disguise creates passive guard non-aggression only if environmental conditions (empty cans) prove legitimate staff behavior.
+
+```
+PHASE A - PERIMETER BREACH (Temporary Stealth Item):
+
+LOCATION: Ship → South to ScummSoft building entrance
+PREREQUISITE: Invisibility belt in inventory (captured from Arnold on Phleebhut)
+
+Action Sequence:
+- WEAR belt → TURN ON belt (becomes invisible to guards)
+- PUSH BUTTON at door control panel
+- ENTER door while invisible
+
+BELT FAILURE MECHANIC:
+Outcome: Belt breaks immediately upon entering; player now vulnerable inside.
+Citation: gamefaqs-tricrokra-archive.html, lines 542-544 — "The invisibility belt will get broken. Great."
+
+
+PHASE B - DISGUISE ACQUISITION (Passive Guard Diversion):
+
+LOCATION: South from entry → First door left (janitor closet)
+Action Sequence:
+- GET CLOVERES → Automatic costume change to janitor uniform
+
+ITEMS GRANTED WITH UNIFORM:
+- VAPORIZER (waste disposal tool, multi-purpose)
+- Janitorial appearance (guards no longer kill on sight IF behavioral rules followed)
+
+
+WHY DISGUISE = DISTRACTION PHYSICS:
+The janitor uniform acts as visual deception that DIVERTS AGGRESSION BEHAVIOR. Guards' detection system checks visual appearance FIRST—if staff uniform present, they switch from "execute intruder" mode to "verify staff behavior" mode. This is NPC attention rerouting through environmental state manipulation (closet access → costume change → different guard response pattern).
+
+
+PHASE C - MANDATORY MAINTENANCE TASK (Behavioral Stealth Verification):
+
+SECURITY MECHANIC: Guards and sensors check trash can contents throughout facility. If any can is left full while player passes as janitor → immediate death for "not doing job properly."
+
+SOLUTION PATTERN:
+- Every room visited MUST have all visible trashcans emptied
+- Command: USE VAPORIZER on each can until empty
+
+ENVIRONMENTAL MANIPULATION CHAIN:
+Roger must actively modify the environment (trash cans) to maintain illusion of staff legitimacy. This is not passive disguise—it's continuous behavioral performance where environmental state (empty cans = legitimate janitor activity) proves identity to security systems. Guards use trash cans as diagnostic tool, and player must maintain correct state through standard janitorial actions.
+
+
+PHASE D - AUTHENTICATION ACQUISITION (Photocopy Substitution for Facial Recognition):
+
+SUB-PUZZLE: Boss Elmo's office security door requires facial recognition at restricted area entrance
+
+INFORMATION FLOW:
+1. Navigate maze hallways, vaporizing cans throughout (continuous distraction maintenance)
+2. Reach first western room after entry area
+3. Observe picture of Elmo's face on wall (not in boss's office yet)
+4. TAKE PICTURE from wall
+5. Use nearby photocopier: COPY picture
+6. PUT PICTURE back on original location (avoid raising alarm if inspected)
+
+Citation: gamefaqs-tricrokra-archive.html, lines 557-563 — "= Get the picture = Use the copier to copy the picture = Put the picture back where you found it."
+
+OUTPUT ITEM: COPIED PHOTO of Elmo's face
+PURPOSE: Will fool facial recognition scanner at restricted area
+
+
+WHY THIS IS DISTRACTION PHYSICS (NOT SIMPLY THEFT):
+Taking and returning the picture is environmental manipulation to create authentication item. Guard verification behavior relies on wall contents remaining unchanged—player exploits this by restoring original state, creating conditions where guards don't investigate further. This maintains the behavioral stealth chain required for successful infiltration.
+
+
+PHASE E - AUTHORITY FIGURE SURVEILLANCE (Wait for Absence Window):
+
+LOCATION: Continue north through offices to boss's office window
+OBSERVATION REQUIRED: Wait until Elmo leaves his office through east door
+
+Citation: gamefaqs-tricrokra-archive.html, lines 577-580 — "Now the boss is gone... Enter his office"
+
+STRATEGY: Player monitors from hallway. When Elmo exits east, opportunity window opens to enter office without confrontation.
+
+
+PHASE F - CREDENTIAL THEFT (Keycard Acquisition):
+
+WINDOW OF OPPORTUNITY: Only after Elmo leaves office
+LOCATION: Elmo's private office (east side of building)
+Action: GET KEYCARD from desk
+
+Citation: gamefaqs-tricrokra-archive.html, line 580 — "steal the keycard from his desk and exit south"
+
+
+PHASE G - RESTRICTED AREA ACCESS (Multi-Authentication Door):
+
+LOCATION: Exit ScummSoft building (walk south out to main hall) → First door right on south side
+SECURITY SYSTEMS TO BYPASS: Two-part electronic lock requiring redundant authentication
+
+AUTHENTICATION SEQUENCE:
+
+STEP A - Insert Keycard:
+Prerequisite: KEYCARD in inventory (stolen from Elmo's office)
+Command: USE keycard → put in slot reader
+
+STEP B - Facial Recognition Scanner:  
+Prerequisite: COPIED PHOTO of Elmo's face in inventory
+Command: Hold copy → SHOW picture/COPIED photo to scanner
+
+Citation: gamefaqs-tricrokra-archive.html, lines 592-596 — "= Go south and stop at the first door on the right = Use the keycard = Show the picture to fool the face scanner"
+
+STEP C - Enter Restricted Area (Prison Cell Zone):
+Door opens after BOTH authentications succeed
+Two captured Andromedan citizens visible inside force field cell
+
+
+```
+
+**Why It's Distraction Physics**: The janitor disguise acts as visual deception that DIVERTS guard aggression. Unlike simple sensory exploitation (one vulnerability attack), the player must continuously maintain environmental conditions (empty trash cans) that prove staff legitimacy. Guards use the environment (trash can state) as diagnostic verification—if cans aren't emptied, Roger is killed regardless of uniform. This makes disguise a DYNAMIC behavioral compliance mechanic rather than static visual camouflage. Environmental manipulation (vaporizing cans) creates sustained distraction window by satisfying guard verification patterns.
+
+---
+
 ## Related Types
 
 - **Sensory Exploitation**: Attacks NPC directly via vulnerability (tickle/sleep/food); DNP attacks NPC indirectly via environmental change that reroutes their behavior
