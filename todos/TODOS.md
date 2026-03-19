@@ -27,11 +27,11 @@
 	- [x] Link each puzzle to its pattern type from the Playbook
 
 	
-- [ ] Day of the Tentacle: analyze walkthrough and create game section
-	- [ ] Examine walkthrough files in src/walkthroughs/day-of-the-tentacle/
-	- [ ] Identify the 3 best puzzles using analysis-checklist.md criteria
-	- [ ] Write Problem/Why It Works/Solution/Steps for each puzzle
-	- [ ] Link each puzzle to its pattern type from the Playbook
+- [x] Day of the Tentacle: analyze walkthrough and create game section
+	- [x] Examine walkthrough files in src/walkthroughs/day-of-the-tentacle/
+	- [x] Identify the 3 best puzzles using analysis-checklist.md criteria
+	- [x] Write Problem/Why It Works/Solution/Steps for each puzzle
+	- [x] Link each puzzle to its pattern type from the Playbook
 
 	
 - [ ] Full Throttle: analyze walkthrough and create game section
