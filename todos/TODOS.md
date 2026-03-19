@@ -83,11 +83,11 @@
 	- [x] Link each puzzle to its pattern type from the Playbook
 
 	
-- [ ] King's Quest VIII: Mask of Eternity: analyze walkthrough and create game section
-	- [ ] Examine walkthrough files in src/walkthroughs/kings-quest-viii/
-	- [ ] Identify the 3 best puzzles using analysis-checklist.md criteria
-	- [ ] Write Problem/Why It Works/Solution/Steps for each puzzle
-	- [ ] Link each puzzle to its pattern type from the Playbook
+- [x] King's Quest VIII: Mask of Eternity: analyze walkthrough and create game section
+	- [x] Examine walkthrough files in src/walkthroughs/kings-quest-viii/
+	- [x] Identify the 3 best puzzles using analysis-checklist.md criteria
+	- [x] Write Problem/Why It Works/Solution/Steps for each puzzle
+	- [x] Link each puzzle to its pattern type from the Playbook
 
 	
 - [ ] Kurdyndria 1: Shadow of the Fox: analyze walkthrough and create game section
