@@ -28,6 +28,7 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 - [King's Quest VIII: Mask of Eternity (1998)](inspiration/kings-quest-viii-mask-of-eternity.md)
 - [Kyrandria 1: Shadow of the Fox (1992)](inspiration/kyrandria-1-shadow-of-the-fox.md)
 - [Maniac Mansion (1987)](inspiration/maniac-mansion.md)
+- [Quest for Glory 1: Shadows of Darkness (1989)](inspiration/quest-for-glory-1-shadows-of-darkness.md)
 
 # Multi-Source Discovery
 
