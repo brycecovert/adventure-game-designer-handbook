@@ -71,7 +71,7 @@ When you want players to feel ownership over the solution by discovering require
 
 | Type | Similarity | Distinction |
 |------|------------|-------------|
-| [Meta-Construction](./meta-construction.md) | Both gather multiple components | Meta-Construction = sequential chain where Step N's output enables Step N+1; MFP = parallel gathering with no interdependency |
+| [Sequential Construction](sequential-construction.md) | Both gather multiple components | Sequential Construction = sequential chain where Step N's output enables Step N+1; MFP = parallel gathering with no interdependency |
 | [Pattern Learning](./pattern-learning.md) | Both require synthesis | Pattern Learning = discover reusable rule system; MFP = assemble discrete requirements from scattered sources |
 | [Information Brokerage](./information-brokerage.md) | Both involve NPC interaction | Brokerage = trade items between NPCs; MFP = gather requirements for single application |
 
