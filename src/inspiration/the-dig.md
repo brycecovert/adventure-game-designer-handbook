@@ -46,6 +46,12 @@ The sea creature explodes underwater, opening a cave containing an engraved rod 
 12. Use glowing crystal on creature to revive it before re-swallowing
 13. Enter water path now revealed; collect orange engraved rod and plate
 
+### Screenshots
+
+![Reconstructed sea creature skeleton awaiting canister use](./the-dig-skeleton-reconstructed.png)
+
+![Dead creature explosion underwater revealing cave entrance with engraved rod](./the-dig-underwater-cave-entrance.png)
+
 [Observation Replay](../puzzles/observation-replay.md) — Player memorizes arrangement from one location (fossil), then applies identical pattern elsewhere (skeletal remains), distinguishing this from Sensory Exploitation which targets NPC perception directly.
 
 ---
@@ -87,6 +93,14 @@ The critter is captured, bracelet attached for tracking, released; device locate
 18. Use machine part with broken panel, then cover with panel
 19. Press panel button to open planetarium door
 
+### Screenshots
+
+![Critter trap fully assembled with rod-and-cage mechanism waiting for prey](./the-dig-trap-assembled.png)
+
+![Boston positioned between wheels as critter walks into triggered trap](./the-dig-trap-sprung.png)
+
+![Signal device glowing at tracker spot marking buried machine part location](./the-dig-tracker-spot-located.png)
+
 [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Each step's output becomes next step's input (dowel→pin→hook→cage→trap), distinguishing this from Multi-Faceted Plan where items gather independently and synthesize at single application point.
 
 ---
@@ -118,6 +132,14 @@ Correct alignment triggers door closure cutscene showing alien astronomical know
 8. Achieve correct positioning triggers automatic cutscene: door closes, light projects through lens to Tomb Spire
 9. After eclipse animation completes, push button to reopen planetarium door
 10. Exit chamber; green engraved rod and map plate remain collectible for later use
+
+### Screenshots
+
+![Gold scepter activated on ceiling light displaying moon map with planet and dual moons](./the-dig-moon-map-activated.png)
+
+![Correct eclipse alignment showing small moon between planet and large moon in center light beam](./the-dig-eclipse-aligned.png)
+
+![Final cutscene: eclipse projection shooting through lens toward Tomb Spire during door closure](./the-dig-tomb-projection-cutscene.png)
 
 [Pattern Learning](../puzzles/pattern-learning.md) — Player observes eclipse pattern from museum display and actual sky positions through dome crack, then reproduces matching celestial arrangement on control interface using scepters as manipulation tools, distinguishing this from Symbol Code Translation which deciphers arbitrary notation systems without environmental astronomical grounding.
 
