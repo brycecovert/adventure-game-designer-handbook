@@ -40,6 +40,14 @@ Momo accepts the traced mammoth drawing and reveals the path to a secret cave co
 6. Use paper and pencil ON the outline to create traced drawing
 7. Give tracing to Momo; he dances and agrees to lead Kate to hidden cave
 
+### Screenshots
+
+![Kate in Voralberg attic with Momo automaton child, showing desk with ink bottle and diary](./syberia-puzzle1-s1.png)
+
+![Light beam illuminating mammoth outline carved on wooden attic beam](./syberia-puzzle1-s2.png)
+
+![Completed paper tracing of mammoth being given to Momo who begins dancing](./syberia-puzzle1-s3.png)
+
 [Repair Chain Construction](../puzzles/repair-chain-construction.md) — The tracing creation requires sequential item acquisition (paper + pencil from Momo, light to reveal pattern) where each step enables the next, distinguishing this from simple fetch quests where items lack production-chain value.
 
 ---
@@ -69,6 +77,14 @@ The elevator operates, granting access to the upper level where punch card mecha
 6. Pull right lever to activate elevator and ascend to upper level  
 7. Examine desk drawers; use obtained keys to unlock purple punch card and secondary tools
 8. Use punch card on automaton slot at upper floor to lower crypt access hat
+
+### Screenshots
+
+![Hotel lobby floor and table showing four cog wheels of different sizes scattered around](./syberia-puzzle2-s1.png)
+
+![Cemetery elevator control panel with four empty spindles before cog wheel insertion](./syberia-puzzle2-s2.png)
+
+![Elevator fully assembled with all cog wheels inserted, lever in resting position](./syberia-puzzle2-s3.png)
 
 [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) — Multiple requirements (cog wheels, telescopic key, drawer keys) are gathered in any order but synthesize at a single application point, distinguishing this from Meta-Puzzle Construction where step N's output becomes step N+1's input.
 

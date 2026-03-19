@@ -140,7 +140,7 @@ Create file at `src/inspiration/<game-name-kebab-case>.md` using exact template 
 - Format direct quotes as blockquotes (riddles/game text) or inline commentary (author observations)
 - Use citation keys consistently: `[Author]`, `[SourceAuthor]`, etc.
 - Include exactly 3 featured puzzles, plus Other Puzzles table
-- Add screenshot placeholders with descriptive alt text
+- Add screenshot placeholders with descriptive alt text for each major puzzle
 
 **Word count target:** ~1,000 words total (don't exceed significantly)
 

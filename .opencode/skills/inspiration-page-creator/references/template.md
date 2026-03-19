@@ -61,6 +61,9 @@ Example: `loom.md`, `beneath-a-steel-sky.md`, `day-of-the-tentacle.md`
 4. [Continued as needed...]
 5. [Final action that completes puzzle]
 
+### Screenshots
+<at least one screenshot, with alt text. If no screenshot is available, make the alt text have the content that can be used to find one later>
+
 [<Pattern Type>](../puzzles/<pattern-slug>.md) — [1 sentence explicitly connecting this example to the core mechanic of the pattern type, distinguishing from similar types].
 
 ---
