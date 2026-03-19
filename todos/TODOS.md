@@ -90,11 +90,11 @@
 	- [x] Link each puzzle to its pattern type from the Playbook
 
 	
-- [x] Kurdyndria 1: Shadow of the Fox: analyze walkthrough and create game section
-	- [x] Examine walkthrough files in src/walkthroughs/kyrandia_1/
-	- [x] Identify the 3 best puzzles using analysis-checklist.md criteria
-	- [x] Write Problem/Why It Works/Solution/Steps for each puzzle
-	- [x] Link each puzzle to its pattern type from the Playbook
+- [x] The Legend of Kyrandia: Book One: analyze walkthrough and create game section
+    - [x] Examine walkthrough files in src/walkthroughs/kyrandia_1/
+    - [x] Identify the 3 best puzzles using analysis-checklist.md criteria
+    - [x] Write Problem/Why It Works/Solution/Steps for each puzzle
+    - [x] Link each puzzle to its pattern type from the Playbook
 
 	
 - [x] Loom: analyze walkthrough and create game section
@@ -225,7 +225,7 @@
     - [x] quest-for-glory-ii-trial-by-fire.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] quest-for-glory-1-shadows-of-darkness.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] maniac-mansion.md - add Screenshots sections after Steps, verify against walkthroughs
-    - [ ] kyrandia-1-shadow-of-the-fox.md - add Screenshots sections after Steps, verify against walkthroughs
+    - [x] the-legend-of-kyrandia-book-one.md - add Screenshots sections after Steps, verify against walkthroughs, rename file from kyrandia-1-shadow-of-the-fox.md
     - [x] kings-quest-viii-mask-of-eternity.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] kings-quest-vii-the-princeless-bride.md - add Screenshots sections after Steps, verify against walkthroughs
     - [x] kings-quest-iii-to-heir-is-human.md - add Screenshots sections after Steps, verify against walkthroughs

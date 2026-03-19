@@ -1,6 +1,6 @@
-# Kyrandria 1: Shadow of the Fox (1992)
+# The Legend of Kyrandia: Book One (1992)
 
-Fables &amp; Fiends: The Legend of Kyrandia uses an amulet-based magic spell system where players progressively unlock abilities by completing quests and activating gems. The game's puzzle design chains exploration with skill acquisition, requiring players to gather scattered resources before accessing new areas with newly acquired powers. While the plot remains generic, the mechanical interlocking of quest systems creates memorable progression moments distinct from pure inventory bloat.
+The Legend of Kyrandia uses an amulet-based magic spell system where players progressively unlock abilities by completing quests and activating gems. The game's puzzle design chains exploration with skill acquisition, requiring players to gather scattered resources before accessing new areas with newly acquired powers. While the plot remains generic, the mechanical interlocking of quest systems creates memorable progression moments distinct from pure inventory bloat.
 
 ## At a Glance
 
@@ -47,6 +47,10 @@ Player can travel to Castle Kyrandia and recover the Royal Chalice from Faun usi
 12. Return to normal size and locate chalice deposited outside Faun's door
 13. Use orange potion on tropical lagoon to travel to Castle Kyrandia
 
+### Screenshots
+
+![Screenshot: Orange and purple potions created at Crystals of Alchemy, ready for use](./kyrandia-1-puzzle1.png)
+
 [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Sequential dependency chain where each output enables subsequent steps, distinguished from multi-faceted plan by requirement for ordered progression rather than parallel requirement gathering.
 
 ---
@@ -80,6 +84,10 @@ Striking bells in correct musical sequence reveals gold key behind painting, pro
 7. Strike blue bell (Re)
 8. Retrieve revealed gold key from behind painting
 
+### Screenshots
+
+![Screenshot: Bell stand with four colored bells (green Do, white Fa, gold Mi, blue Re); gold key revealed behind painting after correct sequence](./kyrandia-1-puzzle2.png)
+
 [Observation-Replay](../puzzles/observation-replay.md) — Memorization and reproduction of one specific sequence; distinguished from pattern-learning by absence of transferable rules or generalizable discovery.
 
 ---
@@ -110,6 +118,10 @@ Malcolm's spell reflects off mirror and petrifies him, ending the game.
 6. Activate red gem invisibility spell before spell launch completes
 7. Watch spell bounce off mirror and hit Malcolm instead
 8. Victory: Malcolm turned to stone
+
+### Screenshots
+
+![Screenshot: Kyragem chamber with Malcolm casting spell; Brandon invisible in front of mirror on right wall as spell reflects back](./kyrandia-1-puzzle3.png)
 
 [Sensory-Exploitation](../puzzles/sensory-exploitation.md) — Direct exploitation of NPC perception failure (visual targeting rendered useless by invisibility); distinguished from information-brokerage by absence of item-for-item trade network.
 
