@@ -9,6 +9,12 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 - [Core Principles](core-principles.md)
 - [Documentation Structure](documentation-structure.md)
 
+# Inspiration
+
+## Games Analyzed
+
+- [Loom (1990)](inspiration/loom.md)
+
 # Multi-Source Discovery
 
 - [Multi-Faceted Plan](puzzles/multi-faceted-plan.md)
