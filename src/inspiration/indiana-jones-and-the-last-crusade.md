@@ -42,6 +42,10 @@ Breaking the correct floor slab opens a hidden passage that leads to the catacom
 6. Use the metal post (collected from library shelves) to smash the numbered floor slab
 7. Jump through the opening into the catacombs below
 
+### Screenshots
+
+![Library puzzle complete — Indiana Jones breaking floor slab with metal post after matching stained-glass window to diary illustration](./indiana-jones-last-crusade-puzzle1-escape.png)
+
 [Symbol Code Translation](../puzzles/symbol-code-translation.md) — The player decodes diary visual symbols (drawing + numeric quotation) into physical world actions (matching window → pillar numeral → target slab), distinguishing from pure observation replay by requiring active code interpretation rather than memorized sequence reproduction.
 
 ---
@@ -70,6 +74,10 @@ Playing the skulls in correct musical order opens the door, revealing passage to
 5. Play each skull in the exact sequence shown in the diary's music notation
 6. Door mechanism activates and unlocks after correct sequence
 7. Enter newly opened passage toward Knight's Tomb
+
+### Screenshots
+
+![Skull door unlocked — Four skulls with correct musical sequence played, revealing passage to Knight's Tomb](./indiana-jones-last-crusade-puzzle2-door.png)
 
 [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) — Player gathers clue (diary musical notation) during exploration phase but only synthesizes it at the skull door, requiring both information retrieval and sequential execution. Differentiates from Meta-Puzzle Construction because components aren't chained outputs—each step doesn't produce materials for the next; instead, all requirements converge at a single decision point.
 
@@ -103,6 +111,10 @@ Indy reaches Henry's detention cell on the third floor and frees him, enabling e
 9. Bypass third-floor guards either through combat or dialogue (IQ point variations)
 10. Locate Henry's cell marked by electrical wires above doorway
 11. Use silver key (taken from candelabra in officer quarters) to unlock door
+
+### Screenshots
+
+![Castle infiltration success — Indiana Jones as uniformed officer reaching Henry Jones's detention cell on third floor](./indiana-jones-last-crusade-puzzle3-rescue.png)
 
 [Corporate Infiltration](../puzzles/corporate-infiltration.md) — Progressive disguise acquisition grants access to increasingly restricted areas with guard patrol management—distinguishes from Sensory Exploitation by focusing on physical costume-based permission rather than NPC perception weakness exploitation.
 
