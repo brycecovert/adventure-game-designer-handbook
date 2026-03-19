@@ -46,6 +46,12 @@ The retinal scanner accepts the monkey's glass eye as valid authentication, gran
 11. Exit locker room; use acquired eye on retinal scanner
 12. Enter archives computer room with authenticated access
 
+### Screenshots
+
+![Police station retinal scanner door showing the access terminal that requires valid biometric authentication](./the-longest-journey-puzzle1-scanner.png)
+![Minelli in locker room stall during medicated sneeze, showing synthetic eye dropping from impact with mirror](./the-longest-journey-puzzle1-minelli-sneeze.png)
+![Monkey toy inventory view showing glass eye before replacement swap during timing window](./the-longest-journey-puzzle1-monkey-eye.png)
+
 [Sensory Exploitation](../puzzles/sensory-exploitation.md) — The solution targets Minelli's physical vulnerability (sneeze reflex in darkness), distinguishing this from Information Brokerage which would require social negotiation rather than exploiting NPC perception weakness.
 
 ---
@@ -82,6 +88,12 @@ The wind mixture is completed and given to Captain Nebeve, convincing him that s
 12. Call Raven companion; have him spread wind mixture into clouds
 13. Return to docks; deliver wind mixture proof to Captain Nebeve
 
+### Screenshots
+
+![Formula book open showing potion recipes with required ingredient sequence orders documented](./the-longest-journey-puzzle2-formula-book.png)
+![Invisibility mixture creation showing pouring sequence: white bottle, then green, then blue essence combined](./the-longest-journey-puzzle2-invisibility-mix.png)
+![Lightness potion effect on April leaping to retrieve red bottle positioned above window ledge](./the-longest-journey-puzzle2-lightness-grab.png)
+
 [Meta-Puzzle Construction](../puzzles/meta-puzzle-construction.md) — Each potion synthesis produces an output enabling subsequent steps (invisibility grants page access, lightness reaches red essence), distinguishing this from Multi-Faceted Plan where requirements gather in any order before synthesis.
 
 ---
@@ -116,6 +128,12 @@ Voice echoes from treehouse phone through cliff → ruins → statue, waking Q'm
 10. Complete fourth phone at ruins; align so mouth points toward Q'man statue's ears
 11. Speak into treehouse microphone; voice echoes: treehouse → cliff → ruins → Q'man ears
 12. Wake giant Q'man with successful echo chain; receive assistance request capability
+
+### Screenshots
+
+![Q'man statue mouth interior showing wall diagram with symbol key for ear and mouth phone component identification](./the-longest-journey-puzzle3-symbol-diagram.png)
+![Speaking phone interface showing stone key used to rotate separate mouth and ear component wheels independently](./the-longest-journey-puzzle3-phone-wheel.png)
+![Completed echo chain visualization: voice path from treehouse → cliff → ruins phones finally reaching Q'man statue ears](./the-longest-journey-puzzle3-echo-complete.png)
 
 [Symbol Code Translation](../puzzles/symbol-code-translation.md) — Player must decode symbol meanings from statue mouth diagram (which icons represent ears vs mouths), then translate abstract symbols into physical device configurations across four separate locations, distinguishing this from Pattern Learning where exact sequences are reproduced rather than symbolic representations translated into environmental actions.
 
