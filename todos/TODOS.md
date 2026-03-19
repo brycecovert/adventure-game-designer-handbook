@@ -6,11 +6,11 @@
 	- [ ] Document Problem/Why It Works/Solution/Steps format requirements
 
 	
-- [ ] Beneath a Steel Sky: analyze walkthrough and create game section
-	- [ ] Examine walkthrough files in src/walkthroughs/beneath-a-steel-sky/
-	- [ ] Identify the 3 best puzzles using analysis-checklist.md criteria
-	- [ ] Write Problem/Why It Works/Solution/Steps for each puzzle
-	- [ ] Link each puzzle to its pattern type from the Playbook
+- [x] Beneath a Steel Sky: analyze walkthrough and create game section
+	- [x] Examine walkthrough files in src/walkthroughs/beneath-a-steel-sky/
+	- [x] Identify the 3 best puzzles using analysis-checklist.md criteria
+	- [x] Write Problem/Why It Works/Solution/Steps for each puzzle
+	- [x] Link each puzzle to its pattern type from the Playbook
 
 	
 - [ ] Broken Sword 1: Shadow of the Templars: analyze walkthrough and create game section

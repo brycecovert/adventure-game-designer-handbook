@@ -11,7 +11,7 @@ This is a **documentation-only knowledge base** built with [mdbook](https://rust
 | `/src/puzzles/` | Markdown documents defining puzzle type patterns with mechanical analysis and game examples |
 | `/src/docs/` | Style guides and validation checklists for contributing pattern documentation |
 | `/src/SUMMARY.md` | Navigation structure for mdbook |
-| `/walkthroughs/` | Source walkthrough documents used as reference material for pattern extraction |
+| `/src/walkthroughs/` | Source walkthrough documents used as reference material for pattern extraction |
 | `/book/` | Generated HTML documentation (after `mdbook build`) |
 | `/src/mdbook.template` | Template file that converts patterns into puzzle design questions usable by LLMs |
 
@@ -62,7 +62,7 @@ When creating content, keep in mind:
 
 Load the `adventure-puzzle-analyzer` skill before:
 - Converting walkthrough text into structured puzzle documentation
-- Extracting patterns from game walkthrough files in `/walkthroughs/`
+- Extracting patterns from game walkthrough files in `/src/walkthroughs/`
 
 ## Task Management with TODOS.md
 
