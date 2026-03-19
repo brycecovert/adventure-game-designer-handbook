@@ -47,6 +47,12 @@ A lightning-struck tree falls into the water and becomes a boat at the dock.
 4. The fallen tree trunk drifts to the dock, where it becomes a boat
 5. Enter the water and board the tree-boat to sail across the ocean
 
+### Screenshots
+
+![Bobbin casting OPEN draft on sky with stars visible](./loom-puzzle1-screenshots.png)
+
+---
+
 [Metaphor-to-Literal](../puzzles/metaphor-to-literal.md) — The riddle uses poetic language ("sky is opened") that maps directly to an existing mechanical action (OPEN draft), distinguishing it from pure observation puzzles where information must be memorized rather than applied.
 
 ---
@@ -74,6 +80,12 @@ The sheep are dyed green to blend into the grass; when the dragon arrives, she m
 4. When the dragon swoops down to eat the sheep, she cannot see them
 5. She picks up Bobbin instead and carries him to her cave
 
+### Screenshots
+
+![Sheep dyed green blending into grass with Bobbin standing nearby](./loom-puzzle2-screenshots.png)
+
+---
+
 [Pattern Learning](../puzzles/pattern-learning.md) — Player learns a system (DYE changes object color) in Domain A (Hetchel's tent with wool), then applies the same rule in Domain B (field with sheep). Unlike Multi-Faceted Plan, this is a single draft applied consistently—not multiple requirements gathered from different sources.
 
 ---
@@ -100,6 +112,12 @@ Bobbin becomes invisible to the guards and enters the tower, where he learns the
 3. The workers become unable to see Bobbin due to invisibility
 4. Enter the tower undetected and proceed to the upper levels
 5. Learn SHARPEN from the scythe and VISION from the sphere
+
+### Screenshots
+
+![Workers at top of green tower before/after APPEAR draft makes them unable to see Bobbin](./loom-puzzle3-screenshots.png)
+
+---
 
 [Sensory Exploitation](../puzzles/sensory-exploitation.md) — The workers' perception is exploited directly (APPEAR draft), differentiating this from Distraction Physics where environmental manipulation breaks a blocking pattern rather than targeting NPC sensory weakness.
 
