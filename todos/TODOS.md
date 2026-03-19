@@ -237,5 +237,5 @@
     - [ ] day-of-the-tentacle.md - add Screenshots sections after Steps, verify against walkthroughs
     - [ ] broken-sword-ii-the-smoking-mirror.md - add Screenshots sections after Steps, verify against walkthroughs
     - [ ] broken-sword-1-shadow-of-the-templars.md - add Screenshots sections after Steps, verify against walkthroughs
-    - [ ] beneath-a-steel-sky.md - add Screenshots sections after Steps, verify against walkthroughs
+    - [x] beneath-a-steel-sky.md - add Screenshots sections after Steps, verify against walkthroughs
     - [ ] loom.md - add Screenshots sections after Steps, verify against walkthroughs
