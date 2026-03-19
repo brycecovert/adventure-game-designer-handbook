@@ -48,6 +48,12 @@ Tomb chamber opens, revealing a Worldstone artifact and orichalcum bead; Sternha
 8. Pull the newly formed elephant trunk
 9. Enter opened tomb chamber
 
+### Screenshots
+
+![Tikal temple interior with animal head sculpture and tarnished spiral design visible on adjacent walls](./indiana-jones-and-the-fate-of-atlantis-puzzle1-steps.png)
+
+![Spiral placed on animal head forming complete elephant; player pulling the trunk-nose to open tomb wall](./indiana-jones-and-the-fate-of-atlantis-puzzle1-solution.png)
+
 [Metaphor-Literal](../puzzles/metaphor-literal.md) — Elephant head requires literal missing part (trunk/spiral) to activate pull action; differs from Symbol-Code Translation which deciphers abstract symbols rather than completing physical metaphors.
 
 ---
@@ -84,6 +90,12 @@ Generator illuminates chamber, enabling collection of artifacts needed to repair
 10. Use fuel-filled jar on gas filler pipe
 11. Close gas cap
 12. Push generator switch to activate light
+
+### Screenshots
+
+![Dark dig site chamber with player navigating blindly by cursor; portable generator silhouette barely visible in darkness](./indiana-jones-and-the-fate-of-atlantis-puzzle2-steps.png)
+
+![Generator activated and illuminating the chamber; all objects now clearly visible including ship rib, wooden peg, and crumbling wall](./indiana-jones-and-the-fate-of-atlantis-puzzle2-solution.png)
 
 [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) — Multiple discrete requirements gathered independently (hose, jar, fuel, generator location) combine into single outcome; distinguishable from Meta-Puzzle Construction where step N's output directly enables step N+1 in strict sequence.
 
@@ -124,6 +136,12 @@ Moonstone discovered at marked excavation point; player now possesses two of thr
 11. Observe yellow X mark at line convergence
 12. Use ship rib to excavate marked spot
 13. Collect Moonstone from excavation
+
+### Screenshots
+
+![Crete ruins mural showing bull head, tail, and horns with geometric diagram of intersecting lines](./indiana-jones-and-the-fate-of-atlantis-puzzle3-steps.png)
+
+![Transit sight aligned on both statues; yellow X mark visible at ground-level convergence point awaiting excavation](./indiana-jones-and-the-fate-of-atlantis-puzzle3-solution.png)
 
 [Pattern-Learning](../puzzles/pattern-learning.md) — Mural teaches geometric rule (crossing lines from opposing points), player applies rule twice with physical instrument; differs from Observation-Replay where memorized sequence reproduces without general principles.
 
