@@ -1250,7 +1250,7 @@ Acquisition Sub-chain:
 a) Reach Frozen Reaches via pipe elevator from Barren Region lair (lines 1138-1143)
 b) Obtain crystal scepter from Snow Queen → use on Crystal Dragon for flight (lines 1147-1163)
 c) Complete extensive Ice Stronghold exploration including jail break, Thork fight
-d) Solve ice lever construction puzzle (detailed in meta-puzzle-construction.md)
+d) Solve ice lever construction puzzle (detailed in sequential-construction.md)
 e) Use ice lever to open barred cell door → Fourth mask piece in chest (lines 1237-1238)
 
 Most complex sub-chain - requires multiple previous region tool acquisitions

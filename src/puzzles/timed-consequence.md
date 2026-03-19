@@ -525,4 +525,4 @@ maintaining captured organism's viability is the timed challenge, with mechanica
 
 ### Relationship to Predator Chase Escape Pattern
 
-Predator chase sequences are a specific variant where urgency is created through active pursuit rather than narrative deadline. The SQ3 Arnoid chase exemplifies this—the "timer" is how fast the robot catches Roger, not a story-based deadline like DOTT's time machine or QFG4's four-year limit. See [Distraction Physics](distraction-physics.md) for predator rerouting mechanics where players guide pursuers into environmental hazards.
+Predator chase sequences are a specific variant where urgency is created through active pursuit rather than narrative deadline. The SQ3 Arnoid chase exemplifies this—the "timer" is how fast the robot catches Roger, not a story-based deadline like DOTT's time machine or QFG4's four-year limit. See [Distraction Physics](distraction-environmental-manipulation.md) for predator rerouting mechanics where players guide pursuers into environmental hazards.

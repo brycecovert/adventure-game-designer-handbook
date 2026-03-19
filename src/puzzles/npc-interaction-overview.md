@@ -9,7 +9,7 @@ The core distinction: solutions require reading NPC motivations, exploiting pers
 | Type | Social Mechanic | When to Use This Pattern |
 |------|-----------------|--------------------------|
 | [Comedy-Based Persuasion](puzzles/comedy-based-persuasion.md) | Humor/absurdity unlocks dialogue branches | Guard or authority figure has rigid but exploitable sense of propriety |
-| [Distraction & Environmental Manipulation](puzzles/distraction-physics.md) | Physical triggers divert NPC attention | NPC follows predictable patrol or sensory pathing logic |
+| [Distraction & Environmental Manipulation](puzzles/distraction-environmental-manipulation.md) | Physical triggers divert NPC attention | NPC follows predictable patrol or sensory pathing logic |
 | [Class-Specific Challenges](puzzles/class-specific-ritual.md) | Character class determines ritual solutions | Multiple entry paths exist, but each requires specific role-based trials |
 | [Multi-Faction Diplomacy](puzzles/multi-faction-diplomacy.md) | Conflicting faction rules create negotiation space | Multiple stakeholders with incompatible demands must be appeased |
 
