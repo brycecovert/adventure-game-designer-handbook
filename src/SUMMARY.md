@@ -46,8 +46,7 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 # Puzzle Taxonomy
 
 ### Information Discovery Puzzles
-Puzzles solved by gathering information from multiple sources and synthesizing it into actionable knowledge. [Information Discovery Overview](puzzles/information-discovery-overview.md)
-
+- [Information Discovery Overview](puzzles/information-discovery-overview.md)
 - [Parallel Multi-Faceted Plans](puzzles/multi-faceted-plan.md)
 - [Sequential Construction](puzzles/sequential-construction.md)
 - [Information Brokerage Chains](puzzles/information-brokerage.md)
@@ -56,8 +55,7 @@ Puzzles solved by gathering information from multiple sources and synthesizing i
 - [Truth Revelation Mechanic](puzzles/truth-revelation.md)
 
 ### Cognitive Transfer Puzzles
-Puzzles requiring players to learn a system in one context and apply it in another, transferring learned knowledge across domains. [Cognitive Transfer Overview](puzzles/cognitive-transfer-overview.md)
-
+- [Cognitive Transfer Overview](puzzles/cognitive-transfer-overview.md)
 - [Pattern Learning / Knowledge Transfer](puzzles/pattern-learning.md)
 - [Symbol Code Translation](puzzles/symbol-code-translation.md)
 - [Metaphor-to-Literal Bridges](puzzles/metaphor-literal.md)
@@ -65,30 +63,26 @@ Puzzles requiring players to learn a system in one context and apply it in anoth
 - [Observation Replay](puzzles/observation-replay.md)
 
 ### Spatial & Temporal Coordination
-Puzzles requiring coordination across different spaces, times, or character perspectives. [Spatial & Temporal Overview](puzzles/spatial-temporal-coordination-overview.md)
-
+- [Spatial & Temporal Overview](puzzles/spatial-temporal-coordination-overview.md)
 - [Cross-Temporal Causality](puzzles/cross-temporal-causality.md)
 - [Cross-Realm Logistics](puzzles/cross-realm-logistics.md)
 - [Multi-Character Coordination](puzzles/multi-character-coordination.md)
 - [Timed Consequence](puzzles/timed-consequence.md)
 
 ### NPC Interaction & Social Puzzles
-Puzzles solved through dialogue, social manipulation, and understanding NPC motivations and hierarchies. [NPC Interaction Overview](puzzles/npc-interaction-overview.md)
-
+- [NPC Interaction Overview](puzzles/npc-interaction-overview.md)
 - [Comedy-Based Persuasion](puzzles/comedy-based-persuasion.md)
 - [Distraction & Environmental Manipulation](puzzles/distraction-environmental-manipulation.md)
 - [Class-Specific Challenges](puzzles/class-specific-ritual.md)
 - [Multi-Faction Diplomacy](puzzles/multi-faction-diplomacy.md)
 
 ### Systems & Logic Puzzles
-Puzzles based on formal systems, programming logic, or structured rules. [Systems & Logic Overview](puzzles/systems-and-logic-overview.md)
-
+- [Systems & Logic Overview](puzzles/systems-and-logic-overview.md)
 - [Robot Programming / Color-Encoded Sequences](puzzles/robot-programming.md)
 - [Escalating Combat Progression](puzzles/escalating-combat-progression.md)
 
 ### Non-Standard Logic Domains
-Puzzles operating on non-realistic causality or surreal logic that defies conventional reasoning. [Non-Standard Domains Overview](puzzles/non-standard-domains-overview.md)
-
+- [Non-Standard Domains Overview](puzzles/non-standard-domains-overview.md)
 - [Surreal Logic Bridges](puzzles/surreal-logic-bridge.md)
 
 # Documentation Guidelines
