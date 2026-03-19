@@ -63,8 +63,7 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 
 # Sequential Construction
 
-- [Meta-Puzzle Construction](puzzles/meta-puzzle-construction.md)
-- [Repair Chain Construction](puzzles/repair-chain-construction.md)
+- [Sequential Construction (includes repair chains)](puzzles/sequential-construction.md)
 
 # Time-Based Mechanics
 
@@ -78,7 +77,7 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 
 # NPC Interaction
 
-- [NPC Distraction Physics](puzzles/distraction-physics.md)
+- [Distraction & Environmental Manipulation](puzzles/distraction-environmental-manipulation.md)
 - [Comedy-Based NPC Persuasion](puzzles/comedy-based-persuasion.md)
 
 # Coordinated Actions
@@ -90,10 +89,6 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 - [Systems & Logic Overview](puzzles/systems-and-logic-overview.md)
 - [Robot Programming / Color-Encoded Sequences](puzzles/robot-programming.md)
 - [Escalating Combat Progression](puzzles/escalating-combat-progression.md)
-
-# Infiltration & Stealth
-
-- [Corporate Infiltration](puzzles/corporate-infiltration.md)
 
 # Class & Faction Systems
 
