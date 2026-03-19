@@ -35,6 +35,7 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 - [Sam & Max Hit the Road (1993)](inspiration/sam-and-max-hit-the-road.md)
 - [Simon the Sorcerer (1993)](inspiration/simon-the-sorcerer.md)
 - [Space Quest 1: The Sarien Encounter (1986)](inspiration/spacequest-1-the-sarien-encounter.md)
+- [The Dig (1995)](inspiration/the-dig.md)
 - [Syberia (2002)](inspiration/syberia.md)
 - [Space Quest II: The Vohaul Assault (1987)](inspiration/spacequest-2-the-vohaul-assault.md)
 - [SpaceQuest III: The Pirates of Pestulon (1989)](inspiration/spacequest-iii-the-pirates-of-pestulon.md)
