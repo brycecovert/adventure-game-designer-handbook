@@ -18,6 +18,7 @@ A taxonomy of puzzle design patterns from classic point-and-click adventure game
 - [Broken Sword II: The Smoking Mirror (1997)](inspiration/broken-sword-ii-the-smoking-mirror.md)
 - [Day of the Tentacle (1993)](inspiration/day-of-the-tentacle.md)
 - [Loom (1990)](inspiration/loom.md)
+- [Full Throttle (1995)](inspiration/full-throttle.md)
 
 # Multi-Source Discovery
 

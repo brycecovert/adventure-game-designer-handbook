@@ -34,11 +34,11 @@
 	- [x] Link each puzzle to its pattern type from the Playbook
 
 	
-- [ ] Full Throttle: analyze walkthrough and create game section
-	- [ ] Examine walkthrough files in src/walkthroughs/full-throttle/
-	- [ ] Identify the 3 best puzzles using analysis-checklist.md criteria
-	- [ ] Write Problem/Why It Works/Solution/Steps for each puzzle
-	- [ ] Link each puzzle to its pattern type from the Playbook
+- [x] Full Throttle: analyze walkthrough and create game section
+	- [x] Examine walkthrough files in src/walkthroughs/full-throttle/
+	- [x] Identify the 3 best puzzles using analysis-checklist.md criteria
+	- [x] Write Problem/Why It Works/Solution/Steps for each puzzle
+	- [x] Link each puzzle to its pattern type from the Playbook
 
 	
 - [ ] Gabriel Knight 1: Sins of the Fathers: analyze walkthrough and create game section
