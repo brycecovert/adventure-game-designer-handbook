@@ -6,4 +6,4 @@
 - [x] Update markdown to embed SVG with preview link
   - [x] Update kings-quest-vi-heir-today-gone-tomorrow.md
 - [x] Test with mdbook build
-- [ ] Commit changes
+- [x] Commit changes
