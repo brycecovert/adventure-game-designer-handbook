@@ -204,29 +204,59 @@ A_PAY_PAWN_BROKER_COIN --> O_FLUTE_UNLOCKED
 
 ## Color Palette (Index-Based)
 
-Use this fixed palette for area/subgraph coloring. Same area can appear multiple times at different logical points.
+Use this fixed palette for area/subgraph coloring. Same area can appear multiple times at different logical points. Use the SAME color for repeated areas (e.g., Isle of Crown appears at start AND end with same color).
 
-| Index | Hex | Sample |
-|-------|-----|--------|
-| 0 | `#FFFFFF` | Default/ungrouped |
-| 1 | `#E3F2FD` | Light Blue |
-| 2 | `#FFF3E0` | Light Orange |
-| 3 | `#F3E5F5` | Light Purple |
-| 4 | `#E8F5E9` | Light Green |
-| 5 | `#FFF8E1` | Light Amber |
-| 6 | `#FCE4EC` | Light Pink |
-| 7 | `#E0F7FA` | Light Cyan |
-| 8 | `#F5F5F5` | Light Grey |
+| Index | Hex | Stroke | Area |
+|-------|-----|--------|------|
+| 1 | `#E3F2FD` | `#1976D2` | Isle of Crown |
+| 2 | `#FFF3E0` | `#F57C00` | Isle of Wonder |
+| 3 | `#F3E5F5` | `#7B1FA2` | Isle of Beast |
+| 4 | `#E8F5E9` | `#388E3C` | Isle of Mists |
+| 5 | `#FFF8E1` | `#F9A825` | Sacred Mountain |
+| 6 | `#FCE4EC` | `#C2185B` | Druid Island |
+| 7 | `#E0F7FA` | `#00838F` | Realm of Dead |
+| 8 | `#F5F5F5` | `#616161` | Village |
 
 ### Applying Colors in Mermaid
 
 ```mermaid
 subgraph "Isle of Wonder"["**Isle of Wonder**"]
-    classDef area2 fill:#FFF3E0,stroke:#FF9800,stroke-width:2px
+    classDef area2 fill:#FFF3E0,stroke:#F57C00,stroke-width:2px
     class O_RECEIVE_NIGHTINGALE area2
     class O_RECEIVE_MINT area2
 end
 ```
+
+## Fan-Out/Fan-In Flow Structure
+
+Adventure game puzzles naturally follow a **fan-out/fan-in** pattern where:
+1. START → Initial area (single path)
+2. Initial area → Multiple parallel islands/branches (fan out)
+3. Parallel branches converge at a meeting point
+4. Meeting point → Final area (single path) → END
+
+### Layout Template
+
+```
+START
+  ↓
+[ISLE OF CROWN - Beach & Village - Phase 1]
+  ↓ (fan out to 4 parallel islands)
+[ISLE OF WONDER] | [ISLE OF BEAST] | [ISLE OF MISTS] | [SACRED MOUNTAIN]
+  ↓ (fan in)
+[DRUID ISLE / REALM OF DEAD]
+  ↓
+[ISLE OF CROWN - Final] (REPEAT AREA with same color)
+  ↓
+END
+```
+
+### Validation
+
+- [ ] START at top, END at bottom
+- [ ] Fan-out from single path to parallel branches
+- [ ] Fan-in from parallel branches to convergence point
+- [ ] Repeated areas use SAME color throughout
 
 ## Known Acceptable False Positives
 

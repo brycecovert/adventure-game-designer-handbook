@@ -241,3 +241,37 @@ Complete overhaul of the King's Quest VI puzzle dependency chart based on compre
 
 ## Build Command
 `./build.sh` (not `mdbook build`)
+
+---
+
+## 10. Reorganize Chart for Better Readability ✅
+
+### 10a: Update skills with layout guidelines ✅
+- [x] **10a.1: Update `create-dependency-graph/SKILL.md`** with clustering rules
+  - Add pawn shop items clustering rule
+  - Add gnome items clustering rule
+  - Add fontsize=18 requirement
+- [x] **10a.2: Update `qa-dependency-graph/SKILL.md`** with layout guidelines
+  - Add color palette section
+  - Add fan-out/fan-in flow structure
+
+### 10b: Reorganize kings-quest-vi-chart.mmd ✅
+- [x] **10b.1: Apply fontsize=18 to all nodes**
+- [x] **10b.2: Restructure with proper fan-out/fan-in flow**
+- [x] **10b.3: Group pawn shop items in Village cluster**
+  - Nightingale, Mint, Tinderbox, Flute, Paintbrush, Ink
+- [x] **10b.4: Group gnome items under Isle of Wonder - Five Senses**
+- [x] **10b.5: Apply index-based color palette consistently**
+  - area_1 (light blue): Isle of Crown
+  - area_2 (light orange): Isle of Wonder
+  - area_3 (light purple): Isle of Beast
+  - area_4 (light green): Isle of Mists
+  - area_5 (light amber): Sacred Mountain
+  - area_6 (light pink): Druid Island
+  - area_7 (light cyan): Realm of Dead
+  - area_8 (light grey): Village
+
+### 10c: Build and verify ✅
+- [x] **10c.1: Run `./build.sh` successfully**
+- [x] **10c.2: Verify SVG renders correctly**
+- [x] **10c.3: Commit changes**

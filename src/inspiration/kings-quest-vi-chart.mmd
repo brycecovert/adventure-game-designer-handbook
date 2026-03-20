@@ -1,98 +1,109 @@
 flowchart TD
     %% =============================================================================
-    %% STYLE DEFINITIONS - Modern, accessible colors with 4.5:1+ contrast
+    %% FONT SIZE - Set default for all nodes
+    %% =============================================================================
+    node[fontsize=18]
+
+    %% =============================================================================
+    %% COLOR PALETTE (index-based for repeat areas)
+    %% =============================================================================
+    %% area_1: #E3F2FD (light blue) - Isle of Crown
+    %% area_2: #FFF3E0 (light orange) - Isle of Wonder
+    %% area_3: #F3E5F5 (light purple) - Isle of Beast
+    %% area_4: #E8F5E9 (light green) - Isle of Mists
+    %% area_5: #FFF8E1 (light amber) - Sacred Mountain
+    %% area_6: #FCE4EC (light pink) - Druid Island
+    %% area_7: #E0F7FA (light cyan) - Realm of Dead
+    %% area_8: #F5F5F5 (light grey) - Village
+
+    %% =============================================================================
+    %% CLASS DEFINITIONS - Area colors with stroke
     %% =============================================================================
     classDef start_end fill:#FFD700,stroke:#996600,stroke-width:3px,color:#000000
     classDef problem fill:#FFB3B3,stroke:#8B0000,stroke-width:2px,color:#8B0000
     classDef action fill:#B3FFB3,stroke:#006400,stroke-width:2px,color:#006400
     classDef outcome fill:#B3D9FF,stroke:#004080,stroke-width:2px,color:#004080
-    classDef area_ioc fill:#E6E6FF,stroke:#333399,stroke-width:2px
-    classDef area_iow fill:#FFE6FF,stroke:#660066,stroke-width:2px
-    classDef area_iob fill:#FFE6CC,stroke:#663300,stroke-width:2px
-    classDef area_maze fill:#CCFFCC,stroke:#006633,stroke-width:2px
-    classDef area_ism fill:#CCFFFF,stroke:#006666,stroke-width:2px
-    classDef area_iom fill:#FFFFCC,stroke:#666600,stroke-width:2px
-    classDef area_rod fill:#F0F0F0,stroke:#333333,stroke-width:2px
-    classDef area_castle fill:#FFD9CC,stroke:#663320,stroke-width:2px
-    classDef area_final fill:#FFCCE6,stroke:#660033,stroke-width:2px
+    classDef area_1 fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
+    classDef area_2 fill:#FFF3E0,stroke:#F57C00,stroke-width:2px
+    classDef area_3 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px
+    classDef area_4 fill:#E8F5E9,stroke:#388E3C,stroke-width:2px
+    classDef area_5 fill:#FFF8E1,stroke:#F9A825,stroke-width:2px
+    classDef area_6 fill:#FCE4EC,stroke:#C2185B,stroke-width:2px
+    classDef area_7 fill:#E0F7FA,stroke:#00838F,stroke-width:2px
+    classDef area_8 fill:#F5F5F5,stroke:#616161,stroke-width:2px
 
     %% =============================================================================
-    %% COLOR PALETTE (index-based for repeat areas)
-    %% =============================================================================
-    %% 0: #FFFFFF (white - default/ungrouped)
-    %% 1: #E3F2FD (light blue - Isle of Crown)
-    %% 2: #FFF3E0 (light orange - Isle of Wonder)
-    %% 3: #F3E5F5 (light purple - Isle of Beast)
-    %% 4: #E8F5E9 (light green - Isle of Mists)
-    %% 5: #FFF8E1 (light amber - Sacred Mountain)
-    %% 6: #FCE4EC (light pink - Druid Island)
-    %% 7: #E0F7FA (light cyan - Realm of Dead)
-    %% 8: #F5F5F5 (light grey - Village)
-
-    %% =============================================================================
-    %% TOP: START NODE (only non-subgraph node besides END)
+    %% START NODE
     %% =============================================================================
     START(["START: Wake on Isle of the Crown Beach"])
 
-    %% Beach - Item Collection (parallel independent actions)
-    subgraph area_beach["Isle of the Crown - Beach"]
-        A_MOVE_PLANK["A: Move debris on beach"]
-        O_RECEIVE_COPPER_COIN["O: Receive Copper Coin"]
-        A_EXAMINE_DEBRIS["A: Examine debris more closely"]
-        O_RECEIVE_ROYAL_RING["O: Receive Royal Insignia Ring"]
+    %% =============================================================================
+    %% PHASE 1: ISLE OF CROWN - Beach, Castle Entry, Village
+    %% =============================================================================
+    subgraph area_1_initial["<style>subgraphTitleTitle {font-size: 18px; font-weight: bold;}</style>Isle of Crown - Beach & Village"]
+        %% Beach - Item Collection
+        subgraph area_1_beach["<style>subgraphTitleTitle {font-size: 16px; font-style: italic;}</style>Beach"]
+            A_MOVE_PLANK["A: Move debris on beach"]
+            O_RECEIVE_COPPER_COIN["O: Receive Copper Coin"]
+            A_EXAMINE_DEBRIS["A: Examine debris more closely"]
+            O_RECEIVE_ROYAL_RING["O: Receive Royal Insignia Ring"]
 
-        A_MOVE_PLANK --> O_RECEIVE_COPPER_COIN
-        A_EXAMINE_DEBRIS --> O_RECEIVE_ROYAL_RING
+            A_MOVE_PLANK --> O_RECEIVE_COPPER_COIN
+            A_EXAMINE_DEBRIS --> O_RECEIVE_ROYAL_RING
+        end
+
+        %% Castle Entry - Guards
+        subgraph area_1_castle_entry["<style>subgraphTitleTitle {font-size: 16px; font-style: italic;}</style>Castle Entry"]
+            A_SHOW_RING_TO_GUARDS["A: Show Royal Ring to guards"]
+            C1["Consequence: Meet Vizier, then kicked out"]
+        end
+
+        O_RECEIVE_ROYAL_RING --> A_SHOW_RING_TO_GUARDS
+        A_SHOW_RING_TO_GUARDS --> C1
+
+        %% Village - Multiple Parallel Independent Paths
+        subgraph area_8_village["<style>subgraphTitleTitle {font-size: 16px; font-style: italic;}</style>Village"]
+            %% Pawn Shop - All items grouped under Village area_8
+            P_PROBLEM_PAWN_SHOP["Problem: Need items from Pawn Shop"]
+            A_TALK_TO_PAWN_BROKER["A: Talk to Pawn Shop broker"]
+            O_RECEIVE_NIGHTINGALE["O: Receive Mechanical Nightingale"]
+            O_RECEIVE_MINT["O: Receive Mint"]
+            O_RECEIVE_TINDERBOX["O: Receive Tinderbox"]
+            O_RECEIVE_FLUTE["O: Receive Flute"]
+            O_RECEIVE_PAINTBRUSH["O: Receive Paintbrush"]
+            O_RECEIVE_INK["O: Receive Invisible Ink Bottle"]
+
+            %% Magic Map Trade
+            P_PROBLEM_NEED_MAP["Problem: Cannot travel to other islands"]
+            A_TRADE_RING_FOR_MAP["A: Trade Royal Ring for Magic Map"]
+            O_RECEIVE_MAGIC_MAP["O: Receive Magic Map"]
+
+            %% Ferryman - Rabbit's Foot
+            P_PROBLEM_FERRYMAN["Problem: Need ferry info and items"]
+            A_TALK_TO_FERRYMAN["A: Talk to Ali the ferryman"]
+            O_RECEIVE_RABBIT_FOOT["O: Receive Rabbit's Foot"]
+
+            %% Jollo in Bookstore
+            P_PROBLEM_JOLLO["Problem: Need Jollo's help for story"]
+            A_TALK_TO_JOLLO["A: Talk to Jollo in Bookstore"]
+            O_RECEIVE_JOLLO_TRUST["O: Receive Jollo's trust"]
+            A_SHOW_RING_TO_JOLLO["A: Show Royal Ring to Jollo"]
+
+            %% Love Poem (optional)
+            A_SEARCH_BOOKSHELF["A: Search poetry bookshelf"]
+            O_RECEIVE_LOVE_POEM["O: Receive Love Poem"]
+
+            %% Ali's Bookstore - Rare Book trade
+            A_TRADE_RARE_BOOK_FOR_SPELL["A: Trade Rare Book to Ali"]
+            O_RECEIVE_SPELL_BOOK["O: Receive Spell Book"]
+        end
+
+        %% Class assignments for Village pawn shop items (area_8)
+        class O_RECEIVE_NIGHTINGALE,O_RECEIVE_MINT,O_RECEIVE_TINDERBOX,O_RECEIVE_FLUTE,O_RECEIVE_PAINTBRUSH,O_RECEIVE_INK area_8
     end
 
     START --> A_MOVE_PLANK
     START --> A_EXAMINE_DEBRIS
-
-    %% Castle Entry - Guards
-    subgraph area_castle_entry["Isle of the Crown - Castle Entry"]
-        A_SHOW_RING_TO_GUARDS["A: Show Royal Ring to guards"]
-        C1["Consequence: Meet Vizier, then kicked out"]
-    end
-
-    O_RECEIVE_ROYAL_RING --> A_SHOW_RING_TO_GUARDS
-    A_SHOW_RING_TO_GUARDS --> C1
-
-    %% Village - Multiple Parallel Independent Paths
-    subgraph area_village["Isle of the Crown - Village"]
-        %% Pawn Shop - Locked Choice Mechanic (trade sequence)
-        P_PROBLEM_PAWN_SHOP["Problem: Need items from Pawn Shop"]
-        A_TALK_TO_PAWN_BROKER["A: Talk to Pawn Shop broker"]
-        O_RECEIVE_NIGHTINGALE["O: Receive Mechanical Nightingale"]
-        O_RECEIVE_MINT["O: Receive Mint"]
-        O_RECEIVE_TINDERBOX["O: Receive Tinderbox"]
-        O_RECEIVE_FLUTE["O: Receive Flute"]
-        O_RECEIVE_PAINTBRUSH["O: Receive Paintbrush"]
-        O_RECEIVE_INK["O: Receive Invisible Ink Bottle"]
-
-        %% Magic Map Trade
-        P_PROBLEM_NEED_MAP["Problem: Cannot travel to other islands"]
-        A_TRADE_RING_FOR_MAP["A: Trade Royal Ring for Magic Map"]
-        O_RECEIVE_MAGIC_MAP["O: Receive Magic Map"]
-
-        %% Ferryman - Rabbit's Foot
-        P_PROBLEM_FERRYMAN["Problem: Need ferry info and items"]
-        A_TALK_TO_FERRYMAN["A: Talk to Ali the ferryman"]
-        O_RECEIVE_RABBIT_FOOT["O: Receive Rabbit's Foot"]
-
-        %% Jollo in Bookstore
-        P_PROBLEM_JOLLO["Problem: Need Jollo's help for story"]
-        A_TALK_TO_JOLLO["A: Talk to Jollo in Bookstore"]
-        O_RECEIVE_JOLLO_TRUST["O: Receive Jollo's trust"]
-        A_SHOW_RING_TO_JOLLO["A: Show Royal Ring to Jollo"]
-
-        %% Love Poem (optional)
-        A_SEARCH_BOOKSHELF["A: Search poetry bookshelf"]
-        O_RECEIVE_LOVE_POEM["O: Receive Love Poem"]
-
-        %% Ali's Bookstore - Rare Book trade
-        A_TRADE_RARE_BOOK_FOR_SPELL["A: Trade Rare Book to Ali"]
-        O_RECEIVE_SPELL_BOOK["O: Receive Spell Book"]
-    end
 
     C1 --> P_PROBLEM_PAWN_SHOP
     C1 --> P_PROBLEM_NEED_MAP
@@ -100,7 +111,7 @@ flowchart TD
     C1 --> P_PROBLEM_JOLLO
     C1 --> A_SEARCH_BOOKSHELF
 
-    %% Village - Parallel independent paths (S3, S4, S5, S6 in original)
+    %% Village - Parallel independent paths
     P_PROBLEM_PAWN_SHOP --> A_TALK_TO_PAWN_BROKER
     A_TALK_TO_PAWN_BROKER --> O_RECEIVE_NIGHTINGALE
     A_TALK_TO_PAWN_BROKER --> O_RECEIVE_MINT
@@ -123,9 +134,24 @@ flowchart TD
     A_SEARCH_BOOKSHELF --> O_RECEIVE_LOVE_POEM
 
     %% =============================================================================
-    %% PHASE 2: Isle of Wonder - Five Senses Gnomes
+    %% FAN-OUT: Magic Map unlocks travel to 4 parallel islands
     %% =============================================================================
-    subgraph area_iow_gnomes["Isle of Wonder - Five Senses Gnomes"]
+    O_RECEIVE_MAGIC_MAP --> UNLOCK_ISLAND_TRAVEL["UNLOCK: Island Travel"]
+    UNLOCK_ISLAND_TRAVEL --> P_PROBLEM_GNOMES
+    UNLOCK_ISLAND_TRAVEL --> P_PROBLEM_BOILING_POOL
+    UNLOCK_ISLAND_TRAVEL --> P_PROBLEM_LOGIC_CLIFFS
+
+    O_RECEIVE_NIGHTINGALE --> UNLOCK_GNOME_ACCESS["UNLOCK: Gnome Access"]
+    O_RECEIVE_MINT --> UNLOCK_GNOME_ACCESS
+    O_RECEIVE_RABBIT_FOOT --> UNLOCK_GNOME_ACCESS
+    O_RECEIVE_INK --> UNLOCK_GNOME_ACCESS
+    O_RECEIVE_STINKY_FLOWER --> UNLOCK_GNOME_ACCESS
+    UNLOCK_GNOME_ACCESS --> P_PROBLEM_GNOMES
+
+    %% =============================================================================
+    %% ISLE OF WONDER - Five Senses Gnomes (area_2)
+    %% =============================================================================
+    subgraph area_2_gnomes["<style>subgraphTitleTitle {font-size: 18px; font-weight: bold;}</style>Isle of Wonder - Five Senses Gnomes"]
         P_PROBLEM_GNOMES["Problem: Five gnomes block path north"]
 
         A_GIVE_STINKY_FLOWER["A: Give Flower of Stench to Smell gnome"]
@@ -144,17 +170,9 @@ flowchart TD
         O_GNOMES_SIGHT_DONE["O: Sight gnome satisfied"]
     end
 
-    O_RECEIVE_MAGIC_MAP --> UNLOCK_ISLAND_TRAVEL["UNLOCK: Island Travel"]
-    UNLOCK_ISLAND_TRAVEL --> P_PROBLEM_GNOMES
-    UNLOCK_ISLAND_TRAVEL --> P_PROBLEM_BOILING_POOL
-    UNLOCK_ISLAND_TRAVEL --> P_PROBLEM_LOGIC_CLIFFS
+    %% Class assignments for gnome outcomes (area_2)
+    class O_GNOMES_SMELL_DONE,O_GNOMES_HEARING_DONE,O_GNOMES_TASTE_DONE,O_GNOMES_TOUCH_DONE,O_GNOMES_SIGHT_DONE area_2
 
-    O_RECEIVE_NIGHTINGALE --> UNLOCK_GNOME_ACCESS["UNLOCK: Gnome Access"]
-    O_RECEIVE_MINT --> UNLOCK_GNOME_ACCESS
-    O_RECEIVE_RABBIT_FOOT --> UNLOCK_GNOME_ACCESS
-    O_RECEIVE_INK --> UNLOCK_GNOME_ACCESS
-    O_RECEIVE_STINKY_FLOWER --> UNLOCK_GNOME_ACCESS
-    UNLOCK_GNOME_ACCESS --> P_PROBLEM_GNOMES
     P_PROBLEM_GNOMES --> A_PLAY_NIGHTINGALE
     P_PROBLEM_GNOMES --> A_GIVE_MINT
     P_PROBLEM_GNOMES --> A_GIVE_RABBIT_FOOT
@@ -168,21 +186,21 @@ flowchart TD
     A_USE_INK_ON_SELF --> O_GNOMES_SIGHT_DONE
 
     %% Isle of Wonder Beach - Oyster Pearl (INDEPENDENT of gnomes)
-    subgraph area_iow_beach["Isle of Wonder - Beach (independent)"]
+    subgraph area_2_beach["<style>subgraphTitleTitle {font-size: 16px; font-style: italic;}</style>Isle of Wonder - Beach"]
         A_READ_BOOK_TO_OYSTER["A: Read Boring Book to Oyster"]
         O_RECEIVE_PEARL["O: Receive Pearl"]
     end
-
-    O_RECEIVE_PEARL --> O_RECEIVE_ROYAL_RING
 
     O_GNOMES_SMELL_DONE & O_GNOMES_HEARING_DONE & O_GNOMES_TASTE_DONE & O_GNOMES_TOUCH_DONE & O_GNOMES_SIGHT_DONE --> C2["Path through gnomes now open"]
     C2 --> A_READ_BOOK_TO_OYSTER
     A_READ_BOOK_TO_OYSTER --> O_RECEIVE_PEARL
 
+    O_RECEIVE_PEARL --> O_RECEIVE_ROYAL_RING
+
     %% =============================================================================
-    %% PHASE 3: Isle of Wonder - Garden, Chessboard, Point
+    %% ISLE OF WONDER - Garden, Chessboard, Point (area_2)
     %% =============================================================================
-    subgraph area_iow_garden["Isle of Wonder - Garden"]
+    subgraph area_2_garden["<style>subgraphTitleTitle {font-size: 16px; font-style: italic;}</style>Isle of Wonder - Garden"]
         A_PLAY_FLUTE_FLOWERS["A: Play Flute for shy flowers"]
         O_RECEIVE_HOLE_IN_WALL["O: Receive Hole-in-the-Wall"]
 
@@ -222,7 +240,7 @@ flowchart TD
     O_RECEIVE_ROTTEN_TOMATO --> A_GIVE_ROTTEN_TOMATO
     A_GIVE_ROTTEN_TOMATO --> O_RECEIVE_SWAMP_OOZE
 
-    subgraph area_iow_chessboard["Isle of Wonder - Chessboard Land"]
+    subgraph area_2_chessboard["<style>subgraphTitleTitle {font-size: 16px; font-style: italic;}</style>Isle of Wonder - Chessboard Land"]
         A_TALK_TO_QUEENS["A: Talk to Chessboard queens"]
         O_RECEIVE_RED_SCARF["O: Receive Red Scarf"]
         O_RECEIVE_LUMP_OF_COAL["O: Receive Lump of Coal"]
@@ -236,7 +254,7 @@ flowchart TD
     O_RECEIVE_LUMP_OF_COAL --> A_TRADE_COAL_FOR_EGG
     A_TRADE_COAL_FOR_EGG --> O_RECEIVE_SULFUR_EGG
 
-    subgraph area_iow_point["Isle of Wonder - Point / Book Garden"]
+    subgraph area_2_point["<style>subgraphTitleTitle {font-size: 16px; font-style: italic;}</style>Isle of Wonder - Point / Book Garden"]
         A_PULL_THREAD["A: Pull thread from spider web"]
         O_RECEIVE_LOVE_WORD["O: Receive word 'LOVE' (for Gate riddle)"]
         O_RECEIVE_SPIDER_WEB["O: Receive Spider Web Paper"]
@@ -260,9 +278,9 @@ flowchart TD
     A_TRADE_RARE_BOOK_FOR_SPELL --> O_RECEIVE_SPELL_BOOK
 
     %% =============================================================================
-    %% PHASE 4: Isle of the Beast - Initial Visit
+    %% ISLE OF THE BEAST - Initial Visit (area_3)
     %% =============================================================================
-    subgraph area_iob_initial["Isle of the Beast - Initial Visit"]
+    subgraph area_3_initial["<style>subgraphTitleTitle {font-size: 18px; font-weight: bold;}</style>Isle of the Beast - Initial Visit"]
         P_PROBLEM_BOILING_POOL["Problem: Boiling pool blocks crossing"]
         A_COOL_POOL["A: Use Iceberg Lettuce on pool"]
         C3["Path to north area now open"]
@@ -288,9 +306,9 @@ flowchart TD
     A_GET_DANGLING_PARTICIPLE --> O_RECEIVE_DANGLING_PARTICIPLE
 
     %% =============================================================================
-    %% PHASE 5: Minotaur's Maze / Catacombs
+    %% MINOTAUR'S MAZE (area_3 - part of Isle of Beast)
     %% =============================================================================
-    subgraph area_maze_l1["Minotaur's Maze - Level 1"]
+    subgraph area_3_maze_l1["<style>subgraphTitleTitle {font-size: 16px; font-style: italic;}</style>Minotaur's Maze - Level 1"]
         P_PROBLEM_MAZE_L1["Problem: Navigate maze to find items"]
         A_SOLVE_TILE_PUZZLE["A: Solve tile puzzle (use manual)"]
         O_MAZE_PATH_OPEN["O: Tile path opens"]
@@ -314,7 +332,7 @@ flowchart TD
     A_NAVIGATE_TO_SKELETON --> O_RECEIVE_SKULL
     A_COLLECT_COINS --> O_RECEIVE_COINS
 
-    subgraph area_maze_l2["Minotaur's Maze - Level 2 (Dark)"]
+    subgraph area_3_maze_l2["<style>subgraphTitleTitle {font-size: 16px; font-style: italic;}</style>Minotaur's Maze - Level 2 (Dark)"]
         P_PROBLEM_DARK_L2["Problem: Cannot see in dark passage"]
         A_LIGHT_TINDERBOX["A: Light Tinderbox to see"]
         P_PROBLEM_DARK_L2 --> A_LIGHT_TINDERBOX
@@ -338,7 +356,7 @@ flowchart TD
     O_CAN_SEE --> A_FIND_SHIELD
     A_FIND_SHIELD --> O_RECEIVE_SHIELD
 
-    subgraph area_maze_lair["Minotaur's Lair"]
+    subgraph area_3_maze_lair["<style>subgraphTitleTitle {font-size: 16px; font-style: italic;}</style>Minotaur's Lair"]
         P_PROBLEM_MINOTAUR["Problem: Minotaur blocks exit"]
         A_LURE_MINOTAUR["A: Lure Minotaur with Red Scarf"]
         O_RECEIVE_DAGGER["O: Receive Dagger"]
@@ -354,15 +372,15 @@ flowchart TD
     A_LURE_MINOTAUR --> O_RECEIVE_SACRED_WATER
     A_LURE_MINOTAUR --> O_RECEIVE_ORACLE_VIAL
 
-    %% Parallel paths after maze - S23/S24 are PARALLEL, S20/S21 are PARALLEL
+    %% Parallel paths after maze
     O_MAZE_PATH_OPEN & O_RECEIVE_SKULL & O_RECEIVE_COINS & O_TRAP_STOPPED --> A_NAVIGATE_TO_SKELETON
     A_NAVIGATE_TO_SKELETON --> O_NAVIGATE_MAZE["O: Maze navigated, shield found"]
     O_NAVIGATE_MAZE --> P_PROBLEM_DARK_L2
 
     %% =============================================================================
-    %% PHASE 6: Isle of the Beast - Return Visit (with Shield)
+    %% ISLE OF THE BEAST - Return Visit with Shield (area_3)
     %% =============================================================================
-    subgraph area_iob_return["Isle of the Beast - Return Visit"]
+    subgraph area_3_return["<style>subgraphTitleTitle {font-size: 18px; font-weight: bold;}</style>Isle of the Beast - Return Visit"]
         P_PROBLEM_ARCHER["Problem: Archer statue kills you"]
         A_USE_SHIELD_STATUE["A: Use Shield to block arrows"]
         C4["Safe passage through archer gate"]
@@ -382,7 +400,7 @@ flowchart TD
     A_CUT_HEDGE --> C5
 
     %% Beast's Domain
-    subgraph area_beast_domain["Isle of the Beast - Beast's Domain"]
+    subgraph area_3_beast_domain["<style>subgraphTitleTitle {font-size: 16px; font-style: italic;}</style>Beast's Domain"]
         P_PROBLEM_MEET_BEAST["Problem: Need to meet Beast"]
         A_GIVE_WHITE_ROSE["A: Give White Rose to Beauty"]
         O_BEAUTY_TRUSTS["O: Beauty's trust gained"]
@@ -408,9 +426,9 @@ flowchart TD
     O_RECEIVE_WHITE_ROSE_2 --> O_JOLLO_HELPS
 
     %% =============================================================================
-    %% PHASE 7: Isle of Sacred Mountain
+    %% SACRED MOUNTAIN (area_5)
     %% =============================================================================
-    subgraph area_ism_cliffs["Isle of Sacred Mountain - Logic Cliffs"]
+    subgraph area_5_cliffs["<style>subgraphTitleTitle {font-size: 18px; font-weight: bold;}</style>Isle of Sacred Mountain - Logic Cliffs"]
         P_PROBLEM_LOGIC_CLIFFS["Problem: Copy protection puzzles block summit"]
         A_SOLVE_CLIFF_PUZZLES["A: Solve 5 cliff puzzles (manual required)"]
         C6["Path to clifftop opens"]
@@ -430,7 +448,7 @@ flowchart TD
     C6 --> A_GET_STINKY_FLOWER
     A_GET_STINKY_FLOWER --> O_RECEIVE_STINKY_FLOWER
 
-    subgraph area_ism_clifftop["Isle of Sacred Mountain - Clifftop & Cave"]
+    subgraph area_5_clifftop["<style>subgraphTitleTitle {font-size: 16px; font-style: italic;}</style>Sacred Mountain - Clifftop & Cave"]
         P_PROBLEM_DARK_CAVE["Problem: Dark cave blocks path"]
         A_LIGHT_CAVE["A: Light way with Tinderbox"]
         O_RECEIVE_PEPPERMINT["O: Receive Peppermint Leaves"]
@@ -452,7 +470,7 @@ flowchart TD
     O_SURVIVED --> A_RIDE_NIGHTMARE
 
     %% Winged Ones
-    subgraph area_ism_winged["Isle of Sacred Mountain - Winged Ones"]
+    subgraph area_5_winged["<style>subgraphTitleTitle {font-size: 16px; font-style: italic;}</style>Sacred Mountain - Winged Ones"]
         P_PROBLEM_SPELL_COMPONENTS["Problem: Need spell components for Night Mare"]
         A_COLLECT_COMPONENTS["A: Gather Ember, Hair, Spoiled Egg"]
         O_SPELL_READY["O: Charm Creatures spell ready"]
@@ -482,9 +500,13 @@ flowchart TD
     A_CAST_CHARM_SPELL --> O_NIGHTMARE_MOUNT
 
     %% =============================================================================
-    %% PHASE 8: Isle of the Mists - Druids
+    %% FAN-IN: Convergence from parallel paths
     %% =============================================================================
-    subgraph area_iom["Isle of the Mists - Druids"]
+
+    %% =============================================================================
+    %% ISLE OF THE MISTS - Druids (area_4 + area_6)
+    %% =============================================================================
+    subgraph area_4_iom["<style>subgraphTitleTitle {font-size: 18px; font-weight: bold;}</style>Isle of the Mists - Druids"]
         P_PROBLEM_DRUIDS["Problem: Druids will burn you without protection"]
         A_CAST_RAIN_SPELL["A: Cast Rain Spell (Baby's Tears + Milk + Hunter's Lamp)"]
         O_RAIN_PROTECTION["O: Rain protection active"]
@@ -513,9 +535,9 @@ flowchart TD
     O_RECEIVE_COAL_IOM --> A_TRADE_COAL_FOR_EGG
 
     %% =============================================================================
-    %% PHASE 9: Realm of the Dead
+    %% REALM OF THE DEAD (area_7)
     %% =============================================================================
-    subgraph area_rod_landing["Realm of the Dead - Landing Point"]
+    subgraph area_7_rod_landing["<style>subgraphTitleTitle {font-size: 18px; font-weight: bold;}</style>Realm of the Dead - Landing Point"]
         P_PROBLEM_ENTER_ROD["Problem: Need to reach Land of the Dead"]
         A_RIDE_NIGHTMARE["A: Ride Nightmare horse"]
         C7["Arrive at Land of the Dead"]
@@ -532,7 +554,7 @@ flowchart TD
     P_PROBLEM_ZOMBIES --> A_AVOID_ZOMBIES
     A_AVOID_ZOMBIES --> O_ZOMBIES_PASSED
 
-    subgraph area_rod_pathway["Realm of the Dead - Pathway"]
+    subgraph area_7_rod_pathway["<style>subgraphTitleTitle {font-size: 16px; font-style: italic;}</style>Realm of the Dead - Pathway"]
         A_TALK_TO_CASSIMA_PARENTS["A: Talk to Cassima's parents"]
         O_RECEIVE_TICKET["O: Receive Ticket to Underworld"]
 
@@ -546,7 +568,7 @@ flowchart TD
     A_TALK_TO_GHOST_MOTHER --> O_RECEIVE_HANKERCHIEF
     O_RECEIVE_HANKERCHIEF --> A_TALK_TO_GHOST_BOY
 
-    subgraph area_rod_gate["Realm of the Dead - Gate"]
+    subgraph area_7_rod_gate["<style>subgraphTitleTitle {font-size: 16px; font-style: italic;}</style>Realm of the Dead - Gate"]
         P_PROBLEM_GATE["Problem: Need ticket for underworld"]
         A_GIVE_TICKET["A: Give ticket to skeleton gatekeeper"]
         C8["Gate to Styx opens"]
@@ -570,7 +592,7 @@ flowchart TD
     A_PAY_CHARON --> O_FERRY_ACCESS
     O_FERRY_ACCESS --> A_RIDE_NIGHTMARE
 
-    subgraph area_rod_styx["Realm of the Dead - River Styx"]
+    subgraph area_7_rod_styx["<style>subgraphTitleTitle {font-size: 16px; font-style: italic;}</style>Realm of the Dead - River Styx"]
         P_PROBLEM_STYX["Problem: Need Styx Water for paint spell"]
         A_COLLECT_STYX_WATER["A: Collect Styx Water with Tea Cup"]
         O_RECEIVE_STYX_WATER["O: Receive Styx Water"]
@@ -586,7 +608,7 @@ flowchart TD
     A_SEARCH_KNIGHT --> O_RECEIVE_GAUNTLET
     O_RECEIVE_GAUNTLET --> P_PROBLEM_DEATH
 
-    subgraph area_rod_throne["Realm of the Dead - Talking Gate & Throne"]
+    subgraph area_7_rod_throne["<style>subgraphTitleTitle {font-size: 16px; font-style: italic;}</style>Realm of the Dead - Talking Gate & Throne"]
         P_PROBLEM_GATE_RIDDLE["Problem: Gate asks riddle"]
         A_ANSWER_LOVE["A: Answer 'LOVE' (from spider web)"]
         C9["Gate opens to Death's domain"]
@@ -606,9 +628,13 @@ flowchart TD
     C10 --> C_RETURN["Return to Isle of the Crown Beach"]
 
     %% =============================================================================
-    %% PHASE 10: Castle Infiltration
+    %% FAN-OUT: Return to Isle of Crown for final phase
     %% =============================================================================
-    subgraph area_castle_approach["Castle Infiltration - Two Paths Converge"]
+
+    %% =============================================================================
+    %% ISLE OF CROWN - Final Phase / Castle Infiltration (area_1)
+    %% =============================================================================
+    subgraph area_1_final_approach["<style>subgraphTitleTitle {font-size: 18px; font-weight: bold;}</style>Isle of Crown - Castle Infiltration"]
         P_PROBLEM_ENTER_CASTLE["Problem: Cannot enter castle normally"]
 
         %% Long Path - Paint Door
@@ -631,7 +657,7 @@ flowchart TD
     O_RECEIVE_BEAUTYS_DRESS --> A_WEAR_DISGUISE
     A_WEAR_DISGUISE --> O_CASTLE_ACCESS
 
-    subgraph area_castle_basement["Castle - Basement / Cells"]
+    subgraph area_1_basement["<style>subgraphTitleTitle {font-size: 16px; font-style: italic;}</style>Castle - Basement / Cells"]
         P_PROBLEM_GUARDS["Problem: Guards patrol basement"]
         A_DISTRACT_GUARDS["A: Use Nightingale to distract guards"]
         O_GUARDS_DISTRACTED["O: Guards distracted"]
@@ -654,7 +680,7 @@ flowchart TD
     A_TALK_TO_GHOST_BOY --> O_RECEIVE_PASSAGE_HINT
     O_RECEIVE_PASSAGE_HINT --> P_PROBLEM_PASSWORD
 
-    subgraph area_castle_passage["Castle - Secret Passage"]
+    subgraph area_1_passage["<style>subgraphTitleTitle {font-size: 16px; font-style: italic;}</style>Castle - Secret Passage"]
         P_PROBLEM_PASSWORD["Problem: Need password to proceed"]
         A_FIND_ALI_PASSWORD["A: Eavesdrop to learn 'ALI'"]
         A_FIND_ZEBU_PASSWORD["A: Spy on Vizier to learn 'ZEBU'"]
@@ -679,7 +705,7 @@ flowchart TD
     O_RECEIVE_DAGGER --> A_GIVE_DAGGER
     A_GIVE_DAGGER --> O_CASSIMA_ARMED
 
-    subgraph area_castle_vizier["Castle - Vizier's Bedroom"]
+    subgraph area_1_vizier["<style>subgraphTitleTitle {font-size: 16px; font-style: italic;}</style>Castle - Vizier's Bedroom"]
         P_PROBLEM_VIZIER_CHEST["Problem: Need to open Vizier's chest"]
         A_UNLOCK_CHEST["A: Use Skeleton Key on chest"]
         O_RECEIVE_VIZIER_LETTER["O: Receive Vizier's Letter"]
@@ -699,9 +725,9 @@ flowchart TD
     O_TREASURY_OPEN --> P_PROBLEM_GENIE
 
     %% =============================================================================
-    %% PHASE 11: Final Confrontation
+    %% FINAL CONFRONTATION (area_1)
     %% =============================================================================
-    subgraph area_1_final ["<style>subgraphTitleTitle {font-size: 18px; font-weight: bold;}</style>Final Confrontation"]
+    subgraph area_1_final["<style>subgraphTitleTitle {font-size: 18px; font-weight: bold;}</style>Final Confrontation"]
         P_PROBLEM_GENIE["Problem: Genie attacks"]
 
         A_USE_FAKE_LAMP["A: Use Fake Genie Lamp (from Jollo)"]
@@ -715,7 +741,7 @@ flowchart TD
     end
 
     %% =============================================================================
-    %% BOTTOM: END NODE (only non-subgraph node besides START)
+    %% END NODE
     %% =============================================================================
     END(["END: Victory - KQVI Complete"])
 

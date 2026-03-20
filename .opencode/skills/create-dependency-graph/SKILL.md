@@ -199,6 +199,68 @@ end
 
 #### Color-Coded Areas
 
+Apply index-based palette with consistent stroke colors:
+
+| Index | Hex | Stroke | Area Example |
+|-------|-----|--------|--------------|
+| 1 | `#E3F2FD` | `#1976D2` | Isle of Crown |
+| 2 | `#FFF3E0` | `#F57C00` | Isle of Wonder |
+| 3 | `#F3E5F5` | `#7B1FA2` | Isle of Beast |
+| 4 | `#E8F5E9` | `#388E3C` | Isle of Mists |
+| 5 | `#FFF8E1` | `#F9A825` | Sacred Mountain |
+| 6 | `#FCE4EC` | `#C2185B` | Druid Island |
+| 7 | `#E0F7FA` | `#00838F` | Realm of Dead |
+| 8 | `#F5F5F5` | `#616161` | Village |
+
+**Same area can appear multiple times** at different logical points (e.g., Isle of Crown at game start AND as final area). Use the SAME color for repeated areas.
+
+#### Font Size Requirement
+
+**All nodes must use `fontsize=18`** or larger for readability:
+
+```mermaid
+flowchart TD
+    node[fontsize=18]
+    %% This sets default font size for all nodes
+```
+
+Apply this at the very start of the flowchart, before any nodes or subgraphs.
+
+#### Clustering Rules
+
+**Pawn Shop Items**: Group ALL pawn shop items under the Village (area_8) subgraph:
+- Nightingale, Mint, Tinderbox, Flute, Paintbrush, Ink
+- These items originate from the Village pawn shop broker interaction
+
+**Gnome Items**: Group ALL Five Senses gnome outcomes under Isle of Wonder (area_2) subgraph:
+- Smell, Hearing, Taste, Touch, Sight gnome satisfaction outcomes
+- These are all part of the Five Senses puzzle sequence
+
+```mermaid
+subgraph area_8["<style>subgraphTitleTitle {font-size: 18px; font-weight: bold;}</style>Village - Pawn Shop Items"]
+    classDef area_8 fill:#F5F5F5,stroke:#616161,stroke-width:2px
+    class O_RECEIVE_NIGHTINGALE,O_RECEIVE_MINT,O_RECEIVE_TINDERBOX,O_RECEIVE_FLUTE,O_RECEIVE_PAINTBRUSH,O_RECEIVE_INK area_8
+end
+
+subgraph area_2_gnomes["<style>subgraphTitleTitle {font-size: 18px; font-weight: bold;}</style>Isle of Wonder - Five Senses Gnomes"]
+    classDef area_2_gnomes fill:#FFF3E0,stroke:#F57C00,stroke-width:2px
+    class O_GNOMES_SMELL_DONE,O_GNOMES_HEARING_DONE,O_GNOMES_TASTE_DONE,O_GNOMES_TOUCH_DONE,O_GNOMES_SIGHT_DONE area_2_gnomes
+end
+```
+
+#### Subgraph Styling Format
+
+Use this exact format for subgraph titles to ensure proper font size:
+
+```mermaid
+subgraph area_name["<style>subgraphTitleTitle {font-size: 18px; font-weight: bold;}</style>Area Title"]
+    classDef area_X fill:#HEXCOLOR,stroke:#STROKECOLOR,stroke-width:2px
+    class node1,node2,node3 area_X
+end
+```
+
+#### Color-Coded Areas (Index-Based)
+
 Apply index-based palette:
 
 | Index | Hex | Area Example |
