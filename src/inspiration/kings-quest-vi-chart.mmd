@@ -223,12 +223,15 @@ flowchart TD
         A_TALK_TO_QUEENS["A: Talk to Chessboard queens"]
         O_RECEIVE_RED_SCARF["O: Receive Red Scarf"]
         O_RECEIVE_LUMP_OF_COAL["O: Receive Lump of Coal"]
+        A_TRADE_COAL_FOR_EGG["A: Trade coal to white queen for sulfur egg"]
+        O_RECEIVE_SULFUR_EGG["O: Receive Sulfur Egg"]
     end
 
     C2 --> A_TALK_TO_QUEENS
     A_TALK_TO_QUEENS --> O_RECEIVE_RED_SCARF
     A_TALK_TO_QUEENS --> O_RECEIVE_LUMP_OF_COAL
-    O_RECEIVE_LUMP_OF_COAL -.-> A_TRADE_COAL_FOR_EGG["A: Trade coal for sulfur egg"]
+    O_RECEIVE_LUMP_OF_COAL --> A_TRADE_COAL_FOR_EGG
+    A_TRADE_COAL_FOR_EGG --> O_RECEIVE_SULFUR_EGG
 
     subgraph area_iow_point["Isle of Wonder - Point / Book Garden"]
         A_PULL_THREAD["A: Pull thread from spider web"]
@@ -465,7 +468,7 @@ flowchart TD
         A_GET_SPOILED_EGG --> O_RECEIVE_SPOILED_EGG
     end
 
-    O_RECEIVE_SKULL & O_RECEIVE_EMBER & O_RECEIVE_SPOILED_EGG & O_RECEIVE_HAIR --> P_PROBLEM_SPELL_COMPONENTS
+    O_RECEIVE_SKULL & O_RECEIVE_EMBER & O_RECEIVE_SPOILED_EGG & O_RECEIVE_HAIR & O_RECEIVE_SULFUR_EGG --> P_PROBLEM_SPELL_COMPONENTS
     P_PROBLEM_SPELL_COMPONENTS --> A_COLLECT_COMPONENTS
     A_COLLECT_COMPONENTS --> O_SPELL_READY
     O_SPELL_READY --> A_CAST_CHARM_SPELL
@@ -501,7 +504,6 @@ flowchart TD
     A_GET_COAL --> O_RECEIVE_COAL_IOM
 
     O_RECEIVE_COAL_IOM --> A_TRADE_COAL_FOR_EGG
-    A_TRADE_COAL_FOR_EGG -.-> O_RECEIVE_SULFUR_EGG["O: Receive Sulfur Egg"]
 
     %% =============================================================================
     %% PHASE 9: Realm of the Dead
@@ -632,7 +634,7 @@ flowchart TD
         P_PROBLEM_JOLLO_ROOM --> A_GIVE_LAMP_REPLICA
         A_GIVE_LAMP_REPLICA --> O_JOLLO_HELPS
     end
-    O_RECEIVE_JOLLO_TRUST -.-> P_PROBLEM_JOLLO_ROOM
+    O_RECEIVE_JOLLO_TRUST --> P_PROBLEM_JOLLO_ROOM
 
     O_DOOR_APPEARS & O_CASTLE_ACCESS --> P_PROBLEM_GUARDS
     P_PROBLEM_GUARDS --> A_DISTRACT_GUARDS
@@ -659,7 +661,8 @@ flowchart TD
     A_FIND_ALI_PASSWORD --> O_PASSWORD_ALI
     A_FIND_ZEBU_PASSWORD --> O_PASSWORD_ZEBU
 
-    O_PASSWORD_ALI & O_PASSWORD_ZEBU --> A_COMBINE_PASSWORD["A: Combine 'ALI ZEBU'"]
+    O_PASSWORD_ALI --> A_COMBINE_PASSWORD["A: Combine 'ALI ZEBU'"]
+    O_PASSWORD_ZEBU --> A_COMBINE_PASSWORD
     O_RECEIVE_DAGGER --> A_GIVE_DAGGER
     A_GIVE_DAGGER --> O_CASSIMA_ARMED
 
@@ -680,6 +683,7 @@ flowchart TD
     A_COMBINE_PASSWORD --> P_PROBLEM_TREASURY
     P_PROBLEM_TREASURY --> A_OPEN_TREASURY
     A_OPEN_TREASURY --> O_TREASURY_OPEN
+    O_TREASURY_OPEN --> P_PROBLEM_GENIE
 
     %% =============================================================================
     %% PHASE 11: Final Confrontation
@@ -713,9 +717,9 @@ flowchart TD
     P_PROBLEM_VIZIER --> A_FIGHT_VIZIER
     A_FIGHT_VIZIER --> END
 
-    O_RECEIVE_VIZIER_LETTER -.-> A_SHOW_LETTER["A: Show Vizier's Letter to Saladin"]
+    O_RECEIVE_VIZIER_LETTER --> A_SHOW_LETTER
     A_SHOW_LETTER --> P_PROBLEM_VIZIER
-    O_CASSIMA_ARMED -.-> A_CASSIMA_FIGHTS["A: Cassima fights alongside"]
+    O_CASSIMA_ARMED --> A_CASSIMA_FIGHTS
     A_CASSIMA_FIGHTS --> P_PROBLEM_VIZIER
 
     %% =============================================================================

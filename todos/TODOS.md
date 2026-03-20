@@ -133,7 +133,37 @@ Complete overhaul of the King's Quest VI puzzle dependency chart based on compre
 
 ### 7c: Rebuild and verify
 - [x] **7c.1: Run ./build.sh**
-- [ ] **7c.2: Commit fixes**
+- [x] **7c.2: Commit fixes**
+
+---
+
+## 8. Fix Remaining Dangling Nodes 🔧
+
+### 8a: Research orphaned nodes in walkthroughs ✅
+- [x] Research P_PROBLEM_JOLLO_ROOM - requires Jollo's trust
+- [x] Research A_SHOW_LETTER - show to Saladin to enter ceremony
+- [x] Research A_CASSIMA_FIGHTS - Cassima fights after receiving dagger
+- [x] Research O_TREASURY_OPEN - leads to finale
+- [x] Research O_PASSWORD_ALI / O_PASSWORD_ZEBU - combined to open treasury
+- [x] Research O_GNOMES_*_DONE - converge via C2
+
+### 8b: Fix undefined reference ✅
+- [x] Define A_TRADE_COAL_FOR_EGG action node and O_RECEIVE_SULFUR_EGG outcome
+
+### 8c: Fix orphaned nodes (add incoming edges) ✅
+- [x] Fix P_PROBLEM_JOLLO_ROOM orphan - changed dashed to solid edge
+- [x] Fix A_SHOW_LETTER orphan - changed dashed to solid edge  
+- [x] Fix A_CASSIMA_FIGHTS orphan - changed dashed to solid edge
+
+### 8d: Fix dead-end nodes (add outgoing edges) ✅
+- [x] O_PASSWORD_ALI/ZEBU - split multi-source edge for proper parsing
+- [x] O_RECEIVE_SULFUR_EGG - added to P_PROBLEM_SPELL_COMPONENTS
+- [x] O_TREASURY_OPEN - connected to P_PROBLEM_GENIE
+
+### 8e: Rebuild and verify ✅
+- [x] Run check script - 0 orphans, 0 undefined (46 dead-ends are multi-source parsing artifacts)
+- [x] Build with ./build.sh - succeeds
+- [x] Commit fixes
 
 ---
 
