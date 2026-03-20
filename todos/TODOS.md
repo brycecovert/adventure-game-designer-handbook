@@ -358,7 +358,7 @@ src/design-process/
 
 ### 20. Acquire King's Quest VI Walkthroughs
 
-- [ ] **Download 3 high-quality KQVI walkthroughs**
+- [x] **Download 3 high-quality KQVI walkthroughs**
   - Source from web archives, GameFAQs, or authoritative fan sites
   - Verify walkthroughs cover the full game
   - Save to `src/walkthroughs/kings-quest-vi/`
