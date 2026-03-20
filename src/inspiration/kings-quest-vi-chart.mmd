@@ -456,6 +456,8 @@ flowchart TD
     O_RAIN_PROTECTION & O_RECEIVE_BEAUTYS_DRESS --> P_PROBLEM_DRUIDS
     P_PROBLEM_DRUIDS --> A_WEAR_BEAUTYS_DRESS
     A_WEAR_BEAUTYS_DRESS --> O_DRUID_PROTECTION
+    O_DRUID_PROTECTION --> A_GET_SCYTHE
+    O_DRUID_PROTECTION --> A_GET_COAL
 
     A_GET_SCYTHE --> O_RECEIVE_SCYTHE
     A_GET_COAL --> O_RECEIVE_COAL_IOM
@@ -502,7 +504,7 @@ flowchart TD
         C8["Gate to Styx opens"]
 
         A_PLAY_BONES["A: Play bone xylophone"]
-        O_RECEIVE_SKELETON_KEY["O: Receive Skeleton Key"]
+        A_PLAY_BONES --> O_RECEIVE_SKELETON_KEY["O: Receive Skeleton Key"]
 
         P_PROBLEM_CHARON["Problem: Need to pay Charon's ferry"]
         A_PAY_CHARON["A: Pay Charon with Dead Man's Coins"]
@@ -513,6 +515,7 @@ flowchart TD
     P_PROBLEM_GATE --> A_GIVE_TICKET
     A_GIVE_TICKET --> C8
     C8 --> A_PLAY_BONES
+    C8 --> P_PROBLEM_STYX
     C8 --> P_PROBLEM_CHARON
     O_RECEIVE_COINS --> A_PAY_CHARON
     A_PAY_CHARON --> O_FERRY_ACCESS
