@@ -11,3 +11,5 @@ edit-url-template = "https://github.com/noti/puzzle-design-kb/edit/main/{path}"
 [output.html.playground]
 editable = true
 line-numbers = true
+
+[preprocessor.mermaid]
