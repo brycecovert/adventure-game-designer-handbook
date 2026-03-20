@@ -117,3 +117,43 @@ Complete overhaul of the King's Quest VI puzzle dependency chart based on compre
 - `src/inspiration/kings-quest-vi-heir-today-gone-tomorrow.md` - Documentation
 
 **Build Command:** `./build.sh` (not `mdbook build`)
+
+---
+
+## 6. Gateway Process for Major Unlocks ⏳
+
+### 6a: Analyze crossing patterns (5+ lines)
+- [ ] **6a.1: Count outgoing lines from Magic Map**
+  - Magic Map → enables Isle of Wonder, Isle of Beast, Isle of Mists, Sacred Mountain (4+ destinations)
+- [ ] **6a.2: Count outgoing lines from trade items to gnome puzzles**
+  - Nightingale, Mint, Rabbit Foot, Ink → all feed into Five Senses Gnomes
+- [ ] **6a.3: Document other 5+ crossing points**
+
+### 6b: Create UNLOCK gateway nodes
+- [ ] **6b.1: Create `UNLOCK_ISLAND_TRAVEL` gateway**
+  - Place after O_RECEIVE_MAGIC_MAP
+  - All island destinations route through this node
+- [ ] **6b.2: Create `UNLOCK_GNOME_ACCESS` gateway**
+  - Place where trade items converge for gnome puzzles
+- [ ] **6b.3: Route connections through gateway nodes**
+
+### 6c: Build dangling node detection script
+- [ ] **6c.1: Create `scripts/check-dangling-nodes.sh`**
+  - Parse .mmd mermaid file
+  - Extract all nodes
+  - Identify nodes with no incoming edges (except START)
+  - Identify nodes with no outgoing edges (except END)
+  - Identify nodes referenced but never defined
+  - Output formatted report
+- [ ] **6c.2: Test script on current mermaid file**
+
+### 6d: Fix disconnected nodes
+- [ ] **6d.1: Run detection script**
+- [ ] **6d.2: Research walkthroughs for each issue**
+- [ ] **6d.3: Add appropriate edges**
+- [ ] **6d.4: Re-run and repeat until zero issues**
+
+---
+
+## Build Command
+`./build.sh` (not `mdbook build`)
