@@ -10,34 +10,20 @@ This chart maps the critical puzzle dependencies in Sierra's King's Quest VI (19
 
 **Raw Mermaid Source**: [kings-quest-vi-chart.mmd](kings-quest-vi-chart.mmd)
 
-## Locked Choice Mechanic
+## Pawn Shop Items
 
-The Pawn Shop in the Village operates on a **locked choice system** where only one item can be unlocked at a time through trading:
+The Pawn Shop broker provides access to several items needed for later puzzles:
 
-### The Trade Chain
+| Item | Use |
+|------|-----|
+| Mechanical Nightingale | Five Senses Gnomes (Hearing), Castle basement distraction |
+| Mint | Five Senses Gnomes (Taste) |
+| Invisible Ink | Five Senses Gnomes (Sight) |
+| Flute | Isle of Wonder flowers |
+| Tinderbox | Catacombs Level 2 (darkness), Sacred Mountain cave |
+| Paintbrush | Castle magic paint spell |
 
-```
-Copper Coin
-    ↓ (Trade)
-Nightingale
-    ↓ (Trade)
-Flute
-    ↓ (Trade)
-Tinderbox
-    ↓ (Trade)
-Paintbrush
-```
-
-### Implications for Puzzle Design
-
-1. **Forks the Inventory**: Players must choose which path to pursue early
-2. **Represents Lost Opportunities**: Trading away Nightingale means cannot use it for gnome puzzles later
-3. **Strategic Sacrifice**: One-time trades require planning ahead
-4. **Independent Discovery**: Players learn the chain through experimentation
-
-### Dependency Note
-
-For the purpose of this dependency chart, we treat each item as **UNLOCKED** at the moment of acquisition. The chart shows the locks (what's required to access an item) rather than the mini-game of sequential trading.
+For the purpose of this dependency chart, all Pawn Shop items are treated as **UNLOCKED** after talking to the broker. The actual trading mini-game is not represented in the chart.
 
 ## Key Dependency Chains
 
