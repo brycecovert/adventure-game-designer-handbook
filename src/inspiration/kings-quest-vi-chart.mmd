@@ -94,6 +94,7 @@ flowchart TD
     C1 --> P_PROBLEM_NEED_MAP
     C1 --> P_PROBLEM_FERRYMAN
     C1 --> P_PROBLEM_JOLLO
+    C1 --> A_SEARCH_BOOKSHELF
 
     %% Village - Parallel independent paths (S3, S4, S5, S6 in original)
     P_PROBLEM_PAWN_SHOP --> A_TALK_TO_PAWN_BROKER
@@ -340,6 +341,7 @@ flowchart TD
     %% Parallel paths after maze - S23/S24 are PARALLEL, S20/S21 are PARALLEL
     O_MAZE_PATH_OPEN & O_RECEIVE_SKULL & O_RECEIVE_COINS & O_TRAP_STOPPED --> A_NAVIGATE_TO_SKELETON
     A_NAVIGATE_TO_SKELETON --> O_NAVIGATE_MAZE["O: Maze navigated, shield found"]
+    O_NAVIGATE_MAZE --> P_PROBLEM_DARK_L2
 
     %% =============================================================================
     %% PHASE 6: Isle of the Beast - Return Visit (with Shield)
@@ -357,6 +359,7 @@ flowchart TD
     O_RECEIVE_SHIELD --> P_PROBLEM_ARCHER
     P_PROBLEM_ARCHER --> A_USE_SHIELD_STATUE
     A_USE_SHIELD_STATUE --> C4
+    C4 --> P_PROBLEM_ROSE_HEDGE
 
     O_RECEIVE_SCYTHE["O: Receive Scythe from IoM"] -.-> P_PROBLEM_ROSE_HEDGE
     P_PROBLEM_ROSE_HEDGE --> A_CUT_HEDGE
@@ -383,6 +386,7 @@ flowchart TD
     O_BEAUTY_TRUSTS --> A_GIVE_RING_TO_BEAUTY
     A_GIVE_RING_TO_BEAUTY --> O_RECEIVE_BEAUTYS_DRESS
     A_GIVE_RING_TO_BEAUTY --> O_RECEIVE_MIRROR
+    A_GIVE_RING_TO_BEAUTY --> O_RECEIVE_BEASTS_RING
     O_BEAUTY_TRUSTS --> A_PLACE_ROSE
     A_PLACE_ROSE --> O_RECEIVE_WHITE_ROSE_2
 
@@ -540,6 +544,7 @@ flowchart TD
     C8 --> A_PLAY_BONES
     C8 --> P_PROBLEM_STYX
     C8 --> P_PROBLEM_CHARON
+    P_PROBLEM_CHARON --> A_PAY_CHARON
     O_RECEIVE_COINS --> A_PAY_CHARON
     A_PAY_CHARON --> O_FERRY_ACCESS
 
