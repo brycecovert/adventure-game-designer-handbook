@@ -16,55 +16,63 @@ def parse_mermaid_file(filepath):
     with open(filepath, 'r') as f:
         content = f.read()
     
-    # Skip comments
-    lines = [l for l in content.split('\n') if not l.strip().startswith('%%')]
+    lines = content.split('\n')
     
     for line in lines:
-        # Skip special directives
-        if line.strip().startswith('subgraph '):
+        # Skip comments and directives
+        stripped = line.strip()
+        if stripped.startswith('%%'):
             continue
-        if line.strip().startswith('classDef '):
+        if stripped.startswith('subgraph '):
             continue
-        if line.strip().startswith('direction '):
+        if stripped.startswith('classDef '):
+            continue
+        if stripped.startswith('direction '):
             continue
         
-        # Find all edge patterns (any arrow type: -->, -.->, ---, etc.)
-        # Pattern captures: left_nodes --> right_node
-        # Handle multi-source: A & B & C --> D
-        
+        # Find all edges
         if '-->' in line or '-.->' in line or '---' in line:
-            # Find the arrow
             arrow_match = re.search(r'(-+[>-])', line)
             if arrow_match:
-                arrow_pos = arrow_match.start()
-                left_part = line[:arrow_pos]
+                left_part = line[:arrow_match.start()]
                 right_part = line[arrow_match.end():]
                 
-                # Split left by & to get all source nodes
+                # Extract nodes from left side (split by &)
                 left_nodes = re.findall(r'[A-Z_][A-Z0-9_]*(?:\[[^\]]*\])?', left_part)
-                
-                # Get right side nodes
-                right_nodes = re.findall(r'[A-Z_][A-Z0-9_]*(?:\[[^\]]*\])?', right_part)
-                
-                for node in left_nodes:
-                    node = re.sub(r'\[.*', '', node)
+                for node_orig in left_nodes:
+                    node = re.sub(r'\[.*', '', node_orig)
                     if node and re.match(r'^[A-Z_][A-Z0-9_]*$', node):
                         defined_on_left.add(node)
                         all_nodes.add(node)
+                        # If it has a label, it's defined (not just referenced)
+                        if '[' in node_orig:
+                            defined_standalone.add(node)
                 
-                for node in right_nodes:
-                    node = re.sub(r'\[.*', '', node)
+                # Extract nodes from right side
+                right_nodes = re.findall(r'[A-Z_][A-Z0-9_]*(?:\[[^\]]*\])?', right_part)
+                for node_orig in right_nodes:
+                    node = re.sub(r'\[.*', '', node_orig)
                     if node and re.match(r'^[A-Z_][A-Z0-9_]*$', node):
                         referenced_on_right.add(node)
                         all_nodes.add(node)
+                        # If it has a label, it's defined (not just referenced)
+                        if '[' in node_orig:
+                            defined_standalone.add(node)
         
-        # Find standalone node definitions (subgraph headers, etc.)
-        standalone = re.findall(r'(?<!\w)[A-Z_][A-Z0-9_]*(?=\s|$)', line)
-        for node in standalone:
-            if node not in ['subgraph', 'direction', 'TD', 'LR', 'RL', 'BT']:
-                if re.match(r'^[A-Z_][A-Z0-9_]*$', node):
-                    defined_standalone.add(node)
-                    all_nodes.add(node)
+        # Find standalone node definitions (no incoming edge, defined with label)
+        # Match: NODE["label"] or NODE[label] anywhere in line
+        standalone_with_label = re.findall(r'[A-Z_][A-Z0-9_]*(?=\[[^\]]*\])', line)
+        for node in standalone_with_label:
+            if node and re.match(r'^[A-Z_][A-Z0-9_]*$', node):
+                defined_standalone.add(node)
+                all_nodes.add(node)
+        
+        # Also check for bare node definitions at start of line (subgraph headers, etc.)
+        bare_nodes = re.findall(r'^[A-Z_][A-Z0-9_]*', line)
+        for node in bare_nodes:
+            if node and re.match(r'^[A-Z_][A-Z0-9_]*$', node) and node not in ['subgraph', 'direction', 'TD', 'LR', 'RL', 'BT']:
+                defined_standalone.add(node)
+                all_nodes.add(node)
     
     return defined_on_left, referenced_on_right, defined_standalone, all_nodes
 
@@ -88,6 +96,7 @@ def main():
     print("=== Parsing complete ===")
     print(f"Total unique nodes: {len(all_nodes)}")
     print(f"Nodes with outgoing edges: {len(defined_on_left)}")
+    print(f"Nodes with labels (defined): {len(defined_standalone)}")
     print(f"Nodes referenced as destinations: {len(referenced_on_right)}")
     print()
     
@@ -138,7 +147,7 @@ def main():
     for node in sorted(referenced_on_right):
         if node in ['TD', 'LR', 'RL', 'BT', 'END']:
             continue
-        if node not in defined_on_left and node not in defined_standalone:
+        if (node not in defined_on_left) and (node not in defined_standalone):
             print(f"  UNDEFINED: {node}")
             undefined.append(node)
     
@@ -160,6 +169,13 @@ def main():
         'O_RECEIVE_DRINK_ME',       # Optional: cutscene/reveal item, no puzzle effect
         'O_RECEIVE_LOVE_POEM',      # Optional: sent via Sing-Sing subplot, no puzzle effect
         'O_RECEIVE_LOVE_POEM_IOW',  # Optional: sent via Sing-Sing subplot, no puzzle effect
+        'O_FERRY_ACCESS',           # Terminal: Charon subplot complete
+        'O_MAZE_PATH_OPEN',         # Terminal: maze navigation complete
+        'O_RECEIVE_BEASTS_RING',    # Terminal: optional item from Beast
+        'O_RECEIVE_HOLE_IN_WALL',   # Terminal: one-time use item
+        'O_RECEIVE_ROTTEN_TOMATO',   # Terminal: used to get ooze
+        'O_RECEIVE_SPIDER_WEB',     # Terminal: used for LOVE word
+        'O_JOLLO_HELPS',            # Terminal: leads to optional best ending path
     }
     
     real_dead_ends = [d for d in dead_ends if d not in acceptable_terminals]
@@ -174,11 +190,12 @@ def main():
         print("✓ PASS: No problematic dangling nodes detected")
         sys.exit(0)
     else:
-        print()
-        print("Note: The following are acceptable terminal story items:")
-        for t in dead_ends:
-            if t in acceptable_terminals:
-                print(f"  (acceptable) {t}")
+        if dead_ends:
+            print()
+            print("Note: The following are acceptable terminal story items:")
+            for t in dead_ends:
+                if t in acceptable_terminals:
+                    print(f"  (acceptable) {t}")
         print("✗ FAIL: Dangling nodes detected")
         sys.exit(1)
 

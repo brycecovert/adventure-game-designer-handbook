@@ -73,11 +73,13 @@ ACTION: Trade with pawn broker
 
 ### Layout Rules
 
-- [ ] Top-down flow: `START` at top, `END` at bottom
+- [ ] Top-down flow: `START` at top (centered), `END` at bottom (centered)
 - [ ] Fan-out model: parallel paths spread apart, then converge
 - [ ] Only `START` and `END` outside subgraph groupings
-- [ ] Area titles are prominent and readable
+- [ ] Area titles are prominent and readable (fontsize=18)
 - [ ] Areas use index-based color palette
+- [ ] **FLAT STRUCTURE**: No nested subgraphs - all subgraphs at same level
+- [ ] **Same Area = Same Color**: If area appears twice (start AND end), use SAME color
 
 ## Dangling Node Detection
 

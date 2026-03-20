@@ -228,25 +228,45 @@ Apply this at the very start of the flowchart, before any nodes or subgraphs.
 
 #### Clustering Rules
 
-**Pawn Shop Items**: Group ALL pawn shop items under the Village (area_8) subgraph:
-- Nightingale, Mint, Tinderbox, Flute, Paintbrush, Ink
-- These items originate from the Village pawn shop broker interaction
+**FLAT STRUCTURE ONLY - No Nested Subgraphs**:
+- Every subgraph must be top-level
+- Do NOT put subgraphs inside other subgraphs
+- All subgraphs at the same hierarchy level
 
-**Gnome Items**: Group ALL Five Senses gnome outcomes under Isle of Wonder (area_2) subgraph:
-- Smell, Hearing, Taste, Touch, Sight gnome satisfaction outcomes
-- These are all part of the Five Senses puzzle sequence
+**Same Area = Same Color**:
+- If an area (e.g., Isle of Crown) appears twice (start AND end), use the SAME color
+- Don't create new colors for repeated areas
+- Repeat areas indicate logical separation in game progression
 
+**Example of CORRECT structure**:
 ```mermaid
-subgraph area_8["<style>subgraphTitleTitle {font-size: 18px; font-weight: bold;}</style>Village - Pawn Shop Items"]
-    classDef area_8 fill:#F5F5F5,stroke:#616161,stroke-width:2px
-    class O_RECEIVE_NIGHTINGALE,O_RECEIVE_MINT,O_RECEIVE_TINDERBOX,O_RECEIVE_FLUTE,O_RECEIVE_PAINTBRUSH,O_RECEIVE_INK area_8
+subgraph area_1["**ISLE OF CROWN**"]
+    %% All Isle of Crown Phase 1 content here
 end
 
-subgraph area_2_gnomes["<style>subgraphTitleTitle {font-size: 18px; font-weight: bold;}</style>Isle of Wonder - Five Senses Gnomes"]
-    classDef area_2_gnomes fill:#FFF3E0,stroke:#F57C00,stroke-width:2px
-    class O_GNOMES_SMELL_DONE,O_GNOMES_HEARING_DONE,O_GNOMES_TASTE_DONE,O_GNOMES_TOUCH_DONE,O_GNOMES_SIGHT_DONE area_2_gnomes
+subgraph area_2["**ISLE OF WONDER**"]
+    %% All Isle of Wonder content here
+end
+
+subgraph area_1_return["**ISLE OF CROWN - Final**"]
+    %% All Isle of Crown Final Phase content here (same color as area_1)
 end
 ```
+
+**Example of WRONG structure (nested)**:
+```mermaid
+%% WRONG - Do not do this!
+subgraph area_1["ISLE OF CROWN"]
+    subgraph area_1_village["Village"]  %% NESTED - BAD
+        %% content
+    end
+end
+```
+
+**Clustering by Area**:
+- Group all content for an area within ONE subgraph
+- Include Phase 1, Phase 2, etc. all under the same area subgraph
+- Exception: If same area appears at very different logical points (start vs end), use separate subgraphs with same color
 
 #### Subgraph Styling Format
 
