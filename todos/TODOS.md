@@ -120,22 +120,23 @@ Complete overhaul of the King's Quest VI puzzle dependency chart based on compre
 
 ---
 
-## 6. Gateway Process for Major Unlocks ⏳
+## 6. Gateway Process for Major Unlocks ✅
 
 ### 6a: Analyze crossing patterns (5+ lines)
-- [ ] **6a.1: Count outgoing lines from Magic Map**
-  - Magic Map → enables Isle of Wonder, Isle of Beast, Isle of Mists, Sacred Mountain (4+ destinations)
-- [ ] **6a.2: Count outgoing lines from trade items to gnome puzzles**
-  - Nightingale, Mint, Rabbit Foot, Ink → all feed into Five Senses Gnomes
-- [ ] **6a.3: Document other 5+ crossing points**
+- [x] **6a.1: Count outgoing lines from Magic Map**
+  - Magic Map → enables IoW gnomes, IoB boiling pool, Sacred Mountain cliffs, Realm of Dead (4+ destinations)
+- [x] **6a.2: Count outgoing lines from trade items to gnome puzzles**
+  - Nightingale, Mint, Rabbit Foot, Ink, Stinky Flower → all feed into Five Senses Gnomes
+- [x] **6a.3: Document other 5+ crossing points**
+  - Consequence nodes C1-C10 already serve as gateway abstractions
 
 ### 6b: Create UNLOCK gateway nodes
-- [ ] **6b.1: Create `UNLOCK_ISLAND_TRAVEL` gateway**
+- [x] **6b.1: Create `UNLOCK_ISLAND_TRAVEL` gateway**
   - Place after O_RECEIVE_MAGIC_MAP
   - All island destinations route through this node
-- [ ] **6b.2: Create `UNLOCK_GNOME_ACCESS` gateway**
+- [x] **6b.2: Create `UNLOCK_GNOME_ACCESS` gateway**
   - Place where trade items converge for gnome puzzles
-- [ ] **6b.3: Route connections through gateway nodes**
+- [x] **6b.3: Route connections through gateway nodes**
 
 ### 6c: Build dangling node detection script
 - [x] **6c.1: Create `scripts/check-dangling-nodes.sh`**
