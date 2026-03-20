@@ -118,6 +118,7 @@ flowchart TD
     P_PROBLEM_JOLLO --> A_TALK_TO_JOLLO
     A_TALK_TO_JOLLO --> O_RECEIVE_JOLLO_TRUST
     O_RECEIVE_JOLLO_TRUST --> A_SHOW_RING_TO_JOLLO
+    A_SHOW_RING_TO_JOLLO --> O_JOLLO_HELPS
 
     A_SEARCH_BOOKSHELF --> O_RECEIVE_LOVE_POEM
 
@@ -171,6 +172,8 @@ flowchart TD
         A_READ_BOOK_TO_OYSTER["A: Read Boring Book to Oyster"]
         O_RECEIVE_PEARL["O: Receive Pearl"]
     end
+
+    O_RECEIVE_PEARL --> O_RECEIVE_ROYAL_RING
 
     O_GNOMES_SMELL_DONE & O_GNOMES_HEARING_DONE & O_GNOMES_TASTE_DONE & O_GNOMES_TOUCH_DONE & O_GNOMES_SIGHT_DONE --> C2["Path through gnomes now open"]
     C2 --> A_READ_BOOK_TO_OYSTER
@@ -249,6 +252,7 @@ flowchart TD
     C2 --> A_SEARCH_POETRY_SHELF
     A_PULL_THREAD --> O_RECEIVE_LOVE_WORD
     A_PULL_THREAD --> O_RECEIVE_SPIDER_WEB
+    O_RECEIVE_SPIDER_WEB --> O_RECEIVE_LOVE_WORD
     A_SEARCH_POETRY_SHELF --> O_RECEIVE_LOVE_POEM_IOW
     O_RECEIVE_DANGLING_PARTICIPLE --> A_TRADE_PARTICIPLE_BOOK
     A_TRADE_PARTICIPLE_BOOK --> O_RECEIVE_RARE_BOOK
@@ -386,7 +390,7 @@ flowchart TD
         A_GIVE_RING_TO_BEAUTY["A: Give Beast's Ring to Beauty"]
         O_RECEIVE_BEAUTYS_DRESS["O: Receive Beauty's Dress"]
         O_RECEIVE_MIRROR["O: Receive Mirror"]
-        O_RECEIVE_BEASTS_RING["O: Receive Beast's Ring"]
+        O_RECEIVE_BEASTS_RING["O: Receive Beast's Ring"] -.-> END
 
         A_PLACE_ROSE["A: Plant White Rose"]
         O_RECEIVE_WHITE_ROSE_2["O: Receive White Rose (second)"]
@@ -401,6 +405,7 @@ flowchart TD
     A_GIVE_RING_TO_BEAUTY --> O_RECEIVE_BEASTS_RING
     O_BEAUTY_TRUSTS --> A_PLACE_ROSE
     A_PLACE_ROSE --> O_RECEIVE_WHITE_ROSE_2
+    O_RECEIVE_WHITE_ROSE_2 --> O_JOLLO_HELPS
 
     %% =============================================================================
     %% PHASE 7: Isle of Sacred Mountain
@@ -440,9 +445,11 @@ flowchart TD
     O_RECEIVE_TINDERBOX --> A_LIGHT_CAVE
     A_LIGHT_CAVE --> O_RECEIVE_PEPPERMINT
     C6 --> P_PROBLEM_DARK_CAVE
+    P_PROBLEM_DARK_CAVE --> A_LIGHT_CAVE
     C6 --> P_PROBLEM_POISON_LADY
     P_PROBLEM_POISON_LADY --> A_REJECT_POISON
     A_REJECT_POISON --> O_SURVIVED
+    O_SURVIVED --> A_RIDE_NIGHTMARE
 
     %% Winged Ones
     subgraph area_ism_winged["Isle of Sacred Mountain - Winged Ones"]
@@ -492,7 +499,7 @@ flowchart TD
         O_RECEIVE_COAL_IOM["O: Receive Coal (from IoM)"]
     end
 
-    O_RECEIVE_BABYS_TEARS & O_RECEIVE_MILK & O_RECEIVE_HUNTERS_LAMP --> A_CAST_RAIN_SPELL
+    O_RECEIVE_BABYS_TEARS & O_RECEIVE_MILK & O_RECEIVE_HUNTERS_LAMP & O_RECEIVE_SACRED_WATER & O_RECEIVE_ORACLE_VIAL --> A_CAST_RAIN_SPELL
     A_CAST_RAIN_SPELL --> O_RAIN_PROTECTION
     O_RAIN_PROTECTION & O_RECEIVE_BEAUTYS_DRESS --> P_PROBLEM_DRUIDS
     P_PROBLEM_DRUIDS --> A_WEAR_BEAUTYS_DRESS
@@ -537,6 +544,7 @@ flowchart TD
     O_ZOMBIES_PASSED --> A_TALK_TO_GHOST_MOTHER
     A_TALK_TO_CASSIMA_PARENTS --> O_RECEIVE_TICKET
     A_TALK_TO_GHOST_MOTHER --> O_RECEIVE_HANKERCHIEF
+    O_RECEIVE_HANKERCHIEF --> A_TALK_TO_GHOST_BOY
 
     subgraph area_rod_gate["Realm of the Dead - Gate"]
         P_PROBLEM_GATE["Problem: Need ticket for underworld"]
@@ -560,6 +568,7 @@ flowchart TD
     P_PROBLEM_CHARON --> A_PAY_CHARON
     O_RECEIVE_COINS --> A_PAY_CHARON
     A_PAY_CHARON --> O_FERRY_ACCESS
+    O_FERRY_ACCESS --> A_RIDE_NIGHTMARE
 
     subgraph area_rod_styx["Realm of the Dead - River Styx"]
         P_PROBLEM_STYX["Problem: Need Styx Water for paint spell"]
@@ -575,6 +584,7 @@ flowchart TD
     A_COLLECT_STYX_WATER --> O_RECEIVE_STYX_WATER
     C8 --> A_SEARCH_KNIGHT
     A_SEARCH_KNIGHT --> O_RECEIVE_GAUNTLET
+    O_RECEIVE_GAUNTLET --> P_PROBLEM_DEATH
 
     subgraph area_rod_throne["Realm of the Dead - Talking Gate & Throne"]
         P_PROBLEM_GATE_RIDDLE["Problem: Gate asks riddle"]
@@ -590,6 +600,7 @@ flowchart TD
     P_PROBLEM_GATE_RIDDLE --> A_ANSWER_LOVE
     A_ANSWER_LOVE --> C9
     C9 --> P_PROBLEM_DEATH
+    P_PROBLEM_DEATH --> A_SHOW_MIRROR_DEATH
     O_RECEIVE_MIRROR --> A_SHOW_MIRROR_DEATH
     A_SHOW_MIRROR_DEATH --> C10
     C10 --> C_RETURN["Return to Isle of the Crown Beach"]
@@ -641,6 +652,7 @@ flowchart TD
     A_DISTRACT_GUARDS --> O_GUARDS_DISTRACTED
     O_GUARDS_DISTRACTED --> A_TALK_TO_GHOST_BOY
     A_TALK_TO_GHOST_BOY --> O_RECEIVE_PASSAGE_HINT
+    O_RECEIVE_PASSAGE_HINT --> P_PROBLEM_PASSWORD
 
     subgraph area_castle_passage["Castle - Secret Passage"]
         P_PROBLEM_PASSWORD["Problem: Need password to proceed"]
@@ -656,6 +668,7 @@ flowchart TD
 
     O_GUARDS_DISTRACTED --> P_PROBLEM_PASSWORD
     O_GUARDS_DISTRACTED --> P_PROBLEM_CASSIMA
+    P_PROBLEM_CASSIMA --> A_GIVE_DAGGER
     P_PROBLEM_PASSWORD --> A_FIND_ALI_PASSWORD
     P_PROBLEM_PASSWORD --> A_FIND_ZEBU_PASSWORD
     A_FIND_ALI_PASSWORD --> O_PASSWORD_ALI
