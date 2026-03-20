@@ -47,10 +47,10 @@
 ## Subtasks
 
 ### Phase 1: Configuration & Research
-- [ ] Task 1.1: Add mermaid preprocessor to book.toml
-- [ ] Task 1.2: Verify mdbook build works with mermaid
-- [ ] Task 2.1: Read all 4 KQVI walkthroughs
-- [ ] Task 2.2: Create complete puzzle inventory checklist
+- [x] Task 1.1: Add mermaid preprocessor to book.toml
+- [x] Task 1.2: Verify mdbook build works with mermaid
+- [x] Task 2.1: Read all 4 KQVI walkthroughs
+- [x] Task 2.2: Create complete puzzle inventory checklist
 
 ### Phase 2: Chart Rework
 - [ ] Task 3.1: Restructure nodes - separate actions from outcomes

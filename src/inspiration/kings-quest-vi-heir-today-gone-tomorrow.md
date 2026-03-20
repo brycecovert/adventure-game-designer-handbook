@@ -6,255 +6,700 @@ This chart maps the critical puzzle dependencies in Sierra's King's Quest VI (19
 
 ```mermaid
 flowchart TD
-    %% Start node
-    START(["START: Wake on Beach"]) --> P1
+    %% =============================================================================
+    %% STYLE DEFINITIONS - Modern, accessible colors with 4.5:1+ contrast
+    %% =============================================================================
+    classDef start_end fill:#FFD700,stroke:#996600,stroke-width:3px,color:#000000
+    classDef problem fill:#FFB3B3,stroke:#8B0000,stroke-width:2px,color:#8B0000
+    classDef action fill:#B3FFB3,stroke:#006400,stroke-width:2px,color:#006400
+    classDef outcome fill:#B3D9FF,stroke:#004080,stroke-width:2px,color:#004080
+    classDef area_ioc fill:#E6E6FF,stroke:#333399,stroke-width:2px
+    classDef area_iow fill:#FFE6FF,stroke:#660066,stroke-width:2px
+    classDef area_iob fill:#FFE6CC,stroke:#663300,stroke-width:2px
+    classDef area_maze fill:#CCFFCC,stroke:#006633,stroke-width:2px
+    classDef area_ism fill:#CCFFFF,stroke:#006666,stroke-width:2px
+    classDef area_iom fill:#FFFFCC,stroke:#666600,stroke-width:2px
+    classDef area_rod fill:#F0F0F0,stroke:#333333,stroke-width:2px
+    classDef area_castle fill:#FFD9CC,stroke:#663320,stroke-width:2px
+    classDef area_final fill:#FFCCE6,stroke:#660033,stroke-width:2px
 
-    %% Phase 1: Beach
-    subgraph Phase1["Phase 1: Isle of the Crown - Beach"]
-        P1["Problem: Need items to progress"]
-        S1["Solution: Pick up Royal Ring & Copper Coin"]
+    %% =============================================================================
+    %% PHASE 0: START - Isle of the Crown Beach
+    %% =============================================================================
+    subgraph area_start["START"]
+        START(["START: Wake on Isle of the Crown Beach"])
     end
 
-    P1 --> S1
-    S1 --> P2
+    %% Beach - Item Collection (parallel independent actions)
+    subgraph area_beach["Isle of the Crown - Beach"]
+        A_MOVE_PLANK["A: Move debris on beach"]
+        O_RECEIVE_COPPER_COIN["O: Receive Copper Coin"]
+        A_EXAMINE_DEBRIS["A: Examine debris more closely"]
+        O_RECEIVE_ROYAL_RING["O: Receive Royal Insignia Ring"]
 
-    %% Phase 2: Castle Introduction
-    subgraph Phase2["Phase 2: Castle Entry"]
-        P2["Problem: Guards won't let you into castle"]
-        S2["Solution: Show Royal Ring to guards"]
+        A_MOVE_PLANK --> O_RECEIVE_COPPER_COIN
+        A_EXAMINE_DEBRIS --> O_RECEIVE_ROYAL_RING
     end
 
-    P2 --> S2
-    S2 --> C1["Castle: Meet Vizier, get kicked out"]
-    C1 --> P3
+    START --> A_MOVE_PLANK
+    START --> A_EXAMINE_DEBRIS
 
-    %% Phase 3: Village Setup
-    subgraph Phase3["Phase 3: Isle of the Crown - Village"]
-        P3["Problem: Need items and transportation"]
-        S3["Solution: Trade coin for items at Pawn Shop<br/>- Nightingale, Mint, Flute, Tinderbox, Paintbrush"]
-        S4["Solution: Trade Ring for Magic Map"]
-        S5["Solution: Talk to Ferryman → get Rabbit Foot"]
-        S6["Solution: Meet Jollo in Bookstore → show Ring"]
+    %% Castle Entry - Guards
+    subgraph area_castle_entry["Isle of the Crown - Castle Entry"]
+        A_SHOW_RING_TO_GUARDS["A: Show Royal Ring to guards"]
+        C1["Consequence: Meet Vizier, then kicked out"]
     end
 
-    P3 --> S3
-    P3 --> S4
-    P3 --> S5
-    P3 --> S6
-    S3 & S4 & S5 & S6 --> P4
+    O_RECEIVE_ROYAL_RING --> A_SHOW_RING_TO_GUARDS
+    A_SHOW_RING_TO_GUARDS --> C1
 
-    %% Phase 4: Isle of Wonder - Five Senses
-    subgraph Phase4["Phase 4: Isle of Wonder - Gnomes"]
-        P4["Problem: Five gnomes block path north"]
-        S7["Solution: Give stinky Flower to Smell gnome"]
-        S8["Solution: Play Nightingale for Hearing gnome"]
-        S9["Solution: Give Mint to Taste gnome"]
-        S10["Solution: Give Rabbit Foot to Touch gnome"]
-        S11["Solution: Use Invisible Ink on self for Sight gnome"]
-        S12["Solution: Get Pearl from Oyster (from beach, independent of gnomes)"]
+    %% Village - Multiple Parallel Independent Paths
+    subgraph area_village["Isle of the Crown - Village"]
+        %% Pawn Shop - Locked Choice Mechanic (trade sequence)
+        P_PROBLEM_PAWN_SHOP["Problem: Need items from Pawn Shop"]
+        A_TALK_TO_PAWN_BROKER["A: Talk to Pawn Shop broker"]
+        O_RECEIVE_NIGHTINGALE["O: Receive Mechanical Nightingale"]
+        O_RECEIVE_MINT["O: Receive Mint"]
+        O_RECEIVE_TINDERBOX["O: Receive Tinderbox"]
+        O_RECEIVE_FLUTE["O: Receive Flute"]
+        O_RECEIVE_PAINTBRUSH["O: Receive Paintbrush"]
+        O_RECEIVE_INK["O: Receive Invisible Ink Bottle"]
+
+        %% Magic Map Trade
+        P_PROBLEM_NEED_MAP["Problem: Cannot travel to other islands"]
+        A_TRADE_RING_FOR_MAP["A: Trade Royal Ring for Magic Map"]
+        O_RECEIVE_MAGIC_MAP["O: Receive Magic Map"]
+
+        %% Ferryman - Rabbit's Foot
+        P_PROBLEM_FERRYMAN["Problem: Need ferry info and items"]
+        A_TALK_TO_FERRYMAN["A: Talk to Ali the ferryman"]
+        O_RECEIVE_RABBIT_FOOT["O: Receive Rabbit's Foot"]
+
+        %% Jollo in Bookstore
+        P_PROBLEM_JOLLO["Problem: Need Jollo's help for story"]
+        A_TALK_TO_JOLLO["A: Talk to Jollo in Bookstore"]
+        O_RECEIVE_JOLLO_TRUST["O: Receive Jollo's trust"]
+        A_SHOW_RING_TO_JOLLO["A: Show Royal Ring to Jollo"]
+
+        %% Love Poem (optional)
+        A_SEARCH_BOOKSHELF["A: Search poetry bookshelf"]
+        O_RECEIVE_LOVE_POEM["O: Receive Love Poem"]
     end
 
-    P4 --> S7
-    P4 --> S8
-    P4 --> S9
-    P4 --> S10
-    P4 --> S11
-    S7 & S8 & S9 & S10 & S11 --> P5
-    P4 --> S12
-    S12 -.-> S12_note["→ Optional: Pearl side quest (independent)"]
+    C1 --> P_PROBLEM_PAWN_SHOP
+    C1 --> P_PROBLEM_NEED_MAP
+    C1 --> P_PROBLEM_FERRYMAN
+    C1 --> P_PROBLEM_JOLLO
 
-    %% Phase 5: Puzzle Chain on Wonder
-    subgraph Phase5["Phase 5: Isle of Wonder - Garden & Chessboard"]
-        P5["Problem: Need items for Beast's domain"]
-        S13["Solution: Play Flute → get Hole-in-Wall from shy flowers"]
-        S14["Solution: Get Iceberg Lettuce from garden"]
-        S15["Solution: Get Red Scarf from Chessboard queens"]
+    %% Village - Parallel independent paths (S3, S4, S5, S6 in original)
+    P_PROBLEM_PAWN_SHOP --> A_TALK_TO_PAWN_BROKER
+    A_TALK_TO_PAWN_BROKER --> O_RECEIVE_NIGHTINGALE
+    A_TALK_TO_PAWN_BROKER --> O_RECEIVE_MINT
+    A_TALK_TO_PAWN_BROKER --> O_RECEIVE_INK
+    O_RECEIVE_NIGHTINGALE --> A_TRADE_WITH_BROKER_N["A: Trade Nightingale"] 
+    A_TRADE_WITH_BROKER_N -.-> O_RECEIVE_FLUTE
+    O_RECEIVE_FLUTE --> A_TRADE_WITH_BROKER_F["A: Trade Flute"]
+    A_TRADE_WITH_BROKER_F -.-> O_RECEIVE_TINDERBOX
+    O_RECEIVE_TINDERBOX --> A_TRADE_WITH_BROKER_T["A: Trade Tinderbox"]
+    A_TRADE_WITH_BROKER_T -.-> O_RECEIVE_PAINTBRUSH
+
+    P_PROBLEM_FERRYMAN --> A_TALK_TO_FERRYMAN
+    A_TALK_TO_FERRYMAN --> O_RECEIVE_RABBIT_FOOT
+
+    P_PROBLEM_NEED_MAP --> A_TRADE_RING_FOR_MAP
+    A_TRADE_RING_FOR_MAP --> O_RECEIVE_MAGIC_MAP
+
+    P_PROBLEM_JOLLO --> A_TALK_TO_JOLLO
+    A_TALK_TO_JOLLO --> O_RECEIVE_JOLLO_TRUST
+    O_RECEIVE_JOLLO_TRUST --> A_SHOW_RING_TO_JOLLO
+
+    A_SEARCH_BOOKSHELF --> O_RECEIVE_LOVE_POEM
+
+    %% =============================================================================
+    %% PHASE 2: Isle of Wonder - Five Senses Gnomes
+    %% =============================================================================
+    subgraph area_iow_gnomes["Isle of Wonder - Five Senses Gnomes"]
+        P_PROBLEM_GNOMES["Problem: Five gnomes block path north"]
+        
+        A_GIVE_STINKY_FLOWER["A: Give Flower of Stench to Smell gnome"]
+        O_GNOMES_SMELL_DONE["O: Smell gnome satisfied"]
+        
+        A_PLAY_NIGHTINGALE["A: Play Nightingale for Hearing gnome"]
+        O_GNOMES_HEARING_DONE["O: Hearing gnome satisfied"]
+        
+        A_GIVE_MINT["A: Give Mint to Taste gnome"]
+        O_GNOMES_TASTE_DONE["O: Taste gnome satisfied"]
+        
+        A_GIVE_RABBIT_FOOT["A: Give Rabbit Foot to Touch gnome"]
+        O_GNOMES_TOUCH_DONE["O: Touch gnome satisfied"]
+        
+        A_USE_INK_ON_SELF["A: Use Invisible Ink on self"]
+        O_GNOMES_SIGHT_DONE["O: Sight gnome satisfied"]
     end
 
-    P5 --> S13
-    P5 --> S14
-    P5 --> S15
-    S13 & S14 & S15 --> P6
+    O_RECEIVE_MAGIC_MAP --> P_PROBLEM_GNOMES
+    O_RECEIVE_NIGHTINGALE --> A_PLAY_NIGHTINGALE
+    O_RECEIVE_MINT --> A_GIVE_MINT
+    O_RECEIVE_RABBIT_FOOT --> A_GIVE_RABBIT_FOOT
+    O_RECEIVE_INK --> A_USE_INK_ON_SELF
 
-    %% Phase 6: Isle of the Beast (initial visit)
-    subgraph Phase6["Phase 6: Isle of the Beast - Initial Visit"]
-        P6["Problem: Boiling pool blocks path"]
-        S16["Solution: Cool pool with Iceberg Lettuce"]
-        S21["Solution: Get Brick from garden"]
+    P_PROBLEM_GNOMES --> A_GIVE_STINKY_FLOWER
+    P_PROBLEM_GNOMES --> A_PLAY_NIGHTINGALE
+    P_PROBLEM_GNOMES --> A_GIVE_MINT
+    P_PROBLEM_GNOMES --> A_GIVE_RABBIT_FOOT
+    P_PROBLEM_GNOMES --> A_USE_INK_ON_SELF
+
+    A_GIVE_STINKY_FLOWER --> O_GNOMES_SMELL_DONE
+    A_PLAY_NIGHTINGALE --> O_GNOMES_HEARING_DONE
+    A_GIVE_MINT --> O_GNOMES_TASTE_DONE
+    A_GIVE_RABBIT_FOOT --> O_GNOMES_TOUCH_DONE
+    A_USE_INK_ON_SELF --> O_GNOMES_SIGHT_DONE
+
+    %% Isle of Wonder Beach - Oyster Pearl (INDEPENDENT of gnomes)
+    subgraph area_iow_beach["Isle of Wonder - Beach (independent)"]
+        A_READ_BOOK_TO_OYSTER["A: Read Boring Book to Oyster"]
+        O_RECEIVE_PEARL["O: Receive Pearl"]
     end
 
-    P6 --> S16
-    S16 --> P7
-    P6 --> S21
+    O_GNOMES_SMELL_DONE & O_GNOMES_HEARING_DONE & O_GNOMES_TASTE_DONE & O_GNOMES_TOUCH_DONE & O_GNOMES_SIGHT_DONE --> C2["Path through gnomes now open"]
 
-    %% Phase 7: Minotaur's Maze
-    subgraph Phase7["Phase 7: Minotaur's Maze"]
-        P7["Problem: Need items to survive maze"]
-        S22["Solution: Collect Red Scarf, Tinderbox, Hole-in-Wall, Brick"]
-        P8["Problem: Need Shield and Skull from maze"]
-        S23["Solution: Navigate tile puzzle → get Shield"]
-        S24["Solution: Find skull in skeleton room"]
-        P9["Problem: Minotaur blocks exit"]
-        S25["Solution: Lure Minotaur with Red Scarf → get Dagger"]
+    %% =============================================================================
+    %% PHASE 3: Isle of Wonder - Garden, Chessboard, Point
+    %% =============================================================================
+    subgraph area_iow_garden["Isle of Wonder - Garden"]
+        A_PLAY_FLUTE_FLOWERS["A: Play Flute for shy flowers"]
+        O_RECEIVE_HOLE_IN_WALL["O: Receive Hole-in-the-Wall"]
+
+        A_PICK_ICEY_LETTUCE["A: Pick Iceberg Lettuce from garden"]
+        O_RECEIVE_ICEY_LETTUCE["O: Receive Iceberg Lettuce"]
+
+        A_GIVE_ROTTEN_TOMATO["A: Give Rotten Tomato to bump-on-log"]
+        O_RECEIVE_SWAMP_OOZE["O: Receive Swamp Ooze"]
+
+        A_GIVE_MILK_TO_PLANT["A: Give Milk to baby's tears plant"]
+        O_RECEIVE_BABYS_TEARS["O: Receive Baby's Tears"]
+        A_GET_MILK_BOTTLE["A: Pick up Milk Bottle"]
+        O_RECEIVE_MILK["O: Receive Milk"]
+        A_GET_TEA_CUP["A: Pick up Tea Cup"]
+        O_RECEIVE_TEA_CUP["O: Receive Tea Cup"]
+
+        A_PICK_DRINK_ME_POTION["A: Pick up 'Drink Me' Potion"]
+        O_RECEIVE_DRINK_ME["O: Receive 'Drink Me' Potion"]
     end
 
-    S16 & S21 --> P7
-    P7 --> S22
-    S22 --> P8
-    P8 --> S23
-    P8 --> S24
-    S23 & S24 --> P9
-    P9 --> S25
-    S25 --> C2["Winged Ones give Sacred Water & Oracle Vial"]
+    C2 --> A_PICK_ICEY_LETTUCE
+    C2 --> A_GET_TEA_CUP
+    C2 --> A_PICK_DRINK_ME_POTION
+    O_RECEIVE_FLUTE --> A_PLAY_FLUTE_FLOWERS
+    O_RECEIVE_MILK --> A_GIVE_MILK_TO_PLANT
+    A_GET_MILK_BOTTLE --> O_RECEIVE_MILK
+    A_PLAY_FLUTE_FLOWERS --> O_RECEIVE_HOLE_IN_WALL
 
-    %% Phase 6b: Isle of the Beast - Return with Shield
-    subgraph Phase6b["Phase 6b: Isle of the Beast - Return Visit"]
-        P6b["Problem: Archer statue kills you"]
-        S18["Solution: Use Shield to pass archer statue"]
-        P10["Problem: Rose hedge blocks path to Beast"]
-        S28["Solution: Cut hedge with Scythe (from Isle of Mists)"]
+    subgraph area_iow_chessboard["Isle of Wonder - Chessboard Land"]
+        A_TALK_TO_QUEENS["A: Talk to Chessboard queens"]
+        O_RECEIVE_RED_SCARF["O: Receive Red Scarf"]
+        O_RECEIVE_LUMP_OF_COAL["O: Receive Lump of Coal"]
     end
 
-    C2 --> P6b
-    P6b --> S18
-    S18 --> P10
+    C2 --> A_TALK_TO_QUEENS
+    O_RECEIVE_LUMP_OF_COAL -.-> A_TRADE_COAL_FOR_EGG["A: Trade coal for sulfur egg"]
 
-    %% Phase 8: Logic Cliffs
-    subgraph Phase8["Phase 8: Isle of Sacred Mountain - Cliffs"]
-        P11["Problem: Copy protection puzzles block summit"]
-        S26["Solution: Solve cliff puzzles using manual (5 puzzles)"]
-        P12["Problem: Dark cave blocks path"]
-        S27["Solution: Use Tinderbox to light way → get Mint Leaves"]
+    subgraph area_iow_point["Isle of Wonder - Point / Book Garden"]
+        A_PULL_THREAD["A: Pull thread from spider web"]
+        O_RECEIVE_LOVE_WORD["O: Receive word 'LOVE' (for Gate riddle)"]
+        O_RECEIVE_SPIDER_WEB["O: Receive Spider Web Paper"]
+
+        A_SEARCH_POETRY_SHELF["A: Search poetry bookshelf"]
+        O_RECEIVE_LOVE_POEM_IOW["O: Receive Love Poem"]
+
+        A_TRADE_PARTICIPLE_BOOK["A: Trade Dangling Participle to bookworm"]
+        O_RECEIVE_RARE_BOOK["O: Receive Rare Book"]
     end
 
-    P10 --> S28
-    S28 --> P11
-    P11 --> S26
-    S26 --> P12
-    P12 --> S27
-    S27 --> C3["Winged Ones take you to Minotaur Maze"]
+    C2 --> A_PULL_THREAD
+    A_PULL_THREAD --> O_RECEIVE_LOVE_WORD
+    A_PULL_THREAD --> O_RECEIVE_SPIDER_WEB
 
-    %% Phase 9: Isle of Mists / Druids
-    subgraph Phase9["Phase 9: Isle of the Mists - Druids"]
-        P13["Problem: Druids will burn you without protection"]
-        S29["Solution: Have Beauty's Dress + cast Rain Spell"]
-        S30["Solution: Get Scythe from village"]
-        S31["Solution: Get Coal from firepit"]
+    %% =============================================================================
+    %% PHASE 4: Isle of the Beast - Initial Visit
+    %% =============================================================================
+    subgraph area_iob_initial["Isle of the Beast - Initial Visit"]
+        P_PROBLEM_BOILING_POOL["Problem: Boiling pool blocks crossing"]
+        A_COOL_POOL["A: Use Iceberg Lettuce on pool"]
+        C3["Path to north area now open"]
+
+        A_GET_BRICK["A: Pick up Brick from garden"]
+        O_RECEIVE_BRICK["O: Receive Brick"]
+
+        A_GET_HUNTERS_LAMP["A: Pick up Hunter's Lamp"]
+        O_RECEIVE_HUNTERS_LAMP["O: Receive Hunter's Lamp"]
+
+        A_GET_DANGLING_PARTICIPLE["A: Get Dangling Participle from beach"]
+        O_RECEIVE_DANGLING_PARTICIPLE["O: Receive Dangling Participle"]
     end
 
-    P13 --> S29
-    S29 --> S30
-    S30 --> P14
+    O_RECEIVE_ICEY_LETTUCE --> A_COOL_POOL
+    A_COOL_POOL --> C3
+    C3 --> A_GET_BRICK
+    C3 --> A_GET_HUNTERS_LAMP
+    A_GET_BRICK --> O_RECEIVE_BRICK
+    A_GET_HUNTERS_LAMP --> O_RECEIVE_HUNTERS_LAMP
 
-    %% Phase 10: Beast/Beauty Quest
-    subgraph Phase10["Phase 10: Beast's Domain"]
-        P14["Problem: Beast needs help to break curse"]
-        S32["Solution: Give White Rose to Beauty"]
-        S33["Solution: Give Beast's Ring to Beauty → get Mirror & Dress"]
-        S34["Solution: Cut rose hedge with Scythe"]
+    %% =============================================================================
+    %% PHASE 5: Minotaur's Maze / Catacombs
+    %% =============================================================================
+    subgraph area_maze_l1["Minotaur's Maze - Level 1"]
+        P_PROBLEM_MAZE_L1["Problem: Navigate maze to find items"]
+        A_SOLVE_TILE_PUZZLE["A: Solve tile puzzle (use manual)"]
+        O_MAZE_PATH_OPEN["O: Tile path opens"]
+
+        A_NAVIGATE_TO_SKELETON["A: Navigate maze to skeleton room"]
+        O_RECEIVE_SKULL["O: Receive Skull"]
+
+        A_COLLECT_COINS["A: Collect Dead Man's Coins"]
+        O_RECEIVE_COINS["O: Receive Dead Man's Coins"]
+
+        A_USE_BRICK_TRAP["A: Use Brick to stop falling ceiling"]
+        O_TRAP_STOPPED["O: Falling ceiling trap stopped"]
     end
 
-    P14 --> S32
-    S32 --> S33
-    S33 --> P13
+    C3 --> P_PROBLEM_MAZE_L1
+    P_PROBLEM_MAZE_L1 --> A_SOLVE_TILE_PUZZLE
+    P_PROBLEM_MAZE_L1 --> A_NAVIGATE_TO_SKELETON
+    P_PROBLEM_MAZE_L1 --> A_COLLECT_COINS
+    P_PROBLEM_MAZE_L1 --> A_USE_BRICK_TRAP
 
-    %% Phase 11: Realm of the Dead
-    subgraph Phase11["Phase 11: Realm of the Dead"]
-        P15["Problem: Need to reach Land of the Dead"]
-        S35["Solution: Cast Charm Creatures of Night spell<br/>→ ride Nightmare horse"]
-        P16["Problem: Zombies block path"]
-        S36["Solution: Avoid them (or Rain Spell protects)"]
-        P17["Problem: Need ticket for underworld"]
-        S37["Solution: Talk to Cassima's parents → get Ticket"]
-        P18["Problem: Need key to proceed"]
-        S38["Solution: Play bone xylophone → skeletons dance, drop Key"]
-        P19["Problem: Need coins for Charon"]
-        S39["Solution: Take coins from skeleton's eyes"]
-        P20["Problem: Gate blocks entry"]
-        S40["Solution: Answer riddle with LOVE"]
-        P21["Problem: Need gauntlet for Death"]
-        S41["Solution: Get from dead knight"]
-        P22["Problem: Make Death cry"]
-        S42["Solution: Show Mirror → Death weeps → free parents"]
+    subgraph area_maze_l2["Minotaur's Maze - Level 2 (Dark)"]
+        P_PROBLEM_DARK_L2["Problem: Cannot see in dark passage"]
+        A_LIGHT_TINDERBOX["A: Light Tinderbox to see"]
+        O_CAN_SEE["O: Dark passage illuminated"]
+
+        A_USE_HOLE_IN_WALL["A: Use Hole-in-the-Wall at correct wall"]
+        O_REVEAL_TAPESTRY["O: Minotaur tapestry revealed"]
+
+        A_FIND_SHIELD["A: Navigate to find Shield"]
+        O_RECEIVE_SHIELD["O: Receive Shield"]
     end
 
-    S35 --> P16
-    P16 --> S36
-    S36 --> P17
-    P17 --> S37
-    S37 --> P18
-    P18 --> S38
-    S38 --> P19
-    P19 --> S39
-    S39 --> P20
-    P20 --> S40
-    P21 --> S41
-    S41 --> P22
-    P22 --> S42
-    S42 --> C4["Cassima's parents revived → return to Beach"]
+    O_RECEIVE_BRICK --> A_USE_BRICK_TRAP
+    O_RECEIVE_TINDERBOX --> A_LIGHT_TINDERBOX
+    O_RECEIVE_HOLE_IN_WALL --> A_USE_HOLE_IN_WALL
 
-    %% Phase 12: Castle Infiltration - Two Paths Converge
-    subgraph Phase12["Phase 12: Castle Infiltration"]
-        P23["Problem: Cannot enter castle normally"]
-        S43["Solution (Long Path): Paint door with magic<br/>- Black Feather + Swamp Ooze + Styx Water<br/>- Paintbrush + Spellbook → door appears"]
-        S44["Solution (Short Path): Disguise with Beauty's Dress"]
-        P24["Problem: Guards patrol basement"]
-        S45["Solution: Avoid or distract with Nightingale"]
-        P25["Problem: Need to access vizier's secrets"]
-        S46["Solution: Use Skeleton Key on chest → get Vizier's Letter"]
-        P27["Problem: Cassima needs weapon"]
-        S48["Solution: Give Dagger to Cassima"]
-        P26["Problem: Need Jollo's help for best ending"]
-        S47["Solution: Befriend Jollo → give lamp replica"]
+    A_LIGHT_TINDERBOX --> O_CAN_SEE
+    O_CAN_SEE --> A_USE_HOLE_IN_WALL
+    O_CAN_SEE --> A_FIND_SHIELD
+
+    subgraph area_maze_lair["Minotaur's Lair"]
+        P_PROBLEM_MINOTAUR["Problem: Minotaur blocks exit"]
+        A_LURE_MINOTAUR["A: Lure Minotaur with Red Scarf"]
+        O_RECEIVE_DAGGER["O: Receive Dagger"]
+        O_RECEIVE_SACRED_WATER["O: Receive Sacred Water"]
+        O_RECEIVE_ORACLE_VIAL["O: Receive Oracle Vial"]
     end
 
-    C4 --> P23
-    P23 --> S43
-    P23 --> S44
-    S43 --> P24
-    S44 --> P24
-    P24 --> S45
-    S45 --> P25
-    S45 --> P27
-    P27 --> S48
-    P26 --> S47
-    S47 --> C5
+    O_RECEIVE_SHIELD & O_RECEIVE_SCARF_CONV & O_TRAP_STOPPED & O_REVEAL_TAPESTRY --> P_PROBLEM_MINOTAUR
+    O_RECEIVE_SCARF_CONV["O: Red Scarf acquired from Chessboard"] 
+    O_RECEIVE_RED_SCARF --> O_RECEIVE_SCARF_CONV
+    P_PROBLEM_MINOTAUR --> A_LURE_MINOTAUR
+    A_LURE_MINOTAUR --> O_RECEIVE_DAGGER
+    A_LURE_MINOTAUR --> O_RECEIVE_SACRED_WATER
+    A_LURE_MINOTAUR --> O_RECEIVE_ORACLE_VIAL
 
-    %% Phase 13: Final Confrontation
-    subgraph Phase13["Phase 13: Final Confrontation"]
-        P28["Problem: Genie attacks"]
-        S49["Solution (Best): Use Genie Lamp (from Jollo)"]
-        S50["Solution (Alt): Give Mint Leaves to genie"]
-        P29["Problem: Vizier fights"]
-        S51["Solution: Use Sword + Cassima's help"]
+    %% Parallel paths after maze - S23/S24 are PARALLEL, S20/S21 are PARALLEL
+    O_MAZE_PATH_OPEN & O_RECEIVE_SKULL & O_RECEIVE_COINS & O_TRAP_STOPPED --> A_NAVIGATE_TO_SKELETON
+    O_NAVIGATE_MAZE["O: Maze navigated, shield found"] 
+
+    %% =============================================================================
+    %% PHASE 6: Isle of the Beast - Return Visit (with Shield)
+    %% =============================================================================
+    subgraph area_iob_return["Isle of the Beast - Return Visit"]
+        P_PROBLEM_ARCHER["Problem: Archer statue kills you"]
+        A_USE_SHIELD_STATUE["A: Use Shield to block arrows"]
+        C4["Safe passage through archer gate"]
+
+        P_PROBLEM_ROSE_HEDGE["Problem: Rose hedge blocks path to Beast"]
+        A_CUT_HEDGE["A: Cut hedge with Scythe"]
+        C5["Path to Beast's domain opens"]
     end
 
-    C5 --> P28
-    P28 --> S49
-    P28 --> S50
-    S49 --> P29
-    S50 --> P29
-    P29 --> S51
-    S51 --> END
+    O_RECEIVE_SHIELD --> P_PROBLEM_ARCHER
+    P_PROBLEM_ARCHER --> A_USE_SHIELD_STATUE
+    A_USE_SHIELD_STATUE --> C4
 
-    %% Styles
-    classDef problem fill:#ffcccc,stroke:#333,stroke-width:2px
-    classDef solution fill:#ccffcc,stroke:#333,stroke-width:2px
-    classDef phase fill:#e6f3ff,stroke:#333,stroke-width:1px
-    classDef start_end fill:#ffcc00,stroke:#333,stroke-width:3px
+    O_RECEIVE_SCYTHE["O: Receive Scythe from IoM"] -.-> P_PROBLEM_ROSE_HEDGE
+    P_PROBLEM_ROSE_HEDGE --> A_CUT_HEDGE
+    A_CUT_HEDGE --> C5
 
-    class P1,P2,P3,P4,P5,P6,P6b,P7,P8,P9,P10,P11,P12,P13,P14,P15,P16,P17,P18,P19,P20,P21,P22,P23,P24,P25,P26,P27,P28,P29 problem
-    class S1,S2,S3,S4,S5,S6,S7,S8,S9,S10,S11,S12,S13,S14,S15,S16,S18,S21,S22,S23,S24,S25,S26,S27,S28,S29,S30,S31,S32,S33,S34,S35,S36,S37,S38,S39,S40,S41,S42,S43,S44,S45,S46,S47,S48,S49,S50,S51 solution
-    class START,END,C1,C2,C3,C4,C5 start_end
+    %% Beast's Domain
+    subgraph area_beast_domain["Isle of the Beast - Beast's Domain"]
+        P_PROBLEM_MEET_BEAST["Problem: Need to meet Beast"]
+        A_GIVE_WHITE_ROSE["A: Give White Rose to Beauty"]
+        O_BEAUTY_TRUSTS["O: Beauty's trust gained"]
+
+        A_GIVE_RING_TO_BEAUTY["A: Give Beast's Ring to Beauty"]
+        O_RECEIVE_BEAUTYS_DRESS["O: Receive Beauty's Dress"]
+        O_RECEIVE_MIRROR["O: Receive Mirror"]
+        O_RECEIVE_BEASTS_RING["O: Receive Beast's Ring"]
+
+        A_PLACE_ROSE["A: Plant White Rose"]
+        O_RECEIVE_WHITE_ROSE_2["O: Receive White Rose (second)"]
+    end
+
+    C5 --> P_PROBLEM_MEET_BEAST
+    P_PROBLEM_MEET_BEAST --> A_GIVE_WHITE_ROSE
+    A_GIVE_WHITE_ROSE --> O_BEAUTY_TRUSTS
+    O_BEAUTY_TRUSTS --> A_GIVE_RING_TO_BEAUTY
+    A_GIVE_RING_TO_BEAUTY --> O_RECEIVE_BEAUTYS_DRESS
+    A_GIVE_RING_TO_BEAUTY --> O_RECEIVE_MIRROR
+    O_BEAUTY_TRUSTS --> A_PLACE_ROSE
+    A_PLACE_ROSE --> O_RECEIVE_WHITE_ROSE_2
+
+    %% =============================================================================
+    %% PHASE 7: Isle of Sacred Mountain
+    %% =============================================================================
+    subgraph area_ism_cliffs["Isle of Sacred Mountain - Logic Cliffs"]
+        P_PROBLEM_LOGIC_CLIFFS["Problem: Copy protection puzzles block summit"]
+        A_SOLVE_CLIFF_PUZZLES["A: Solve 5 cliff puzzles (manual required)"]
+        C6["Path to clifftop opens"]
+
+        A_GET_BLACK_FEATHER["A: Pick up Black Feather"]
+        O_RECEIVE_BLACK_FEATHER["O: Receive Black Feather"]
+
+        A_GET_STINKY_FLOWER["A: Pick up Flower of Stench"]
+        O_RECEIVE_STINKY_FLOWER["O: Receive Flower of Stench"]
+    end
+
+    O_RECEIVE_MAGIC_MAP --> P_PROBLEM_LOGIC_CLIFFS
+    P_PROBLEM_LOGIC_CLIFFS --> A_SOLVE_CLIFF_PUZZLES
+    A_SOLVE_CLIFF_PUZZLES --> C6
+    C6 --> A_GET_BLACK_FEATHER
+    C6 --> A_GET_STINKY_FLOWER
+
+    subgraph area_ism_clifftop["Isle of Sacred Mountain - Clifftop & Cave"]
+        P_PROBLEM_DARK_CAVE["Problem: Dark cave blocks path"]
+        A_LIGHT_CAVE["A: Light way with Tinderbox"]
+        O_RECEIVE_PEPPERMINT["O: Receive Peppermint Leaves"]
+
+        P_PROBLEM_POISON_LADY["Problem: Fake lady offers poison berry"]
+        A_REJECT_POISON["A: Wait/reject fake lady"]
+        O_SURVIVED["O: Survived poison trap"]
+    end
+
+    O_RECEIVE_TINDERBOX --> A_LIGHT_CAVE
+    A_LIGHT_CAVE --> O_RECEIVE_PEPPERMINT
+    C6 --> P_PROBLEM_DARK_CAVE
+    C6 --> P_PROBLEM_POISON_LADY
+    P_PROBLEM_POISON_LADY --> A_REJECT_POISON
+    A_REJECT_POISON --> O_SURVIVED
+
+    %% Winged Ones
+    subgraph area_ism_winged["Isle of Sacred Mountain - Winged Ones"]
+        P_PROBLEM_SPELL_COMPONENTS["Problem: Need spell components for Night Mare"]
+        A_COLLECT_COMPONENTS["A: Gather Ember, Hair, Spoiled Egg"]
+        O_SPELL_READY["O: Charm Creatures spell ready"]
+
+        A_GET_EMBER["A: Collect Ember from firepit"]
+        O_RECEIVE_EMBER["O: Receive Ember"]
+        A_GET_HAIR["A: Get Hair (Beauty's or Cassima's)"]
+        O_RECEIVE_HAIR["O: Receive Hair"]
+        A_GET_SPOILED_EGG["A: Get Spoiled Egg"]
+        O_RECEIVE_SPOILED_EGG["O: Receive Spoiled Egg"]
+
+        A_CAST_CHARM_SPELL["A: Cast Charm Creatures of Night spell"]
+        O_NIGHTMARE_MOUNT["O: Nightmare horse mount available"]
+    end
+
+    O_RECEIVE_SKULL & O_RECEIVE_EMBER & O_RECEIVE_SPOILED_EGG & O_RECEIVE_HAIR --> P_PROBLEM_SPELL_COMPONENTS
+    P_PROBLEM_SPELL_COMPONENTS --> A_COLLECT_COMPONENTS
+    A_COLLECT_COMPONENTS --> A_CAST_CHARM_SPELL
+    A_CAST_CHARM_SPELL --> O_NIGHTMARE_MOUNT
+
+    %% =============================================================================
+    %% PHASE 8: Isle of the Mists - Druids
+    %% =============================================================================
+    subgraph area_iom["Isle of the Mists - Druids"]
+        P_PROBLEM_DRUIDS["Problem: Druids will burn you without protection"]
+        A_CAST_RAIN_SPELL["A: Cast Rain Spell (Baby's Tears + Milk + Hunter's Lamp)"]
+        O_RAIN_PROTECTION["O: Rain protection active"]
+
+        A_WEAR_BEAUTYS_DRESS["A: Wear Beauty's Dress"]
+        O_DRUID_PROTECTION["O: Survive Druid ceremony"]
+
+        A_GET_SCYTHE["A: Pick up Scythe from village"]
+        O_RECEIVE_SCYTHE["O: Receive Scythe"]
+
+        A_GET_COAL["A: Pick up Coal from firepit"]
+        O_RECEIVE_COAL_IOM["O: Receive Coal (from IoM)"]
+    end
+
+    O_RECEIVE_BABYS_TEARS & O_RECEIVE_MILK & O_RECEIVE_HUNTERS_LAMP --> A_CAST_RAIN_SPELL
+    A_CAST_RAIN_SPELL --> O_RAIN_PROTECTION
+    O_RAIN_PROTECTION & O_RECEIVE_BEAUTYS_DRESS --> P_PROBLEM_DRUIDS
+    P_PROBLEM_DRUIDS --> A_WEAR_BEAUTYS_DRESS
+    A_WEAR_BEAUTYS_DRESS --> O_DRUID_PROTECTION
+
+    A_GET_SCYTHE --> O_RECEIVE_SCYTHE
+    A_GET_COAL --> O_RECEIVE_COAL_IOM
+
+    O_RECEIVE_COAL_IOM --> A_TRADE_COAL_FOR_EGG
+    O_TRADE_COAL_FOR_EGG -.-> O_RECEIVE_SULFUR_EGG["O: Receive Sulfur Egg"]
+
+    %% =============================================================================
+    %% PHASE 9: Realm of the Dead
+    %% =============================================================================
+    subgraph area_rod_landing["Realm of the Dead - Landing Point"]
+        P_PROBLEM_ENTER_ROD["Problem: Need to reach Land of the Dead"]
+        A_RIDE_NIGHTMARE["A: Ride Nightmare horse"]
+        C7["Arrive at Land of the Dead"]
+
+        P_PROBLEM_ZOMBIES["Problem: Zombies block path"]
+        A_AVOID_ZOMBIES["A: Navigate past zombies carefully"]
+        O_ZOMBIES_PASSED["O: Zombies avoided"]
+    end
+
+    O_NIGHTMARE_MOUNT --> P_PROBLEM_ENTER_ROD
+    P_PROBLEM_ENTER_ROD --> A_RIDE_NIGHTMARE
+    A_RIDE_NIGHTMARE --> C7
+    C7 --> P_PROBLEM_ZOMBIES
+    P_PROBLEM_ZOMBIES --> A_AVOID_ZOMBIES
+    A_AVOID_ZOMBIES --> O_ZOMBIES_PASSED
+
+    subgraph area_rod_pathway["Realm of the Dead - Pathway"]
+        A_TALK_TO_CASSIMA_PARENTS["A: Talk to Cassima's parents"]
+        O_RECEIVE_TICKET["O: Receive Ticket to Underworld"]
+
+        A_TALK_TO_GHOST_MOTHER["A: Talk to Ghost Mother"]
+        O_RECEIVE_HANKERCHIEF["O: Receive Handkerchief"]
+    end
+
+    O_ZOMBIES_PASSED --> A_TALK_TO_CASSIMA_PARENTS
+    A_TALK_TO_CASSIMA_PARENTS --> O_RECEIVE_TICKET
+
+    subgraph area_rod_gate["Realm of the Dead - Gate"]
+        P_PROBLEM_GATE["Problem: Need ticket for underworld"]
+        A_GIVE_TICKET["A: Give ticket to skeleton gatekeeper"]
+        C8["Gate to Styx opens"]
+
+        A_PLAY_BONES["A: Play bone xylophone"]
+        O_RECEIVE_SKELETON_KEY["O: Receive Skeleton Key"]
+
+        P_PROBLEM_CHARON["Problem: Need to pay Charon's ferry"]
+        A_PAY_CHARON["A: Pay Charon with Dead Man's Coins"]
+        O_FERRY_ACCESS["O: Ferry access granted"]
+    end
+
+    O_RECEIVE_TICKET --> P_PROBLEM_GATE
+    P_PROBLEM_GATE --> A_GIVE_TICKET
+    A_GIVE_TICKET --> C8
+    C8 --> A_PLAY_BONES
+    C8 --> P_PROBLEM_CHARON
+    O_RECEIVE_COINS --> A_PAY_CHARON
+    A_PAY_CHARON --> O_FERRY_ACCESS
+
+    subgraph area_rod_styx["Realm of the Dead - River Styx"]
+        P_PROBLEM_STYX["Problem: Need Styx Water for paint spell"]
+        A_COLLECT_STYX_WATER["A: Collect Styx Water with Tea Cup"]
+        O_RECEIVE_STYX_WATER["O: Receive Styx Water"]
+
+        A_SEARCH_KNIGHT["A: Search dead knight"]
+        O_RECEIVE_GAUNTLET["O: Receive Gauntlet"]
+    end
+
+    O_RECEIVE_TEA_CUP --> A_COLLECT_STYX_WATER
+    A_COLLECT_STYX_WATER --> O_RECEIVE_STYX_WATER
+    A_SEARCH_KNIGHT --> O_RECEIVE_GAUNTLET
+
+    subgraph area_rod_throne["Realm of the Dead - Talking Gate & Throne"]
+        P_PROBLEM_GATE_RIDDLE["Problem: Gate asks riddle"]
+        A_ANSWER_LOVE["A: Answer 'LOVE' (from spider web)"]
+        C9["Gate opens to Death's domain"]
+
+        P_PROBLEM_DEATH["Problem: Must make Death cry"]
+        A_SHOW_MIRROR_DEATH["A: Show Mirror to Death"]
+        C10["Death cries, parents freed"]
+    end
+
+    O_RECEIVE_LOVE_WORD --> P_PROBLEM_GATE_RIDDLE
+    P_PROBLEM_GATE_RIDDLE --> A_ANSWER_LOVE
+    A_ANSWER_LOVE --> C9
+    C9 --> P_PROBLEM_DEATH
+    O_RECEIVE_MIRROR --> A_SHOW_MIRROR_DEATH
+    A_SHOW_MIRROR_DEATH --> C10
+    C10 --> C_RETURN["Return to Isle of the Crown Beach"]
+
+    %% =============================================================================
+    %% PHASE 10: Castle Infiltration
+    %% =============================================================================
+    subgraph area_castle_approach["Castle Infiltration - Two Paths Converge"]
+        P_PROBLEM_ENTER_CASTLE["Problem: Cannot enter castle normally"]
+
+        %% Long Path - Paint Door
+        A_PAINT_DOOR["A: Paint door (Feather + Ooze + Styx + Paintbrush)"]
+        A_CAST_PAINT_SPELL["A: Cast Magic Paint Spell (with Spellbook)"]
+        O_DOOR_APPEARS["O: Secret door appears"]
+
+        %% Short Path - Disguise
+        A_WEAR_DISGUISE["A: Wear Beauty's Dress as disguise"]
+        O_CASTLE_ACCESS["O: Castle access granted"]
+    end
+
+    C_RETURN --> P_PROBLEM_ENTER_CASTLE
+    P_PROBLEM_ENTER_CASTLE --> A_PAINT_DOOR
+    P_PROBLEM_ENTER_CASTLE --> A_WEAR_DISGUISE
+
+    O_RECEIVE_BLACK_FEATHER & O_RECEIVE_SWAMP_OOZE & O_RECEIVE_STYX_WATER & O_RECEIVE_PAINTBRUSH --> A_PAINT_DOOR
+    A_PAINT_DOOR --> A_CAST_PAINT_SPELL
+    A_CAST_PAINT_SPELL --> O_DOOR_APPEARS
+    O_RECEIVE_BEAUTYS_DRESS --> A_WEAR_DISGUISE
+    A_WEAR_DISGUISE --> O_CASTLE_ACCESS
+
+    subgraph area_castle_basement["Castle - Basement / Cells"]
+        P_PROBLEM_GUARDS["Problem: Guards patrol basement"]
+        A_DISTRACT_GUARDS["A: Use Nightingale to distract guards"]
+        O_GUARDS_DISTRACTED["O: Guards distracted"]
+
+        A_TALK_TO_GHOST_BOY["A: Talk to Ghost Boy"]
+        O_RECEIVE_PASSAGE_HINT["O: Hint about secret armor"]
+
+        P_PROBLEM_JOLLO_ROOM["Problem: Need Jollo's help for best ending"]
+        A_GIVE_LAMP_REPLICA["A: Give lamp replica to Jollo"]
+        O_JOLLO_HELPS["O: Jollo will help in finale"]
+    end
+
+    O_DOOR_APPEARS & O_CASTLE_ACCESS --> P_PROBLEM_GUARDS
+    P_PROBLEM_GUARDS --> A_DISTRACT_GUARDS
+    A_DISTRACT_GUARDS --> O_GUARDS_DISTRACTED
+    O_GUARDS_DISTRACTED --> A_TALK_TO_GHOST_BOY
+    A_TALK_TO_GHOST_BOY --> O_RECEIVE_PASSAGE_HINT
+
+    subgraph area_castle_passage["Castle - Secret Passage"]
+        P_PROBLEM_PASSWORD["Problem: Need password to proceed"]
+        A_FIND_ALI_PASSWORD["A: Eavesdrop to learn 'ALI'"]
+        A_FIND_ZEBU_PASSWORD["A: Spy on Vizier to learn 'ZEBU'"]
+        O_PASSWORD_ALI["O: Password fragment 'ALI'"]
+        O_PASSWORD_ZEBU["O: Password fragment 'ZEBU'"]
+
+        P_PROBLEM_CASSIMA["Problem: Cassima needs weapon"]
+        A_GIVE_DAGGER["A: Give Dagger to Cassima"]
+        O_CASSIMA_ARMED["O: Cassima has dagger"]
+    end
+
+    O_GUARDS_DISTRACTED --> P_PROBLEM_PASSWORD
+    O_GUARDS_DISTRACTED --> P_PROBLEM_CASSIMA
+    P_PROBLEM_PASSWORD --> A_FIND_ALI_PASSWORD
+    P_PROBLEM_PASSWORD --> A_FIND_ZEBU_PASSWORD
+    A_FIND_ALI_PASSWORD --> O_PASSWORD_ALI
+    A_FIND_ZEBU_PASSWORD --> O_PASSWORD_ZEBU
+
+    O_PASSWORD_ALI & O_PASSWORD_ZEBU --> A_COMBINE_PASSWORD["A: Combine 'ALI ZEBU'"]
+    O_RECEIVE_DAGGER --> A_GIVE_DAGGER
+    A_GIVE_DAGGER --> O_CASSIMA_ARMED
+
+    subgraph area_castle_vizier["Castle - Vizier's Bedroom"]
+        P_PROBLEM_VIZIER_CHEST["Problem: Need to open Vizier's chest"]
+        A_UNLOCK_CHEST["A: Use Skeleton Key on chest"]
+        O_RECEIVE_VIZIER_LETTER["O: Receive Vizier's Letter"]
+
+        P_PROBLEM_TREASURY["Problem: Treasury password required"]
+        A_OPEN_TREASURY["A: Enter 'ALI ZEBU'"]
+        O_TREASURY_OPEN["O: Treasury opens"]
+    end
+
+    O_RECEIVE_SKELETON_KEY --> P_PROBLEM_VIZIER_CHEST
+    P_PROBLEM_VIZIER_CHEST --> A_UNLOCK_CHEST
+    A_UNLOCK_CHEST --> O_RECEIVE_VIZIER_LETTER
+
+    A_COMBINE_PASSWORD --> P_PROBLEM_TREASURY
+    P_PROBLEM_TREASURY --> A_OPEN_TREASURY
+    A_OPEN_TREASURY --> O_TREASURY_OPEN
+
+    %% =============================================================================
+    %% PHASE 11: Final Confrontation
+    %% =============================================================================
+    subgraph area_final["Final Confrontation"]
+        P_PROBLEM_GENIE["Problem: Genie attacks"]
+
+        A_USE_FAKE_LAMP["A: Use Fake Genie Lamp (from Jollo)"]
+        O_GENIE_CONTROLLED["O: Genie controlled - BEST ENDING"]
+
+        A_GIVE_MINT_GENIE["A: Give Peppermint Leaves to genie"]
+        O_GENIE_DRUNK["O: Genie incapacitated - ALT ENDING"]
+
+        P_PROBLEM_VIZIER["Problem: Vizier fights"]
+        A_FIGHT_VIZIER["A: Fight Vizier with Sword + Cassima"]
+        END(["END: Victory - KQVI Complete"])
+    end
+
+    O_JOLLO_HELPS --> P_PROBLEM_GENIE
+    P_PROBLEM_GENIE --> A_USE_FAKE_LAMP
+    P_PROBLEM_GENIE --> A_GIVE_MINT_GENIE
+
+    A_USE_FAKE_LAMP --> O_GENIE_CONTROLLED
+    A_GIVE_MINT_GENIE --> O_GENIE_DRUNK
+
+    O_GENIE_CONTROLLED & O_GENIE_DRUNK --> P_PROBLEM_VIZIER
+    P_PROBLEM_VIZIER --> A_FIGHT_VIZIER
+    A_FIGHT_VIZIER --> END
+
+    O_RECEIVE_VIZIER_LETTER -.-> A_SHOW_LETTER["A: Show Vizier's Letter to Saladin"]
+    O_CASSIMA_ARMED -.-> A_CASSIMA_FIGHTS["A: Cassima fights alongside"]
+
+    %% =============================================================================
+    %% CLASS ASSIGNMENTS
+    %% =============================================================================
+    class START,END,C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C_RETURN start_end
+    class P_PROBLEM_PAWN_SHOP,P_PROBLEM_NEED_MAP,P_PROBLEM_FERRYMAN,P_PROBLEM_JOLLO,P_PROBLEM_GNOMES,P_PROBLEM_BOILING_POOL,P_PROBLEM_MAZE_L1,P_PROBLEM_DARK_L2,P_PROBLEM_MINOTAUR,P_PROBLEM_ARCHER,P_PROBLEM_ROSE_HEDGE,P_PROBLEM_MEET_BEAST,P_PROBLEM_LOGIC_CLIFFS,P_PROBLEM_DARK_CAVE,P_PROBLEM_POISON_LADY,P_PROBLEM_SPELL_COMPONENTS,P_PROBLEM_DRUIDS,P_PROBLEM_ENTER_ROD,P_PROBLEM_ZOMBIES,P_PROBLEM_GATE,P_PROBLEM_CHARON,P_PROBLEM_STYX,P_PROBLEM_GATE_RIDDLE,P_PROBLEM_DEATH,P_PROBLEM_ENTER_CASTLE,P_PROBLEM_GUARDS,P_PROBLEM_PASSWORD,P_PROBLEM_CASSIMA,P_PROBLEM_VIZIER_CHEST,P_PROBLEM_TREASURY,P_PROBLEM_GENIE,P_PROBLEM_VIZIER problem
+    class A_MOVE_PLANK,A_EXAMINE_DEBRIS,A_SHOW_RING_TO_GUARDS,A_TALK_TO_PAWN_BROKER,A_TRADE_RING_FOR_MAP,A_TALK_TO_FERRYMAN,A_TALK_TO_JOLLO,A_SHOW_RING_TO_JOLLO,A_SEARCH_BOOKSHELF,A_GIVE_STINKY_FLOWER,A_PLAY_NIGHTINGALE,A_GIVE_MINT,A_GIVE_RABBIT_FOOT,A_USE_INK_ON_SELF,A_READ_BOOK_TO_OYSTER,A_PLAY_FLUTE_FLOWERS,A_PICK_ICEY_LETTUCE,A_GIVE_ROTTEN_TOMATO,A_GIVE_MILK_TO_PLANT,A_GET_MILK_BOTTLE,A_GET_TEA_CUP,A_PICK_DRINK_ME_POTION,A_TALK_TO_QUEENS,A_PULL_THREAD,A_SEARCH_POETRY_SHELF,A_TRADE_PARTICIPLE_BOOK,A_COOL_POOL,A_GET_BRICK,A_GET_HUNTERS_LAMP,A_GET_DANGLING_PARTICIPLE,A_SOLVE_TILE_PUZZLE,A_NAVIGATE_TO_SKELETON,A_COLLECT_COINS,A_USE_BRICK_TRAP,A_LIGHT_TINDERBOX,A_USE_HOLE_IN_WALL,A_FIND_SHIELD,A_LURE_MINOTAUR,A_USE_SHIELD_STATUE,A_CUT_HEDGE,A_GIVE_WHITE_ROSE,A_GIVE_RING_TO_BEAUTY,A_PLACE_ROSE,A_SOLVE_CLIFF_PUZZLES,A_GET_BLACK_FEATHER,A_GET_STINKY_FLOWER,A_LIGHT_CAVE,A_REJECT_POISON,A_COLLECT_COMPONENTS,A_GET_EMBER,A_GET_HAIR,A_GET_SPOILED_EGG,A_CAST_CHARM_SPELL,A_CAST_RAIN_SPELL,A_WEAR_BEAUTYS_DRESS,A_GET_SCYTHE,A_GET_COAL,A_RIDE_NIGHTMARE,A_AVOID_ZOMBIES,A_TALK_TO_CASSIMA_PARENTS,A_TALK_TO_GHOST_MOTHER,A_GIVE_TICKET,A_PLAY_BONES,A_PAY_CHARON,A_COLLECT_STYX_WATER,A_SEARCH_KNIGHT,A_ANSWER_LOVE,A_SHOW_MIRROR_DEATH,A_PAINT_DOOR,A_CAST_PAINT_SPELL,A_WEAR_DISGUISE,A_DISTRACT_GUARDS,A_TALK_TO_GHOST_BOY,A_GIVE_LAMP_REPLICA,A_FIND_ALI_PASSWORD,A_FIND_ZEBU_PASSWORD,A_GIVE_DAGGER,A_COMBINE_PASSWORD,A_UNLOCK_CHEST,A_OPEN_TREASURY,A_USE_FAKE_LAMP,A_GIVE_MINT_GENIE,A_FIGHT_VIZIER,A_TRADE_WITH_BROKER_N,A_TRADE_WITH_BROKER_F,A_TRADE_WITH_BROKER_T,A_TRADE_COAL_FOR_EGG action
+    class O_RECEIVE_COPPER_COIN,O_RECEIVE_ROYAL_RING,O_RECEIVE_NIGHTINGALE,O_RECEIVE_MINT,O_RECEIVE_TINDERBOX,O_RECEIVE_FLUTE,O_RECEIVE_PAINTBRUSH,O_RECEIVE_INK,O_RECEIVE_MAGIC_MAP,O_RECEIVE_RABBIT_FOOT,O_RECEIVE_JOLLO_TRUST,O_RECEIVE_LOVE_POEM,O_GNOMES_SMELL_DONE,O_GNOMES_HEARING_DONE,O_GNOMES_TASTE_DONE,O_GNOMES_TOUCH_DONE,O_GNOMES_SIGHT_DONE,O_RECEIVE_PEARL,O_RECEIVE_HOLE_IN_WALL,O_RECEIVE_ICEY_LETTUCE,O_RECEIVE_SWAMP_OOZE,O_RECEIVE_BABYS_TEARS,O_RECEIVE_MILK,O_RECEIVE_TEA_CUP,O_RECEIVE_DRINK_ME,O_RECEIVE_RED_SCARF,O_RECEIVE_LUMP_OF_COAL,O_RECEIVE_LOVE_WORD,O_RECEIVE_SPIDER_WEB,O_RECEIVE_LOVE_POEM_IOW,O_RECEIVE_RARE_BOOK,O_RECEIVE_BRICK,O_RECEIVE_HUNTERS_LAMP,O_RECEIVE_DANGLING_PARTICIPLE,O_MAZE_PATH_OPEN,O_RECEIVE_SKULL,O_RECEIVE_COINS,O_TRAP_STOPPED,O_CAN_SEE,O_REVEAL_TAPESTRY,O_RECEIVE_SHIELD,O_RECEIVE_DAGGER,O_RECEIVE_SACRED_WATER,O_RECEIVE_ORACLE_VIAL,O_RECEIVE_SCARF_CONV,O_BEAUTY_TRUSTS,O_RECEIVE_BEAUTYS_DRESS,O_RECEIVE_MIRROR,O_RECEIVE_BEASTS_RING,O_RECEIVE_WHITE_ROSE_2,O_RECEIVE_BLACK_FEATHER,O_RECEIVE_STINKY_FLOWER,O_RECEIVE_PEPPERMINT,O_SURVIVED,O_SPELL_READY,O_RECEIVE_EMBER,O_RECEIVE_HAIR,O_RECEIVE_SPOILED_EGG,O_NIGHTMARE_MOUNT,O_RAIN_PROTECTION,O_DRUID_PROTECTION,O_RECEIVE_SCYTHE,O_RECEIVE_COAL_IOM,O_RECEIVE_SULFUR_EGG,O_ZOMBIES_PASSED,O_RECEIVE_TICKET,O_RECEIVE_HANKERCHIEF,O_RECEIVE_SKELETON_KEY,O_FERRY_ACCESS,O_RECEIVE_STYX_WATER,O_RECEIVE_GAUNTLET,O_DOOR_APPEARS,O_CASTLE_ACCESS,O_GUARDS_DISTRACTED,O_RECEIVE_PASSAGE_HINT,O_JOLLO_HELPS,O_PASSWORD_ALI,O_PASSWORD_ZEBU,O_CASSIMA_ARMED,O_RECEIVE_VIZIER_LETTER,O_TREASURY_OPEN,O_GENIE_CONTROLLED,O_GENIE_DRUNK outcome
 ```
+
+## Locked Choice Mechanic
+
+The Pawn Shop in the Village operates on a **locked choice system** where only one item can be unlocked at a time through trading:
+
+### The Trade Chain
+
+```
+Copper Coin
+    ↓ (Trade)
+Nightingale
+    ↓ (Trade)
+Flute
+    ↓ (Trade)
+Tinderbox
+    ↓ (Trade)
+Paintbrush
+```
+
+### Implications for Puzzle Design
+
+1. **Forks the Inventory**: Players must choose which path to pursue early
+2. **Represents Lost Opportunities**: Trading away Nightingale means cannot use it for gnome puzzles later
+3. **Strategic Sacrifice**: One-time trades require planning ahead
+4. **Independent Discovery**: Players learn the chain through experimentation
+
+### Dependency Note
+
+For the purpose of this dependency chart, we treat each item as **UNLOCKED** at the moment of acquisition. The chart shows the locks (what's required to access an item) rather than the mini-game of sequential trading.
 
 ## Key Dependency Chains
 
 ### Long Path (Full Experience)
-Magic Map → Isle of Wonder puzzles → Isle of the Beast (initial) → Minotaur's Maze → Isle of the Beast (return with Shield) → Logic Cliffs → Charm Spell → Realm of the Dead → Paint Door Castle Entry → Best Ending
+
+```
+Magic Map → Five Gnomes → Isle of Wonder exploration → 
+Isle of the Beast (initial) → Minotaur's Maze → 
+Return with Shield → Logic Cliffs → Charm Spell → 
+Realm of the Dead → Paint Door Castle Entry → Best Ending
+```
 
 ### Short Path (Faster)
-Magic Map → Isle of Wonder puzzles → Isle of the Beast (initial) → Minotaur's Maze → Isle of the Beast (return with Shield) → Disguise Entry → Castle → Standard Ending
+
+```
+Magic Map → Five Gnomes → Isle of Wonder exploration → 
+Isle of the Beast (initial) → Minotaur's Maze → 
+Return with Shield → Beauty's Dress Disguise → Castle → Standard Ending
+```
 
 ## Critical Item Dependencies
 
@@ -271,19 +716,39 @@ Magic Map → Isle of Wonder puzzles → Isle of the Beast (initial) → Minotau
 | Beauty's Dress | Beast's domain | Druid ceremony survival, disguise |
 | Mirror | Beast's domain | Death's challenge |
 | Skeleton Key | Realm of the Dead | Vizier's chest |
-| Vizier's Letter | Abdul's chest | Saladin persuasion |
+| Vizier's Letter | Vizier's chest | Saladin persuasion |
 
 ## Parallel Puzzle Paths
 
-The game features parallel paths at several points:
+The game features parallel paths at several points where puzzles can be solved in any order:
 
-1. **Isle of Wonder exploration**: Five gnomes can be solved in any order
-2. **Beast's domain**: Getting brick, meeting creature, and preparing for archers can overlap
-3. **Castle entry**: Two distinct paths (paint door vs. disguise) converge at the finale
+1. **Village exploration**: Pawn Shop trading, Ferryman, Jollo, and Map trade are all independent
+2. **Five Gnomes**: All five gnomes can be satisfied in any order
+3. **Isle of Wonder**: Iceberg Lettuce, Flute/Flowers, and Tea Cup are independent
+4. **Minotaur's Maze**: Tile puzzle, skull, coins, and brick are independent
+5. **Isle of the Beast (return)**: Shield and Scythe (for hedge) are parallel paths
+6. **Castle entry**: Paint door vs. Beauty's dress are two distinct paths that converge
 
-## Legend
+## Node Naming Convention
 
-- **Rectangles with sharp corners** (red tint): Problem nodes - obstacles or puzzles that must be solved
-- **Rectangles with rounded corners** (green tint): Solution nodes - items collected or actions taken
-- **Gold nodes**: START and END milestones
-- **Arrows**: Dependency flow (solving A enables B)
+This chart uses standardized naming for consistency:
+
+- **`A_[action]`**: Action nodes (e.g., `A_TALK_TO_FERRYMAN`, `A_USE_SHIELD_STATUE`)
+- **`O_[item]`**: Outcome nodes (e.g., `O_RECEIVE_RABBIT_FOOT`, `O_RECEIVE_MAGIC_MAP`)
+- **`P_[problem]`**: Problem nodes (e.g., `P_PROBLEM_GNOMES`)
+- **`C_[consequence]`**: Consequence nodes marking phase transitions
+
+## Color Legend
+
+| Node Type | Fill Color | Border Color |
+|-----------|------------|--------------|
+| START/END | Gold (#FFD700) | Dark Gold |
+| Problems | Light Red (#FFB3B3) | Dark Red |
+| Actions | Light Green (#B3FFB3) | Dark Green |
+| Outcomes | Light Blue (#B3D9FF) | Dark Blue |
+
+## Mermaid Configuration
+
+This chart uses `flowchart TD` (top-down direction) for clear hierarchical flow from prerequisites through problem recognition to solution.
+
+(End of file - total 712 lines)
