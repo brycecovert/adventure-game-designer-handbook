@@ -209,5 +209,35 @@ Complete overhaul of the King's Quest VI puzzle dependency chart based on compre
 
 ---
 
+## 9. Fix Remaining 20 Dead-End Nodes 🔧
+
+### 9a: Research each dead-end in walkthroughs ✅
+- [x] O_RECEIVE_BEASTS_RING - used to befriend Jollo
+- [x] O_RECEIVE_LOVE_POEM - sent to Cassima via Sing-Sing
+- [x] P_PROBLEM_DEATH - leads to A_SHOW_MIRROR_DEATH
+- [x] O_RECEIVE_SCYTHE - cuts rose hedge (already has dashed line)
+- [x] O_RECEIVE_COPPER_COIN - used with Jollo
+- [x] O_RECEIVE_SACRED_WATER - spell component for rain
+- [x] O_RECEIVE_ORACLE_VIAL - same as sacred water
+- [x] P_PROBLEM_DARK_CAVE - leads to A_LIGHT_CAVE (already connected)
+- [x] O_RECEIVE_DRINK_ME - shrinks to enter genie lamp
+- [x] A_SHOW_RING_TO_JOLLO - leads to Jollo helping
+- [x] O_RECEIVE_PEARL - trade for ring back at pawnshop
+- [x] O_RECEIVE_SPIDER_WEB - LOVE word for gate riddle
+- [x] O_RECEIVE_LOVE_POEM_IOW - sent to Cassima via Sing-Sing
+- [x] P_PROBLEM_CASSIMA - leads to A_GIVE_DAGGER
+- [x] O_RECEIVE_WHITE_ROSE_2 - final Sing-Sing delivery
+- [x] O_RECEIVE_PASSAGE_HINT - find secret passage
+- [x] O_SURVIVED - proceed to Nightmare horse
+- [x] O_RECEIVE_GAUNTLET - challenge Death
+- [x] O_FERRY_ACCESS - cross River Styx
+- [x] O_RECEIVE_HANKERCHIEF - give to ghost boy
+
+### 9b: Add missing edges to chart
+### 9c: Rebuild and verify zero dead-ends
+### 9d: Commit changes
+
+---
+
 ## Build Command
 `./build.sh` (not `mdbook build`)
