@@ -61,6 +61,7 @@ flowchart TD
     P4 --> S11
     S7 & S8 & S9 & S10 & S11 --> P5
     P4 --> S12
+    S12 -.-> S12_note["→ Optional: Pearl side quest (independent)"]
 
     %% Phase 5: Puzzle Chain on Wonder
     subgraph Phase5["Phase 5: Isle of Wonder - Garden & Chessboard"]
@@ -79,16 +80,12 @@ flowchart TD
     subgraph Phase6["Phase 6: Isle of the Beast - Initial Visit"]
         P6["Problem: Boiling pool blocks path"]
         S16["Solution: Cool pool with Iceberg Lettuce"]
-        S19["Problem: Need dangling participle for bookworm"]
-        S20["Solution: Get from creature on Beast shore"]
         S21["Solution: Get Brick from garden"]
     end
 
     P6 --> S16
     S16 --> P7
-    P6 --> S19
     P6 --> S21
-    S19 --> S20
 
     %% Phase 7: Minotaur's Maze
     subgraph Phase7["Phase 7: Minotaur's Maze"]
@@ -134,6 +131,7 @@ flowchart TD
     S28 --> P11
     P11 --> S26
     S26 --> P12
+    P12 --> S27
     S27 --> C3["Winged Ones take you to Minotaur Maze"]
 
     %% Phase 9: Isle of Mists / Druids
@@ -246,7 +244,7 @@ flowchart TD
     classDef start_end fill:#ffcc00,stroke:#333,stroke-width:3px
 
     class P1,P2,P3,P4,P5,P6,P6b,P7,P8,P9,P10,P11,P12,P13,P14,P15,P16,P17,P18,P19,P20,P21,P22,P23,P24,P25,P26,P27,P28,P29 problem
-    class S1,S2,S3,S4,S5,S6,S7,S8,S9,S10,S11,S12,S13,S14,S15,S16,S17,S18,S19,S20,S21,S22,S23,S24,S25,S26,S27,S28,S29,S30,S31,S32,S33,S34,S35,S36,S37,S38,S39,S40,S41,S42,S43,S44,S45,S46,S47,S48,S49,S50,S51 solution
+    class S1,S2,S3,S4,S5,S6,S7,S8,S9,S10,S11,S12,S13,S14,S15,S16,S18,S21,S22,S23,S24,S25,S26,S27,S28,S29,S30,S31,S32,S33,S34,S35,S36,S37,S38,S39,S40,S41,S42,S43,S44,S45,S46,S47,S48,S49,S50,S51 solution
     class START,END,C1,C2,C3,C4,C5 start_end
 ```
 
