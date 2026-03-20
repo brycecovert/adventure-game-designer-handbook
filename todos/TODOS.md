@@ -376,7 +376,7 @@ src/design-process/
 
 ### 22. Quality Assurance - Dependency Verification
 
-- [ ] **QA check all puzzle dependencies**
+- [x] **QA check all puzzle dependencies**
   - Verify each dependency is a real logical dependency
   - Going to a location ≠ unlocking it
   - Getting item B before item A ≠ B depends on A
