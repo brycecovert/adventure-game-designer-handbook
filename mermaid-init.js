@@ -21,19 +21,33 @@
 
     // Simplest way to make mermaid re-render the diagrams in the new theme is via refreshing the page
 
-    for (const darkTheme of darkThemes) {
-        document.getElementById(darkTheme).addEventListener('click', () => {
-            if (lastThemeWasLight) {
-                window.location.reload();
+    function initThemeButtons() {
+        for (const darkTheme of darkThemes) {
+            const darkBtn = document.getElementById(darkTheme);
+            if (darkBtn) {
+                darkBtn.addEventListener('click', () => {
+                    if (lastThemeWasLight) {
+                        window.location.reload();
+                    }
+                });
             }
-        });
+        }
+
+        for (const lightTheme of lightThemes) {
+            const lightBtn = document.getElementById(lightTheme);
+            if (lightBtn) {
+                lightBtn.addEventListener('click', () => {
+                    if (!lastThemeWasLight) {
+                        window.location.reload();
+                    }
+                });
+            }
+        }
     }
 
-    for (const lightTheme of lightThemes) {
-        document.getElementById(lightTheme).addEventListener('click', () => {
-            if (!lastThemeWasLight) {
-                window.location.reload();
-            }
-        });
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initThemeButtons);
+    } else {
+        initThemeButtons();
     }
 })();
