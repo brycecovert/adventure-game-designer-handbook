@@ -317,6 +317,7 @@ flowchart TD
 
     A_LIGHT_TINDERBOX --> O_CAN_SEE
     O_CAN_SEE --> A_USE_HOLE_IN_WALL
+    A_USE_HOLE_IN_WALL --> O_REVEAL_TAPESTRY
     O_CAN_SEE --> A_FIND_SHIELD
     A_FIND_SHIELD --> O_RECEIVE_SHIELD
 
@@ -338,7 +339,7 @@ flowchart TD
 
     %% Parallel paths after maze - S23/S24 are PARALLEL, S20/S21 are PARALLEL
     O_MAZE_PATH_OPEN & O_RECEIVE_SKULL & O_RECEIVE_COINS & O_TRAP_STOPPED --> A_NAVIGATE_TO_SKELETON
-    O_NAVIGATE_MAZE["O: Maze navigated, shield found"]
+    A_NAVIGATE_TO_SKELETON --> O_NAVIGATE_MAZE["O: Maze navigated, shield found"]
 
     %% =============================================================================
     %% PHASE 6: Isle of the Beast - Return Visit (with Shield)
