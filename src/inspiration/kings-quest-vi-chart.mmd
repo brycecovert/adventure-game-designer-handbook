@@ -419,7 +419,8 @@ flowchart TD
 
     O_RECEIVE_SKULL & O_RECEIVE_EMBER & O_RECEIVE_SPOILED_EGG & O_RECEIVE_HAIR --> P_PROBLEM_SPELL_COMPONENTS
     P_PROBLEM_SPELL_COMPONENTS --> A_COLLECT_COMPONENTS
-    A_COLLECT_COMPONENTS --> A_CAST_CHARM_SPELL
+    A_COLLECT_COMPONENTS --> O_SPELL_READY
+    O_SPELL_READY --> A_CAST_CHARM_SPELL
     A_CAST_CHARM_SPELL --> O_NIGHTMARE_MOUNT
 
     %% =============================================================================
@@ -576,7 +577,10 @@ flowchart TD
         P_PROBLEM_JOLLO_ROOM["Problem: Need Jollo's help for best ending"]
         A_GIVE_LAMP_REPLICA["A: Give lamp replica to Jollo"]
         O_JOLLO_HELPS["O: Jollo will help in finale"]
+        P_PROBLEM_JOLLO_ROOM --> A_GIVE_LAMP_REPLICA
+        A_GIVE_LAMP_REPLICA --> O_JOLLO_HELPS
     end
+    O_RECEIVE_JOLLO_TRUST -.-> P_PROBLEM_JOLLO_ROOM
 
     O_DOOR_APPEARS & O_CASTLE_ACCESS --> P_PROBLEM_GUARDS
     P_PROBLEM_GUARDS --> A_DISTRACT_GUARDS
@@ -658,7 +662,9 @@ flowchart TD
     A_FIGHT_VIZIER --> END
 
     O_RECEIVE_VIZIER_LETTER -.-> A_SHOW_LETTER["A: Show Vizier's Letter to Saladin"]
+    A_SHOW_LETTER --> P_PROBLEM_VIZIER
     O_CASSIMA_ARMED -.-> A_CASSIMA_FIGHTS["A: Cassima fights alongside"]
+    A_CASSIMA_FIGHTS --> P_PROBLEM_VIZIER
 
     %% =============================================================================
     %% CLASS ASSIGNMENTS
