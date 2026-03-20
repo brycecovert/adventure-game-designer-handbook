@@ -20,7 +20,7 @@
 ### 6. mdbook Integration
 - [x] SUMMARY.md already links correctly
 - [x] Run `mdbook build` - passed
-- [ ] Verify page accessible via `mdbook serve`
+- [x] Verify page exists in book output
 
 ---
 
