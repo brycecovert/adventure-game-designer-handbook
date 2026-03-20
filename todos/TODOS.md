@@ -1,11 +1,9 @@
 # TODO List
 
-## Complete
-
-- Re-render KQVI mermaid chart at higher resolution (3000px/6000px) - committed
-  - Created kings-quest-vi-chart.mmd with raw mermaid source
-  - Rendered preview at 3000px wide (247KB PNG)
-  - Rendered full-size at 6000px wide (657KB PNG)
-  - Added link to raw mermaid code in markdown
-  - mdbook build verified
-  - Committed as 1a2b3c4
+- [x] Re-render mermaid chart as SVG (not PNG)
+  - [x] Generate kings-quest-vi-chart.svg from the .mmd file
+  - [x] Create high-quality PNG thumbnail for inline preview
+- [x] Update markdown to embed SVG with preview link
+  - [x] Update kings-quest-vi-heir-today-gone-tomorrow.md
+- [x] Test with mdbook build
+- [ ] Commit changes

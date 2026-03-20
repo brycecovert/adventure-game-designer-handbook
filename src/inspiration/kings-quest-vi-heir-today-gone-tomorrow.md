@@ -4,7 +4,7 @@ This chart maps the critical puzzle dependencies in Sierra's King's Quest VI (19
 
 ## Puzzle Dependency Flowchart
 
-[![KQVI Puzzle Dependency Chart - Click for full size](kings-quest-vi-chart-preview.png)](kings-quest-vi-chart-full.png)
+[![KQVI Puzzle Dependency Chart - SVG preview](kings-quest-vi-chart-preview.png)](kings-quest-vi-chart.svg)
 
 *Click the image to view the full-size version (opens in new tab).*
 
@@ -108,6 +108,6 @@ This chart uses standardized naming for consistency:
 
 This chart uses `flowchart TD` (top-down direction) for clear hierarchical flow from prerequisites through problem recognition to solution.
 
-The chart is rendered as a PNG image for reliable display across all browsers. A preview version is embedded inline, with a link to the full-size version.
+The chart is rendered as an **SVG** for crisp, zoomable quality. A PNG preview is embedded inline, with the full vector SVG available for download.
 
 (End of file - total 111 lines)
