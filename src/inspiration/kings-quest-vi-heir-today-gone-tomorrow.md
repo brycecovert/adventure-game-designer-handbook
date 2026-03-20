@@ -8,6 +8,8 @@ This chart maps the critical puzzle dependencies in Sierra's King's Quest VI (19
 
 *Click the image to view the full-size version (opens in new tab).*
 
+**Raw Mermaid Source**: [kings-quest-vi-chart.mmd](kings-quest-vi-chart.mmd)
+
 ## Locked Choice Mechanic
 
 The Pawn Shop in the Village operates on a **locked choice system** where only one item can be unlocked at a time through trading:

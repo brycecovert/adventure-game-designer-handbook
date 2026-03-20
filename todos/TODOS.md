@@ -1,21 +1,11 @@
 # TODO List
 
-## Current Task: Switch from embedded mermaid to rendered images
-
-- [x] Render mermaid diagram to images
-  - [x] Install mermaid CLI (if not present)
-  - [x] Extract mermaid code from kings-quest-vi-heir-today-gone-tomorrow.md
-  - [x] Render preview and full-size images
-- [x] Update markdown to embed images
-  - [x] Replace mermaid block with image embed
-  - [x] Add link to full-size image
-- [x] Clean up broken JS
-  - [x] Remove mermaid-lightbox.js from book.toml additional-js
-  - [x] Delete mermaid-lightbox.js file
-  - [x] Restore mermaid-init.js if modified (not modified, keep it)
-- [x] Test with mdbook build
-- [x] Commit changes
-
 ## Complete
 
-All tasks completed. Changes committed as d21555f.
+- Re-render KQVI mermaid chart at higher resolution (3000px/6000px) - committed
+  - Created kings-quest-vi-chart.mmd with raw mermaid source
+  - Rendered preview at 3000px wide (247KB PNG)
+  - Rendered full-size at 6000px wide (657KB PNG)
+  - Added link to raw mermaid code in markdown
+  - mdbook build verified
+  - Committed as 1a2b3c4
