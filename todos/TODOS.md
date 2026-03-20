@@ -120,6 +120,23 @@ Complete overhaul of the King's Quest VI puzzle dependency chart based on compre
 
 ---
 
+## 7. Fix Rare Book and Peppermint Orphans 🔧
+
+### 7a: Fix Rare Book orphan
+- [x] **7a.1: Add A_TRADE_RARE_BOOK_FOR_SPELL action**
+- [x] **7a.2: Add O_RECEIVE_SPELL_BOOK outcome**
+- [x] **7a.3: Connect O_RECEIVE_RARE_BOOK → A_TRADE_RARE_BOOK_FOR_SPELL → O_RECEIVE_SPELL_BOOK**
+- [x] **7a.4: Connect O_RECEIVE_SPELL_BOOK → A_CAST_PAINT_SPELL**
+
+### 7b: Fix Peppermint orphan  
+- [x] **7b.1: Add O_RECEIVE_PEPPERMINT → A_GIVE_MINT_GENIE edge**
+
+### 7c: Rebuild and verify
+- [x] **7c.1: Run ./build.sh**
+- [ ] **7c.2: Commit fixes**
+
+---
+
 ## 6. Gateway Process for Major Unlocks ✅
 
 ### 6a: Analyze crossing patterns (5+ lines)
