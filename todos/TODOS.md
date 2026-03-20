@@ -354,6 +354,46 @@ src/design-process/
 
 ---
 
+## King's Quest VI Puzzle Dependency Chart Project
+
+### 20. Acquire King's Quest VI Walkthroughs
+
+- [ ] **Download 3 high-quality KQVI walkthroughs**
+  - Source from web archives, GameFAQs, or authoritative fan sites
+  - Verify walkthroughs cover the full game
+  - Save to `src/walkthroughs/kings-quest-vi/`
+  - **Delegation:** Use downloading-game-walkthroughs skill
+
+### 21. Create Puzzle Dependency Chart
+
+- [ ] **Create mermaid chart for KQVI puzzles**
+  - Cross-reference 3 walkthroughs
+  - Node type: Problem (puzzle/obstacle)
+  - Node type: Solution (item/action that resolves)
+  - Show true dependencies (not just sequential ordering)
+  - Save to `src/inspiration/kings-quest-vi-puzzle-dependencies.md`
+  - **Delegation:** General agent with writing skill
+
+### 22. Quality Assurance - Dependency Verification
+
+- [ ] **QA check all puzzle dependencies**
+  - Verify each dependency is a real logical dependency
+  - Going to a location ≠ unlocking it
+  - Getting item B before item A ≠ B depends on A
+  - Cross-reference with web if puzzle logic unclear
+  - **Delegation:** General agent for QA analysis
+
+### 23. Layout Verification
+
+- [ ] **Ensure logical flow with START to END**
+  - Chart must have clear start node
+  - All nodes must connect (no orphans)
+  - Final puzzle(s) must lead to END
+  - Logical progression from easy to hard
+  - **Delegation:** QA agent
+
+---
+
 ## Commit Points
 
 After each major phase completion:
@@ -363,6 +403,12 @@ After each major phase completion:
 4. **Phase 4 complete:** "Complete: Part IV Inspiration cross-references"
 5. **Phase 5 complete:** "Complete: Part V Reference expansion"
 6. **Phase 6 complete:** "Complete: Part VI FAQ creation"
+
+### KQVI Project Commit Points
+7. **KQVI walkthroughs acquired:** "Complete: Acquire 3 KQVI walkthroughs"
+8. **KQVI dependency chart created:** "Complete: KQVI puzzle dependency chart"
+9. **KQVI QA verified:** "Complete: KQVI dependency chart QA verification"
+10. **KQVI layout verified:** "Complete: KQVI dependency chart layout verification"
 
 ---
 
@@ -375,3 +421,12 @@ After each major phase completion:
 - [ ] Word counts reasonable per section (target: <1000 words per page)
 - [ ] No broken links or missing references
 - [ ] Build passes (`mdbook build`)
+
+### KQVI Project Validation
+- [ ] 3 KQVI walkthroughs acquired and saved
+- [ ] Mermaid chart created with Problem/Solution nodes
+- [ ] Each dependency verified as true logical dependency
+- [ ] Chart has START and END nodes
+- [ ] All nodes connected with no orphans
+- [ ] Chart saved to `src/inspiration/kings-quest-vi-puzzle-dependencies.md`
+- [ ] INSPIRED entries in SUMMARY.md updated
