@@ -17,3 +17,19 @@ Unlike inventory puzzles that depend on item combinations or observation puzzles
 Systems & logic puzzles stand apart through their **deterministic nature**: given identical inputs, the system always produces identical outputs. This contrasts with brokerage (where NPC behavior may vary) or meta-construction (which depends on cumulative item discovery). Players solve these through analysis and prediction, not experimentation or resource accumulation.
 
 The mechanical depth comes from layered complexity—simple individual rules that generate sophisticated interactions when combined. Mastery requires understanding each rule's boundaries and how they conflict or reinforce one another within the system.
+
+## Design Process Notes
+
+**Failure Modes to Avoid:**
+- Allowing players to brute-force solutions through trial-and-error rather than requiring analysis
+- Introducing hidden rules that weren't seeded during earlier system exposure
+- Making solutions so opaque that players must externalize the system to paper to solve
+
+**Playtesting Focus:**
+- Do players engage with the system analytically, or just try random combinations?
+- Can players explain why their solution works, or did they stumble into it?
+- Does the system scale appropriately—early challenges teach, later challenges require synthesis?
+
+**Connection to Design Process:**
+- See [working-backwards.md](../design-process/working-backwards.md) for designing systems puzzles from solution to seedable rules
+- See [puzzle-dependency-charts.md](../design-process/puzzle-dependency-charts.md) for ensuring system complexity remains traceable

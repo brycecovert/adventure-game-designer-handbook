@@ -40,3 +40,19 @@ Urgency framed narratively rather than through UI timers, requiring the player t
 - **MI2** (Cross-Temporal): Time-travel puzzle where future actions enable past discoveries
 - **KQVI** (Cross-Realm): Transferring objects between human world and faerie dimension with different physics
 - **Curse of Monkey Island** (Multi-Character): Coordinating Guybrush and the Elysian Fields' residents simultaneously
+
+## Design Process Notes
+
+**Failure Modes to Avoid:**
+- Making boundary rules ambiguous so players can't predict cross-context effects
+- Forgetting to provide feedback in the source context after actions propagate elsewhere
+- Creating arbitrary constraints that feel like busywork rather than meaningful sequencing
+
+**Playtesting Focus:**
+- Do players understand how contexts connect before needing to use that connection?
+- Can they predict what will happen in Context B after acting in Context A?
+- Do players feel forced into linear sequences or discover multiple coordination approaches?
+
+**Connection to Design Process:**
+- See [internal-logic-fairness.md](../design-process/internal-logic-fairness.md) for maintaining consistent cross-boundary rules
+- See [bushy-branching.md](../design-process/bushy-branching.md) for offering parallel coordination paths

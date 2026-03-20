@@ -23,3 +23,19 @@ Non-Standard Logic Domains focuses on **physics-breaking actions within gameplay
 | Player Action | Use banana peel + floor = slip gag as intentional solution | Deliver absurd lie that NPCs accept based on personality |
 
 The former requires abandoning real-world physics; the latter requires understanding fictional character psychology. Both use humor, but in fundamentally different layers of interaction.
+
+## Design Process Notes
+
+**Failure Modes to Avoid:**
+- Breaking internal consistency—absurd solutions must follow the cartoon logic's own rules
+- Relying on "it's funny so it works" without establishing the comedic premise as mechanically valid
+- Making the absurdity random rather than rooted in genre conventions players recognize
+
+**Playtesting Focus:**
+- Do players accept the impossible premise as valid before attempting solutions?
+- Can players articulate why a solution works within the cartoon logic framework?
+- Does the comedy emerge from rule exploitation or from random nonsense?
+
+**Connection to Design Process:**
+- See [internal-logic-fairness.md](../design-process/internal-logic-fairness.md) for maintaining consistency even when violating physics
+- See [failure-modes.md](../design-process/failure-modes.md) for "false absurdity" where players can't distinguish valid from invalid solutions

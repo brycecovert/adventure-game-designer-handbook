@@ -24,3 +24,19 @@ The core distinction: solutions require reading NPC motivations, exploiting pers
 - NPC has internal state that dialogue or observed behavior can modify
 - Multiple approaches exist because the character responds differently based on player strategy
 - Understanding the character's rules matters more than finding the "correct" answer
+
+## Design Process Notes
+
+**Failure Modes to Avoid:**
+- Making NPC behavior inconsistent so players can't develop reliable strategies
+- Having personality traits that are flavor-only with no mechanical impact on outcomes
+- Designing one "correct" dialogue path that works regardless of observed NPC behavior
+
+**Playtesting Focus:**
+- Do players discover the NPC's mechanical rules through observation and experimentation?
+- Can players predict how the NPC will respond to unfamiliar approaches?
+- Do players feel their social strategy succeeded due to understanding, not luck?
+
+**Connection to Design Process:**
+- See [player-psychology.md](../design-process/player-psychology.md) for understanding what makes NPCs feel like systems worth mastering
+- See [internal-logic-fairness.md](../design-process/internal-logic-fairness.md) for ensuring NPC behavior follows discoverable rules
