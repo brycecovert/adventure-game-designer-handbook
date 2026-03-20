@@ -17,11 +17,9 @@ flowchart TD
     classDef area_final fill:#FFCCE6,stroke:#660033,stroke-width:2px
 
     %% =============================================================================
-    %% PHASE 0: START - Isle of the Crown Beach
+    %% TOP: START NODE (only non-subgraph node besides END)
     %% =============================================================================
-    subgraph area_start["START"]
-        START(["START: Wake on Isle of the Crown Beach"])
-    end
+    START(["START: Wake on Isle of the Crown Beach"])
 
     %% Beach - Item Collection (parallel independent actions)
     subgraph area_beach["Isle of the Crown - Beach"]
@@ -233,6 +231,7 @@ flowchart TD
         P_PROBLEM_BOILING_POOL["Problem: Boiling pool blocks crossing"]
         A_COOL_POOL["A: Use Iceberg Lettuce on pool"]
         C3["Path to north area now open"]
+        P_PROBLEM_BOILING_POOL --> A_COOL_POOL
 
         A_GET_BRICK["A: Pick up Brick from garden"]
         O_RECEIVE_BRICK["O: Receive Brick"]
@@ -280,6 +279,7 @@ flowchart TD
     subgraph area_maze_l2["Minotaur's Maze - Level 2 (Dark)"]
         P_PROBLEM_DARK_L2["Problem: Cannot see in dark passage"]
         A_LIGHT_TINDERBOX["A: Light Tinderbox to see"]
+        P_PROBLEM_DARK_L2 --> A_LIGHT_TINDERBOX
         O_CAN_SEE["O: Dark passage illuminated"]
 
         A_USE_HOLE_IN_WALL["A: Use Hole-in-the-Wall at correct wall"]
@@ -510,6 +510,7 @@ flowchart TD
         P_PROBLEM_STYX["Problem: Need Styx Water for paint spell"]
         A_COLLECT_STYX_WATER["A: Collect Styx Water with Tea Cup"]
         O_RECEIVE_STYX_WATER["O: Receive Styx Water"]
+        P_PROBLEM_STYX --> A_COLLECT_STYX_WATER
 
         A_SEARCH_KNIGHT["A: Search dead knight"]
         O_RECEIVE_GAUNTLET["O: Receive Gauntlet"]
@@ -627,7 +628,7 @@ flowchart TD
     %% =============================================================================
     %% PHASE 11: Final Confrontation
     %% =============================================================================
-    subgraph area_final["Final Confrontation"]
+    subgraph area_1_final ["<style>subgraphTitleTitle {font-size: 18px; font-weight: bold;}</style>Final Confrontation"]
         P_PROBLEM_GENIE["Problem: Genie attacks"]
 
         A_USE_FAKE_LAMP["A: Use Fake Genie Lamp (from Jollo)"]
@@ -638,8 +639,12 @@ flowchart TD
 
         P_PROBLEM_VIZIER["Problem: Vizier fights"]
         A_FIGHT_VIZIER["A: Fight Vizier with Sword + Cassima"]
-        END(["END: Victory - KQVI Complete"])
     end
+
+    %% =============================================================================
+    %% BOTTOM: END NODE (only non-subgraph node besides START)
+    %% =============================================================================
+    END(["END: Victory - KQVI Complete"])
 
     O_JOLLO_HELPS --> P_PROBLEM_GENIE
     P_PROBLEM_GENIE --> A_USE_FAKE_LAMP
