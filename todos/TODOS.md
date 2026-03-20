@@ -366,7 +366,7 @@ src/design-process/
 
 ### 21. Create Puzzle Dependency Chart
 
-- [ ] **Create mermaid chart for KQVI puzzles**
+- [x] **Create mermaid chart for KQVI puzzles**
   - Cross-reference 3 walkthroughs
   - Node type: Problem (puzzle/obstacle)
   - Node type: Solution (item/action that resolves)
