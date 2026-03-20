@@ -14,4 +14,8 @@
   - [x] Delete mermaid-lightbox.js file
   - [x] Restore mermaid-init.js if modified (not modified, keep it)
 - [x] Test with mdbook build
-- [ ] Commit changes
+- [x] Commit changes
+
+## Complete
+
+All tasks completed. Changes committed as d21555f.
