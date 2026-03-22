@@ -80,6 +80,7 @@ ACTION: Trade with pawn broker
 - [ ] Areas use index-based color palette
 - [ ] **FLAT STRUCTURE**: No nested subgraphs - all subgraphs at same level
 - [ ] **Same Area = Same Color**: If area appears twice (start AND end), use SAME color
+- [ ] **Subgraph Cluster Styling**: Each subgraph must have a `style <id> fill:#HEX,stroke:#STROKE` command AFTER its `end` to color the container itself
 
 ## Dangling Node Detection
 

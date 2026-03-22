@@ -41,6 +41,7 @@ flowchart TD
         O_RECEIVE_JOLLO_TRUST --> A_SHOW_RING_TO_JOLLO["A: Show Ring to Jollo"]
         A_SHOW_RING_TO_JOLLO --> O_JOLLO_HELPS["O: Jollo Will Help"]
     end
+    style area_1 fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
 
     %% =============================================================================
     %% FAN-OUT: Magic Map unlocks travel to parallel islands
@@ -59,9 +60,9 @@ flowchart TD
     UNLOCK_GNOMES --> P_PROBLEM_GNOMES
 
     %% =============================================================================
-    %% ISLE OF WONDER - Gnomes & Beach (area_2 - light orange)
+    %% ISLE OF WONDER - Gnomes (area_2 - light orange)
     %% =============================================================================
-    subgraph area_2["**ISLE OF WONDER**"]
+    subgraph area_2["**ISLE OF WONDER - Gnomes**"]
         P_PROBLEM_GNOMES --> A_PLAY_NIGHTINGALE["A: Play Nightingale"]
         P_PROBLEM_GNOMES --> A_GIVE_MINT["A: Give Mint"]
         P_PROBLEM_GNOMES --> A_GIVE_RABBIT_FOOT["A: Give Rabbit Foot"]
@@ -75,13 +76,17 @@ flowchart TD
         A_GIVE_STINKY_FLOWER --> O_GNOMES_SMELL["O: Smell Gnome Satisfied"]
 
         O_GNOMES_HEARING & O_GNOMES_TASTE & O_GNOMES_TOUCH & O_GNOMES_SIGHT & O_GNOMES_SMELL --> C2["C2: Path Through Gnomes Opens"]
+    end
+    style area_2 fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
 
-        %% Beach - Oyster Pearl
+    %% =============================================================================
+    %% ISLE OF WONDER - Garden & Beach (area_2b - light orange)
+    %% =============================================================================
+    subgraph area_2b["**ISLE OF WONDER - Garden & Beach**"]
         C2 --> A_READ_BOOK_TO_OYSTER["A: Read Book to Oyster"]
         A_READ_BOOK_TO_OYSTER --> O_RECEIVE_PEARL["O: Receive Pearl"]
         O_RECEIVE_PEARL --> O_RECEIVE_ROYAL_RING
 
-        %% Garden - Parallel items
         C2 --> A_PICK_ICEY_LETTUCE["A: Pick Iceberg Lettuce"]
         C2 --> A_PICK_ROTTEN_TOMATO["A: Pick Rotten Tomato"]
         C2 --> A_GET_TEA_CUP["A: Pick up Tea Cup"]
@@ -102,6 +107,14 @@ flowchart TD
         C2 --> A_PLAY_FLUTE_FLOWERS["A: Play Flute for Flowers"]
         A_PLAY_FLUTE_FLOWERS --> O_RECEIVE_HOLE_IN_WALL["O: Receive Hole-in-Wall"]
 
+        O_RECEIVE_FLUTE --> A_PLAY_FLUTE_FLOWERS
+    end
+    style area_2b fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    %% =============================================================================
+    %% ISLE OF WONDER - Chessboard & Trades (area_2c - light orange)
+    %% =============================================================================
+    subgraph area_2c["**ISLE OF WONDER - Chessboard & Trades**"]
         C2 --> A_TALK_TO_QUEENS["A: Talk to Chessboard Queens"]
         A_TALK_TO_QUEENS --> O_RECEIVE_RED_SCARF["O: Receive Red Scarf"]
         A_TALK_TO_QUEENS --> O_RECEIVE_LUMP_OF_COAL["O: Receive Lump of Coal"]
@@ -121,14 +134,13 @@ flowchart TD
         A_TRADE_PARTICIPLE_BOOK --> O_RECEIVE_RARE_BOOK["O: Receive Rare Book"]
         O_RECEIVE_RARE_BOOK --> A_TRADE_RARE_BOOK["A: Trade Rare Book to Ali"]
         A_TRADE_RARE_BOOK --> O_RECEIVE_SPELL_BOOK["O: Receive Spell Book"]
-
-        O_RECEIVE_FLUTE --> A_PLAY_FLUTE_FLOWERS
     end
+    style area_2c fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
 
     %% =============================================================================
-    %% ISLE OF THE BEAST - Initial Visit (area_3 - light purple)
+    %% ISLE OF THE BEAST - Approach & Maze (area_3 - light purple)
     %% =============================================================================
-    subgraph area_3["**ISLE OF THE BEAST**"]
+    subgraph area_3["**ISLE OF THE BEAST - Approach & Maze**"]
         O_RECEIVE_ICEY_LETTUCE --> A_COOL_POOL["A: Cool Boiling Pool"]
         A_COOL_POOL --> C3["C3: Path North Opens"]
 
@@ -138,7 +150,6 @@ flowchart TD
         A_GET_BRICK --> O_RECEIVE_BRICK["O: Receive Brick"]
         A_GET_HUNTERS_LAMP --> O_RECEIVE_HUNTERS_LAMP["O: Receive Hunter's Lamp"]
 
-        %% Maze
         C3 --> P_PROBLEM_MAZE_L1["P: Navigate Maze"]
         P_PROBLEM_MAZE_L1 --> A_SOLVE_TILE_PUZZLE["A: Solve Tile Puzzle"]
         P_PROBLEM_MAZE_L1 --> A_NAVIGATE_TO_SKELETON["A: Navigate to Skeleton"]
@@ -149,10 +160,14 @@ flowchart TD
         A_NAVIGATE_TO_SKELETON --> O_RECEIVE_SKULL["O: Receive Skull"]
         A_COLLECT_COINS --> O_RECEIVE_COINS["O: Receive Coins"]
         A_USE_BRICK_TRAP --> O_TRAP_STOPPED["O: Trap Stopped"]
-
         O_RECEIVE_BRICK --> A_USE_BRICK_TRAP
+    end
+    style area_3 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
 
-        %% Dark Passage
+    %% =============================================================================
+    %% ISLE OF THE BEAST - Dark Passage & Minotaur (area_3b - light purple)
+    %% =============================================================================
+    subgraph area_3b["**ISLE OF THE BEAST - Dark Passage & Minotaur**"]
         O_RECEIVE_TINDERBOX --> A_LIGHT_TINDERBOX["A: Light Tinderbox"]
         A_LIGHT_TINDERBOX --> O_CAN_SEE["O: Can See in Dark"]
 
@@ -162,13 +177,13 @@ flowchart TD
         O_CAN_SEE --> A_FIND_SHIELD["A: Find Shield"]
         A_FIND_SHIELD --> O_RECEIVE_SHIELD["O: Receive Shield"]
 
-        %% Minotaur Lair
         O_RECEIVE_SHIELD & O_RECEIVE_RED_SCARF & O_TRAP_STOPPED & O_REVEAL_TAPESTRY --> P_PROBLEM_MINOTAUR["P: Minotaur Blocks Exit"]
         P_PROBLEM_MINOTAUR --> A_LURE_MINOTAUR["A: Lure Minotaur"]
         A_LURE_MINOTAUR --> O_RECEIVE_DAGGER["O: Receive Dagger"]
         A_LURE_MINOTAUR --> O_RECEIVE_SACRED_WATER["O: Receive Sacred Water"]
         A_LURE_MINOTAUR --> O_RECEIVE_ORACLE_VIAL["O: Receive Oracle Vial"]
     end
+    style area_3b fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
 
     %% =============================================================================
     %% ISLE OF THE BEAST - Return Visit (area_3 - same color)
@@ -197,11 +212,12 @@ flowchart TD
         A_PLACE_ROSE --> O_RECEIVE_WHITE_ROSE_2["O: Receive White Rose 2"]
         O_RECEIVE_WHITE_ROSE_2 --> O_JOLLO_HELPS
     end
+    style area_3_return fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
 
     %% =============================================================================
-    %% SACRED MOUNTAIN (area_5 - light amber)
+    %% SACRED MOUNTAIN - Cliffs, Cave & Poison (area_5 - light amber)
     %% =============================================================================
-    subgraph area_5["**SACRED MOUNTAIN**"]
+    subgraph area_5["**SACRED MOUNTAIN - Cliffs, Cave & Poison**"]
         P_PROBLEM_LOGIC_CLIFFS --> A_SOLVE_CLIFF_PUZZLES["A: Solve Cliff Puzzles"]
         A_SOLVE_CLIFF_PUZZLES --> C6["C6: Summit Path Opens"]
 
@@ -222,8 +238,13 @@ flowchart TD
         P_PROBLEM_POISON_LADY --> A_REJECT_POISON["A: Reject Poison"]
         A_REJECT_POISON --> O_SURVIVED["O: Survived"]
         O_SURVIVED --> A_RIDE_NIGHTMARE["A: Ride Nightmare Horse"]
+    end
+    style area_5 fill:#FFF8E1,stroke:#F9A825,stroke-width:3px
 
-        %% Spell Components
+    %% =============================================================================
+    %% SACRED MOUNTAIN - Spell Components (area_5b - light amber)
+    %% =============================================================================
+    subgraph area_5b["**SACRED MOUNTAIN - Spell Components**"]
         O_RECEIVE_SKULL & O_RECEIVE_EMBER & O_RECEIVE_SPOILED_EGG & O_RECEIVE_HAIR & O_RECEIVE_SULFUR_EGG --> P_PROBLEM_SPELL_COMPONENTS["P: Need Spell Components"]
         P_PROBLEM_SPELL_COMPONENTS --> A_COLLECT_COMPONENTS["A: Collect Components"]
         A_COLLECT_COMPONENTS --> A_GET_EMBER["A: Get Ember"]
@@ -238,6 +259,7 @@ flowchart TD
         O_SPELL_READY --> A_CAST_CHARM_SPELL["A: Cast Charm Spell"]
         A_CAST_CHARM_SPELL --> O_NIGHTMARE_MOUNT["O: Nightmare Mount Available"]
     end
+    style area_5b fill:#FFF8E1,stroke:#F9A825,stroke-width:3px
 
     %% =============================================================================
     %% ISLE OF THE MISTS - Druids (area_4 - light green)
@@ -257,11 +279,12 @@ flowchart TD
         A_GET_COAL --> O_RECEIVE_COAL_IOM["O: Receive Coal"]
         O_RECEIVE_COAL_IOM --> A_TRADE_COAL_FOR_EGG
     end
+    style area_4 fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
 
     %% =============================================================================
-    %% REALM OF THE DEAD (area_7 - light cyan)
+    %% REALM OF THE DEAD - Arrival & Zombies (area_7 - light cyan)
     %% =============================================================================
-    subgraph area_7["**REALM OF THE DEAD**"]
+    subgraph area_7["**REALM OF THE DEAD - Arrival & Zombies**"]
         O_NIGHTMARE_MOUNT --> P_PROBLEM_ENTER_ROD["P: Reach Land of Dead"]
         P_PROBLEM_ENTER_ROD --> A_RIDE_NIGHTMARE
         A_RIDE_NIGHTMARE --> C7["C7: Arrive at Land of Dead"]
@@ -276,7 +299,13 @@ flowchart TD
         A_TALK_TO_CASSIMA_PARENTS --> O_RECEIVE_TICKET["O: Receive Ticket"]
         A_TALK_TO_GHOST_MOTHER --> O_RECEIVE_HANKERCHIEF["O: Receive Handkerchief"]
         O_RECEIVE_HANKERCHIEF --> A_TALK_TO_GHOST_BOY["A: Talk to Ghost Boy"]
+    end
+    style area_7 fill:#E0F7FA,stroke:#00838F,stroke-width:3px
 
+    %% =============================================================================
+    %% REALM OF THE DEAD - Gate & Charon (area_7b - light cyan)
+    %% =============================================================================
+    subgraph area_7b["**REALM OF THE DEAD - Gate & Charon**"]
         O_RECEIVE_TICKET --> P_PROBLEM_GATE["P: Need Ticket for Gate"]
         P_PROBLEM_GATE --> A_GIVE_TICKET["A: Give Ticket"]
         A_GIVE_TICKET --> C8["C8: Gate Opens"]
@@ -296,9 +325,14 @@ flowchart TD
 
         C8 --> A_SEARCH_KNIGHT["A: Search Dead Knight"]
         A_SEARCH_KNIGHT --> O_RECEIVE_GAUNTLET["O: Receive Gauntlet"]
-        O_RECEIVE_GAUNTLET --> P_PROBLEM_DEATH["P: Meet Death"]
+    end
+    style area_7b fill:#E0F7FA,stroke:#00838F,stroke-width:3px
 
-        %% Gate Riddle & Death
+    %% =============================================================================
+    %% REALM OF THE DEAD - Death & Return (area_7c - light cyan)
+    %% =============================================================================
+    subgraph area_7c["**REALM OF THE DEAD - Death & Return**"]
+        O_RECEIVE_GAUNTLET --> P_PROBLEM_DEATH["P: Meet Death"]
         O_RECEIVE_LOVE_WORD --> P_PROBLEM_GATE_RIDDLE["P: Gate Asks Riddle"]
         P_PROBLEM_GATE_RIDDLE --> A_ANSWER_LOVE["A: Answer LOVE"]
         A_ANSWER_LOVE --> C9["C9: Gate Opens"]
@@ -309,6 +343,7 @@ flowchart TD
         A_SHOW_MIRROR_DEATH --> C10["C10: Death Cries, Parents Freed"]
         C10 --> C_RETURN["C_RETURN: Return to Isle of Crown"]
     end
+    style area_7 fill:#E0F7FA,stroke:#00838F,stroke-width:3px
 
     %% =============================================================================
     %% ISLE OF CROWN - Final Phase (area_1 - same blue, repeated)
@@ -370,6 +405,7 @@ flowchart TD
         A_CASSIMA_FIGHTS --> P_PROBLEM_VIZIER
         P_PROBLEM_VIZIER --> A_FIGHT_VIZIER["A: Fight Vizier"]
     end
+    style area_1_final fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
 
     A_FIGHT_VIZIER --> END["**END**"]
 
@@ -395,6 +431,25 @@ flowchart TD
     class C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C_RETURN,O_JOLLO_HELPS,O_BEAUTY_TRUSTS,O_RAIN_PROTECTION,O_DRUID_PROTECTION,O_SPELL_READY,O_NIGHTMARE_MOUNT,O_ZOMBIES_PASSED,O_FERRY_ACCESS,O_GUARDS_DISTRACTED,O_PASSWORD_ALI,O_PASSWORD_ZEBU,O_CASTLE_ACCESS,O_DOOR_APPEARS,O_TREASURY_OPEN,O_GENIE_CONTROLLED,O_GENIE_DRUNK,O_RECEIVE_BEASTS_RING,O_RECEIVE_COPPER_COIN,O_RECEIVE_DRINK_ME,O_RECEIVE_LOVE_POEM,O_RECEIVE_LOVE_POEM_IOW consequence
 
     class P_PROBLEM_PAWN_SHOP,P_PROBLEM_NEED_MAP,P_PROBLEM_FERRYMAN,P_PROBLEM_JOLLO,P_PROBLEM_GNOMES,P_PROBLEM_BOILING_POOL,P_PROBLEM_MAZE_L1,P_PROBLEM_MINOTAUR,P_PROBLEM_ARCHER,P_PROBLEM_ROSE_HEDGE,P_PROBLEM_MEET_BEAST,P_PROBLEM_LOGIC_CLIFFS,P_PROBLEM_DARK_CAVE,P_PROBLEM_POISON_LADY,P_PROBLEM_SPELL_COMPONENTS,P_PROBLEM_DRUIDS,P_PROBLEM_ENTER_ROD,P_PROBLEM_ZOMBIES,P_PROBLEM_GATE,P_PROBLEM_CHARON,P_PROBLEM_STYX,P_PROBLEM_GATE_RIDDLE,P_PROBLEM_DEATH,P_PROBLEM_ENTER_CASTLE,P_PROBLEM_GUARDS,P_PROBLEM_PASSWORD,P_PROBLEM_CASSIMA,P_PROBLEM_VIZIER_CHEST,P_PROBLEM_TREASURY,P_PROBLEM_GENIE,P_PROBLEM_VIZIER,P_PROBLEM_JOLLO_ROOM problem
+
+    %% Area class assignments
+    class A_MOVE_PLANK,A_EXAMINE_DEBRIS,A_SHOW_RING_TO_GUARDS,A_TALK_TO_PAWN_BROKER,A_TRADE_RING_FOR_MAP,A_TALK_TO_FERRYMAN,A_TALK_TO_JOLLO,A_SHOW_RING_TO_JOLLO,A_PLAY_NIGHTINGALE,A_GIVE_MINT,A_GIVE_RABBIT_FOOT,A_USE_INK_ON_SELF,A_GIVE_STINKY_FLOWER,A_READ_BOOK_TO_OYSTER,A_PLAY_FLUTE_FLOWERS,A_PICK_ICEY_LETTUCE,A_PICK_ROTTEN_TOMATO,A_GET_TEA_CUP,A_PICK_DRINK_ME,A_GET_MILK_BOTTLE,A_GIVE_MILK_TO_PLANT,A_TALK_TO_QUEENS,A_PULL_THREAD,A_SEARCH_POETRY_SHELF,A_GET_DANGLING_PARTICIPLE,A_TRADE_PARTICIPLE_BOOK,A_TRADE_RARE_BOOK,A_COOL_POOL,A_GET_BRICK,A_GET_HUNTERS_LAMP,A_SOLVE_TILE_PUZZLE,A_NAVIGATE_TO_SKELETON,A_COLLECT_COINS,A_USE_BRICK_TRAP,A_LIGHT_TINDERBOX,A_USE_HOLE_IN_WALL,A_FIND_SHIELD,A_LURE_MINOTAUR,A_USE_SHIELD_STATUE,A_CUT_HEDGE,A_GIVE_WHITE_ROSE,A_GIVE_RING_TO_BEAUTY,A_PLACE_ROSE,A_SOLVE_CLIFF_PUZZLES,A_GET_BLACK_FEATHER,A_GET_STINKY_FLOWER,A_LIGHT_CAVE,A_REJECT_POISON,A_COLLECT_COMPONENTS,A_GET_EMBER,A_GET_HAIR,A_GET_SPOILED_EGG,A_CAST_CHARM_SPELL,A_CAST_RAIN_SPELL,A_WEAR_BEAUTYS_DRESS,A_GET_SCYTHE,A_GET_COAL,A_RIDE_NIGHTMARE,A_AVOID_ZOMBIES,A_TALK_TO_CASSIMA_PARENTS,A_TALK_TO_GHOST_MOTHER,A_GIVE_TICKET,A_PLAY_BONES,A_PAY_CHARON,A_COLLECT_STYX_WATER,A_SEARCH_KNIGHT,A_ANSWER_LOVE,A_SHOW_MIRROR_DEATH,A_PAINT_DOOR,A_CAST_PAINT_SPELL,A_WEAR_DISGUISE,A_DISTRACT_GUARDS,A_TALK_TO_GHOST_BOY,A_GIVE_LAMP_REPLICA,A_FIND_ALI_PASSWORD,A_FIND_ZEBU_PASSWORD,A_GIVE_DAGGER,A_COMBINE_PASSWORD,A_UNLOCK_CHEST,A_OPEN_TREASURY,A_USE_FAKE_LAMP,A_GIVE_MINT_GENIE,A_FIGHT_VIZIER,A_TRADE_COAL_FOR_EGG,A_CASSIMA_FIGHTS,A_SHOW_LETTER,A_GIVE_ROTTEN_TOMATO area_1
+    class O_RECEIVE_COPPER_COIN,O_RECEIVE_ROYAL_RING,O_RECEIVE_NIGHTINGALE,O_RECEIVE_MINT,O_RECEIVE_TINDERBOX,O_RECEIVE_FLUTE,O_RECEIVE_PAINTBRUSH,O_RECEIVE_INK,O_RECEIVE_MAGIC_MAP,O_RECEIVE_RABBIT_FOOT,O_RECEIVE_JOLLO_TRUST,O_JOLLO_HELPS,O_PASSWORD_ALI,O_PASSWORD_ZEBU,O_CASTLE_ACCESS,O_DOOR_APPEARS,O_TREASURY_OPEN,O_GENIE_CONTROLLED,O_GENIE_DRUNK,O_RECEIVE_VIZIER_LETTER,O_CASSIMA_ARMED,O_GUARDS_DISTRACTED,O_RECEIVE_PASSAGE_HINT,O_BEAUTY_TRUSTS,O_RAIN_PROTECTION,O_DRUID_PROTECTION,O_SPELL_READY,O_NIGHTMARE_MOUNT,O_ZOMBIES_PASSED,O_FERRY_ACCESS,O_RECEIVE_SCARF_CONV,O_BEASTS_RING,O_RECEIVE_BEAUTYS_DRESS,O_RECEIVE_WHITE_ROSE_2,O_COPPER_COIN,O_DRINK_ME,O_LOVE_POEM area_1
+
+    class A_PLAY_NIGHTINGALE,A_GIVE_MINT,A_GIVE_RABBIT_FOOT,A_USE_INK_ON_SELF,A_GIVE_STINKY_FLOWER,A_READ_BOOK_TO_OYSTER,A_PLAY_FLUTE_FLOWERS,A_PICK_ICEY_LETTUCE,A_PICK_ROTTEN_TOMATO,A_GET_TEA_CUP,A_PICK_DRINK_ME,A_GET_MILK_BOTTLE,A_GIVE_MILK_TO_PLANT,A_TALK_TO_QUEENS,A_PULL_THREAD,A_SEARCH_POETRY_SHELF,A_GET_DANGLING_PARTICIPLE,A_TRADE_PARTICIPLE_BOOK,A_TRADE_RARE_BOOK,O_GNOMES_HEARING,O_GNOMES_TASTE,O_GNOMES_TOUCH,O_GNOMES_SIGHT,O_GNOMES_SMELL,O_RECEIVE_PEARL,O_RECEIVE_HOLE_IN_WALL,O_RECEIVE_ICEY_LETTUCE,O_RECEIVE_ROTTEN_TOMATO,O_RECEIVE_TEA_CUP,O_RECEIVE_MILK,O_RECEIVE_BABYS_TEARS,O_RECEIVE_RED_SCARF,O_RECEIVE_LUMP_OF_COAL,O_RECEIVE_SULFUR_EGG,O_RECEIVE_SPIDER_WEB,O_RECEIVE_LOVE_WORD,O_RECEIVE_DANGLING_PARTICIPLE,O_RECEIVE_RARE_BOOK,O_RECEIVE_SPELL_BOOK,O_RECEIVE_SWAMP_OOZE,O_RECEIVE_LOVE_POEM_IOW area_2
+    class P_PROBLEM_GNOMES,P_PROBLEM_BOILING_POOL,P_PROBLEM_MAZE_L1,P_PROBLEM_MINOTAUR,P_PROBLEM_ARCHER,P_PROBLEM_ROSE_HEDGE,P_PROBLEM_MEET_BEAST,P_PROBLEM_LOGIC_CLIFFS,P_PROBLEM_DARK_CAVE,P_PROBLEM_POISON_LADY,P_PROBLEM_SPELL_COMPONENTS area_2
+
+    class A_COOL_POOL,A_GET_BRICK,A_GET_HUNTERS_LAMP,A_SOLVE_TILE_PUZZLE,A_NAVIGATE_TO_SKELETON,A_COLLECT_COINS,A_USE_BRICK_TRAP,A_LIGHT_TINDERBOX,A_USE_HOLE_IN_WALL,A_FIND_SHIELD,A_LURE_MINOTAUR,A_USE_SHIELD_STATUE,A_CUT_HEDGE,A_GIVE_WHITE_ROSE,A_GIVE_RING_TO_BEAUTY,A_PLACE_ROSE,O_RECEIVE_BRICK,O_RECEIVE_HUNTERS_LAMP,O_MAZE_PATH_OPEN,O_RECEIVE_SKULL,O_RECEIVE_COINS,O_TRAP_STOPPED,O_CAN_SEE,O_REVEAL_TAPESTRY,O_RECEIVE_SHIELD,O_RECEIVE_DAGGER,O_RECEIVE_SACRED_WATER,O_RECEIVE_ORACLE_VIAL,O_BEAUTY_TRUSTS,O_RECEIVE_MIRROR,O_RECEIVE_BEAUTS_DRESS,O_RECEIVE_WHITE_ROSE_2 area_3
+    class P_PROBLEM_MAZE_L1,P_PROBLEM_MINOTAUR,P_PROBLEM_ARCHER,P_PROBLEM_ROSE_HEDGE,P_PROBLEM_MEET_BEAST,P_PROBLEM_BOILING_POOL area_3
+
+    class A_CAST_RAIN_SPELL,A_WEAR_BEAUTYS_DRESS,A_GET_SCYTHE,A_GET_COAL,O_RAIN_PROTECTION,O_DRUID_PROTECTION,O_RECEIVE_SCYTHE,O_RECEIVE_COAL_IOM area_4
+    class P_PROBLEM_DRUIDS,P_PROBLEM_ENTER_ROD,P_PROBLEM_ZOMBIES,P_PROBLEM_GATE,P_PROBLEM_CHARON,P_PROBLEM_STYX,P_PROBLEM_GATE_RIDDLE,P_PROBLEM_DEATH area_4
+
+    class A_SOLVE_CLIFF_PUZZLES,A_GET_BLACK_FEATHER,A_GET_STINKY_FLOWER,A_LIGHT_CAVE,A_REJECT_POISON,A_COLLECT_COMPONENTS,A_GET_EMBER,A_GET_HAIR,A_GET_SPOILED_EGG,A_CAST_CHARM_SPELL,A_RIDE_NIGHTMARE,A_PAY_CHARON,A_COLLECT_STYX_WATER,A_SEARCH_KNIGHT,A_ANSWER_LOVE,A_SHOW_MIRROR_DEATH,O_RECEIVE_BLACK_FEATHER,O_RECEIVE_STINKY_FLOWER,O_RECEIVE_PEPPERMINT,O_SURVIVED,O_RECEIVE_EMBER,O_RECEIVE_HAIR,O_RECEIVE_SPOILED_EGG,O_NIGHTMARE_MOUNT,O_RECEIVE_TICKET,O_RECEIVE_HANKERCHIEF,O_RECEIVE_SKELETON_KEY,O_RECEIVE_STYX_WATER,O_RECEIVE_GAUNTLET area_5
+    class P_PROBLEM_LOGIC_CLIFFS,P_PROBLEM_DARK_CAVE,P_PROBLEM_POISON_LADY,P_PROBLEM_SPELL_COMPONENTS,P_PROBLEM_ENTER_ROD,P_PROBLEM_GATE_RIDDLE,P_PROBLEM_DEATH area_5
+
+    class A_RIDE_NIGHTMARE,A_AVOID_ZOMBIES,A_TALK_TO_CASSIMA_PARENTS,A_TALK_TO_GHOST_MOTHER,A_GIVE_TICKET,A_PLAY_BONES,A_PAY_CHARON,A_COLLECT_STYX_WATER,A_SEARCH_KNIGHT,A_ANSWER_LOVE,A_SHOW_MIRROR_DEATH,O_ZOMBIES_PASSED,O_RECEIVE_TICKET,O_RECEIVE_HANKERCHIEF,O_RECEIVE_SKELETON_KEY,O_RECEIVE_STYX_WATER,O_RECEIVE_GAUNTLET area_7
+    class P_PROBLEM_ZOMBIES,P_PROBLEM_GATE,P_PROBLEM_CHARON,P_PROBLEM_STYX,P_PROBLEM_GATE_RIDDLE,P_PROBLEM_DEATH,P_PROBLEM_ENTER_ROD area_7
 
     class A_MOVE_PLANK,A_EXAMINE_DEBRIS,A_SHOW_RING_TO_GUARDS,A_TALK_TO_PAWN_BROKER,A_TRADE_RING_FOR_MAP,A_TALK_TO_FERRYMAN,A_TALK_TO_JOLLO,A_SHOW_RING_TO_JOLLO,A_PLAY_NIGHTINGALE,A_GIVE_MINT,A_GIVE_RABBIT_FOOT,A_USE_INK_ON_SELF,A_GIVE_STINKY_FLOWER,A_READ_BOOK_TO_OYSTER,A_PLAY_FLUTE_FLOWERS,A_PICK_ICEY_LETTUCE,A_GET_TEA_CUP,A_PICK_DRINK_ME,A_GET_MILK_BOTTLE,A_GIVE_MILK_TO_PLANT,A_TALK_TO_QUEENS,A_PULL_THREAD,A_SEARCH_POETRY_SHELF,A_GET_DANGLING_PARTICIPLE,A_TRADE_PARTICIPLE_BOOK,A_TRADE_RARE_BOOK,A_COOL_POOL,A_GET_BRICK,A_GET_HUNTERS_LAMP,A_SOLVE_TILE_PUZZLE,A_NAVIGATE_TO_SKELETON,A_COLLECT_COINS,A_USE_BRICK_TRAP,A_LIGHT_TINDERBOX,A_USE_HOLE_IN_WALL,A_FIND_SHIELD,A_LURE_MINOTAUR,A_USE_SHIELD_STATUE,A_CUT_HEDGE,A_GIVE_WHITE_ROSE,A_GIVE_RING_TO_BEAUTY,A_PLACE_ROSE,A_SOLVE_CLIFF_PUZZLES,A_GET_BLACK_FEATHER,A_GET_STINKY_FLOWER,A_LIGHT_CAVE,A_REJECT_POISON,A_COLLECT_COMPONENTS,A_GET_EMBER,A_GET_HAIR,A_GET_SPOILED_EGG,A_CAST_CHARM_SPELL,A_CAST_RAIN_SPELL,A_WEAR_BEAUTYS_DRESS,A_GET_SCYTHE,A_GET_COAL,A_RIDE_NIGHTMARE,A_AVOID_ZOMBIES,A_TALK_TO_CASSIMA_PARENTS,A_TALK_TO_GHOST_MOTHER,A_GIVE_TICKET,A_PLAY_BONES,A_PAY_CHARON,A_COLLECT_STYX_WATER,A_SEARCH_KNIGHT,A_ANSWER_LOVE,A_SHOW_MIRROR_DEATH,A_PAINT_DOOR,A_CAST_PAINT_SPELL,A_WEAR_DISGUISE,A_DISTRACT_GUARDS,A_TALK_TO_GHOST_BOY,A_GIVE_LAMP_REPLICA,A_FIND_ALI_PASSWORD,A_FIND_ZEBU_PASSWORD,A_GIVE_DAGGER,A_COMBINE_PASSWORD,A_UNLOCK_CHEST,A_OPEN_TREASURY,A_USE_FAKE_LAMP,A_GIVE_MINT_GENIE,A_FIGHT_VIZIER,A_TRADE_COAL_FOR_EGG,A_CASSIMA_FIGHTS,A_SHOW_LETTER action
 

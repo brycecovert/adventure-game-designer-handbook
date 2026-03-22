@@ -268,6 +268,13 @@ end
 - Include Phase 1, Phase 2, etc. all under the same area subgraph
 - Exception: If same area appears at very different logical points (start vs end), use separate subgraphs with same color
 
+**Cluster Size and Line Length**:
+- **Keep clusters small**: Aim for 10-20 nodes per subgraph maximum
+- **Avoid long vertical stretches**: If a subgraph has 40+ nodes vertically, break it into multiple smaller subgraphs
+- **Shorter lines = better readability**: Cluster related nodes together
+- **When to split**: If lines would stretch more than ~15 nodes vertically, create a new subgraph
+- **Trade-off**: More subgraphs with fewer nodes each is better than few subgraphs with long chains
+
 #### Subgraph Styling Format
 
 Use this exact format for subgraph titles to ensure proper font size:
@@ -277,7 +284,10 @@ subgraph area_name["<style>subgraphTitleTitle {font-size: 18px; font-weight: bol
     classDef area_X fill:#HEXCOLOR,stroke:#STROKECOLOR,stroke-width:2px
     class node1,node2,node3 area_X
 end
+style area_name fill:#HEXCOLOR,stroke:#STROKECOLOR,stroke-width:3px
 ```
+
+**IMPORTANT**: The `style <subgraph_id>` command MUST come AFTER the `end` of the subgraph to color the container/cluster itself. Without this, the subgraph background won't be visible.
 
 #### Color-Coded Areas (Index-Based)
 
