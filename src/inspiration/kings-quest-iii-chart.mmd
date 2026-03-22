@@ -133,11 +133,13 @@ flowchart TD
         A_PLUCK_CAT_HAIR --> O_RECEIVE_CAT_HAIR["O: Receive Cat Hair"]
         
         P_PROBLEM_POISON_PORRIDGE --> A_MIX_COOKIE["A: Mix cookie into porridge"]
+        O_RECEIVE_PORRIDGE --> A_MIX_COOKIE
         O_RECEIVE_CAT_HAIR --> A_MIX_COOKIE
         O_SPELL_CAT_COOKIE --> A_MIX_COOKIE
         A_MIX_COOKIE --> O_POISON_PORRIDGE["O: Poisoned porridge ready"]
         
         O_POISON_PORRIDGE --> A_WAIT_MANANNAN["A: Wait for Manannan to return"]
+        O_ITEMS_HIDDEN --> A_WAIT_MANANNAN
         A_WAIT_MANANNAN --> A_FEED_MANANNAN["A: Give porridge to Manannan"]
         A_FEED_MANANNAN --> O_MANANNAN_CAT["O: Manannan transforms to cat"]
         
@@ -298,7 +300,8 @@ flowchart TD
         A_PREPARE_STORM --> O_STORM_READY["O: Storm Brew ready"]
         
         O_INVISIBLE --> A_APPROACH_DRAGON["A: Approach dragon undetected"]
-        O_STORM_READY --> A_CHURN_BREW["A: Stir brew and recite incantation"]
+        A_APPROACH_DRAGON --> A_CHURN_BREW["A: Stir brew and recite incantation"]
+        O_STORM_READY --> A_CHURN_BREW
         A_CHURN_BREW --> O_LIGHTNING_SUMMONED["O: Lightning strikes dragon"]
         
         O_LIGHTNING_SUMMONED --> A_DEFEAT_DRAGON["A: Dragon defeated"]
