@@ -16,7 +16,6 @@ flowchart TD
         O_RECEIVE_ROYAL_RING --> A_SHOW_RING_TO_GUARDS["A: Show Ring to Guards"]
         A_SHOW_RING_TO_GUARDS --> C1["C1: Meet Vizier, Kicked Out"]
 
-        %% Village - Parallel paths
         C1 --> P_PROBLEM_PAWN_SHOP["P: Need Items from Pawn Shop"]
         C1 --> P_PROBLEM_NEED_MAP["P: Cannot Travel to Islands"]
         C1 --> P_PROBLEM_FERRYMAN["P: Need Ferry Info"]
@@ -186,7 +185,7 @@ flowchart TD
     style area_3b fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
 
     %% =============================================================================
-    %% ISLE OF THE BEAST - Return Visit (area_3 - same color)
+    %% ISLE OF THE BEAST - Return Visit (area_3_return - light purple)
     %% =============================================================================
     subgraph area_3_return["**ISLE OF THE BEAST - Return**"]
         O_RECEIVE_SHIELD --> P_PROBLEM_ARCHER["P: Archer Statue Kills You"]
@@ -198,7 +197,6 @@ flowchart TD
         P_PROBLEM_ROSE_HEDGE --> A_CUT_HEDGE["A: Cut Hedge with Scythe"]
         A_CUT_HEDGE --> C5["C5: Path to Beast Opens"]
 
-        %% Beast's Domain
         C5 --> P_PROBLEM_MEET_BEAST["P: Meet the Beast"]
         P_PROBLEM_MEET_BEAST --> A_GIVE_WHITE_ROSE["A: Give White Rose"]
         A_GIVE_WHITE_ROSE --> O_BEAUTY_TRUSTS["O: Beauty's Trust Gained"]
@@ -264,7 +262,7 @@ flowchart TD
     %% =============================================================================
     %% ISLE OF THE MISTS - Druids (area_4 - light green)
     %% =============================================================================
-    subgraph area_4["**ISLE OF THE MISTS**"]
+    subgraph area_4["**ISLE OF THE MISTS - Druids**"]
         O_RECEIVE_BABYS_TEARS & O_RECEIVE_MILK & O_RECEIVE_HUNTERS_LAMP & O_RECEIVE_SACRED_WATER & O_RECEIVE_ORACLE_VIAL --> A_CAST_RAIN_SPELL["A: Cast Rain Spell"]
         A_CAST_RAIN_SPELL --> O_RAIN_PROTECTION["O: Rain Protection"]
 
@@ -343,10 +341,10 @@ flowchart TD
         A_SHOW_MIRROR_DEATH --> C10["C10: Death Cries, Parents Freed"]
         C10 --> C_RETURN["C_RETURN: Return to Isle of Crown"]
     end
-    style area_7 fill:#E0F7FA,stroke:#00838F,stroke-width:3px
+    style area_7c fill:#E0F7FA,stroke:#00838F,stroke-width:3px
 
     %% =============================================================================
-    %% ISLE OF CROWN - Final Phase (area_1 - same blue, repeated)
+    %% ISLE OF CROWN - Final Phase (area_1_final - light blue)
     %% =============================================================================
     subgraph area_1_final["**ISLE OF CROWN - Final**"]
         C_RETURN --> P_PROBLEM_ENTER_CASTLE["P: Cannot Enter Castle"]

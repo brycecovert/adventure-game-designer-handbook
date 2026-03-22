@@ -275,6 +275,13 @@ end
 - **When to split**: If lines would stretch more than ~15 nodes vertically, create a new subgraph
 - **Trade-off**: More subgraphs with fewer nodes each is better than few subgraphs with long chains
 
+**Subgraph Ordering (CRITICAL)**:
+- **Order subgraphs to follow game progression**: Place subgraphs in the order the player encounters them
+- **Avoid upward edges**: If a node in subgraph A is used by a node in subgraph B, and B appears AFTER A in the game, subgraph B should come AFTER subgraph A in the file
+- **Eliminate backward dependencies**: Reorder subgraphs so edges flow downward (top-to-bottom), never upward
+- **Example of WRONG order**: If "Isle of Beast Return" (where Jollo's help originates) is placed AFTER "Isle of Crown Final" (where Jollo's help is used), edges must travel upward - this creates long confusing lines
+- **Correct order**: Crown → Wonder → Beast → Mists → Dead → Crown Final (matches game flow)
+
 #### Subgraph Styling Format
 
 Use this exact format for subgraph titles to ensure proper font size:
