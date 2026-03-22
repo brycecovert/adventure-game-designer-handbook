@@ -1,0 +1,345 @@
+flowchart TD
+    %% =============================================================================
+    %% FONT SIZE & CONFIGURATION
+    %% =============================================================================
+    node[fontsize=18]
+    START["**START**"] --> A_EXPLORE_MANANNAN_HOUSE
+    START --> A_OPEN_GATE
+    
+    %% =============================================================================
+    %% MANANNAN'S HOUSE - Initial Phase (area_1 - light blue)
+    %% =============================================================================
+    subgraph area_1["**MANANNAN'S HOUSE - Llewdor**"]
+        direction TB
+        
+        A_OPEN_GATE["A: Open gate to outside"] --> O_GATE_OPEN["O: Gate opened"]
+        A_EXPLORE_MANANNAN_HOUSE["A: Explore house"] --> O_FIND_KITCHEN_ITEMS["O: Find bread/fruit/mutton"]
+        
+        O_GATE_OPEN --> P_PROBLEM_SPELL_INGREDIENTS["P: Need Spell Ingredients"]
+        O_FIND_KITCHEN_ITEMS --> P_PROBLEM_MANANNAN_CHECK["P: Manannan checks inventory"]
+        
+        P_PROBLEM_MANANNAN_CHECK --> A_HIDE_ITEMS["A: Hide items under bed"]
+        A_HIDE_ITEMS --> O_ITEMS_HIDDEN["O: Items hidden safely"]
+        
+        A_EXPLORE_MANANNAN_HOUSE --> A_FIND_STUDY["A: Find study room"]
+        A_FIND_STUDY --> A_PULL_BOOK_LEVER["A: Pull book lever"]
+        A_PULL_BOOK_LEVER --> O_SECRET_LAB["O: Secret laboratory opened"]
+        
+        O_SECRET_LAB --> A_COLLECT_LAB_ITEMS["A: Collect lab ingredients"]
+        A_COLLECT_LAB_ITEMS --> O_RECEIVE_MANDRAKE["O: Receive Mandrake Root Powder"]
+        A_COLLECT_LAB_ITEMS --> O_RECEIVE_NIGHTSHADE["O: Receive Nightshade Juice"]
+        A_COLLECT_LAB_ITEMS --> O_RECEIVE_FISHBONE["O: Receive Powdered Fishbone"]
+        A_COLLECT_LAB_ITEMS --> O_RECEIVE_SAFFRON["O: Receive Saffron"]
+        A_COLLECT_LAB_ITEMS --> O_RECEIVE_TOAD_SPITTLE["O: Receive Toad Spittle"]
+        A_COLLECT_LAB_ITEMS --> O_RECEIVE_TOADSTOOL["O: Receive Toadstool Powder"]
+    end
+    style area_1 fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+    
+    %% =============================================================================
+    %% LLEWDOR WILDERNESS - Gathering Phase (area_2 - light orange)
+    %% =============================================================================
+    subgraph area_2["**LLEWDOR WILDERNESS**"]
+        direction TB
+        
+        P_PROBLEM_SPELL_INGREDIENTS --> A_GO_TO_GENERAL_STORE["A: Go to general store"]
+        P_PROBLEM_SPELL_INGREDIENTS --> A_GO_TO_THREE_BEARS["A: Go to Three Bears' house"]
+        P_PROBLEM_SPELL_INGREDIENTS --> A_GO_TO_DESERT["A: Go to southern desert"]
+        P_PROBLEM_SPELL_INGREDIENTS --> A_GO_TO_WATERFALL["A: Go to waterfall area"]
+        P_PROBLEM_SPELL_INGREDIENTS --> A_FIND_MISTLETOE["A: Find mistletoe tree"]
+        
+        A_GO_TO_GENERAL_STORE --> A_BUY_STORE_ITEMS["A: Buy lard, salt, pouch, fish oil"]
+        A_BUY_STORE_ITEMS --> O_RECEIVE_LARD["O: Receive Lard"]
+        A_BUY_STORE_ITEMS --> O_RECEIVE_SALT["O: Receive Salt"]
+        A_BUY_STORE_ITEMS --> O_RECEIVE_POUCH["O: Receive Empty Pouch"]
+        A_BUY_STORE_ITEMS --> O_RECEIVE_FISH_OIL["O: Receive Fish Oil"]
+        
+        A_GO_TO_GENERAL_STORE --> A_PET_DOG["A: Pet dog for fur"]
+        A_PET_DOG --> O_RECEIVE_DOG_FUR["O: Receive Dog Fur"]
+        
+        A_GO_TO_THREE_BEARS --> A_WAIT_HOUSE_EMPTY["A: Wait for bears to leave"]
+        A_WAIT_HOUSE_EMPTY --> A_SEARCH_BEARS_HOUSE["A: Search Three Bears' house"]
+        A_SEARCH_BEARS_HOUSE --> O_RECEIVE_BOWL["O: Receive Small Bowl"]
+        A_SEARCH_BEARS_HOUSE --> O_RECEIVE_THIMBLE["O: Receive Thimble"]
+        
+        A_SEARCH_BEARS_HOUSE --> A_GATHER_DEW["A: Gather dew with thimble"]
+        A_GATHER_DEW --> O_RECEIVE_MORNING_DEW["O: Receive Morning Dew"]
+        
+        A_GO_TO_DESERT --> A_SEARCH_SAND["A: Search desert sand"]
+        A_SEARCH_SAND --> O_RECEIVE_SNAKE_SKIN["O: Receive Dried Snake Skin"]
+        
+        A_GO_TO_DESERT --> A_FIND_CACTUS["A: Find cactus"]
+        A_FIND_CACTUS --> A_CUT_CACTUS["A: Cut cactus with knife"]
+        A_CUT_CACTUS --> A_SQUEEZE_JUICE["A: Squeeze juice onto spoon"]
+        A_SQUEEZE_JUICE --> O_RECEIVE_CACTUS_JUICE["O: Receive Cactus Juice"]
+        
+        A_GO_TO_WATERFALL --> A_WAIT_EAGLE["A: Wait for eagle to fly by"]
+        A_WAIT_EAGLE --> A_CATCH_EAGLE_FEATHER["A: Catch eagle feather"]
+        A_CATCH_EAGLE_FEATHER --> O_RECEIVE_EAGLE_FEATHER["O: Receive Eagle Feather"]
+        
+        A_FIND_MISTLETOE["A: Find mistletoe tree"] --> A_PICK_MISTLETOE["A: Pick mistletoe"]
+        A_PICK_MISTLETOE --> O_RECEIVE_MISTLETOE["O: Receive Mistletoe"]
+        
+        A_GO_TO_WATERFALL --> A_FILL_CUP_WATER["A: Fill cup with ocean water"]
+        A_FILL_CUP_WATER --> O_RECEIVE_OCEAN_WATER["O: Receive Ocean Water"]
+        
+        A_GO_TO_WATERFALL --> A_SCRAPE_MUD["A: Scrape mud from riverbank"]
+        A_SCRAPE_MUD --> O_RECEIVE_MUD["O: Receive Mud"]
+    end
+    style area_2 fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+    
+    %% =============================================================================
+    %% SPELL CASTING - Lab Phase (area_1b - light blue)
+    %% =============================================================================
+    subgraph area_1b["**MANANNAN'S LABORATORY**"]
+        direction TB
+        
+        O_RECEIVE_MANDRAKE & O_RECEIVE_NIGHTSHADE & O_RECEIVE_FISHBONE & O_RECEIVE_SAFFRON & O_RECEIVE_TOAD_SPITTLE & O_RECEIVE_TOADSTOOL --> P_PROBLEM_BRAZIER["P: Need to brew spells"]
+        
+        P_PROBLEM_BRAZIER --> A_BREW_ANIMAL_LANGUAGE["A: Brew Animal Language (Page II)"]
+        A_BREW_ANIMAL_LANGUAGE --> O_SPELL_ANIMAL_LANGUAGE["O: Animal Language ready"]
+        
+        P_PROBLEM_BRAZIER --> A_BREW_FLIGHT["A: Brew Flight Essence (Page IV)"]
+        A_BREW_FLIGHT --> O_SPELL_FLIGHT["O: Flight Essence ready"]
+        
+        P_PROBLEM_BRAZIER --> A_BREW_SLEEP["A: Brew Sleep Powder (Page XIV)"]
+        A_BREW_SLEEP --> O_SPELL_SLEEP["O: Sleep Powder ready"]
+        
+        P_PROBLEM_BRAZIER --> A_BREW_CAT_COOKIE["A: Brew Cat Cookie (Page XXV)"]
+        O_RECEIVE_DOG_FUR --> A_BREW_CAT_COOKIE
+        O_RECEIVE_FISH_OIL --> A_BREW_CAT_COOKIE
+        A_BREW_CAT_COOKIE --> O_SPELL_CAT_COOKIE["O: Cat Cookie ready"]
+        
+        P_PROBLEM_BRAZIER --> A_BREW_STORM["A: Brew Storm Brew (Page LXXXIV)"]
+        A_BREW_STORM --> O_SPELL_STORM["O: Storm Brew ready"]
+        
+        P_PROBLEM_BRAZIER --> A_BREW_INVISIBILITY["A: Brew Invisibility Ointment (Page CLXIX)"]
+        A_BREW_INVISIBILITY --> O_SPELL_INVISIBILITY["O: Invisibility ready"]
+    end
+    style area_1b fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+    
+    %% =============================================================================
+    %% DEFEAT MANANNAN - Cat Cookie (area_1c - light blue)
+    %% =============================================================================
+    subgraph area_1c["**DEFEAT MANANNAN**"]
+        direction TB
+        
+        O_SPELL_CAT_COOKIE --> P_PROBLEM_POISON_PORRIDGE["P: Need poisoned porridge"]
+        
+        P_PROBLEM_POISON_PORRIDGE --> A_GET_PORRIDGE["A: Get porridge from Three Bears"]
+        A_GET_PORRIDGE --> O_RECEIVE_PORRIDGE["O: Receive Porridge"]
+        
+        P_PROBLEM_POISON_PORRIDGE --> A_CATCH_CAT["A: Catch Manannan's cat"]
+        A_CATCH_CAT --> A_PLUCK_CAT_HAIR["A: Pluck cat hair"]
+        A_PLUCK_CAT_HAIR --> O_RECEIVE_CAT_HAIR["O: Receive Cat Hair"]
+        
+        P_PROBLEM_POISON_PORRIDGE --> A_MIX_COOKIE["A: Mix cookie into porridge"]
+        O_RECEIVE_CAT_HAIR --> A_MIX_COOKIE
+        O_SPELL_CAT_COOKIE --> A_MIX_COOKIE
+        A_MIX_COOKIE --> O_POISON_PORRIDGE["O: Poisoned porridge ready"]
+        
+        O_POISON_PORRIDGE --> A_WAIT_MANANNAN["A: Wait for Manannan to return"]
+        A_WAIT_MANANNAN --> A_FEED_MANANNAN["A: Give porridge to Manannan"]
+        A_FEED_MANANNAN --> O_MANANNAN_CAT["O: Manannan transforms to cat"]
+        
+        O_MANANNAN_CAT --> C1["C1: Manannan defeated - Llewdor freed"]
+    end
+    style area_1c fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+    
+    %% =============================================================================
+    %% FLY TRANSFORMATION - Bandit Gold (area_3 - light green)
+    %% =============================================================================
+    subgraph area_3["**FLY TRANSFORMATION - Bandit Treehouse**"]
+        direction TB
+        
+        C1 --> P_PROBLEM_BANDIT_GOLD["P: Need gold coins for ship"]
+        
+        P_PROBLEM_BANDIT_GOLD --> A_PREPARE_FLY["A: Prepare fly transformation"]
+        O_SPELL_FLIGHT --> A_PREPARE_FLY
+        O_RECEIVE_EAGLE_FEATHER --> A_PREPARE_FLY
+        
+        A_PREPARE_FLY --> A_CAST_FLY["A: Cast fly spell"]
+        A_CAST_FLY --> O_CAN_FLY["O: Can fly"]
+        
+        O_CAN_FLY --> A_FLY_TO_TREEHOUSE["A: Fly to bandit treehouse"]
+        A_FLY_TO_TREEHOUSE --> P_PROBLEM_LISTEN_BANDITS["P: Need to hear bandit secret"]
+        
+        P_PROBLEM_LISTEN_BANDITS --> A_LISTEN_BANDITS["A: Listen to bandits"]
+        O_SPELL_ANIMAL_LANGUAGE --> A_LISTEN_BANDITS
+        A_LISTEN_BANDITS --> O_LEARN_BANDIT_HIDEOUT["O: Learn bandit hideout location"]
+        
+        P_PROBLEM_LISTEN_BANDITS --> A_WAIT_BANDITS_SLEEP["A: Wait for bandits to sleep"]
+        A_WAIT_BANDITS_SLEEP --> A_CLIMB_ROPE["A: Climb rope ladder"]
+        A_CLIMB_ROPE --> A_STEAL_COINS["A: Steal coin purse"]
+        A_STEAL_COINS --> O_RECEIVE_GOLD_COINS["O: Receive Gold Coins"]
+        
+        O_LEARN_BANDIT_HIDEOUT & O_RECEIVE_GOLD_COINS --> C2["C2: Have gold for pirates"]
+    end
+    style area_3 fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+    
+    %% =============================================================================
+    %% PIRATE SHIP - Navigation (area_4 - light purple)
+    %% =============================================================================
+    subgraph area_4["**PIRATE SHIP - Escape**"]
+        direction TB
+        
+        C2 --> P_PROBLEM_BOARD_SHIP["P: Need to board pirate ship"]
+        
+        P_PROBLEM_BOARD_SHIP --> A_GO_TO_TAVERN["A: Go to pirate tavern"]
+        A_GO_TO_TAVERN --> A_PAY_PIRATES["A: Pay pirates with gold coins"]
+        A_PAY_PIRATES --> O_SHIP_ACCESS["O: Ship access granted"]
+        
+        O_SHIP_ACCESS --> A_BOARD_SHIP["A: Board ship"]
+        A_BOARD_SHIP --> P_PROBLEM_CRATE_NAV["P: Crate blocks ladder"]
+        
+        P_PROBLEM_CRATE_NAV --> A_MOVE_CRATE["A: Pick up crate"]
+        A_MOVE_CRATE --> A_STACK_CRATES["A: Stack crates to climb"]
+        A_STACK_CRATES --> O_LADDER_ACCESS["O: Can reach upper deck"]
+        
+        O_LADDER_ACCESS --> A_CLIMB_LADDER["A: Climb to upper deck"]
+        A_CLIMB_LADDER --> A_GET_SHOVEL["A: Get shovel from deck"]
+        A_GET_SHOVEL --> O_RECEIVE_SHOVEL["O: Receive Shovel"]
+        
+        A_CLIMB_LADDER --> A_WAIT_RATS["A: Wait for rats to reveal treasure"]
+        A_WAIT_RATS --> O_TREASURE_HINT["O: Learn treasure location"]
+        
+        A_CLIMB_LADDER --> P_PROBLEM_SHIP_ESCAPE["P: Need to escape ship"]
+        
+        P_PROBLEM_SHIP_ESCAPE --> A_WAIT_LAND["A: Wait for land announcement"]
+        A_WAIT_LAND --> A_CAST_SLEEP["A: Cast sleep powder on crew"]
+        O_SPELL_SLEEP --> A_CAST_SLEEP
+        A_CAST_SLEEP --> O_CREW_ASLEEP["O: Crew asleep"]
+        
+        O_CREW_ASLEEP --> A_JUMP_OVERBOARD["A: Jump off ship into water"]
+        A_JUMP_OVERBOARD --> P_PROBLEM_SHARKS["P: Sharks patrol waters"]
+        
+        P_PROBLEM_SHARKS --> A_SWIM_EDGE["A: Swim along bottom edge"]
+        A_SWIM_EDGE --> A_DODGE_SHARK["A: Dodge shark attacks"]
+        A_DODGE_SHARK --> O_SHARK_EVADED["O: Shark evaded"]
+        O_SHARK_EVADED --> A_REACH_BEACH["A: Reach treasure island beach"]
+    end
+    style area_4 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+    
+    %% =============================================================================
+    %% TREASURE ISLAND - Dig Treasure (area_5 - light amber)
+    %% =============================================================================
+    subgraph area_5["**TREASURE ISLAND**"]
+        direction TB
+        
+        A_REACH_BEACH --> P_PROBLEM_FIND_TREASURE["P: Find buried treasure"]
+        
+        P_PROBLEM_FIND_TREASURE --> A_FIND_PALM_TREE["A: Find palm tree"]
+        A_FIND_PALM_TREE --> A_COUNT_STEPS["A: Count 5 steps east from palm"]
+        A_COUNT_STEPS --> A_DIG["A: Dig with shovel"]
+        O_RECEIVE_SHOVEL --> A_DIG
+        A_DIG --> O_TREASURE_FOUND["O: Treasure chest found"]
+        
+        O_TREASURE_FOUND --> A_OPEN_CHEST["A: Open treasure chest"]
+        A_OPEN_CHEST --> O_CHEST_CONTENTS["O: Receive treasure contents"]
+        
+        O_CHEST_CONTENTS --> C3["C3: Treasure obtained"]
+    end
+    style area_5 fill:#FFF8E1,stroke:#F9A825,stroke-width:3px
+    
+    %% =============================================================================
+    %% CAVE MAZE - Navigation (area_6 - light cyan)
+    %% =============================================================================
+    subgraph area_6["**CAVE MAZE - To Daventry**"]
+        direction TB
+        
+        C3 --> P_PROBLEM_CAVE_ENTER["P: Enter cave"]
+        
+        P_PROBLEM_CAVE_ENTER --> A_ENTER_CAVE["A: Enter cave opening"]
+        A_ENTER_CAVE --> P_PROBLEM_SNOWMAN["P: Snowman chases you"]
+        
+        P_PROBLEM_SNOWMAN --> A_CAST_FLY_CAVE["A: Cast fly spell"]
+        O_SPELL_FLIGHT --> A_CAST_FLY_CAVE
+        A_CAST_FLY_CAVE --> O_SNOWMAN_CONFUSED["O: Snowman confused"]
+        
+        O_SNOWMAN_CONFUSED --> A_NAVIGATE_PASSAGES["A: Navigate cave passages"]
+        A_NAVIGATE_PASSAGES --> O_PASSAGE_1["O: Passage 1 cleared"]
+        
+        O_PASSAGE_1 --> P_PROBLEM_SPIDER["P: Giant spider blocks path"]
+        
+        P_PROBLEM_SPIDER --> A_TRANSFORM_EAGLE["A: Transform to eagle"]
+        O_SPELL_FLIGHT & O_RECEIVE_EAGLE_FEATHER --> A_TRANSFORM_EAGLE
+        A_TRANSFORM_EAGLE --> O_EAGLE_FORM["O: Eagle form active"]
+        
+        O_EAGLE_FORM --> A_DEFEAT_SPIDER["A: Eagle talons defeat spider"]
+        A_DEFEAT_SPIDER --> O_SPIDER_DEAD["O: Spider defeated"]
+        
+        O_SPIDER_DEAD --> A_ENTER_ORACLE["A: Enter oracle chamber"]
+        A_ENTER_ORACLE --> A_GET_AMBER["A: Pick up amber stone"]
+        A_GET_AMBER --> O_RECEIVE_AMBER["O: Receive Amber Stone"]
+        
+        A_NAVIGATE_PASSAGES --> P_PROBLEM_MEDUSA["P: Medusa blocks path"]
+        
+        P_PROBLEM_MEDUSA --> A_HOLD_MIRROR["A: Hold mirror facing away"]
+        A_HOLD_MIRROR --> A_FACE_MEDUSA["A: Look at Medusa in mirror"]
+        A_FACE_MEDUSA --> O_MEDUSA_STONED["O: Medusa petrified"]
+        
+        O_MEDUSA_STONED & O_RECEIVE_AMBER --> C4["C4: Cave cleared - Daventry reached"]
+    end
+    style area_6 fill:#E0F7FA,stroke:#00838F,stroke-width:3px
+    
+    %% =============================================================================
+    %% DAVENTRY CASTLE - Rescue Rosella (area_7 - light pink)
+    %% =============================================================================
+    subgraph area_7["**DAVENTRY CASTLE - Rescue Rosella**"]
+        direction TB
+        
+        C4 --> P_PROBLEM_DRAGON["P: Three-headed dragon guards Rosella"]
+        
+        P_PROBLEM_DRAGON --> A_APPLY_INVISIBILITY["A: Apply invisibility ointment"]
+        O_SPELL_INVISIBILITY --> A_APPLY_INVISIBILITY
+        A_APPLY_INVISIBILITY --> O_INVISIBLE["O: Invisible"]
+        
+        P_PROBLEM_DRAGON --> A_PREPARE_STORM["A: Prepare storm brew"]
+        O_SPELL_STORM --> A_PREPARE_STORM
+        A_PREPARE_STORM --> O_STORM_READY["O: Storm Brew ready"]
+        
+        O_INVISIBLE --> A_APPROACH_DRAGON["A: Approach dragon undetected"]
+        O_STORM_READY --> A_CHURN_BREW["A: Stir brew and recite incantation"]
+        A_CHURN_BREW --> O_LIGHTNING_SUMMONED["O: Lightning strikes dragon"]
+        
+        O_LIGHTNING_SUMMONED --> A_DEFEAT_DRAGON["A: Dragon defeated"]
+        A_DEFEAT_DRAGON --> O_DRAGON_DEAD["O: Dragon dead"]
+        
+        O_DRAGON_DEAD --> A_UNTIE_ROSELLA["A: Untie Rosella from post"]
+        A_UNTIE_ROSELLA --> O_ROSELLA_FREE["O: Rosella freed"]
+        
+        O_ROSELLA_FREE --> A_KISS_ROSELLA["A: Kiss Rosella (bonus points)"]
+        A_KISS_ROSELLA --> C5["C5: Rosella rescued"]
+        
+        C5 --> P_PROBLEM_CASTLE_GATE["P: Castle gate blocks exit"]
+        
+        P_PROBLEM_CASTLE_GATE --> A_WALK_NORTH["A: Walk north to gate"]
+        A_WALK_NORTH --> A_WALK_NORTH_AGAIN["A: Walk north again"]
+        A_WALK_NORTH_AGAIN --> END["**END**"]
+    end
+    style area_7 fill:#FCE4EC,stroke:#C2185B,stroke-width:3px
+    
+    %% =============================================================================
+    %% CLASS DEFINITIONS
+    %% =============================================================================
+    classDef start_end fill:#FFD700,stroke:#996600,stroke-width:3px,color:#000000,font-weight:bold
+    classDef problem fill:#FFB3B3,stroke:#8B0000,stroke-width:2px,color:#8B0000
+    classDef action fill:#B3FFB3,stroke:#006400,stroke-width:2px,color:#006400
+    classDef outcome fill:#B3D9FF,stroke:#004080,stroke-width:2px,color:#004080
+    classDef consequence fill:#E8E8E8,stroke:#333333,stroke-width:2px,color:#333333
+    
+    class START,END,C1,C2,C3,C4,C5 start_end
+    classDef area_1 fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+    classDef area_2 fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+    classDef area_3 fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+    classDef area_4 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+    classDef area_5 fill:#FFF8E1,stroke:#F9A825,stroke-width:3px
+    classDef area_6 fill:#E0F7FA,stroke:#00838F,stroke-width:3px
+    classDef area_7 fill:#FCE4EC,stroke:#C2185B,stroke-width:3px
+    
+    class P_PROBLEM_SPELL_INGREDIENTS,P_PROBLEM_MANANNAN_CHECK,P_PROBLEM_BRAZIER,P_PROBLEM_POISON_PORRIDGE,P_PROBLEM_BANDIT_GOLD,P_PROBLEM_LISTEN_BANDITS,P_PROBLEM_BOARD_SHIP,P_PROBLEM_CRATE_NAV,P_PROBLEM_SHIP_ESCAPE,P_PROBLEM_SHARKS,P_PROBLEM_FIND_TREASURE,P_PROBLEM_CAVE_ENTER,P_PROBLEM_SNOWMAN,P_PROBLEM_SPIDER,P_PROBLEM_MEDUSA,P_PROBLEM_DRAGON,P_PROBLEM_CASTLE_GATE problem
+    
+    class A_OPEN_GATE,A_EXPLORE_MANANNAN_HOUSE,A_HIDE_ITEMS,A_FIND_STUDY,A_PULL_BOOK_LEVER,A_COLLECT_LAB_ITEMS,A_GO_TO_GENERAL_STORE,A_BUY_STORE_ITEMS,A_PET_DOG,A_GO_TO_THREE_BEARS,A_WAIT_HOUSE_EMPTY,A_SEARCH_BEARS_HOUSE,A_GATHER_DEW,A_GO_TO_DESERT,A_SEARCH_SAND,A_FIND_CACTUS,A_CUT_CACTUS,A_SQUEEZE_JUICE,A_GO_TO_WATERFALL,A_WAIT_EAGLE,A_CATCH_EAGLE_FEATHER,A_FIND_MISTLETOE,A_PICK_MISTLETOE,A_FILL_CUP_WATER,A_SCRAPE_MUD,A_BREW_ANIMAL_LANGUAGE,A_BREW_FLIGHT,A_BREW_SLEEP,A_BREW_CAT_COOKIE,A_BREW_STORM,A_BREW_INVISIBILITY,A_GET_PORRIDGE,A_CATCH_CAT,A_PLUCK_CAT_HAIR,A_MIX_COOKIE,A_WAIT_MANANNAN,A_FEED_MANANNAN,A_PREPARE_FLY,A_CAST_FLY,A_FLY_TO_TREEHOUSE,A_LISTEN_BANDITS,A_WAIT_BANDITS_SLEEP,A_CLIMB_ROPE,A_STEAL_COINS,A_GO_TO_TAVERN,A_PAY_PIRATES,A_BOARD_SHIP,A_MOVE_CRATE,A_STACK_CRATES,A_CLIMB_LADDER,A_GET_SHOVEL,A_WAIT_RATS,A_WAIT_LAND,A_CAST_SLEEP,A_JUMP_OVERBOARD,A_SWIM_EDGE,A_DODGE_SHARK,A_REACH_BEACH,A_FIND_PALM_TREE,A_COUNT_STEPS,A_DIG,A_OPEN_CHEST,A_ENTER_CAVE,A_CAST_FLY_CAVE,A_NAVIGATE_PASSAGES,A_TRANSFORM_EAGLE,A_DEFEAT_SPIDER,A_ENTER_ORACLE,A_GET_AMBER,A_HOLD_MIRROR,A_FACE_MEDUSA,A_APPLY_INVISIBILITY,A_PREPARE_STORM,A_APPROACH_DRAGON,A_CHURN_BREW,A_DEFEAT_DRAGON,A_UNTIE_ROSELLA,A_KISS_ROSELLA,A_WALK_NORTH,A_WALK_NORTH_AGAIN action
+    
+    class O_GATE_OPEN,O_FIND_KITCHEN_ITEMS,O_ITEMS_HIDDEN,O_SECRET_LAB,O_RECEIVE_MANDRAKE,O_RECEIVE_NIGHTSHADE,O_RECEIVE_FISHBONE,O_RECEIVE_SAFFRON,O_RECEIVE_TOAD_SPITTLE,O_RECEIVE_TOADSTOOL,O_RECEIVE_LARD,O_RECEIVE_SALT,O_RECEIVE_POUCH,O_RECEIVE_FISH_OIL,O_RECEIVE_DOG_FUR,O_RECEIVE_BOWL,O_RECEIVE_THIMBLE,O_RECEIVE_MORNING_DEW,O_RECEIVE_SNAKE_SKIN,O_RECEIVE_CACTUS_JUICE,O_RECEIVE_EAGLE_FEATHER,O_RECEIVE_MISTLETOE,O_RECEIVE_OCEAN_WATER,O_RECEIVE_MUD,O_SPELL_ANIMAL_LANGUAGE,O_SPELL_FLIGHT,O_SPELL_SLEEP,O_SPELL_CAT_COOKIE,O_SPELL_STORM,O_SPELL_INVISIBILITY,O_RECEIVE_PORRIDGE,O_RECEIVE_CAT_HAIR,O_POISON_PORRIDGE,O_MANANNAN_CAT,O_CAN_FLY,O_LEARN_BANDIT_HIDEOUT,O_RECEIVE_GOLD_COINS,O_SHIP_ACCESS,O_LADDER_ACCESS,O_RECEIVE_SHOVEL,O_TREASURE_HINT,O_CREW_ASLEEP,O_SHARK_EVADED,O_TREASURE_FOUND,O_CHEST_CONTENTS,O_SNOWMAN_CONFUSED,O_PASSAGE_1,O_EAGLE_FORM,O_SPIDER_DEAD,O_RECEIVE_AMBER,O_MEDUSA_STONED,O_INVISIBLE,O_STORM_READY,O_LIGHTNING_SUMMONED,O_DRAGON_DEAD,O_ROSELLA_FREE outcome
+    
+    class C1,C2,C3,C4,C5 consequence

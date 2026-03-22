@@ -15,6 +15,14 @@ King's Quest III is a 1986 Sierra adventure designed by Roberta Williams that us
 
 ---
 
+## Puzzle Dependency Chart
+
+![King's Quest III puzzle dependency chart](./kings-quest-iii-chart.svg)
+
+[Open chart fullscreen](./kings-quest-iii-chart.svg)
+
+---
+
 ## Puzzle 1: The Magic Spell System via Ingredient Gathering
 
 ### Problem
