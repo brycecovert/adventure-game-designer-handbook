@@ -5,6 +5,15 @@ Revolution Software's sequel refined its debut formula with multi-character coor
 
 ## At a Glance
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./broken-sword-ii-the-smoking-mirror-chart.svg?dark">
+  <img src="./broken-sword-ii-the-smoking-mirror-chart.svg" alt="Broken Sword II Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
+---
+
 | Field | Details |
 |-------|---------|
 | **Release Year** | 1997 |

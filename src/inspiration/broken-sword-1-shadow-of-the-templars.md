@@ -5,6 +5,15 @@ Revolution Software's debut adventure established the series' signature design p
 
 ## At a Glance
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./broken-sword-1-shadow-of-the-templars-chart.svg?dark">
+  <img src="./broken-sword-1-shadow-of-the-templars-chart.svg" alt="Broken Sword 1 Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
+---
+
 | Field | Details |
 |-------|---------|
 | **Release Year** | 1996 |

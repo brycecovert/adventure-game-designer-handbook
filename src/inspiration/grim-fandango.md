@@ -4,6 +4,15 @@ Grim Fandango is a 1998 LucasArts point-and-click adventure designed by Tim Scha
 
 ## At a Glance
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./grim-fandango-chart.svg?dark">
+  <img src="./grim-fandango-chart.svg" alt="Grim Fandango Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
+---
+
 | | |
 |---|---|
 | **Release Year** | 1998 |

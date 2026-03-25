@@ -4,6 +4,15 @@ Gabriel Knight: Sins of the Fathers is a 1993 Sierra adventure game designed by 
 
 ## At a Glance
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./gabriel-knight-1-sins-of-the-fathers-chart.svg?dark">
+  <img src="./gabriel-knight-1-sins-of-the-fathers-chart.svg" alt="Gabriel Knight 1 Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
+---
+
 | | |
 |---|---|
 | **Release Year** | 1993 |
