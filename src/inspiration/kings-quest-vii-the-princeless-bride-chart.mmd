@@ -1,0 +1,139 @@
+flowchart TD
+    node[fontsize=18]
+    START["**START - Rosella and Valanice Trapped in Eldritch**"] --> D_DESERT_RUINS
+
+    subgraph area_D["**DESERT RUINS - Mouse Trade Network**"]
+        D_DESERT_RUINS["D: Desert Ruins Entry"] --> P_MOUSE_CANT_SEE["P: Mouse Cant See Without Glasses"]
+        P_MOUSE_CANT_SEE --> A_LOCATE_GLASSES["A: Locate Glasses Near Rabbit Hole"]
+        A_LOCATE_GLASSES --> O_FOUND_GLASSES["O: Found Mouse Glasses"]
+
+        D_DESERT_RUINS --> A_USE_HUNTING_HORN["A: Use Hunting Horn Near Rabbit Hole Twice"]
+        O_HAVE_HUNTING_HORN -.-> A_USE_HUNTING_HORN
+        A_USE_HUNTING_HORN --> O_JACKALOPE_DROPS_FUR["O: Jackalope Drops Fur and Returns Glasses"]
+
+        O_FOUND_GLASSES --> A_KNOCK_ON_MOUSE_DOOR["A: Knock on Rare Curiosities Door"]
+        A_KNOCK_ON_MOUSE_DOOR --> A_GIVE_MOUSE_GLASSES["A: Give Mouse His Glasses"]
+        A_GIVE_MOUSE_GLASSES --> O_MOUSE_WILL_TRADE["O: Mouse Will Trade Now"]
+
+        D_DESERT_RUINS --> A_PICK_UP_GOURD_SEED["A: Pick Up Gourd Seed from Plant"]
+        A_PICK_UP_GOURD_SEED --> O_HAVE_GOURD_SEED["O: Have Gourd Seed"]
+
+        O_MOUSE_WILL_TRADE & O_HAVE_GOURD_SEED --> A_TRADE_SEED_FOR_BEAD["A: Trade Gourd Seed for Turquoise Bead"]
+        A_TRADE_SEED_FOR_BEAD --> C_D1["C_D1: Receive Turquoise Bead"]
+        C_D1 --> O_RECEIVE_TURQUOISE_BEAD["O: Receive Turquoise Bead"]
+    end
+    style area_D fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    subgraph area_DC["**DESERT - Corn and Caves**"]
+        D_DESERT_RUINS --> A_FIND_CORN_KERNEL["A: Find Corn Kernel"]
+        A_FIND_CORN_KERNEL --> O_HAVE_CORN_KERN["O: Have Corn Kernel"]
+        O_HAVE_CORN_KERN --> A_PLANT_CORN["A: Plant Corn in Damp Soil"]
+        A_PLANT_CORN --> A_WAIT_GROWTH["A: Wait for Corn to Grow"]
+        A_WAIT_GROWTH --> O_CORN_READY["O: Corn Ear Ready"]
+        O_CORN_READY --> A_HARVEST_CORN["A: Harvest Corn Ear"]
+        A_HARVEST_CORN --> C_DC1["C_DC1: Got Corn Access Statue and Hieroglyphs"]
+
+        C_DC1 --> P_STATUE_BEAD_PUZZLE["P: Move All Beads to Column 3 on Statue"]
+        O_RECEIVE_TURQUOISE_BEAD -.-> P_STATUE_BEAD_PUZZLE
+        P_STATUE_BEAD_PUZZLE --> A_CLICK_BEADS_TO_MOVE["A: Click Beads to Move Them"]
+        A_CLICK_BEADS_TO_MOVE --> O_ALLB3["O: All Beads in Column 3"]
+        O_ALLB3 --> C_DC2["C_DC2: Pool Drains Stairs Revealed"]
+
+        C_DC2 --> P_HIEROGLYPHS["P: Decode Hieroglyphic Clues on Walls"]
+        P_HIEROGLYPHS --> A_READ_SYMBOLS["A: Read Symbols on Walls"]
+        A_READ_SYMBOLS --> O_LEARN_COMBINATIONS["O: Learn Lock Combinations"]
+        O_LEARN_COMBINATIONS --> C_DC3["C_DC3: Sealed Doors Openable"]
+    end
+    style area_DC fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    subgraph area_T1["**DYE-MAKERS - Kitchen and Potion Ingredients**"]
+        C_TROLL_ENTRY["C_TROLL: Valanice as Troll in Dye-Makers Cave"] --> P_CHEF_BLOCKED["P: Chef Blocks Kitchen While Working"]
+        P_CHEF_BLOCKED --> A_GET_TOY_RAT["A: Get Toy Rat From Nearby"]
+        O_HAVE_TOY_RAT -.-> A_DISTRACT_CHEF["A: Use Toy Rat to Distract Chef"]
+        A_DISTRACT_CHEF --> C_T1_1["C_T1_1: Kitchen Access Gained"]
+
+        C_T1_1 --> A_EXAMINE_BOWLS["A: Examine Bowl Bottoms for Markings"]
+        A_EXAMINE_BOWLS --> O_FIND_16K_GOLD["O: Find Bowl Marked 16k Gold"]
+        C_T1_1 --> A_COLLECT_BEETLES["A: Collect Baked Beetles from Shelf Area"]
+        A_COLLECT_BEETLES --> O_HAVE_BEETLES["O: Have Baked Beetles"]
+    end
+    style area_T1 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    subgraph area_T2["**DYE-MAKERS - Water and Spoon Collection**"]
+        O_FIND_16K_GOLD --> C_ENTER_VATS["C_ENTER: Enter Dye-Makers Vat Area"]
+        C_ENTER_VATS --> A_FILL_BOWL_GREEN["A: Fill Gold Bowl with Green Water from Vat"]
+        A_FILL_BOWL_GREEN --> O_HAVE_GREEN_WATER["O: Have Green Water in Bowl"]
+
+        C_ENTER_VATS --> P_NEED_FIRE_FOR_SULFUR["P: Need Fire to Burn Sulfur for Knockout"]
+        P_NEED_FIRE_FOR_SULFUR --> A_LIGHT_LANTERN["A: Light Lantern at Fire Source"]
+        A_LIGHT_LANTERN --> O_LANTERN_LIT["O: Lantern Lit"]
+        O_LANTERN_LIT --> A_BURN_SULFUR["A: Burn Sulfur to Knock Out Troll Worker"]
+        A_BURN_SULFUR --> C_T2_1["C_T2_1: Troll Unconscious Can Access Items"]
+
+        C_T2_1 --> A_COLLECT_TONGS["A: Collect Tongs from Troll"]
+        A_COLLECT_TONGS --> O_HAVE_TONGS["O: Have Tongs Optional"]
+
+        C_TROLL_ENTRY --> P_SPOON_IN_BOX["P: Silver Spoon in Box Must Submerge Box"]
+        P_SPOON_IN_BOX --> A_PUT_BOX_IN_WATER["A: Put Box with Spoon into Bucket of Water"]
+        A_PUT_BOX_IN_WATER --> O_SPOON_REVEALED["O: Silver Spoon Revealed"]
+        O_SPOON_REVEALED --> A_GRAB_SPOON["A: Grab Silver Spoon from Water"]
+        A_GRAB_SPOON --> O_HAVE_SPOON["O: Have Silver Spoon"]
+    end
+    style area_T2 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    subgraph area_TE["**DYE-MAKERS - Cart Escape and Dragon Scale**"]
+        O_HAVE_SPOON & O_HAVE_GREEN_WATER --> P_ESCAPE_GUARD["P: Must Escape Past Guard Without Capture"]
+        P_ESCAPE_GUARD --> A_FIX_CART_WHEEL["A: Fix Cart Wheel with Shield plus Spike"]
+        O_HAVE_SHIELD -.-> A_FIX_CART_WHEEL
+        A_FIX_CART_WHEEL --> A_RIDE_CART_AWAY["A: Ride Away on Repaired Cart Rapidly"]
+        A_RIDE_CART_AWAY --> C_TE_1["C_TE_1: Escaped Back to Main Area"]
+
+        C_TE_1 & O_HAVE_GEM -.-> P_DRAGON_SCALE["P: Need Scale from White Dragon for Potion"]
+        P_DRAGON_SCALE --> A_TRADE_GEM_FOR_TOOLS["A: Trade Gem to Worker for Hammer plus Chisel"]
+        O_HAVE_GEM -.-> A_TRADE_GEM_FOR_TOOLS
+        A_TRADE_GEM_FOR_TOOLS --> O_HAVE_HAMMR_CHSIL["O: Have Hammer and Chisel"]
+        O_HAVE_HAMMR_CHSIL --> A_HIT_WHITE_DRAGON["A: Use Tools on White Dragon to Remove Scale"]
+        A_HIT_WHITE_DRAGON --> C_TE_2["C_TE_2: Scale Obtained Ingredients Nearly Complete"]
+    end
+    style area_TE fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    subgraph area_TR["**TROLL PRINCESS - Transformation Reversal**"]
+        C_TE_2 --> O_SCALE_COLLECTED["O: Dragon Scale from White Dragon"]
+        O_FIND_16K_GOLD -.-> O_BOWL_GRN_WATR_RDY["O: Have Gold Bowl with Green Water"]
+        O_HAVE_BEETLES -.-> FIVE_COMP_READY["**ALL 5 COMPONENTS READY**"]
+        O_HAVE_SPOON -.-> FIVE_COMP_READY
+        O_SCALE_COLLECTED -.-> FIVE_COMP_READY
+        O_BOWL_GRN_WATR_RDY -.-> FIVE_COMP_READY
+
+        FIVE_COMP_READY --> P_GIVE_TO_MATHILDE["P: Give All Five Components to Mathilde for Potion"]
+        P_GIVE_TO_MATHILDE --> A_PRESENT_INGREDIENTS["A: Present Bowl plus Water Beetles Spoon Scale to Mathilde"]
+        A_PRESENT_INGREDIENTS --> C_TR_1["C_TR_1: Valanice Troll Form Reverted Back to Human"]
+        C_TR_1 --> O_SPOON_MELTS_PELLET["O: Silver Spoon Melts Into Reusable Pellet"]
+        C_TR_1 --> END_VALANICE["**END VALANICE ARC - Both Protagonists Free**"]
+    end
+    style area_TR fill:#E0F7FA,stroke:#00838F,stroke-width:3px
+
+    subgraph area_E["**ETHERIA - Harmonic Harp Pattern Memory**"]
+        C_ETHERIA_ENTRY["C_ETHERIA: Rosella Arrives in Etheria Dream Realm"] --> P_LEARN_HARP_MELODY["P: Must Learn 7-String Harp Melody for Inter-Realm Travel"]
+        P_LEARN_HARP_MELODY --> A_ENTER_SECOND_SCREEN["A: Enter Second Screen After First Arrival"]
+        A_ENTER_SECOND_SCREEN --> O_BIRDS_DANCE_REVEAL["O: Birds Dance Around Harp Reveal String Positions"]
+        O_BIRDS_DANCE_REVEAL --> A_MEMORIZE_PATTERN["A: Memorize Which Strings Birds Visit During Dance"]
+        A_MEMORIZE_PATTERN --> C_RETURN_HARP["C_RETURN: Return to Harp on Next Visit Memory Only"]
+
+        C_RETURN_HARP --> P_PLAY_SEQ_FROM_MEMORY["P: Play Sequence 1-5-6-4 from Memory Without Re-observing"]
+        P_PLAY_SEQ_FROM_MEMORY --> A_PRESS_STR_1["A: Press String 1 Left-numbered"]
+        A_PRESS_STR_1 --> A_PRESS_STR_5["A: Press String 5"]
+        A_PRESS_STR_5 --> A_PRESS_STR_6["A: Press String 6"]
+        A_PRESS_STR_6 --> A_PRESS_STR_4["A: Press String 4"]
+
+        A_PRESS_STR_1 & A_PRESS_STR_5 & A_PRESS_STR_6 & A_PRESS_STR_4 --> C_E_1["C_E_1: Harp Melody Complete Realm Travel Unlocked"]
+        C_E_1 --> O_PORTAL_ACTIVE["O: Can Travel Between Etheria Fates Island Ceres Tree"]
+        O_PORTAL_ACTIVE --> END_ETHERIA["**END ETHERIA ARC - Multi-Realm Portal Accessible**"]
+    end
+    style area_E fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+
+    classDef start_end fill:#FFD700,stroke:#996600,stroke-width:3px,color:#000000,font-weight:bold
+    classDef consequence fill:#E8E8E8,stroke:#333333,stroke-width:2px,color:#333333
+
+    class START,END_VALANICE,END_ETHERIA start_end
+    class C_D1,C_DC1,O_ALLB3,C_DC2,C_DC3,C_T1_1,C_T2_1,C_TE_1,C_TR_1,FIVE_COMP_READY,C_E_1 consequence

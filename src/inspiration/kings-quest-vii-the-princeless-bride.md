@@ -13,6 +13,13 @@ King's Quest VII is a 1994 Sierra On-Line adventure designed by Roberta Williams
 
 ![Game overview screenshot — Rosella and Valanice separated by magical whirlpool](./kings-quest-vii-the-princeless-bride-overview.png)
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./kings-quest-vii-the-princeless-bride-chart.svg?dark">
+  <img src="./kings-quest-vii-the-princeless-bride-chart.svg" alt="King's Quest VII The Princeless Bride Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
 ---
 
 ## Puzzle 1: The Mouse Rare Curiosities Trade Network
