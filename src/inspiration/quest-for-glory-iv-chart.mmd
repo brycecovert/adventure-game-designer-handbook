@@ -1,0 +1,123 @@
+flowchart TD
+    node[fontsize=18]
+    START["**START**"] --> ARRIVE
+
+    subgraph town["**PLAZA & TOWN**"]
+        ARRIVE["A: Arrive Plaza Square"] --> C1["C1: Game Begins"]
+        C1 -.-> CAN_TRAVEL["O: Can Travel Mordavia Anytime"]
+        C1 --> TAKE_TRAIN["P: Take Train to Antwerp"]
+        TAKE_TRAIN --> BOARD_TRAIN["A: Board Train"]
+        BOARD_TRAIN --> ANTWERP_STATION["O: Arrive Antwerp Station"]
+    end
+    
+    subgraph cranium["**DR CRANIUM LAB META PUZZLE**"]
+        ANTWERP_STATION --> FIND_HOUSE["P: Find Cranium House"]
+        FIND_HOUSE --> OBSERVE_BELL["A: Observe Doorbell Pattern"]
+        OBSERVE_BELL --> REPEAT_BELL["A: Repeat Sequence Exactly"]
+        REPEAT_BELL --> ROOM1["O: Enter Room with Antwerps"]
+        
+        ROOM1 --> TRAP_DEVICE["P: Use TRAP for Species ID"]
+        TRAP_DEVICE --> BINARY_Q["A: Binary Questions bounces?legs?sings?"]
+        BINARY_Q --> IDENTIFIED["O: Baby Antwerp Identified"]
+        
+        IDENTIFIED --> PLACE_BAIT["A: Place Avocado in TRAP"]
+        PLACE_BAIT --> CAPTURED["O: Antwerp Captured"]
+        
+        CAPTURED --> KEY_MAZE["P: Rotate Key Maze"]
+        KEY_MAZE --> AVOID_HOLES["A: Keep Away from Holes"]
+        AVOID_HOLES --> BOUNCE_KEY["A: Bounce to Key Location"]
+        BOUNCE_KEY --> KEY_OBTAINED["O: Key Retrieved"]
+        
+        KEY_OBTAINED --> PANEL_LOCK["P: Sliding Panel Keyhole"]
+        PANEL_LOCK --> ARRANGE_PANELS["A: Arrange Colored Silhouettes"]
+        ARRANGE_PANELS --> C_LAB["C: Inner Lab Access"]
+    end
+    
+    subgraph pie["**BABA YAGA PIE MULTI FACETED PLAN**"]
+        C1 -.-> NE_3_INGREDIENTS["P: Need 3 Ingredients"]
+        
+        NE_3_INGREDIENTS --> GET_BONE["A: Get Bone Erana Garden"]
+        GET_BONE --> HAVE_BONE["O: Have Bone"]
+        
+        NE_3_INGREDIENTS --> GET_GOO["A: Get Grue Goo Squid Stone"]
+        GET_GOO --> FILL_FLASK["A: Fill Flask with Goo"]
+        FILL_FLASK --> HAVE_GOO["O: Have Swamp Goo"]
+        
+        NE_3_INGREDIENTS --> GET_BERRIES["A: Get Elderberries Bush"]
+        GET_BERRIES -.-> THROW_ROCKS_BUSH["A: Fighter Throw Rocks"]
+        GET_BERRIES -.-> FORCEBOLT_BUSH["A: Wizard Force Bolt"]
+        THROW_ROCKS_BUSH --> HAVE_BERRIES["O: Have Berries"]
+        FORCEBOLT_BUSH --> HAVE_BERRIES
+        
+        HAVE_BONE & HAVE_GOO & HAVE_BERRIES --> ASSEMBLE_PIE["P: Grind Bone Assemble Fry"]
+        
+        ASSEMBLE_PIE -.-> FEED_CORN["A: Feed Corn to Hut"]
+        FEED_CORN --> ENTER_HUT["A: Enter Baba Yaga Hut"]
+        ENTER_HUT -.-> GIVE_HAT["P: Give Ghost Hat Skull"]
+        GIVE_HAT --> GRIND_BONE["A: Grind in Mortar"]
+        
+        GRIND_BONE & HAVE_GOO & HAVE_BERRIES --> COMBINE_PIE["A: Combine Ingredients on Pan"]
+        COMBINE_PIE --> FRY_SKULL["A: Operate Skull to Fry"]
+        FRY_SKULL --> GIVE_PIE["A: Give Pie to Baba Yaga"]
+        GIVE_PIE --> GET_GIFTS["O: Get Hide Heal Sense Gifts"]
+    end
+    
+    subgraph cipher["**AVOOZL PATTERN LEARNING**"]
+        C_LAB -.-> HAVE_ITEMS["O: Have Items from Cranium"]
+        
+        C1 -.-> COLLECT_WISPS["A: Collect Wisp Bottles Swamp"]
+        C1 -.-> GET_SYMBOL["A: Get Dark One Symbol"]
+        
+        COLLECT_WISPS & GET_SYMBOL --> SQUID_PILLAR["P: Activate Pillar"]
+        SQUID_PILLAR --> PLACE_BOTTLES["A: Place Wisps on Base"]
+        PLACE_BOTTLES --> USE_SYMBOL["A: Use Symbol Activate Dial"]
+        USE_SYMBOL --> CIPHER_ACTIVE["O: Cipher Active"]
+        
+        CIPHER_ACTIVE --> LEARN_SEQ["P: Learn 6-Color Sequence"]
+        LEARN_SEQ -.-> NOTE_WALLS["A: Note Wall Letters Clue"]
+        NOTE_WALLS --> LETTERS_NOTED["O: AVOOZL Noted"]
+        
+        LETTERS_NOTED --> CLICK_DIAL["P: Click Dial Correctly"]
+        CLICK_DIAL -.-> OBSERVE_PATTERN["A: Observe Advance vs Reset"]
+        OBSERVE_PATTERN --> AVOID_ERRORS["A: Avoid Mistakes"]
+        
+        AVOID_ERRORS --> COMPLETE_AVOOZL["A: Complete Sequence"]
+        COMPLETE_AVOOZL --> FIRST_RITUAL["O: 1st Ritual Scroll"]
+        
+        FIRST_RITUAL -.-> MONASTERY_FLOOR["P: Monastery BORGOV Tiles"]
+        FIRST_RITUAL -.-> WRAITH_REUSE["P: Reuse at Wraith Barrow"]
+        
+        MONASTERY_FLOOR -.-> DESCEND_Passage["A: Fireplace to Crypt"]
+        DESCEND_Passage --> USE_CREST["A: Use Crest on Floor"]
+        USE_CREST --> CLICK_COLORS["A: BlueOrangeRedGreenOrangeViolet"]
+        CLICK_COLORS --> C_MONASTERY["C: Castle Accessible"]
+        
+        WRAITH_REUSE -.-> REUSE_AVOOZL["A: Same AVOOZL Pattern"]
+        REUSE_AVOOZL --> BLOOD_RITUAL_KEYS["O: Blood Ritual + Keys"]
+    end
+    
+    subgraph final["**FINAL DARK ONE**"]
+        FIRST_RITUAL & BLOOD_RITUAL_KEYS --> THREE_RITUALS["P: Complete 3rd Ritual"]
+        THREE_RITUALS -.-> USE_KEYS["A: Use Vault Keys Doors"]
+        USE_KEYS --> TREASURE_ACCESS["O: Treasure Accessible"]
+        
+        FIRST_RITUAL & THREE_RITUALS --> C_ALL_RITUALS["C: All 3 Complete"]
+        C_ALL_RITUALS --> DARK_FIGHT["P: Final Battle"]
+        
+        DARK_FIGHT -.-> RESCUE_KAT["A: Hammer Stake Katrina 3Days"]
+        RESCUE_KAT --> KATRINA_SAFE["O: Not Vampire Anymore"]
+        
+        DARK_FIGHT -.-> CLASS_COMBAT["A: Class Combat Solution"]
+        
+        KATRINA_SAFE & CLASS_COMBAT --> END["**END DARK ONE DEFEATED**"]
+    end
+
+    classDef se fill:#FFD700,stroke:#996600,stroke-width:3px,color:#000,font-weight:bold
+    classDef prob fill:#FFB3B3,stroke:#8B0000,stroke-width:2px,color:#8B0000
+    
+    class START,END,C1,C_LAB,C_MONASTERY,C_ALL_RITUALS se
+    style town fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+    style cranium fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+    style pie fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+    style cipher fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+    style final fill:#FFECB3,stroke:#F57F17,stroke-width:3px
