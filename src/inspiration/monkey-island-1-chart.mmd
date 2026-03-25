@@ -1,0 +1,159 @@
+flowchart TD
+    %% =============================================================================
+    %% FONT SIZE & CONFIGURATION
+    %% =============================================================================
+    node[fontsize=18]
+    START["**START**"] --> A_TALK_TO_BARKEEP["A: Talk to Bartender"]
+    START --> A_EXPLORE_MELEE["A: Explore Melee Island"]
+    A_EXPLORE_MELEE --> A_FIND_MAP_VENDOR["A: Find Map Vendor"]
+    A_FIND_MAP_VENDOR --> A_BUY_MAP_PIECES
+
+    %% =============================================================================
+    %% MELEE ISLAND - Scumm Bar & Town (area_1 - light blue)
+    %% =============================================================================
+    subgraph area_1["**MELEE ISLAND - Scumm Bar & Town**"]
+        A_TALK_TO_BARKEEP["A: Talk to Bartender"] --> O_RECEIVE_JOIN_CONDITIONS["O: Learn Three Trials"]
+        O_RECEIVE_JOIN_CONDITIONS --> A_GET_KEY["A: Get Scumm Bar Key"]
+        A_GET_KEY --> O_RECEIVE_KEY["O: Receive Key"]
+
+        O_RECEIVE_KEY --> A_UNLOCK_LOOKOUT["A: Unlock Lookout"]
+        A_UNLOCK_LOOKOUT --> O_LOOKOUT_ACCESS["O: Lookout Unlocked"]
+
+        O_LOOKOUT_ACCESS --> A_USE_SPYGLASS["A: Use Spyglass"]
+        A_USE_SPYGLASS --> O_SEE_SHIPWRECK["O: See Shipwreck Island"]
+        O_SEE_SHIPWRECK --> O_TRIAL_TREASURE_COMPLETE
+
+        O_RECEIVE_JOIN_CONDITIONS --> P_TRIAL_SWORD["P: Trial 1 - Sword Fighting"]
+        O_RECEIVE_JOIN_CONDITIONS --> P_TRIAL_THIEVERY["P: Trial 2 - Thievery"]
+        O_RECEIVE_JOIN_CONDITIONS --> P_TRIAL_TREASURE["P: Trial 3 - Treasure Map"]
+
+        %% Sword Fighting Trial
+        P_TRIAL_SWORD --> A_GO_TO_BEACH["A: Go to Beach"]
+        A_GO_TO_BEACH --> A_FIGHT_SWORDMASTER["A: Challenge Swordmaster"]
+        A_FIGHT_SWORDMASTER --> O_LOSE_FIRST_FIGHT["O: Lose First Fight"]
+        O_LOSE_FIRST_FIGHT --> A_LEARN_INSULTS["A: Learn Insults from Pirates"]
+        A_LEARN_INSULTS --> O_RECEIVE_COMEBACKS["O: Learn Comebacks"]
+        O_RECEIVE_COMEBACKS --> A_CHALLENGE_AGAIN["A: Challenge Swordmaster Again"]
+        A_CHALLENGE_AGAIN --> O_TRIAL_SWORD_COMPLETE["O: Sword Trial Complete"]
+
+        %% Thievery Trial
+        P_TRIAL_THIEVERY --> A_GO_TO_GRAVEYARD["A: Go to Graveyard"]
+        A_GO_TO_GRAVEYARD --> A_USE_SHOVEL["A: Use Shovel on Grave"]
+        A_USE_SHOVEL --> O_RECEIVE_DIRT["O: Receive Shovelful of Dirt"]
+        O_RECEIVE_DIRT --> A_GO_TO_CARPENTER["A: Go to Carpenter Shop"]
+        A_GO_TO_CARPENTER --> A_GIVE_DIRT_TO_DOG["A: Give Dirt to Dog"]
+        A_GIVE_DIRT_TO_DOG --> O_DOG_DISTRACTED["O: Dog Distracted"]
+        O_DOG_DISTRACTED --> A_GET_RUBBER_CHICKEN["A: Take Rubber Chicken"]
+        A_GET_RUBBER_CHICKEN --> O_RECEIVE_RUBBER_CHICKEN["O: Receive Rubber Chicken"]
+        O_RECEIVE_RUBBER_CHICKEN --> O_TRIAL_THIEVERY_COMPLETE["O: Thievery Trial Complete"]
+
+        %% Treasure Map Trial
+        P_TRIAL_TREASURE --> A_BUY_MAP_PIECES["A: Buy Map Pieces from Vendor"]
+        A_BUY_MAP_PIECES --> O_RECEIVE_MAP_INFO["O: Learn Map Piece Locations"]
+        O_RECEIVE_MAP_INFO --> O_TRIAL_TREASURE_COMPLETE["O: Map Trial Complete"]
+    end
+    style area_1 fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+
+    %% =============================================================================
+    %% GATEWAY: Three Trials Complete - Get Ship and Crew
+    %% =============================================================================
+    O_TRIAL_SWORD_COMPLETE & O_TRIAL_THIEVERY_COMPLETE & O_TRIAL_TREASURE_COMPLETE --> C1["C1: All Trials Complete"]
+    C1 --> A_SHOW_MAP_TO_DOCKMASTER["A: Show Map Pieces to Dockmaster"]
+    A_SHOW_MAP_TO_DOCKMASTER --> O_RECEIVE_SHIP["O: Receive Ship and Crew"]
+
+    %% =============================================================================
+    %% UNLOCK: Island Travel
+    %% =============================================================================
+    O_RECEIVE_SHIP --> UNLOCK_ISLAND_TRAVEL["**UNLOCK: Island Travel**"]
+    UNLOCK_ISLAND_TRAVEL --> P_SCABB_ISLAND["P: Scabb Island - Get Map Piece"]
+    UNLOCK_ISLAND_TRAVEL --> P_BOOTY_ISLAND["P: Booty Island - Get Map Piece"]
+    UNLOCK_ISLAND_TRAVEL --> P_PHATT_ISLAND["P: Phatt Island - Get Map Piece"]
+
+    %% =============================================================================
+    %% SCABB ISLAND - Governor's Mansion (area_2 - light orange)
+    %% =============================================================================
+    subgraph area_2["**SCABB ISLAND - Governor's Mansion**"]
+        P_SCABB_ISLAND --> A_EXPLORE_SCABB["A: Explore Scabb Town"]
+        A_EXPLORE_SCABB --> A_FIND_MANSION["A: Find Governor's Mansion"]
+        A_FIND_MANSION --> P_MANSION_LOCKED["P: Mansion Guarded"]
+
+        P_MANSION_LOCKED --> A_CREATE_DIVERSION["A: Create Diversion"]
+        A_CREATE_DIVERSION --> A_GET_OIL["A: Get Can of Oil"]
+        A_GET_OIL --> O_RECEIVE_OIL["O: Receive Oil"]
+        
+        O_RECEIVE_OIL --> A_OIL_CHANDELIER["A: Oil Chandelier Pulley"]
+        O_RECEIVE_RUBBER_CHICKEN --> A_CHICKEN_ON_PULLEY["A: Use Rubber Chicken on Pulley"]
+        A_OIL_CHANDELIER & A_CHICKEN_ON_PULLEY --> O_CHANDALIER_FALLS["O: Chandelier Falls"]
+        
+        O_CHANDALIER_FALLS --> C2["C2: Diversion Created"]
+        C2 --> A_SNEAK_UPSTAIRS["A: Sneak Upstairs"]
+        A_SNEAK_UPSTAIRS --> A_OPEN_SAFE["A: Open Safe"]
+        A_OPEN_SAFE --> O_RECEIVE_SCABB_MAP["O: Receive Scabb Map Piece"]
+    end
+    style area_2 fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    %% =============================================================================
+    %% BOOTY ISLAND - Cannibal Village (area_3 - light purple)
+    %% =============================================================================
+    subgraph area_3["**BOOTY ISLAND - Cannibal Village**"]
+        P_BOOTY_ISLAND --> A_EXPLORE_SWAMP["A: Explore Swamp"]
+        A_EXPLORE_SWAMP --> A_FIND_CANNIBALS["A: Find Cannibal Village"]
+        A_FIND_CANNIBALS --> P_CAPTURED_BY_CANNIBALS["P: Captured by Cannibals"]
+
+        P_CAPTURED_BY_CANNIBALS --> A_ESCAPE_POT["A: Escape Cooking Pot"]
+        A_ESCAPE_POT --> O_RECEIVE_CANNIBAL_FREEDOM["O: Escape from Pot"]
+        O_RECEIVE_CANNIBAL_FREEDOM --> A_BECOME_LEADER["A: Become Cannibal Leader"]
+        A_BECOME_LEADER --> O_RECEIVE_BOOTY_MAP["O: Receive Booty Map Piece"]
+    end
+    style area_3 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    %% =============================================================================
+    %% PHATT ISLAND - Governor's Mansion (area_4 - light green)
+    %% =============================================================================
+    subgraph area_4["**PHATT ISLAND - Governor's Mansion**"]
+        P_PHATT_ISLAND --> A_EXPLORE_PHATT["A: Explore Phatt Island"]
+        A_EXPLORE_PHATT --> A_FIND_PHATT_MANSION["A: Find Governor Phatt's Mansion"]
+        A_FIND_PHATT_MANSION --> A_SEARCH_LIBRARY["A: Search Library"]
+        A_SEARCH_LIBRARY --> O_RECEIVE_PHATT_MAP["O: Receive Phatt Map Piece"]
+    end
+    style area_4 fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+
+    %% =============================================================================
+    %% CONVERGENCE: All Map Pieces - Find LeChuck's Fortress
+    %% =============================================================================
+    O_RECEIVE_SCABB_MAP & O_RECEIVE_BOOTY_MAP & O_RECEIVE_PHATT_MAP --> C3["C3: All Map Pieces Collected"]
+    C3 --> A_COMBINE_MAPS["A: Combine Map Pieces"]
+    A_COMBINE_MAPS --> O_RECEIVE_COMPLETE_MAP["O: Receive Complete Map"]
+    O_RECEIVE_COMPLETE_MAP --> O_FORTRESS_LOCATION["O: Fortress Location Revealed"]
+
+    O_FORTRESS_LOCATION --> UNLOCK_FORTRESS_ACCESS["**UNLOCK: Fortress Access**"]
+    UNLOCK_FORTRESS_ACCESS --> P_SAIL_TO_FORTRESS["P: Sail to LeChuck's Fortress"]
+
+    %% =============================================================================
+    %% LECHUCK'S FORTRESS - Infiltration (area_5 - light yellow)
+    %% =============================================================================
+    subgraph area_5["**LECHUCK'S FORTRESS - Infiltration**"]
+        P_SAIL_TO_FORTRESS --> A_NAVIGATE_FORTRESS["A: Navigate Fortress Grounds"]
+        A_NAVIGATE_FORTRESS --> A_FIND_KITCHEN["A: Find Kitchen"]
+        A_FIND_KITCHEN --> A_GET_ROOT_BEER["A: Get Root Beer"]
+        A_GET_ROOT_BEER --> O_RECEIVE_ROOT_BEER["O: Receive Root Beer"]
+
+        A_NAVIGATE_FORTRESS --> A_FIND_CHAPEL["A: Find Chapel"]
+        A_FIND_CHAPEL --> P_LECHUCK_FIGHT["P: Confront LeChuck"]
+        P_LECHUCK_FIGHT --> A_USE_ROOT_BEER
+        P_LECHUCK_FIGHT --> A_USE_ROOT_BEER
+    end
+    style area_5 fill:#FFF8E1,stroke:#F9A825,stroke-width:3px
+
+    %% =============================================================================
+    %% FINAL: Defeat LeChuck and Rescue Elaine
+    %% =============================================================================
+    O_RECEIVE_ROOT_BEER --> A_USE_ROOT_BEER["A: Use Root Beer on LeChuck"]
+    A_USE_ROOT_BEER --> O_LECHUCK_DEFEATED["O: LeChuck Defeated"]
+    O_LECHUCK_DEFEATED --> A_RESCUE_ELAINE["A: Rescue Elaine"]
+    A_RESCUE_ELAINE --> O_ELAINE_FREED["O: Elaine Freed"]
+
+    O_ELAINE_FREED --> A_ESCAPE_FORTRESS["A: Escape Fortress"]
+    A_ESCAPE_FORTRESS --> A_RETURN_TO_MELEE["A: Return to Melee Island"]
+    A_RETURN_TO_MELEE --> O_BECOME_PIRATE["O: Become Pirate"]
+    O_BECOME_PIRATE --> END["**END**"]

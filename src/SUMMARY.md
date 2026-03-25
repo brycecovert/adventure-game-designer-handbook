@@ -85,6 +85,7 @@ A practical handbook for designing puzzles in point-and-click adventure games.
 - [King's Quest VIII: Mask of Eternity (1998)](inspiration/kings-quest-viii-mask-of-eternity.md)
 - [The Legend of Kyrandia: Book One (1992)](inspiration/the-legend-of-kyrandia-book-one.md)
 - [Maniac Mansion (1987)](inspiration/maniac-mansion.md)
+- [Monkey Island 1: The Secret of Monkey Island (1990)](inspiration/monkey-island-1-the-secret-of-monkey-island.md)
 - [Quest for Glory 1: Shadows of Darkness (1989)](inspiration/quest-for-gloves-1-shadows-of-darkness.md)
 - [Quest for Glory II: Trial by Fire (1989)](inspiration/quest-for-glory-ii-trial-by-fire.md)
 - [Quest for Glory III: Wages of War (1992)](inspiration/quest-for-glory-iii-wages-of-war.md)
