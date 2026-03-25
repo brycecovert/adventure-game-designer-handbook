@@ -4,6 +4,8 @@
   - Pattern Learning: Insult sword fighting (7 pairs memorized and applied)
   - Multi-Faceted Plan: Four map pieces gathered in parallel across islands
   - Sensory Exploitation: Root beer defeats ghost LeChuck
+- [x] **Generate monkey-island-1-chart.svg**
+  - Converted .mmd to .svg using mermaid-cli/mmdc
 
 ---
 
