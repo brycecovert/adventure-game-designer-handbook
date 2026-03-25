@@ -13,6 +13,13 @@ King's Quest VIII: Mask of Eternity is a 1998 Sierra On-Line action-adventure de
 
 ![Game overview screenshot — Connor standing in Daventry village with Mask fragment floating above ground](./kings-quest-viii-mask-of-eternity-overview.png)
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./kings-quest-viii-mask-of-eternity-chart.svg?dark">
+  <img src="./kings-quest-viii-mask-of-eternity-chart.svg" alt="King's Quest VIII Mask of Eternity Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
 ---
 
 ## Puzzle 1: The Scales of Justice Balance

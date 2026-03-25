@@ -1,0 +1,114 @@
+flowchart TD
+    node[fontsize=18]
+    START["**START - Connor in Stoned Village**"] --> D_DIMENSION_DEATH
+    START --> R_VILLAGE_START
+
+    subgraph area_D["**DIMENSION OF DEATH - Scales of Justice**"]
+        D_DIMENSION_DEATH["D: Enter Dimension of Death Fountain Area"] --> P_FIND_SCALE_RIDDLES["P: Find Numerical Riddles on Distant Walls"]
+
+        P_FIND_SCALE_RIDDLES --> A_EXPLORE_RIGHT_PASSAGE["A: Explore Right Passage After Fountain"]
+        A_EXPLORE_RIGHT_PASSAGE --> O_READ_RIDDLE_3["O: Read Three Holds Key to Creation"]
+
+        P_FIND_SCALE_RIDDLES --> A_EXPLORE_LEFT_PATH["A: Explore Left Path Toward Boatman"]
+        A_EXPLORE_LEFT_PATH --> O_READ_RIDDLE_7["O: Read 7 Holds Key to Rhythms of Life"]
+
+        D_DIMENSION_DEATH --> C_HALL_WAR_ENTRY["C_HW: Enter Hall of War"]
+        C_HALL_WAR_ENTRY --> P_HEADLESS_STATUE_NEEDS_SKULL["P: Headless Statue Requires Skull for Feather"]
+        O_HAVE_SKULL -.-> P_HEADLESS_STATUE_NEEDS_SKULL
+
+        P_HEADLESS_STATUE_NEEDS_SKULL --> A_PLACE_SKULL_ON_STATUE["A: Place Skull on Headless Statue"]  
+        A_PLACE_SKULL_ON_STATUE --> A_GRAB_FEATHER_FROM_STATUE["A: Grab Feather from Now Whole Statue"]
+        A_GRAB_FEATHER_FROM_STATUE --> O_HAVE_FEATHER["O: Have Feather Weight Equals 3"]
+
+        D_DIMENSION_DEATH --> C_HALL_JUSTICE_ENTRY["C_HJ: Enter Hall of Justice with Scales and Bleeding Heart"]
+
+        O_READ_RIDDLE_3 & O_READ_RIDDLE_7 & O_HAVE_FEATHER -.-> BALANCE_SCALES_READY["**READY TO BALANCE SCALES**"]
+
+        BALANCE_SCALES_READY --> P_BALANCE_THE_SCALES["P: Balance the Two Scale Pans to Heal Heart"]
+        P_BALANCE_THE_SCALES --> A_PLACE_FEATHER_RIGHT_PAN["A: Place Feather on Right Pan Weight Equals 3"]
+        A_PLACE_FEATHER_RIGHT_PAN --> A_JUMP_ON_LEFT_PAN["A: Jump on Left Pan for Counterweight Player Weight Equals 4"]
+
+        A_PLACE_FEATHER_RIGHT_PAN & A_JUMP_ON_LEFT_PAN --> C_D_1["C_D_1: Scales Balanced Heart Healed Blood Subsides"]
+        C_D_1 --> O_HEART_BEATING_NORMAL["O: Heart Beating Blood Pooled Below for Mold Collection"]
+        O_HEART_BEATING_NORMAL --> A_COLLECT_MOLD_FROM_POOL["A: Collect Mold from Blood Pool"]  
+        A_COLLECT_MOLD_FROM_POOL --> O_HAVE_MOLD["O: Have Mold For Sylph Trade"]
+
+        C_D_1 --> END_DIM_DEATH_ARC["**END DIMENSION OF DEATH ARC**"]
+    end
+    style area_D fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+
+    subgraph area_S["**SWAMP REALM - Stump Maze Navigation**"]
+        R_SWAMP_ENTRY["C_SW: Enter Swamp Realm Seeking Golden Ladle"] --> P_STUMP_MAZE_BLOCKING_PATH["P: Teleporting Stumps Block Path to Gold Ladle Trunk"]
+
+        P_STUMP_MAZE_BLOCKING_PATH --> A_EXAMINE_DIRECTIONAL_SIGN["A: Examine Directional Sign at Maze Entrance"]
+        A_EXAMINE_DIRECTIONAL_SIGN --> O_UNDERSTAND_JUMP_RULES["O: Understand Each Stump Jump Produces Different Outcome"]
+
+        O_UNDERSTAND_JUMP_RULES --> P_LEARN_MOVE_SEQUENCE_THROUGH_ITERATION["P: Learn 8-Move Jump Sequence Through Iteration"]
+
+        P_LEARN_MOVE_SEQUENCE_THROUGH_ITERATION --> A_JUMP_FWD_RIGHT_1ST["A: Jump Forward-Right to First Middle Stump"]
+        A_JUMP_FWD_RIGHT_1ST --> A_JUMP_FWD_RIGHT_2ND["A: Jump Forward-Right Again to Second Stump"]
+        A_JUMP_FWD_RIGHT_2ND --> A_JUMP_FOWARD_ONLY["A: Jump Forward Only to Center Platform"]
+        A_JUMP_FOWARD_ONLY --> A_JUMP_LEFT_TO_AVOID_TRAP["A: Jump Left to Avoid Trap Section"]
+        A_JUMP_LEFT_TO_AVOID_TRAP --> A_JUMP_FWD_LFT_NW_CORNER["A: Jump Forward-Left Toward NW Corner"]  
+        A_JUMP_FWD_LFT_NW_CORNER --> A_JUMP_BACK_LFT_CORRECT["A: Jump Backward-Left When Overshooting"]
+        A_JUMP_BACK_LFT_CORRECT --> A_JUMP_LEFT_AGAIN["A: Jump Left Again to Approach Final Area"]
+        A_JUMP_LEFT_AGAIN --> A_JUMP_FWD_LFT_FINAL_STUMP["A: Jump Forward-Left to Near Final Platform"]
+        A_JUMP_FWD_LFT_FINAL_STUMP --> A_JUMP_FWD_RIGHT_DESTINATION["A: Jump Forward-Right to Destination Stump"]
+
+        A_JUMP_FWD_RIGHT_1ST & A_JUMP_FWD_RIGHT_2ND & A_JUMP_FOWARD_ONLY & A_JUMP_LEFT_TO_AVOID_TRAP & A_JUMP_FWD_LFT_NW_CORNER & A_JUMP_BACK_LFT_CORRECT & A_JUMP_LEFT_AGAIN & A_JUMP_FWD_LFT_FINAL_STUMP & A_JUMP_FWD_RIGHT_DESTINATION --> C_S_1["C_S_1: Reached Final Platform with Golden Ladle Trunk"]
+
+        C_S_1 --> A_OPEN_TRUNK_AT_DESTINATION["A: Open Trunk at Destination Stump"]
+        A_OPEN_TRUNK_AT_DESTINATION --> O_HAVE_GOLDEN_LADLE["O: Have Golden Ladle Required by King Mudge"]
+
+        O_HAVE_GOLDEN_LADLE --> END_SWAMP_ARC["**END SWAMP ARC - Golden Ladle Acquired**"]
+    end
+    style area_S fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    subgraph area_R["**REALM 1 - Ring of Illumination Crafting**"]
+        R_VILLAGE_START["C_RS: Connor at Village Wizard Tower"] --> P_CANNOT_SEE_IN_LOW_LIGHT["P: Cannot See Hidden Paths and Objects in Crypts Portals Shadows"]
+
+        P_CANNOT_SEE_IN_LOW_LIGHT --> A_TALK_TO_VILLAGE_WIZARD["A: Talk to Village Wizard About Crafted Equipment"]
+        A_TALK_TO_VILLAGE_WIZARD --> O_WIZARD_CAN_CRAFT_3_ITEMS["O: Wizard Can Craft if Given 3 Components"]
+
+        O_WIZARD_CAN_CRAFT_3_ITEMS -.-> P_COLLECT_RING_FROM_KING_JAMES_COFFIN["P: Collect Ring from King James Coffin in Tomb"]
+        P_COLLECT_RING_FROM_KING_JAMES_COFFIN --> A_USE_AXE_ON_CHEST_GATE["A: Use Axe to Break Chest Gate Blocking Inner Chamber"]
+        O_HAVE_AXE -.-> A_USE_AXE_ON_CHEST_GATE  
+        A_USE_AXE_ON_CHEST_GATE --> O_GATE_BROKEN_OPEN["O: Gate Broken Can Access Coffin"]
+
+        O_GATE_BROKEN_OPEN --> A_OPEN_KING_JAMES_COFFIN["A: Open King James Coffin in Inner Chamber"]
+        A_OPEN_KING_JAMES_COFFIN --> O_HAVE_RING_FROM_SKELETON["O: Have Ring from King James Skeleton"]
+
+        R_VILLAGE_START -.-> P_COLLECT_CANDLE_FROM_LOCKED_CHURCH["P: Collect Sacred Candle from Inside Locked Church"]
+        P_COLLECT_CANDLE_FROM_LOCKED_CHURCH --> A_CLIMB_CHURCH_WALL_SOUTH_SIDE["A: Climb Church Exterior Wall on South Side Using Rope"]
+        O_HAVE_ROPE -.-> A_CLIMB_CHURCH_WALL_SOUTH_SIDE
+        A_CLIMB_CHURCH_WALL_SOUTH_SIDE --> DROP_THROUGH_WINDOW_INTO_CHURCH["DROP: Drop Through Window Into Church Interior"]
+
+        DROP_THROUGH_WINDOW_INTO_CHURCH --> A_GRAB_CANDLE_FROM_ALTAR["A: Grab Candle Near Altar Inside Church"]
+        A_GRAB_CANDLE_FROM_ALTAR --> O_HAVE_SACRED_CANDLE["O: Have Sacred Candle from Church"]
+
+        R_VILLAGE_START -.-> P_COLLECT_ASHES_FROM_SPRIGGAN_TORM_PEDISTAL["P: Collect Ashes from Torch Holder After Killing Spriggan"]
+        P_COLLECT_ASHES_FROM_SPRIGGAN_TORM_PEDISTAL --> A_DEFEAT_SPRIGGAN_AT_CASTLE["A: Defeat Spriggan Near Castle Entrance with Superior Weapon"]
+        A_DEFEAT_SPRIGGAN_AT_CASTLE --> A_SCAN_TORCH_HOLDER_FOR_ASHES["A: Scan Torch Holder Near Fallen Spriggan for Ashes"]  
+        A_SCAN_TORCH_HOLDER_FOR_ASHES --> O_HAVE_TORCH_ASHES["O: Have Torch Ashes"]
+
+        O_HAVE_RING_FROM_SKELETON & O_HAVE_SACRED_CANDLE & O_HAVE_TORCH_ASHES -.-> THREECOMP_READY["**ALL 3 COMPONENTS READY FOR WIZARD**"]
+
+        THREECOMP_READY --> C_RETURN_TO_WIZARD_TOWER_WATER_PORTAL["C_RW: Return to Wizard Tower Entrance via Water Portal"]
+        C_RETURN_TO_WIZARD_TOWER_WATER_PORTAL & THREECOMP_READY --> A_ENTER_WATER_PORTAL_BEHIND_TOWER["A: Enter Water Portal Behind Wizard Tower"]
+        A_ENTER_WATER_PORTAL_BEHIND_TOWER --> A_CLIMB_MOUNTAIN_PATH_TO_HOME["A: Climb Mountain Path Through Portal to Reach Wizard Home"]  
+        A_CLIMB_MOUNTAIN_PATH_TO_HOME --> O_AT_WIZARD_WORKSHOP["O: Arrived at Wizard Workshop Home"]
+
+        O_AT_WIZARD_WORKSHOP & O_HAVE_RING_FROM_SKELETON & O_HAVE_SACRED_CANDLE & O_HAVE_TORCH_ASHES --> A_GIVE_ALL_3_ITEMSTOPWIZARD["A: Give Ring Candle Ashes to Wizard"]
+
+        A_GIVE_ALL_3_ITEMSTOPWIZARD --> C_R_1["C_R_1: Wizard Crafts Ring of Illumination from 3 Components"]
+        C_R_1 --> O_HAVE_RING_OF_ILLUMINATION["O: Have Ring of Illumination - Can Now See Hidden Paths and Objects"]
+
+        O_HAVE_RING_OF_ILLUMINATION --> END_REALM_ARC["**END REALM ARC - Crypts Portals Shadow Areas Now Accessible**"]
+    end
+    style area_R fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    classDef start_end fill:#FFD700,stroke:#996600,stroke-width:3px,color:#000000,font-weight:bold
+    classDef consequence fill:#E8E8E8,stroke:#333333,stroke-width:2px,color:#333333
+
+    class START,END_DIM_DEATH_ARC,END_SWAMP_ARC,END_REALM_ARC start_end
+    class BALANCE_SCALES_READY,C_D_1,R_SWAMP_ENTRY,C_S_1,THREECOMP_READY,O_AT_WIZARD_WORKSHOP,C_R_1 consequence
