@@ -1,0 +1,219 @@
+flowchart TD
+    node[fontsize=18]
+    START["**START**"] --> A_ARRIVE_TARNA
+
+    %% TARNA SETTLEMENT - Initial Setup
+    subgraph area_1["**TARNA VILLAGE**"]
+        A_ARRIVE_TARNA["A: Arrive at Tarna Settlement"] --> C1["C1: Game Begins"]
+        
+        C1 --> P_MEET_JOHARI["P: Meet Johari the Leopard Lady"]
+        P_MEET_JOHARI --> A_VISIT_CAMP["A: Visit Simbani Camp"]
+        A_VISIT_CAMP --> O_MEET_LAIBON["O: Meet Laibon and Yesufu"]
+        
+        C1 --> P_NEED_FRIENDS["P: Need Friends to Help Later"]
+        P_NEED_FRIENDS --> A_TALK_TO_NEIGHBORS["A: Talk to Tarna Neighbors"]
+        A_TALK_TO_NEIGHBORS --> O_GAIN_ALLIES["O: Gain Local Allies"]
+        
+        C1 --> P_ESTABLISH_TRUST["P: Establish Trust with Salim"]
+        P_ESTABLISH_TRUST --> A_VISIT_SALIM_APOTHECARY["A: Visit Salim Nafs Apothecary"]
+        A_VISIT_SALIM_APOTHECARY --> A_TELL_ABOUT_JULANAR["A: Tell About Julanar from QFG II"]
+        A_TELL_ABOUT_JULANAR --> O_FREEDOM_OF_DISPEL["O: Salim Becomes Friend (Free Dispel Potion Later)"]
+    end
+    style area_1 fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+
+    %% CLASS BRANCH - Choose Path
+    subgraph area_class["**CLASS-SPECIFIC PATH SELECTION**"]
+        C1 --> P_CLASS_PATH_SELECT["P: Hero Must Prove Worth for Joharis Hand"]
+        
+        P_CLASS_PATH_SELECT -.-> A_FIGHTER_WARRIOR_CONTEST["A: Fighter Path - Warrior Initiation Contest"]
+        P_CLASS_PATH_SELECT -.-> A_WIZARD_SPELL_DUEL["A: Wizard Path - Leopardman Shaman Duel"]  
+        P_CLASS_PATH_SELECT -.-> A_THIEF_STEALTH_INFIL["A: Thief Path - Laibon Hut Infiltration"]
+        
+        A_FIGHTER_WARRIOR_CONTEST --> C2W["C2: Warrior Status Earned (Fighter)"]
+        A_WIZARD_SPELL_DUEL --> C2Z["C2: Shaman Respect Earned (Wizard)"]
+        A_THIEF_STEALTH_INFIL --> C2T["C2: Secret Knowledge Gained (Thief)"]
+        
+        C2W & C2Z & C2T --> O_JOHARI_TRUST_EARNED["O: Johari Trusts Hero - Marriage Possible"]
+    end
+    style area_class fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    %% WARRIOR INITIATION CONTEST (Fighter Path)
+    subgraph area_warrior["**WARRIOR INITIATION FIGHTER PATH**"]
+        A_FIGHTER_WARRIOR_CONTEST --> P_TWISTED_TREE["P: Trial 1 - Twisted Tree Ring Retrieval"]
+        
+        P_TWISTED_TREE --> A_GRAB_VINE_TREE["A: Grab Vine from Tree Branches"]
+        A_GRAB_VINE_TREE --> A_TIE_VINE_TO_SPEAR["A: Tie Vine to Spear Base"]
+        A_TIE_VINE_TO_SPEAR --> A_THROW_AT_RING["A: Throw Spear with Vine at Hanging Ring"]
+        A_THROW_AT_RING --> O_RING1_RETRIEVED["O: First Ring Obtained"]
+        
+        O_RING1_RETRIEVED --> P_THORN_CIRCLE["P: Trial 2 - Circle of Thorns"]
+        
+        P_THORN_CIRCLE --> A_PUSH_LOG_ONTO_ENTRANCE["A: Push Log as Bridge Over Thorns"]
+        A_PUSH_LOG_ONTO_ENTRANCE --> A_GRAB_RING_ON_LOG["A: Grab Second Ring Standing on Log Bridge"]
+        A_GRAB_RING_ON_LOG --> O_RING2_RETRIEVED["O: Second Ring Obtained"]
+        
+        O_RING2_RETRIEVED --> P_BEAR_TRAP_RUN["P: Trial 3 - Bear Trap Rescue Run"]
+        
+        P_BEAR_TRAP_RUN --> A_FIND_YESUFU_IN_TRAP["A: Find Yesufu Stuck in Bear Trap"]
+        A_FIND_YESUFU_IN_TRAP --> A_HELP_YESUFU_ESCAPE["A: Help Yesufu Escape Manually"]
+        A_HELP_YESUFU_ESCAPE --> A_RUSH_TO_FINISH_LINE["A: Rush to Finish Before Time Expires"]
+        
+        A_RUSH_TO_FINISH_LINE --> O_BOTH_SURVIVE["O: Both Reach Start Alive - Pass"]
+        
+        O_BOTH_SURVIVE --> P_SPEAR_THROW_CONTEST["P: Trial 4 - Spear Accuracy Contest"]
+        
+        P_SPEAR_THROW_CONTEST --> A_HIT_UNMOVING_TARGETS["A: Hit Static Targets with Spears"]
+        A_HIT_UNMOVING_TARGETS --> A_HIT_MOVING_TARGETS["A: Hit Moving Targets with Spears"]
+        A_HIT_MOVING_TARGETS --> O_WINS_SPEAR_THROW["O: Wins Spear Throwing Event"]
+        
+        O_WINS_SPEAR_THROW --> P_WRESTLING_BRIDGE["P: Trial 5 - Wrestling Bridge Final"]
+        
+        P_WRESTLING_BRIDGE --> A_LEARN_DODGE_PATTERNS["A: Observe Opponent Move Patterns"]
+        A_LEARN_DODGE_PATTERNS --> A_COUNTER_JUMP_WITH_DUCK["A: When Yesufu Jumps, Duck Down"]
+        A_COUNTER_JUMP_WITH_DUCK --> A_COUNTER_DUCK_WITH_JUMP["A: When Yesufu Ducks, Jump Over"]
+        A_COUNTER_DUCK_WITH_JUMP --> A_COUNTER_LEFT_RIGHT_DODGES["A: Mirror Opposite Side Dodges"]
+        
+        A_COUNTER_LEFT_RIGHT_DODGES --> O_FALLS_THREE_TIMES["O: Force Opponent Off Bridge 3 Times"]
+        O_FALLS_THREE_TIMES --> O_WARRIOR_STATUS_COMPLETE["O: Warrior Initiation Complete"]
+    end
+    style area_warrior fill:#FFCDD2,stroke:#B71C1C,stroke-width:3px
+
+    %% WIZARD DUEL PATH
+    subgraph area_wizard["**WIZARD DUEL PATH**"]
+        A_WIZARD_SPELL_DUEL --> P_MEET_JOHARI_MAGIC["P: Meet Johari to Learn Lightning Ball Spell"]
+        
+        P_MEET_JOHARI_MAGIC --> A_TELL_ABOUT_MAGIC["A: Tell About MAGIC During Jungle Meeting"]
+        A_TELL_ABOUT_MAGIC --> O_LEARN_LIGHTNING_BALL["O: Learn Lightning Ball Spell"]
+        
+        O_LEARN_LIGHTNING_BALL --> P_DUEL_ROUND_1["P: Round 1 - Staff Summons Required"]
+        
+        P_DUEL_ROUND_1 --> A_SUMMON_STAFF_IMMEDIATELY["A: Summon Wizar's Staff (First Action Priority)"]
+        A_SUMMON_STAFF_IMMEDIATELY --> C_ROUND1["C: Round 1 Survived"]
+        
+        C_ROUND1 --> P_DUEL_ROUND_2["P: Round 2 - Reversal Fireball Counter"]
+        
+        P_DUEL_ROUND_2 --> A_CAST_REVERSAL_REFLECT["A: Cast Reversal to Reflect Staff-Burning Fireball"]
+        A_CAST_REVERSAL_REFLECT --> C_ROUND2["C: Round 2 Survived"]
+        
+        C_ROUND2 --> P_DUEL_ROUND_3["P: Round 3 - Wall of Flames Cage"]
+        
+        P_DUEL_ROUND_3 --> A_CAST_CALM_FLAMES["A: Cast Calm to Smother Flame Wall Around You"]
+        A_CAST_CALM_FLAMES --> C_ROUND3["C: Round 3 Survived"]
+        
+        C_ROUND3 --> P_DUEL_ROUND_4["P: Round 4 - Cage of Thorns Trap"]
+        
+        P_DUEL_ROUND_4 --> A_CAST_OPEN_CAGE["A: Cast Open on Bars to Escape Thorn Cage"]
+        A_CAST_OPEN_CAGE --> C_ROUND4["C: Round 4 Survived"]
+        
+        C_ROUND4 --> P_DUEL_ROUND_5["P: Round 5 - Darkness Disorientation"]
+        
+        P_DUEL_ROUND_5 --> A_CAST_JUGGLING_LIGHTS["A: Cast Juggling Lights for Visibility Restoration"]
+        A_CAST_JUGGLING_LIGHTS --> C_ROUND5["C: Round 5 Survived"]
+        
+        C_ROUND5 --> P_DUEL_ROUND_6["P: Round 6 - Mental Snake Illusion Attack"]
+        
+        P_DUEL_ROUND_6 --> A_CAST_DAZZLE_SNAKE["A: Cast Dazzle to Burn Away Black Snake Illusion"]
+        A_CAST_DAZZLE_SNAKE --> C_ROUND6["C: Round 6 Survived"]
+        
+        C_ROUND6 --> P_DUEL_ROUND_7["P: Round 7 - Floor Pit Opens"]
+        
+        P_DUEL_ROUND_7 --> A_CAST_LEVITATE_ABOVE["A: Cast Levitate to Float Above Opening Pit"]
+        A_CAST_LEVITATE_ABOVE --> C_ROUND7["C: Round 7 Survived"]
+        
+        C_ROUND7 --> P_DUEL_FINAL_ROUND["P: Final Round - Shaman Becomes Demon Hybrid"]
+        
+        P_DUEL_FINAL_ROUND -.-> A_HONOR_OPTION_DISPEL["A: HONORABLE OPTION - Use Dispel Potion (8 PP)"]
+        P_DUEL_FINAL_ROUND -.-> A_COMBAT_OPTION_KILL["A: COMBAT OPTION - Kill with Combat/Spells"]
+        
+        A_HONOR_OPTION_DISPEL --> O_SHAMAN_FREED_HONORABLE["O: Shaman Freed - Maximum Points Earned"]
+        A_COMBAT_OPTION_KILL --> O_SHAMAN_KILLED_LESS_POINTS["O: Shaman Killed - Less Honor Points"]
+    end
+    style area_wizard fill:#E1BEE7,stroke:#8E24AA,stroke-width:3px
+
+    %% DISPEL POTION MULTI-FACETED PLAN
+    subgraph area_dispels["**DISPEL POTION PREPARATION**"]
+        C1 --> P_THREE_INGREDIENTS["P: Need 3 Dispel Potion Ingredients from Salim"]
+        
+        P_THREE_INGREDIENTS --> A_ASK_SALIM_DISPEL_RECIPES["A: Ask About DISPEL POTIONS Recipe Requirements"]
+        A_ASK_SALIM_DISPEL_RECIPES --> O_GET_INGREDIENT_LIST["O: Learn: Vine Fruit + Gift from Heart Tree + Pool Water"]
+        
+        O_GET_INGREDIENT_LIST --> P_VENOMOUS_VINE_FRUIT["P: Get Venomous Vine Fruit in Savanna"]
+        P_VENOMOUS_VINE_FRUIT -.-> A_FIGHTER_ROCK_OR_SWORD["A: Fighter - Throw Rock/Use Sword on Vines"]
+        P_VENOMOUS_VINE_FRUIT -.-> A_WIZARD_FETCH_SPELL_VINE["A: Wizard - Cast Fetch Spell Directly on Vine"]
+        P_VENOMOUS_VINE_FRUIT -.-> A_THIEF_ROPE_GRAPNEL["A: Thief - Toss Rope and Grapnel Nonviolently"]
+        
+        A_FIGHTER_ROCK_OR_SWORD --> O_RECEIVE_VINE_FRUIT["O: Receive Venomous Vine Fruit + Fire Opal Gift"]
+        A_WIZARD_FETCH_SPELL_VINE --> O_RECEIVE_VINE_FRUIT  
+        A_THIEF_ROPE_GRAPNEL --> O_RECEIVE_VINE_FRUIT
+        
+        P_THREE_INGREDIENTS --> P_POOL_OF_PEACE_WATER["P: Get Pool of Peace Water"]
+        
+        P_POOL_OF_PEACE_WATER --> A_FILL_WATERSKIN_AT_SPRING["A: Fill Waterskins at Wilderness Spring"]
+        A_FILL_WATERSKIN_AT_SPRING --> O_RECEIVE_POOL_WATER["O: Receive Pool of Peace (restores stamina)"]
+        
+        P_THREE_INGREDIENTS --> P_HEART_OF_WORLD_GIFT["P: Get Gift from Heart of World Tree"]
+        
+        P_HEART_OF_WORLD_GIFT --> A_CLIMB_GUARDIAN_TREE["A: Climb Giant Tree to Guardian Cave Midway"]
+        A_CLIMB_GUARDIAN_TREE --> A_GET_VERBAL_HINT_GIFT_OPTION["A: Ask GIFT Option for Hint About Pool Water"]
+        A_GET_VERBAL_HINT_GIFT_OPTION --> A_CLIMB_TO_TOP_CANOPY["A: Reach Top Canopy of Heart Tree"]
+        A_CLIMB_TO_TOP_CANOPY --> A_POUR_POOL_WATER_ON_GROUND["A: Pour Pool of Peace Water on Ground"]
+        A_POUR_POOL_WATER_ON_GROUND --> O_GIFT_FRUIT_APPEARS["O: Magical Gift Fruit Appears Automatically"]
+        
+        O_RECEIVE_VINE_FRUIT & O_RECEIVE_POOL_WATER & O_GIFT_FRUIT_APPEARS --> C_ALL_INGREDIENTS["C: All 3 Ingredients Gathered"]
+        
+        C_ALL_INGREDIENTS --> A_RETURN_TO_SALIM["A: Return to Salims Apothecary with All 3 Items"]
+        A_RETURN_TO_SALIM --> A_LEAVE_AND_RETURN_NEXT["A: Leave and Return Next In-Game Day"]
+        
+        A_LEAVE_AND_RETURN_NEXT -.-> O_RECEIVE_2_FREE_POTIONS["O: Receive 2 Free Dispel Potions (Julanar Friendship)"]
+        A_LEAVE_AND_RETURN_NEXT -.-> O_PURCHASE_2_POTION_NORMALLY["O: Purchase 2 Dispel Potions Normally"]
+    end
+    style area_dispels fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    %% FINAL GAME PUZZLES
+    subgraph area_final["**FINAL GAME PUZZLES**"]
+        O_JOHARI_TRUST_EARNED & O_RECEIVE_2_FREE_POTIONS --> P_LOST_CITY_EXPLORATION["P: Enter Lost City with Fire Opal"]
+        
+        P_LOST_CITY_EXPLORATION --> A_INSERT_FIRE_OPAL_IN_STATUE["A: Insert Fire Opal into Jackal Statue Eye Socket"]
+        A_INSERT_FIRE_OPAL_IN_STATUE --> O_DOOR_OPENS_GEM_LOCK["O: Door Opens via Gem Recognition Lock"]
+        
+        O_DOOR_OPENS_GEM_LOCK --> P_TEMPLE_PROPHESY["P: Temple of Sekhmet Prophecy Trance"]
+        
+        P_TEMPLE_PROPHESY -.-> A_WARRIOR_SELECT_SWORD_FIST["A: Warrior - Select Sword/Fist Symbols"]
+        P_TEMPLE_PROPHESY -.-> A_WIZARD_SELECT_PENTAGRAM["A: Wizard - Select Pentagram Symbol"]
+        P_TEMPLE_PROPHESY -.-> A_THIEF_SELECT_KEY["A: Thief - Select Key Symbol"]
+        
+        A_WARRIOR_SELECT_SWORD_FIST --> O_PROPHESY_RECEIVED["O: Receive Temple Prophecy Message"]
+        A_WIZARD_SELECT_PENTAGRAM --> O_PROPHESY_RECEIVED
+        A_THIEF_SELECT_KEY --> O_PROPHESY_RECEIVED
+        
+        O_PROPHESY_RECEIVED --> P_DOPPELGANGER_MIRRORS["P: Hall of Mirrors - Face Five Evil Duplicates"]
+        
+        P_DOPPELGANGER_MIRRORS --> A_WAIT_FOR_FRIENDS_HARAMI_HELP["A: Wait for Friends - Haramis Stab Saves You"]
+        A_WAIT_FOR_FRIENDS_HARAMI_HELP --> C_MIRRORS_ESCAPED["C: Escaped Mirror Hall with Friends Help"]
+        
+        C_MIRRORS_ESCAPED --> P_DEMON_WIZARD_FINAL["P: Final Boss - Demon Wizard Battle"]
+        
+        P_DEMON_WIZARD_FINAL -.-> A_USE_SHIELD_KNOCK_OVER_GARGOYLE["A: Use Shield to Knock Over Gargoyle Blocking Gap"]
+        P_DEMON_WIZARD_FINAL -.-> A_THROW_SPEAR_ACROSS_GAP["A: Throw Spear Cross-Gap While Gargoyle Restrains Feet"]
+        P_DEMON_WIZARD_FINAL -.-> A_USE_SECOND_DISPEL_POTION["A: Use Second Dispel Potion (Honor Option)"]
+        
+        A_USE_SHIELD_KNOCK_OVER_GARGOYLE --> O_DEMON_DEFEATED["O: Demon Wizard Defeated"]
+        A_THROW_SPEAR_ACROSS_GAP --> O_DEMON_DEFEATED  
+        A_USE_SECOND_DISPEL_POTION --> O_DEMON_DEFEATED
+        
+        O_DEMON_DEFEATED --> END["**END - SPEAR OF DEATH RETURNED - VICTORY**"]
+    end
+    style area_final fill:#FFECB3,stroke:#F57F17,stroke-width:3px
+
+    %% CLASS DEFINITIONS
+    classDef start_end fill:#FFD700,stroke:#996600,stroke-width:3px,color:#000000,font-weight:bold
+    classDef problem fill:#FFB3B3,stroke:#8B0000,stroke-width:2px,color:#8B0000
+    classDef action fill:#B3FFB3,stroke:#006400,stroke-width:2px,color:#006400
+    classDef outcome fill:#B3D9FF,stroke:#004080,stroke-width:2px,color:#004080
+
+    class START,END,C1,C2W,C2Z,C2T,O_WARRIOR_STATUS_COMPLETE,C_ROUND1,C_ROUND2,C_ROUND3,C_ROUND4,C_ROUND5,C_ROUND6,C_ROUND7,O_SHAMAN_FREED_HONORABLE,O_DEMON_DEFEATED start_end
+    class O_JOHARI_TRUST_EARNED,C_ALL_INGREDIENTS,C_MIRRORS_ESCAPED fill:#E8E8E8,stroke:#333333,stroke-width:2px,color:#333333
+
+    class P_MEET_JOHARI,P_NEED_FRIENDS,P_ESTABLISH_TRUST,P_CLASS_PATH_SELECT,P_TWISTED_TREE,P_THORN_CIRCLE,P_BEAR_TRAP_RUN,P_SPEAR_THROW_CONTEST,P_WRESTLING_BRIDGE,P_MEET_JOHARI_MAGIC,P_DUEL_ROUND_1,P_DUEL_ROUND_2,P_DUEL_ROUND_3,P_DUEL_ROUND_4,P_DUEL_ROUND_5,P_DUEL_ROUND_6,P_DUEL_ROUND_7,P_DUEL_FINAL_ROUND,P_THREE_INGREDIENTS,P_VENOMOUS_VINE_FRUIT,P_POOL_OF_PEACE_WATER,P_HEART_OF_WORLD_GIFT,P_LOST_CITY_EXPLORATION,P_TEMPLE_PROPHESY,P_DOPPELGANGER_MIRRORS,P_DEMON_WIZARD_FINAL problem
+
+    class A_ARRIVE_TARNA,A_VISIT_CAMP,A_TALK_TO_NEIGHBORS,A_VISIT_SALIM_APOTHECARY,A_TELL_ABOUT_JULANAR,A_FIGHTER_WARRIOR_CONTEST,A_WIZARD_SPELL_DUEL,A_THIEF_STEALTH_INFIL,A_GRAB_VINE_TREE,A_TIE_VINE_TO_SPEAR,A_THROW_AT_RING,A_PUSH_LOG_ONTO_ENTRANCE,A_GRAB_RING_ON_LOG,A_FIND_YESUFU_IN_TRAP,A_HELP_YESUFU_ESCAPE,A_RUSH_TO_FINISH_LINE,A_HIT_UNMOVING_TARGETS,A_HIT_MOVING_TARGETS,A_LEARN_DODGE_PATTERNS,A_COUNTER_JUMP_WITH_DUCK,A_COUNTER_DUCK_WITH_JUMP,A_COUNTER_LEFT_RIGHT_DODGES,A_TELL_ABOUT_MAGIC,A_SUMMON_STAFF_IMMEDIATELY,A_CAST_REVERSAL_REFLECT,A_CAST_CALM_FLAMES,A_CAST_OPEN_CAGE,A_CAST_JUGGLING_LIGHTS,A_CAST_DAZZLE_SNAKE,A_CAST_LEVITATE_ABOVE,A_HONOR_OPTION_DISPEL,A_COMBAT_OPTION_KILL,A_ASK_SALIM_DISPEL_RECIPES,A_FIGHTER_ROCK_OR_SWORD,A_WIZARD_FETCH_SPELL_VINE,A_THIEF_ROPE_GRAPNEL,A_FILL_WATERSKIN_AT_SPRING,A_CLIMB_GUARDIAN_TREE,A_GET_VERBAL_HINT_GIFT_OPTION,A_CLIMB_TO_TOP_CANOPY,A_POUR_POOL_WATER_ON_GROUND,A_RETURN_TO_SALIM,A_LEAVE_AND_RETURN_NEXT,A_INSERT_FIRE_OPAL_IN_STATUE,A_WARRIOR_SELECT_SWORD_FIST,A_WIZARD_SELECT_PENTAGRAM,A_THIEF_SELECT_KEY,A_WAIT_FOR_FRIENDS_HARAMI_HELP,A_USE_SHIELD_KNOCK_OVER_GARGOYLE,A_THROW_SPEAR_ACROSS_GAP,A_USE_SECOND_DISPEL_POTION action
