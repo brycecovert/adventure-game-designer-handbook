@@ -1,0 +1,202 @@
+flowchart TD
+    %% =============================================================================
+    %% FONT SIZE & CONFIGURATION
+    %% =============================================================================
+    node[fontsize=18]
+    START["**START**"] --> A_SELECT_TWO_COMPANIONS["A: Select 2 of 6 companions for Dave"]
+    
+    %% =============================================================================
+    %% ACT 1: Mansion Grounds - Initial Exploration (area_1 - light blue)
+    %% =============================================================================
+    subgraph area_1["**ACT 1: MANSION GROUNDS**"]
+        direction TB
+        
+        A_SELECT_TWO_COMPANIONS --> O_PARTY_FORMED["O: Party of 3 formed"]
+        
+        O_PARTY_FORMED --> UNLOCK_MANSION_ACCESS["**UNLOCK: Mansion Grounds Access**"]
+        
+        UNLOCK_MANSION_ACCESS --> C1["C1: Can now enter mansion"]
+    end
+    style area_1 fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+
+    %% =============================================================================
+    %% ACT 2: Swimming Pool Atomic Reactor (area_2 - light red)
+    %% =============================================================================
+    subgraph area_2["**ACT 2: SWIMMING POOL ATOMIC REACTOR**"]
+        direction TB
+        
+        C1 --> P_PROBLEM_POOL_REACTOR["P: Need glowing key and radio from reactor beneath pool"]
+        
+        P_PROBLEM_POOL_REACTOR --> A_DAVE_OPEN_DRAIN_GRATING["A: Dave opens drain grating at front of mansion"]
+        A_DAVE_OPEN_DRAIN_GRATING --> A_DAVE_CRAWL_TO_WATER_VALVE["A: Dave crawls under house to water valve area"]
+        
+        P_PROBLEM_POOL_REACTOR --> A_SYD_UNLOCK_POOL_DOOR["A: Syd unlocks pool door with silver key"]
+        A_SYD_UNLOCK_POOL_DOOR --> A_GET_GLASS_JAR_KITCHEN["A: Get glass jar from kitchen counters"]
+        
+        A_DAVE_CRAWL_TO_WATER_VALVE & A_SYD_UNLOCK_POOL_DOOR --> P_PROBLEM_TIMED_DRAINS["P: Timed drain-retrieve-refill required - single character cannot complete"]
+        
+        P_PROBLEM_TIMED_DRAINS --> C2["C2: Both characters positioned"]
+        
+        C2 --> A_DAVE_TURN_VALVE_ON["A: Dave turns water valve ON to drain pool"]
+        A_DAVE_TURN_VALVE_ON --> O_POOL_STARTS_DRAINING["O: Pool begins draining quickly"]
+        
+        O_POOL_STARTS_DRAINING --> A_SYD_FILL_JAR_FROM_POOL["A: Syd fills glass jar with pool water (for plant puzzle)"]
+        A_SYD_FILL_JAR_FROM_POOL --> O_ACQUIRE_JAR_OF_WATER["O: Acquire JAR OF WATER"]
+        
+S_YD_FILL_JAR_FROM_POOL --> O_POOL_EMPTY["O: Pool completely empty - reactor exposed"]
+
+        O_POOL_EMPTY --> A_SYD_DESCEND_TO_REACTOR["A: Syd descends ladder to reactor room"]
+        A_SYD_DESCEND_TO_REACTOR --> A_SYD_GRAB_GLOWING_KEY["A: Syd grabs GLOWING KEY from reactor"]
+        A_SYD_GRAB_GLOWING_KEY --> O_ACQUIRE_GLOWING_KEY["O: Acquire GLOWING KEY"]
+        
+        A_SYD_GRAB_GLOWING_KEY --> A_SYD_GRAB_RADIO["A: Syd grabs RADIO from shelf"]
+        A_SYD_GRAB_RADIO --> O_ACQUIRE_RADIO["O: Acquire RADIO"]
+        
+        O_ACQUIRE_GLOWING_KEY & O_ACQUIRE_RADIO --> P_PROBLEM_REFILL_BEFORE_EXPLOSION["P: Must refill pool before reactor overheats and explodes"]
+        
+        P_PROBLEM_REFILL_BEFORE_EXPLOSION --> A_SYD_CLIMB_OUT["A: Syd climbs out of empty pool quickly"]
+        A_SYD_CLIMB_OUT --> A_DAVE_TURN_VALVE_OFF["A: Dave immediately turns valve OFF"]
+        A_DAVE_TURN_VALVE_OFF --> O_POOL_REFILLED_REACTOR_SAFE["O: Pool refilled - reactor safe, timer stopped"]
+    end
+    style area_2 fill:#FFEBEE,stroke:#C62828,stroke-width:3px
+
+    %% =============================================================================
+    %% ACT 3: Fixing Power - Two-Character Wire Repair (area_3 - light purple)
+    %% =============================================================================
+    subgraph area_3["**ACT 3: POWER RESTORATION PUZZLE**"]
+        direction TB
+        
+        O_POOL_REFILLED_REACTOR_SAFE --> P_PROBLEM_NO_POWER["P: House power out - circuit breakers tripped, wires broken in attic"]
+        
+        P_PROBLEM_NO_POWER --> A_SYD_GO_TO_BASAMENT["A: Syd navigates to basement near fuse box"]
+        A_SYD_GO_TO_BASAMENT --> A_SYD_LOCATE_CIRCUIT_BREAKERS["A: Syd locates circuit breakers panel"]
+        
+        P_PROBLEM_NO_POWER --> A_DAVE_GET_TOOLBOX_GARAGE["A: Dave obtains toolbox from garage (requires yellow key)"]
+        A_DAVE_GET_TOOLBOX_GARAGE --> A_DAVE_GO_TO_ATTIC["A: Dave climbs to attic with tools"]
+        
+        A_SYD_LOCATE_CIRCUIT_BREAKERS & A_DAVE_GO_TO_ATTIC --> C3["C3: Both characters in position"]
+        
+        C3 --> P_PROBLEM_TIMED_POWER_OFF["P: Power OFF moment required for safe wire repair - but risks tentacle attack"]
+        
+        P_PROBLEM_TIMED_POWER_OFF --> A_SYD_SWITCH_BREAKERS_OFF["A: Syd switches OFF all circuit breakers"]
+        A_SYD_SWITCH_BREAKERS_OFF --> O_HOUSE_PLUNGED_IN_DARKNESS["O: Entire house goes dark - vulnerability window opens"]
+        
+        O_HOUSE_PLUNGED_IN_DARKNESS --> A_DAVE_REPAIR_BROKEN_WIRES["A: Dave uses tools to repair broken wires IMMEDIATELY while power off"]
+        A_DAVE_REPAIR_BROKEN_WIRES --> O_WIRES_FIXED["O: Wires successfully repaired"]
+        
+        O_WIRES_FIXED --> A_SYD_SWITCH_BREAKERS_ON_["A: Syd switches breakers back ON quickly"]
+        A_SYD_SWITCH_BREAKERS_ON_ --> O_POWER_RESTORED["O: Full power restored to mansion"]
+    end
+    style area_3 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    %% =============================================================================
+    %% ACT 4: Arcade High Score Password (area_4 - light green)
+    %% =============================================================================
+    subgraph area_4["**ACT 4: ARCADE HIGH SCORE PASSWORD**"]
+        direction TB
+        
+        O_POWER_RESTORED --> P_PROBLEM_NEED_LAB_CODE["P: Secret lab locked behind keypad - need access code"]
+        
+        P_PROBLEM_NEED_LAB_CODE --> A_DAVE_GET_QUARTER_FROM_SAFE["A: Dave gets quarter from safe (combo obtained via telescope)"]
+        A_DAVE_GET_QUARTER_FROM_SAFE --> O_ACQUIRE_QUARTER["O: Acquire QUARTER"]
+        
+        O_POWER_RESTORED --> A_DAVE_ENTER_GAMES_ROOM["A: Dave enters games room on first floor"]
+        A_DAVE_ENTER_GAMES_ROOM --> A_INSERT_QUARTER_METEOR_MESS["A: Insert quarter into 'Meteor Mess' arcade machine"]
+A_INSERT_QUARTER_METEOR_MESS --> O_ARCADE_GAME_ACTIVE["O: Arcade game activates"]
+
+        O_ARCADE_GAME_ACTIVE --> A_PLAY_AND_MEMORIZE_SCORE["A: Play game and memorize high score number on display"]
+        A_PLAY_AND_MEMORIZE_SCORE --> O_REMEMBER_HIGH_SCORE_CODE["O: High score number committed to memory"]
+    end
+    style area_4 fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+
+    %% =============================================================================
+    %% ACT 5: Film Development Multi-Character Chain (area_5 - light orange)
+    %% =============================================================================
+    subgraph area_5["**ACT 5: FILM DEVELOPMENT CHAIN**"]
+        direction TB
+        
+        O_REMEMBER_HIGH_SCORE_CODE --> P_PROBLEM_WEIRD_ED_NEEDS_PHOTOS["P: Weird Ed needs developed photos of meteor plans to help"]
+        
+        P_PROBLEM_WEIRD_ED_NEEDS_PHOTOS --> A_DAVE_COLLECT_FILM_BUSH["A: Dave exits mansion, finds undeveloped film in bush on steps"]
+        A_DAVE_COLLECT_FILM_BUSH --> O_ACQUIRE_UNDEVELOPED_FILM["O: Acquire UNDEVELOPED FILM"]
+        
+        P_PROBLEM_WEIRD_ED_NEEDS_PHOTOS --> A_DAVE_OPEN_GRATING_STEPS["A: Dave opens grating at base of steps, crawl under house beneath storeroom"]
+        
+        P_PROBLEM_WEIRD_ED_NEEDS_PHOTOS --> A_SYD_ENTER_STORAGE_ROOM["A: Syd enters storeroom via dining room"]
+        A_SYD_ENTER_STOREROOM_DOOR --> A_SYD_GRAB_DEVELOPER_BOTTLE["A: Syd grabs developer bottle from top shelf - it slips and shatters onto floor grating"]
+        
+        A_DAVE_OPEN_GRATING_STEPS & A_SYD_GRAB_DEVELOPER_BOTTLE --> C4["C4: Developer spilled above Dave's position underground"]
+        
+        C4 --> A_DAVE_USE_SPONGE_SOAK_DEVeloper["A: Dave uses SPONGE to soak up developer fluid through grating"]
+        A_DAVE_USE_SPONGE_SOAK_DEVELOPER --> O_ACQUIRE_DEVELOPER_SPONGE["O: Acquire DEVELOPER-SOAKED SPONGE"]
+        
+        O_ACQUIRE_UNDEVELOPED_FILM & O_ACQUIRE_DEVELOPER_SPONGE --> P_PROBLEM_NEED_DARKROOM_PROCESSING["P: Need Michael's darkroom expertise for development"]
+        
+        P_PROBLEM_NEED_DARKROOM_PROCESSING --> A_MICHAEL_RECEIVE_FILM_ART_ROOM["A: Dave gives UNDEVELOPED FILM to Michael in art room"]
+        A_MICHAEL_RECEIVE_FILM_ART_ROOM --> A_MICHAEL_ENTER_DARKROOM["A: Michael enters darkroom door on second floor landing"]
+A_MICHAEL_ENTER_DARKROOM --> O_DARKROOM_INITIALLY_DARK["O: Darkroom initially pitch black"]
+
+        O_DARKROOM_INITIALLY_DARK --> A_MICHAEL_FIND_RED_LIGHT_SWITCH["A: Michael uses 'what is' command to find red light switch"]
+        A_MICHAEL_FIND_RED_LIGHT_SWITCH --> A_MICHAEL_TURN_ON_RED_LIGHT["A: Turn ON red light (preserves film emulsion)"]
+        A_MICHAEL_TURN_ON_RED_LIGHT --> O_RED_LIGHT_ACTIVE["O: Safe red illumination active"]
+        
+        O_ACQUIRE_DEVELOPER_SPONGE --> A_MICHAEL_USE_SPONGE_ON_TRAY["A: Michael applies developer-soaked sponge to photographic tray"]
+        A_MICHAEL_USE_SPONGE_ON_TRAY --> A_MICHAEL_APPLY_FILM_TO_TRAY["A: Apply UNDEVELOPED FILM to activated tray"]
+        A_MICHAEL_APPLY_FILM_TRAY --> O_IMAGE_DEVELOPED["O: Image successfully developed on film"]
+        
+        O_IMAGE_DEVELOPED --> A_COLLECT_PRINTS_FROM_TRAY["A: Collect developed PRINTS from tray"]
+        A_COLLECT_PRINTS_FROM_TRAY --> O_ACQUIRE_DEVELOPED_PRTINTS_["O: Acquire DEVELOPED PRINTS showing meteor plans"]
+        
+        O_ACQUIRE_DEVELOPED_PRNTITS_ --> A_DELIVER_TO_WEIRD_ED["A: Deliver developed prints to Weird Ed in his room"]
+        A_DELIVER_TO_WEIRD_ED --> O_WEIRD_ED_SEES_METEOR_PLANS["O: Weird Ed confirms meteor plans visible - will assist in finale"]
+    end
+    style area_5 fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    %% =============================================================================
+    %% ACT 6: Laboratory Access (area_6 - light cyan)
+    %% =============================================================================
+    subgraph area_6["**ACT 6: SECRET LABORATORY ACCESS**"]
+        direction TB
+        
+        O_WEIRD_ED_SEES_METEOR_PLANS --> P_PROBLEM_ENTER_SECRET_LAB["P: Enter Dr. Fred's secret lab to complete finale"]
+        
+        O_ACQUIRE_GLOWING_KEY & O_ACQUIRE_RADIO & O_REMEMBER_HIGH_SCORE_CODE --> C5["C5: Lab access requirements gathered"]
+        
+        C5 --> A_NAVIGATE_TO_DUNGEON["A: Navigate to dungeon area via green tentacle (feed wax fruit)"]
+        A_NAVIGATE_TO_DUNGEON --> A_OPEN_PADLOCKED_LAB_DOOR["A: Use GLOWING KEY + RUSTY KEY combo on padlocked lab door"]
+        
+        A_OPEN_PADLOCKED_LAB_DOOR --> O_LAB_DOOR_UNLOCKED["O: Secret laboratory door unlocked"]
+        
+        O_LAB_DOOR_UNLOCKED --> A_ENTER_HIGH_SCORE_AT_KEYPAD["A: Enter memorized high score number at access keypad"]
+        O_REMEMBER_HIGH_SCORE_CODE -.->|memorized code| A_ENTER_HIGH_SCORE_AT_KEYPAD
+        
+        A_ENTER_HIGH_SCORE_AT_KEYPAD --> O_METEOR_CONTROL_ROOM_OPEN["O: Meteor control room unlocks - finale accessible"]
+    end
+    style area_6 fill:#E0F7FA,stroke:#00695C,stroke-width:3px
+
+    %% =============================================================================
+    %% ACT 7: Meteor Launch Finale (area_7 - light grey)
+    %% =============================================================================
+    subgraph area_7["**ACT 7: METEOR LAUNCH FINALE**"]
+        direction TB
+        
+        O_METEOR_CONTROL_ROOM_OPEN --> A_DEACTIVATE_POWER_LEVER["A: Deactivate power lever in meteor control room"]
+        A_DEACTIVATE_POWER_LEVER --> O_METEOR_FREED_FROM_LOCKS["O: Meteor freed from restraints"]
+        
+        O_METEOR_FREED_FROM_LOCKS --> A_RETRIEVE_METEOR["A: Retrieve meteor from pedestal"]
+        A_RETRIEVE_METEOR --> O_ACQUIRE_METEOR["O: Acquire METEOR (actual flying saucer)"]
+        
+        O_ACQUIRE_METEOR --> A_PLACE_IN_CAR_BOOT["A: Place meteor in car trunk/boot"]
+        A_PLACE_IN_CAR_BOOT --> A_EXIT_HOUSE_GARAGE["A: Exit through garage to outside"]
+        
+        A_EXIT_HOUSE_GARAGE --> A_IGNITE_ROCKET_ENGINE_WITH_YELLOW_KEY["A: Use YELLOW KEY to ignite rocket engine mounted on car"]
+        A_IGNITE_ROCKET_ENGINE_WITH_YELLOW_KEY --> O_METEOR_LAUNCHE_INTO_SKY["O: Meteor launches into sky - alien control destroyed"]
+        
+        O_METEOR_LAUNCHED_INTO_SKY --> SANDY_RESCUED_VICTORY["**Sandy rescued! Dr. Fred defeated!**"]
+    end
+    style area_7 fill:#ECEFF1,stroke:#455A64,stroke-width:3px
+
+    %% =============================================================================
+    %% FINAL: Game Complete
+    %% =============================================================================
+    SANDY_RESCUED_VICTORY --> END["**END GAME - All Objectives Completed**"]
