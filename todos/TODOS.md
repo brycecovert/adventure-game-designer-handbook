@@ -39,11 +39,11 @@
   - [ ] Generate SVG
   - [ ] Create QA report
   - [ ] Add chart embedding
-- [ ] Quest for Glory 1
-  - [ ] Create MMD file
-  - [ ] Generate SVG
-  - [ ] Create QA report
-  - [ ] Add chart embedding
+- [x] Quest for Glory 1 ✅
+  - [x] Create MMD file
+  - [x] Generate SVG (246KB)
+  - [x] Create QA report
+  - [x] Add chart embedding
 - [ ] Quest for Glory II
   - [ ] Create MMD file
   - [ ] Generate SVG
