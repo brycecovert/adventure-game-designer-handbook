@@ -1,0 +1,186 @@
+flowchart TD
+    %% =============================================================================
+    %% FONT SIZE & CONFIGURATION
+    %% =============================================================================
+    node[fontsize=18]
+    START["**START - Receive Grail Diary**"] --> V_VENICE_LIBRARY
+
+    %% =============================================================================
+    %% VENICE - Library & Catacombs (area_V - light blue)
+    %% =============================================================================
+    subgraph area_V["**VENICE - Library Escape**"]
+        V_VENICE_LIBRARY["V: Venetian Library with Nazi Pursuit"] --> P_MATCH_WINDOW_DIAGRAM["P: Find Window Matching Diary Drawing"]
+
+        P_MATCH_WINDOW_DIAGRAM --> A_EXAMINE_DIARY_DRAWING["A: Examine Diary Window Illustration"]
+        A_EXAMINE_DIARY_DRAWING --> O_NOTE_DESIGN_PATTERN["O: Note Gothic Window Design"]
+
+        O_NOTE_DESIGN_PATTERN --> A_EXPLORE_LIBRARY["A: Explore Library Areas for Stained Glass"]
+        A_EXPLORE_LIBRARY --> O_FIND_MATCHING_WINDOW["O: Find Matching Stained-Glass Window"]
+
+        O_FIND_MATCHING_WINDOW --> A_READ_DIARY_QUOTATION["A: Read Diary Quotation for Direction"]
+        A_READ_DIARY_QUOTATION --> O_LEARN_FIRST_ON_RIGHT["O: Learn 'First on the Right'"]
+
+        O_LEARN_FIRST_ON_RIGHT --> A_IDENTIFY_ROMAN_NUMERAL["A: Find Roman Numeral on Pillars"]
+        A_IDENTIFY_ROMAN_NUMERAL --> O_TARGET_SLAB_IDENTIFIED["O: Target Slab Number Identified"]
+
+        A_EXPLORE_LIBRARY --> A_GET_METAL_POST["A: Collect Metal Post from Shelves"]
+        A_GET_METAL_POST --> O_HAVE_METAL_POST["O: Have Metal Post"]
+
+        O_HAVE_METAL_POST & O_TARGET_SLAB_IDENTIFIED --> A_SMASH_FLOOR_SLAB["A: Smash Floor Slab with Metal Post"]
+        A_SMASH_FLOOR_SLAB --> C_V1["C_V1: Floor Slab Smashed, Catacombs Open"]
+    end
+    style area_V fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+
+    %% =============================================================================
+    %% VENICE - Catacombs Skull Door (area_VC - light purple)
+    %% =============================================================================
+    subgraph area_VC["**VENICE - Catacombs Navigation**"]
+        C_V1 --> A_NAVIGATE_WATER_TUNNELS["A: Navigate Water Tunnels"]
+        A_NAVIGATE_WATER_TUNNELS --> P_MECHANICAL_ROOM_DRAIN["P: Drain Water in Mechanical Room"]
+
+        P_MECHANICAL_ROOM_DRAIN --> A_USE_HOOK_WHIP_SEQUENCE["A: Use Hook/Whip on Machinery"]
+        O_HAVE_HOOK -.-> A_USE_HOOK_WHIP_SEQUENCE
+        O_HAVE_WHIP -.-> A_USE_HOOK_WHIP_SEQUENCE
+
+        A_USE_HOOK_WHIP_SEQUENCE --> C_VC1["C_VC1: Water Drained, Can Proceed"]
+
+        C_VC1 --> C_NAV["C_NAV: Arrive at Skull-Sealed Door"]
+
+        C_NAV --> P_SKULL_DOOR_MUSIC["P: Four Skulls Seal the Door"]
+        P_SKULL_DOOR_MUSIC --> A_RETURN_EXAMINE_DIARY["A: Return to Examine Diary for Music Notation"]
+        O_HAVE_GRAIL_DIARY -.-> A_RETURN_EXAMINE_DIARY
+
+        A_RETURN_EXAMINE_DIARY --> A_NOTE_MUSIC_MAPPING["A: Note Line-to-Skull Mapping (Top=Left)"]
+        A_NOTE_MUSIC_MAPPING --> O_LEARN_SEQUENCE_2143["O: Learn Sequence 2-1-4-3"]
+
+        O_LEARN_SEQUENCE_2143 --> A_PLAY_SKULLS_ORDER_2143["A: Play Skulls in Order from Music (2,1,4,3)"]
+        A_PLAY_SKULLS_ORDER_2143 --> C_VC2["C_VC2: Skull Door Opens, Access Knight's Tomb"]
+    end
+    style area_VC fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    %% =============================================================================
+    %% CASTLE BRUNWALD - Infiltration (area_CB1 - light orange)
+    %% =============================================================================
+    subgraph area_CB1["**CASTLE BRUNWALD - 1st Floor Entry**"]
+        C_CASTLE_ENTRY["C_CASTLE: Enter Castle Brunwald First Floor"] --> A_LOCATE_CLOSET_AREA["A: Locate Closet Area"]
+        A_LOCATE_CLOSET_AREA --> O_HAVE_TWO_UNIFORMS["O: Two Uniforms (Servant Available, Officer Locked)"]
+
+        O_HAVE_TWO_UNIFORMS --> P_OFFICER_UNIFORM_LOCKED["P: Officer Uniform Behind Locked Door"]
+        
+        P_OFFICER_UNIFORM_LOCKED --> C_CB1["C_CB1: Take Servant Uniform, Return for Brass Key Later"]
+        
+        C_CB1 --> A_TAKE_SERVANT_UNIFORM["A: Take Servant Uniform from Closet"]
+        A_TAKE_SERVANT_UNIFORM --> O_HAVE_SERVANT_UNIFORM["O: Have Servant Uniform"]
+
+        C_CASTLE_ENTRY --> P_KITCHEN_STEIN_KEG["P: Kitchen Contains Stein & Keg"]
+        P_KITCHEN_STEIN_KEG --> A_FILL_STEIN_FROM_KEG["A: Fill Stein from Beer Keg (Optional)"]
+        A_FILL_STEIN_FROM_KEG --> O_HAVE_BEER_STEIN["O: Have Filled Beer Stein"]
+
+        C_CB1 --> P_OFFICER_CHEST_NEEDS_KEY["P: Officer's Chest Contains Brass Key"]
+        P_OFFICER_CHEST_NEEDS_KEY --> A_OPEN_CHEST_WHEN_UNLOCKED["A: Open Chest When 2F Unlocked"]
+        A_OPEN_CHEST_WHEN_UNLOCKED --> O_HAVE_BRASS_KEY["O: Have Brass Key"]
+    end
+    style area_CB1 fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    %% =============================================================================
+    %% CASTLE - 2nd Floor (area_CB2 - light orange)
+    %% =============================================================================
+    subgraph area_CB2["**CASTLE BRUNWALD - 2nd Floor Infiltration**"]
+        O_HAVE_SERVANT_UNIFORM --> C_2ND_FLOOR["C_2F: Climb to 2nd Floor"]
+
+        C_2ND_FLOOR --> A_CHANGE_INTO_SERVANT["A: Change into Servant Uniform in Quarters"]
+        A_CHANGE_INTO_SERVANT --> O_DISGUISED_AS_SERVANT["O: Disguised as Servant"]
+
+        O_DISGUISED_AS_SERVANT --> P_GUARD_WITH_PAINTING["P: Guard Accepts Painting Trade"]
+        P_GUARD_WITH_PAINTING --> A_GIVE_PAINTING_TO_GUARD["A: Give Painting to Patrolling Guard"]
+        O_HAVE_PAINTING -.-> A_GIVE_PAINTING_TO_GUARD
+
+        A_GIVE_PAINTING_TO_GUARD --> O_PASS_GUARD_2F["O: Passed 2nd Floor Guard via Bribe/Trade"]
+
+        O_PASS_GUARD_2F --> C_CB2["C_CB2: Access Officer's Quarters"]
+    end
+    style area_CB2 fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    %% =============================================================================
+    %% CASTLE - 3rd Floor (area_CB3 - light orange)
+    %% =============================================================================
+    subgraph area_CB3["**CASTLE BRUNWALD - 3rd Floor & Rescue**"]
+        O_HAVE_BRASS_KEY --> C_RETURN_FIRST_FLOOR_CLOSET["C_RCF: Return to 1st Floor Previously Locked Closet"]
+
+        C_RETURN_FIRST_FLOOR_CLOSET --> A_USE_BRASS_KEY_ON_LOCK["A: Use Brass Key on Previously Locked Door"]
+        A_USE_BRASS_KEY_ON_LOCK --> O_UNLOCKED_OFFICER_ROOM["O: Officer's Room Now Accessible"]
+
+        O_UNLOCKED_OFFICER_ROOM --> A_TAKE_OFFICER_UNIFORM["A: Take Officer Uniform"]
+        A_TAKE_OFFICER_UNIFORM --> O_HAVE_OFFICER_UNIFORM["O: Have Officer Uniform"]
+
+        C_2ND_FLOOR --> A_CHANGE_INTO_OFFICER["A: Change into Officer Uniform in 2F Quarters"]
+        A_CHANGE_INTO_OFFICER --> O_DISGUISED_AS_OFFICER["O: Disguised as Officer"]
+
+        O_HAVE_OFFICER_UNIFORM --> C_RETURN_2ND_FLOOR["C_R2F: Return to 2nd Floor and Change"]
+
+        O_DISGUISED_AS_OFFICER --> P_GUARD_BYPASS_3F["P: 3rd Floor Guards Can Be Bypassed"]
+        
+        P_GUARD_BYPASS_3F --> A_FIGHT_OR_TALK_THROUGH_3F["A: Fight or Talk Past 3rd Floor Guards (IQ Variations)"]
+        A_FIGHT_OR_TALK_THROUGH_3F --> C_3RD_FLOOR["C_3F: Successfully Pass 3rd Floor Patrols"]
+
+        O_DISGUISED_AS_OFFICER --> A_TAKE_SILVER_KEY_CANDALABRA["A: Take Silver Key from Candelabra in Officer Quarters"]
+        A_TAKE_SILVER_KEY_CANDALABRA --> O_HAVE_SILVER_KEY["O: Have Silver Key"]
+
+        C_3RD_FLOOR --> P_FIND_HENRY_CELL["P: Find Henry's Detention Cell"]
+
+        P_FIND_HENRY_CELL --> A_LOCATE_ELECTRICAL_WIRES["A: Locate Cell with Electrical Wires Above Door"]
+        A_LOCATE_ELECTRICAL_WIRES --> O_IDENTIFY_HENRY_CELL["O: Identify Henry's Specific Cell"]
+
+        O_HAVE_SILVER_KEY & O_IDENTIFY_HENRY_CELL --> P_UNLOCK_HENRY_DOOR["P: Unlock Henry's Cell Door"]
+        P_UNLOCK_HENRY_DOOR --> A_USE_SILVER_KEY_ON_DOOR["A: Use Silver Key on Henry's Door"]
+
+        A_USE_SILVER_KEY_ON_DOOR --> C_CB3["C_CB3: Henry Jones Freed, Escape Sequence Begins"]
+    end
+    style area_CB3 fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    %% =============================================================================
+    %% CASTLE ESCAPE - Multiple Paths (area_CE - light amber)  
+    %% =============================================================================
+    subgraph area_CE["**CASTLE ESCAPE - Two Possible Routes**"]
+        C_CB3 --> P_ALARMS_ACTIVE["P: Determine if Castle Alarms Were Disabled Earlier"]
+
+        O_ALARMS_DISABLED -.-> A_ESCAPE_MOTORBIKE_PATH["A: Escape via Motorbike Route (Quiet)"]
+        O_ALARMS_ACTIVE -.-> A_ESCAPE_STEAM_VENTS["A: Escape via Steam Vents (Noisy)"]
+
+        A_ESCAPE_MOTORBIKE_PATH & A_ESCAPE_STEAM_VENTS --> END_CASTLE["**END CASTLE - Proceed to Grail Quest**"]
+    end
+    style area_CE fill:#FFF8E1,stroke:#F9A825,stroke-width:3px
+
+    %% =============================================================================
+    %% ADDITIONAL PUZZLES FROM OTHERS TABLE (area_OTHERS - light green)
+    %% =============================================================================
+    subgraph area_OTHERS["**ADDITIONAL KEY PUZZLES**"]
+        C_OTHERS_1["C_OTHERS_1: Fake Diary Discovery"] --> A_USE_STICKY_TAPE_ON_SHELVES["A: Use Tape + Solvent Jar on Shelves"]
+
+        A_USE_STICKY_TAPE_ON_SHELVES --> O_DISCOVER_SMALL_KEY["O: Discover Small Key Hidden Behind Shelf Area"]
+
+        O_DISCOVER_SMALL_KEY --> P_OPEN_CHEST_WITH_KEY["P: Open Chest with Small Key"]
+        P_OPEN_CHEST_WITH_KEY --> A_USE_SMALL_KEY_ON_CHEST["A: Use Small Key on Chest"]
+
+        A_USE_SMALL_KEY_ON_CHEST --> O_RECEIVE_FAKE_DIARY["O: Receive Old Book (Fake Grail Diary)"]
+
+        C_OTHERS_2["C_OTHERS_2: Statue Combination Room"] --> P_PRESS_PLAQUE_SEQUENCE["P: Press Plaques in Sequence from Diary Illustrations"]
+        
+        O_HAVE_DIARY_CLUES -.-> P_PRESS_PLAQUE_SEQUENCE
+        
+        P_PRESS_PLAQUE_SEQUENCE --> A_MIDDLE_UNTIL_GOOD_IMAGE["A: Press Middle Plaque Until Good Image Appears"]
+        A_MIDDLE_UNTIL_GOOD_IMAGE --> A_THEN_RIGHT_PLAQUE["A: Then Press Right Plaque"]
+        A_THEN_RIGHT_PLAQUE --> A_LASTLY_LEFT_PLAQUE["A: Finally Press Left Plaque"]
+
+        A_MIDDLE_UNTIL_GOOD_IMAGE & A_THEN_RIGHT_PLAQUE & A_LASTLY_LEFT_PLAQUE --> END_OTHERS_2["**END OTHERS - Avoids Fatal Trap, Can Proceed**"]
+    end
+    style area_OTHERS fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+
+    %% =============================================================================
+    %% CLASS DEFINITIONS  
+    %% =============================================================================
+    classDef start_end fill:#FFD700,stroke:#996600,stroke-width:3px,color:#000000,font-weight:bold
+    classDef consequence fill:#E8E8E8,stroke:#333333,stroke-width:2px,color:#333333
+
+    class START,END_CASTLE start_end
+    class C_V1,C_VC1,C_NAV,C_VC2,C_CB1,C_CB2,C_2ND_FLOOR,C_RETURN_FIRST_FLOOR_CLOSET,O_UNLOCKED_OFFICER_ROOM,A_CHANGE_INTO_OFFICER,C_RETURN_2ND_FLOOR,C_3RD_FLOOR,O_IDENTIFY_HENRY_CELL,C_CB3,P_FIND_HENRY_CELL,C_CASTLE_ENTRY consequence

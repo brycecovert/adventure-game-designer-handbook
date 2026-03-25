@@ -13,6 +13,13 @@ Indiana Jones and the Last Crusade is a 1989 Lucasfilm/LucaArts adventure game u
 
 ![Game overview screenshot — Indiana Jones at Barnett College office surrounded by artifacts](./indiana-jones-last-crusade-overview.png)
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./indiana-jones-and-the-last-crusade-chart.svg?dark">
+  <img src="./indiana-jones-and-the-last-crusade-chart.svg" alt="Indiana Jones and the Last Crusade Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
 ---
 
 ## Puzzle 1: The Grail Diary Library Puzzle
