@@ -1,0 +1,265 @@
+flowchart TD
+    %% =============================================================================
+    %% FONT SIZE & CONFIGURATION
+    %% =============================================================================
+    node[fontsize=18]
+    START["**START**"] --> A_ARRIVE_SHAPEIR
+    START --> A_CHECK_DAY_COUNTER
+
+    %% =============================================================================
+    %% SHAPEIR TOWN - Initial Setup (area_1 - light blue)
+    %% =============================================================================
+    subgraph area_1["**SHAPEIR TOWN**"]
+        A_ARRIVE_SHAPEIR["A: Arrive in Shapeir"] --> C1["C1: Day 1 Begins"]
+        
+        C1 --> P_MEET_AZIZA["P: Meet Aziza the Enchantress"]
+        P_MEET_AZIZA --> A_VISIT_AZIZA["A: Visit Aziza in Castle Keep"]
+        A_VISIT_AZIZA --> O_LEARN_ELEMENTALS["O: Learn About Elemental Threats"]
+        
+        C1 --> P_NEED_GOLD["P: Need Gold for Purchases"]
+        P_NEED_GOLD --> A_BEG_FOR_MONEY["A: Beg for Money in Square"]
+        A_BEG_FOR_MONEY --> O_RECEIVE_INN_COIN["O: Receive 50 Dinar for Inn"]
+        
+        C1 --> P_GET_WATERSKIN["P: Need Waterskin for Puzzles"]
+        P_GET_WATERSKIN --> A_VISIT_AL_HAJJAJ["A: Visit Al Hajjaj the Thirsty"]
+        A_VISIT_AL_HAJJAJ --> O_LEARN_WATERSKIN_TIP["O: Learn About Waterskin Need"]
+        
+        O_LEARN_ELEMENTALS --> UNLOCK_DESERT_QUESTS["**UNLOCK: Elemental Quests**"]
+    end
+    style area_1 fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+
+    %% =============================================================================
+    %% WIZARD ACADEMY - CLASS-SPECIFIC (area_wiz - light purple)
+    %% =============================================================================
+    subgraph area_wiz["**WIZARDS' INSTITUTE OF TECHNOLOGY**"]
+        UNLOCK_DESERT_QUESTS -.-> P_MAGIC_USER_QUALIFY["P: Magic User Must Qualify for Wizard Status"]
+        
+        P_MAGIC_USER_QUALIFY --> A_BUY_MAGIC_SHOP_ITEMS["A: Buy Spells from Keapon's Magic Shop"]
+        A_BUY_MAGIC_SHOP_ITEMS --> O_HAVE_SPELLS["O: Have All Required Spells"]
+        
+        O_HAVE_SPELLS & O_LEARN_WATERSKIN_TIP --> A_DETECT_HIDDEN_DOOR["A: Use Detect Magic to Find W.I.T. Entrance"]
+        A_DETECT_HIDDEN_DOOR --> C2["C2: Hidden Door Revealed"]
+        
+        C2 --> A_ENTER_WITH_ERASMUS["A: Enter Institute with Erasmus as Sponsor"]
+        A_ENTER_WITH_ERASMUS --> P_PRE_TEST_BELLS["P: Pre-Test - Three Bells"]
+        
+        P_PRE_TEST_BELLS --> A_DETECT_CORRECT_BELL["A: Cast Detect on Bell (identifies correct one)"]
+        A_DETECT_CORRECT_BELL --> A_FETCH_TO_STAND["A: Fetch Bell to Stand"]
+        A_FETCH_TO_STAND --> A_TRIGGER_RING["A: Trigger to Ring Bell"]
+        
+        A_TRIGGER_RING --> P_AIR_TRIAL["P: Air Trial - Spinning Staff"]
+        P_AIR_TRIAL --> A_LEVITATE_OVER_STAFF["A: Fetch Staff Toward, Then Levitate Until Passes"]
+        
+        A_LEVITATE_OVER_STAFF --> P_EARTH_TRIAL["P: Earth Trial - Stone Beast Wall"]
+        P_EARTH_TRIAL --> A_TRIGGER_WALL["A: Trigger to Awaken Earth Beast"]
+        A_TRIGGER_WALL --> A_CALM_TWICE["A: Calm Beast Twice (before & after crossing)"]
+        
+        A_CALM_TWICE --> P_WATER_TRIAL["P: Water Trial - Ice Hoarfrost"]
+        P_WATER_TRIAL --> A_FLAME_DART_ICE["A: Flame Dart to Melt Ice"]
+        A_FLAME_DART_ICE --> A_FORCE_BOLT_CRACK["A: Force Bolt on Crack Repeatedly"]
+        A_FORCE_BOLT_CRACK --> A_OPEN_HALVES["A: Open Door Splits Hailfist"]
+        
+        A_OPEN_HALVES --> P_FIRE_TRIAL["P: Fire Trial - Fiery Obstacle"]
+        P_FIRE_TRIAL --> A_OPEN_DOOR_FIRE["A: Open Fire Door"]
+        A_OPEN_DOOR_FIRE --> A_CALM_FLAMES_HOLE["A: Calm Flames Leaves Hole"]
+        A_CALM_FLAMES_HOLE --> A_FETCH_DOOR_CLOSE["A: Fetch Door Closed"]
+        A_FETCH_DOOR_CLOSE --> A_FORCE_BOLT_PUSH["A: Force Bolt Pushes Door Onto Hole"]
+        
+        A_FORCE_BOLT_PUSH --> C3["C3: Pass Fire Trial - Graduate Wizard"]
+        C3 --> A_REFUSE_OATH["A: Refuse Oath to Join Institute"]
+        A_REFUSE_OATH --> O_RECEIVE_REVERSAL["O: Receive REVERSAL Spell for Graduation"]
+    end
+    style area_wiz fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    %% =============================================================================
+    %% ELEMENTAL CAPTURES - TIME-BASED (area_elem - light orange)
+    %% =============================================================================
+    subgraph area_elem["**ELEMENTAL CAPTURES - HARD DEADLINES**"]
+        UNLOCK_DESERT_QUESTS --> P_BUY_INCENSE_LAMP["P: Buy Lure & Container"]
+        
+        P_BUY_INCENSE_LAMP --> A_VISIT_HARIK["A: Visit Harik Attar Apothecary"]
+        A_VISIT_HARIK --> A_BARGAIN_INCENSE["A: Bargain for Incense (free with correct negotiation)"]
+        A_BARGAIN_INCENSE --> O_RECEIVE_INCENSE["O: Receive Incense"]
+        
+        P_BUY_INCENSE_LAMP --> A_VISIT_TASHTARI["A: Visit Tashtari's Brass Stand Fountain Plaza"]
+        A_VISIT_TASHTARI --> A_BARGAIN_BRASS_LAMP["A: Bargain for Brass Lamp (10 dinars)"]
+        A_BARGAIN_BRASS_LAMP --> O_RECEIVE_BRASS_LAMP["O: Receive Brass Lamp"]
+        
+        C1 --> C_DAY5["C_DAY5: Day 5 - Fire Elemental Appears"]
+        C_DAY5 --> P_FIRE_ELEMENTAL_CAPTURE["P: Capture Fire Elemental Before Day 7"]
+        
+        P_FIRE_ELEMENTAL_CAPTURE --> A_USE_INCENSE_ALLEY["A: Use Incense Away From Plaza into Alley"]
+        A_USE_INCENSE_ALLEY --> A_LURE_FOLLOW["O: Elemental Follows You"]
+        A_LURE_FOLLOW --> A_PUT_DOWN_LAMP["A: Put Down/Drop Lamp on Ground"]
+        A_PUT_DOWN_LAMP --> A_POUR_WATER_REPEATEDLY["A: Use Water on Fire Elemental Multiple Times"]
+        
+        A_POUR_WATER_REPEATEDLY --> C4["C4: Fire Elemental Captured in Magic Lamp"]
+        C4 --> O_CITY_SAVED_FIre["O: City Saved - Day 7 Disaster Avoided"]
+    end
+    style area_elem fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    %% =============================================================================
+    %% JULANAR TREE WOMAN (area_jul - light green)
+    %% =============================================================================
+    subgraph area_jul["**JULANAR THE TREE WOMAN**"]
+        UNLOCK_DESERT_QUESTS -.-> P_SEE_STRANGE_TREE["P: Strange Tree in Desert Looks Like Woman"]
+        
+        P_SEE_STRANGE_TREE --> A_ASK_AZIZA_TREE["A: Ask Aziza About the Tree"]
+        A_ASK_AZIZA_TREE --> O_LEARN_JULANAR_STORY["O: Learn Julanar Cursed Story - No Direct Solution"]
+        
+        UNLOCK_DESERT_QUESTS -.-> P_CATCH_EARTH_ELEMENTAL["P: Capture Earth Elemental First"]
+        P_CATCH_EARTH_ELEMENTAL --> A_WEAKEN_WITH_FLAME_DART["A: Weaken with Flame Dart or Soulforge Sword"]
+        A_WEAKEN_WITH_FLAME_DART --> A_GATHER_DUST_BAG["A: Gather Dust into Cloth Bag"]
+        A_GATHER_DUST_BAG --> O_RECEIVE_EARTH_ELEMENTAL["O: Receive Earth Elemental in Bag"]
+        
+        C1 --> C_DAY8["C_DAY8: Day 8+ - Air Trial Available"]
+        C_DAY8 -.-> P_AIR_ELEMENTAL_BEFORE_JULANAR["P: Optionally Catch Air Elemental First (not required)"]
+        
+        O_HAVE_SPELLS & O_RECEIVE_EARTH_ELEMENTAL --> A_TRAVEL_TO_TREE["A: Travel East from Shapeir Overlook to Desert Tree"]
+        A_TRAVEL_TO_TREE --> P_GIFT_SEQUENCE["P: Give Three Gifts in Sequence"]
+        
+        P_GIFT_SEQUENCE --> A_GIVE_WATER_KINDNESS["A: Gift 1 - Give Water (Gift of Kindness)"]
+        A_GIVE_WATER_KINDNESS --> A_TELL_ABOUT_YOURSELF["A: Tell About Yourself"]
+        A_TELL_ABOUT_YOURSELF --> O_KINDNESS_RECEIVED["O: Gift of Kindness Accepted"]
+        
+        O_KINDNESS_RECEIVED & O_RECEIVE_EARTH_ELEMENTAL --> A_GIVE_EARTH_MAGIC["A: Gift 2 - Give Earth (Gift of Magic)"]
+        A_GIVE_EARTH_MAGIC --> A_TELL_ABOUT_EARTH["A: Tell About Earth"]
+        A_TELL_ABOUT_EARTH --> O_MAGIC_RECEIVED["O: Gift of Magic Accepted"]
+        
+        O_MAGIC_RECEIVED --> A_HUG_TREE["A: Gift 3 - Hug Tree (Gift of Love)"]
+        A_HUG_TREE --> A_TYPE_JULANAR["A: Type JULANAR as Name (Recognition)"]
+        A_TYPE_JULANAR --> O_LOVE_RECEIVED["O: Gift of Love Accepted"]
+        
+        O_LOVE_RECEIVED --> C5["C5: Tree Restored - Blooms with Flowers"]
+        C5 --> A_TAKE_FRUIT_COMPASSION["A: Take Fruit of Compassion from Branch"]
+        A_TAKE_FRUIT_COMPASSION --> O_RECEIVE_FRUIT_COMPASSION["O: Receive Fruit of Compassion"]
+    end
+    style area_jul fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+
+    %% =============================================================================
+    %% ADDITIONAL ELEMENTAL CAPTURES (area_elem2 - light orange)
+    %% =============================================================================
+    subgraph area_elem2["**MORE ELEMENTAL DEADLINES**"]
+        UNLOCK_DESERT_QUESTS --> C_DAY8_AIR["C_DAY8: Day 8-11 - Air Elemental"]
+        
+        C_DAY8_AIR --> P_AIR_TRIAL_CAPTURE["P: Capture Air Elemental Before Day 11"]
+        P_AIR_TRIAL_CAPTURE --> A_LEVITATE_ABOVE_WHIRLWIND["A: Levitate Above Whirlwind Center"]
+        A_LEVITATE_ABOVE_WHIRLWIND --> A_DROP_EARTH_CENTER["A: Drop Earth in Center to Slow Spinning"]
+        A_DROP_EARTH_CENTER --> A_USE_BELLOWS_SUCK["A: Use Bellows to Blow Elemental Into Container"]
+        
+        A_USE_BELLOWS_SUCK --> C6["C6: Air Elemental Captured in Bellows"]
+        
+        UNLOCK_DESERT_QUESTS --> C_DAY12["C_DAY12: Day 12-14 - Earth Element"]
+        C_DAY12 --> P_EARTH_CAPTURE["P: Capture Earth Before Day 14"]
+        P_EARTH_CAPTURE -.-> A_WEAKEN_WITH_FLAME_DART
+        
+        UNLOCK_DESERT_QUESTS --> C_DAY14_W["C_DAY14: Day 14-16 - Water Elemental"]
+        
+        C_DAY14_W --> P_WATER_CAPTURE["P: Capture Water Before Day 16"]
+        P_WATER_CAPTURE --> A_DROP_WATERSKIN_FOUNTAIN["A: Drop Waterskin at Fountain Base"]
+        A_DROP_WATERSKIN_FOUNTAIN --> A_BLOWER_ELEMENTAL_IN["A: Use Bellows to Blow Elemental Into Tank"]
+        
+        A_BLOWER_ELEMENTAL_IN --> C7["C7: Water Elemental Captured"]
+    end
+    style area_elem2 fill:#FFF8E1,stroke:#F57F17,stroke-width:3px
+
+    %% =============================================================================
+    %% MID-GAME PUZZLES (area_mid - light yellow)
+    %% =============================================================================
+    subgraph area_mid["**MID-GAME QUESTS**"]
+        UNLOCK_DESERT_QUESTS -.-> P_DERVISH_FIVE_WS["P: Dervish's Five Ws Riddle"]
+        
+        P_DERVISH_FIVE_WS --> A_COLLECT_FIVE_OBJECTS["A: Collect Whatever/Whenever/Wherewith/Wherever/Whereby Objects"]
+        A_COLLECT_FIVE_OBJECTS --> O_RIDDLE_SOLVED["O: Present to Dervish for Reward"]
+        
+        UNLOCK_DESERT_QUESTS -.-> P_SULEIMAN_TOMB["P: Suleiman the Djinn's Ring"]
+        
+        P_SULEIMAN_TOMB --> A_ENTER_TOMB_DOOR["A: Enter Tomb - See Name at Door"]
+        A_ENTER_TOMB_DOOR --> A_TYPE_SULEIMAN["A: Type SULEIMAN at Door (Observation Replay)"]
+        A_TYPE_SULEIMAN --> O_DOOR_OPENS["O: Door Opens"]
+        
+        O_DOOR_OPENS --> A_SEARCH_FOR_RING["A: Search Tomb Contents for Ring"]
+        A_SEARCH_FOR_RING --> O_RECEIVE_MAGIC_RING["O: Receive Magic Ring - Grant 3 Wishes Later"]
+    end
+    style area_mid fill:#FFF9C4,stroke:#FBC02D,stroke-width:3px
+
+    %% =============================================================================
+    %% FINAL PUZZLES (area_final - light amber)
+    %% =============================================================================
+    subgraph area_final["**FINAL PHASE - DAY 23+**"]
+        C1 --> C_DAY23["C_DAY23: Day 23+ - Final Quests Available"]
+        
+        C_DAY23 --> P_CAGED_BEAST_POTION["P: Cure Caged Beast Al Scurva"]
+        P_CAGED_BEAST_POTION --> A_GET_GRIFIN_FEATHER["A: Get Griffin Feather (from Desert Hunt)"]
+        A_GET_GRIFIN_FEATHER --> A_GET_BEAST_HAIR["A: Cut Hair from Caged Beast"]
+        
+        A_GET_BEAST_HAIR & O_RECEIVE_FRUIT_COMPASSION --> A_VISIT_APOTHECARY["A: Visit Harik Apothecary with All 3 Ingredients"]
+        A_VISIT_APOTHECARY --> A_COMBINE_POTION["A: Combine Griffin Feather + Fruit of Compassion + Beast Hair"]
+        
+        A_COMBINE_POTION --> O_RECEIVE_DISPILL_POTION["O: Receive Dispel Potion"]
+        O_RECEIVE_DISPILL_POTION --> A_GIVE_TO_AL_SCURVA["A: Give to Al Scurva the Caged Beast"]
+        
+        A_GIVE_TO_AL_SCURVA --> C8["C8: Beast Cured - Freed of Curse"]
+        
+        UNLOCK_DESERT_QUESTS -.-> P_SHARAP_PIN["P: Sharaf Katta Needs Pin for Secret Passage"]
+        P_SHARAP_PIN --> A_FIND_SAPPHIRE_PIN["A: Find Sapphire Pin in Shapeir"]
+        A_FIND_SAPPHIRE_PIN --> A_SHOW_TO_SHARAF_DAY29["A: Show to Sharaf the Katta on Day 29+ Dungeon Escape"]
+        
+        A_SHOW_TO_SHARAF_DAY29 --> O_SECRET_PASSAGE_ACTIVE["O: Secret Passage Activates"]
+        O_SECRET_PASSAGE_ACTIVE --> C9["C9: Dungeon Escape Route Open"]
+    end
+    style area_final fill:#FFECB3,stroke:#F57F17,stroke-width:3px
+
+    %% =============================================================================
+    %% CLASS-SPECIFIC ALTERNATIVES (area_class - light purple)
+    %% =============================================================================
+    subgraph area_class["**CLASS-SPECIFIC ROUTES**"]
+        START -.-> A_THIEF_PICKPOCKET_ROUTE["A: Thief Path - Pickpocket for Gold/Items"]
+        START -.-> A_FIGHTER_COMBAT_ROUTE["A: Fighter Route - Combat Solutions"]
+        
+        A_THIEF_PICKPOCKET_ROUTE --> O_THF_GOLD["O: Alternative Gold Acquisition"]
+        A_FIGHTER_COMBAT_ROUTE --> O_FT_WEAKENS_ENEMIES["O: Combat Can Weaken Some Bosses"]
+        
+        O_THF_GOLD -.-> P_NEED_GOLD
+        O_FT_WEAKENS_ENEMIES -.-> A_WEAKEN_WITH_FLAME_DART
+    end
+    style area_class fill:#E1BEE7,stroke:#8E24AA,stroke-width:3px
+
+    %% =============================================================================
+    %% END GAME (area_end - light red)
+    %% =============================================================================
+    subgraph area_end["**CATA COMPLETION**"]
+        C8 & O_SECRET_PASSAGE_ACTIVE --> P_FIGHT_ZARKOFF["P: Final Boss - Zarkoff the Dark Sorcerer"]
+        
+        P_FIGHT_ZARKOFF --> A_USE_MAGIC_RING_WISHES["A: Use Magic Ring 3 Wishes Strategically"]
+        A_USE_MAGIC_RING_WISHES -.-> O_WIN_COMBAT["O: Win Battle Against Zarkoff"]
+        
+        C4 & C6 & C7 -.-> P_FIGHT_ZARKOFF
+        
+        O_WIN_COMBAT --> END["**END - KARR-MAR DEFEATED**"]
+    end
+    style area_end fill:#FFCDD2,stroke:#B71C1C,stroke-width:3px
+
+    %% =============================================================================
+    %% CLASS DEFINITIONS
+    %% =============================================================================
+    classDef start_end fill:#FFD700,stroke:#996600,stroke-width:3px,color:#000000,font-weight:bold
+    classDef problem fill:#FFB3B3,stroke:#8B0000,stroke-width:2px,color:#8B0000
+    classDef action fill:#B3FFB3,stroke:#006400,stroke-width:2px,color:#006400
+    classDef outcome fill:#B3D9FF,stroke:#004080,stroke-width:2px,color:#004080
+    classDef unlock fill:#FFE4B5,stroke:#8B4513,stroke-width:3px,color:#8B4513,font-weight:bold
+    classDef consequence fill:#E8E8E8,stroke:#333333,stroke-width:2px,color:#333333
+
+    classDef area_1 fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+    classDef area_wiz fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+    classDef area_elem fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+    classDef area_jul fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+    classDef area_elem2 fill:#FFF8E1,stroke:#F57F17,stroke-width:3px
+    classDef area_mid fill:#FFF9C4,stroke:#FBC02D,stroke-width:3px
+    classDef area_final fill:#FFECB3,stroke:#F57F17,stroke-width:3px
+    classDef area_class fill:#E1BEE7,stroke:#8E24AA,stroke-width:3px
+    classDef area_end fill:#FFCDD2,stroke:#B71C1C,stroke-width:3px
+
+    class START,END,C1,C2,C3,C4,C5,C6,C7,C8,C9,C_DAY5,C_DAY8,C_DAY12,C_DAY14_W,C_DAY23 start_end
+    class UNLOCK_DESERT_QUESTS unlock
+    class O_LEARN_ELEMENTALS,O_HAVE_SPELLS,RECEIVE_EARTH_ELEMENTAL consequence
