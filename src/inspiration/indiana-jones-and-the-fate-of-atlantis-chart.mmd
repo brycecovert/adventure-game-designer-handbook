@@ -1,0 +1,282 @@
+flowchart TD
+    %% =============================================================================
+    %% FONT SIZE & CONFIGURATION
+    %% =============================================================================
+    node[fontsize=18]
+    START["**START**"] --> B_LIBRARY_DIALOGUE
+    START --> T_TIKAL_TEMPLE
+
+    %% =============================================================================
+    %% BARNETT COLLEGE - Dialogue Retrieval (area_B - light blue)
+    %% =============================================================================
+    subgraph area_B["**BARNETT COLLEGE**"]
+        B_LIBRARY_DIALOGUE["B: Search Library for Book"] --> P_CHEST_CAT_BOOKCASE["P: Random Hiding Location"]
+        P_CHEST_CAT_BOOKCASE --> A_SEARCH_BUILDING["A: Access Different Building Areas"]
+        A_SEARCH_BUILDING --> O_RECEIVE_PLATO_DIALOGUE["O: Receive Plato's Lost Dialogue"]
+    end
+    style area_B fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+
+    %% =============================================================================
+    %% TIKAL TEMPLE - Elephant Head (area_T - light orange)
+    %% =============================================================================
+    subgraph area_T["**TIKAL TEMPLE - Elephant Head**"]
+        T_TIKAL_TEMPLE["Tik al Temple Entrance"] --> P_STERNHART_BLOCKS["P: Sternhart Blocks Entry"]
+        P_STERNHART_BLOCKS --> A_ASK_PARROT_TITLE["A: Ask Parrot About Title"]
+        A_ASK_PARROT_TITLE --> O_LEARN_HERMOCRATES["O: Learn Title: 'Hermocrates'"]
+
+        T_TIKAL_TEMPLE --> A_GET_KEROSENE_LAMP["A: Get Kerosene Lamp (Souvenir Stand)"]
+        A_GET_KEROSENE_LAMP --> O_RECEIVE_LAMP["O: Receive Lamp"]
+        
+        O_LEARN_HERMOCRATES --> P_SAY_TITLE_TO_STERNHART["P: Tell Title to Dr. Sternhart"]
+        A_ASK_PARROT_TITLE --> P_SAY_TITLE_TO_STERNHART
+
+        P_SAY_TITLE_TO_STERNHART --> C_T1["C_T1: Access Temple Interior"]
+
+        C_T1 --> A_OPEN_LAMP["A: Open Lamp in Temple"]
+        O_RECEIVE_LAMP --> A_OPEN_LAMP
+        
+        A_OPEN_LAMP --> A_CLEAN_SPIRAL_DESIGN["A: Use Lamp on Spiral Design"]
+        A_CLEAN_SPIRAL_DESIGN --> O_RECEIVE_SPIRAL["O: Receive Spiral (Cleaned)"]
+
+        C_T1 --> P_ANIMAL_HEAD_MISSING_PART["P: Animal Head lacks trunk"]
+        O_RECEIVE_SPIRAL --> P_ANIMAL_HEAD_MISSING_PART
+        
+        P_ANIMAL_HEAD_MISSING_PART --> A_PLACE_SPIRAL_ON_HEAD["A: Place Spiral on Animal Head"]
+        A_PLACE_SPIRAL_ON_HEAD --> A_PULLED_TRUNK["A: Pull Elephant Trunk-Nose"]
+
+        A_PULLED_TRUNK --> C_T2["C_T2: Tomb Opens, Sternhart Escapes"]
+
+        C_T2 --> O_RECEIVE_WORLDSTONE["O: Receive Worldstone Artifact"]
+        C_T2 --> O_RECEIVE_ORICHALCUM_BEAD["O: Receive Orichalcum Bead"]
+    end
+    style area_T fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    %% =============================================================================
+    %% ALGIERS - Dig Site Generator (area_A - light purple)
+    %% =============================================================================
+    subgraph area_A["**ALGIERS - Dig Site Generator**"]
+        C_ALGIRIS_ENTRY["C_ALGRIERS: Arrive at Algiers"] --> P_DIG_SITE_DARK["P: Underground Dark Chamber"]
+        
+        P_DIG_SITE_DARK --> A_NAVIGATE_BY_CURSOR["A: Navigate by Cursor Feedback"]
+        A_NAVIGATE_BY_CURSOR --> O_CAN_LOCATE_ITEMS["O: Can Locate Items by Touch"]
+
+        O_CAN_LOCATE_ITEMS & C_ALGIRIS_ENTRY --> A_PICK_UP_HOSE["A: Pick Up Hose"]
+        O_CAN_LOCATE_ITEMS & C_ALGIRIS_ENTRY --> A_PICK_UP_CLAY_JAR["A: Pick Up Clay Jar"]
+        O_CAN_LOCATE_ITEMS --> A_LOCATE_GENERATOR["A: Locate Generator"]
+
+        A_PICK_UP_HOSE --> O_HAVE_HOSE["O: Have Hose"]
+        A_PICK_UP_CLAY_JAR --> O_HAVE_JAR["O: Have Clay Jar"]
+
+        O_HAVE_HOSE & O_HAVE_JAR --> C_SURFACE["C_SURFACE: Return to Surface"]
+
+        C_SURFACE --> A_EXAMINE_TRUCK_TANK["A: Examine Truck Gas Tank"]
+        A_EXAMINE_TRUCK_TANK --> P_EMPTY_GAS_TANK["P: Truck Has Empty Gas Tank"]
+
+        P_EMPTY_GAS_TANK --> A_INSERT_HOSE_IN_TANK["A: Insert Hose into Gas Tank"]
+        O_HAVE_HOSE --> A_INSERT_HOSE_IN_TANK
+        
+        A_INSERT_HOSE_IN_TANK --> A_ATTACH_JAR_TO_HOSE["A: Attach Clay Jar to Hose End"]
+        A_ATTACH_JAR_TO_HOSE --> O_RECEIVE_FUEL["O: Receive Fuel in Jar"]
+
+        O_RECEIVE_FUEL & C_ALGIRIS_ENTRY --> C_RETURN_DIG_SITE["C_RETURN: Return to Dig Site"]
+
+        C_RETURN_DIG_SITE --> A_OPEN_GENERATOR_CAP["A: Open Generator Gas Cap"]
+        A_OPEN_GENERATOR_CAP --> A_POUR_FUEL_IN_GENERATOR["A: Pour Fuel into Generator"]
+        O_RECEIVE_FUEL --> A_POUR_FUEL_IN_GENERATOR
+
+        A_POUR_FUEL_IN_GENERATOR --> A_CLOSE_GAS_CAP["A: Close Gas Cap"]
+        A_CLOSE_GAS_CAP --> A_PUSH_GENERATOR_SWITCH["A: Push Generator Switch"]
+        
+        A_PUSH_GENERATOR_SWITCH --> C_A1["C_A1: Chamber Illuminated"]
+
+        C_A1 & C_RETURN_DIG_SITE --> O_CAN_SEE_OBJECTS["O: Can See All Objects"]
+
+        O_CAN_SEE_OBJECTS --> A_GET_SHIP_RIB["A: Get Ship Rib from Table"]
+        O_CAN_SEE_OBJECTS --> A_GET_WOODEN_PEG["A: Get Wooden Peg from Table"]
+
+        A_GET_SHIP_RIB --> O_RECEIVE_SHIP_RIB["O: Receive Ship Rib"]
+        A_GET_WOODEN_PEG --> O_RECEIVE_WOODEN_PEG["O: Receive Wooden Peg"]
+    end
+    style area_A fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    %% =============================================================================
+    %% CRETE - Moonstone Transit Alignment (area_C - light amber)
+    %% =============================================================================
+    subgraph area_C["**CRETE - Moonstone Transit**"]
+        C_CRETE_ENTRY["C_CRETE: Arrive at Crete Ruins"] --> C_BRIDGE["C_BRIDGE: Cross Small Bridge"]
+
+        C_BRIDGE --> A_PICK_UP_TRANSIT["A: Pick Up Surveyor's Instrument"]
+        A_PICK_UP_TRANSIT --> O_HAVE_TRANSIT["O: Have Transit"]
+
+        C_BRIDGE --> C_UNDER_BRIDGE["C_UNDER: Pass Under Bridge to Hidden Chambers"]
+
+        C_UNDER_BRIDGE & O_HAVE_TRANSIT --> A_LOCATE_BULL_MURAL["A: Locate Bull Mural"]
+        A_LOCATE_BULL_MURAL --> O_RECOGNIZE_PATTERN["O: Recognize Crossing-Line Pattern"]
+
+        C_UNDER_BRIDGE --> P_FIRST_STATUE_HIDDEN["P: First Statue Hidden Under Rubble"]
+        P_FIRST_STATUE_HIDDEN --> A_PUSH_RUBBLE_1["A: Push Aside Stone Pile 1"]
+        A_PUSH_RUBBLE_1 --> O_TAIL_STATUE_REVEALED["O: Tail Statue Revealed"]
+
+        O_TAIL_STATUE_REVEALED & O_HAVE_TRANSIT --> A_POSITION_TRANSIT_ON_TAIL["A: Position Transit on Tail Statue"]
+        A_POSITION_TRANSIT_ON_TAIL --> A_ALIGN_WITH_RIGHT_HORN["A: Align with Right Horn Marker"]
+        O_RECOGNIZE_PATTERN --> A_ALIGN_WITH_RIGHT_HORN
+
+        C_UNDER_BRIDGE --> P_SECOND_STATUE_HIDDEN["P: Second Statue Hidden Under Rubble"]
+        P_SECOND_STATUE_HIDDEN --> A_PUSH_RUBBLE_2["A: Push Aside Stone Pile 2"]
+        A_PUSH_RUBBLE_2 --> O_HEAD_STATUE_REVEALED["O: Head Statue Revealed"]
+
+        O_HEAD_STATUE_REVEALED & O_HAVE_TRANSIT --> A_POSITION_TRANSIT_ON_HEAD["A: Position Transit on Head Statue"]
+        A_POSITION_TRANSIT_ON_HEAD --> A_ALIGN_WITH_LEFT_HORN["A: Align with Left Horn Marker"]
+        O_RECOGNIZE_PATTERN --> A_ALIGN_WITH_LEFT_HORN
+
+        A_ALIGN_WITH_RIGHT_HORN & A_ALIGN_WITH_LEFT_HORN --> O_YELLOW_MARK_AppeARS["O: Yellow X Mark Appears at Convergence"]
+
+        O_YELLOW_MARK_AppeARS --> A_EXCAVATE_X_MARKER["A: Use Ship Rib on Marked Spot"]
+        O_RECEIVE_SHIP_RIB -.-> A_EXCAVATE_X_MARKER
+        
+        A_EXCAVATE_X_MARKER --> C_C1["C_C1: Moonstone Discovered"]
+
+        C_C1 --> O_RECEIVE_Moonstone["O: Receive Moonstone Artifact"]
+    end
+    style area_C fill:#FFF8E1,stroke:#F9A825,stroke-width:3px
+
+    %% =============================================================================
+    %% MONTICARLO SEANCE (area_M - light green)
+    %% =============================================================================
+    subgraph area_M["**MONTE CARLO SEANCE**"]
+        C_Monte_Carlo["C_MONTE_CARLO: Arrive at Monte Carlo"] --> P_ANSWER_FOUR_QUESTIONS["P: Answer Trottier's Four Questions"]
+
+        O_HAVE_SEANCE_CLUES --> P_ANSWER_FOUR_QUESTIONS
+
+        P_ANSWER_FOUR_QUESTIONS --> A_ANSWER_Q1_FROM_PRIOR_TALK["A: Answer Q1 from Prior Conversation"]
+        P_ANSWER_FOUR_QUESTIONS --> A_ANSWER_Q2_FROM_PRIOR_INFO["A: Answer Q2 from Prior Info"]
+        P_ANSWER_FOUR_QUESTIONS --> A_ANSWER_Q3_FROM_HINTS["A: Answer Q3 from Hints"]
+        P_ANSWER_FOUR_QUESTIONS --> A_ANSWER_Q4_SAVESCUM["A: Answer Q4 (Randomized - Save Scum)"]
+
+        A_ANSWER_Q1_FROM_PRIOR_TALK & A_ANSWER_Q2_FROM_PRIOR_INFO & A_ANSWER_Q3_FROM_HINTS & A_ANSWER_Q4_SAVESCUM --> C_M1["C_M1: Seance Completes"]
+    end
+    style area_M fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+
+    %% =============================================================================
+    %% ALGIERS BALLOON HEIST (area_A2 - light purple return)
+    %% =============================================================================
+    subgraph area_A2["**ALGIERS - Balloon Heist**"]
+        C_ALGRIERS_BALLOON["C_ALGriers: Return to Algiers for Balloon"] --> P_OMAR_TRADE_NETWORK["P: Need Items from Omar's Trade Network"]
+
+        P_OMAR_TRADE_NETWORK --> A_TRADE_FOR_SQUAB_TO_GROCER["A: Trade Items through Omar to Grocer"]
+        A_TRADE_FOR_SQUAB_TO_GROCER --> O_RECEIVE_SQUAB["O: Receive Squab"]
+
+        O_RECEIVED_SQUAB -.-> P_BEGGAR_TICKET["P: Feed Beggar for Ticket"]
+        P_BEGGAR_TICKET --> A_FEED_BEGGAR_SQUAB["A: Feed Beggar with Squab"]
+        A_FEED_BEGGAR_SQUAB --> O_RECEIVE_BALLOON_TICKET["O: Receive Balloon Ticket"]
+
+        C_ALGriers_BALLOON --> P_STEAL_BALLOON["P: Steal German Balloon"]
+        P_STEAL_BALLOON --> A_USE_KNIFE_ON_BALLOON["A: Use Knife on Balloon"]
+        O_HAVE_KNIFE -.-> A_USE_KNIFE_ON_BALLOON
+
+        A_USE_KNIFE_ON_BALLOON --> C_ALGRIERS_2["C_ALGIERS_2: Balloon Stolen - Can Travel to U-Boat"]
+    end
+    style area_A2 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    %% =============================================================================
+    %% NAZI U-BOAT RESCUE (area_U - light cyan)
+    %% =============================================================================
+    subgraph area_U["**NAZI U-BOAT - Multi-Character Rescue**"]
+        C_U_BOAT["C_U_BOAT: Arrive at U-Boat Location"] --> P_SOPHIA_CAPTURED["P: Sophia Captured on Submarine"]
+
+        P_SOPHIA_CAPTURAL --> A_COORDINATE_WITH_SOPHIA["A: Coordinate with Sophia (via radio)"]
+        C_U_BOAT --> A_COORDINATE_WITH_SOPHIA
+        
+        A_COORDINATE_WITH_SOPHIA --> O_SOPHIA_DISTRACTS_GUARD["O: Sophia Distracts Guard"]
+
+        O_SOPHIA_DISTRACTS_GUARD --> P_ACID_LOCKER_KEY["P: Key Locked in Acid Locker"]
+        P_ACID_LOCKER_KEY --> A_GRAB_KEY_DURING_DISTRACTION["A: Grab Key During Distraction Window"]
+
+        A_GRAB_KEY_DURING_DISTRACTION --> O_RECEIVE_SUB_KEY["O: Receive Submarine Key"]
+
+        O_RECEIVED_SUB_KEY --> C_U1["C_U1: Sophia Freed"]
+
+        C_U1 --> P_STEER_TO_ATLANTIS["P: Steer Submarine to Atlantis Airlock"]
+        P_STEER_TO_ATLANTIS --> A_NAVIGATE_SUBMARINE["A: Navigate Submarine Controls"]
+
+        A_NAVIGATE_SUBMARINE --> C_U2["C_U2: Arrive at Atlantis Airlock"]
+    end
+    style area_U fill:#E0F7FA,stroke:#00838F,stroke-width:3px
+
+    %% =============================================================================
+    %% ATLAN IS Labyrinth - Minotaur & Navigation (area_L - light red)
+    %% =============================================================================
+    subgraph area_L["**ATLANTIS LABYRINTH - Minotaur & Orichalcum**"]
+        C_U2 --> C_LAB_ENTRY["C_LAB: Enter Atlantis Labyrinth"]
+
+        C_LAB_ENTRY --> P_MINOTAUR_PRESSURE_PLATE["P: Minotaur Blocks Pressure Plate Path"]
+        P_MINOTAUR_PRESSURE_PLATE --> A_WHIP_MINOTAUT_HEAD["A: Whip Minotaur's Head"]
+        O_HAVE_WHIP -.-> A_WHIP_MINOTAUR_HEAD
+
+        A_WHIP_MINOTAUT_HEAD --> O_MINOTAUL_FALLS["O: Minotaur Falls on Pressure Plate"]
+
+        O_MINOTAUR_ALPS --> C_L1["C_L1: Elevator Activated to Lower Level"]
+
+        C_L1 --> P_ORICHALCUM_NAVIGATION["P: Need Orichalcum Detector for Hidden Doors"]
+        P_ORICHALCUM_NAVIGATION --> A_PUT_BEADS_IN_GOLD_BOX["A: Put All Beads in Gold Box (Magnetic Shielding)"]
+        O_RECEIVE_ORICHALCUM_BEAD -.-> A_PUT_BEADS_IN_GOLD_BOX
+
+        A_PUT_BEADS_IN_GOLD_BOX --> A_MAKE_AMBER_DETECTOR["A: Make Amber Fish Detector"]
+        A_MAKE_AMBER_DETECTOR --> O_HAVE_ORICHALCUM_DETECTOR["O: Have Orichalcum Detector"]
+
+        O_HAVE_ORICHALCUM_DETECTOR & C_L1 --> A_LOCATE_HIDDEN_DOOR["A: Use Detector to Locate Hidden Door"]
+        A_LOCATION_HIDDEN_DOOR --> C_L2["C_L2: Navigate Deeper into Labyrinth"]
+
+        C_L2 --> P_STATUE_HEAD_GATE["P: Statue Head Gate Blocks Progress"]
+        P_STATUE_HEAD_GATE --> A_REMEMBER_THREE_HEADS["A: Remember Locations of 3 Heads Across Rooms"]
+        A_REMEMBER_THREE_HEADS --> A_COLLECT_HEADS_1_2_3["A: Collect All Three Heads"]
+
+        A_COLLECT_HEADS_1_2_3 --> C_L3["C_L3: Gate Opens for Finale"]
+    end
+    style area_L fill:#FFEBEE,stroke:#C62828,stroke-width:3px
+
+    %% =============================================================================
+    %% ATLAS - Final Alignment (area_F - light gold)
+    %% =============================================================================
+    subgraph area_F["**ATLANTIS - Stone Disk Alignment Finale**"]
+        C_L3 --> A_COLLECT_ALL_DISKS["A: Collect All Three Stone Disks"]
+
+        O_RECEIVE_WORLDSTONE -.-> A_COLLECT_ALL_DISKS
+        O_RECEIVE_MOONSTONE -.-> A_COLLECT_ALL_DISKS
+        
+        A_COLLECT_ALL_DISKS --> O_HAVE_THREE_DISKS["O: Have All Three Disks"]
+
+        O_HAVE_THREE_DISKS & C_L3 --> P_SPINDLE_ALIGNMENT["P: Align Disks on Final Spindle"]
+
+        O_RECEIVE_PLATO_DIALOGUE -.-> P_SPINDLE_ALIGNMENT
+        
+        P_SPINDLE_ALIGNMENT --> A_READ_DIALOGUE_FOR_HINTS["A: Read Plato's Dialogue for 'Contrary Minds' Hint"]
+        A_READ_DIALOGUE_FOR_HINTS --> A_ALIGN_DISKS_CONTRARY["A: Align All Three Disks Per Dialogue Instructions"]
+
+        A_ALIGN_DISKS_CONTRARY --> C_F1["C_F1: Entrance to Final Chamber Opens"]
+    end
+    style area_F fill:#FFFDE7,stroke:#FBC02D,stroke-width:3px
+
+    %% =============================================================================
+    %% THREE PATH CONVERGENCE (Team/Fists/Wits)
+    %% =============================================================================
+    C_F1 --> P_CHOOSE_PATH["P: Choose Play Path"]
+
+    P_CHOOSE_PATH --> A_TEAM_SOLUTIONS["A: Team-Path Solutions"]
+    P_CHOOSE_PATH --> A_FISTS_SOLUTIONS["A: Fists-Path Solutions"]
+    P_CHOOSE_PATH --> A_WITS_SOLUTIONS["A: Wits-Path Solutions"]
+
+    A_TEAM_SOLUTIONS & A_FISTS_SOLUTIONS & A_WITS_SOLUTIONS --> END["**END - One of Three Ending Paths**"]
+
+    %% =============================================================================
+    %% CLASS DEFINITIONS
+    %% =============================================================================
+    classDef start_end fill:#FFD700,stroke:#996600,stroke-width:3px,color:#000000,font-weight:bold
+    classDef problem fill:#FFB3B3,stroke:#8B0000,stroke-width:2px,color:#8B0000
+    classDef action fill:#B3FFB3,stroke:#006400,stroke-width:2px,color:#006400
+    classDef outcome fill:#B3D9FF,stroke:#004080,stroke-width:2px,color:#004080
+    classDef unlock fill:#FFE4B5,stroke:#8B4513,stroke-width:3px,color:#8B4513,font-weight:bold
+    classDef consequence fill:#E8E8E8,stroke:#333333,stroke-width:2px,color:#333333
+
+    class START,END start_end
+    class C_T1,C_T2,C_A1,C_C1,C_U1,C_U2,C_L1,C_L2,C_L3,C_F1 consequence

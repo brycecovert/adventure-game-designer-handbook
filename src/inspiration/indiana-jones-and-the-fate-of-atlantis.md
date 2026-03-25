@@ -13,6 +13,13 @@ Lucasfilm's third point-and-click adventure distinguished itself with three dist
 
 ![Game overview screenshot — main menu showing three path selection options](./indiana-jones-and-the-fate-of-atlantis-overview.png)
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./indiana-jones-and-the-fate-of-atlantis-chart.svg?dark">
+  <img src="./indiana-jones-and-the-fate-of-atlantis-chart.svg" alt="Indiana Jones and the Fate of Atlantis Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
 ---
 
 ## Puzzle 1: Tikal Temple Elephant Head
