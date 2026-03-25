@@ -11,6 +11,12 @@ Quest for Glory IV: Shadows of Darkness is a 1994 Sierra Entertainment adventure
 | **Core Mechanic** | Class-specific action verbs with multi-location ritual gathering meta-construction |
 | **What players found enjoyable** | "The greatest thing about the series is the well-done connection between RPG and the classic Sierra graphic adventure" [CyricZ]. Another walkthrough notes: "This is a large puzzle" referring to Dr. Cranium's lab sequence, calling it an intricate chain of interlocking mechanics [CrystalShard] |
 
+## Puzzle Dependency Chart
+
+<iframe src="./quest-for-glory-iv-chart.svg" width="100%" height="800px" style="border:none;"></iframe>
+
+[View Puzzle Dependencies QA Report](./quest-for-glory-iv-puzzle-dependencies-qa.md)
+
 ![Hero standing before Erana's Staff protruding from stone pedestal in Plaza Square](./quest-for-glory-iv-overview.png)
 
 ---

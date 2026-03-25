@@ -11,6 +11,12 @@ Quest for Glory 1: So You Want To Be A Hero is a 1989 Sierra On-Line adventure d
 | **Core Mechanic** | Class-based puzzle solutions requiring fighter combat, magic user spells, or thief stealth for identical progression gates |
 | **What players found enjoyable** | "Save here! Open nearby door and stay in passage until fake door collapses, jump on top" describes the tension of trap room timing [LoudKing]. The class-specific design creates replay value: each character type demands completely different mechanical approaches to the same obstacles, making multiple playthroughs genuinely distinct rather than reskinned [LFandom] |
 
+## Puzzle Dependency Chart
+
+<iframe src="./quest-for-glory-1-chart.svg" width="100%" height="800px" style="border:none;"></iframe>
+
+[View Puzzle Dependencies QA Report](./quest-for-glory-1-puzzle-dependencies-qa.md)
+
 ![Hero standing at main gate entering Spielburg—opening sequence where players enter the cursed valley](./qfg1-overview.png)
 
 ---

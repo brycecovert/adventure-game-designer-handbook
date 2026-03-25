@@ -11,6 +11,15 @@ Space Quest 1 is a 1986 Sierra On-Line comedy adventure designed by Scott Murphy
 | **Core Mechanic** | Comedy-driven mechanical puzzle chains where mundane items enable heroic outcomes through logical (if absurd) application |
 | **What players found enjoyable** | "It was meant to be a fun, silly game in contrast to the more serious Sierra games" [GamerWalk]. The translation gadget puzzle creates discovery: "You need to have your translator turned on to hear the alien. He'll tell you to kill the Orat and takes you back to the planets surface" [GamerWalk] |
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./spacequest-1-the-sarien-encounter-chart.svg?dark">
+  <img src="./spacequest-1-the-sarien-encounter-chart.svg" alt="Space Quest 1 Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
+---
+
 ![Roger Wilco outside his broom closet—the opening scene establishing the janitor protagonist](./spacequest-1-overview.png)
 
 ---

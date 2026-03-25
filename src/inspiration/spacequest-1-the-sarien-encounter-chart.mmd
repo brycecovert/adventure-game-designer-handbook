@@ -1,0 +1,168 @@
+flowchart TD
+    %% =============================================================================
+    %% FONT SIZE & CONFIGURATION
+    %% =============================================================================
+    node[fontsize=18]
+    START["**START**"] --> A_ESCAPE_EJECTION_CHAIR
+
+    %% =============================================================================
+    %% ULENCE FLATS - Initial Area (area_1 - light yellow)
+    %% =============================================================================
+    subgraph area_1["**ULENCE FLATS**"]
+        A_ESCAPE_EJECTION_CHAIR["A: Escape Ejection Chair"] --> C1["C1: Arrive on Deltaur Mothership"]
+
+        C1 --> A_TALK_TO_SALESMAN["A: Talk to Skimmer Salesman"]
+        A_TALK_TO_SALESMAN --> P_PROBLEM_NO_MONEY["P: Need Money for Ship"]
+
+        P_PROBLEM_NO_MONEY --> A_PLAY_SLOT_MACHINE["A: Play Slot Machine"]
+        A_PLAY_SLOT_MACHINE --> O_RECEIVE_BUCKAZOIDS["O: Receive Buckazoids"]
+        O_RECEIVE_BUCKAZOIDS --> A_PLAY_SLOT_MACHINE
+
+        O_RECEIVE_BUCKAZOIDS --> A_BUY_DRALLION_CRUISER["A: Buy Drallion Cruiser"]
+        A_BUY_DRALLION_CRUISER --> O_CAN_TRAVEL["O: Can Travel to Deltaur Sector"]
+    end
+    style area_1 fill:#FFF9C4,stroke:#FBC02D,stroke-width:3px
+
+    %% =============================================================================
+    %% KERONA - Desert Planet (area_2 - light brown)
+    %% =============================================================================
+    subgraph area_2["**KERONA - Desert**"]
+        O_CAN_TRAVEL --> A_CRASH_LAND_ON_KERONA["A: Crash Land on Kerona"]
+        A_CRASH_LAND_ON_KERONA --> C2["C2: Crash Landing Complete"]
+
+        C2 --> A_TAKE_SURVIVAL_KIT["A: Take Survival Kit from Pod"]
+        C2 --> A_COLLECT_REFLECTIVE_GLASS["A: Collect Reflective Glass from Pod"]
+
+        A_TAKE_SURVIVAL_KIT --> O_RECEIVE_SURVIVAL_KIT["O: Receive Survival Kit"]
+        A_COLLECT_REFLECTIVE_GLASS --> O_RECEIVE_REFLECTIVE_GLASS["O: Receive Reflective Glass"]
+
+        P_PROBLEM_GEESEYR_DOOR["P: Geeyser Door Blocks Path"] --> A_THROW_ROCK_ON_GEESEYR["A: Throw Rock on Geyser"]
+        A_THROW_ROCK_ON_GEESEYR --> O_GEESEYR_DOOR_OPENS["O: Geyser Door Opens"]
+
+        P_PROBLEM_LASER_BEAMS["P: Laser Beams Block Corridor"] --> A_DEFLECT_LASERS_WITH_GLASS["A: Deflect Lasers with Glass"]
+        O_RECEIVE_REFLECTIVE_GLASS --> A_DEFLECT_LASERS_WITH_GLASS
+        A_DEFLECT_LASERS_WITH_GLASS --> O_LASERS_DEACTIVATED["O: Lasers Deactivated"]
+
+        C2 --> A_FIND_ROCK["A: Find Rock in Tunnel"]
+        A_FIND_ROCK --> O_RECEIVE_ROCK["O: Receive Rock"]
+        O_RECEIVE_ROCK --> A_THROW_ROCK_ON_GEESEYR
+
+        O_LASERS_DEACTIVATED --> A_MEET_HOLOGRAM["A: Meet Keronian Hologram"]
+    end
+    style area_2 fill:#D7CCC8,stroke:#8D6E63,stroke-width:3px
+
+    %% =============================================================================
+    %% KERONA - Hologram Mission (area_3 - light purple)
+    %% =============================================================================
+    subgraph area_3["**KERONA - Hologram Mission**"]
+        A_MEET_HOLOGRAM --> P_PROBLEM_TRANSLATOR["P: Need Translator to Communicate"]
+
+        P_PROBLEM_TRANSLATOR --> A_GET_TRANSLATOR_FROM_ARCADA["A: Get Translator from Arcada"]
+        A_GET_TRANSLATOR_FROM_ARCADA --> O_RECEIVE_TRANSLATOR["O: Receive Translator"]
+        O_RECEIVE_TRANSLATOR --> A_TURN_ON_TRANSLATOR["A: Turn On Translator"]
+
+        A_TURN_ON_TRANSLATOR --> P_PROBLEM_ORAT_TASK["P: Kill Orat Monster"]
+
+        P_PROBLEM_ORAT_TASK --> A_THROW_DEHYDRATED_WATER["A: Throw Dehydrated Water at Orat"]
+        P_PROBLEM_ORAT_TASK --> A_USE_SPIDER_DROID["A: Use Spider Droid on Orat"]
+
+        A_THROW_DEHYDRATED_WATER --> O_ORAT_DEAD["O: Orat Dead"]
+        A_USE_SPIDER_DROID --> O_ORAT_DEAD
+
+        O_ORAT_DEAD --> A_TAKE_ORAT_CHUNK["A: Take Chunk of Orat"]
+        A_TAKE_ORAT_CHUNK --> O_RECEIVE_ORAT_CHUNK["O: Receive Orat Chunk"]
+
+        O_RECEIVE_ORAT_CHUNK --> A_SHOW_PROOF_TO_HOLOGRAM["A: Show Proof to Hologram"]
+        A_SHOW_PROOF_TO_HOLOGRAM --> C3["C3: Enter Keronian Settlement"]
+    end
+    style area_3 fill:#E1BEE7,stroke:#BA68C8,stroke-width:3px
+
+    %% =============================================================================
+    %% KERONA - Keronian Settlement (area_4 - purple)
+    %% =============================================================================
+    subgraph area_4["**KERONA - Settlement**"]
+        C3 --> P_PROBLEM_GET_CODE["P: Need Star Generator Code"]
+
+        P_PROBLEM_GET_CODE --> A_TALK_TO_PROFESSOR["A: Talk to Arcada Professor"]
+        A_TALK_TO_PROFESSOR --> O_LEARN_CARTRIDGE_NAME["O: Learn 'Astral Body' Cartridge"]
+
+        O_LEARN_CARTRIDGE_NAME --> A_REQUEST_ASTRA_L_BODY["A: Request Astral Body from Computer"]
+        A_REQUEST_ASTRA_L_BODY --> O_RECEIVE_CARTRIDGE["O: Receive Astral Body Cartridge"]
+
+        P_PROBLEM_ESCAPE_ARCADA["P: Escape Arcada Before Explosion"] --> A_FLY_TO_KERONA_SETTLEMENT["A: Fly to Keronian Settlement"]
+
+        A_FLY_TO_KERONA_SETTLEMENT --> A_READ_CARTRIDGE_AT_COMPUTER["A: Read Cartridge at Computer"]
+        O_RECEIVE_CARTRIDGE --> A_READ_CARTRIDGE_AT_COMPUTER
+        A_READ_CARTRIDGE_AT_COMPUTER --> O_LEARN_CODE_6858["O: Learn Code 6858"]
+
+        C3 --> A_TAKE_SKIMMER["A: Take Skimmer from Settlement"]
+        A_TAKE_SKIMMER --> O_CAN_LEAVE_KERONA["O: Can Leave Kerona"]
+    end
+    style area_4 fill:#CE93D8,stroke:#AF7AC5,stroke-width:3px
+
+    %% =============================================================================
+    %% DELTAUR SPACE STATION (area_5 - light blue)
+    %% =============================================================================
+    subgraph area_5["**DELTAUR MOTHERSHIP**"]
+        O_CAN_TRAVEL --> A_ENTER_DELTAUR_STATION["A: Enter Deltaur Station"]
+        A_ENTER_DELTAUR_STATION --> C4["C4: On Deltaur Mothership"]
+
+        C4 --> P_PROBLEM_NO_AUTHORIZATION["P: Cannot Access Restricted Areas"]
+
+        P_PROBLEM_NO_AUTHORIZATION --> A_NAVIGATE_TO_LAUNDRY["A: Navigate to Laundry Room"]
+        A_NAVIGATE_TO_LAUNDRY --> P_WASHING_MACHINE_PUZZLE["P: Sarien Uniform Puzzle"]
+
+        P_WASHING_MACHINE_PUZZLE --> A_ENTER_WASHING_MACHINE["A: Enter Washing Machine"]
+        A_ENTER_WASHING_MACHINE --> O_RECEIVE_SARIEN_UNIFORM["O: Receive Sarien Uniform with ID Card"]
+
+        O_RECEIVE_SARIEN_UNIFORM --> C5["C5: Disguised as Sarien"]
+
+        C5 --> P_PROBLEM_WEAPONS_ACCESS["P: Need Weapon to Destroy Generator"]
+
+        P_PROBLEM_WEAPONS_ACCESS --> A_SHOW_ID_CARD_TO_ARMORY_DROID["A: Show ID Card to Armory Droid"]
+        O_RECEIVE_SARIEN_UNIFORM --> A_SHOW_ID_CARD_TO_ARMORY_DROID
+
+        A_SHOW_ID_CARD_TO_ARMORY_DROID --> P_GRAB_WEAPON_FAST["P: Grab Weapon Before Droid Returns"]
+
+        P_GRAB_WEAPON_FAST --> A_STEAL_GRENADE_FROM_SHELF["A: Steal Grenade from Shelf"]
+        A_STEAL_GRENADE_FROM_SHELF --> O_RECEIVE_GRENADE["O: Receive Grenade"]
+    end
+    style area_5 fill:#BBDEFB,stroke:#1976D2,stroke-width:3px
+
+    %% =============================================================================
+    %% STAR GENERATOR FINAL BOSS (area_6 - red)
+    %% =============================================================================
+    subgraph area_6["**STAR GENERATOR**"]
+        O_CAN_TRAVEL --> A_REACH_STAR_GENERATOR_ROOM["A: Reach Star Generator Room"]
+        A_REACH_STAR_GENERATOR_ROOM --> P_PROBLEM_GENERATOR_CODE["P: Need Code to Self-Destruct"]
+
+        P_PROBLEM_GENERATOR_CODE --> A_ENTER_CODE_6858["A: Enter Code 6858"]
+        O_LEARN_CODE_6858 --> A_ENTER_CODE_6858
+
+        A_ENTER_CODE_6858 --> O_SELF_DESTRUCT_INITIATED["O: Self-Destruct Initiated"]
+        O_SELF_DESTRUCT_INITIATED --> O_FORCE_FIELD_OFF["O: Force Field Off"]
+
+        A_STEAL_GRENADE_FROM_SHELF --> A_DESTROY_STAR_GENERATOR["A: Destroy Star Generator"]
+        A_DESTROY_STAR_GENERATOR --> END["**END**"]
+    end
+    style area_6 fill:#FFCDD2,stroke:#D32F2F,stroke-width:3px
+
+    %% =============================================================================
+    %% CLASS DEFINITIONS
+    %% =============================================================================
+    classDef start_end fill:#FFD700,stroke:#996600,stroke-width:3px,color:#000000,font-weight:bold
+    classDef problem fill:#FFB3B3,stroke:#8B0000,stroke-width:2px,color:#8B0000
+    classDef action fill:#B3FFB3,stroke:#006400,stroke-width:2px,color:#006400
+    classDef outcome fill:#B3D9FF,stroke:#004080,stroke-width:2px,color:#004080
+    classDef consequence fill:#E8E8E8,stroke:#333333,stroke-width:2px,color:#333333
+
+    class START,END,C1,C2,C3,C4,C5 start_end
+    class C1,C2,C3,C4,C5,O_LEARN_CODE_6858,O_SELF_DESTRUCT_INITIATED consequence
+
+    class P_PROBLEM_NO_MONEY,P_PROBLEM_GEESEYR_DOOR,P_PROBLEM_LASER_BEAMS,P_PROBLEM_TRANSLATOR,P_PROBLEM_ORAT_TASK,P_PROBLEM_GET_CODE,P_PROBLEM_ESCAPE_ARCADA,P_PROBLEM_NO_AUTHORIZATION,P_WASHING_MACHINE_PUZZLE,P_PROBLEM_WEAPONS_ACCESS,P_GRAB_WEAPON_FAST,P_PROBLEM_GENERATOR_CODE problem
+
+    class A_ESCAPE_EJECTION_CHAIR,A_TALK_TO_SALESMAN,A_PLAY_SLOT_MACHINE,A_BUY_DRALLION_CRUISER,A_CRASH_LAND_ON_KERONA,A_TAKE_SURVIVAL_KIT,A_COLLECT_REFLECTIVE_GLASS,A_THROW_ROCK_ON_GEESEYR,A_DEFLECT_LASERS_WITH_GLASS,A_FIND_ROCK,A_MEET_HOLOGRAM,A_GET_TRANSLATOR_FROM_ARCADA,A_TURN_ON_TRANSLATOR,A_THROW_DEHYDRATED_WATER,A_USE_SPIDER_DROID,A_TAKE_ORAT_CHUNK,A_SHOW_PROOF_TO_HOLOGRAM,A_TALK_TO_PROFESSOR,A_REQUEST_ASTRA_L_BODY,A_FLY_TO_KERONA_SETTLEMENT,A_READ_CARTRIDGE_AT_COMPUTER,A_TAKE_SKIMMER,A_ENTER_DELTAUR_STATION,A_NAVIGATE_TO_LAUNDRY,A_ENTER_WASHING_MACHINE,A_SHOW_ID_CARD_TO_ARMORY_DROID,A_STEAL_GRENADE_FROM_SHELF,A_REACH_STAR_GENERATOR_ROOM,A_ENTER_CODE_6858,A_DESTROY_STAR_GENERATOR action
+
+    class O_RECEIVE_BUCKAZOIDS,O_CAN_TRAVEL,O_RECEIVE_SURVIVAL_KIT,O_RECEIVE_REFLECTIVE_GLASS,O_GEESEYR_DOOR_OPENS,O_LASERS_DEACTIVATED,O_RECEIVE_ROCK,O_RECEIVE_TRANSLATOR,O_ORAT_DEAD,O_RECEIVE_ORAT_CHUNK,O_CAN_LEAVE_KERONA,O_LEARN_CARTRIDGE_NAME,O_RECEIVE_CARTRIDGE,O_LEARN_CODE_6858,O_CAN_ENTER_SETTLEMENT,O_SELF_DESTRUCT_INITIATED outcome
+
+    class START,END start_end

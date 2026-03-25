@@ -14,6 +14,12 @@ Sierra's 1989 hybrid RPG-adventure pioneered time-based puzzle design. Unlike st
 | **Player Quote** | "I love Quest for Glory. I'm absolutely crazy about the series. The greatest thing...is the well-done connection between RPG and the classic Sierra graphic adventure" — [CyricZ] |
 | **Design Note** | "You have until day 7 to defeat the fire elemental. If you don't do it then, the city will be destroyed at the start of day 7, ending your game" — [SAC] |
 
+## Puzzle Dependency Chart
+
+<iframe src="./quest-for-glory-ii-chart.svg" width="100%" height="800px" style="border:none;"></iframe>
+
+[View Puzzle Dependencies QA Report](./quest-for-glory-ii-puzzle-dependencies-qa.md)
+
 ---
 
 ## Puzzle 1: Wizards' Institute of Technocery Entry Test

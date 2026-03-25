@@ -12,6 +12,12 @@ Sierra's 1992 sequel introduced three distinct class-based playthroughs, where F
 | **Core Mechanic** | Class-specific puzzle paths; identical goals require different mechanical solutions per character type |
 | **What players found enjoyable** | "The greatest thing about the series is the well-done connection between RPG and the classic Sierra graphic adventure" — [CyricZ]. Additional playthrough notes: "This is a very general spell, and is used to detect any existing magical auras in the immediate area"—walkthroughs emphasize mechanical depth over story [CyricZ] |
 
+## Puzzle Dependency Chart
+
+<iframe src="./quest-for-glory-iii-chart.svg" width="100%" height="800px" style="border:none;"></iframe>
+
+[View Puzzle Dependencies QA Report](./quest-for-glory-iii-puzzle-dependencies-qa.md)
+
 ![Game overview screenshot — hero character selection screen showing Fighter, Wizard, Thief classes with stats panel](./quest-for-glory-iii-overview.png)
 
 ---
