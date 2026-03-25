@@ -1,0 +1,175 @@
+flowchart TD
+    %% FONT SIZE & CONFIGURATION
+    node[fontsize=18]
+    START["**START**"] --> A_GREEN_TENTACLE_TAKES_OVER["A: Green Tentacle takes over mansion, Dr. Fred captured"]
+
+    %% ACT 1: Bernard's Present - Initial Setup
+    subgraph area_b_present["**PRESENT: Bernard's Mansion**"]
+        direction TB
+        A_GREEN_TENTACLE_TAKES_OVER --> B_AT_EYELANDS["A: Bernard escapes to Eyelands resort"]
+        B_AT_EYELANDS --> B_MEET_CAPTIVES["A: Meet other tentacle captives"]
+        B_MEET_CAPTIVES --> UNLOCK_BERNARD_PRESENT["**UNLOCK: Bernard Present Time**"]
+    end
+    style area_b_present fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+
+    %% ACT 2: Time Machine Unlock
+    subgraph area_time_machine["**TIME MACHINE UNLOCK**"]
+        direction TB
+        UNLOCK_BERNARD_PRESENT --> FIND_CHRONOJOHN["A: Find Chron-O-John toilet in bathroom"]
+        FIND_CHRONOJOHN --> DISCOVER_TIME_TRAVEL["O: Discover time travel possible via toilets"]
+        DISCOVER_TIME_TRAVEL --> UNLOCK_THREE_TIMELINES["**UNLOCK: Three Time Periods**"]
+    end
+    style area_time_machine fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    %% ACT 3: Hoagie Past - Tree Puzzle
+    subgraph area_h_past["**PAST: Hoagie's 1700s Era**"]
+        direction TB
+        UNLOCK_THREE_TIMELINES --> UNLOCK_HOAGIE_PAST["**UNLOCK: Hoagie Past Time**"]
+
+        LAVERNE_TRAPPED["Future Problem: Laverne trapped in kumquat tree"]
+        
+        LAVERNE_TRAPPED --> H_GET_RED_PAINT["A: Hoagie collects red paint from attic"]
+        H_GET_RED_PAINT --> O_ACQUIRE_PAINT["O: Acquire RED PAINT"]
+
+        LAVERNE_TRAPPED --> H_PAINT_TREE_RED["A: Paint kumquat tree red (looks like cherry)"]
+        O_ACQUIRE_PAINT -.->|paint used| H_PAINT_TREE_RED
+
+        H_PAINT_TREE_RED --> TALK_TO_GEORGE["A: Convince George Washington it's 'the cherry tree'"]
+        TALK_TO_GEORGE --> GEORGE_CUTS_TREE["A: George goes outside, cuts down red tree"]
+
+        GEORGE_CUTS_TREE --> C1["**C1: TREE REMOVED - Timeline Altered**"]
+    end
+    style area_h_past fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+
+    %% ACT 4: Laverne Future - Freed
+    subgraph area_l_future["**FUTURE: Laverne's 4000s Era**"]
+        direction TB
+        UNLOCK_THREE_TIMELINES --> UNLOCK_LAVERNE["**UNLOCK: Laverne (initially trapped)**"]
+
+        C1 --> FUTURE_TREE_GONE["Tree removed from future timeline"]
+        FUTURE_TREE_GONE --> LAVERNE_IS_FREE["O: Laverne freed, can explore future"]
+
+        LAVERNE_IS_FREE --> UNLOCK_LAVERNE_MOBILE["**UNLOCK: Laverne Mobile**"]
+    end
+    style area_l_future fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    %% ACT 5: Human Show Contest - Multi-Time Item Gathering
+    subgraph area_human_show["**MULTI-TIME: Human Show Contest**"]
+        direction TB
+        UNLOCK_LAVERNE_MOBILE --> P_WIN_HUMAN_SHOW["P: Must win Human Show for dinner coupon"]
+
+        P_WIN_HUMAN_SHOW --> B_GET_SPAGHETTI_FORK["Bernard: Get SPAGHETTI and FORK from kitchen"]
+        B_GET_SPAGHETTI_FORK --> SEND_PASTA_TO_LAVERNE["Send spaghetti/fork to Laverne (becomes wet noodles)"]
+
+        P_WIN_HUMAN_SHOW --> H_PUT_BOOK_ON_HORSE["Hoagie: Put textbook on horse to make it sleep"]
+        H_PUT_BOOK_ON_HORSE --> H_GET_DENTURES["Hoagie: Collect HORSE DENTURES from shelf"]
+        H_GET_DENTURES --> SEND_DENTURES_TO_LAVERNE["Send dentures to Laverne"]
+
+        P_WIN_HUMAN_SHOW --> B_USE_SCALPEL_CLOWN["Bernard: Use scalpel on Oozo the Clown"]
+        B_USE_SCALPEL_CLOWN --> CLOWN_DROPS_LAUGHBOX["Oozo drops BOX O' LAUGHS"]
+        CLOWN_DROPS_LAUGHBOX --> SEND_LaughBOX_TO_LAVERNE["Send to Laverne"]
+
+        P_WIN_HUMAN_SHOW --> B_CREATE_BARF["Bernard: Push speaker + play stereo = barf falls in lobby"]
+        B_CREATE_BARF --> COLLECT_FAKE_BARF["A: Collect FAKE BARF from floor"]
+        COLLECT_FAKE_BARF --> SEND_BARF_TO_LAVERNE["Send to Laverne"]
+
+        P_WIN_HUMAN_SHOW --> L_ROLLER_SKATES_MUMMY["Laverne: Roller skates on mummy, push to lobby"]
+
+        C2["**C2: All Contest Items Converge at Laverne**"]
+
+        SEND_PASTA_TO_LAVERNE & SEND_DENTURES_TO_LAVERNE & SEND_LaughBOX_TO_LAVERNE & SEND_BARF_TO_LAVERNE --> C2
+
+        C2 --> PREP_MUMMY_HAIR["A: Spaghetti on head, fork for styling = Best Haar"]
+        PREP_MUMMY_HAIR --> WIN_HAIR["O: Win Best HAIR category"]
+
+        C2 --> PREP_MUMMY_SMILE["A: Dentures on mummy face = Best Smile"]
+        PREP_MUMMY_SMILE --> WIN_SMILE["O: Win Best SMILE category"]
+
+        C2 --> PREP_MUMMY_LAUGH["A: Box o' laughs in pocket = Best Laugh"]
+        PREP_MUMMY_LAUGH --> WIN_LAUGH["O: Win Best LAUGH category"]
+
+        C2 --> BARF_DISQUALIFY_HAROLD["A: Place barf at Harold's feet before judging"]
+        BARF_DISQUALIFY_HAROLD --> HAROLD_OUT["O: Harold disqualified"]
+
+        WIN_HAIR & WIN_SMILE & WIN_LAUGH & HAROLD_OUT --> MUMMY_WINS_ALL["**Mummy Wins All 3 Categories**"]
+
+        MUMMY_WINS_ALL --> GET_DINNER_COUPON["O: Receive dinner coupon + certificate"]
+    end
+    style area_human_show fill:#FCE4EC,stroke:#C2185B,stroke-width:3px
+
+    %% ACT 6: Super Battery Construction
+    subgraph area_battery["**MULTI-TIME: Super Battery Build**"]
+        direction TB
+        GET_DINNER_COUPON --> P_BUILD_BATTERY["P: Need super battery for Chron-O-John"]
+
+        P_BUILD_BATTERY --> B1_HOAGIE_GET_OIL["Hoagie: Get OIL from kitchen pantry"]
+        B1_HOAGIE_GET_OIL --> HAVE_OIL["Component: OIL obtained"]
+
+        P_BUILD_BATTERY --> WINE_VINEGAR_CHAIN["Wine-to-Vinegar Time Capsule Chain"]
+        
+        WINE_VINEGAR_CHAIN --> H_GIVE_WINE_TO_JEFFERSON["Hoagie: Give wine bottle to Thomas Jefferson at time capsule"]
+        H_GIVE_WINE_TO_JEFFERSON --> WINE_STORED["O: Wine stored in capsule for 200 years"]
+
+        WINE_VINEGAR_CHAIN --> B_FIND_SCALPEL_SEND_TO_LAVERNE["Bernard: Find scalpel, send to Laverne"]
+        B_FIND_SCALPEL_SEND_TO_LAVERNE --> L_HAS_SCALPEL["Laverne receives scalpel"]
+        
+        WINE_VINEGAR_CHAIN --> L_FIND_CANOPENER["Laverne: Find CAN OPENER in future"]
+        L_FIND_CANOPENER --> SEND_OPENER_PAST["Send can opener through time to Hoagie's lab area"]
+        
+        WINE_VINEGAR_CHAIN --> L_OPEN_TIMECAPSULE["Laverne: Use can opener on 200-year-old capsule"]
+        WINE_STORED -.->|aged 200 years| L_OPEN_TIMECAPSULE
+        
+        L_OPEN_TIMECAPSULE --> VINEGAR_FOUND["O: Wine has aged into VINEGAR inside"]
+        VINEGAR_FOUND --> HAVE_VINEGAR["Component: VINEGAR obtained"]
+        VINEGAR_FOUND --> SEND_VINEGAR_TO_HOAGIE["Send vinegar back to Hoagie for battery assembly"]
+
+        P_BUILD_BATTERY --> H_GET_GOLD_PEN["Hoagie: After George cuts tree, get GOLD PLATED QUILL from table"]
+        H_GET_GOLD_PEN --> HAVE_GOLDPEN["Component: GOLD PLATED QUILL obtained"]
+
+        C3["**C3: Three Battery Components Gathered**"]
+        HAVE_OIL & SEND_VINEGAR_TO_HOAGIE & HAVE_GOLD_PEN --> C3
+
+        C3 --> SHOW_SIGNT_RED_EDISON["A: Show help-wanted sign to Red Edison (Bernard's time)"]
+        SHOW_SIGNT_RED_EDISON --> RED_JOINS_LAB["O: Red joins as inventor - access secret lab in grandfather clock"]
+
+        RED_JOINS_LAB --> GIVE_COMPONENTS_TO_RED["A: Give oil + vinegar + gold pen to Red"]
+        C3 -.->|components delivered| GIVE_COMPONENTS_TO_RED
+        
+        GIVE_COMPONENTS_TO_RED --> BATTERY_BUILT["O: RED Edison constructs SUPER BATTERY"]
+    end
+    style area_battery fill:#E0F7FA,stroke:#00695C,stroke-width:3px
+
+    %% ACT 7: Ben Franklin Kite Charging
+    subgraph area_kite["**PAST: Ben Franklin Kite Experiment**"]
+        direction TB
+        BATTERY_BUILT --> P_CHARGE_BATTERY["P: Battery needs lightning charge"]
+
+        P_CHARGE_BATTERY --> GET_LAB_COAT_FOR_FRANKLIN["A: Get lab coat for Ben Franklin (from help-wanted sign chain)"]
+        GET_LAB_COAT_FOR_FRANKLIN --> BEN_DOES_KITE_EXPERIMENT["O: Ben agrees to kite experiment in field during storm"]
+
+        BEN_DOES_KITE_EXPERIMENT --> POSITION_BATTERY_UNDER_STRING["A: Position super battery under kite string in field"]
+        
+        POSITION_BATTERY_UNDER_STRING --> WAIT_FOR_NOW_COMMAND["A: Wait for Ben's 'NOW!' command as lightning approaches"]
+        WAIT_FOR_NOW_COMMAND --> PUSH_KITE_ON_CUE["A: Push kite at exact moment = strike"]
+
+        PUSH_KITE_ON_CUE --> BATTERY_CHARGED_WITH_LIGHTNING["O: Super Battery charged with lightning"]
+    end
+    style area_kite fill:#FFF8E1,stroke:#F9A825,stroke-width:3px
+
+    %% ACT 8: Finale - Defeat Green Tentacle
+    subgraph area_finale["**FINALE: Defeat Green Tentacle**"]
+        direction TB
+        BATTERY_CHARGED_WITH_LIGHTNING --> ALL_CHARACTERS_MOBILIZED["O: All three characters now mobile across times"]
+
+        ALL_CHARACTERS_MOBILIZED --> P_DEFEAT_GREEN_TENTACLE["P: Return to present, defeat Green Tentacle"]
+        
+        P_DEFEAT_GREEN_TENTACLE --> USE_MUMMY_SWAP_TRICK["A: Use mummy swap trick (red paint disguise + rope pulley)"]
+        USE_MUMMY_SWAP_TRICK --> CAPTURE_GREEN_TENTACLE["O: Capture Green Tentacle, free Dr. Fred"]
+
+        CAPTURE_GREEN_TENTACLE --> GREEN_TENTACLE_DEFEATED["**Green Tentacle Defeated**"]
+        GREEN_TENTACLE_DEFEATED --> FRED_RESCUED_VICTORY["**Dr. Fred Rescued - Mansion Restored**"]
+    end
+    style area_finale fill:#ECEFF1,stroke:#455A64,stroke-width:3px
+
+    %% FINAL
+    FRED_RESCUED_VICTORY --> END["**END GAME - All Objectives Completed**"]
