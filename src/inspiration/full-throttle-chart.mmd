@@ -1,0 +1,216 @@
+flowchart TD
+    node[fontsize=18]
+    START["**START**"] --> A_CRASHED_BIKE_INTRO["A: Ben's bike sabotaged, gang framed for murder"]
+
+    %% ACT 1: Melonweed - Bike Repair Components
+    subgraph area_melonweed["**MELONWEED: Bike Repair Synthesis**"]
+        direction TB
+        A_CRASHED_BIKE_INTRO --> P_REPAIR_BIKE["P: Maureen needs 3 components for repairs"]
+
+        %% Component 1: Forks from Junkyard
+        P_REPAIR_BIKE --> JUNK_PILE_ENTRANCE["A: Enter junkyard via chain wall"]
+        JUNK_PILE_ENTRANCE --> P_GUARD_DOG_BLOCKADE["P: Guard dog blocks fork pile"]
+        
+        P_REPAIR_BIKE --> TODDS_TRAILER_KNOCK["A: Knock on Todd's trailer door"]
+        TODDS_TRAILER_KNOCK --> A_TRAILER_MECHANICS["A: Kick door shut, launch Todd"]
+        A_TRAILER_MECHANICS --> O_ACQUIRE_LOCKPICK["O: Get LOCKPICK from cabinet above Todd"]
+        A_TRAILER_MECHANICS --> O_ACQUIRE_MEAT["O: Get MEAT from fridge"]
+        A_TRAILER_MECHANICS --> O_ACQUIRE_WELDING_TORCH["O: Get WELDING TORCH from work desk"]
+
+        O_ACQUIRE_MEAT -.->|carried to junkyard| JUNK_YARD_DOG_DISTRACT["A: Place meat in car, lure dog away"]
+        JUNK_YARD_DOG_DISTRACT --> A_OPERATE_MAGNET_CRANE["A: Use magnetic crane tower to lift car with dog"]
+        A_OPERATE_MAGNET_CRANE --> O_ACQUIRE_FORKS["O: Retrieve FORKS from clear parts pile"]
+
+        %% Component 2: Welding Torch (from Todd - already above)
+        
+        %% Component 3: Fuel from Gas Tower
+        LOCKPICK_CARRIED -.->|carried to gas tower| GAS_TOWER_LATCH["A: Use lockpick on gas tower lock"]
+        GAS_TOWER_LATCH --> HIDE_DURING_ALARM["A: Climb ladder, trigger alarm, hide behind dark pillar"]
+        HIDE_DURING_ALARM --> POLICE_SEARCH_UPWARD["O: Police arrive in hovercars, search upward"]
+        POLICE_SEARCH_UPWARD --> O_ACQUIRE_FUEL["O: Siphon FUEL from hovercar (gas can + hose)"]
+
+        C1_BIKE_PARTS["**C1: All Repair Components Gathered**"]
+        O_ACQUIRE_FORKS & O_ACQUIRE_WELDING_TORCH & O_ACQUIRE_FUEL --> C1_BIKE_PARTS
+        
+        C1_BIKE_PARTS --> A_DELIVER_TO_MAUREEN["A: Deliver all parts to Maureen's garage"]
+        A_DELIVER_TO_MAUREEN --> BIKE_REPAIRED_BOOSTER_INSTALLED["O: Bike repaired + BOOSTER bonus installed"]
+
+        ACQUIRE_LOCKPICK["**ACQUIRED: Lockpick**"]
+        ACQUIRE_MEAT["**ACQUIRED: Meat**"]
+        ACQUIRE_WELDING_TORCH["**ACQUIRED: Welding Torch**"]
+        ACQUIRE_FORKS["**ACQUIRED: Forks**"]
+        ACQUIRE_FUEL["**ACQUIRED: Fuel**"]
+
+        O_ACQUIRE_LOCKPICK --> ACQUIRE_LOCKPICK
+        O_ACQUIRE_MEAT --> ACQUIRE_MEAT
+        O_ACQUIRE_WELDING_TORCH --> ACQUIRE_WELDING_TORCH
+        O_ACQUIRE_FORKS --> ACQUIRE_FORKS
+        O_ACQUIRE_FUEL --> ACQUIRE_FUEL
+
+        ACQUIRE_LOCKPICK -.->|used on tower| GAS_TOWER_LATCH
+    end
+    style area_melonweed fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+
+    %% ACT 2: Mine Road - Escalating Combat Progression
+    subgraph area_mine_road["**MINE ROAD: Combat Weapon Chain**"]
+        direction TB
+        BIKE_REPAIRED_BOOSTER_INSTALLED --> UNLOCK_MINE_ROAD["**UNLOCK: Travel to Corville via Mine Road**"]
+
+        UNLOCK_MINE_ROAD --> A_OPEN_HOVERCRAFT["A: Use TIRE IRON on crashed police hovercraft"]
+        A_OPEN_HOVERCRAFT --> O_ACQUIRE_HOVER_FAN["O: HOVER FAN installed on bike (can fly)"]
+
+        %% Combat Wave 1: Basic Bikers
+        P_MINE_ROAD_BLOCKADE["P: Rival bikers block Mine Road passage"]
+        P_MINE_ROAD_BLOCKADE --> A_COMBAT_WAVE_1_FISTS["A: Defeat biker with FISTS/TIRE IRON"]
+        A_COMBAT_WAVE_1_FISTS --> O_ACQUIRE_WOODEN_PLANK["O: Acquire WOODEN PLANK weapon"]
+
+        %% Combat Wave 2: Chainsaw Vulture
+        P_MINE_ROAD_BLOCKADE --> A_LOCATE_CHAINSAW_VULTURE["A: Locate Vulture with chainsaw"]
+        A_LOCATE_CHAINSAW_VULTURE --> USE_FERTILIZER_COUNTERATTACK["A: Throw FERTILIZER as counter-weapon"]
+        USE_FERTILIZER_COUNTERATTACK --> C_VULTURE_CRASHES["O: Vulture bikes, drop CHAINSAW"]
+        
+        %% Combat Wave 3: Chain Biker
+        A_COMBAT_WAVE_1_FISTS --> A_USE_CHAINSAW_ON_CHAIN_BIKER["A: Use chainsaw on chain-wielding biker"]
+        A_USE_CHAINSAW_ON_CHAIN_BIKER --> O_ACQUIRE_CHAIN["O: Acquire CHAIN weapon"]
+
+        %% Combat Wave 4: Booster Vulture (requires specific counter)
+        P_BOOSTER_VULTURE_BLOCKADE["P: Vulture with BOOSTER blocks passage"]
+        USE_FERTILIZER_COUNTERATTACK & A_COMBAT_WAVE_1_FISTS --> A_USE_CHAIN_ON_BOOSTER_VULTURE["A: Use chain ON BOOSTER to knock him off"]
+        A_USE_CHAIN_ON_BOOSTER_VULTURE --> O_ACQUIRE_BOOSTER["O: Acquire BOOSTER add-on for bike"]
+
+        %% Combat Wave 5: Cavefish (timed encounter)
+        P_CAVEFISH_BLOCKADE["P: Cavefish blocks path with goggles"]
+        P_CAVEFISH_BLOCKADE --> A_WAIT_FOR_HEAD_LIFT["A: Wait for Cavefish to lift head from oil fumes"]
+        A_WAIT_FOR_HEAD_LIFT --> A_STRIKE_WITH_PLANK_ONCE["A: Strike ONCE with wooden plank"]
+        A_STRIKE_WITH_PLANK_ONCE --> O_ACQUIRE_GOGGLES["O: Acquire GOGGLES (enables night vision)"]
+
+        %% Cavefish Hideout Discovery
+        O_ACQUIRE_GOGGLES -.->|night vision enables| HIDDEN_CAVE_ENTRANCE["A: Goggles reveal hidden cave entrance"]
+        HIDDEN_CAVE_ENTRANCE --> A_ENTER_CAVEFISH_HIDEOUT["A: Enter Cavefish hideout on sight"]
+        A_ENTER_CAVEFISH_HIDEOUT --> O_ACQUIRE_RAMP["O: Take RAMP and attach to bike"]
+
+        C2_COMBAT_COMPLETE["**C2: All Combat Components Acquired**"]
+        O_ACQUIRE_HOVER_FAN & O_ACQUIRE_BOOSTER & O_ACQUIRE_GOGGLES & O_ACQUIRE_RAMP --> C2_COMBAT_COMPLETE
+        
+        %% Pre-finale setup: Disable Cavefish pursuit
+        UNLOCK_CORVILLE_GATE["O: Mine Road cleared, Corville accessible"]
+        
+        A_UNHOOK_RAMP_AND_NAV_MARKERS["A: Before exiting, unhook ramp + knock yellow navigation dots off road"] --> CAVEFISH_CRASHES_LATER["O: Pursuing Cavefish will crash without night markers"]
+    end
+    style area_mine_road fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    %% ACT 3: Corville - Demolition Derby & Minefield
+    subgraph area_corville["**CORVILLE: Demolition Derby + Minefield Clearance**"]
+        direction TB
+        UNLOCK_CORVILLE_GATE --> C2_COMBAT_COMPLETE
+        
+        C2_COMBAT_COMPLETE --> A_DERBY_STADIUM_ENTRY["A: Enter demolition derby stadium"]
+        A_DERBY_STADIUM_ENTRY --> FIRST_BUNNY_SACRIFICE["A: Approach Horrace's souvenir stall"]
+
+        %% Minefield reconnaissance and bunny sacrifice cycle
+        FIRST_BUNNY_SACRIFICE --> STEAL_FIRST_BUNNY_DISTRACT["A: Steal 1st bunny when Horrace distracted"]
+        STEAL_FIRST_BUNNY_DISTRACT --> A_PLACE_BUNNY_ON_MINE["A: Place bunny on closest mine path"]
+        A_PLACE_BUNNY_ON_MINE --> MINE_EXPOSES_BATTERY["O: Bunny explodes, exposes BATTERY from mine"]
+
+        MINE_EXPOSES_BATTERY --> A_COLLECT_BATTERY["A: Collect battery from exploded mine"]
+        A_COLLECT_BATTERY -.->|carrled back to Horrace| USE_BATTERY_IN_RC_CAR["A: Insert battery into RC car behind counter"]
+
+        USE_BATTERY_IN_RC_CAR --> DRIVE_RC_EASTWARD["A: Drive RC car east through stadium gate"]
+        DRIVE_RC_EASTWARD --> HORRACE_CHASES_CAR["O: Horrace chases his RC car away from stall"]
+
+        HORRACE_CHASES_CAR --> A_LOOT_BUNNY_BOX["A: While distracted, take entire box of bunnies"]
+        A_LOOT_BUNNY_BOX --> O_ACQUIRE_BUNNY_SUPPLY["O: Full supply of BUNNIES for minefield clearing"]
+
+        %% Minefield clearance (iterative process)
+        O_ACQUIRE_BUNNY_SUPPLY -.->|bunnies carried to minefield| MINEFIELD_AT_VULTURE_HIDEOUT["P: **MINEFIELD BLOCKS** Vultures hideout entrance"]
+        
+        MINEFIELD_AT_VULTURE_HIDEOUT --> BUNNY_CLEAR_CYCLE["A: Drop bunnies one-by-one along path, walk forward after each explosion"]
+        BUNNY_CLEAR_CYCLE --> SAFE_PATH_ESTABLISHED["O: Continuous path of exploded mines leads to hideout"]
+
+        SAFE_PATH_ESTABLISHED --> UNLOCK_VULTURE_HIDEOUT["**UNLOCK: Enter Vultures hideout**"]
+
+        %% RC car loop note: battery from mine enables bunny box access
+    end
+    style area_corville fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    %% ACT 4: Maureen Interrogation & Vultures Infiltration
+    subgraph area_investigation["**INVESTIGATION: Maureen + Corporate Secrets**"]
+        direction TB
+        UNLOCK_VULTURE_HIDEOUT --> A_CONFRONT_MAUREEN["A: Confront Maureen about Malcolm Corley's murder"]
+        
+        A_CONFRONT_MAUREEN --> O_MAUREEN_TRUTH_REVEALED["O: **Maureen admits involvement, reveals Ripburger's role**"]
+
+        %% Return to Kickstand for next phase
+        O_MAUREEN_TRUTH_REVEALED --> UNLOCK_CORVILLE_PROPER["**UNLOCK: Enter Corville town proper**"]
+        
+        %% Miranda's Fake IDs for Mink Ranch Access
+        O_MAUREEN_TRUTH_REVEALED --> A_GET_FAKE_IDS_MIRANDA["A: Acquire MIRANDA'S FEDERAL IDs (kickstand bar)"]
+        A_GET_FAKE_IDS_MIRANDA -.->|present to Emmet| C_GIVE_TO_EMMET_KICKSTAND["C: Give fake IDs to Emmet at Kickstand bar"]
+        
+        C_GIVE_TO_EMMET_KICKSTAND --> O_TRANSPORT_MINK_RANCH_AVAILABLE["O: Emmet offers transport to Mink Ranch proving legitimacy"]
+
+        ACQUIRE_FAKE_IDS["**ACQUIRED: Fake Federal IDs**"]
+        A_GET_FAKE_IDS_MIRANDA --> ACQUIRE_FAKE_IDS
+    end
+    style area_investigation fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+
+    %% ACT 5: Mink Ranch & Corley Factory - The Truth
+    subgraph area_mink_ranch["**MINK RANCH: Projector Sabotage + Safe Code**"]
+        direction TB
+        O_TRANSPORT_MINK_RANCH_AVAILABLE --> A_ENTER_CORLEY_FACTORY["A: Enter Malcolm's factory through cracked wall"]
+        
+        A_ENTER_CORLEY_FACTORY --> SECRET_WALL_MECHANIC["P: Wall requires precise timing (kick when meters align)"]
+        SECRET_WALL_MECHANIC --> A_KICK_WALL_AT_RIGHT_TIME["A: Kick cracked wall at correct moment"]
+        A_KICK_WALL_AT_RIGHT_TIME --> UNLOCK_SECRET_OFFICE["**UNLOCK: Malcolm's private office accessible**"]
+
+        %% Safe Code Puzzle (observed on Maureen's old bike)
+        A_ENTER_CORLEY_FACTORY --> MAUREENS_OLD_BIKE_EXAMINE["A: Examine Maureen's old motorcycle in garage"]
+        MAUREENS_OLD_BIKE_EXAMINE --> O_MEMORIZE_SAFE_CODE["O: **MEMORIZE safe code: 154492** from bike plates/numbers"]
+
+        UNLOCK_SECRET_OFFICE & O_MEMORIZE_SAFE_CODE --> A_OPEN_FLOOR_SAFE["A: Enter code 154492 in floor safe combination lock"]
+        A_OPEN_FLOOR_SAFE --> EVIDENCE_FOUND["O: Evidence proving Ripburger murdered Corley discovered"]
+
+        %% Projector sabotage during Ripburger's speech
+        EVIDENCE_FOUND --> P_RIPBURGER_SPEECH_INTERRUPT["P: Interrupt Ripburger's rally by sabotaging film projector"]
+        
+        P_RIPBURGER_SPEECH_INTERRUPT --> A_RAISE_MOTOR_LEVER_PROJECTOR["A: Raise motor lever on film projector in tower"]
+        A_RAISE_MOTOR_LEVER_PROJECTOR --> A_MAXIMIZE_LAMP_BRIGHTNESS["A: Crank lamp to maximum brightness"]
+        A_MAXIMIZE_LAMP_BRIGHTNESS --> PROJECTOR_MELTSDOWN["O: Projector bulb explodes, projection system down"]
+
+        PROJECTOR_MELTSDOWN --> SPEECH_HALTED_CHAOS["O: Speech interrupted, chaos erupts"]
+    end
+    style area_mink_ranch fill:#FFF8E1,stroke:#F9A825,stroke-width:3px
+
+    %% ACT 6: Finale - Truck Escape & Gorge Jump
+    subgraph area_finale["**FINALE: Machine Gun Truck + Gorge Jump**"]
+        direction TB
+        SPEECH_HALTED_CHAOS --> P_STOP_RIPBURGER_ESCAPE["P: Prevent Ripburger's escape on machine gun armed truck"]
+
+        P_STOP_RIPBURGER_ESCAPE --> A_HIJACK_TRUCK_CONTROLS["A: Enter truck cab, override controls to disable aircraft-mounted guns"]
+        A_HIJACK_TRUCK_CONTROLS --> RIPBURGER_TRAVERS_BIKE_CHASE["O: Ripburger flees on bike across Mine Road"]
+
+        %% Final Bike Jump (requires all 4 components)
+        C3_FINAL_JUMP_PREP["**C2: All Bike Components Ready for Gorge Jump**"]
+        
+        BIKE_COMPONENTS_READY["Hover Fan + Booster + Ramp + Fuel ready"]
+        O_ACQUIRE_HOVER_FAN & O_ACQUIRE_BOOSTER & O_ACQUIRE_RAMP & ACQUIRE_FUEL --> C3_FINAL_JUMP_PREP
+        
+        C3_FINAL_JUMP_PREP --> A_ATTACK_GORGE_ESCAPE_ROUTE["A: Attack gorge crossing with full equipment on Ripburger's tail"]
+        
+        A_ATTACK_GORGE_ESCAPE_ROUTE --> BIKER_COMBAT_DURING_CHASE["O: Final biker encounters during pursuit (use weapon counters)"]
+        
+        BIKER_COMBAT_DURING_CHASE --> O_RIPBURGER_CATCHES_UP["O: Ripburger catches up, chase reaches gorge edge"]
+
+        O_RIPBURGER_CATCHES_UP --> A_LAUNCH_WITH_BOOSTER_AND_RAMP["A: Activate booster on ramp at gorge edge"]
+        A_LAUNCH_WITH_BOOSTER_AND_RAMP --> A_KEEP_FAN_ACTIVE_DURING_FLIGHT["A: Maintain hover fan during mid-air flight"]
+
+        A_KEEP_FAN_ACTIVE_DURING_FLIGHT --> A_SHOOT_RIPBURGER_IN_AIR["A: Shoot Ripburger with acquired weapon while both airborne"]
+        
+        A_SHOOT_RIPBURGER_IN_AIR --> RIPBURGER_CRASHED["O: Ripburger crashes mid-air, loses bike and evidence"]
+
+        RIPBURGER_CRASHED --> VICTORY_TRUE_GANG_PROVEN["**BENE VICTORY - Polecats proven innocent, Ripburger defeated**"]
+    end
+    style area_finale fill:#FCE4EC,stroke:#C2185B,stroke-width:3px
+
+    %% FINAL OUTCOME
+    VICTORY_TRUE_GANG_PROVEN --> END["**END GAME - Murder Mystery Solved**"]
