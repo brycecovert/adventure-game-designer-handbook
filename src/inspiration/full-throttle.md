@@ -18,7 +18,7 @@ Full Throttle is a 1995 LucasArts point-and-click adventure designed by Ron Gilb
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./full-throttle-chart.svg?dark">
-  <img src="./full-throttle-chart.svg" alt="full-throttle" Puzzle Dependency Chart" width="80%">
+  <img src="./full-throttle-chart.svg" alt="full-throttle Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -62,7 +62,7 @@ All three components are delivered to Maureen, who fixes the bike and installs a
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./full-throttle-chart.svg?dark">
-  <img src="./full-throttle-chart.svg" alt="full-throttle" Puzzle Dependency Chart" width="80%">
+  <img src="./full-throttle-chart.svg" alt="full-throttle Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -104,7 +104,7 @@ All four components are acquired: hover fan installed on bike, booster stolen fr
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./full-throttle-chart.svg?dark">
-  <img src="./full-throttle-chart.svg" alt="full-throttle" Puzzle Dependency Chart" width="80%">
+  <img src="./full-throttle-chart.svg" alt="full-throttle Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -147,7 +147,7 @@ A continuous path of exploded mines leads directly to the Vultures' hideout entr
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./full-throttle-chart.svg?dark">
-  <img src="./full-throttle-chart.svg" alt="full-throttle" Puzzle Dependency Chart" width="80%">
+  <img src="./full-throttle-chart.svg" alt="full-throttle Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -171,7 +171,7 @@ A continuous path of exploded mines leads directly to the Vultures' hideout entr
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./full-throttle-chart.svg?dark">
-  <img src="./full-throttle-chart.svg" alt="full-throttle" Puzzle Dependency Chart" width="80%">
+  <img src="./full-throttle-chart.svg" alt="full-throttle Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 

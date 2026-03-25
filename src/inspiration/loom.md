@@ -18,7 +18,7 @@ Loom is a 1990 Lucasfilm Games adventure designed by Brian Moriarty that replace
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./loom-chart.svg?dark">
-  <img src="./loom-chart.svg" alt="loom" Puzzle Dependency Chart" width="80%">
+  <img src="./loom-chart.svg" alt="loom Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -63,7 +63,7 @@ A lightning-struck tree falls into the water and becomes a boat at the dock.
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./loom-chart.svg?dark">
-  <img src="./loom-chart.svg" alt="loom" Puzzle Dependency Chart" width="80%">
+  <img src="./loom-chart.svg" alt="loom Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -74,7 +74,7 @@ A lightning-struck tree falls into the water and becomes a boat at the dock.
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./loom-chart.svg?dark">
-  <img src="./loom-chart.svg" alt="loom" Puzzle Dependency Chart" width="80%">
+  <img src="./loom-chart.svg" alt="loom Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -110,7 +110,7 @@ The sheep are dyed green to blend into the grass; when the dragon arrives, she m
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./loom-chart.svg?dark">
-  <img src="./loom-chart.svg" alt="loom" Puzzle Dependency Chart" width="80%">
+  <img src="./loom-chart.svg" alt="loom Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -121,7 +121,7 @@ The sheep are dyed green to blend into the grass; when the dragon arrives, she m
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./loom-chart.svg?dark">
-  <img src="./loom-chart.svg" alt="loom" Puzzle Dependency Chart" width="80%">
+  <img src="./loom-chart.svg" alt="loom Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -157,7 +157,7 @@ Bobbin becomes invisible to the guards and enters the tower, where he learns the
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./loom-chart.svg?dark">
-  <img src="./loom-chart.svg" alt="loom" Puzzle Dependency Chart" width="80%">
+  <img src="./loom-chart.svg" alt="loom Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -168,7 +168,7 @@ Bobbin becomes invisible to the guards and enters the tower, where he learns the
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./loom-chart.svg?dark">
-  <img src="./loom-chart.svg" alt="loom" Puzzle Dependency Chart" width="80%">
+  <img src="./loom-chart.svg" alt="loom Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -190,7 +190,7 @@ Bobbin becomes invisible to the guards and enters the tower, where he learns the
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./loom-chart.svg?dark">
-  <img src="./loom-chart.svg" alt="loom" Puzzle Dependency Chart" width="80%">
+  <img src="./loom-chart.svg" alt="loom Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 

@@ -19,7 +19,7 @@ Revolution Software's 1994 sci-fi adventure demonstrates masterful integration o
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./beneath-a-steel-sky-chart.svg?dark">
-  <img src="./beneath-a-steel-sky-chart.svg" alt="beneath-a-steel-sky" Puzzle Dependency Chart" width="80%">
+  <img src="./beneath-a-steel-sky-chart.svg" alt="beneath-a-steel-sky Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -61,7 +61,7 @@ Delegate conversation to Joey and instruct him to use his robot charm on the rec
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./beneath-a-steel-sky-chart.svg?dark">
-  <img src="./beneath-a-steel-sky-chart.svg" alt="beneath-a-steel-sky" Puzzle Dependency Chart" width="80%">
+  <img src="./beneath-a-steel-sky-chart.svg" alt="beneath-a-steel-sky Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -104,7 +104,7 @@ Decrypt and decompress data containers across LINC-Space rooms to extract passwo
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./beneath-a-steel-sky-chart.svg?dark">
-  <img src="./beneath-a-steel-sky-chart.svg" alt="beneath-a-steel-sky" Puzzle Dependency Chart" width="80%">
+  <img src="./beneath-a-steel-sky-chart.svg" alt="beneath-a-steel-sky Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -148,7 +148,7 @@ Create a chain distraction: place dog biscuits on a rope-launched plank to catap
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./beneath-a-steel-sky-chart.svg?dark">
-  <img src="./beneath-a-steel-sky-chart.svg" alt="beneath-a-steel-sky" Puzzle Dependency Chart" width="80%">
+  <img src="./beneath-a-steel-sky-chart.svg" alt="beneath-a-steel-sky Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -168,7 +168,7 @@ Create a chain distraction: place dog biscuits on a rope-launched plank to catap
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./beneath-a-steel-sky-chart.svg?dark">
-  <img src="./beneath-a-steel-sky-chart.svg" alt="beneath-a-steel-sky" Puzzle Dependency Chart" width="80%">
+  <img src="./beneath-a-steel-sky-chart.svg" alt="beneath-a-steel-sky Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 

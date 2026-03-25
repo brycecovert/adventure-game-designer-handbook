@@ -18,7 +18,7 @@ Day of the Tentacle is a 1993 Lucasfilm Games adventure designed by Ron Gilbert 
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./day-of-the-tentacle-chart.svg?dark">
-  <img src="./day-of-the-tentacle-chart.svg" alt="day-of-the-tentacle" Puzzle Dependency Chart" width="80%">
+  <img src="./day-of-the-tentacle-chart.svg" alt="day-of-the-tentacle Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -61,7 +61,7 @@ The kumquat tree becomes a "cherry tree" in Hoagie's time; George Washington cut
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./day-of-the-tentacle-chart.svg?dark">
-  <img src="./day-of-the-tentacle-chart.svg" alt="day-of-the-tentacle" Puzzle Dependency Chart" width="80%">
+  <img src="./day-of-the-tentacle-chart.svg" alt="day-of-the-tentacle Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -108,7 +108,7 @@ The mummy wins all three contest categories (Best Hair, Best Smile, Best Laugh),
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./day-of-the-tentacle-chart.svg?dark">
-  <img src="./day-of-the-tentacle-chart.svg" alt="day-of-the-tentacle" Puzzle Dependency Chart" width="80%">
+  <img src="./day-of-the-tentacle-chart.svg" alt="day-of-the-tentacle Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -156,7 +156,7 @@ Red Edison constructs a super battery from oil, vinegar, and gold pen; Ben Frank
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./day-of-the-tentacle-chart.svg?dark">
-  <img src="./day-of-the-tentacle-chart.svg" alt="day-of-the-tentacle" Puzzle Dependency Chart" width="80%">
+  <img src="./day-of-the-tentacle-chart.svg" alt="day-of-the-tentacle Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -178,7 +178,7 @@ Red Edison constructs a super battery from oil, vinegar, and gold pen; Ben Frank
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./day-of-the-tentacle-chart.svg?dark">
-  <img src="./day-of-the-tentacle-chart.svg" alt="day-of-the-tentacle" Puzzle Dependency Chart" width="80%">
+  <img src="./day-of-the-tentacle-chart.svg" alt="day-of-the-tentacle Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 

@@ -13,6 +13,13 @@ SpaceQuest III is a 1989 Sierra adventure designed by Mark Crowe and Marc Ozera 
 
 ![ScummSoft headquarters infiltration—Roger disguised as janitor with vaporizer](./spacequest-iii-overview.png)
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./spacequest-iii-the-pirates-of-pestulon-chart.svg?dark">
+  <img src="./spacequest-iii-the-pirates-of-pestulon-chart.svg" alt="SpaceQuest III Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
 ---
 
 ## Puzzle 1: ScummSoft Janitor Infiltration via Systematic Trashcan Clearing

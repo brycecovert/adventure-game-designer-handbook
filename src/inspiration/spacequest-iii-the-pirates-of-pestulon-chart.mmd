@@ -1,0 +1,183 @@
+flowchart TD
+    %% =============================================================================
+    %% FONT SIZE & CONFIGURATION
+    %% =============================================================================
+    node[fontsize=18]
+    START["**START**"] --> A_ESCAPE_ROCKET_BLAST
+
+    %% =============================================================================
+    %% GARBAGE SCOW - Initial Section (area_1 - gray)
+    %% =============================================================================
+    subgraph area_1["**GARBAGE SCOW**"]
+        A_ESCAPE_ROCKET_BLAST["A: Escape Rocket Blast"] --> C1["C1: Arrive on Garbage Scow"]
+
+        C1 --> P_PROBLEM_NO_ENGINE["P: Ship Has No Engine"]
+
+        P_PROBLEM_NO_ENGINE --> A_COLLECT_ENGINE_PARTS["A: Collect Engine Parts"]
+        A_COLLECT_ENGINE_PARTS --> A_GET_REACTOR_FROM_RAT_PIT["A: Get Reactor from Rat Pit"]
+        A_COLLECT_ENGINE_PARTS --> A_GET_WIRES_FROM_CONVEYOR["A: Get Wires from Conveyor"]
+        A_COLLECT_ENGINE_PARTS --> A_GET_ENGINE_FROM_SCRAP["A: Get Engine from Scrap"]
+
+        A_GET_REACTOR_FROM_RAT_PIT --> O_RECEIVE_REACTOR["O: Receive Reactor"]
+        A_GET_WIRES_FROM_CONVEYOR --> O_RECEIVE_WIRES["O: Receive Wires"]
+        A_GET_ENGINE_FROM_SCRAP --> O_RECEIVE_ENGINE["O: Receive Engine"]
+
+        O_RECEIVE_REACTOR & O_RECEIVE_WIRES & O_RECEIVE_ENGINE --> A_ASSEMBLE_SHIP["A: Assemble Ship Components"]
+        A_ASSEMBLE_SHIP --> C2["C2: Can Escape Scow"]
+
+        C1 --> P_PROBLEM_INVISIBILITY_BELT["P: Need Invisibility Belt"]
+        P_PROBLEM_INVISIBILITY_BELT --> A_THROW_ROCK_FOR_MONKEY_TAIL["A: Throw Rock for Monkey Tail"]
+        A_THROW_ROCK_FOR_MONKEY_TAIL --> O_RECEIVE_MONKEY_TAIL["O: Receive Monkey Tail"]
+
+        O_RECEIVE_MONKEY_TAIL --> A_TRADE_TAIL_FOR_BELT["A: Trade Tail at Terminators Cave, Hide from Predators"]
+        A_TRADE_TAIL_FOR_BELT --> O_RECEIVE_INVISIBILITY_BELT["O: Receive Invisibility Belt"]
+    end
+    style area_1 fill:#CFD8DC,stroke:#455A64,stroke-width:3px
+
+    %% =============================================================================
+    %% PHLEEBHUT - Planet Surface (area_2 - light green)
+    %% =============================================================================
+    subgraph area_2["**PHLEEBHUT**"]
+        O_RECEIVE_INVISIBILITY_BELT --> A_TRAVEL_TO_PHLEEBHUT["A: Travel to Phleebhut"]
+        A_TRAVEL_TO_PHLEEBHUT --> C3["C3: Arrive on Planet Surface"]
+
+        C3 --> P_PROBLEM_GLOWING_GEM_SALE["P: Need Buckazoids for Items"]
+
+        P_PROBLEM_GLOWING_GEM_SALE --> A_SELL_GLOWING_GEM["A: Sell Glowing Gem to Shopkeeper"]
+        A_SELL_GLOWING_GEM --> O_RECEIVE_BUCKAZOIDS["O: Receive Buckazoids"]
+
+        O_RECEIVE_BUCKAZOIDS --> A_BUY_THERMOWEAVE_UNDERWEAR["A: Buy Thermoweave Underwear"]
+        A_BUY_THERMOWEAVE_UNDERWEAR --> O_WEARING_HEAT_PROTECTION["O: Wearing Heat Protection"]
+
+        C3 --> P_PROBLEM_MONOLITH_FUN_MEAL["P: Need Decoder Ring from Monolith Burger"]
+
+        P_PROBLEM_MONOLITH_FUN_MEAL --> A_ORDER_FUN_MEAL["A: Order Fun Meal at Monolith Burger"]
+        A_ORDER_FUN_MEAL --> A_EAT_MEAL_FOR_RING["A: Eat Meal to Find Ring"]
+        A_EAT_MEAL_FOR_RING --> O_RECEIVE_DECODER_RING["O: Receive Decoder Ring"]
+
+        O_RECEIVE_INVISIBILITY_BELT --> A_ENTER_MONOLITH["A: Enter Monolith Burger (belt breaks)"]
+
+        O_WEARING_HEAT_PROTECTION --> O_CAN_LAND_ON_ORTAGA["O: Can Land on Ortega Safely"]
+    end
+    style area_2 fill:#C8E6C9,stroke:#388E3C,stroke-width:3px
+
+    %% =============================================================================
+    %% MONOLITH BURGER - Astro Chicken (area_3 - yellow)
+    %% =============================================================================
+    subgraph area_3["**MONOLITH BURGER - ARCADE**"]
+        O_RECEIVE_DECODER_RING --> P_PROBLEM_ASTRO_CHICKEN["P: Need Coordinates for ScummSoft"]
+
+        P_PROBLEM_ASTRO_CHICKEN --> A_PLAY_GAME_REPEATEDLY["A: Play ASTRO CHICKEN Repeatedly"]
+        A_PLAY_GAME_REPEATEDLY --> O_HIGH_SCORE_ACHIEVED["O: High Score (308+) Achieved"]
+
+        O_HIGH_SCORE_ACHIEVED --> A_READ_SECRET_MESSAGE["A: Read Secret Message on Screen"]
+        A_READ_SECRET_MESSAGE --> A_USE_DECODER_RING["A: Use Decoder Ring on Message"]
+        
+        A_USE_DECODER_RING --> O_LEARN_PESTULON_COORDINATES["O: Learn Pestulon Moon Coordinates"]
+        A_USE_DECODER_RING --> O_LEARN_CAPTIVE_INFO["O: Learn Crowe & Metzger at ScummSoft"]
+    end
+    style area_3 fill:#FFF9C4,stroke:#FBC02D,stroke-width:3px
+
+    %% =============================================================================
+    %% SCUMMSOFT - Infiltration (area_4 - light blue)
+    %% =============================================================================
+    subgraph area_4["**SCUMMSOFT HQ - INFILTRATION**"]
+        O_LEARN_CAPTIVE_INFO --> A_ENTER_SCUMMSOFT_HQ["A: Enter ScummSoft HQ with Belt"]
+        A_ENTER_SCUMMSOFT_HQ --> C4["C4: Invisibility Belt Wears Off Immediately"]
+
+        C4 --> P_PROBLEM_NEED_JANITOR_DISGUISE["P: Need Job Disguise for Access"]
+
+        P_PROBLEM_NEED_JANITOR_DISGUISE --> A_GET_COVERALLS_VAPORIZER["A: Get Coveralls and Vaporizer from Closet"]
+        A_GET_COVERALLS_VAPORIZER --> O_RECEIVE_JANITOR_GEAR["O: Receive Janitor Coveralls & Vaporizer"]
+
+        O_RECEIVE_JANITOR_GEAR --> P_TRASHCAN_PUZZLE["P: Must Clear All Trashcans Systematically"]
+
+        P_TRASHCAN_PUZZLE --> A_SYSTEMATICALLY_CLEAR_CANS["A: Systematically Clear Cans Room-by-Room"]
+        A_SYSTEMATICALLY_CLEAR_CANS --> O_ALL_CANS_CLEARED["O: All Trashcans Vaporized - Can Proceed"]
+
+        C4 --> A_COPY_ELMO_PICTURE["A: Copy Elmo's Picture at Copier"]
+        A_COPY_ELMO_PICTURE --> O_RECEIVE_PIC_COPY["O: Receive Picture Copy"]
+
+        O_ALL_CANS_CLEARED --> A_STEAL_BOSS_KEYCARD["A: Steal Boss Keycard (when he leaves)"]
+        A_STEAL_BOSS_KEYCARD --> O_RECEIVE_KEYCARD["O: Receive Security Keycard"]
+    end
+    style area_4 fill:#BBDEFB,stroke:#1976D2,stroke-width:3px
+
+    %% =============================================================================
+    %% SCUMMSOFT - Rescue (area_5 - dark blue)
+    %% =============================================================================
+    subgraph area_5["**SCUMMSOFT - RESTRICTED AREA**"]
+        O_RECEIVE_KEYCARD & O_RECEIVE_PIC_COPY --> A_FACE_SCANNER_DOOR["A: Face Scanner Door to Restricted Section"]
+
+        A_FACE_SCANNER_DOOR --> A_USE_KEYCARD_AT_READER["A: Use Keycard at Card Reader"]
+
+        A_USE_KEYCARD_AT_READER --> A_SHOW_PIC_COPY_TO_SCANNER["A: Show Pic Copy to Bypass Scanner"]
+        
+        A_SHOW_PIC_COPY_TO_SCANNER --> C5["C5: Enter Restricted Area (Fake Face Accepted)"]
+
+        C5 --> P_PROBLEM_JELLY_CONTAINMENT["P: Crowe & Metzger in Jelly Stasis"]
+
+        P_PROBLEM_JELLY_CONTAINMENT --> A_VAPORIZE_JELLY["A: Vaporize Jelly with Janitor Tool"]
+        
+        A_VAPORIZE_JELLY --> C6["C6: Prisoners Freed - Duke Nukem Boss Fight Begins"]
+
+        C6 --> A_COMBAT_BOSS_SEQUENCE["A: Combat Boss Sequence (Timed Shield Management)"]
+        A_COMBAT_BOSS_SEQUENCE --> O_BOSS_DEFEATED["O: Boss Defeated"]
+
+        O_BOSS_DEFEATED --> A_ESCAPE_TO_SPACE_BATTLE["A: Escape to Space Battle Scene"]
+        A_ESCAPE_TO_SPACE_BATTLE --> END_1["**END - PART 1 COMPLETE**"]
+    end
+    style area_5 fill:#90CAF9,stroke:#1565C0,stroke-width:3px
+
+    %% =============================================================================
+    %% ORTEGA - Timed Escape (area_6 - orange/red)
+    %% =============================================================================
+    START2["**START - PART 2**"] --> A_FLY_TO_PESTULON["A: Fly to Pestulon Moon Coordinates"]
+
+    subgraph area_6["**ORTEGA SURFACE - PART 2**"]
+        A_FLY_TO_PESTULON --> A_TRAVEL_TO_ORTAGA["A: Travel to Ortega"]
+        A_FLY_TO_PESTULON --> O_CAN_LAND_ON_ORTAGA
+        
+        O_CAN_LAND_ON_ORTAGA --> A_LAND_ON_ORTAGA["A: Land on Ortega Surface"]
+
+        A_LAND_ON_ORTAGA --> P_TIMED_ESCAPE["P: Must Escape Before Planet Burns"]
+
+        A_LAND_ON_ORTAGA --> A_CROSS_UNSTABLE_BRIDGE["A: Cross Unstable Bridge (Wait for Patrols)"]
+        A_CROSS_UNSTABLE_BRIDGE --> A_ENTER_SCOUT_STATION["A: Enter Scout Observation Post"]
+
+        A_ENTER_SCOUT_STATION --> A_USE_TELESCOPE_FOR_COORDINATES["A: Use Telescope to Confirm Pestulon Location"]
+        A_ENTER_SCOUT_STATION --> A_GET_THERMAL_DETONATOR["A: Get Thermal Detonator"]
+        A_ENTER_SCOUT_STATION --> A_GET_METAL_POLE["A: Get Metal Pole for Chasm Jump"]
+
+        A_GET_THERMAL_DETONATOR --> O_RECEIVE_DETONATOR["O: Receive Thermal Detonator"]
+        A_GET_METAL_POLE --> O_RECEIVE_POLE["O: Receive Metal Pole"]
+
+       O_LEARN_PESTULON_COORDINATES --> P_FINAL_OBJECTIVE["P: Destroy Force Field Generator - Timer Starts"]
+
+        P_FINAL_OBJECTIVE --> A_THROW_DETONATOR_IN_GENERATOR_HOLE["A: Throw Detonator into Generator Building Hole - TIMER STARTS"]
+        
+        A_THROW_DETONATOR_IN_GENERATOR_HOLE --> TIMER_TRIGGERS["**INVISIBLE TIMER TRIGGERS**"]
+
+        TIMER_TRIGGERS --> A_RACE_BACK_TOWARD_SHIP["A: Race Back Toward Ship Immediately"]
+        A_RACE_BACK_TOWARD_SHIP --> A_CROSS_COLLAPSING_BRIDGE["A: Cross Collapsing Bridge Section"]
+        A_CROSS_COLLAPSING_BRIDGE --> A_USE_POLE_TO_BRIDGE_CHASM["A: Use Pole to Bridge New Chasm Gap"]
+
+        O_RECEIVE_POLE --> A_USE_POLE_TO_BRIDGE_CHASM
+        
+        A_USE_POLE_TO_BRIDGE_CHASM --> A_ENTER_ESCAPE_SHIP["A: Enter Escape Ship Before Burn Death"]
+
+        A_ENTER_ESCAPE_SHIP --> END_2["**END - GAME COMPLETE**"]
+    end
+    style area_6 fill:#FFCCBC,stroke:#D84315,stroke-width:3px
+
+    %% =============================================================================
+    %% CLASS DEFINITIONS
+    %% =============================================================================
+    classDef start_end fill:#FFD700,stroke:#996600,stroke-width:3px,color:#000000,font-weight:bold
+    classDef problem fill:#FFB3B3,stroke:#8B0000,stroke-width:2px,color:#8B0000
+    classDef action fill:#B3FFB3,stroke:#006400,stroke-width:2px,color:#006400
+    classDef outcome fill:#B3D9FF,stroke:#004080,stroke-width:2px,color:#004080
+    
+    class START,END_1,END_2,TIMER_TRIGGERS,C1,C2,C3,C4,C5,C6 start_end
+    
+    class P_PROBLEM_NO_ENGINE,P_PROBLEM_INVISIBILITY_BELT,P_PROBLEM_GLOWING_GEM_SALE,P_PROBLEM_MONOLITH_FUN_MEAL,P_PROBLEM_ASTRO_CHICKEN,P_PROBLEM_NEED_JANITOR_DISGUISE,P_TRASHCAN_PUZZLE,P_PROBLEM_JELLY_CONTAINMENT,P_TIMED_ESCAPE,P_FINAL_OBJECTIVE problem

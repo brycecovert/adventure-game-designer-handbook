@@ -18,7 +18,7 @@ Maniac Mansion is a 1987 Lucasfilm Games adventure designed by Ron Gilbert that 
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./maniac-mansion-chart.svg?dark">
-  <img src="./maniac-mansion-chart.svg" alt="maniac-mansion" Puzzle Dependency Chart" width="80%">
+  <img src="./maniac-mansion-chart.svg" alt="maniac-mansion Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -66,7 +66,7 @@ The pool empties (revealing reactor), items are collected, then refilled before 
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./maniac-mansion-chart.svg?dark">
-  <img src="./maniac-mansion-chart.svg" alt="maniac-mansion" Puzzle Dependency Chart" width="80%">
+  <img src="./maniac-mansion-chart.svg" alt="maniac-mansion Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -114,7 +114,7 @@ The broken wires are repaired via coordinated breaker/attic work; arcade high sc
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./maniac-mansion-chart.svg?dark">
-  <img src="./maniac-mansion-chart.svg" alt="maniac-mansion" Puzzle Dependency Chart" width="80%">
+  <img src="./maniac-mansion-chart.svg" alt="maniac-mansion Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -164,7 +164,7 @@ Undeveloped film is collected, developer fluid absorbed in sponge, Michael proce
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./maniac-mansion-chart.svg?dark">
-  <img src="./maniac-mansion-chart.svg" alt="maniac-mansion" Puzzle Dependency Chart" width="80%">
+  <img src="./maniac-mansion-chart.svg" alt="maniac-mansion Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
@@ -186,7 +186,7 @@ Undeveloped film is collected, developer fluid absorbed in sponge, Michael proce
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./maniac-mansion-chart.svg?dark">
-  <img src="./maniac-mansion-chart.svg" alt="maniac-mansion" Puzzle Dependency Chart" width="80%">
+  <img src="./maniac-mansion-chart.svg" alt="maniac-mansion Puzzle Dependency Chart" width="80%">
 </picture>
 </div>
 
