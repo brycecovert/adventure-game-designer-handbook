@@ -16,6 +16,13 @@ Revolution Software's 1994 sci-fi adventure demonstrates masterful integration o
 
 ---
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./beneath-a-steel-sky-chart.svg?dark">
+  <img src="./beneath-a-steel-sky-chart.svg" alt="beneath-a-steel-sky" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
 ## Puzzle 1: Dr. Burke's Holographic Receptionist
 
 ### Problem
@@ -50,6 +57,13 @@ Delegate conversation to Joey and instruct him to use his robot charm on the rec
 **Also Uses:** [[Comedy-Based NPC Persuasion]](../puzzles/comedy-based-persuasion.md) — humor derived from Joey's unexpected success
 
 ---
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./beneath-a-steel-sky-chart.svg?dark">
+  <img src="./beneath-a-steel-sky-chart.svg" alt="beneath-a-steel-sky" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
 
 ## Puzzle 2: LINC-Space Password Bridge Navigation
 
@@ -86,6 +100,13 @@ Decrypt and decompress data containers across LINC-Space rooms to extract passwo
 **Also Uses:** [[Meta-Puzzle Construction]](../puzzles/sequential-construction.md) — tools gathered early enable later puzzle resolution
 
 ---
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./beneath-a-steel-sky-chart.svg?dark">
+  <img src="./beneath-a-steel-sky-chart.svg" alt="beneath-a-steel-sky" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
 
 ## Puzzle 3: St. James Club Entry Via Coordinated Distraction
 
@@ -124,6 +145,13 @@ Create a chain distraction: place dog biscuits on a rope-launched plank to catap
 
 ---
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./beneath-a-steel-sky-chart.svg?dark">
+  <img src="./beneath-a-steel-sky-chart.svg" alt="beneath-a-steel-sky" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
 ## Other Notable Puzzles
 
 | Puzzle | Core Pattern Type | Brief Description |
@@ -136,6 +164,13 @@ Create a chain distraction: place dog biscuits on a rope-launched plank to catap
 | Temperature Tank Room Escape | [[Multi-Character Coordination]](../puzzles/multi-character-coordination.md) | Joey opens nutrient tank tap while player exploits temperature change to drop android through grate |
 
 ---
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./beneath-a-steel-sky-chart.svg?dark">
+  <img src="./beneath-a-steel-sky-chart.svg" alt="beneath-a-steel-sky" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
 
 ## References
 

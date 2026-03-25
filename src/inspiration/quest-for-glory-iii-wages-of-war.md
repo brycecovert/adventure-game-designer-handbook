@@ -14,11 +14,16 @@ Sierra's 1992 sequel introduced three distinct class-based playthroughs, where F
 
 ## Puzzle Dependency Chart
 
-<iframe src="./quest-for-glory-iii-chart.svg" width="100%" height="800px" style="border:none;"></iframe>
-
-[View Puzzle Dependencies QA Report](./quest-for-glory-iii-puzzle-dependencies-qa.md)
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./quest-for-glory-iii-chart.svg?dark">
+  <img src="./quest-for-glory-iii-chart.svg" alt="Quest for Glory III Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
 
 ![Game overview screenshot — hero character selection screen showing Fighter, Wizard, Thief classes with stats panel](./quest-for-glory-iii-overview.png)
+
+[View Puzzle Dependencies QA Report](./quest-for-glory-iii-puzzle-dependencies-qa.md)
 
 ---
 

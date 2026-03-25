@@ -16,7 +16,12 @@ Sierra's 1989 hybrid RPG-adventure pioneered time-based puzzle design. Unlike st
 
 ## Puzzle Dependency Chart
 
-<iframe src="./quest-for-glory-ii-chart.svg" width="100%" height="800px" style="border:none;"></iframe>
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./quest-for-glory-ii-chart.svg?dark">
+  <img src="./quest-for-glory-ii-chart.svg" alt="Quest for Glory II Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
 
 [View Puzzle Dependencies QA Report](./quest-for-glory-ii-puzzle-dependencies-qa.md)
 

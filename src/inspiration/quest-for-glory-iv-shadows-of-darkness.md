@@ -13,11 +13,16 @@ Quest for Glory IV: Shadows of Darkness is a 1994 Sierra Entertainment adventure
 
 ## Puzzle Dependency Chart
 
-<iframe src="./quest-for-glory-iv-chart.svg" width="100%" height="800px" style="border:none;"></iframe>
-
-[View Puzzle Dependencies QA Report](./quest-for-glory-iv-puzzle-dependencies-qa.md)
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./quest-for-glory-iv-chart.svg?dark">
+  <img src="./quest-for-glory-iv-chart.svg" alt="Quest for Glory IV Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
 
 ![Hero standing before Erana's Staff protruding from stone pedestal in Plaza Square](./quest-for-glory-iv-overview.png)
+
+[View Puzzle Dependencies QA Report](./quest-for-glory-iv-puzzle-dependencies-qa.md)
 
 ---
 

@@ -13,11 +13,16 @@ Quest for Glory 1: So You Want To Be A Hero is a 1989 Sierra On-Line adventure d
 
 ## Puzzle Dependency Chart
 
-<iframe src="./quest-for-glory-1-chart.svg" width="100%" height="800px" style="border:none;"></iframe>
-
-[View Puzzle Dependencies QA Report](./quest-for-glory-1-puzzle-dependencies-qa.md)
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./quest-for-glory-1-chart.svg?dark">
+  <img src="./quest-for-glory-1-chart.svg" alt="Quest for Glory 1 Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
 
 ![Hero standing at main gate entering Spielburg—opening sequence where players enter the cursed valley](./qfg1-overview.png)
+
+[View Puzzle Dependencies QA Report](./quest-for-glory-1-puzzle-dependencies-qa.md)
 
 ---
 

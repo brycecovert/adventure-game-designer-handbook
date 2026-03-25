@@ -2,7 +2,25 @@
 
 This chart maps the critical puzzle dependencies in Sierra's King's Quest VI (1992), showing which puzzles unlock access to subsequent challenges. Dependencies follow strict necessity rules—a puzzle B depends on puzzle A only if solving A is a prerequisite for even attempting B.
 
-## Puzzle Dependency Flowchart
+## At a Glance
+
+| | |
+|---|---|
+| **Release Year** | 1992 |
+| **Developer** | Sierra On-Line / Robyn Miller, Corey Cole |
+| **Core Mechanic** | Multi-phase island exploration with parallel puzzle paths converging at castle finale |
+| **What players found enjoyable** | The Five Senses Gnomes challenge teaches pattern recognition through environmental puzzles; Minotaur's Maze demonstrates fair spatial reasoning design |
+
+---
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./kings-quest-vi-chart.svg?dark">
+  <img src="./kings-quest-vi-chart.svg" alt="King's Quest VI Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
+## Puzzle Dependency Chart
 
 [![KQVI Puzzle Dependency Chart - SVG preview](kings-quest-vi-chart-preview.png)](kings-quest-vi-chart.svg)
 

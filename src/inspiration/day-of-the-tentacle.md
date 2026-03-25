@@ -15,6 +15,13 @@ Day of the Tentacle is a 1993 Lucasfilm Games adventure designed by Ron Gilbert 
 
 ---
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./day-of-the-tentacle-chart.svg?dark">
+  <img src="./day-of-the-tentacle-chart.svg" alt="day-of-the-tentacle" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
 ## Puzzle 1: Freeing Laverne from the Tree via Temporal Cherry Tree
 
 ### Problem
@@ -50,6 +57,13 @@ The kumquat tree becomes a "cherry tree" in Hoagie's time; George Washington cut
 [Cross-Temporal Causality](../puzzles/cross-temporal-causality.md) — An action in one time period (painting + cutting) creates a cascading change observable in a different era (Laverne freed), distinguishing this from simple fetch quests where items move but timeline doesn't shift.
 
 ---
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./day-of-the-tentacle-chart.svg?dark">
+  <img src="./day-of-the-tentacle-chart.svg" alt="day-of-the-tentacle" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
 
 ## Puzzle 2: The Human Show Championship via Multi-Character Item Collection
 
@@ -90,6 +104,13 @@ The mummy wins all three contest categories (Best Hair, Best Smile, Best Laugh),
 [Multi-Character Coordination](../puzzles/multi-character-coordination.md) — Multiple characters must contribute distinct items gathered separately, differentiating from Meta-Puzzle Construction where single-player sequential steps build toward a finale rather than distributed gathering with centralized application.
 
 ---
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./day-of-the-tentacle-chart.svg?dark">
+  <img src="./day-of-the-tentacle-chart.svg" alt="day-of-the-tentacle" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
 
 ## Puzzle 3: Red Edison's Super Battery via Temporal Chemistry
 
@@ -132,6 +153,13 @@ Red Edison constructs a super battery from oil, vinegar, and gold pen; Ben Frank
 
 ---
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./day-of-the-tentacle-chart.svg?dark">
+  <img src="./day-of-the-tentacle-chart.svg" alt="day-of-the-tentacle" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
 ## Other Puzzles
 
 | Name | Problem & Solution | Pattern Type |
@@ -146,6 +174,13 @@ Red Edison constructs a super battery from oil, vinegar, and gold pen; Ben Frank
 | Cat and Booboo-B-Gone | White stripe painted on fence guides cat atop it; squeaky mouse toy lures cat down for Laverne collection | [Sensory Exploitation](../puzzles/sensory-exploitation.md) |
 
 ---
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./day-of-the-tentacle-chart.svg?dark">
+  <img src="./day-of-the-tentacle-chart.svg" alt="day-of-the-tentacle" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
 
 ### References
 

@@ -15,6 +15,13 @@ Maniac Mansion is a 1987 Lucasfilm Games adventure designed by Ron Gilbert that 
 
 ---
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./maniac-mansion-chart.svg?dark">
+  <img src="./maniac-mansion-chart.svg" alt="maniac-mansion" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
 ## Puzzle 1: Swimming Pool Atomic Reactor via Timed Two-Character Cooperation
 
 ### Problem
@@ -56,6 +63,13 @@ The pool empties (revealing reactor), items are collected, then refilled before 
 
 ---
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./maniac-mansion-chart.svg?dark">
+  <img src="./maniac-mansion-chart.svg" alt="maniac-mansion" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
 ## Puzzle 2: Arcade High Score Password via Observation and Security Bypass
 
 ### Problem
@@ -96,6 +110,13 @@ The broken wires are repaired via coordinated breaker/attic work; arcade high sc
 [Information Brokerage](../puzzles/information-brokerage.md) — Incidental game information (arcade high score) is collected and exchanged for functional progress (laboratory access), differentiating from Symbol Code Translation which requires systematic cipher work rather than direct value transfer.
 
 ---
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./maniac-mansion-chart.svg?dark">
+  <img src="./maniac-mansion-chart.svg" alt="maniac-mansion" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
 
 ## Puzzle 3: Film Development Chain via Character-Specific Materials Gathering
 
@@ -140,6 +161,13 @@ Undeveloped film is collected, developer fluid absorbed in sponge, Michael proce
 
 ---
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./maniac-mansion-chart.svg?dark">
+  <img src="./maniac-mansion-chart.svg" alt="maniac-mansion" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
 ## Other Puzzles
 
 | Name | Problem & Solution | Pattern Type |
@@ -154,6 +182,13 @@ Undeveloped film is collected, developer fluid absorbed in sponge, Michael proce
 | Meteor Launch Sequence Finale | Enter meteor control room; deactivate power lever; retrieve meteor; place in car boot; ignite rocket engine with yellow key | [Meta-Puzzle Construction](../puzzles/sequential-construction.md) |
 
 ---
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./maniac-mansion-chart.svg?dark">
+  <img src="./maniac-mansion-chart.svg" alt="maniac-mansion" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
 
 ### References
 

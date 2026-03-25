@@ -15,6 +15,13 @@ Full Throttle is a 1995 LucasArts point-and-click adventure designed by Ron Gilb
 
 ---
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./full-throttle-chart.svg?dark">
+  <img src="./full-throttle-chart.svg" alt="full-throttle" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
 ## Puzzle 1: Melonweed Bike Repair Synthesis
 
 ### Problem
@@ -52,6 +59,13 @@ All three components are delivered to Maureen, who fixes the bike and installs a
 
 ---
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./full-throttle-chart.svg?dark">
+  <img src="./full-throttle-chart.svg" alt="full-throttle" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
 ## Puzzle 2: Mine Road Biker Combat Progression
 
 ### Problem
@@ -86,6 +100,13 @@ All four components are acquired: hover fan installed on bike, booster stolen fr
 [Escalating Combat Progression](../puzzles/escalating-combat-progression.md) — Players acquire increasingly powerful counter-weapons through sequential combat encounters with distinct enemy types. Unlike Pattern Learning, this is action-based acquisition rather than observation-based rule discovery—the weapons are taken physically from defeated opponents.
 
 ---
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./full-throttle-chart.svg?dark">
+  <img src="./full-throttle-chart.svg" alt="full-throttle" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
 
 ## Puzzle 3: Vulture Minefield Navigation via Distraction Physics
 
@@ -123,6 +144,13 @@ A continuous path of exploded mines leads directly to the Vultures' hideout entr
 
 ---
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./full-throttle-chart.svg?dark">
+  <img src="./full-throttle-chart.svg" alt="full-throttle" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
 ## Other Puzzles
 
 | Name | Problem & Solution | Pattern Type |
@@ -139,6 +167,13 @@ A continuous path of exploded mines leads directly to the Vultures' hideout entr
 | Final Truck Escape | Hijack controls from truck interior to disable aircraft machine guns and prevent Ripburger escape via gorge | [Corporate Infiltration](../puzzles/distraction-environmental-manipulation.md) |
 
 ---
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./full-throttle-chart.svg?dark">
+  <img src="./full-throttle-chart.svg" alt="full-throttle" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
 
 ### References
 

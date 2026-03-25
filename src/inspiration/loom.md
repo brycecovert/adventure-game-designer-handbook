@@ -15,6 +15,13 @@ Loom is a 1990 Lucasfilm Games adventure designed by Brian Moriarty that replace
 
 ---
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./loom-chart.svg?dark">
+  <img src="./loom-chart.svg" alt="loom" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
 ## Puzzle 1: Opening the Sky to Build a Boat
 
 ### Problem
@@ -53,9 +60,23 @@ A lightning-struck tree falls into the water and becomes a boat at the dock.
 
 ---
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./loom-chart.svg?dark">
+  <img src="./loom-chart.svg" alt="loom" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
 [Metaphor-to-Literal](../puzzles/metaphor-to-literal.md) — The riddle uses poetic language ("sky is opened") that maps directly to an existing mechanical action (OPEN draft), distinguishing it from pure observation puzzles where information must be memorized rather than applied.
 
 ---
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./loom-chart.svg?dark">
+  <img src="./loom-chart.svg" alt="loom" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
 
 ## Puzzle 2: Hiding the Sheep from the Dragon
 
@@ -86,9 +107,23 @@ The sheep are dyed green to blend into the grass; when the dragon arrives, she m
 
 ---
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./loom-chart.svg?dark">
+  <img src="./loom-chart.svg" alt="loom" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
 [Pattern Learning](../puzzles/pattern-learning.md) — Player learns a system (DYE changes object color) in Domain A (Hetchel's tent with wool), then applies the same rule in Domain B (field with sheep). Unlike Multi-Faceted Plan, this is a single draft applied consistently—not multiple requirements gathered from different sources.
 
 ---
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./loom-chart.svg?dark">
+  <img src="./loom-chart.svg" alt="loom" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
 
 ## Puzzle 3: The Green Tower Infiltration
 
@@ -119,9 +154,23 @@ Bobbin becomes invisible to the guards and enters the tower, where he learns the
 
 ---
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./loom-chart.svg?dark">
+  <img src="./loom-chart.svg" alt="loom" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
 [Sensory Exploitation](../puzzles/sensory-exploitation.md) — The workers' perception is exploited directly (APPEAR draft), differentiating this from Distraction Physics where environmental manipulation breaks a blocking pattern rather than targeting NPC sensory weakness.
 
 ---
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./loom-chart.svg?dark">
+  <img src="./loom-chart.svg" alt="loom" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
 
 ## Other Puzzles
 
@@ -137,6 +186,13 @@ Bobbin becomes invisible to the guards and enters the tower, where he learns the
 | Final Confrontation with Chaos | SILENCE, ROAST, and RIFT drafts learned from the Loom machine itself; played in reverse or forward depending on context to defeat final antagonist | [Multi-Faceted Plan](../puzzles/multi-faceted-plan.md) |
 
 ---
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./loom-chart.svg?dark">
+  <img src="./loom-chart.svg" alt="loom" Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
 
 ### References
 

@@ -13,6 +13,13 @@ Sam & Max Hit the Road is a 1993 LucasArts adventure designed by Steve Purcell a
 
 ![Sam & Max standing beside their car on the American open road with carnival visible in background](./sam-max-hit-the-road-overview.png)
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./sam-and-max-chart.svg?dark">
+  <img src="./sam-and-max-chart.svg" alt="Sam & Max Hit the Road Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
 ---
 
 ## Puzzle 1: Gator Golf Emporium Flag Path via Crocodile Manipulation

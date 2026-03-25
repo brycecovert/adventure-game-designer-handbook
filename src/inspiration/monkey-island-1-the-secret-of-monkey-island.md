@@ -13,11 +13,12 @@ Monkey Island is a 1990 Lucasfilm Games adventure designed by Ron Gilbert that e
 
 ![Guybrush standing before the Scumm Bar opening scene](./monkey-island-overview.png)
 
-## Puzzle Dependency Chart
-
-The chart below shows the complete puzzle flow for Monkey Island 1, from initial trials through final confrontation. View it as interactive SVG in the generated book or see the [source mermaid diagram](./monkey-island-1-chart.mmd).
-
-![Puzzle dependency chart showing full game flow from trials to fortress](./monkey-island-1-chart.svg)
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./monkey-island-1-chart.svg?dark">
+  <img src="./monkey-island-1-chart.svg" alt="Monkey Island 1 Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
 
 ---
 
