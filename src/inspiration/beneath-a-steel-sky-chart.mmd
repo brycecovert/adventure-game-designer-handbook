@@ -1,0 +1,204 @@
+flowchart TD
+    %% =============================================================================
+    %% FONT SIZE & CONFIGURATION
+    %% =============================================================================
+    node[fontsize=18]
+    START["**START**"] --> A_ESCAPE_PRISON_CELL["A: Escape prison cell on spaceship"]
+    
+    %% =============================================================================
+    %% ACT 1: Utopia Station - Initial Exploration (area_1 - light blue)
+    %% =============================================================================
+    subgraph area_1["**ACT 1: UTOPIA STATION**"]
+        direction TB
+        
+        A_ESCAPE_PRISON_CELL --> O_ESCAPED_TO_STATION["O: Escaped to Utopia Space Station"]
+        
+        O_ESCAPED_TO_STATION --> A_MEET_JOEY["A: Meet Joey (free-floating robot spirit)"]
+        A_MEET_JOEY --> O_JOEY_JOINS_PARTY["O: Joey joins as companion character"]
+        
+        O_JOEY_JOINS_PARTY --> UNLOCK_DUAL_CHARACTER["**UNLOCK: Dual-Character Control**"]
+    end
+    style area_1 fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+
+    %% =============================================================================
+    %% ACT 2: Dr. Burke's Office - Joey Robot Charm (area_2 - light purple)
+    %% =============================================================================
+    subgraph area_2["**ACT 2: DR. BURKE'S OFFICE**"]
+        direction TB
+        
+        UNLOCK_DUAL_CHARACTER --> A_FIND_DR_BURKE_OFFICE["A: Find Dr. Burke's office entrance"]
+        A_FIND_DR_BURKE_OFFICE --> A_TALK_HOLOGRAPHIC_RECEPTIONIST["A: Talk to holographic receptionist AI"]
+        A_TALK_HOLOGRAPHIC_RECEPTIONIST --> O_REJECTED_AS_UNQUALIFIED["O: Rejected - 'unqualified visitor'"]
+        
+        O_REJECTED_AS_UNQUALIFIED --> P_PROBLEM_ROBOT_ENTRY["P: Human cannot enter - need different approach"]
+        
+        P_PROBLEM_ROBOT_ENTRY --> A_SWITCH_TO_JOEY["A: Switch control to Joey character"]
+        A_SWITCH_TO_JOEY --> A_JOEY_USE_NATURAL_CHARM["A: Joey uses 'Natural Charm' on receptionist"]
+        A_JOEY_USE_NATURAL_CHARM --> O_RECEPTIONIST_ACCEPTS_ROBOT["O: Receptionist accepts robot credentials, opens door"]
+        
+        O_RECEPTIONIST_ACCEPTS_ROBOT --> A_ENTER_DR_BURKE_OFFICE["A: Enter Dr. Burke's office interior"]
+    end
+    style area_2 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    %% =============================================================================
+    %% ACT 3: Joey Shell Repair & Anchor Grappling Hook (area_3 - light green)
+    %% =============================================================================
+    subgraph area_3["**ACT 3: JOEY SHELL & GRAPPLING HOOK**"]
+        direction TB
+        
+        A_ENTER_DR_BURKE_OFFICE --> C1["C1: Initial Utopia exploration complete"]
+        
+        C1 --> P_PROBLEM_JOEY_SHELL_DAMAGE["P: Joey's robot shell damaged - needs repair"]
+        
+        P_PROBLEM_JOEY_SHELL_DAMAGE --> A_FIND_WELDER_MOD["A: Find welder modification tool"]
+        A_FIND_WELDER_MOD --> O_JOEY_SHELL_REPAIRED["O: Joey shell repaired, can interact with environment"]
+        
+        C1 --> P_PROBLEM_UPPER_LEVEL_ACCESS["P: Need access to upper station levels"]
+        
+        P_PROBLEM_UPPER_LEVEL_ACCESS --> A_FIND_ANCIENT_STATUE["A: Find broken statue in insurance office"]
+        A_FIND_ANCIENT_STATUE --> O_ACQUIRE_ANCHOR_BASE["O: Acquire ANCHOR base from statue"]
+        
+        P_PROBLEM_UPPER_LEVEL_ACCESS --> A_CUT_CABLE_FROM_RAILING["A: Cut cable from upper level railing"]
+        A_CUT_CABLE_FROM_RAILING --> O_ACQUIRE_CABLE["O: Acquire CABLE segment"]
+        
+        O_ACQUIRE_ANCHOR_BASE & O_ACQUIRE_CABLE --> A_COMBINE_ANCHOR_CABLE["A: Combine ANCHOR + CABLE in inventory"]
+        A_COMBINE_ANCHOR_CABLE --> O_GRAPPLING_HOOK_CREATED["O: GRAPPLING HOOK created - can reach upper areas"]
+    end
+    style area_3 fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+
+    %% =============================================================================
+    %% ACT 4: LINC-Space - Virtual Reality Network (area_4 - light orange)
+    %% =============================================================================
+    subgraph area_4["**ACT 4: LINC-SPACE NETWORK**"]
+        direction TB
+        
+        O_GRAPPLING_HOOK_CREATED --> UNLOCK_LINCSPACE_ACCESS["**UNLOCK: LINC-Space VR Network**"]
+        
+        UNLOCK_LINCSPACE_ACCESS --> A_ENTER_FIRST_VR_ROOM["A: Enter first virtual reality room"]
+        A_ENTER_FIRST_VR_ROOM --> A_FIND_COMPRESSED_DATA_BALL["A: Find BALL (compressed data) container"]
+        A_FIND_COMPRESSED_DATA_BALL --> O_ACQUIRE_COMPRESSED_BALL["O: Acquire BALL with red/green yin-yang symbol locked inside"]
+        
+        A_ENTER_FIRST_VR_ROOM --> A_GO_TO_SECOND_ROOM["A: Navigate to second VR room"]
+        A_GO_TO_SECOND_ROOM --> A_FIND_CARPET_BAG["A: Find CARPET BAG container"]
+        A_FIND_CARPET_BAG --> A_USE_OPEN_COMMAND["A: Use OPEN command on bag"]
+        A_USE_OPEN_COMMAND --> O_ACQUIRE_DECRYPT_TOOL["O: Acquire MAGNIFYING GLASS (Decrypt function)"]
+        A_USE_OPEN_COMMAND --> O_ACQUIRE_DECOMPRESS_TOOL["O: Acquire SURPRISE GIFT (Decompress function)"]
+        
+        O_ACQUIRE_DECRYPT_TOOL & O_ACQUIRE_DECOMPRESS_TOOL & O_ACQUIRE_COMPRESSED_BALL --> P_PROBLEM_DECRYPT_DATAFILES["P: Need to decrypt and decompress data files"]
+        
+        P_PROBLEM_DECRYPT_DATAFILES --> A_DECRYPT_QUESTION_MARK_DOCS["A: Apply DECRYPT to two documents with ? symbols"]
+        A_DECRYPT_QUESTION_MARK_DOCS --> O_DOCUMENTS_REVEALED["O: Documents revealed - contain instructions"]
+        
+        P_PROBLEM_DECRYPT_DATAFILES --> A_DECOMPRESS_BALL["A: Apply DECOMPRESS to BALL data"]
+        A_DECOMPRESS_BALL --> O_ACQUIRE_RED_PASSWORD["O: Acquire RED PASSWORD symbol"]
+        A_DECOMPRESS_BALL --> O_ACQUIRE_GREEN_PASSWORD["O: Acquire GREEN PASSWORD symbol"]
+    end
+    style area_4 fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    %% =============================================================================
+    %% ACT 5: Plasma Bridge Navigation (area_5 - pink)
+    %% =============================================================================
+    subgraph area_5["**ACT 5: PLASMA BRIDGE NAVIGATION**"]
+        direction TB
+        
+        O_ACQUIRE_RED_PASSWORD & O_ACQUIRE_GREEN_PASSWORD --> P_PROBLEM_PLASMA_BRIDGE["P: Plasma tiles block path to restricted data"]
+        
+        P_PROBLEM_PLASMA_BRIDGE --> A_PLACE_RED_ON_CURRENT_TILE["A: Place RED password on current tile"]
+        A_PLACE_RED_ON_CURRENT_TILE --> O_TILE_ACCEPTS_RED["O: Tile accepts, bridge extends to next tile"]
+        
+        O_TILE_ACCEPTS_RED --> A_COLLECT_RED_FROM_NEXT_TILE["A: Collect RED password from next tile"]
+        A_COLLECT_RED_FROM_NEXT_TILE --> A_PLACE_GREEN_ON_NEW_TILE["A: Place GREEN password on newly reached tile"]
+        A_PLACE_GREEN_ON_NEW_TILE --> O_ALTERNATING_PATTERN_WORKS["O: Red-green alternation creates path forward"]
+        
+        O_ALTERNATING_PATTERN_WORKS --> A_REACH_RESTRICTED_SECTION["A: Reach thick plasma beam boundary"]
+        A_REACH_RESTRICTED_SECTION --> O_ACCESS_PHOENIX_AREA["O: Access Phoenix bust and documents area"]
+        
+        O_ACCESS_PHOENIX_AREA --> C2["C2: Phoenix and key documents collected from LINC-Space"]
+    end
+    style area_5 fill:#FCE4EC,stroke:#C2185B,stroke-width:3px
+
+    %% =============================================================================
+    %% ACT 6: St. James Club - Coordinated Distraction (area_6 - light cyan)
+    %% =============================================================================
+    subgraph area_6["**ACT 6: ST. JAMES CLUB INFILTRATION**"]
+        direction TB
+        
+        C2 --> P_PROBLEM_CLUB_GUARDED["P: St. James Club guarded by Officer Blunt - no entry without sponsorship"]
+        
+        P_PROBLEM_CLUB_GUARDED --> A_TALK_MRS_PIERMONT["A: Talk to Mrs. Piermont about club sponsorship"]
+        A_TALK_MRS_PIERMONT --> O_SPONSORSHIP_GRANTED["O: She agrees to sponsor - calls club from apartment"]
+        
+        O_SPONSORSHIP_GRANTED --> P_PROBLEM_NEED_DISTRACTION["P: Need distraction to enter while Blunt is away"]
+        
+        P_PROBLEM_NEED_DISTRACTION --> A_CREATE_DIVERSION_PLAN["A: Create diversion plan using Mrs. Piermont's dog Spunky"]
+        
+        A_CREATE_DIVERSION_PLAN --> A_STEAL_DOG_BISCUITS["A: Distract Spunky with videotape, steal DOG BISCUITS from bowl"]
+        A_STEAL_DOG_BISCUITS --> O_ACQUIRE_DOG_BISCUITS["O: Acquire valuable dog biscuits"]
+        
+        A_CREATE_DIVERSION_PLAN --> A_FIND_BRICKS_AND_PLANK["A: Find BRICKS and PLANK near pool at ground level"]
+        A_FIND_BRICKS_AND_PLANK --> A_STACK_BRICK_UNDERNEATH_PLANK["A: Stack bricks to support plank launch mechanism"]
+        
+        A_STACK_BRICK_UNDERNEATH_PLANK --> A_PLACE_BISCUITS_ON_PLANK["A: Place DOG BISCUITS on far end of PLANK"]
+        A_PLACE_BISCUITS_ON_PLANK --> O_PLANK_READY_AS_CATAPULT["O: Plank set as catapult with biscuits as bait"]
+        
+        O_PLANK_READY_AS_CATAPULT --> P_PROBLEM_TIME_LAUNCH["P: Time launch when Spunky finds biscuits"]
+        
+        P_PROBLEM_TIME_LAUNCH --> A_WAIT_FOR_BARKING_SOUNDS["A: Wait for barking (Spunky found biscuits)"]
+        A_WAIT_FOR_BARKING_SOUNDS --> O_CATAPULT_ACTIVATION_MOMENT["O: Spunky on far end of plank, ready to launch"]
+        
+        O_CATAPULT_ACTIVATION_MOMENT --> A_USE_ROPE_PULLEY_MECHANISM["A: Pull ROPE to release plank suddenly"]
+        A_USE_ROPE_PULLEY_MECHANISM --> O_SPUNKY_LAUNCHED_INTO_POOL["O: Spunky catapulted into pool with splash"]
+        
+        O_SPUNKY_LAUNCHED_INTO_POOL --> C3["C3: Blunt and Mrs. Piermont run to pool - club entrance clear"]
+    end
+    style area_6 fill:#E0F7FA,stroke:#00695C,stroke-width:3px
+
+    %% =============================================================================
+    %% ACT 7: Reactor LINCCard & Final Confrontation (area_7 - light amber)
+    %% =============================================================================
+    subgraph area_7["**ACT 7: POWER PLANT & FINALE**"]
+        direction TB
+        
+        C3 --> P_PROBLEM_REACTOR_ACCESS["P: Need LINCCard from reactor zone for security terminal"]
+        
+        P_PROBLEM_REACTOR_ACCESS --> A_WEAR_RADIATION_SUIT["A: Wear radiation suit obtained from factory"]
+        A_WEAR_RADIATION_SUIT --> O_CAN_ENTER_RADIOACTIVE_ZONE["O: Can now survive reactor radiation"]
+        
+        O_CAN_ENTER_RADIOACTIVE_ZONE --> A_ENTER_REACTOR_ZONE["A: Enter highly radioactive reactor zone"]
+        A_ENTER_REACTOR_ZONE --> A_EXTRACT_LINCCARD_FROM_TERMINAL["A: Extract LINCCard from control terminal before suit fails"]
+        A_EXTRACT_LINCCARD_FROM_TERMINAL --> O_ACQUIRE_LINCCARD["O: Acquire LINCCard - key to security system"]
+        
+        O_ACQUIRE_LINCCARD --> P_PROBLEM_SECURITY_SYSTEM_UNLOCK["P: Security system locked - need LINCCard code"]
+        
+        P_PROBLEM_SECURITY_SYSTEM_UNLOCK --> A_INSERT_LINCCARD_IN_SECURITY_TERMINAL["A: Insert LINCCard into main security terminal"]
+        A_INSERT_LINCCARD_IN_SECURITY_TERMINAL --> O_SECURITY_DOORS_OPENED["O: All security doors opened - path to boss clear"]
+    end
+    style area_7 fill:#FFF8E1,stroke:#F9A825,stroke-width:3px
+
+    %% =============================================================================
+    %% CONVERGENCE: Power Plant Dual-Character Button Puzzle (area_8 - grey)
+    %% =============================================================================
+    subgraph area_8["**ACT 8: POWER PLANT & FINALE**"]
+        direction TB
+        
+        O_SECURITY_DOORS_OPENED --> P_PROBLEM_DUAL_BUTTON_PUZZLE["P: Steam valve blocks boss room - need dual button press"]
+        
+        P_PROBLEM_DUAL_BUTTON_PUZZLE --> A_PLAYER_STANDS_AT_BUTTON_A["A: Player stands at Button A"]
+        P_PROBLEM_DUAL_BUTTON_PUZZLE --> A_JOEY_STANDS_AT_BUTTON_B["A: Joey floats to Button B position"]
+        
+        A_PLAYER_STANDS_AT_BUTTON_A & A_JOEY_STANDS_AT_BUTTON_B --> C4["C4: Both characters in position"]
+        
+        C4 --> A_PRESS_BOTH_BUTTONS_SIMULTANEOUSLY["A: Press both buttons at same time"]
+        A_PRESS_BOTH_BUTTONS_SIMULTANEOUSLY --> O_VALVE_OVERLOADED["O: Steam valve overloaded - steam clears path"]
+        
+        O_VALVE_OVERLOADED --> A_ENTER_BOSS_ROOM["A: Enter final boss room with Dr. Hung"]
+        A_ENTER_BOSS_ROOM --> A_FINAL_CONFRONTATION_WITH_HUNG["A: Final confrontation and persuasion of antagonist"]
+        A_FINAL_CONFRONTATION_WITH_HUNG --> O_DR_HUNG_DEFEATED["O: Dr. Hung's evil plans defeated - Utopia freed from tyranny"]
+    end
+    style area_8 fill:#ECEFF1,stroke:#455A64,stroke-width:3px
+
+    %% =============================================================================
+    %% FINAL: Game Complete
+    %% =============================================================================
+    O_DR_HUNG_DEFEATED --> ROBERT_AND_JOEY_VICTORIOUS["**Robert Ford and Joey become heroes of Utopia**"]
+    ROBERT_AND_JOEY_VICTORIOUS --> END["**END GAME - All Objectives Completed**"]
