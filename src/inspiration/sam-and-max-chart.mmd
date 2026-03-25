@@ -1,0 +1,154 @@
+flowchart TD
+    node[fontsize=18]
+    START["**START**"] --> A_ROADTRIP_BUMPY_ESCAPE["A: Mr. Bumpy escapes, road trip begins across America"]
+
+    %% ACT 1: Carnival - Initial Setup + Toy Monkey
+    subgraph area_carnival["**CARNIVAL: Toy Acquisition**"]
+        direction TB
+        A_ROADTRIP_BUMPY_ESCAPE --> CARNIVAL_ENTRY["A: Enter carnival grounds"]
+        
+        CARNIVAL_ENTRY --> A_TRIKES_TRAILER_ACCESS["A: Visit Trixie's trailer for costume item"]
+        A_TRIKES_TRAILER_ACCESS --> O_ACQUIRE_BLUE_COSTUME["O: Get BLUE COSTUME base"]
+
+        CARNIVAL_ENTRY --> TOY_MONKEY_PURCHASE["A: Purchase toy monkey from carnival games"]
+        TOY_MONKEY_PURCHASE --> O_ACQUIRE_TOY_MONKEY["O: Acquire TOY MONKEY (glass eye)"]
+
+        %% Toy monkey needed later for Monkey Eye puzzle (future game reference)
+    end
+    style area_carnival fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+
+    %% ACT 2: Gator Golf Emporium - Flag Path Puzzle
+    subgraph area_golf["**GATOR GOLF: Crocodile Bridge Construction**"]
+        direction TB
+        CARNIVAL_ENTRY --> UNLOCK_GOLF_MAP["**UNLOCK: Travel to Gator Golf Emporium**"]
+
+        UNLOCK_GOLF_MAP --> A_PROSHOP_RETRIEVER["A: Collect broken golf ball retriever near Pro Shop"]
+        A_PROSHOP_RETRIEVER --> O_HAVE_RETRIEVER["O: RETRIEVER acquired"]
+
+        MAX_TRAPPED_TANK["P: Max trapped in Dunk the Beast tank"]
+        
+        A_FISH_FEED_CROCS["A: Use bucket of fish to lure crocodiles toward feeding position"]
+        MAX_TRAPPED_TANK --> A_FISH_FEED_CROCS
+
+        A_FISH_FEED_CROCS --> CROCS_AT_WATER["O: Crocodiles clustered at water edge"]
+
+        CROCS_AT_WATER --> A_GRAB_CLUB_NEAR_TANK["A: Golf club now accessible near Dunk the Beast tank"]
+        A_GRAB_CLUB_NEAR_TANK --> O_HAVE_GOLF_CLUB["O: GOLF CLUB acquired"]
+
+        %% Flag positioning puzzle - Multi-Faceted Plan
+        MAX_TRAPPED_TANK --> P_CREATE_CROC_BRIDGE["P: Need crocodile bridge path from Pro Shop to tank"]
+
+        P_CREATE_CROC_BRIDGE --> A_FLAG_1_SETUP["A: Set Flag 1 vertical (attraction) + horizontal (current pos)"]
+        A_FLAG_1_SETUP --> CROC_1_MOVES["O: Crocodile 1 moves to flag-1 position"]
+
+        CROC_1_MOVES --> A_FLAG_2_SETUP["A: Set Flag 2 for crocodile 2 movement"]
+        A_FLAG_2_SETUP --> CROC_2_MOVES["O: Crocodile 2 repositions"]
+
+        CROC_2_MOVES --> FLAG_CHAIN_CONTAINS["... repeat flag pattern for remaining crocodiles ..."]
+        FLAG_CHAIN_CONTAINS --> CROC_BRIDGE_COMPLETE["O: Complete zigzag crocodile bridge established"]
+
+        O_HAVE_GOLF_CLUB -.->|club used to swing flags| A_FLAG_1_SETUP
+
+        %% Synthesis: Walk across bridge
+        CROC_BRIDGE_COMPLETE & O_HAVE_GOLF_CLUB --> C1_CROC_PATH_READY["**C1: Crocodile Bridge Path Complete**"]
+
+        C1_CROC_PATH_READY --> A_WALK_ON_CROCS["A: Sam walks across crocodile backs following flag path"]
+        A_WALK_ON_CROCS --> REACH_DUNK_BEAST_TANK["O: Access Dunk the Beast tank island"]
+
+        %% Max gives sasquatch items
+        REACH_DUNK_BEAST_TANK --> A_OPEN_TANK_DOOR["A: Open glass door, free Max"]
+
+        A_OPEN_TANK_DOOR --> O_ACQUIRE_SASQUATCH_HAIR["O: Max gives SASQUATCH HAIR"]
+        A_OPEN_TANK_DOOR --> O_ACQUIRE_SNO_GLOBE["O: Retrieve SNO GLOBE from tank interior"]
+
+        O_ACQUIRE_SNO_GLOBE -.->|unlocks new location| UNLOCK_FROG_ROCK_MAP["**UNLOCK: Mystery Vortex + Frog Rock on map**"]
+    end
+    style area_golf fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    %% ACT 3: Dinosaur Tarpit Park - Tar Collection
+    subgraph area_tarpt["**DINOSAUR TARPIT: Tar + Mammoth Hair Gathering**"]
+        direction TB
+        UNLOCK_GOLF_MAP --> TARPIP_ENTRY["A: Reach Dinosaur Tarpit via map travel"]
+
+        TARPIP_ENTRY --> A_COLLECT_TAR_FROM_TARPIT["A: Use cup on golf retriever to scoop TAR from tarpit surface"]
+        A_COLLECT_TAR_FROM_TARPIT --> O_ACQUIRE_TAR["O: TAR acquired for disguise base texture"]
+
+        TARPIP_ENTRY --> MAMMOTH_ENCOUNTER["A: Encounter woolly mammoth at park enclosure"]
+
+        MAMMOTH_ENCOUNTER --> A_PULL_WOOLLY_HAIR["A: Pull WOOLLY MAMMOTH HAIR from beast's coat"]
+        A_PULL_WOOLLY_HAIR --> O_ACQUIRE_MAMMOTH_HAIR["O: Mammoth hair acquired for disguise bulk"]
+
+        C2_TARPIP_ITEMS["**C2: Dinosaur Park Items Gathered**"]
+        O_ACQUIRE_TAR & O_ACQUIRE_MAMMOTH_HAIR --> C2_TARPIP_ITEMS
+    end
+    style area_tarpt fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+
+    %% ACT 4: Bumpusville - VR Dragon Fight + Toupee
+    subgraph area_bumpus["**BUMPUSVILLE: Dragon Combat Timing + Costume Cap**"]
+        direction TB
+        UNLOCK_GOLF_MAP --> BUMPUS_ENTRY["A: Enter Bumpusville via road map"]
+
+        %% Conroy's toupee for disguise headpiece
+        BUMPUS_ENTRY --> CONROYS_LODGING["A: Find Conroy Bumpus wearing distinctive toupee"]
+
+        CONROYS_LODGING --> A_SWAP_TOUPEE_CONROYS["A: Swap toupees with Conroy when distracted"]
+        A_SWAP_TOUPEE_CONROYS --> O_ACQUIRE_TOUPEE["O: TUPEE acquired (disguise headpiece)"]
+
+        %% VR Dragon - Timing-based combat
+        BUMPUS_ENTRY --> VR_DUNGEON_ACCESS["A: Enter VR arcade dungeon game"]
+
+        VR_DUNGEON_ACCESS --> P_DRAGON_COMBAT_TIMING["P: Defeat dragon in timing-based fight"]
+
+        P_DRAGON_COMBAT_TIMING --> A_WATCH_MOUTH_CYCLE["A: Observe dragon mouth opening/closing pattern"]
+        A_WATCH_MOUTH_CYCLE --> MOUTH_OPEN_PATTERN["O: Mouth opens at predictable intervals"]
+
+        MOUTH_OPEN_PATTERN --> A_WAIT_FOR_BEST_FRAME["A: Wait for mouth fully extended open phase"]
+        A_WAIT_FOR_BEST_FRAME --> A_STRIKE_DURRING_SWALLOW["A: Strike mid-body (not head) during swallow window"]
+
+        A_STRIKE_DURRING_SWALLOW --> O_DRAGON_DEFEATED_VR["O: Dragon defeated in VR simulation"]
+
+        O_DRAGON_DEFEATED_VR -.->|game victory reward| VICTORY_ITEMS_BUMPUS["O: Obtain reward items needed for finale"]
+    end
+    style area_bumpus fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    %% ACT 5: Savage Jungle Inn - Bigfoot Disguise Synthesis FINALE
+    subgraph Area_savage_jungle["**SAVAGE JUNGLE INN: Bigfoot Disguise Meta-Construction**"]
+        direction TB
+        UNLOCK_FROG_ROCK_MAP --> UNLOCK_SAUSAGE_JUNGLE["**UNLOCK: Savage Jungle Inn accessible**"]
+
+        UNLOCK_SAUSAGE_JUNGLE --> P_BIGFOOT_GUARD_BLOCKADE["P: Bigfoot receptionist blocks inner hall access"]
+
+        P_BIGFOOT_GUARD_BLOCKADE --> C3_ALL_COSTUME_COMPONENTS_READY["**C3: All Costume Components Now Available**"]
+
+        %% Show where each piece came from
+        BLUE_COSTUME_FROM_CARNIVAL["BLUE COSTUME (Trixie's trailer, Carnival)"]
+        TAR_FROM_TARPIT["TAR (golf retriever cup, Dinosaur Tarpit)"]
+        MAMMOTH_HAIR_FROM_PARK["WOOLLY HAIR (mammoth encounter, Dinosaur Park)"]
+        TOUPEE_FROM_BUMPUS["TOUPEE (Conroy swap, Bumpusville)"]
+
+        BLUE_COSTUME_FROM_CARNIVAL & TAR_FROM_TARPIT & MAMMOTH_HAIR_FROM_PARK & TOUPEE_FROM_BUMPUS --> C3_ALL_COSTUME_COMPONENTS_READY
+        
+        O_ACQUIRE_BLUE_COSTOME -.->|base canvas| C3_ALL_COSTUME_COMPONENTS_READY
+        O_ACQUIRE_TAR -.->|texture base| C3_ALL_COSTUME_COMPONENTS_READY
+        O_ACQUIRE_MAMMOTHHAIR -.->|bulk layer| C3_ALL_COSTUME_COMPONENTS_READY
+        O_ACQUIRE_TOUPEE -.->|headpiece| C3_ALL_COSTUME_COMPONENTS_READY
+
+        %% Construction sequence (Meta-Puzzle Construction)
+        C3_ALL_COSTUME_COMPONENTS_READY --> A_COMBINE_TAR_WITH_HAIR["A: Combine tar + mammoth hair = bulk texture material"]
+
+        A_COMBINE_TAR_WITH_HAIR --> A_ATTACH_TO_BLUE_BASE["A: Apply tar+hair mixture to blue costume base"]
+
+        A_ATTACH_TO_BLUE_BASE --> A_ADD_TOUPEE_HEADPIECE["A: Attach toupee as headpiece to complete disguise"]
+
+        A_ADD_TOUPEE_HEADPIECE --> DISGUISRE_COMPLETE["O: WOOLLY BIGFOOT COSTUME fully assembled"]
+
+        DISGUISRE_COMPLETE --> A_WEAR_DISGUISE_PASS_GUARD["A: Wear costume, approach reception checkpoint"]
+
+        A_WEAR_DISGUISSE_PASS_GUARD --> GUARD_ACCEPTS_BIGFOOTS["O: Bigfoot guard accepts party as legitimate patrons"]
+
+        GUARD_ACCEPTS_BICGOOTS --> UNLOCK_INNER_HALL_FINALE["**UNLOCK: Inner hall accessible - game finale puzzles**"]
+    end
+    style area_savage_jungle fill:#FCE4EC,stroke:#C2185B,stroke-width:3px
+
+    %% FINAL OUTCOME
+    UNLOCK_INNER_HALL_FINALE --> END["**END GAME - Bumpy Captured, Road Trip Complete**"]

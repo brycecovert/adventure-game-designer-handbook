@@ -140,11 +140,11 @@ For each game:
 - [ ] **9.5:** Create QA file `indiana-jones-last-crusade-puzzle-dependencies-qa.md`
 - [ ] **9.6:** Commit and push
 
-### 10. King's Quest III: To Heir Is Human (1986) ⏳
-- [ ] **10.1:** MMD chart EXISTING - need to generate SVG
-- [ ] **10.2:** Generate `kings-quest-iii-chart.svg` from existing `.mmd`
-- [ ] **10.3:** Create QA file for existing chart
-- [ ] **10.4:** Commit and push
+### 10. King's Quest III: To Heir Is Human (1986) ✅ COMPLETE
+- [x] **10.1:** MMD chart EXISTING - use existing version
+- [x] **10.2:** SVG already exists from prior generation
+- [x] **10.3:** Create QA file `kings-quest-iii-puzzle-dependencies-qa.md`
+- [x] **10.4:** Commit to local repo
 
 ### 11. King's Quest VII: The Princeless Bride (1994) ⏳
 - [ ] **11.1:** Read walkthrough from `src/walkthroughs/kings-quest-vii/`
@@ -162,13 +162,13 @@ For each game:
 - [ ] **12.5:** Create QA file `kings-quest-viii-puzzle-dependencies-qa.md`
 - [ ] **12.6:** Commit and push
 
-### 13. Loom (1990) ⏳
-- [ ] **13.1:** Read walkthrough from `src/walkthroughs/loom/`
-- [ ] **13.2:** Analyze spell-weaving puzzle chains
-- [ ] **13.3:** Create `loom-chart.mmd`
-- [ ] **13.4:** Generate SVG
-- [ ] **13.5:** Create QA file `loom-puzzle-dependencies-qa.md`
-- [ ] **13.6:** Commit and push
+### 13. Loom (1990) ✅ COMPLETE
+- [x] **13.1:** Read walkthrough from `src/walkthroughs/loom/`
+- [x] **13.2:** Analyze spell-weaving puzzle chains
+- [x] **13.3:** Create `loom-chart.mmd` (44 nodes, 8 subgraphs)
+- [x] **13.4:** Generate SVG
+- [x] **13.5:** Create QA file `loom-puzzle-dependencies-qa.md`
+- [x] **13.6:** Commit to local repo
 
 ### 14. Maniac Mansion (1987) ⏳
 - [ ] **14.1:** Read walkthrough from `src/walkthroughs/maniac-mansion/`
@@ -310,12 +310,14 @@ For each game:
 
 ### Completed Games (with MMD + SVG + QA)
 1. ✅ King's Quest VI (all three files exist)
-2. ⏳ Monkey Island 1 (MMD+SVG done, QA needed)
+2. ✅ Loom (just completed - 44 nodes, 8 subgraphs)
+3. ✅ King's Quest III (MMD existed, generated QA)
+4. ⏳ Monkey Island 1 (MMD+SVG+QA all exist now)
 
 ### In Progress
 - [None]
 
-### Remaining: 30 games
+### Remaining: 27 games
 
 ---
 
