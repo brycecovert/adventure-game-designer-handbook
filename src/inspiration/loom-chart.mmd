@@ -1,0 +1,177 @@
+flowchart TD
+    %% =============================================================================
+    %% FONT SIZE & CONFIGURATION
+    %% =============================================================================
+    node[fontsize=18]
+    START["**START**"] --> A_EXAMINE_EGG["A: Examine swan egg on mountaintop"]
+    
+    %% =============================================================================
+    %% ACT 1: Island of Beginnings - Learning the Drafts (area_1 - light blue)
+    %% =============================================================================
+    subgraph area_1["**ACT 1: ISLAND OF BEGINNINGS**"]
+        direction TB
+        
+        A_EXAMINE_EGG --> O_LEARN_OPEN_DRAFT["O: Learn OPEN draft from egg"]
+        O_LEARN_OPEN_DRAFT --> A_CAST_OPEN_ON_EGG["A: Cast OPEN on the swan egg"]
+        A_CAST_OPEN_ON_EGG --> O_SWAN_HATCHES["O: Swan hatches from egg"]
+        
+        O_SWAN_HATCHES --> A_FOLLOW_SWANS["A: Follow swans to mother's gravestone"]
+        A_FOLLOW_SWANS --> A_READ_GRAVESTONE_RIDDLE["A: Read riddle on gravestone"]
+        A_READ_GRAVESTONE_RIDDLE --> O_GET_CLUE_ABOUT_TREE["O: Learn 'sky is opened, tree split asunder'"]
+        
+        A_READ_GRAVESTONE_RIDDLE --> A_EXAMINE_GRAVESTONE_TREES["A: Examine carved trees on gravestone"]
+        A_EXAMINE_GRAVESTONE_TREES --> O_LEARN_LIGHT_DRAFT["O: Learn LIGHT draft from carved trees"]
+    end
+    style area_1 fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+
+    %% =============================================================================
+    %% ACT 2: The Boat Journey (area_2 - light green)
+    %% =============================================================================
+    subgraph area_2["**ACT 2: BUILDING THE BOAT**"]
+        direction TB
+        
+        O_GET_CLUE_ABOUT_TREE --> A_RETURN_TO_MOUNTAINTOP["A: Return to mountaintop where game began"]
+        A_RETURN_TO_MOUNTAINTOP --> A_CAST_OPEN_ON_SKY["A: Cast OPEN draft on the sky/stars"]
+        A_CAST_OPEN_ON_SKY --> O_LIGHTNING_STRIKES_TREE["O: Lightning strikes branched tree, splitting it"]
+        
+        O_LIGHTNING_STRIKES_TREE --> A_GO_TO_DOCK["A: Go to water's edge/dock area"]
+        A_GO_TO_DOCK --> O_TREE_BECAME_BOAT["O: Fallen tree has become a boat in water"]
+        
+        O_TREE_BECAME_BOAT --> A_ENTER_WATER_WITH_BOAT["A: Enter water and board tree-boat"]
+        A_ENTER_WATER_WITH_BOAT --> O_SAIL_ACROSS_OCEAN["O: Sail across ocean following swan flock"]
+    end
+    style area_2 fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+
+    %% =============================================================================
+    %% ACT 3: Sheep Field - Learning Dye & Vision (area_3 - light purple)
+    %% =============================================================================
+    subgraph area_3["**ACT 3: THE SHEPHERDS' FIELD**"]
+        direction TB
+        
+        O_SAIL_ACROSS_OCEAN --> UNLOCK_SHORPE["**UNLOCK: SHORPE LAND ARRIVAL**"]
+        
+        UNLOCK_SHORPE --> A_MEET_HETCHEL["A: Meet Hetchel the shepherd in his tent"]
+        A_MEET_HETCHEL --> A_EXAMINE_YARN_SKEINS["A: Examine colored yarn skeins in tent"]
+        A_EXAMINE_YARN_SKEINS --> O_LEARN_DYE_DRAFT["O: Learn DYE draft from yarn"]
+        
+        A_MEET_HETCHEL --> A_WALK_TO_FIELD["A: Walk to sheep grazing field"]
+        A_WALK_TO_FIELD --> A_SEE_THOUSAND_ARMED_MEN["A: See thousand-armed men watching shepherds"]
+        A_SEE_THOUSAND_ARMED_MEN --> O_SHEPHERDS_SCARED["O: Shepherds frightened, running away"]
+        
+        O_SHEPHERDS_SCARED --> A_RETURN_TO_HETCHEL_TENT["A: Return to Hetchel's tent after shepherds flee"]
+        A_RETURN_TO_HETCHEL_TENT --> A_USE_LIGHT_IN_DARK_TENT["A: Cast LIGHT on dark tent interior"]
+        A_USE_LIGHT_IN_DARK_TENT --> O_REVEAL_SPINNING_WHEEL["O: Spinning wheel revealed in darkness"]
+        
+        O_REVEAL_SPINNING_WHEEL --> A_EXAMINE_SPINNING_WHEEL["A: Examine spinning wheel mechanism"]
+        A_EXAMINE_SPINNING_WHEEL --> O_LEARN_HEAL_DRAFT["O: Learn HEAL draft from spinning wheel"]
+    end
+    style area_3 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    %% =============================================================================
+    %% ACT 4: Freeing Bobbin via Sheep Camouflage (area_4 - light orange)
+    %% =============================================================================
+    subgraph area_4["**ACT 4: THE DRAGON CAPTURE**"]
+        direction TB
+        
+        O_LEARN_HEAL_DRAFT --> A_RETURN_TO_FIELD_AGAIN["A: Return to empty shepherds' field"]
+        A_RETURN_TO_FIELD_AGain --> A_CAST_DYE_ON_SHEEP["A: Cast DYE on the white sheep"]
+        A_CAST_DYE_ON_SHEEP --> O_SHEEP_TURN_GREEN["O: Sheep turn green, blending with grass"]
+        
+        O_SHEEP_TURN_GREEN --> A_WAIT_FOR_DRAGON["A: Wait for dragon to arrive seeking prey"]
+        A_WAIT_FOR_DRAGON --> O_DRAGON_ARRIVES["O: Dragon swoops down, cannot see green sheep"]
+        
+        O_DRAGON_ARRIVES --> O_DRAGON_TAKES_BOBBIN["O: Dragon mistakes Bobbin for sheep, carries him away"]
+        O_DRAGON_TAKES_BOBBIN --> UNLOCK_DRAGON_CAVE["**UNLOCK: DRAGON'S CAVE ACCESS**"]
+    end
+    style area_4 fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    %% =============================================================================
+    %% ACT 5: Dragon Cave & Learning Wake (area_5 - pink)
+    %% =============================================================================
+    subgraph area_5["**ACT 5: DRAGON'S CAVE**"]
+        direction TB
+        
+        UNLOCK_DRAGON_CAVE --> A_EXPLORE_DRAGON_CAVE["A: Explore dragon's cave interior"]
+        A_EXPLORE_DRAGON_CAVE --> A_EXAMINE_SHEET_ON_BED["A: Examine crumpled sheet on bed"]
+        A_EXAMINE_SHEET_ON_BED --> O_LEARN_WAKE_DRAFT["O: Learn WAKE draft from rumpled sheets"]
+        
+        O_LEARN_WAKE_DRAFT --> A_USE_REVERSE_WAKE_ON_DRAGON["A: Use reverse WAKE (SLEEP) on sleeping dragon"]
+        A_USE_REVERSE_WAKE_ON_DRAGON --> O_DRAGON_DEEP_SLEEP["O: Dragon falls into deeper sleep"]
+        
+        O_DRAGON_DEEP_SLEEP --> A_EXAMINE_FIRE_BEHIND_DRAGON["A: Examine fire behind sleeping dragon"]
+        A_EXAMINE_FIRE_BEHIND_DRAGON --> O_REVEAL_HIDDEN_TUNNEL["O: Fire reveals hidden tunnel entrance behind"]
+    end
+    style area_5 fill:#FCE4EC,stroke:#C2185B,stroke-width:3px
+
+    %% =============================================================================
+    %% ACT 6: Green Tower - Appear & Scythe (area_6 - light cyan)
+    %% =============================================================================
+    subgraph area_6["**ACT 6: THE GREEN CITY & TOWER**"]
+        direction TB
+        
+        O_REVEAL_HIDDEN_TUNNEL --> A_TRAVERSE_TUNNEL["A: Traverse hidden tunnel to new area"]
+        A_TRAVERSE_TUNNEL --> UNLOCK_GREEN_CITY["**UNLOCK: GREEN CITY ARRIVAL**"]
+        
+        UNLOCK_GREEN_CITY --> A_SEE_WORKERS_IN_TOWER["A: See workers at top of tall green tower"]
+        A_SEE_WORKERS_IN_TOWER --> A_CAST_APPEAR_ON_WORKERS["A: Cast APPEAR draft on workers (not Bobbin)"]
+        A_CAST_APPEAR_ON_WORKERS --> O_WORKERS_UNABLE_TO_SEE_BOBBIN["O: Workers become unable to see Bobbin"]
+        
+        O_WORKERS_UNABLE_TO_SEE_BOBBIN --> A_ENTER_TOWER_UNDETECTED["A: Enter tower undetected by guards"]
+        A_ENTER_TOWER_UNDETECTED --> A_REACH_UPPER_LEVELS["A: Reach upper levels of green tower"]
+        
+        A_REACH_UPPER_LEVELS --> A_EXAMINE_SCYTHE["A: Examine scythe on wall"]
+        A_EXAMINE_SCYTHE --> O_LEARN_SHARPEN_DRAFT["O: Learn SHARPEN draft from scythe"]
+        
+        A_REACH_UPPER_LEVELS --> A_EXAMINE_CRYSTAL_SPHERE["A: Examine crystal sphere on pedestal"]
+        A_EXAMINE_CRYSTAL_SPHERE --> O_LEARN_VISION_DRAFT["O: Learn VISION draft from sphere"]
+    end
+    style area_6 fill:#E0F7FA,stroke:#00695C,stroke-width:3px
+
+    %% =============================================================================
+    %% ACT 7: Pool Puzzles & Swans (area_7 - light amber)
+    %% =============================================================================
+    subgraph area_7["**ACT 7: THE POOL MAZE**"]
+        direction TB
+        
+        O_LEARN_VISION_DRAFT --> A_LEAVE_TOWER_EXPLORATION["A: Leave tower, explore surrounding areas"]
+        A_LEAVE_TOWER_EXPLORATION --> A_FIND_MAZE_POOL["A: Find ornamental pool in maze garden"]
+        A_FIND_MAZE_POOL --> A_CAST_EMPTY_ON_POOL["A: Cast EMPTY draft on the water"]
+        A_CAST_EMPTY_ON_POOL --> O_SECOND_SPHERE_REVEALED["O: Second sphere revealed at pool bottom"]
+        
+        O_SECOND_SPHERE_REVEALED --> A_USE_VISION_ON_SECOND_SPHERE["A: Use VISION on the second sphere"]
+        A_USE_VISION_ON_SECOND_SPHERE --> O_LEARN_HUMAN_TO_SWAN_DRAFT["O: Learn HUMAN-TO-SWAN transformation draft"]
+    end
+    style area_7 fill:#FFF8E1,stroke:#F9A825,stroke-width:3px
+
+    %% =============================================================================
+    %% GATEWAY: Major Drafts Collected - Journey Continues
+    %% =============================================================================
+    O_LEARN_HUMAN_TO_SWAN_DRAFT --> C_ALL_MAJOR_DRAFTS_LEARNED["**C: All Major Drafts Now Learned**"]
+    
+    C_ALL_MAJOR_DRAFTS_LEARNED --> UNLOCK_FINAL_ACT["**UNLOCK: FINAL ACT - LOOM MACHINE**"]
+
+    %% =============================================================================
+    %% ACT 8: The Loom Machine (area_8 - light grey)
+    %% =============================================================================
+    subgraph area_8["**ACT 8: THE LOOM MACHINE**"]
+        direction TB
+        
+        UNLOCK_FINAL_ACT --> A_REACH_THE_LOOM["A: Reach the great Loom machine guarding reality"]
+        A_REACH_THE_LOOM --> A_EXAMINE_LOOM_COMPONENTS["A: Examine various Loom components and mechanisms"]
+        
+        A_EXAMINE_LOOM_COMPONENTS --> O_LEARN_SILENCE_DRAFT["O: Learn SILENCE draft from Loom parts"]
+        A_EXAMINE_LOOM_COMPONENTS --> O_LEARN_ROAST_DRAFT["O: Learn ROAST draft from Loom heater"]
+        A_EXAMINE_LOOM_COMPONENTS --> O_LEARN_RIFT_DRAFT["O: Learn RIFT draft from Loom rifts"]
+    end
+    style area_8 fill:#ECEFF1,stroke:#455A64,stroke-width:3px
+
+    %% =============================================================================
+    %% FINAL CONVERGENCE: Defeating Chaos
+    %% =============================================================================
+    O_LEARN_SILENCE_DRAFT & O_LEARN_ROAST_DRAFT & O_LEARN_RIFT_DRAFT --> C_FINAL_DRAFTS_COMPLETE["**C: Final Confrontation Drafts Ready**"]
+    
+    C_FINAL_DRAFTS_COMPLETE --> A_DEFEAT_CHAOS_WITH_LOOM["A: Use learned drafts on Chaos, the final antagonist"]
+    A_DEFEOAT_CHAOS_WITH_LOOM --> O_LOOM_RESTORED["O: Loom machine restored, reality healed"]
+    
+    O_LOOM_RESTORED --> BOBBIN_BECOMES_MASTER_WEAVER["**Bobbin becomes Master Weaver**"]
+    BOBBIN_BECOMES_MASTER_WEAVER --> END["**END GAME - All Drafts Mastered**"]
