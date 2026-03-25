@@ -1,0 +1,189 @@
+flowchart TD
+    %% =============================================================================
+    %% FONT SIZE & CONFIGURATION
+    %% =============================================================================
+    node[fontsize=18]
+    START["**START**"] --> A_MEET_NICO_PARIS["A: Meet Nico in Paris Metro"]
+
+    %% =============================================================================
+    %% PARIS MUSEUM - Initial Investigation (area_1 - light blue)
+    %% =============================================================================
+    subgraph area_1["**PARIS MUSEUM**"]
+        A_MEET_NICO_PARIS --> C1["C1: Discover Stolen Chalices"]
+        
+        C1 --> P_MUSEUM_ACCESS["P: Need Museum After-Hours Access"]
+        C1 --> P_TOTEM_POLE["P: Totem Pole Blocks View"]
+        C1 --> P_SARCOPHAGUS["P: Need to Hide Until Night"]
+        
+        P_MUSEUM_ACCESS --> A_VISIT_MANAGER["A: Visit Museum Manager Daytime"]
+        A_VISIT_MANAGER --> O_RECEIVE_KEYS["O: Receive Key Access"]
+        
+        P_TOTEM_POLE --> A_PUSH_TOTEM["A: Push Totem Pole Aside"]
+        A_PUSH_TOTEM --> O_VIEW_UNBLOCKED["O: Guard View Blocked"]
+        
+        P_SARCOPHAGUS --> A_ENTER_SARCOPHAGUS["A: Climb into Sarcophagus"]
+        A_ENTER_SARCOPHAGUS --> O_HIDDEN_SUCCESSFULLY["O: Hidden from Guards"]
+        
+        O_RECEIVE_KEYS & O_VIEW_UNBLOCKED & O_HIDDEN_SUCCESSFULLY --> P_TRIPOD["P: Cat Burglar Needs Tripod"]
+        P_TRIPOD --> A_WAIT_FOR_BURGLAR["A: Wait for Cat Burglar"]
+        A_WAIT_FOR_BURGLAR --> O_TRIPOD_STOLEN["O: Tripod Stolen by Burglar"]
+    end
+    style area_1 fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+
+    %% =============================================================================
+    %% LOCHMARNE CASTLE - Goat & Plaster Cast (area_2 - light orange)
+    %% =============================================================================
+    subgraph area_2["**LOCHMARNE CASTLE**"]
+        O_TRIPOD_STOLEN --> C2["C2: Visit Lochmarne Castle"]
+        
+        C2 --> P_GOAT_BLOCKER["P: Guard Goat Blocks Tomb Entry"]
+        
+        P_GOAT_BLOCKER --> A_OBSERVE_GOAT["A: Observe Goat Patrol Pattern"]
+        A_OBSERVE_GOAT --> O_UNDERSTAND_PATTERN["O: Understand Attack Trigger"]
+        
+        O_UNDERSTAND_PATTERN --> A_WAIT_FEEDING["A: Wait for Goat at Feeder"]
+        A_WAIT_FEEDING --> O_GOAT_VULNERABLE["O: Goat in Trap Position"]
+        
+        O_GOAT_VULNERABLE --> A_ROLL_AXLE["A: Roll Axle Under Support Beam"]
+        A_ROLL_AXLE --> O_GOAT_TRAPPED["O: Goat Legs Crushed"]
+        O_GOAT_TRAPPED --> C3["C3: Access Underground Tomb"]
+        
+        C3 --> P_FIVE_HOLES["P: Five Key-Shaped Holes in Ground"]
+        P_FIVE_HOLES --> A_FIND_PLASTER["A: Find Plaster of Paris Bag"]
+        A_FIND_PLASTER --> O_RECEIVE_PLASTER["O: Receive Plaster Material"]
+        
+        O_RECEIVE_PLASTER --> A_POUR_INTO_HOLES["A: Pour Plaster into Holes"]
+        A_POUR_INTO_HOLES --> O_MOLD_READY["O: Plaster Mold in Hole"]
+        
+        O_MOLD_READY --> A_TRY_DRY_TOWEL["A: Try Dry Towel on Plaster"]
+        A_TRY_DRY_TOWEL --> O_NOT_WET_ENOUGH["O: Too Dry - Won't Set"]
+    end
+    style area_2 fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    %% =============================================================================
+    %% CROSS-LOCATION: Wet Towel Logistics (area_3 - light purple)
+    %% =============================================================================
+    subgraph area_3["**CROSS-LOCATION LOGISTICS**"]
+        O_NOT_WET_ENOUGH --> P_NEED_WATER["P: Need to Wet Towel"]
+        
+        P_NEED_WATER --> A_RETURN_TO_BAR["A: Return to MacDevitt's Bar"]
+        A_RETURN_TO_BAR --> A_GO_CELLAR["A: Go to Cellar Behind Bar"]
+        A_GO_CELLAR --> A_FIND_TAP["A: Find Water Tap in Cellar"]
+        A_FIND_TAP --> O_TAP_LOCATED["O: Tap Found"]
+        
+        O_TAP_LOCATED --> A_WET_TOWEL["A: Wet Towel Under Running Water"]
+        A_WET_TOWEL --> O_TOWEL_SATURATED["O: Towel Fully Saturated"]
+        
+        O_TOWEL_SATURATED --> A_RETURN_CASTLE["A: Return to Lochmarne Castle"]
+        A_RETURN_CASTLE --> A_APPLY_WET_TOWEL["A: Apply Wet Towel to Plaster"]
+        A_APPLY_WET_TOWEL --> O_KEY_SETS["O: Key Cast Hardens"]
+        
+        O_KEY_SETS --> A_PICK_CAST["A: Pick Up Key Replica"]
+        A_PICK_CAST --> O_RECEIVE_CAST_KEY["O: Receive Working Key Cast"]
+        
+        O_RECEIVE_CAST_KEY --> A_INSERT_KEY["A: Insert Cast into Door"]
+        A_INSERT_KEY --> C4["C4: Locked Door Opens"]
+    end
+    style area_3 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    %% =============================================================================
+    %% MONTFAUCON - Hotel Theft (area_4 - light blue)
+    %% =============================================================================
+    subgraph area_4["**MONTFAUCON HOTEL**"]
+        C4 --> P_MANUSCRIPT_STEAL["P: Steal Manuscript from Guest Room"]
+        
+        P_MANUSCRIPT_STEAL --> A_DROP_WINDOW["A: Drop Manuscript Out Window"]
+        A_DROP_WINDOW --> O_OUTSIDE_ROOM["O: Manuscript Outside"]
+        
+        O_OUTSIDE_ROOM --> A_EXIT_HOTEL["A: Exit Hotel Building"]
+        A_EXIT_HOTEL --> A_RETURN_ALLEY["A: Return via Alley Behind Building"]
+        A_RETURN_ALLEY --> O_GUARDS_MISS["O: Guards Miss Hidden Item"]
+        O_GUARDS_MISS --> C5["C5: Manuscript Secured"]
+    end
+    style area_4 fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+
+    %% =============================================================================
+    %% MONTFAUCON - Clown & Prison Escape (area_5 - light amber)
+    %% =============================================================================
+    subgraph area_5["**CLOWN DISTRACTION & PRISON**"]
+        C5 --> P_JUGGLER_BLOCK["P: Juggler Blocks Path"]
+        
+        P_JUGGLER_BLOCK --> A_FIND_RED_NOSE["A: Find Clown Red Nose in Sewer"]
+        A_FIND_RED_NOSE --> O_WEAR_NOSE["O: Wear Clown Nose"]
+        
+        O_WEAR_NOSE --> A_PERFORM_BADLY["A: Perform Bad Juggling"]
+        A_PERFORM_BADLY --> O_JUGGLER_LEFT["O: Juggler Leaves Disgusted"]
+        O_JUGGLER_LEFT --> C6["C6: Path Clear - Then Arrested"]
+        
+        C6 --> P_NEED_MONEY["P: Need $50 for Truck Escape"]
+        P_NEED_MONEY --> A_CLEAN_STATUE["A: Clean Antique Statue with Tissue"]
+        A_CLEAN_STATUE --> O_STATUE_VALUABLE["O: Statue Now Sellable"]
+        
+        O_STATUE_VALUABLE --> A_SELL_DUANE["A: Sell to American Collector Duane"]
+        A_SELL_DUANE --> O_RECEIVE_50["O: Receive Fifty Dollars"]
+        O_RECEIVE_50 --> C7["C7: Can Pay Truck Driver"]
+    end
+    style area_5 fill:#FFF8E1,stroke:#F9A825,stroke-width:3px
+
+    %% =============================================================================
+    %% SITE DE BAPHOMET - Key Impression (area_6 - light orange)  
+    %% =============================================================================
+    subgraph area_6["**SITE DE BAPHOMET**"]
+        C7 --> P_GUARD_KEY["P: Guard Holds Secret Chamber Key"]
+        
+        P_GUARD_KEY --> A_OBSERVE_SOAP["A: Observe Keys on Soap Bar"]
+        A_OBSERVE_SOAP --> O_KEY_IMPRINT["O: Press Keys into Soft Soap"]
+        
+        O_KEY_IMPRINT --> A_PLASTER_MOLD["A: Apply Plaster to Capture Shape"]
+        A_PLASTER_MOLD --> O_COPY_MADE["O: Fake Key Ready"]
+        
+        O_COPY_MADE --> A_WET_FAKE_KEY["A: Wet Fake Key Under Tap"]
+        A_WET_FAKE_KEY --> O_KEY_FORMED["O: Copy Key Solid"]
+        
+        P_GUARD_KEY --> A_CALL_NICO["A: Call Nico for Distraction"]
+        A_CALL_NICO --> O_PAINTER_BUSY["O: Painter Distracted"]
+        
+        O_KEY_FORMED & O_PAINTER_BUSY --> A_PAINT_BLACK["A: Paint Fake Key Black"]
+        A_PAINT_BLACK --> O_DECOY_READY["O: Decoy Indistinguishable"]
+        
+        P_GUARD_KEY --> A_STUDY_THERMOSTAT["A: Study Thermostat Control"]
+        A_STUDY_THERMOSTAT --> O_HEAT_MECHANIC["O: Understand Glove Pattern"]
+        
+        O_HEAT_MECHANIC --> A_INCREASE_HEAT["A: Increase Thermostat Heat"]
+        A_INCREASE_HEAT --> O_GUARD_GLOVED["O: Guard Wears Gloves Now"]
+        
+        O_DECOY_READY & O_GUARD_GLOVED --> A_SWAP_KEYS["A: Swap Fake for Real Key"]
+        A_SWAP_KEYS --> O_REAL_KEY_OBTAINED["O: Have Secret Chamber Key"]
+        O_REAL_KEY_OBTAINED --> C8["C8: Secret Chamber Unlocked"]
+    end
+    style area_6 fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    %% =============================================================================
+    %% SECRET CHAMBER - Chalice (area_7 - light green)
+    %% =============================================================================
+    subgraph area_7["**SECRET CHAMBER**"]
+        C8 --> P_CHALICE["P: Need Complete Chalice"]
+        
+        P_CHALICE --> A_PLACE_ON_MOSAIC["A: Place Upper Chalice on Mosaic"]
+        A_PLACE_ON_MOSAIC --> O_VISION_RECEIVED["O: Receive Vision Sequence"]
+        
+        P_CHALICE --> A_SOLVE_CHESS["A: Solve Chess Tapestry Puzzle"]
+        A_SOLVE_CHESS --> O_COUNT_LIGHTS["O: Count Menorah Candle Lights"]
+        O_COUNT_LIGHTS --> O_CODE_LEARNED["O: Bishop-Knight-King Pattern"]
+        
+        O_CODE_LEARNED --> A_ARRANGE_PIECES["A: Arrange Middle Column Pieces"]
+        A_ARRANGE_PIECES --> O_TAPESTRY_OPEN["O: Hidden Compartment Opens"]
+        
+        O_VISION_RECEIVED & O_TAPESTRY_OPEN --> C9["C9: Full Chalice Accessible"]
+        
+        C9 --> A_TAKE_FULL_CHALICE["A: Take Complete Templar Chalice"]
+        A_TAKE_FULL_CHALICE --> END["**END - Escape to Spain Train**"]
+    end
+    style area_7 fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+
+    %% =============================================================================
+    %% CLASS DEFINITIONS
+    %% =============================================================================
+    classDef start_end fill:#FFD700,stroke:#996600,stroke-width:3px,color:#000000,font-weight:bold
+    
+    class START,END,C1,C2,C3,C4,C5,C6,C7,C8,C9 start_end

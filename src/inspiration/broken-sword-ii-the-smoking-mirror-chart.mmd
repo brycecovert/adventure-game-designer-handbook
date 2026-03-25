@@ -1,0 +1,194 @@
+flowchart TD
+    %% =============================================================================
+    %% FONT SIZE & CONFIGURATION
+    %% =============================================================================
+    node[fontsize=18]
+    START["**START**"] --> A_WOKE_UP["A: Wake Up on Caribbean Beach"]
+
+    %% =============================================================================
+    %% CARIBEAN - Initial Investigation (area_1 - light blue)
+    %% =============================================================================
+    subgraph area_1["**CARIBBEAN ISLES**"]
+        A_WOKE_UP --> C1["C1: Discover Island Life"]
+        
+        C1 --> P_MEET_GEORGE["P: Meet George on Beach"]
+        C1 --> P_BRONSON_CONFRONT["P: Bronson Steals Map Piece"]
+        
+        P_MEET_GEORGE --> A_TALK_GEORGE["A: Talk to George Stobbart"]
+        A_TALK_GEORGE --> O_PARTNERSHIP_FORMED["O: George Joins Journey"]
+        
+        P_BRONSON_CONFRONT --> A_CHASE_BRONSON["A: Chase Bronson from Beach"]
+        A_CHASE_BRONSON --> O_MAP_LOST["O: Map Piece Stolen"]
+        
+        O_PARTNERSHIP_FORMED & O_MAP_LOST --> C2["C2: Set off for Ketch Landing"]
+    end
+    style area_1 fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+
+    %% =============================================================================
+    %% KECH LANDING - Surveyor & Zoo (area_2 - light orange)  
+    %% =============================================================================
+    subgraph area_2["**KETCH LANDING**"]
+        C2 --> P_Survey_MAP["P: Need Survey Map from Ketch Sisters"]
+        
+        P_Survey_MAP --> A_OBTAIN_BRONSON_PLANS["A: Steal Bronson's Hidden Plans"]
+        A_OBTAIN_BRONSON_PLANS --> O_HAVE_EVIDENCE["O: Have Bronson Trespass Proof"]
+        
+        O_HAVE_EVIDENCE --> A_SHOW_KETCH_SISTERS["A: Show Plans to Ketch Sisters"]
+        A_SHOW_KETCH_SISTERS --> O_RECEIVE_SURVEY_MAP["O: Receive Survey Map Copy"]
+        
+        O_RECEIVE_SURVEY_MAP --> C3["C3: Can Navigate Zombie Island"]
+        
+        C3 --> P_GET_THEODOLITE["P: Need Theodolite from Bronson's Beach Hideout"]
+        P_GET_THEODOLITE --> A_SEARCH_BEACH_CAVE["A: Search Bronson's Cave on Beach"]
+        A_SEARCH_BEACH_CAVE --> O_RECEIVE_THEODOLITE["O: Receive Surveyor Instrument"]
+    end
+    style area_2 fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    %% =============================================================================
+    %% ZOMBIE ISLAND - Multi-Step Alignment (area_3 - light purple)
+    %% =============================================================================
+    subgraph area_3["**ZOMBIE ISLAND**"]
+        C3 --> P_NAVIGATE_ISLAND["P: Navigate Maze-Like Island Pathways"]
+        
+        P_NAVIGATE_ISLAND --> A_MEET_WILD_BOAR["A: Encounter Wild Boar Blocking Path"]
+        A_MEET_WILD_BOAR --> O_BOAR_BLOCKADE["O: Cannot Pass Without Combat"]
+        
+        P_NAVIGATE_ISLAND --> A_FIND_REED_SWAAMP["A: Find Reed in Swamp Area"]
+        A_FIND_REED_SWAAMP --> O_HAVE_REED["O: Have Reed Shaft Item"]
+        
+        P_NAVIGATE_ISLAND --> A_POKE_LAIR_REED["A: Poke Creature Lair with Reed"]
+        A_POKE_LAIR_REED --> O_DART_OBTAINED["O: Reed Tip Bitten Off - Have Dart"]
+        
+        O_HAVE_REED & O_DART_OBTAINED --> A_COMBINE_HARPOON["A: Combine Reed + Dart = Harpoon"]
+        A_COMBINE_HARPOON --> O_HAVE_HARPOON["O: Have Working Harpoon Weapon"]
+        
+        O_HAVE_HARPOON --> A_SHOOT_BOAR["A: Fire Harpoon at Boar"]
+        A_SHOOT_BOAR --> O_BOAR_FLED["O: Boar Flees - Path Clear"]
+        
+        O_BOAR_FLED --> P_FIND_MARKER["P: Find Surveyor's Marker on Rock Needle"]
+        P_FIND_MARKER --> A_LOCATE_CREEPER_SITE["A: Locate Marker Under Creeper Veil"]
+        A_LOCATE_CREEPER_SITE --> O_MARKER_FOUND["O: Marker Visible Beneath Cover"]
+        
+        O_MARKER_FOUND --> A_NET_SENSOR_COMBINE["A: Combine Net + Sensor Items"]
+        A_NET_SENSOR_COMBINE --> O_RETRIEVAL_TOOL["O: Have Extraction Device"]
+        
+        O_RETRIEVAL_TOOL --> A_EXTRACT_MARKER["A: Extract Marker from Creeper"]
+        A_EXTRACT_MARKER --> O_MARKER_FREE["O: Marker Secured"]
+        
+        O_MARKER_FREE --> A_PLACE_ON_ROCK_NEEDLE["A: Place Marker on High Rock Needle"]
+        A_PLACE_ON_ROCK_NEEDLE --> O_ALIGNMENT_SET["O: Marker Now Visible from Summit"]
+    end
+    style area_3 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    %% =============================================================================
+    %% ZOMBIE ISLAND SUMMIT - Theodolite Vision (area_4 - light amber)
+    %% =============================================================================
+    subgraph area_4["**SUMMIT VISION**"]
+        O_ALIGNMENT_SET --> A_CLIMB_TO_SUMMIT["A: Climb to Island Summit Point"]
+        A_CLIMB_TO_SUMMIT --> C4["C4: Reach Summit Viewpoint"]
+        
+        C4 --> P_ALIGN_THEODOLITE["P: Align Theodolite for Vision"]
+        
+        P_ALIGN_THEODOLITE --> A_MOUNT_TRIPOD["A: Mount Theodolite on Summit Tripod"]
+        A_MOUNT_TRIPOD --> O_INSTRUMENT_READY["O: Theodolite Installed"]
+        
+        O_INSTRUMENT_READY --> A_SCAN_HORIZON["A: Look Through Scope - Scan East to West"]
+        A_SCAN_HORIZON --> O_SPARKLE_SEEN["O: Marker Sparkling Among Pillars"]
+        
+        O_SPARKLE_SEEN --> P_PINPOINT_PILLAR["P: Identify Correct Pillar Above Marker"]
+        P_PINPOINT_PILLAR --> A_EXAMINE_CORRECT_PILLAR["A: Examine Pillar Directly Above Marker Position"]
+        A_EXAMINE_CORRECT_PILLAR --> O_PATH_REVEALED["O: Hidden Path to North Shown"]
+        
+        O_PATH_REVEALED --> C5["C5: Eagle Stone Chamber Accessible"]
+        
+        C5 --> A_DESCEND_NORTH_PATH["A: Descend Newly Opened Northern Route"]
+        A_DESCEND_NORTH_PATH --> END["**END - Year 1 Complete**"]
+    end
+    style area_4 fill:#FFF8E1,stroke:#F9A825,stroke-width:3px
+
+    %% =============================================================================
+    %% LONDON UNDERGROUND - Nico's Storyline (area_5 - light cyan)
+    %% =============================================================================
+    subgraph area_5["**LONDON UNDERGROUND**"]
+        START --> NICO_START["NICO: Meet Nico at Museum"]
+        
+        NICO_START --> P_VENDING_COIN["P: Need Exact Change for Scale"]
+        
+        P_VENDING_COIN --> A_USE_HAIRPIN_SLOT["A: Use Hairpin in Vending Machine Slot"]
+        A_USE_HAIRPIN_SLOT --> O_PENNY_RETURND["O: Coin Returned from Stuck Jam"]
+        
+        O_PENNY_RETURND --> A_USE_SCALE["A: Place Penny on Weighing Scale"]
+        A_USE_SCALE --> O_WEIGHT_CARD["O: Receive Body Weight Printout Card"]
+        
+        O_WEIGHT_CARD --> P_CUPBOARD_ACCESS["P: Need to Open Locked Cupboard"]
+        
+        P_CUPBOARD_ACCESS --> A_GET_DAGGER_STORAGE["A: Get Dagger from Back Storage Cabinet"]
+        A_GET_DAGGER_STORAGE --> O_HAVE_DAGGER["O: Have Ancient Dagger Item"]
+        
+        O_HAVE_DAGGER & O_WEIGHT_CARD --> A_UNLOCK_PANEL["A: Use Weight Card in Panel Crack"]
+        A_UNLOCK_PANEL --> O_SIGNAL_ACCESS["O: Signal Lever Accessible"]
+        
+        O_SIGNAL_ACCESS --> A_PRESS_RED_BUTTON["A: Press Red Signal Button - Switch Tracks"]
+        A_PRESS_RED_BUTTON --> O_TRACKS_CHANGED["O: Train Can Now Board"]
+        
+        O_TRACKS_CHANGED --> NICO_END["NICO_END: Ride to Thames Docks"]
+    end
+    style area_5 fill:#E0F7FA,stroke:#00838F,stroke-width:3px
+
+    %% =============================================================================
+    %% MARSEILLES WAREHOUSE - Multi-Character (area_6 - light green)
+    %% =============================================================================
+    subgraph area_6["**MARSEILLES WAREHOUSE**"]
+        START --> GEORGE_NICO_TRAP["BOTH: Trapped in Secret Chamber"]
+        
+        GEORGE_NICO_TRAP --> P_STATUE_BLOCKER["P: Heavy Statue Blocks Exit Door"]
+        
+        P_STATUE_BLOCKER --> A_CHECK_PULLEY["A: Check Pulley System on Wall"]
+        A_CHECK_PULLEY --> O_OUT_OF_REACH["O: Cannot Reach Pulley Height"]
+        
+        P_STATUE_BLOCKER --> A_CHECK_PALLET["A: Check Pallet Carrier Under Statue"]
+        A_CHECK_PALLET --> O_PALLET_BLOCKED["O: Crates Block Carrier Movement"]
+        
+        P_STATUE_BLOCKER --> A_CHECK_ELEVATOR["A: Check Elevator Access"]
+        A_CHECK_ELEVATOR --> O_SENSOR_ACTIVE["O: Photoelectric Cell Closes Door Fast"]
+        
+        O_SENSOR_ACTIVE --> P_BYPASSSENSOR["P: Disable Safety Sensor"]
+        P_BYPASSSENSOR --> A_TAPE_PHOTOCELL["A: Tape Over Photoelectric Eye"]
+        A_TAPE_PHOTOCELL --> O_SENSOR_BLIND["O: Sensor Deactivated"]
+        
+        O_SENSOR_BLIND --> A_BLOCK_WITH_CRATE["A: Push Crate Against Elevator Door"]
+        A_BLOCK_WITH_CRATE --> O_DOOR_HOLDS["O: Door Stays Open Without Sensor"]
+        
+        O_DOOR_HOLDS --> A_RESTACK_CRATES["A: Move Small Crate to New Stack Position"]
+        A_RESTACK_CRATES --> A_CLEAR_PALLET_PATH["A: Push Large Crate Aside"]
+        A_CLEAR_PALLET_PATH --> O_PALLET_FREE["O: Carrier Path Clear Now"]
+        
+        O_PALLET_FREE & O_OUT_OF_REACH --> A_RAISE_STATUE_FIRST["A: Operate Pallet to Raise Statue Upward"]
+        A_RAISE_STATUE_FIRST --> O_STATUE_ELEVATED["O: Statue Now High Enough"]
+        
+        O_STATUE_ELEVATED --> A_WIND_ROPE_AROUND["A: Wind Rope Around Statue Base"]
+        A_WIND_ROPE_AROUND --> A_ATTACH_TO_PULLEY["A: Attach Free End to Pulley System"]
+        A_ATTACH_TO_PULLEY --> O_PULLEY_CONNECTED["O: Lifting Mechanism Ready"]
+        
+        O_PULLEY_CONNECTED & O_STATUE_ELEVATED --> A_LOWER_CARRIER_AGAIN["A: Lower Pallet Carrier Back Down"]
+        A_LOWER_CARRIER_AGAIN --> O_PATH_FOR_PUSH["O: Room to Push Statue Now"]
+        
+        O_PATH_FOR_PUSH --> A_PUSH_ALONE_FIRST["A: Try Pushing Statue Alone"]
+        A_PUSH_ALONE_FIRST --> O_TOO_HEAVY_SOLELY["O: Too Heavy for One Person"]
+        
+        O_TOO_HEAVY_SOLELY --> A_TALK_NICO_HELP["A: Talk to Nico - Request Assistance"]
+        A_TALK_NICO_HELP --> O_TWO_PLAYER_ANIMATION["O: Both Characters Push Together"]
+        
+        O_TWO_PLAYER_ANIMATION --> C6["C6: Statue Slides Through Doorway"]
+        
+        C6 --> A_USE_MANACALES_CABLE["A: Use Manacles on Overhead Cable to Slide Down"]
+        A_USE_MANACALES_CABLE --> GEORGE_NICO_END["BOTH_END: Escape to Next Location"]
+    end
+    style area_6 fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+
+    %% =============================================================================
+    %% CLASS DEFINITIONS
+    %% =============================================================================
+    classDef start_end fill:#FFD700,stroke:#996600,stroke-width:3px,color:#000000,font-weight:bold
+    
+    class START,C1,C2,C3,C4,C5,C6,NICO_START,NICO_END,GEORGE_NICO_TRAP,GEORGE_NICO_END,END start_end

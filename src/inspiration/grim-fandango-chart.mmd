@@ -1,0 +1,204 @@
+flowchart TD
+    node[fontsize=18]
+    START["**START**"] --> A_DOD_OFFICE["A: Start at DOD Office Year 1"]
+
+    subgraph area_1["**YEAR 1 - INITIAL TRAINING**"]
+        A_DOD_OFFICE --> C1["C1: Learn Soul Travel Basics"]
+
+        C1 --> P_TICKET_COUNTER["P: Practice with Ticket Counter"]
+        P_TICKET_COUNTER --> A_ISSUE_SAMPLE_TICKETS["A: Issue Sample Tickets to Practice Clients"]
+        A_ISSUE_SAMPLE_TICKETS --> O_COUNTING_SKILL["O: Learn Proper Ticket Counting System"]
+
+        C1 --> P_ELEVATOR_CODE["P: Memorize Elevator Floor Codes"]
+        P_ELEVATOR_CODE --> A_PRACTICE_FLOORS["A: Practice Reciting All Destination Codes"]
+        A_PRACTICE_FLOORS --> O_CODES_REMEMBERED["O: Know All Travel Destinations"]
+
+        C1 --> P_TOUR_PLANNING["P: Plan First Tour Route"]
+        P_TOUR_PLANNING --> A_MAP_ROAD_TO_DURAZNO["A: Map Out 4-Year Tour to Durazno"]
+        A_MAP_ROAD_TO_DURAZNO --> O_ROUTE_PLANNED["O: Four Year Journey Mapped Out"]
+    end
+    style area_1 fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+
+    subgraph area_2["**YEAR 1 - MAXIMINO CONNECTION**"]
+        O_ROUTE_PLANNED --> C2["C2: Meet Maximino and Meche"]
+
+        C2 --> P_GET_PIG_SKELETON["P: Retrieve Pig for Don's Office Decoration"]
+        P_GET_PIG_SKELETON --> A_VISIT_ANIMAL_SHOP["A: Visit Local Pet Cemetery Shop"]
+        A_VISIT_ANIMAL_SHOP --> O_BUY_PIG["O: Purchase Skeleton Pig"]
+
+        O_BUY_PIG --> A_DELIVER_TO_DON["A: Deliver Pig to Don's Office on 7th Floor"]
+        A_DELIVER_TO_DON --> O_DON_PLEASSED["O: Don Approves Work Ethic Display"]
+
+        C2 --> P_MEET_MAXIMINO["P: Meet Maximino at Cat Track Casino"]
+        P_MEET_MAXIMINO --> A_FOLLOW_TO_CATS["A: Follow Maximino to Hidden Cat Area"]
+        A_FOLLOW_TO_CATS --> O_MAXIMINO_FRIEND["O: Learn Maximino is Key Contact"]
+    end
+    style area_2 fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    subgraph area_3["**YEAR 1 - MECHE PROTEGE RELATIONSHIP**"]
+        O_MAXIMINO_FRIEND --> C3["C3: Meche Assigned as Manny's Protege"]
+
+        C3 --> P_MEches_DOLL["P: Get Meche Her Broken Doll Repaired"]
+        P_meche_DOLL --> A_FIND_TOY_STORE["A: Find Toy Store in Los Muertos"]
+        A_FIND_TOY_STORE --> O_BUY_REPLACEMENT["O: Buy Replacement Doll Head"]
+
+        O_BUY_REPLACEMENT --> A_GIVE_DOLL_TO_MECHES["A: Give Repaired Doll to Meche at DOD"]
+        A_GIVE_DOLL_TO_MECHES --> O_MEHE_TRUSTS["O: Meche Now Trusts Manny"]
+    end
+    style area_3 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    subgraph area_4["**YEAR 2 - RUBACAVA PREPARATION**"]
+        C3 --> A_DEPART_YEAR_2["A: Begin Year 2 Journey"]
+        A_DEPART_YEAR_2 --> C4["C4: Arrive at Rubacava Gateway Town"]
+
+        C4 --> P_FROSTBITE_PREVENTION["P: Prevent Frostbite on Snowy Path"]
+        P_FROSTBITE_PREVENTION --> A_FIND_WARM_CLOTHING["A: Find Warm Winter Gear at Camp"]
+        A_FIND_WARM_CLOTHING --> O_STAY_WARM["O: Safe Travel to Next Checkpoint"]
+
+        C4 --> P_PIGEON_NEST_VENT["P: Clear Pigeon Nest Blocking Sewer Vent"]
+        P_PIGEON_NEST_VENT --> A_GET_BREAD_DECoy["A: Obtain Bread Attraction Item"]
+        A_GET_BREAD_DECoy --> O_PIGEONS_FLED["O: Pigeons Move from Nest"]
+
+        O_PIGEONS_FLED --> A_ACCESS_SEWER["A: Access Sewer Vent to Next Area"]
+        A_ACCESS_SEWER --> C5["C5: Continue Journey Toward Bonetown"]
+    end
+    style area_4 fill:#FFF8E1,stroke:#F9A825,stroke-width:3px
+
+    subgraph area_5["**YEAR 2 - BUSY BEAVERS TRAP**"]
+        C5 --> P_BEATERS_GATE["P: Busy Beavers Block Path with Torch Patrols"]
+
+        P_BEATERS_GATE --> A_STUDY_PATTERN["A: Study Beaver Attack Pattern on Bridge"]
+        A_STUDY_PATTERN --> O_ONLY_SWIM_WHEN_LIT["O: Learn Rule - Doused Beavers Stay Submerged"]
+
+        O_ONLY_SWIM_WHEN_LIT --> A_PICK_UP_BONES["A: Collect Three Bone Projectiles from Pile"]
+        A_PICK_UP_BONES --> O_ARROWS_READY["O: Have Lure Items Ready"]
+
+        O_ARROWS_READY & O_ONLY_SWIM_WHEN_LIT --> A_THROW_FIRST_BONE["A: Throw First Bone Into Tar River Below Bridge"]
+        A_THROW_FIRST_BONE --> O_FIRST_BEAVER_DROPPED["O: First Beaver Chases Bone - Now in Tar"]
+
+        O_FIRST_BEAVER_DROPPED --> A_USE_EXTINGUISHER["A: Use Fire Extinguisher on Submerged Beaver"]
+        A_USE_EXTINGUISHER --> O_FIRST_DOUSED["O: First Beaver Permanently Trapped"]
+
+        O_FIRST_DOUSED --> A_THROW_SECOND_BONE["A: Repeat Process with Second Bone"]
+        A_THROW_SECOND_BONE --> A_DOUSE_SECOND["A: Extinguish Second Beaver in Tar"]
+        A_DOUSE_SECOND --> O_TWO_TRAPPED["O: Two Beavers Eliminated"]
+
+        O_TWO_TRAPPED --> A_THROW_THIRD_BONE["A: Throw Third Final Bone"]
+        A_THROW_THIRD_BONE --> A_DOUSE_THIRD["A: Extinguish Third Beaver Quickly"]
+        A_DOUSE_THIRD --> O_ALL_THREE_GONE["O: All Three Beavers Trapped in Tar"]
+
+        O_ALL_THREE_GONE --> A_USE_CELSO_KEY["A: Use Previously-Obtained Key to Open Gate Lock"]
+        A_USE_CELSO_KEY --> C6["C6: Busy Beaver Gate Opens - Path Clear"]
+    end
+    style area_5 fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+
+    subgraph area_6["**YEAR 2-3 - BONETOWN ARRIVAL**"]
+        C6 --> A_TRAVEL_BONETOWN["A: Continue Journey to Bonetown"]
+        A_TRAVEL_BONETOWN --> C7["C7: Arrive at Bonetown Gateway"]
+
+        C7 --> P_TRANSPORTATION_ISSUE["P: Need Valid Union Card for Ferry Travel"]
+        P_TRANSPORTATION_ISSUE --> O_CANT_JUST_BUY["O: Cannot Simply Purchase Membership Card"]
+
+        O_CANT_JUST_BUY --> P_MEET_CHARLIE["P: Meet Charlie at Roulette Room Counter"]
+        P_MEET_CHARLIE --> A_PERSUADE_CHARLIE["A: Persuade Charlie to Help with Special Request"]
+        A_PERSUADE_CHARLIE --> O_CHARLIE_AGREES["O: Charlie Will Print Custom Tickets and Documents"]
+    end
+    style area_6 fill:#E0F7FA,stroke:#00838F,stroke-width:3px
+
+    subgraph area_7["**YEAR 3 - CAT TRACK VIP HEiST**"]
+        O_CHARLIE_AGREES --> A_DEPART_YEAR_3["A: Begin Year 3 at Cat Track Complex"]
+        A_DEPART_YEAR_3 --> C8["C8: Need Union Card Access VIP Section"]
+
+        C8 --> P_VIP_ACCESS["P: Get VIP Lounge Pass for Glottis Wine Room"]
+        P_VIP_ACCESS --> A_REQUEST_FROM_CHARLIE["A: Request VIP Entry Ticket from Charlie"]
+        A_REQUEST_FROM_CHARLIE --> O_HAVE_VIP_PASS["O: Have Valid VIP Access Card"]
+
+        O_HAVE_VIP_PASS --> A_BUY_DRINK_FOR_GLOTTIS["A: Offer Gold Flake Liqueur to Glottis at Bar"]
+        A_BUY_DRINK_FOR_GLOTTIS --> O_GLOTTIS_INVITED["O: Glottis Invited to VIP Section with Manny"]
+
+        O_GLOTTIS_INVITED --> P_LITTER_BOX_TOOLS["P: Get Can Opener Behind the Cat Stuffed Display"]
+        P_LITTER_BOX_TOOLS --> A_FIND_CAT_AREA["A: Locate Hidden Cat Litter Box Room"]
+        A_FIND_CAT_AREA --> O_CAN_OPENER_THERE["O: Find Can Opener on Wall Hook"]
+
+        O_HAVE_VIP_PASS & O_GLOTTIS_INVITED --> A_ENTER_WINE_CELLAR["A: Enter VIP Wine Storage Basement with Glottis"]
+        A_ENTER_WINE_CELLAR --> O_GLOTTIS_DRINKING["O: Glottis Consuming Entire Cask Contents"]
+
+        O_GLOTTIS_DRINKING & O_CAN_OPENER_THERE --> P_KITCHEN_ESCAPE["P: Lock Waiter Away to Prevent Interruption"]
+        P_KITCHEN_ESCAPE --> A_WAIT_FOR_WAITER["A: Wait for Service Staff to Enter Pantry"]
+        A_WAIT_FOR_WAITER --> A_CLOSE_AND_LOCK_DOORS["A: Close Pantry Doors Behind Him Then Use Scythe on Hinges"]
+        A_CLOSE_AND_LOCK_DOORS --> O_WAITER_TRAPPED["O: Kitchen Staff Locked Inside - Access Clear"]
+
+        O_WAITER_TRAPPED & O_CAN_OPENER_THERE --> A_OPERATE_EMPTY_CASK["A: Use Can Opener on Now-Empty Wine Cask"]
+        A_OPERATE_EMPTY_CASK --> O_CASK_OPENED["O: Empty Cask Ready for Entry"]
+
+        O_CASK_OPENED --> A_ENTER_AS_CASK_CONTENTS["A: Hide Inside Opened Wine Cask Until Transport"]
+        A_ENTER_AS_CASK_CONTENTS --> O_HIDDEN_OKAY["O: Concealed Within Wine Container"]
+    end
+    style area_7 fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    subgraph area_8["**YEAR 3 - FORKLIFT ELEVATOR HEIST**"]
+        O_HIDDEN_OKAY --> C9["C9: Wait for Cask Transport via Forklift"]
+
+        C9 --> A_RIDE_FORKLIFT_DOWN["A: Board Forklift Vehicle Loading Empty Casks to Basement Level"]
+        A_RIDE_FORKLIFT_DOWN --> O_AT_ELEVATOR["O: ForKlift Arrives at Elevator Entrance"]
+
+        O_AT_ELEVATOR --> P_TIMED_GAP_ENTRY["P: Time Entry Through Closing Elevator Doors"]
+        P_TIMED_GAP_ENTRY --> A_POSITION_ON_RIGHT_SIDE["A: Position Forklift Aligned with Right-Hand Door Gap"]
+        A_POSITION_ON_RIGHT_SIDE --> O_ALIGNED_CORRECTLY["O: Vehicle Properly Positioned for Timing"]
+
+        O_ALIGNED_CORRECTLY --> A_PRESS_BUTTON_THEN_PUSH["A: Press Elevator Call Button Then Immediately Drive Forward Through Opening Gap"]
+        A_PRESS_BUTTON_THEN_PUSH --> O_MADE_IT_IN["O: Inside Partially-Closed Elevating Car"]
+
+        O_MADE_IT_IN --> P_HIDDEN_FLOOR_ACCESS["P: Block Elevator at Secret Basement Floor"]
+        P_HIDDEN_FLOOR_ACCESS --> A_RAISE_FORK_LEVER["A: Raise Forklift Blade Lever to Maximum Height"]
+        A_RAISE_FORK_LEVER --> O_MECHANISM_BLOCKED["O: ForK Blocks Elevator from Rising Further Past Hidden Floor"]
+
+        O_MECHANISM_BLOCKED --> A_EXIT_AND_WALK_HALLWAY["A: Exit Forklift and Walk Down Concealed Hallway to End of Corridor"]
+        A_EXIT_AND_WALK_HALLWAY --> C10["C10: Security Office at End of Secret Hallway Open"]
+
+        C10 --> A_OPEN_SECURITY_CHEST["A: Enter and Open Locked Security Chest"]
+        A_OPEN_SECURITY_CHEST --> O_SUITE_CASE_FOUND["O: Find Suitcase with Fake Documents Inside"]
+
+        O_SUITE_CASE_FOUND --> A_RETURN_TO_SURFACE["A: Return to Main Floors Exiting Secret Level"]
+        A_RETURN_TO_SURFACE --> C11["C11: Now Possess Stolen Union Card Documents"]
+    end
+    style area_8 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    subgraph area_9["**YEAR 4 - PHOTO FINISH EVIDENCE HUNT**"]
+        C11 --> A_DEPART_YEAR_4["A: Start Final Year Journey to Complete Tour Assignment For Gloria"]
+        A_DEPART_YEAR_4 --> C12["C12: Need Incriminating Photo Against Nick the Lawyer"]
+
+        C12 --> P_PHOTO_COUNTER_TICKET["P: Print Correct Ticket for Cat Track Photo Finish Counter"]
+
+        P_PHOTO_COUNTER_TICKET --> A_READ_CAT_STATUE_PLAQUE["A: Read Plaque on Large Stuffed Cat Statue - Contains Week Number Info"]
+        A_READ_CAT_STATUE_PLAQUE --> O_WEEK_TWO_LEARNED["O: Current Betting Week Is Week Two"]
+
+        P_PHOTO_COUNTER_TICKET --> A_EXAMINE_EXISTING_PHOTO["A: Examine Existing Photo in Display Case Near Entrance - Shows Visible Race Number"]
+        A_EXAMINE_EXISTING_PHOTO --> O_RACE_SIX_FOUND["O: Target Photo Is From Race Six"]
+
+        P_PHOTO_COUNTER_TICKET --> A_TALK_TICKET_CLERK["A: Talk to Ticket Counter NPC About Scheduled Special Events"]
+        A_TALK_TICKET_CLERK --> O_TUESDAY_MENTIONED["O: Clerk Mentions Kitty Hat Distribution Every Tuesday"]
+
+        O_WEEK_TWO_LEARNED & O_RACE_SIX_FOUND & O_TUESDAY_MENTIONED --> A_PRINT_CORRECT_TICKET["A: Use Ticket Printer to Print Week 2 Tuesday Race 6 Ticket"]
+        A_PRINT_CORRECT_TICKET --> O_VALID_TICKET["O: Have Properly-Filled Photo Request Form"]
+
+        O_VALID_TICKET --> A_APPROACH_PHOTO_FINISH_WINDOW["A: Present Ticket at Photo Finish Window - Not Ticket Counter Different Location"]
+        A_APPROACH_PHOTO_FINISH_WINDOW --> C13["C13: Receive Photo Evidence of Nick Kissing Maximino's Girlfriend"]
+    end
+    style area_9 fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+
+    subgraph area_10["**FINAL RESOLUTION - TOUR COMPLETE**"]
+        C13 --> P_CONFRONT_NICK["P: Confront Nick Lawyer With Smoking Gun Evidence"]
+        P_CONFRONT_NICK --> A_SHOW_PHOTO_TO_NICK["A: Show Incriminating Photo to Nick"]
+        A_SHOW_PHOTO_TO_NICK --> O_NICK_COOPERATES["O: Nick Agrees to Help Bees with Lawsuit Against Maximino"]
+
+        O_NICK_COOPERATES --> A_PRESENT_PROOF_TO_GUSTAVO["A: Present All Evidence to Gustavo About Maximonos Illegal Tour Deals"]
+        A_PRESENT_PROOF_TO_GUSTAVO --> O_MAXIMINO_OVERTHROWN["O: Maximino Resigns from Tour Leader Position Reputation Destroyed"]
+
+        O_MAXIMINO_OVERTHROWN --> A_BECOME_TOUR_AGENT_OFFICIAL["A: Manny Officially Named Full-Time Soul Travel Agent for Year 5"]
+        A_BECOME_TOUR_AGENT_OFFICIAL --> END["**END - MANNY SAVED GLORIA FOUR-YEAR TOUR COMPLETE**"]
+    end
+    style area_10 fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+
+    classDef start_end fill:#FFD700,stroke:#996600,stroke-width:3px,color:#000000,font-weight:bold
+    class START,C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,END start_end

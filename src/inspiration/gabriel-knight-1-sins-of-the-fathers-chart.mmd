@@ -1,0 +1,187 @@
+flowchart TD
+    node[fontsize=18]
+    START["**START**"] --> A_NO_STREETS["A: Explore New Orleans Streets Day 1"]
+
+    subgraph area_1["**NEW ORLEANS DAYS 1-3**"]
+        A_NO_STREETS --> C1["C1: Discover Voodoo Murders"]
+        C1 --> P_MEET_MAGENTIA["P: Meet Magentia Moonbeam"]
+        P_MEET_MAGENTIA --> A_VISIT_CAFE["A: Visit Cafe Du Monde"]
+        A_VISIT_CAFE --> O_TRANSLATE_ONE["O: Get First Message Translation"]
+        C1 --> P_READ_LIBRARY["P: Read Dr Johns Library Books"]
+        P_READ_LIBRARY --> A_BROWSE_BOOKS["A: Browse Vodouk books"]
+        A_BROWSE_BOOKS --> O_LEARN_TERMS["O: Learn Djede Terminology"]
+        O_TRANSLATE_ONE & O_LEARN_TERMS --> A_SKETCH_TOMBS["A: Sketch New Tomb Markings at Cemetery"]
+        A_SKETCH_TOMBS --> P_DECODE_SECOND["P: Decode Partial Cipher Message"]
+        P_DECODE_SECOND --> A_COMPARE_CIPHERS["A: Compare With First Translation"]
+        A_COMPARE_CIPHERS --> O_LEARN_LETTERS["O: Identify Missing Letters Y-U-M"]
+        O_LEARN_LETTERS --> A_RECALL_COFFIN_TERM["A: Remember Coffin Term SEKEY MADOULE"]
+        A_RECALL_COFFIN_TERM --> O_FULL_MESSAGE["O: Complete Message DJ BRING SEKEY MADOULE"]
+    end
+    style area_1 fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+
+    subgraph area_2["**ST LOUIS CEMETERY #1**"]
+        O_FULL_MESSAGE --> P_ACCESS_WALL["P: Need to Write on Tomb Wall"]
+        P_ACCESS_WALL --> A_FIND_BRICK["A: Find Brick at Tomb Site"]
+        A_FIND_BRICK --> A_BREAK_WALL["A: Break Wall Surface With Brick"]
+        A_BREAK_WALL --> O_CAN_WRITE["O: Can Now Write Message"]
+        O_CAN_WRITE & O_FULL_MESSAGE --> A_WRITE_MSG["A: Write Complete Cipher on Wall"]
+        A_WRITE_MSG --> C2["C2: Dr John Summoned Coffin Meeting Set"]
+    end
+    style area_2 fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    subgraph area_3["**SCHOONHAVEN TRIP**"]
+        C2 --> A_TRAVEL_GERMANY["A: Travel to Schoonhaven Germany"]
+        A_TRAVEL_GERMANY --> C3["C3: Arrive at Grandmothers House"]
+        C3 --> P_CLOCK_SECRET["P: Unlock Clock Secret Drawer"]
+        P_CLOCK_SECRET --> A_SET_HANDS_300["A: Set Clock Hands to 3 OClock Position"]
+        A_SET_HANDS_300 --> O_HANDS_SET["O: Clock Hands at Correct Position"]
+        O_HANDS_SET --> A_ROTATE_INNER_DIAL["A: Rotate Inner Dial Until Dragon Hits 12"]
+        A_ROTATE_INNER_DIAL --> O_DRAWER_OPENS["O: Secret Drawer Springs Open"]
+        O_DRAWER_OPENS --> A_TAKE_LETTER_PHOTO["A: Take Letter and Photograph From Drawer"]
+        A_TAKE_LETTER_PHOTO --> O_FAMILY_HISTORY["O: Learn About Knight Family Ancestry"]
+    end
+    style area_3 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    subgraph area_4["**SCHLOSS RITTER CASTLE**"]
+        O_FAMILY_HISTORY --> A_VISIT_CASTLE["A: Visit Schloss Ritter Castle"]
+        A_VISIT_CASTLE --> C4["C4: Must Complete Initiation Ritual"]
+        C4 --> P_INITIATION["P: Perform Three-Part Ritual"]
+        P_INITIATION --> A_WASH_HANDS_SNOW["A: Wash Hands in Fresh Snow"]
+        A_WASH_HANDS_SNOW --> O_HANDS_CLEAN["O: Hands Purified"]
+        P_INITIATION --> A_CUT_HAIR["A: Cut Own Hair With Scissors"]
+        A_CUT_HAIR --> O_SACRIFICE_DONE["O: Sacrifice Completed"]
+        P_INITIATION --> A_BLOOD_RITUAL["A: Perform Blood Ritual on Altar"]
+        A_BLOOD_RITUAL --> A_CUT_FINGER["A: Cut Finger With Knife"]
+        A_CUT_FINGER --> A_COLLECT_SALT_BOWL["A: Collect Blood in Salt-Filled Bowl"]
+        A_COLLECT_SALT_BOWL --> A_UNROLL_SCROLL["A: Unroll Ancient Scroll"]
+        A_UNROLL_SCROLL --> A_PERFORM_SEQUENCE["A: Perform Symbol Sequence Correctly"]
+        A_PERFORM_SEQUENCE --> O_RITUAL_COMPLETE["O: Blood Ritual Success"]
+        O_HANDS_CLEAN & O_SACRIFICE_DONE & O_RITUAL_COMPLETE --> C5["C5: Can Now Read Castle Books"]
+    end
+    style area_4 fill:#FFF8E1,stroke:#F9A825,stroke-width:3px
+
+    subgraph area_5["**CASTLE LIBRARY**"]
+        C5 --> P_FIND_BOOK["P: Find Book About Snake Mound Location"]
+        P_FIND_BOOK --> A_READ_FIVE["A: Read Five Specific Books"]
+        A_READ_FIVE --> O_LEARN_AFRICA["O: Learn About Snake Mound in Africa"]
+        O_LEARN_AFRICA --> C6["C6: Know Where to Go Next Africa"]
+    end
+    style area_5 fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+
+    subgraph area_6["**SNAKE MOUND OUTER RING**"]
+        C6 --> A_TRAVEL_AFRICA["A: Travel to Africa Snake Mound"]
+        A_TRAVEL_AFRICA --> C7["C7: Arrive at Circular Room Structure"]
+        C7 --> P_TILE_PUZZLE["P: Place Twelve Tiles in Correct Rooms"]
+        P_TILE_PUZZLE --> A_EXPLORE_12["A: Explore All 12 Rooms Collecting Tiles"]
+        A_EXPLORE_12 --> O_FIND_ROD_R9["O: Find Snake Rod in Room 9"]
+        A_EXPLORE_12 --> O_ALL_TILES["O: Have All Portable Tile Pieces"]
+        O_ALL_TILES --> A_COUNT_SNAKES["A: Count Snake Patterns on Each Tile"]
+        A_COUNT_SNAKES --> O_PATTERN_UNDERSTOOD["O: Understand Room-to-Snake Mapping Rule"]
+        O_PATTERN_UNDERSTOOD --> A_PLACE_ALL_12["A: Place All 12 Tiles in Matching Rooms"]
+        A_PLACE_ALL_12 --> O_CHIME_SOUNDS["O: Chime Confirms First Half Complete"]
+    end
+    style area_6 fill:#E0F7FA,stroke:#00838F,stroke-width:3px
+
+    subgraph area_7["**SNAKE MOUND ESCAPE SEQUENCE**"]
+        O_CHIME_SOUNDS --> P_INSERT_ROD["P: Insert Snake Rod in Room 3"]
+        P_INSERT_ROD --> A_RETURN_ROOM3["A: Return to Position in Room 3"]
+        A_RETURN_ROOM3 --> A_SAVE_NOW["A: Save Game Before Danger"]
+        A_SAVE_NOW --> O_CHECKPOINT["O: Checkpoint Set"]
+        O_CHECKPOINT & O_FIND_ROD_R9 --> A_INSERT_KNOTHOLE["A: Insert Snake Rod into Knot Hole"]
+        A_INSERT_KNOTHOLE --> O_GUARDIANS_AWAKE["O: Guardian Statues Come to Life"]
+        O_GUARDIANS_AWAKE --> P_ESCAPE_TIMERED["P: Escape Before Being Caught"]
+        P_ESCAPE_TIMERED --> A_RUN_R4["A: Run North Immediately to Room 4"]
+        A_RUN_R4 --> A_WALK_AROUND_R5["A: Walk Around Creature When Back Turned in R5"]
+        A_WALK_AROUND_R5 --> O_PASSED_R5["O: Safely Passed Through Room 5"]
+        O_PASSED_R5 --> P_VINE_SWING["P: Must Swing Vine at Blocked Room 6 Exit"]
+        P_VINE_SWING --> A_OPERATE_VINE["A: Use OPERATE Icon on Overhead Thick Vine"]
+        A_OPERATE_VINE --> O_SWING_ANIMATION["O: Swing Across Indiana Jones Style"]
+        O_SWING_ANIMATION --> C8["C8: Arrive Room 7 Wolfgang with Torch Ready"]
+        C8 --> A_INSERT_ROD_R7["A: Insert Snake Rod into Second Knot Hole Inside Doorway"]
+        A_INSERT_ROD_R7 --> O_INNER_WHEEL["O: Access to Inner Wheel Opened"]
+    end
+    style area_7 fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
+
+    subgraph area_8["**HOUNFOUR INFILTRATION**"]
+        O_INNER_WHEEL --> A_TRAVEL_NO["A: Return to New Orleans With Wolfgang"]
+        A_TRAVEL_NO --> C9["C9: Day 10-14 Final Hounfour Heist Begins"]
+        C9 --> P_CATHEDRAL_ENTRY["P: Enter Cathedral Confessional Booth"]
+        P_CATHEDRAL_ENTRY --> A_FIND_BOOTH["A: Find Confessional on Right Side Wall"]
+        A_FIND_BOOTH --> O_INSIDE["O: Inside Confessional Space"]
+        O_INSIDE --> A_LEAVE_SUPPLIES["A: Leave Snake Rod and Signal Device for Mosely"]
+        A_LEAVE_SUPPLIES --> O_MOSLEY_SETUP["O: Mosley Will Have Equipment Later"]
+        O_INSIDE --> A_OPERATE_PANEL["A: Operate Control Panel to Trigger Elevator"]
+        A_OPERATE_PANEL --> O_DESCEND_HOUNFOUR["O: Descend Underground to Secret Temple"]
+    end
+    style area_8 fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
+
+    subgraph area_9["**HOUNFOUR ROOM NAVIGATION**"]
+        O_DESCEND_HOUNFOUR --> C10["C10: Main Temple Hallway Access"]
+        C10 --> P_GET_DISGUISES["P: Get Wolf and Boar Disguises From Room 7"]
+        P_GET_DISGUISES --> A_GO_NEAST_R7["A: Travel Northeast to Room 7"]
+        A_GO_NEAST_R7 --> A_OPERATE_PAD_7["A: Operate Control Pad Enter Room 7"]
+        A_OPERATE_PAD_7 --> O_INSIDE_R7["O: Inside Disguise Room"]
+        O_INSIDE_R7 --> A_TAKE_MASKS["A: Take Wolf Mask and Boar Mask"]
+        A_TAKE_MASKS --> A_GET_COSTUMES["A: Use HAND Icon on Coat Rack Twice for Outfits"]
+        A_GET_COSTUMES --> O_HAVE_DISGUISES["O: Have Complete Wolf and Boar Costumes"]
+    end
+    style area_9 fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
+
+    subgraph area_10["**DRUM CODE KEYCARD RETRIEVAL**"]
+        O_HAVE_DISGUISES --> P_EVIDENCE_R4["P: Get Black Notebook Evidence from Room 4"]
+        P_EVIDENCE_R4 --> A_GO_SW_ROOM4["A: Travel Southwest to Room 4 Office"]
+        A_GO_SW_ROOM4 --> A_TAKE_NOTEBOOK["A: Take Black Notebook From Desk"]
+        A_TAKE_NOTEBOOK --> O_HAVE_EVIDENCE["O: Have Incriminating Notes"]
+        O_HAVE_EVIDENCE --> P_DRUM_CODE["P: Send Drum Message Summoning Dr John"]
+        P_DRUM_CODE --> A_OPERATE_DRUMS["A: Operate Ritual Drums in Ceremonial Hallway"]
+        A_OPERATE_DRUMS --> A_SEND_BROTHER_EAGLE["A: Send Message Summon Brother Eagle Using Rada Translation"]
+        A_SEND_BROTHER_EAGLE --> A_EXIT_START_TIMER["A: Click EXIT to Send Timer for Dr John Starts"]
+        A_EXIT_START_TIMER --> O_DRUM_SENT["O: Drum Message Sent Timer Active"]
+        C10 --> P_KEYCARD_R2["P: Get Keycard From Room 2"]
+        P_KEYCARD_R2 --> A_TRAVEL_ROOM2["A: Travel Northeast to Room 2"]
+        A_TRAVEL_ROOM2 --> A_TAKE_KEYCARD["A: Take Keycard Mounted on Wall"]
+        A_TAKE_KEYCARD --> O_HAVE_CARD["O: Have Security Access Card"]
+    end
+    style area_10 fill:#FFF8E1,stroke:#F9A825,stroke-width:3px
+
+    subgraph area_11["**MONEY AND GRACE RESCUE**"]
+        O_HAVE_CARD --> P_MONEY_R1["P: Collect Money From Room 1 Three Times"]
+        P_MONEY_R1 --> A_UNLOCK_R1["A: Use Keycard on Room 1 Control Pad"]
+        A_UNLOCK_R1 --> O_ENTERED_R1["O: Inside Money Room"]
+        O_ENTERED_R1 --> A_TAKE_THREE["A: Take Money Three Separate Times"]
+        A_TAKE_THREE --> O_HAVE_FUNDS["O: Have Future Investigation Funds"]
+        C10 --> P_SKIP_R11["P: Visit Room 11 But Exit Immediately to Avoid Trap"]
+        P_SKIP_R11 --> A_OPEN_R11_FAST["A: Quick Open and Exit Room 11 Door"]
+        A_OPEN_R11_FAST --> O_AVOIDED_TRAP["O: Death Trap Avoided"]
+        O_HAVE_FUNDS & O_AVOIDED_TRAP --> P_RESCUE_GRACE["P: Rescue Grace From Room 8 Bedroom"]
+        P_RESCUE_GRACE --> A_UNLOCK_ROOM8["A: Unlock Room 8 Door With Keycard"]
+        A_UNLOCK_ROOM8 --> O_ENTER_R8["O: Enter Bedroom with Grace"]
+        O_ENTER_R8 --> A_WAIT_MOSLEY["A: Wait for Mosely to Arrive From Confessional"]
+        A_WAIT_MOSLEY --> O_MOSLEY_ARRIVED["O: Mosley Entered With Snake Rod and Device"]
+        O_ENTER_R8 & O_MOSLEY_ARRIVED --> A_USE_TALISMAN["A: Use Power Talisman on Grace to Wake Her"]
+        A_USE_TALISMAN --> C11["C11: Grace Rescued Ready for Final Phase"]
+    end
+    style area_11 fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
+
+    subgraph area_12["**FINAL CEREMONY AND COMBAT**"]
+        C11 --> A_DISGUISE_BOTH["A: Put Boar Outfit on Mosely Wolf On Gabriel"]
+        A_DISGUISE_BOTH --> O_READY_FINAL["O: Both Characters Properly Disguised"]
+        O_READY_FINAL --> C12["C12: Enter Final Confrontation Ceremony Room"]
+        C12 --> A_WAIT_DR_JOHN["A: Wait for Dr John Character to Enter Scene"]
+        A_WAIT_DR_JOHN --> O_PLOT_REVEALED["O: Watch Revelation Sequence Malia and Tetelo"]
+        O_PLOT_REVEALED --> P_FACE_TETLO["P: Confront Tetelo in Central Ceremonial Room"]
+        P_FACE_TETLO --> A_USE_TALISMAN_COMBAT["A: Use Power Talisman on Tetelo When Prompt Appears"]
+        A_USE_TALISMAN_COMBAT --> O_TETOLO_WEAKENED["O: Tetelo Weakened Ready to Flee"]
+        O_TETOLO_WEAKENED --> A_TOSS_MOSLEY["A: Toss Talisman to Mosely When Chance Comes"]
+        A_TOSS_MOSLEY --> O_ESCAPE_GRACE_MOSLEY["O: Mosley and Grace Escape Safely Together"]
+        O_ESCAPE_GRACE_MOSLEY --> P_SAVE_OR_KILL["P: Choice Good or Bad Ending"]
+        P_SAVE_OR_KILL --> A_KNOCK_DOWN_IDOL["A: Use HAND Icon on Idol Beneath Tabletop During Fight"]
+        A_KNOCK_DOWN_IDOL --> O_IDOL_FALLS["O: Idol Falls Malia Catches Instead of Tablet"]
+        O_IDOL_FALLS --> A_GRAB_HAND_CREVACE["A: Use HAND Icon On Malias Hand Hanging From Crevasse"]
+        A_GRAB_HAND_CREVACE --> C13["C13: Good Ending Everyone Survives"]
+        C13 --> END["**END GABRIEL SAVED NEW ORLEANS VOODOO PLOT REVEALED**"]
+    end
+    style area_12 fill:#FFCDD2,stroke:#B71C1C,stroke-width:3px
+
+    classDef start_end fill:#FFD700,stroke:#996600,stroke-width:3px,color:#000000,font-weight:bold
+    class START,C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,END start_end
