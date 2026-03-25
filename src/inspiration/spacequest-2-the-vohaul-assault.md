@@ -11,6 +11,15 @@ Space Quest II continues Roger Wilco's janitorial misadventures with enhanced me
 | **Core Mechanic** | State-dependent item chains where mundane objects gain critical functions through environmental manipulation (berries mask taste, spores incapacitate, plunger creates acid-trap anchor) |
 | **What players found enjoyable** | "If you are not rubbed in berries you're dead (if you are rubbed the monster will spit you out as you taste disgusting)" [Tricky]—the sensory disguise mechanic turns biology into gameplay. Second walkthrough adds command precision: "rub berries on body" then "take deep breath" demonstrates fair gatekeeping [StrategyWiki] |
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./spacequest-2-the-vohaul-assault-chart.svg?dark">
+  <img src="./spacequest-2-the-vohaul-assault-chart.svg" alt="Space Quest 2 Puzzle Dependency Chart" width="80%">
+</picture>
+</div>
+
+---
+
 ![Roger Wilco in the jungle crash site—the transition from space janitor to planetary survivor](./spacequest-2-overview.png)
 
 ---

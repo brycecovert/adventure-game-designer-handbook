@@ -1,0 +1,201 @@
+flowchart TD
+    %% =============================================================================
+    %% FONT SIZE & CONFIGURATION
+    %% =============================================================================
+    node[fontsize=18]
+    START["**START**"] --> A_CRASH_LAND_ON_PLANET
+
+    %% =============================================================================
+    %% JUNGLE - Initial Survival (area_1 - light green)
+    %% =============================================================================
+    subgraph area_1["**JUNGLE - SURVIVAL**"]
+        A_CRASH_LAND_ON_PLANET["A: Crash Land on Planet"] --> C1["C1: Arrive in Jungle"]
+
+        C1 --> P_PROBLEM_SLIME_BEAST["P: Slime Beast Blocks Path"]
+        P_PROBLEM_SLIME_BEAST --> A_AVOID_SLIME_TRAIL["A: Avoid Slime Trails"]
+        A_AVOID_SLIME_TRAIL --> O_MAZE_CLEARED["O: Maze Path Clear"]
+
+        O_MAZE_CLEARED --> A_GET_BERRIES["A: Get Berries from Bush"]
+        A_GET_BERRIES --> O_RECEIVE_BERRIES["O: Receive Berries"]
+
+        C1 --> A_SUBMIT_MAIL_ORDER_FORM["A: Submit Mail Order Form"]
+        A_SUBMIT_MAIL_ORDER_FORM --> O_RECEIVE_WHISTLE["O: Receive Whistle"]
+    end
+    style area_1 fill:#C8E6C9,stroke:#388E3C,stroke-width:3px
+
+    %% =============================================================================
+    %% SWAMP - Sensory Disguise (area_2 - aqua)
+    %% =============================================================================
+    subgraph area_2["**SWAMP - MONSTER CROSSING**"]
+        O_RECEIVE_BERRIES --> A_RUB_BERRIES_ON_BODY["A: Rub Berries on Body"]
+        A_RUB_BERRIES_ON_BODY --> O_TASTE_CAMOUFLAGE["O: Taste Camouflage Active"]
+
+        O_TASTE_CAMOUFLAGE --> P_PROBLEM_SWAMP_MONSTER["P: Swamp Monster Guards Water"]
+        P_PROBLEM_SWAMP_MONSTER --> A_ENTER_SWAMP_WATER["A: Enter Swamp Water"]
+        A_ENTER_SWAMP_WATER --> O_MONSTER_SPITS_OUT["O: Monster Spits Roger Out"]
+
+        O_MONSTER_SPITS_OUT --> A_TAKE_DEEP_BREATH["A: Take Deep Breath"]
+        A_TAKE_DEEP_BREATH --> O_UNDERWATER_CAVE_ACCESS["O: Underwater Cave Access"]
+
+        C1 --> A_GET_SPORING_PLANT["A: Get Sporing Plant"]
+        A_GET_SPORING_PLANT --> O_RECEIVE_SPORES["O: Receive Spores"]
+    end
+    style area_2 fill:#B2DFDB,stroke:#00897B,stroke-width:3px
+
+    %% =============================================================================
+    %% HUNTER ENCOUNTER (area_3 - light orange)
+    %% =============================================================================
+    subgraph area_3["**HUNTER & CAGE**"]
+        O_RECEIVE_SPORES --> P_PROBLEM_HUNTER_BLOCKED["P: Hunter Guards Passage"]
+
+        P_PROBLEM_HUNTER_BLOCKED --> A_TALK_TO_HUNTER_TWICE["A: Talk to Hunter Twice"]
+        A_TALK_TO_HUNTER_TWICE --> A_THROW_SPORES_AT_HUNTER["A: Throw Spores at Hunter"]
+        O_RECEIVE_SPORES --> A_THROW_SPORES_AT_HUNTER
+
+        A_THROW_SPORES_AT_HUNTER --> O_HUNTER_KNocked_OUT["O: Hunter Knocked Out"]
+        O_HUNTER_KNocked_OUT --> A_STEAL_KEYS_FROM_HUNTER["A: Steal Keys from Hunter"]
+        A_STEAL_KEYS_FROM_HUNTER --> O_RECEIVE_KEYS["O: Receive Keys"]
+
+        O_RECEIVE_KEYS --> A_UNLOCK_CAGE_DOOR["A: Unlock Cage Door"]
+        A_UNLOCK_CAGE_DOOR --> C2["C2: Freedom from Cage"]
+
+        C2 --> A_TIE_ROPE_TO_BRIDGE["A: Tie Rope to Fallen Log Bridge"]
+        A_TIE_ROPE_TO_BRIDGE --> A_SWING_ACROSS_GAP["A: Swing Across Monster Gap"]
+        A_SWING_ACROSS_GAP --> O_CAVE_ACCESS["O: Cave Entrance Reached"]
+    end
+    style area_3 fill:#FFE0B2,stroke:#F57C00,stroke-width:3px
+
+    %% =============================================================================
+    %% ROCK MONSTER DISTRACTION (area_4 - light brown)
+    %% =============================================================================
+    subgraph area_4["**ROCK MONSTER DISTRACTION**"]
+        C2 --> P_PROBLEM_ROCK_MONSTER["P: Rock Monster Blocks Jungle Path"]
+
+        P_PROBLEM_ROCK_MONSTER --> A_BLOW_WHISTLE["A: Blow Whistle"]
+        O_RECEIVE_WHISTLE --> A_BLOW_WHISTLE
+
+        A_BLOW_WHISTLE --> O_MONSTER_SUMMONED["O: Rock Monster Summoned"]
+
+        O_MONSTER_SUMMONED --> A_THROW_PUZZLE_AT_MONSTER["A: Throw Puzzle at Monster"]
+        A_THROW_PUZZLE_AT_MONSTER --> O_MONSTER_DISTRACTED["O: Monster Digs Hole"]
+
+        O_MONSTER_DISTRACTED --> A_GET_ROCK_FROM_HOLE["A: Get Rock from Hole"]
+        A_GET_ROCK_FROM_HOLE --> O_RECEIVE_ROCK["O: Receive Rock"]
+
+        C2 --> A_FIND_SLING["A: Find Sling"]
+        A_FIND_SLING --> O_RECEIVE_SLING["O: Receive Sling"]
+    end
+    style area_4 fill:#D7CCC8,stroke:#8D6E63,stroke-width:3px
+
+    %% =============================================================================
+    %% ALIEN VILLAGE - Translator Puzzle (area_5 - light purple)
+    %% =============================================================================
+    subgraph area_5["**ALIEN VILLAGE**"]
+        C2 --> A_GET_TRANSLATOR_DEVICE["A: Get Translator Device"]
+        A_GET_TRANSLATOR_DEVICE --> O_LEARN_DIALECT_WORD["O: Learn Dialect Word"]
+
+        O_LEARN_DIALECT_WORD --> P_PROBLEM_VILLAGE_ROCK["P: Rock Blocks Village Passage"]
+
+        P_PROBLEM_VILLAGE_ROCK --> A_SAY_DIALECT_WORD["A: Say Dialect Word to Aliens"]
+        A_SAY_DIALECT_WORD --> O_ROCK_MOVED["O: Aliens Move Rock - Secret Passage Opens"]
+    end
+    style area_5 fill:#E1BEE7,stroke:#BA68C8,stroke-width:3px
+
+    %% =============================================================================
+    %% VOHAUL'S FORTRESS - Multi-Floor Collection (area_6 - dark blue)
+    %% =============================================================================
+    subgraph area_6["**VOHAUL'S FORTRESS**"]
+        O_ROCK_MOVED --> A_ENTER_BASE["A: Enter Vohaul's Base"]
+        A_ENTER_BASE --> C3["C3: On Fortress Ground Floor"]
+
+        C3 --> P_FLOOR_3["P: Collect 3rd Floor Items"]
+        C3 --> P_FLOOR_4["P: Collect 4th Floor Items"]
+        C3 --> P_FLOOR_5["P: Collect 5th Floor Items"]
+
+        P_FLOOR_3 --> A_GET_PLUNGER_FROM_CLOSET["A: Get Plunger from Closet"]
+        A_GET_PLUNGER_FROM_CLOSET --> O_RECEIVE_PLUNGER["O: Receive Plunger"]
+
+        P_FLOOR_4 --> A_GET_PAPER_FROM_RESTROOM["A: Get Paper from Restroom"]
+        A_GET_PAPER_FROM_RESTROOM --> O_RECEIVE_PAPER["O: Receive Paper"]
+
+        P_FLOOR_5 --> A_GET_BASKET_LIGHTER_OVERALLS["A: Get Basket, Lighter, Overalls"]
+        A_GET_BASKET_LIGHTER_OVERALLS --> O_RECEIVE_JANITORIAL_GEAR["O: Receive Basket, Lighter, Overalls"]
+    end
+    style area_6 fill:#BBDEFB,stroke:#1976D2,stroke-width:3px
+
+    %% =============================================================================
+    %% ACID TRAP ESCAPE (area_7 - red)
+    %% =============================================================================
+    subgraph area_7["**ACID TRAP CORRIDOR**"]
+        O_RECEIVE_PLUNGER & O_RECEIVE_PAPER & O_RECEIVE_JANITORIAL_GEAR --> P_PROBLEM_ACID_TRAP_CORRIDOR["P: Acid Trap Corridor Blocks Exit"]
+
+        P_PROBLEM_ACID_TRAP_CORRIDOR --> A_STICK_PLUNGER_ON_BARRIER["A: Stick Plunger on Barrier (timed)"]
+        O_RECEIVE_PLUNGER --> A_STICK_PLUNGER_ON_BARRIER
+
+        A_STICK_PLUNGER_ON_BARRIER --> A_WALK_ON_TRAP["A: Walk on Trap Plate"]
+        A_WALK_ON_TRAP --> O_ACID_PIT_OPENS["O: Acid Pit Opens Beneath Roger"]
+
+        O_ACID_PIT_OPENS --> A_HANG_FROM_PLUNGER["A: Hang from Plunger (exhaustion timer starts)"]
+        A_HANG_FROM_PLUNGER --> O_PIT_CLOSES["O: Acid Pit Closes"]
+
+        O_PIT_CLOSES & O_RECEIVE_PAPER & O_RECEIVE_JANITORIAL_GEAR --> P_PROBLEM_KILLER_ROBOTS["P: Killer Robots in Corridor"]
+
+        P_PROBLEM_KILLER_ROBOTS --> A_PUT_PAPER_IN_BASKET["A: Put Paper in Basket"]
+        A_PUT_PAPER_IN_BASKET --> A_LIGHT_BASKET["A: Light Basket with Lighter"]
+        A_LIGHT_BASKET --> O_SPRINKLERS_ACTIVATED["O: Sprinklers Kill Robots"]
+
+        O_SPRINKLERS_ACTIVATED --> C4["C4: Corridor Safe - Exit East"]
+    end
+    style area_7 fill:#FFCDD2,stroke:#D32F2F,stroke-width:3px
+
+    %% =============================================================================
+    %% FINAL SEQUENCE - Vohaul Boss (area_8 - dark red)
+    %% =============================================================================
+    subgraph area_8["**VOHAUL'S OFFICE - FINAL BOSS**"]
+        C4 --> A_STEAL_KEYCARD["A: Steal Keycard from Crash Victim"]
+        A_STEAL_KEYCARD --> O_RECEIVE_KEYCARD["O: Receive Keycard"]
+
+        O_RECEIVE_KEYCARD --> A_INSERT_KEYCARD_AT_SHIP["A: Insert Keycard at Spaceship Door"]
+        A_INSERT_KEYCARD_AT_SHIP --> O_SPACESHIP_ACCESS["O: Spaceship Interior Access"]
+
+        O_SPACESHIP_ACCESS --> P_PROBLEM_VOHAUL_ATTACKS["P: Vohaul Shrinks Roger with Beam"]
+
+        P_PROBLEM_VOHAUL_ATTACKS --> A_GET_OXYGEN_MASK["A: Get Oxygen Mask from Tube Corridor"]
+        A_GET_OXYGEN_MASK --> O_CAN_BREATHE_AFTER_GLASS_BREAKS["O: Can Breathe After Glass Breaks"]
+
+        P_PROBLEM_VOHAUL_ATTACKS --> P_KISSING_DISEASE["P: Kissing Monster on 5th Floor"]
+        P_KISSING_DISEASE --> A_AVOID_KISSING_MONSTER["A: Avoid Kissing Monster"]
+        A_AVOID_KISSING_MONSTER --> O_NO_DISEASE["O: Disease Contracted - Will Lose to Vohaul"]
+
+        P_PROBLEM_VOHAUL_ATTACKS --> A_ESCAPE_GLASS["A: Escape Glass Container (shrunken)"]
+        A_ESCAPE_GLASS --> A_CLIMB_VENT_TO_LIFE_SUPPORT["A: Climb Vent to Life Support System"]
+        A_CLIMB_VENT_TO_LIFE_SUPPORT --> A_PRESS_BUTTON_PULL_SWITCH["A: Press Button, Pull Switch at Computer"]
+        A_PRESS_BUTTON_PULL_SWITCH --> A_TYPE_ENLARGE_COMMAND["A: Type ENLARGE Command"]
+
+        A_TYPE_ENLARGE_COMMAND --> O_ROGER_RESTORED_SIZE["O: Roger Restored to Normal Size"]
+
+        O_ROGER_RESTORED_SIZE & O_RECEIVE_SLING & O_RECEIVE_ROCK --> A_FIGHT_VOHAUL["A: Fight Vohaul with Sling and Rocks"]
+        A_FIGHT_VOHAUL --> END["**END - VOHAUL DEFEATED**"]
+    end
+    style area_8 fill:#EF9A9A,stroke:#C62828,stroke-width:3px
+
+    %% =============================================================================
+    %% CLASS DEFINITIONS
+    %% =============================================================================
+    classDef start_end fill:#FFD700,stroke:#996600,stroke-width:3px,color:#000000,font-weight:bold
+    classDef problem fill:#FFB3B3,stroke:#8B0000,stroke-width:2px,color:#8B0000
+    classDef action fill:#B3FFB3,stroke:#006400,stroke-width:2px,color:#006400
+    classDef outcome fill:#B3D9FF,stroke:#004080,stroke-width:2px,color:#004080
+    classDef consequence fill:#E8E8E8,stroke:#333333,stroke-width:2px,color:#333333
+
+    class START,END,C1,C2,C3,C4 start_end
+
+    class C1,C2,C3,C4,O_NO_DISEASE consequence
+
+    class P_PROBLEM_SLIME_BEAST,P_PROBLEM_SWAMP_MONSTER,P_PROBLEM_HUNTER_BLOCKED,P_PROBLEM_ROCK_MONSTER,P_PROBLEM_VILLAGE_ROCK,P_FLOOR_3,P_FLOOR_4,P_FLOOR_5,P_PROBLEM_ACID_TRAP_CORRIDOR,P_PROBLEM_KILLER_ROBOTS,P_PROBLEM_VOHAUL_ATTACKS,P_KISSING_DISEASE problem
+
+    class A_CRASH_LAND_ON_PLANET,A_AVOID_SLIME_TRAIL,A_GET_BERRIES,A_SUBMIT_MAIL_ORDER_FORM,A_RUB_BERRIES_ON_BODY,A_ENTER_SWAMP_WATER,A_TAKE_DEEP_BREATH,A_GET_SPORING_PLANT,A_TALK_TO_HUNTER_TWICE,A_THROW_SPORES_AT_HUNTER,A_STEAL_KEYS_FROM_HUNTER,A_UNLOCK_CAGE_DOOR,A_TIE_ROPE_TO_BRIDGE,A_SWING_ACROSS_GAP,A_BLOW_WHISTLE,A_THROW_PUZZLE_AT_MONSTER,A_GET_ROCK_FROM_HOLE,A_FIND_SLING,A_GET_TRANSLATOR_DEVICE,A_SAY_DIALECT_WORD,A_ENTER_BASE,A_GET_PLUNGER_FROM_CLOSET,A_GET_PAPER_FROM_RESTROOM,A_GET_BASKET_LIGHTER_OVERALLS,A_STICK_PLUNGER_ON_BARRIER,A_WALK_ON_TRAP,A_HANG_FROM_PLUNGER,A_PUT_PAPER_IN_BASKET,A_LIGHT_BASKET,A_STEAL_KEYCARD,A_INSERT_KEYCARD_AT_SHIP,A_GET_OXYGEN_MASK,A_AVOID_KISSING_MONSTER,A_ESCAPE_GLASS,A_CLIMB_VENT_TO_LIFE_SUPPORT,A_PRESS_BUTTON_PULL_SWITCH,A_TYPE_ENLARGE_COMMAND,A_FIGHT_VOHAUL action
+
+    class O_MAZE_CLEARED,O_RECEIVE_BERRIES,O_RECEIVE_WHISTLE,O_TASTE_CAMOUFLAGE,O_MONSTER_SPITS_OUT,O_UNDERWATER_CAVE_ACCESS,O_RECEIVE_SPORES,O_HUNTER_KNocked_OUT,O_RECEIVE_KEYS,O_CAVE_ACCESS,O_MONSTER_SUMMONED,O_MONSTER_DISTRACTED,O_RECEIVE_ROCK,O_RECEIVE_SLING,O_LEARN_DIALECT_WORD,O_ROCK_MOVED,O_CAN_BREATHE_AFTER_GLASS_BREAKS,outcome start_end
+
+    class START,END start_end
