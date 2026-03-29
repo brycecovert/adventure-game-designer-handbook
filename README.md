@@ -86,3 +86,7 @@ mdbook serve --open
 There's no canonical reference on adventure game puzzle mechanics. Designers reinvent patterns or miss them entirely. LLMs generate generic "find key, open door" slop without understanding what made Monkey Island or King's Quest memorable.
 
 This handbook captures the mechanical DNA of great adventure game puzzles—pattern-based, not narrative-based—so designers can build on proven foundations rather than starting from scratch.
+
+## Live Site
+
+[View the handbook live on GitHub Pages](https://brycecovert.github.io/adventure-game-designer-handbook/)
